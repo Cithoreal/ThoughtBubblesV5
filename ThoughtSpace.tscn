@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://FreeFlyCamera.gd" type="Script" id=1]
+[ext_resource path="res://Camera.gd" type="Script" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="KinematicBody" type="KinematicBody" parent="."]
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="KinematicBody"]
+script = ExtResource( 2 )
