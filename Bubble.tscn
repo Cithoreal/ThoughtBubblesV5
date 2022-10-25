@@ -1,9 +1,14 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [sub_resource type="SpatialMaterial" id=3]
 flags_transparent = true
+flags_unshaded = true
+flags_do_not_receive_shadows = true
 params_cull_mode = 1
-albedo_color = Color( 0.423529, 0.878431, 0.823529, 0.533333 )
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SphereShape" id=4]
+radius = 0.633015
 
 [node name="Bubble" type="CSGSphere"]
 radius = 0.632312
@@ -19,3 +24,8 @@ render_priority = 1
 text = "Thought Bubble"
 autowrap = true
 width = 123.0
+
+[node name="Area" type="Area" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+shape = SubResource( 4 )
