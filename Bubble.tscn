@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+params_cull_mode = 1
+albedo_color = Color( 0.423529, 0.878431, 0.823529, 0.533333 )
+
+[node name="Bubble" type="CSGSphere"]
+radius = 0.632312
+radial_segments = 16
+rings = 16
+material = SubResource( 3 )
+
+[node name="Text Thought" type="Label3D" parent="."]
+cast_shadow = 0
+billboard = 1
+double_sided = false
+render_priority = 1
+text = "Thought Bubble"
+autowrap = true
+width = 123.0

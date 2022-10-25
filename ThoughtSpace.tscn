@@ -1,12 +1,53 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://FreeFlyCamera.gd" type="Script" id=1]
 [ext_resource path="res://Camera.gd" type="Script" id=2]
 
+[sub_resource type="SphereShape" id=1]
+
+[sub_resource type="BoxShape" id=2]
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+params_cull_mode = 1
+albedo_color = Color( 0.423529, 0.878431, 0.823529, 0.533333 )
+
 [node name="Spatial" type="Spatial"]
 
-[node name="KinematicBody" type="KinematicBody" parent="."]
+[node name="FreeFlyPlayer" type="KinematicBody" parent="."]
 script = ExtResource( 1 )
 
-[node name="Camera" type="Camera" parent="KinematicBody"]
+[node name="Camera" type="Camera" parent="FreeFlyPlayer"]
 script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="FreeFlyPlayer"]
+shape = SubResource( 1 )
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform( 1.0205, 0, 0, 0, 1.0205, 0, 0, 0, 1.0205, 0, 0, -3.76991 )
+pixel_size = 0.1
+modulate = Color( 0.0156863, 0.145098, 0.639216, 1 )
+text = "test text"
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 4.66226, 0, 0, 0, 0.0767701, 0, 0, 0, 7.29203, 0, -1.86079, 0 )
+
+[node name="Area" type="Area" parent="CSGBox"]
+
+[node name="CollisionShape" type="CollisionShape" parent="CSGBox/Area"]
+shape = SubResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="."]
+radius = 0.632312
+radial_segments = 16
+rings = 16
+material = SubResource( 3 )
+
+[node name="Label3D" type="Label3D" parent="CSGSphere"]
+cast_shadow = 0
+billboard = 1
+double_sided = false
+render_priority = 1
+text = "Thought Bubble"
+autowrap = true
+width = 123.0
