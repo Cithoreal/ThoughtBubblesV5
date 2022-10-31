@@ -10,13 +10,15 @@ albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 [sub_resource type="SphereShape" id=4]
 radius = 0.633015
 
-[node name="Bubble" type="CSGSphere"]
+[node name="Thought" type="Spatial"]
+
+[node name="Bubble" type="CSGSphere" parent="."]
 radius = 0.632312
 radial_segments = 16
 rings = 16
 material = SubResource( 3 )
 
-[node name="Text Thought" type="Label3D" parent="."]
+[node name="Thought Text" type="Label3D" parent="."]
 cast_shadow = 0
 billboard = 1
 double_sided = false

@@ -1,7 +1,7 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://LineRenderer.gd" type="Script" id=1]
-[ext_resource path="res://Bubble.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ProceduralSky" id=3]
 sky_top_color = Color( 0.0823529, 0.278431, 0.380392, 1 )
@@ -22,63 +22,66 @@ fog_depth_end = 37.5
 glow_enabled = true
 
 [sub_resource type="SpatialMaterial" id=5]
-
-[sub_resource type="BoxShape" id=2]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.0156863, 0.2, 0.0901961, 1 )
 
 [sub_resource type="SpatialMaterial" id=6]
 flags_unshaded = true
 flags_use_point_size = true
-albedo_color = Color( 0, 0, 1, 1 )
+albedo_color = Color( 0.741176, 0.258824, 0.14902, 1 )
 
-[node name="Spatial" type="Spatial"]
+[node name="Thought Space" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.497659, 0 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 4 )
 
-[node name="CSGBox" type="CSGBox" parent="."]
-transform = Transform( 4.662, 0, 0, 0, 0.077, 0, 0, 0, 7.292, 0, 0, 0 )
-material = SubResource( 5 )
+[node name="Links" type="Spatial" parent="."]
 
-[node name="Area" type="Area" parent="CSGBox"]
+[node name="LineRenderer" type="ImmediateGeometry" parent="Links"]
+material_override = SubResource( 5 )
+script = ExtResource( 1 )
+bubble1 = NodePath("../../Thought")
+bubble2 = NodePath("../../Bubble")
+link_color = Color( 0.0156863, 0.2, 0.0901961, 1 )
 
-[node name="CollisionShape" type="CollisionShape" parent="CSGBox/Area"]
-shape = SubResource( 2 )
-
-[node name="Links" type="Node" parent="."]
-
-[node name="Line Renderer" type="ImmediateGeometry" parent="Links"]
+[node name="LineRenderer2" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 6 )
 script = ExtResource( 1 )
-this_bubble = NodePath("../../Bubble")
-linked_bubble = NodePath("../../Bubble2")
+bubble1 = NodePath("../../Bubble")
+bubble2 = NodePath("../../VSCode")
+link_color = Color( 0.741176, 0.258824, 0.14902, 1 )
 
-[node name="Bubble" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.180475, 4.06869, 2.13215 )
+[node name="Bubbles Begin" type="Node" parent="."]
+
+[node name="Thought" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0399075, 2.92384, 2.53844 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Text Thought" parent="Bubble" index="0"]
+[node name="Thought Text" parent="Thought" index="1"]
 text = "Thought"
 
-[node name="Bubble2" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.615183, 3.56137, -1.17904 )
+[node name="Bubble" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0155892, 1.949, -0.129191 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Text Thought" parent="Bubble2" index="0"]
+[node name="Thought Text" parent="Bubble" index="1"]
 text = "Bubble"
 
-[node name="Bubble3" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.168705, 2.20063, -4.8879 )
+[node name="VSCode" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0264277, 1.62588, -2.92763 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Text Thought" parent="Bubble3" index="0"]
+[node name="Thought Text" parent="VSCode" index="1"]
 text = "VSCode"
 
+[editable path="Thought"]
 [editable path="Bubble"]
-[editable path="Bubble2"]
-[editable path="Bubble3"]
+[editable path="VSCode"]
