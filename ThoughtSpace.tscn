@@ -28,7 +28,7 @@ glow_enabled = true
 [sub_resource type="SpatialMaterial" id=6]
 flags_unshaded = true
 flags_use_point_size = true
-albedo_color = Color( 1, 0, 0, 1 )
+albedo_color = Color( 0, 0, 1, 1 )
 
 [node name="Spatial" type="Spatial"]
 
@@ -36,7 +36,7 @@ albedo_color = Color( 1, 0, 0, 1 )
 environment = SubResource( 4 )
 
 [node name="CSGBox" type="CSGBox" parent="."]
-transform = Transform( 4.66226, 0, 0, 0, 0.0767701, 0, 0, 0, 7.29203, 0, -1.86079, 0 )
+transform = Transform( 4.662, 0, 0, 0, 0.077, 0, 0, 0, 7.292, 0, 0, 0 )
 material = SubResource( 5 )
 
 [node name="Area" type="Area" parent="CSGBox"]
@@ -44,29 +44,40 @@ material = SubResource( 5 )
 [node name="CollisionShape" type="CollisionShape" parent="CSGBox/Area"]
 shape = SubResource( 2 )
 
+[node name="Links" type="Node" parent="."]
+
+[node name="Line Renderer" type="ImmediateGeometry" parent="Links"]
+material_override = SubResource( 6 )
+script = ExtResource( 1 )
+this_bubble = NodePath("../../Bubble")
+linked_bubble = NodePath("../../Bubble2")
+
 [node name="Bubble" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.157309, 0.787838, -0.036636 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.180475, 4.06869, 2.13215 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Text Thought" parent="Bubble" index="0"]
 text = "Thought"
 
 [node name="Bubble2" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.79077 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.615183, 3.56137, -1.17904 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Text Thought" parent="Bubble2" index="0"]
 text = "Bubble"
 
 [node name="Bubble3" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.10375, -2.75359 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.168705, 2.20063, -4.8879 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Text Thought" parent="Bubble3" index="0"]
 text = "VSCode"
-
-[node name="Node" type="Node" parent="."]
-script = ExtResource( 1 )
-
-[node name="Draw" type="ImmediateGeometry" parent="Node"]
-material_override = SubResource( 6 )
 
 [editable path="Bubble"]
 [editable path="Bubble2"]
