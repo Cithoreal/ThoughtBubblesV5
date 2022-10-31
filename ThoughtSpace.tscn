@@ -54,6 +54,11 @@ bubble1 = NodePath("../../Bubble")
 bubble2 = NodePath("../../VSCode")
 link_color = Color( 0.741176, 0.258824, 0.14902, 1 )
 
+[node name="Cursor" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.83831, 2.4155, -0.277674 )
+script = ExtResource( 2 )
+offset = Vector3( -0.633, 0.315, 0 )
+
 [node name="Bubbles Begin" type="Node" parent="."]
 
 [node name="Thought" parent="." instance=ExtResource( 3 )]
@@ -83,11 +88,16 @@ __meta__ = {
 [node name="Thought Text" parent="VSCode" index="1"]
 text = "VSCode"
 
-[node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.83831, 2.41549, -0.277674 )
-script = ExtResource( 2 )
-offset = Vector3( -0.633, 0.315, 0 )
+[node name="test" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00206327, 0.00888443, 2.00029 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Thought Text" parent="test" index="1"]
+text = "test"
 
 [editable path="Thought"]
 [editable path="Bubble"]
 [editable path="VSCode"]
+[editable path="test"]
