@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://LineRenderer.gd" type="Script" id=1]
+[ext_resource path="res://Cursor.gd" type="Script" id=2]
 [ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ProceduralSky" id=3]
@@ -65,7 +66,7 @@ __meta__ = {
 text = "Thought"
 
 [node name="Bubble" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0155892, 1.949, -0.129191 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.257837, 2.07585, -0.716191 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -81,6 +82,11 @@ __meta__ = {
 
 [node name="Thought Text" parent="VSCode" index="1"]
 text = "VSCode"
+
+[node name="Cursor" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.83831, 2.41549, -0.277674 )
+script = ExtResource( 2 )
+offset = Vector3( -0.633, 0.315, 0 )
 
 [editable path="Thought"]
 [editable path="Bubble"]
