@@ -17,7 +17,7 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "TextDatabase",
 "language": "GDScript",
-"path": "res://TextDatabase.gd"
+"path": "res://Scripts/TextDatabase.gd"
 } ]
 _global_script_class_icons={
 "GitAPI": "",
@@ -34,6 +34,10 @@ config/icon="res://icon.png"
 
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
+
+[gdnative]
+
+singletons=[ "res://pythonscript.gdnlib" ]
 
 [gui]
 

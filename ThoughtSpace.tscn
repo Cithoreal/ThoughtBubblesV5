@@ -1,7 +1,7 @@
 [gd_scene load_steps=39 format=2]
 
-[ext_resource path="res://LineRenderer.gd" type="Script" id=1]
-[ext_resource path="res://Cursor.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/LineRenderer.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
 [ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ProceduralSky" id=3]
@@ -194,7 +194,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.497659, 0 )
 environment = SubResource( 4 )
 
 [node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.04121, 13.0208, 2.90233 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60337, 4.22768, -8.60602 )
 script = ExtResource( 2 )
 offset = Vector3( -0.633, 0.315, 0 )
 
@@ -438,6 +438,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.91922, 3.01597, 3.02314 )
 __meta__ = {
 "_edit_group_": true
 }
+linkedThoughts = [ NodePath("../Bubble") ]
 
 [node name="Thought Text" parent="Thought" index="1"]
 text = "Thought"
@@ -447,6 +448,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.97601, 0.773286, -1.51432 )
 __meta__ = {
 "_edit_group_": true
 }
+linkedThoughts = [ NodePath("../VSCode") ]
 
 [node name="Thought Text" parent="Bubble" index="1"]
 text = "Bubble"
@@ -460,6 +462,16 @@ __meta__ = {
 [node name="Thought Text" parent="VSCode" index="1"]
 text = "VSCode"
 
+[node name="Thought Bubbles" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.401369, 4.55689, 0.570052 )
+__meta__ = {
+"_edit_group_": true
+}
+linkedThoughts = [ NodePath("../Node"), NodePath("../Layouts"), NodePath("../Focus"), NodePath("../Brain Storm"), NodePath("../Split"), NodePath("../Combine"), NodePath("../Whiteboard"), NodePath("../Search"), NodePath("../Collections"), NodePath("../Definition"), NodePath("../MindMap"), NodePath("../Brain"), NodePath("../Notes"), NodePath("../Thinking"), NodePath("../Input"), NodePath("../Output"), NodePath("../Select"), NodePath("../Auto Position"), NodePath("../Properties"), NodePath("../Title"), NodePath("../Color"), NodePath("../Thought Space"), NodePath("../Dictionary"), NodePath("../3D"), NodePath("../XR"), NodePath("../Annotations"), NodePath("../Thought Stream"), NodePath("../Thought Process"), NodePath("../Shape"), NodePath("../Mind"), NodePath("../User Interface") ]
+
+[node name="Thought Text" parent="Thought Bubbles" index="1"]
+text = "Thought Bubbles"
+
 [node name="User Interface" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.70661, 0.576457, -2.67645 )
 __meta__ = {
@@ -468,15 +480,6 @@ __meta__ = {
 
 [node name="Thought Text" parent="User Interface" index="1"]
 text = "User Interface"
-
-[node name="Thought Bubbles" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.401369, 4.55689, 0.570052 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Thought Text" parent="Thought Bubbles" index="1"]
-text = "Thought Bubbles"
 
 [node name="Node" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26523, 1.6281, -1.02185 )
@@ -740,7 +743,7 @@ __meta__ = {
 text = "Shape"
 
 [node name="Mind" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.40286, 1.09457, -5.29327 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.50953, 0.891801, -5.3249 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -751,8 +754,8 @@ text = "Mind"
 [editable path="Thought"]
 [editable path="Bubble"]
 [editable path="VSCode"]
-[editable path="User Interface"]
 [editable path="Thought Bubbles"]
+[editable path="User Interface"]
 [editable path="Node"]
 [editable path="Layouts"]
 [editable path="Focus"]
