@@ -16,12 +16,6 @@ radius = 0.633015
 [node name="Thought" type="Spatial"]
 script = ExtResource( 1 )
 
-[node name="Bubble" type="CSGSphere" parent="."]
-radius = 0.632312
-radial_segments = 16
-rings = 16
-material = SubResource( 3 )
-
 [node name="Thought Text" type="Label3D" parent="."]
 cast_shadow = 0
 billboard = 1
@@ -29,10 +23,16 @@ double_sided = false
 alpha_scissor_threshold = 0.0
 render_priority = 2
 outline_render_priority = 1
-text = "Thought Bubble"
+text = "Thought"
 font = ExtResource( 2 )
 autowrap = true
 width = 123.0
+
+[node name="Bubble" type="CSGSphere" parent="."]
+radius = 0.632312
+radial_segments = 16
+rings = 16
+material = SubResource( 3 )
 
 [node name="Area" type="Area" parent="."]
 
