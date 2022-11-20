@@ -1,27 +1,9 @@
-[gd_scene load_steps=40 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://Scripts/LineRenderer.gd" type="Script" id=1]
-[ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/ThoughtBubble.gd" type="Script" id=2]
 [ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scripts/ThoughtSpace.gd" type="Script" id=4]
-
-[sub_resource type="ProceduralSky" id=3]
-sky_top_color = Color( 0.0235294, 0.113725, 0.211765, 1 )
-sky_horizon_color = Color( 0.00784314, 0.0588235, 0.101961, 1 )
-sky_curve = 0.229421
-ground_bottom_color = Color( 0.0235294, 0.113725, 0.211765, 1 )
-ground_horizon_color = Color( 0.00784314, 0.0588235, 0.101961, 1 )
-ground_curve = 0.20393
-sun_latitude = -105.0
-texture_size = 0
-
-[sub_resource type="Environment" id=4]
-background_mode = 2
-background_sky = SubResource( 3 )
-background_color = Color( 0.0509804, 0.0509804, 0.0509804, 1 )
-ambient_light_color = Color( 0.223529, 0.223529, 0.223529, 1 )
-fog_depth_end = 37.5
-glow_enabled = true
 
 [sub_resource type="SpatialMaterial" id=5]
 flags_unshaded = true
@@ -188,602 +170,605 @@ flags_unshaded = true
 flags_use_point_size = true
 albedo_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="root" type="Spatial"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.12149, -1.29717, 0.478 )
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource( 4 )
-
-[node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.40377, 5.14749, -1.15661 )
-script = ExtResource( 2 )
-offset = Vector3( -0.633, 0.315, 0 )
-
-[node name="Thought_Space" type="Spatial" parent="."]
+[node name="Thought_Space" type="Spatial"]
 script = ExtResource( 4 )
+thought_collection = "Thought Bubbles"
+new_thought = "cat"
 
-[node name="Links" type="Spatial" parent="Thought_Space"]
+[node name="Links" type="Spatial" parent="."]
 
-[node name="LineRenderer" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 5 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought")
 bubble2 = NodePath("../../----Thought Bubbles----/Bubble")
 link_color = Color( 0.0156863, 0.2, 0.0901961, 1 )
 
-[node name="LineRenderer2" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer2" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 6 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Bubble")
 bubble2 = NodePath("../../----Thought Bubbles----/VSCode")
 link_color = Color( 0.741176, 0.258824, 0.14902, 1 )
 
-[node name="LineRenderer3" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer3" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 7 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/User Interface")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer4" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer4" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 8 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Node")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer5" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer5" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 9 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Layouts")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer6" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer6" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 10 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Focus")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer7" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer7" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 11 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Brain Storm")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer8" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer8" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 12 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Split")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer9" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer9" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 13 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Combine")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer10" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer10" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 14 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Whiteboard")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer11" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer11" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 15 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Search")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer12" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer12" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 16 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Collections")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer13" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer13" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 17 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Definition")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer14" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer14" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 18 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/MindMap")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer15" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer15" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 19 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Brain")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer16" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer16" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 20 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Notes")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer17" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer17" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 21 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Thinking")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer18" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer18" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 22 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Input")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer19" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer19" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 23 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Output")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer20" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer20" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 24 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Select")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer21" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer21" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 25 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Auto Position")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer22" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer22" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 26 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Properties")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer23" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer23" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 27 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Title")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer24" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer24" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 28 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Color")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer25" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer25" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 29 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Thought Space")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer26" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer26" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 30 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Dictionary")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer27" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer27" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 31 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/3D")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer28" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer28" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 32 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/XR")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer29" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer29" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 33 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Annotations")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer30" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer30" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 34 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Thought Stream")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer31" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer31" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 35 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Thought Process")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer32" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer32" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 36 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Shape")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="LineRenderer33" type="ImmediateGeometry" parent="Thought_Space/Links"]
+[node name="LineRenderer33" type="ImmediateGeometry" parent="Links"]
 material_override = SubResource( 37 )
 script = ExtResource( 1 )
 bubble1 = NodePath("../../----Thought Bubbles----/Thought Bubbles")
 bubble2 = NodePath("../../----Thought Bubbles----/Mind")
 link_color = Color( 0.054902, 0.278431, 0.623529, 1 )
 
-[node name="----Thought Bubbles----" type="Spatial" parent="Thought_Space"]
+[node name="----Thought Bubbles----" type="Spatial" parent="."]
 
-[node name="Thought" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Thought" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.91922, 3.01597, 3.02314 )
 __meta__ = {
 "_edit_group_": true
 }
 linkedThoughts = [ NodePath("../Bubble") ]
 
-[node name="Bubble" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Bubble" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.97601, 0.773286, -1.51432 )
 __meta__ = {
 "_edit_group_": true
 }
 linkedThoughts = [ NodePath("../VSCode") ]
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Bubble" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Bubble" index="0"]
 text = "Bubble"
 
-[node name="VSCode" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="VSCode" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.1397, 1.62588, -2.92763 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/VSCode" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/VSCode" index="0"]
 text = "VSCode"
 
-[node name="Thought Bubbles" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Thought Bubbles" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.401369, 4.55689, 0.570052 )
 __meta__ = {
 "_edit_group_": true
 }
 linkedThoughts = [ NodePath("../Node"), NodePath("../Layouts"), NodePath("../Focus"), NodePath("../Brain Storm"), NodePath("../Split"), NodePath("../Combine"), NodePath("../Whiteboard"), NodePath("../Search"), NodePath("../Collections"), NodePath("../Definition"), NodePath("../MindMap"), NodePath("../Brain"), NodePath("../Notes"), NodePath("../Thinking"), NodePath("../Input"), NodePath("../Output"), NodePath("../Select"), NodePath("../Auto Position"), NodePath("../Properties"), NodePath("../Title"), NodePath("../Color"), NodePath("../Thought Space"), NodePath("../Dictionary"), NodePath("../3D"), NodePath("../XR"), NodePath("../Annotations"), NodePath("../Thought Stream"), NodePath("../Thought Process"), NodePath("../Shape"), NodePath("../Mind"), NodePath("../User Interface") ]
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Thought Bubbles" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Thought Bubbles" index="0"]
 text = "Thought Bubbles"
 
-[node name="User Interface" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="User Interface" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.70661, 0.576457, -2.67645 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/User Interface" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/User Interface" index="0"]
 text = "User Interface"
 
-[node name="Node" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Node" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26523, 1.6281, -1.02185 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Node" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Node" index="0"]
 text = "Node"
 
-[node name="Layouts" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Layouts" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.49327, -0.213738, -0.174594 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Layouts" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Layouts" index="0"]
 text = "Layouts"
 
-[node name="Focus" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Focus" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.83207, 0.250671, 0.603747 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Focus" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Focus" index="0"]
 text = "Focus"
 
-[node name="Brain Storm" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Brain Storm" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.857879, 3.61344, -2.03716 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Brain Storm" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Brain Storm" index="0"]
 text = "Brain Storm"
 
-[node name="Split" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Split" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.0436, 1.96701, 4.46321 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Split" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Split" index="0"]
 text = "Split"
 
-[node name="Combine" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Combine" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.54668, 1.0921, 3.18193 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Combine" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Combine" index="0"]
 text = "Combine"
 
-[node name="Whiteboard" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Whiteboard" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.88998, -2.29751, 3.35332 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Whiteboard" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Whiteboard" index="0"]
 text = "Whiteboard"
 
-[node name="Search" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Search" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.44265, -2.24389, -1.28913 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Search" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Search" index="0"]
 text = "Search"
 
-[node name="Collections" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Collections" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.53956, 0.754042, 9.31024 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Collections" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Collections" index="0"]
 text = "Collections"
 
-[node name="Definition" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Definition" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.31523, 2.49941, -4.25765 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Definition" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Definition" index="0"]
 text = "Definition"
 
-[node name="MindMap" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="MindMap" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.686564, -2.48919, -3.69162 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/MindMap" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/MindMap" index="0"]
 text = "MindMap"
 
-[node name="Brain" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Brain" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.325453, -0.218832, 1.81995 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Brain" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Brain" index="0"]
 text = "Brain"
 
-[node name="Notes" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Notes" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.74139, 1.93827, 2.24034 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Notes" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Notes" index="0"]
 text = "Notes"
 
-[node name="Thinking" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Thinking" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.22366, 1.13957, 0.633084 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Thinking" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Thinking" index="0"]
 text = "Thinking"
 
-[node name="Input" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Input" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.32526, 3.291, 4.55694 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Input" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Input" index="0"]
 text = "Input"
 
-[node name="Output" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Output" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.94347, -0.823837, -2.12426 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Output" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Output" index="0"]
 text = "Output"
 
-[node name="Select" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Select" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44346, 2.62989, -5.77092 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Select" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Select" index="0"]
 text = "Select"
 
-[node name="Auto Position" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Auto Position" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.41708, 1.80454, -7.08885 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Auto Position" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Auto Position" index="0"]
 text = "Auto Position"
 
-[node name="Properties" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Properties" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.62111, 2.50415, -3.54457 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Properties" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Properties" index="0"]
 text = "Properties"
 
-[node name="Title" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Title" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.84675, -1.19018, 4.80082 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Title" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Title" index="0"]
 text = "Title"
 
-[node name="Color" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Color" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.471921, 2.37355, 6.2355 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Color" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Color" index="0"]
 text = "Color"
 
-[node name="Thought Space" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Thought Space" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.99276, -1.52998, 2.78566 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Thought Space" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Thought Space" index="0"]
 text = "Thought Space"
 
-[node name="Dictionary" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Dictionary" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833957, 2.89576, -8.5698 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Dictionary" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Dictionary" index="0"]
 text = "Dictionary"
 
-[node name="3D" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="3D" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.49384, -1.4886, -6.52592 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/3D" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/3D" index="0"]
 text = "3D"
 
-[node name="XR" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="XR" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.73355, 0.122147, -4.35507 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/XR" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/XR" index="0"]
 text = "XR"
 
-[node name="Annotations" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Annotations" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1902, 0.303403, 8.65651 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Annotations" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Annotations" index="0"]
 text = "Annotations"
 
-[node name="Thought Stream" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Thought Stream" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.45584, -0.103856, 6.72327 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Thought Stream" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Thought Stream" index="0"]
 text = "Thought Stream"
 
-[node name="Thought Process" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Thought Process" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.84318, 3.79741, 3.7872 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Thought Process" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Thought Process" index="0"]
 text = "Thought Process"
 
-[node name="Shape" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Shape" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.13748, 1.84337, 7.72873 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Shape" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Shape" index="0"]
 text = "Shape"
 
-[node name="Mind" parent="Thought_Space/----Thought Bubbles----" instance=ExtResource( 3 )]
+[node name="Mind" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.50953, 0.891801, -5.3249 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Thought Text" parent="Thought_Space/----Thought Bubbles----/Mind" index="0"]
+[node name="Thought Text" parent="----Thought Bubbles----/Mind" index="0"]
 text = "Mind"
 
-[editable path="Thought_Space/----Thought Bubbles----/Thought"]
-[editable path="Thought_Space/----Thought Bubbles----/Bubble"]
-[editable path="Thought_Space/----Thought Bubbles----/VSCode"]
-[editable path="Thought_Space/----Thought Bubbles----/Thought Bubbles"]
-[editable path="Thought_Space/----Thought Bubbles----/User Interface"]
-[editable path="Thought_Space/----Thought Bubbles----/Node"]
-[editable path="Thought_Space/----Thought Bubbles----/Layouts"]
-[editable path="Thought_Space/----Thought Bubbles----/Focus"]
-[editable path="Thought_Space/----Thought Bubbles----/Brain Storm"]
-[editable path="Thought_Space/----Thought Bubbles----/Split"]
-[editable path="Thought_Space/----Thought Bubbles----/Combine"]
-[editable path="Thought_Space/----Thought Bubbles----/Whiteboard"]
-[editable path="Thought_Space/----Thought Bubbles----/Search"]
-[editable path="Thought_Space/----Thought Bubbles----/Collections"]
-[editable path="Thought_Space/----Thought Bubbles----/Definition"]
-[editable path="Thought_Space/----Thought Bubbles----/MindMap"]
-[editable path="Thought_Space/----Thought Bubbles----/Brain"]
-[editable path="Thought_Space/----Thought Bubbles----/Notes"]
-[editable path="Thought_Space/----Thought Bubbles----/Thinking"]
-[editable path="Thought_Space/----Thought Bubbles----/Input"]
-[editable path="Thought_Space/----Thought Bubbles----/Output"]
-[editable path="Thought_Space/----Thought Bubbles----/Select"]
-[editable path="Thought_Space/----Thought Bubbles----/Auto Position"]
-[editable path="Thought_Space/----Thought Bubbles----/Properties"]
-[editable path="Thought_Space/----Thought Bubbles----/Title"]
-[editable path="Thought_Space/----Thought Bubbles----/Color"]
-[editable path="Thought_Space/----Thought Bubbles----/Thought Space"]
-[editable path="Thought_Space/----Thought Bubbles----/Dictionary"]
-[editable path="Thought_Space/----Thought Bubbles----/3D"]
-[editable path="Thought_Space/----Thought Bubbles----/XR"]
-[editable path="Thought_Space/----Thought Bubbles----/Annotations"]
-[editable path="Thought_Space/----Thought Bubbles----/Thought Stream"]
-[editable path="Thought_Space/----Thought Bubbles----/Thought Process"]
-[editable path="Thought_Space/----Thought Bubbles----/Shape"]
-[editable path="Thought_Space/----Thought Bubbles----/Mind"]
+[node name="test" type="Spatial" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
+script = ExtResource( 2 )
+
+[node name="test13" type="Spatial" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
+script = ExtResource( 2 )
+
+[node name="test14" type="Spatial" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
+script = ExtResource( 2 )
+
+[node name="test18" type="Spatial" parent="----Thought Bubbles----" instance=ExtResource( 3 )]
+script = ExtResource( 2 )
+
+[editable path="----Thought Bubbles----/Thought"]
+[editable path="----Thought Bubbles----/Bubble"]
+[editable path="----Thought Bubbles----/VSCode"]
+[editable path="----Thought Bubbles----/Thought Bubbles"]
+[editable path="----Thought Bubbles----/User Interface"]
+[editable path="----Thought Bubbles----/Node"]
+[editable path="----Thought Bubbles----/Layouts"]
+[editable path="----Thought Bubbles----/Focus"]
+[editable path="----Thought Bubbles----/Brain Storm"]
+[editable path="----Thought Bubbles----/Split"]
+[editable path="----Thought Bubbles----/Combine"]
+[editable path="----Thought Bubbles----/Whiteboard"]
+[editable path="----Thought Bubbles----/Search"]
+[editable path="----Thought Bubbles----/Collections"]
+[editable path="----Thought Bubbles----/Definition"]
+[editable path="----Thought Bubbles----/MindMap"]
+[editable path="----Thought Bubbles----/Brain"]
+[editable path="----Thought Bubbles----/Notes"]
+[editable path="----Thought Bubbles----/Thinking"]
+[editable path="----Thought Bubbles----/Input"]
+[editable path="----Thought Bubbles----/Output"]
+[editable path="----Thought Bubbles----/Select"]
+[editable path="----Thought Bubbles----/Auto Position"]
+[editable path="----Thought Bubbles----/Properties"]
+[editable path="----Thought Bubbles----/Title"]
+[editable path="----Thought Bubbles----/Color"]
+[editable path="----Thought Bubbles----/Thought Space"]
+[editable path="----Thought Bubbles----/Dictionary"]
+[editable path="----Thought Bubbles----/3D"]
+[editable path="----Thought Bubbles----/XR"]
+[editable path="----Thought Bubbles----/Annotations"]
+[editable path="----Thought Bubbles----/Thought Stream"]
+[editable path="----Thought Bubbles----/Thought Process"]
+[editable path="----Thought Bubbles----/Shape"]
+[editable path="----Thought Bubbles----/Mind"]
