@@ -2,13 +2,35 @@ tool
 extends Spatial
 
 export(Array, String) var linkedThoughts  
-export(Color) var bubbleColor
+export(Color) var bubbleColor 
 export(bool) var set_color setget _set_color
+
+var timestamp_list = [1.2412, 41.2312, 151.1123]
+var my_property = 1 setget _set_timestamp
+export var current_timestamp = ""
+
+func _get_property_list():
+	var properties = []
+	# Same as "export(int) var my_property"
+	properties.append({
+		name = "my_property",
+		type = TYPE_INT,
+		hint = 1,
+		hint_string = "0," + str(len(timestamp_list))
+	})
+	return properties
+
+func _set_timestamp(_value):
+	print(_value)
+	current_timestamp = str(timestamp_list[_value])
+
+#export()
 #export(bool) var load_links setget load_link_nodes
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var link_scene = load("res://LineRenderer.tscn")
 var mat = SpatialMaterial.new()
+
 
 	
 func _enter_tree():
@@ -42,68 +64,37 @@ func load_thought_properties():
 	load_links()
 	
 func load_color():
-	var output = []
-	var timestamp = ""
 	var r = ""
 	var g = ""
 	var b = ""
 	var a = ""
 	
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|r|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|r|", timestamp], true, output)
-	r = process_mb_output(output)[0]
-	
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|g|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|g|", timestamp], true, output)
-	g = process_mb_output(output)[0]
-	
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|b|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|b|", timestamp], true, output)
-	b = process_mb_output(output)[0]
-	
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|a|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Color|", "|a|", timestamp], true, output)
-	a = process_mb_output(output)[0]
+	r = get_latest_property_value("Color", "r")
+	g = get_latest_property_value("Color", "g")
+	b = get_latest_property_value("Color", "b")
+	a = get_latest_property_value("Color", "a")
 	
 	bubbleColor = Color(r,g,b,a)
 	get_child(1).material_override.albedo_color = bubbleColor
 
-
-
 func load_position():
-	var output = []
-	var timestamp = ""
 	var x = ""
 	var y = ""
 	var z = ""
-	OS.execute(MB_to_godot_path, [get_name(), "|Position|", "|x|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Position|", "|x|", timestamp], true, output)
-	x = process_mb_output(output)[0]
-	
-	OS.execute(MB_to_godot_path, [get_name(), "|Position|", "|y|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Position|", "|y|", timestamp], true, output)
-	y = process_mb_output(output)[0]
-	
-	OS.execute(MB_to_godot_path, [get_name(), "|Position|", "|z|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	timestamp = output[len(output)-1]
-	OS.execute(MB_to_godot_path, [get_name(), "|Position|", "|z|", timestamp], true, output)
-	z = process_mb_output(output)[0]
-	
+	x = get_latest_property_value("Position" ,"x")
+	y = get_latest_property_value("Position", "y")
+	z = get_latest_property_value("Position", "z")
+
 	transform.origin = Vector3(float(x),float(y),float(z))
-	
+
+func get_latest_property_value(property, element):
+	var output = []
+	var timestamp = ""
+	OS.execute(MB_to_godot_path, [get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
+	output = process_mb_output(output)
+	timestamp = output[len(output)-1]
+	OS.execute(MB_to_godot_path, [get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
+	return process_mb_output(output)[0]
 	
 func load_links():
 	var output = []
@@ -118,8 +109,8 @@ func load_link_nodes():
 		get_parent().get_parent().get_child(0).add_child(new_link_node)
 		new_link_node.bubble1 = self
 		new_link_node.set_owner(get_parent().get_parent())
-		print(get_parent().get_node(link))
 		new_link_node.bubble2 = get_parent().get_node(link)
+		new_link_node.initialize()
 		
 	
 func _on_save_thoughts(timestamp):
@@ -138,34 +129,38 @@ func save_name(timestamp):
 
 func save_position(timestamp):
 	# Position
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Position|", "|x|", timestamp, str(transform.origin.x)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Position|", "|y|", timestamp, str(transform.origin.y)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Position|", "|z|", timestamp, str(transform.origin.z)], false)
+	save_bubble_property("Transform", "Position", "x", timestamp, str(transform.origin.x))
+	save_bubble_property("Transform", "Position", "y", timestamp, str(transform.origin.y))
+	save_bubble_property("Transform", "Position", "z", timestamp, str(transform.origin.z))
 
 func save_basis(timestamp):
 		# Basis
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|xx|", timestamp, str(transform.basis.x.x)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|xy|", timestamp, str(transform.basis.x.y)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|xz|", timestamp, str(transform.basis.x.z)], false)
+	save_bubble_property("Transform", "Basis", "xx", timestamp, str(transform.basis.x.x))
+	save_bubble_property("Transform", "Basis", "xy", timestamp, str(transform.basis.x.y))
+	save_bubble_property("Transform", "Basis", "xz", timestamp, str(transform.basis.x.z))
 	
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|yx|", timestamp, str(transform.basis.y.x)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|yy|", timestamp, str(transform.basis.y.y)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|yz|", timestamp, str(transform.basis.y.z)], false)
+	save_bubble_property("Transform", "Basis", "yx", timestamp, str(transform.basis.y.x))
+	save_bubble_property("Transform", "Basis", "yy", timestamp, str(transform.basis.y.y))
+	save_bubble_property("Transform", "Basis", "yz", timestamp, str(transform.basis.y.z))
 	
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|zx|", timestamp, str(transform.basis.z.x)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|zy|", timestamp, str(transform.basis.z.y)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Transform|", "|Basis|", "|zz|", timestamp, str(transform.basis.z.z)], false)
+	save_bubble_property("Transform", "Basis", "zx", timestamp, str(transform.basis.z.x))
+	save_bubble_property("Transform", "Basis", "zy", timestamp, str(transform.basis.z.y))
+	save_bubble_property("Transform", "Basis", "zz", timestamp, str(transform.basis.z.z))
+
+func save_color(timestamp):
+	# Color
+	save_bubble_property("Material", "Color", "r", timestamp, str(bubbleColor.r))
+	save_bubble_property("Material", "Color", "g", timestamp, str(bubbleColor.g))
+	save_bubble_property("Material", "Color", "b", timestamp, str(bubbleColor.b))
+	save_bubble_property("Material", "Color", "a", timestamp, str(bubbleColor.a))
+
+func save_bubble_property(field, property, element, timestamp, value):
+	if (get_latest_property_value(property, element) != value):
+		OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", timestamp, value], false)
 
 func save_links(timestamp):
 	for link in linkedThoughts:
 		OS.execute(godot_to_nodes_path, [ "Godot", get_name(), "|Link|", str(link).replace("../", "")], false)
-
-func save_color(timestamp):
-	# Color
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Material|", "|Color|", "|r|", timestamp, str(bubbleColor.r)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Material|", "|Color|", "|g|", timestamp, str(bubbleColor.g)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Material|", "|Color|", "|b|", timestamp, str(bubbleColor.b)], false)
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Bubble|", get_name(), "|Material|", "|Color|", "|a|", timestamp, str(bubbleColor.a)], false)
 
 func process_mb_output(output):
 	var text = output[0].replace("[(", "")

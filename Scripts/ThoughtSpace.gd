@@ -6,7 +6,7 @@ export(bool) var save_thoughts setget _save
 export var thought_collection = ""
 export var new_thought = ""
 export(bool) var create_new_thought setget _on_new_thought_button
-export(bool) var load_links setget _load_links
+#export(bool) var load_links setget _load_links
 export(bool) var run_functions = false
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
@@ -16,8 +16,8 @@ signal save_thoughts(timestamp)
 signal load_links
 signal clear_thoughts
 
-func _load_links(_value):
-	emit_signal("load_links")
+#func _load_links(_value):
+#	emit_signal("load_links")
 
 func _start_recall(_value):
 	if (len(thought_collection) > 0 && run_functions):
@@ -41,7 +41,6 @@ func clear_scene():
 		link.free()
 	for node in get_child(1).get_children():
 		node.free()
-	pass
 
 #Use the text retrieved from _start_recall to retrieve thoughts and thought properties
 func process_thoughts(text_block):
@@ -56,10 +55,9 @@ func process_thoughts(text_block):
 		var linked_node = i.replace("'","")
 		print("Creating... " + linked_node)
 		create_new_thought(linked_node)
+	emit_signal("load_links")
+	
 
-#Instantiate links between thoughts
-func load_links():
-	pass
 
 func _on_new_thought_button(_value):
 	if (new_thought != "" && run_functions):

@@ -15,7 +15,7 @@ func _enter_tree():
 	mat.flags_use_point_size = true
 	mat.albedo_color = link_color
 	
-func initalize():
+func initialize():
 	link_color = bubble2.bubbleColor
 	set_process_input(true)
 	mat.flags_unshaded = true
