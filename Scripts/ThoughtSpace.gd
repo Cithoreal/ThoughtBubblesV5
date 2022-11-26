@@ -6,25 +6,33 @@ export(bool) var save_thoughts setget _save
 export var thought_collection = ""
 export var new_thought = ""
 export(bool) var create_new_thought setget _on_new_thought_button
+export(bool) var load_links setget _load_links
 export(bool) var run_functions = false
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var thought_scene = load("res://ThoughtBubble.tscn")
 
-signal save_thoughts
+signal save_thoughts(timestamp)
+signal load_links
 signal clear_thoughts
+
+func _load_links(_value):
+	emit_signal("load_links")
 
 func _start_recall(_value):
 	if (len(thought_collection) > 0 && run_functions):
 		var output = []
 		OS.execute(MB_to_godot_path, [thought_collection, "|Thought|"], true, output)
-		#process_thoughts(output)
+		process_thoughts(output)
 
 func _save(_value):
 	if (run_functions):
 		print("saving thoughts")
-		emit_signal("save_thoughts")
-		#OS.execute(godot_to_nodes_path, [], false)
+		var timestamp = Time.get_unix_time_from_system()
+		#print(Time.get_datetime_string_from_system(true,true))
+		OS.execute(godot_to_nodes_path, ["|Timestamp|", timestamp], false)
+		emit_signal("save_thoughts", timestamp)
+
 
 #Prep the scene to be loaded with new thoughts
 func clear_scene():
@@ -42,7 +50,7 @@ func process_thoughts(text_block):
 	text = text.replace(",)]", "")
 	text = text.replace("\n", "")
 	#Retrieve an intersect of the thought and "Transform" to recieve the transform numbers
-	print("Creating... " + thought_collection)
+	#print("Creating... " + thought_collection)
 	create_new_thought(thought_collection)
 	for i in text.split(",), ("):
 		var linked_node = i.replace("'","")
@@ -63,4 +71,5 @@ func create_new_thought(thought_text):
 		new_bubble.set_name(thought_text)
 		get_child(1).add_child(new_bubble)
 		new_bubble.set_owner(get_parent())
+		new_bubble.initialize()
 		
