@@ -14,7 +14,9 @@ var thought_scene = load("res://ThoughtBubble.tscn")
 
 signal save_thoughts(timestamp)
 signal load_links
+signal load_parents
 signal clear_thoughts
+
 
 #func _load_links(_value):
 #	emit_signal("load_links")
@@ -53,9 +55,11 @@ func process_thoughts(text_block):
 	create_new_thought(thought_collection)
 	for i in text.split(",), ("):
 		var linked_node = i.replace("'","")
-		print("Creating... " + linked_node)
+		#print("Creating... " + linked_node)
 		create_new_thought(linked_node)
+	emit_signal("load_parents")
 	emit_signal("load_links")
+	
 	
 
 
@@ -70,4 +74,18 @@ func create_new_thought(thought_text):
 		get_child(1).add_child(new_bubble)
 		new_bubble.set_owner(get_parent())
 		new_bubble.initialize()
+
+func create_and_link_new_thought(thought_text, linking_thoughts):
+	if thought_text != "" && run_functions:
+		var new_bubble = thought_scene.instance()
+		new_bubble.set_name(thought_text)
+		get_child(1).add_child(new_bubble)
+		new_bubble.set_owner(get_parent())
+		new_bubble.initialize()
+		for thought in linking_thoughts:
+			if (get_child(1).get_node(thought).child_thoughts.find(new_bubble.get_name()) == -1):
+				get_child(1).get_node(thought).child_thoughts.append(new_bubble.get_name())
+			if (new_bubble.parent_thoughts.find(thought) == -1):
+				new_bubble.parent_thoughts.append(thought)
+		new_bubble.load_link_nodes()
 		

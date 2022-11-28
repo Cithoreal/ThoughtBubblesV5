@@ -6,6 +6,8 @@ var mat = SpatialMaterial.new()
 var show_path = true
 var bubble1 : Spatial
 var bubble2 : Spatial
+export var link1 : String
+export var link2 : String
 export var link_color : Color
 var path = []
 # Called when the node enters the scene tree for the first time.
@@ -22,6 +24,8 @@ func initialize():
 	mat.flags_use_point_size = true
 	mat.albedo_color = link_color
 	mat.albedo_color = bubble2.bubbleColor
+	link1 = str(bubble1.get_name())
+	link2 = str(bubble2.get_name())
 
 func _process(_delta):
 	if bubble1 == null or bubble2 == null:

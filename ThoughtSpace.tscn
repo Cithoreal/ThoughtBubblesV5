@@ -276,13 +276,8 @@ albedo_color = Color( 0, 0, 0, 1 )
 
 [node name="Thought_Space" type="Spatial"]
 script = ExtResource( 4 )
-load_collection = false
-save_thoughts = false
 thought_collection = "Thought Bubbles"
 new_thought = "cat"
-create_new_thought = false
-load_links = false
-run_functions = false
 
 [node name="Links" type="Spatial" parent="."]
 
@@ -425,7 +420,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.91922, 3.01597, 3.02314 )
 __meta__ = {
 "_edit_group_": true
 }
-linkedThoughts = [ NodePath("../Bubble") ]
 
 [node name="Bubble" parent="----Thought Bubbles----/Thought" index="1"]
 material_override = SubResource( 34 )
@@ -435,7 +429,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.97601, 0.773286, -1.51432 )
 __meta__ = {
 "_edit_group_": true
 }
-linkedThoughts = [ NodePath("../VSCode") ]
 
 [node name="Thought Text" parent="----Thought Bubbles----/Bubble" index="0"]
 text = "Bubble"
@@ -460,7 +453,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.401369, 4.55689, 0.570052 )
 __meta__ = {
 "_edit_group_": true
 }
-linkedThoughts = [ NodePath("../Node"), NodePath("../Layouts"), NodePath("../Focus"), NodePath("../Brain Storm"), NodePath("../Split"), NodePath("../Combine"), NodePath("../Whiteboard"), NodePath("../Search"), NodePath("../Collections"), NodePath("../Definition"), NodePath("../MindMap"), NodePath("../Brain"), NodePath("../Notes"), NodePath("../Thinking"), NodePath("../Input"), NodePath("../Output"), NodePath("../Select"), NodePath("../Auto Position"), NodePath("../Properties"), NodePath("../Title"), NodePath("../Color"), NodePath("../Thought Space"), NodePath("../Dictionary"), NodePath("../3D"), NodePath("../XR"), NodePath("../Annotations"), NodePath("../Thought Stream"), NodePath("../Thought Process"), NodePath("../Shape"), NodePath("../Mind"), NodePath("../User Interface") ]
 
 [node name="Thought Text" parent="----Thought Bubbles----/Thought Bubbles" index="0"]
 text = "Thought Bubbles"
