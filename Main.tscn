@@ -1,11 +1,70 @@
-[gd_scene load_steps=42 format=2]
+[gd_scene load_steps=21 format=2]
 
-[ext_resource path="res://Scripts/ThoughtBubble.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
-[ext_resource path="res://Scripts/ThoughtSpace.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/LineRenderer.gd" type="Script" id=3]
 [ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scripts/LineRenderer.gd" type="Script" id=5]
-[ext_resource path="res://LineRenderer.tscn" type="PackedScene" id=6]
+[ext_resource path="res://LineRenderer.tscn" type="PackedScene" id=9]
+
+[sub_resource type="SpatialMaterial" id=142]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=143]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=144]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=145]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=146]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=147]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=148]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=149]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=150]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=151]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=152]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=153]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
 [sub_resource type="ProceduralSky" id=3]
 sky_top_color = Color( 0.0235294, 0.113725, 0.211765, 1 )
@@ -25,629 +84,188 @@ ambient_light_color = Color( 0.223529, 0.223529, 0.223529, 1 )
 fog_depth_end = 37.5
 glow_enabled = true
 
-[sub_resource type="SpatialMaterial" id=5]
+[sub_resource type="SpatialMaterial" id=141]
+flags_transparent = true
 flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.094118, 0.768627, 0.117647, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=6]
-flags_unshaded = true
-flags_use_point_size = true
 albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[sub_resource type="SpatialMaterial" id=7]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=8]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=9]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=10]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=11]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=12]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=13]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=14]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=15]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=16]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=17]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=18]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=19]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=20]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=21]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=22]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=23]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=24]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=25]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=26]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=27]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=28]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=29]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=30]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=31]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=32]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=33]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=34]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=35]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=36]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=37]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="root" type="Spatial"]
+[node name="scene" type="Spatial"]
 __meta__ = {
 "_editor_description_": "Todo:
--Bring in home collection from V2
+-Implement loading from any number of thought intersects (Not just the whole of a single collection)
 -Scroll through slider of timestamp history
--Linking Hierarchy"
+-Implement Basis loading
+-Shape Customization
+-Implement Shape saving and loading
+- Expand and contract thought spaces
+- Enter into Thought spaces
+- Breadcrumb trail back and forth"
 }
+
+[node name="Links" type="Spatial" parent="."]
+
+[node name="LineRenderer" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 142 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Star System"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer2" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 143 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Cyber Ship"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer3" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 144 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "MyHome20"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer4" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 145 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Player Controller"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer5" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 146 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Brainstorm"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer6" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 147 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Thought Bubbles"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer7" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 148 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Cyber Space"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer8" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 149 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "BCI"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer9" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 150 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Recording System"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer10" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 151 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Wood Carving"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer11" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 152 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "XR"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="LineRenderer12" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
+material_override = SubResource( 153 )
+script = ExtResource( 3 )
+link1 = "Projects"
+link2 = "Apps"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 4 )
 
 [node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0918, 2.34858, -0.281109 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.07589, -4.53772, -5.13586 )
 script = ExtResource( 2 )
 offset = Vector3( -0.633, 0.315, 0 )
 
-[node name="Thought_Space" type="Spatial" parent="."]
-script = ExtResource( 3 )
-thought_collection = "Thought Bubbles"
+[node name="Projects" parent="." instance=ExtResource( 4 )]
+new_thought = "Apps"
+is_focused = true
 run_functions = true
 
-[node name="Links" type="Spatial" parent="Thought_Space"]
+[node name="Text" parent="Projects/Thought" index="0"]
+text = "Projects"
 
-[node name="LineRenderer" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 5 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Combine"
-link_color = Color( 0.094118, 0.768627, 0.117647, 0.533333 )
+[node name="Sphere Shape" parent="Projects/Bubble" index="0"]
+material_override = SubResource( 141 )
 
-[node name="LineRenderer2" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 6 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Collections"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer3" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 7 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Layouts"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer4" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 8 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Focus"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer5" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 9 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Notes"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer6" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 10 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Brain Storm"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer7" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 11 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Search"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer8" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 12 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Node"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer9" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 13 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Select"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer10" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 14 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Input"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer11" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 15 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Whiteboard"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer12" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 16 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Auto Position"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer13" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 17 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "MindMap"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer14" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 18 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Definition"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer15" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 19 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Properties"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer16" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 20 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Split"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer17" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 21 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Thought Stream"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer18" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 22 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Shape"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer19" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 23 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Brain"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer20" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 24 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Output"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer21" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 25 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Title"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer22" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 26 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Annotations"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer23" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 27 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Mind"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer24" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 28 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Color"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer25" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 29 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "XR"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer26" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 30 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Thinking"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer27" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 31 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Thought Space"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer28" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 32 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Dictionary"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer29" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 33 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "3D"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer30" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 34 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "User Interface"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer31" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 35 )
-script = ExtResource( 5 )
-link1 = "Thought Bubbles"
-link2 = "Thought Process"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer32" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 36 )
-script = ExtResource( 5 )
-link1 = "XR"
-link2 = "Rift S"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer33" type="ImmediateGeometry" parent="Thought_Space/Links" instance=ExtResource( 6 )]
-material_override = SubResource( 37 )
-script = ExtResource( 5 )
-link1 = "XR"
-link2 = "Headsets"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Thought Bubbles" type="Spatial" parent="Thought_Space"]
-
-[node name="Thought Bubbles" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.401369, 4.55689, 0.570052 )
+[node name="Star System" type="Spatial" parent="Projects/Space" index="0" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.462735, -2.64817, 1.93714 )
 script = ExtResource( 1 )
-child_thoughts = [ "Combine", "Collections", "Layouts", "Focus", "Notes", "Brain Storm", "Search", "Node", "Select", "Input", "Whiteboard", "Auto Position", "MindMap", "Definition", "Properties", "Split", "Thought Stream", "Shape", "Brain", "Output", "Title", "Annotations", "Mind", "Color", "XR", "Thinking", "Thought Space", "Dictionary", "3D", "User Interface", "Thought Process", "Rift S", "Headsets" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Combine" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1.092, 3.182 )
+[node name="Cyber Ship" type="Spatial" parent="Projects/Space" index="1" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.148286, -2.41568, 3.54501 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.094118, 0.768627, 0.117647, 0.533333 )
 
-[node name="Collections" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.53956, 0.754042, 9.31024 )
+[node name="MyHome20" type="Spatial" parent="Projects/Space" index="2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54682, -2.41568, -2.48716 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Layouts" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.49327, -0.213738, -0.174594 )
+[node name="Player Controller" type="Spatial" parent="Projects/Space" index="3" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.31834, -2.41568, 0.836025 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Focus" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.83207, 0.250671, 0.603747 )
+[node name="Brainstorm" type="Spatial" parent="Projects/Space" index="4" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.55453, -2.41568, 3.21799 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Notes" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.74139, 1.93827, 2.24034 )
+[node name="Thought Bubbles" type="Spatial" parent="Projects/Space" index="5" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04101, -2.41568, -1.78325 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Brain Storm" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.857879, 3.61344, -2.03716 )
+[node name="Cyber Space" type="Spatial" parent="Projects/Space" index="6" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.91928, -3.81282 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Search" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.44265, -2.24389, -1.28913 )
+[node name="BCI" type="Spatial" parent="Projects/Space" index="7" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.497122, -3.01108, -3.93583 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Node" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26523, 1.6281, -1.02185 )
+[node name="Recording System" type="Spatial" parent="Projects/Space" index="8" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.09173, -2.38198, -0.816056 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Select" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44346, 2.62989, -5.77092 )
+[node name="Wood Carving" type="Spatial" parent="Projects/Space" index="9" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.44141, -6.51219, 5.3741 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Input" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.32526, 3.291, 4.55694 )
+[node name="XR" type="Spatial" parent="Projects/Space" index="10" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0364, -4.70176, 5.91564 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Whiteboard" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.88998, -2.29751, 3.35332 )
+[node name="Apps" type="Spatial" parent="Projects/Space" index="11" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.83087, -2.66274, 6.29585 )
 script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
-[node name="Auto Position" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.41708, 1.80454, -7.08885 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+[connection signal="renamed" from="Projects/Space/Star System" to="Projects/Space/Star System" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Cyber Ship" to="Projects/Space/Cyber Ship" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/MyHome20" to="Projects/Space/MyHome20" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Player Controller" to="Projects/Space/Player Controller" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Brainstorm" to="Projects/Space/Brainstorm" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Thought Bubbles" to="Projects/Space/Thought Bubbles" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Cyber Space" to="Projects/Space/Cyber Space" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/BCI" to="Projects/Space/BCI" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Recording System" to="Projects/Space/Recording System" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Wood Carving" to="Projects/Space/Wood Carving" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/XR" to="Projects/Space/XR" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/Apps" to="Projects/Space/Apps" method="_on_renamed"]
 
-[node name="MindMap" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.686564, -2.48919, -3.69162 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Definition" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.31523, 2.49941, -4.25765 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Properties" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.62111, 2.50415, -3.54457 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Split" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.077, 2.004, 4.463 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Thought Stream" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.45584, -0.103856, 6.72327 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Shape" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.13748, 1.84337, 7.72873 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Brain" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.325453, -0.218832, 1.81995 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Output" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.94347, -0.823837, -2.12426 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Title" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.84675, -1.19018, 4.80082 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Annotations" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1902, 0.303403, 8.65651 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Mind" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.50953, 0.891801, -5.3249 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Color" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.471921, 2.37355, 6.2355 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="XR" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.73355, 0.122147, -4.35507 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-child_thoughts = [ "Rift S", "Headsets" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Thinking" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.22366, 1.13957, 0.633084 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Thought Space" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.99276, -1.52998, 2.78566 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Dictionary" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833957, 2.89576, -8.5698 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="3D" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.49384, -1.4886, -6.52592 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="User Interface" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.70661, 0.576457, -2.67645 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Thought Process" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.84318, 3.79741, 3.7872 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Rift S" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4946, -3.97829, -2.73715 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles", "XR", "Headsets" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="Headsets" type="Spatial" parent="Thought_Space/Thought Bubbles" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.77492, -1.16217, -2.60988 )
-script = ExtResource( 1 )
-parent_thoughts = [ "Thought Bubbles", "XR" ]
-child_thoughts = [ "Rift S" ]
-bubbleColor = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+[editable path="Projects"]

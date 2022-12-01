@@ -13,17 +13,15 @@ var path = []
 # Called when the node enters the scene tree for the first time.
 	
 func _enter_tree():
-	mat.flags_unshaded = true
-	mat.flags_use_point_size = true
-	mat.albedo_color = link_color
+	print(bubble1)
 	
 func initialize():
-	link_color = bubble2.bubbleColor
+	link_color = bubble2.bubble_color
 	set_process_input(true)
 	mat.flags_unshaded = true
 	mat.flags_use_point_size = true
 	mat.albedo_color = link_color
-	mat.albedo_color = bubble2.bubbleColor
+	mat.albedo_color = bubble2.bubble_color
 	link1 = str(bubble1.get_name())
 	link2 = str(bubble2.get_name())
 
@@ -31,8 +29,8 @@ func _process(_delta):
 	if bubble1 == null or bubble2 == null:
 		return
 	path.clear()
-	path.append(bubble1.transform.origin) 
-	path.append(bubble2.transform.origin)
+	path.append(bubble1.global_transform.origin) 
+	path.append(bubble2.global_transform.origin)
 	draw_path(path)
 
 func draw_path(path_array):
