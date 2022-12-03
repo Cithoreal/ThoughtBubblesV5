@@ -220,15 +220,24 @@ func process_links():
 	for i in range(1, len(parent_thoughts)):
 		ordered_thoughts.append([])
 	
+	#How many of my parent thoughts does each thought share as child thoughts?
+	#If a parent thought's child thoughts include 0 of my own parent thoughts
+	#That means it is a direct parent of mine, and I wish to render a line to it
 	for i in range(1, len(parent_thoughts)):
+		var shared_count = 0
 		var parent_thought_1 = get_parent().get_parent().get_node(parent_thoughts[i])
-		ordered_thoughts[len(parent_thought_1.get_child(1).parent_thoughts) - 1].append(parent_thought_1.get_name())
+		for n in range(1, len(parent_thoughts)):
+			
+				var parent_thought_2 = get_parent().get_parent().get_node(parent_thoughts[n])
+				if (parent_thought_1.get_name() != parent_thought_2.get_name() && parent_thought_1.get_child(1).child_thoughts.find(parent_thought_2.get_name()) != -1):
+					shared_count += 1
+
+					
+		ordered_thoughts[shared_count].append(parent_thought_1.get_name())
+	
 	var output_thoughts = []
-	for parents in ordered_thoughts:
-		if (len(parents) > 0):
-			output_thoughts.clear()
-			for parent in parents:
-				output_thoughts.append(get_parent().get_parent().get_node(parent))
+	for parent in ordered_thoughts[0]:
+		output_thoughts.append(get_parent().get_parent().get_node(parent))
 	return output_thoughts
 
 func clear_links():
