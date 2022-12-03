@@ -11,6 +11,7 @@ export(bool) var link_new_thought setget _on_new_thought_button
 #Space properties
 export(bool) var load_space setget _on_load_space
 export(bool) var save_space setget _on_save_thoughts
+export(bool) var clear_space setget _on_clear_space
 
 export(bool) var is_focused
 
@@ -40,12 +41,14 @@ export(bool) var run_functions = false
 
 func _enter_tree():
 	get_child(0).set_thought(get_name())
+	run_functions = true
 
 func _on_renamed():
 	get_child(0).set_thought(get_name())
 
 func _on_load_space(_value):
 	if (run_functions):
+		print(str(Time.get_time_string_from_system()) + ": Starting Load")
 		get_child(2).load_space()
 
 func _on_set_color(_value):
@@ -60,9 +63,13 @@ func _on_save_thoughts(_value):
 func _on_new_thought_button(_value):
 	if (run_functions && new_thought != ""):
 		if (is_focused):
-			get_child(2).create_and_link_new_thought(new_thought)
+			get_child(2).new_thought_in_space(new_thought)
 		else:
-			get_child(1).create_new_thought(new_thought)
-			
+			get_child(1).new_linked_thought(new_thought)
+
+func _on_clear_space(_value):
+	if (run_functions):
+		get_child(2).clear_scene()
+	
 func initialize():
 	get_child(1).initialize()

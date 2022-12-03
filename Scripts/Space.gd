@@ -20,7 +20,9 @@ func load_space():
 	#Add ability to intersect or union with other thought spaces in the scene
 	#Child thought spaces intersect with their parents
 	#Child thought spaces can at any point be "Expanded" to union instead
+	print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
 	OS.execute(MB_to_godot_path, [get_parent().get_name(), "|Thought|"], true, output)
+	print(str(Time.get_time_string_from_system()) + ": Thought Space after Execute()")
 	process_thoughts(output)
 
 func save():
@@ -34,9 +36,8 @@ func save():
 #Prep the scene to be loaded with new thoughts
 func clear_scene():
 	emit_signal("clear_thoughts")
-	for link in get_viewport().get_child(0).get_node("Links").get_children():
-		link.free()
 	for node in get_children():
+		node.get_child(1).clear_links()
 		node.free()
 
 #Use the text retrieved from _start_recall to retrieve thoughts and thought properties
@@ -72,10 +73,22 @@ func create_and_link_new_thought(thought_text, linking_thoughts):
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
-		for thought in linking_thoughts:
-			if (get_child(1).get_node(thought).child_thoughts.find(new_bubble.get_name()) == -1):
-				get_child(1).get_node(thought).child_thoughts.append(new_bubble.get_name())
-			if (new_bubble.parent_thoughts.find(thought) == -1):
-				new_bubble.parent_thoughts.append(thought)
-		new_bubble.load_link_nodes()
 		
+		
+		for thought in linking_thoughts:
+			if (thought != get_parent().get_name()):
+				if (get_node(thought).get_child(1).child_thoughts.find(new_bubble.get_name()) == -1):
+					get_node(thought).get_child(1).child_thoughts.append(new_bubble.get_name())
+				if (new_bubble.get_child(1).parent_thoughts.find(thought) == -1):
+					new_bubble.get_child(1).parent_thoughts.append(thought)
+				
+		new_bubble.get_child(1).load_link_nodes()
+
+func new_thought_in_space(thought_text):
+	if thought_text != "":
+		var new_bubble = thought_scene.instance()
+		new_bubble.set_name(thought_text)
+		add_child(new_bubble)
+		new_bubble.set_owner(get_viewport().get_child(0))
+		new_bubble.initialize()
+		new_bubble.get_child(1).load_link_nodes()

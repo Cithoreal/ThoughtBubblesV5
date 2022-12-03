@@ -23,6 +23,7 @@ radius = 0.633015
 
 [node name="Thought Bubble Interface" type="Spatial"]
 script = ExtResource( 1 )
+run_functions = true
 
 [node name="Thought" type="Spatial" parent="."]
 script = ExtResource( 4 )
@@ -34,7 +35,7 @@ double_sided = false
 alpha_scissor_threshold = 0.0
 render_priority = 2
 outline_render_priority = 1
-text = "Thought"
+text = "Thought Bubble Interface"
 font = ExtResource( 2 )
 autowrap = true
 width = 123.0
@@ -57,5 +58,7 @@ shape = SubResource( 4 )
 
 [node name="Space" type="Spatial" parent="."]
 script = ExtResource( 3 )
+
+[node name="Links" type="Node" parent="."]
 
 [connection signal="renamed" from="." to="." method="_on_renamed"]

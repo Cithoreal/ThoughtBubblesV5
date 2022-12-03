@@ -13,17 +13,24 @@ var path = []
 # Called when the node enters the scene tree for the first time.
 	
 func _enter_tree():
-	print(bubble1)
+	if (link1 != "" && get_parent().get_parent().get_child(2).find_node(link1)):
+		bubble1 = get_parent().get_parent().get_child(2).get_node(link1)
+	else:
+		bubble1 = get_parent().get_parent().get_parent()
+	if (link2 != ""):
+		bubble2 = get_parent().get_parent().get_child(2).get_node(link2)
+		initialize()
 	
 func initialize():
-	link_color = bubble2.bubble_color
-	set_process_input(true)
-	mat.flags_unshaded = true
-	mat.flags_use_point_size = true
-	mat.albedo_color = link_color
-	mat.albedo_color = bubble2.bubble_color
-	link1 = str(bubble1.get_name())
-	link2 = str(bubble2.get_name())
+	if (bubble2 != null):
+		link_color = bubble2.bubble_color
+		set_process_input(true)
+		mat.flags_unshaded = true
+		mat.flags_use_point_size = true
+		mat.albedo_color = link_color
+		mat.albedo_color = bubble2.bubble_color
+		link1 = str(bubble1.get_name())
+		link2 = str(bubble2.get_name())
 
 func _process(_delta):
 	if bubble1 == null or bubble2 == null:

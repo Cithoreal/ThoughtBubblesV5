@@ -4,20 +4,20 @@ extends Spatial
 export(Array, String) var parent_thoughts
 export(Array, String) var child_thoughts  
 export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-var link_node : ImmediateGeometry
 
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var link_scene = load("res://LineRenderer.tscn")
 var mat = SpatialMaterial.new()
 
+# ----------------------- INITIATION ----------------------- #
 func _enter_tree():
 	if (get_parent().get_parent().get_name() != get_viewport().get_child(0).get_name()):
 		get_parent().get_parent().connect("save_thoughts" , self, "save_thought")
 		get_parent().get_parent().connect("load_parents", self, "load_parents")
 		get_parent().get_parent().connect("load_links", self, "load_link_nodes")
 	prepare_material()
-	
+
 func prepare_material():
 	bubble_color = get_child(0).material.albedo_color
 	mat.flags_unshaded = true
@@ -37,12 +37,15 @@ func initialize():
 	load_thought_properties()
 	#Lookup self in the memory base, exit if doesn't already exist
 	#If it does exist, collect all properties/meta values and apply them to self
-
+# ----------------------- Loading ----------------------- #
 func load_thought_properties():
-	print("Loading " + get_parent().get_name())
+	print(str(Time.get_time_string_from_system()) + ": Loading " + get_parent().get_name())
 	load_position()
+	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Position")
 	load_color()
+	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Color")
 	load_links()
+	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Links")
 
 func load_position():
 	var x = ""
@@ -77,7 +80,7 @@ func load_color():
 
 func load_links():
 	var output = []
-	OS.execute(MB_to_godot_path, [get_parent().get_name(), "|Link|"], true, output)
+	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|Link|"], true, output)
 	for element in process_mb_output(output):
 		child_thoughts.append(element)
 
@@ -85,32 +88,16 @@ func load_parents():
 	for link in child_thoughts:
 		load_parent_links(link)
 
-#Runs on signal from thought space after all thoughts have been loaded into the scene
-func load_link_nodes():
-	if (len(parent_thoughts) > 0):
-		var new_link_node = link_scene.instance()
-		get_viewport().get_child(0).get_node("Links").add_child(new_link_node)
-		#print(str(self) + " " + str(len(parent_thoughts)-1))
-		if (len(parent_thoughts) == 1):
-			new_link_node.bubble1 = get_parent().get_parent().get_parent()
-		else: 
-			new_link_node.bubble1 = get_parent().get_parent().get_node(parent_thoughts[len(parent_thoughts)-1])
-		new_link_node.bubble2 = get_parent()
-		new_link_node.set_owner(get_viewport().get_child(0))
-		new_link_node.initialize()
-		if (link_node != null):
-			link_node.free()
-		link_node = new_link_node
-
 func load_parent_links(link_to):
 	if (get_parent().get_parent().get_node(link_to).get_child(1).parent_thoughts.find(get_parent().get_name()) == -1):
+		print("test")
 		get_parent().get_parent().get_node(link_to).get_child(1).parent_thoughts.append(get_parent().get_name())
-		
 
 func get_latest_bubble_property_value(property, element):
 	var output = []
 	var timestamp = ""
 	#Add further thought context ability to this property value command
+	print(get_parent().get_name())
 	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
 	output = process_mb_output(output)
 	if (str(output) != "[]"):
@@ -123,7 +110,7 @@ func get_latest_bubble_property_value(property, element):
 	else:
 		return null
 	
-
+# ----------------------- Saving ----------------------- #
 	
 func save_thought(timestamp):
 	save_name(timestamp)
@@ -186,16 +173,66 @@ func process_mb_output(output):
 		if (element != "[]"):
 			text_array.append(element)
 	return text_array
+	
+# ----------------------- Linking ----------------------- #
 
-func create_new_thought(new_thought):
+func new_linked_thought(new_thought):
 	if (child_thoughts.find(new_thought) == -1):
-		if (get_parent().get_node(new_thought) == null):
-			var thoughts = [get_parent().get_parent().thought_collection, get_parent().get_name()]
+		if (get_parent().get_parent().find_node(new_thought) == null):
+			var thoughts = []
+			for thought in parent_thoughts:
+				thoughts.append(thought)
+			thoughts.append(get_parent().get_name())
 			print("Creating and linking " + new_thought)
 			get_parent().get_parent().create_and_link_new_thought(new_thought, thoughts)
 		else:
 			child_thoughts.append(new_thought)
 			load_parent_links(new_thought)
-			get_parent().get_node(new_thought).load_link_nodes()
-		print("Link to " + str(get_parent().get_node(new_thought)))
+			get_parent().get_parent().get_node(new_thought).get_child(1).load_link_nodes()
+		print("Link to " + str(get_parent().get_parent().get_node(new_thought)))
+
+#Runs on signal from thought space after all thoughts have been loaded into the scene
+func load_link_nodes():
+	#clear existing link renderers
+	for link in get_parent().get_child(3).get_children():
+		link.free()
+	print("Loading Links")
+	var linked_nodes = process_links()
+	if (len(linked_nodes)>0):
+		for node in process_links():
+			var new_link_node = link_scene.instance()
+			get_parent().get_child(3).add_child(new_link_node)
+			#print(str(self) + " " + str(len(parent_thoughts)-1))
+			new_link_node.bubble1 = node
+			new_link_node.bubble2 = get_parent()
+			new_link_node.set_owner(get_viewport().get_child(0))
+			new_link_node.initialize()
+
+func process_links():
+	if (len(parent_thoughts) <= 1):
+		#Just render link to the thought space owner
+		print(get_parent())
+		return [get_parent().get_parent().get_parent()]
+	
+	var ordered_thoughts = []
+	# Don't know how to initiate lists of specified sizes in gdscript
+	# and too lazy to look it up when I can just do this
+	for i in range(1, len(parent_thoughts)):
+		ordered_thoughts.append([])
+	
+	for i in range(1, len(parent_thoughts)):
+		var parent_thought_1 = get_parent().get_parent().get_node(parent_thoughts[i])
+		ordered_thoughts[len(parent_thought_1.get_child(1).parent_thoughts) - 1].append(parent_thought_1.get_name())
+	var output_thoughts = []
+	for parents in ordered_thoughts:
+		if (len(parents) > 0):
+			output_thoughts.clear()
+			for parent in parents:
+				output_thoughts.append(get_parent().get_parent().get_node(parent))
+	return output_thoughts
+
+func clear_links():
+	for link in get_parent().get_child(3).get_children():
+		link.free()
+
 

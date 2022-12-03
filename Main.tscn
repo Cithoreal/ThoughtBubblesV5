@@ -1,92 +1,48 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
 [ext_resource path="res://Scripts/LineRenderer.gd" type="Script" id=3]
 [ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scripts/Space.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/Bubble.gd" type="Script" id=6]
+[ext_resource path="res://Scripts/Thought.gd" type="Script" id=7]
+[ext_resource path="res://Font/LiberationSans-Regular-Font.tres" type="DynamicFont" id=8]
 [ext_resource path="res://LineRenderer.tscn" type="PackedScene" id=9]
 
-[sub_resource type="SpatialMaterial" id=142]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=143]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=144]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=145]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=146]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=147]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=148]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=149]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=150]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=151]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=152]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=153]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="ProceduralSky" id=3]
-sky_top_color = Color( 0.0235294, 0.113725, 0.211765, 1 )
-sky_horizon_color = Color( 0.00784314, 0.0588235, 0.101961, 1 )
-sky_curve = 0.229421
-ground_bottom_color = Color( 0.0235294, 0.113725, 0.211765, 1 )
-ground_horizon_color = Color( 0.00784314, 0.0588235, 0.101961, 1 )
-ground_curve = 0.20393
-sun_latitude = -105.0
-texture_size = 0
-
-[sub_resource type="Environment" id=4]
-background_mode = 2
-background_sky = SubResource( 3 )
-background_color = Color( 0.0509804, 0.0509804, 0.0509804, 1 )
-ambient_light_color = Color( 0.223529, 0.223529, 0.223529, 1 )
-fog_depth_end = 37.5
-glow_enabled = true
-
-[sub_resource type="SpatialMaterial" id=141]
+[sub_resource type="SpatialMaterial" id=1]
 flags_transparent = true
 flags_unshaded = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=5]
+flags_transparent = true
+flags_unshaded = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+flags_unshaded = true
+flags_do_not_receive_shadows = true
+params_cull_mode = 1
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SphereShape" id=4]
+radius = 0.633015
+
+[sub_resource type="SpatialMaterial" id=6]
+flags_unshaded = true
+flags_use_point_size = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=7]
+flags_transparent = true
+flags_unshaded = true
+albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[sub_resource type="SpatialMaterial" id=8]
+flags_unshaded = true
+flags_use_point_size = true
 albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
 [node name="scene" type="Spatial"]
@@ -102,170 +58,151 @@ __meta__ = {
 - Breadcrumb trail back and forth"
 }
 
-[node name="Links" type="Spatial" parent="."]
-
-[node name="LineRenderer" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 142 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Star System"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer2" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 143 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Cyber Ship"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer3" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 144 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "MyHome20"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer4" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 145 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Player Controller"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer5" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 146 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Brainstorm"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer6" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 147 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Thought Bubbles"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer7" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 148 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Cyber Space"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer8" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 149 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "BCI"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer9" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 150 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Recording System"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer10" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 151 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Wood Carving"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer11" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 152 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "XR"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="LineRenderer12" type="ImmediateGeometry" parent="Links" instance=ExtResource( 9 )]
-material_override = SubResource( 153 )
-script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "Apps"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource( 4 )
-
 [node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.07589, -4.53772, -5.13586 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.552051, -0.302725, 11.4227 )
 script = ExtResource( 2 )
 offset = Vector3( -0.633, 0.315, 0 )
 
 [node name="Projects" parent="." instance=ExtResource( 4 )]
-new_thought = "Apps"
+new_thought = "1"
 is_focused = true
-run_functions = true
 
 [node name="Text" parent="Projects/Thought" index="0"]
 text = "Projects"
 
+[node name="Bubble" parent="Projects" index="1"]
+child_thoughts = [ "2" ]
+
 [node name="Sphere Shape" parent="Projects/Bubble" index="0"]
-material_override = SubResource( 141 )
+material_override = SubResource( 1 )
 
 [node name="Star System" type="Spatial" parent="Projects/Space" index="0" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.462735, -2.64817, 1.93714 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61631, -2.90326, 0 )
 script = ExtResource( 1 )
+run_functions = true
 
 [node name="Cyber Ship" type="Spatial" parent="Projects/Space" index="1" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.148286, -2.41568, 3.54501 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86571, -3.18003, 0 )
 script = ExtResource( 1 )
+run_functions = true
 
-[node name="MyHome20" type="Spatial" parent="Projects/Space" index="2" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54682, -2.41568, -2.48716 )
+[node name="Cyber Space" type="Spatial" parent="Projects/Space" index="2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.44238, -1.21067, 0 )
 script = ExtResource( 1 )
+run_functions = true
 
-[node name="Player Controller" type="Spatial" parent="Projects/Space" index="3" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.31834, -2.41568, 0.836025 )
+[node name="1" type="Spatial" parent="Projects/Space" index="3" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.05462, 0 )
 script = ExtResource( 1 )
+new_thought = "2"
+run_functions = true
 
-[node name="Brainstorm" type="Spatial" parent="Projects/Space" index="4" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.55453, -2.41568, 3.21799 )
+[node name="2" type="Spatial" parent="Projects/Space" index="4" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.00826, 0 )
 script = ExtResource( 1 )
+new_thought = "3"
+run_functions = true
 
-[node name="Thought Bubbles" type="Spatial" parent="Projects/Space" index="5" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04101, -2.41568, -1.78325 )
+[node name="3" parent="Projects/Space" index="5" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -8.24348, 0 )
 script = ExtResource( 1 )
+new_thought = "4"
+run_functions = true
 
-[node name="Cyber Space" type="Spatial" parent="Projects/Space" index="6" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.91928, -3.81282 )
-script = ExtResource( 1 )
+[node name="Thought" parent="Projects/Space/3" index="0"]
+script = ExtResource( 7 )
 
-[node name="BCI" type="Spatial" parent="Projects/Space" index="7" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.497122, -3.01108, -3.93583 )
-script = ExtResource( 1 )
+[node name="Text" parent="Projects/Space/3/Thought" index="0"]
+cast_shadow = 0
+billboard = 1
+double_sided = false
+alpha_scissor_threshold = 0.0
+render_priority = 2
+outline_render_priority = 1
+text = "3"
+font = ExtResource( 8 )
+autowrap = true
+width = 123.0
 
-[node name="Recording System" type="Spatial" parent="Projects/Space" index="8" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.09173, -2.38198, -0.816056 )
-script = ExtResource( 1 )
+[node name="Bubble" parent="Projects/Space/3" index="1"]
+script = ExtResource( 6 )
+parent_thoughts = [ "Projects", "1", "2" ]
+child_thoughts = [ "4" ]
 
-[node name="Wood Carving" type="Spatial" parent="Projects/Space" index="9" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.44141, -6.51219, 5.3741 )
-script = ExtResource( 1 )
+[node name="Sphere Shape" parent="Projects/Space/3/Bubble" index="0"]
+material_override = SubResource( 5 )
+invert_faces = true
+radius = 0.632312
+radial_segments = 16
+rings = 16
+material = SubResource( 3 )
 
-[node name="XR" type="Spatial" parent="Projects/Space" index="10" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0364, -4.70176, 5.91564 )
-script = ExtResource( 1 )
+[node name="CollisionShape" parent="Projects/Space/3/Bubble/Area" index="0"]
+shape = SubResource( 4 )
 
-[node name="Apps" type="Spatial" parent="Projects/Space" index="11" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.83087, -2.66274, 6.29585 )
+[node name="Space" parent="Projects/Space/3" index="2"]
+script = ExtResource( 5 )
+
+[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/3/Links" index="0" instance=ExtResource( 9 )]
+material_override = SubResource( 6 )
+script = ExtResource( 3 )
+link1 = "2"
+link2 = "3"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+
+[node name="4" parent="Projects/Space" index="6" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -10.9682, 0 )
 script = ExtResource( 1 )
+run_functions = true
+
+[node name="Thought" parent="Projects/Space/4" index="0"]
+script = ExtResource( 7 )
+
+[node name="Text" parent="Projects/Space/4/Thought" index="0"]
+cast_shadow = 0
+billboard = 1
+double_sided = false
+alpha_scissor_threshold = 0.0
+render_priority = 2
+outline_render_priority = 1
+text = "4"
+font = ExtResource( 8 )
+autowrap = true
+width = 123.0
+
+[node name="Bubble" parent="Projects/Space/4" index="1"]
+script = ExtResource( 6 )
+parent_thoughts = [ "Projects", "1", "2", "3" ]
+
+[node name="Sphere Shape" parent="Projects/Space/4/Bubble" index="0"]
+material_override = SubResource( 7 )
+invert_faces = true
+radius = 0.632312
+radial_segments = 16
+rings = 16
+material = SubResource( 3 )
+
+[node name="CollisionShape" parent="Projects/Space/4/Bubble/Area" index="0"]
+shape = SubResource( 4 )
+
+[node name="Space" parent="Projects/Space/4" index="2"]
+script = ExtResource( 5 )
+
+[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/4/Links" index="0" instance=ExtResource( 9 )]
+material_override = SubResource( 8 )
+script = ExtResource( 3 )
+link1 = "3"
+link2 = "4"
+link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
 [connection signal="renamed" from="Projects/Space/Star System" to="Projects/Space/Star System" method="_on_renamed"]
 [connection signal="renamed" from="Projects/Space/Cyber Ship" to="Projects/Space/Cyber Ship" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/MyHome20" to="Projects/Space/MyHome20" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Player Controller" to="Projects/Space/Player Controller" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Brainstorm" to="Projects/Space/Brainstorm" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Thought Bubbles" to="Projects/Space/Thought Bubbles" method="_on_renamed"]
 [connection signal="renamed" from="Projects/Space/Cyber Space" to="Projects/Space/Cyber Space" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/BCI" to="Projects/Space/BCI" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Recording System" to="Projects/Space/Recording System" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Wood Carving" to="Projects/Space/Wood Carving" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/XR" to="Projects/Space/XR" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Apps" to="Projects/Space/Apps" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/1" to="Projects/Space/1" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/2" to="Projects/Space/2" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/3" to="Projects/Space/3" method="_on_renamed"]
+[connection signal="renamed" from="Projects/Space/4" to="Projects/Space/4" method="_on_renamed"]
 
 [editable path="Projects"]
+[editable path="Projects/Space/3"]
+[editable path="Projects/Space/4"]
