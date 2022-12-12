@@ -17,24 +17,30 @@ export(bool) var is_focused
 
 export(bool) var run_functions = false
 
-#var timestamp_list = [1.2412, 41.2312, 151.1123]
-#var my_property = 1 setget _set_timestamp
-#export var current_timestamp = ""
+var timestamp_list = []
+var my_property = 1 setget _set_timestamp
+export var current_timestamp = ""
 
-#func _get_property_list():
-#	var properties = []
+func _get_property_list():
+	var properties = []
 	# Same as "export(int) var my_property"
-#	properties.append({
-#		name = "my_property",
-#		type = TYPE_INT,
-#		hint = 1,
-#		hint_string = "0," + str(len(timestamp_list))
-#	})
-#	return properties
+	properties.append({
+		name = "my_property",
+		type = TYPE_INT,
+		hint = 1,
+		hint_string = "1," + str(len(timestamp_list))
+	})
+	return properties
 
-#func _set_timestamp(_value):
-#	#print(_value)
-#	current_timestamp = str(timestamp_list[_value])
+func _set_timestamp(_value):
+	get_child(2).load_timestamps()
+	current_timestamp = len(timestamp_list)
+	#print(_value)
+	my_property = _value
+	if (len(timestamp_list) > 0):
+		current_timestamp = str(timestamp_list[_value - 1])
+		#print(current_timestamp)
+		
 
 #export()
 #export(bool) var load_links setget load_link_nodes
@@ -48,7 +54,7 @@ func _on_renamed():
 
 func _on_load_space(_value):
 	if (run_functions):
-		print(str(Time.get_time_string_from_system()) + ": Starting Load")
+		#print(str(Time.get_time_string_from_system()) + ": Starting Load")
 		get_child(2).load_space()
 
 func _on_set_color(_value):
@@ -73,3 +79,11 @@ func _on_clear_space(_value):
 	
 func initialize():
 	get_child(1).initialize()
+	
+func load_timestamps(timestamps):
+	#timestamp_list.append_array(timestamps)
+	timestamp_list.clear()
+	
+	for i in timestamps:
+		#print(i)
+		timestamp_list.append(i)

@@ -34,43 +34,51 @@ func set_color(color):
 func initialize():
 	get_parent().get_child(0).set_thought(get_parent().get_name())
 	parent_thoughts.append(get_parent().get_parent().get_parent().get_name())
-	load_thought_properties()
 	#Lookup self in the memory base, exit if doesn't already exist
 	#If it does exist, collect all properties/meta values and apply them to self
 # ----------------------- Loading ----------------------- #
-func load_thought_properties():
+func load_thought_properties(timestamp):
+	
+	
 	print(str(Time.get_time_string_from_system()) + ": Loading " + get_parent().get_name())
-	load_position()
+	load_position(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Position")
-	load_color()
+	load_color(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Color")
-	load_links()
+	load_links(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Links")
 
-func load_position():
+func load_position(timestamp):
 	var x = ""
 	var y = ""
 	var z = ""
-	x = get_latest_bubble_property_value("Position" ,"x")
-	y = get_latest_bubble_property_value("Position", "y")
-	z = get_latest_bubble_property_value("Position", "z")
+	print(get_parent().get_name() + " loading position")
+	x = get_bubble_property("Position" ,"x", timestamp)
+	y = get_bubble_property("Position", "y", timestamp)
+	z = get_bubble_property("Position", "z", timestamp)
 	#print(get_parent().get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
+	if (x == null):
+		x = 0
+	if (y == null):
+		y = 0
+	if (z == null):
+		z = 0
 	if (x == null || y == null || z == null):
 		pass
 		# Set to cursor position
 	else:
 		get_parent().transform.origin = Vector3(float(x),float(y),float(z))
 	
-func load_color():
+func load_color(timestamp):
 	var r = ""
 	var g = ""
 	var b = ""
 	var a = ""
 	
-	r = get_latest_bubble_property_value("Color", "r")
-	g = get_latest_bubble_property_value("Color", "g")
-	b = get_latest_bubble_property_value("Color", "b")
-	a = get_latest_bubble_property_value("Color", "a")
+	r = get_bubble_property("Color", "r", timestamp)
+	g = get_bubble_property("Color", "g", timestamp)
+	b = get_bubble_property("Color", "b", timestamp)
+	a = get_bubble_property("Color", "a", timestamp)
 	
 	if (r == null || g == null || b == null || a == null):
 		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -78,9 +86,9 @@ func load_color():
 		bubble_color = Color(r,g,b,a)
 	get_child(0).material_override.albedo_color = bubble_color
 
-func load_links():
+func load_links(timestamp):
 	var output = []
-	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|Link|"], true, output)
+	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|Link|", timestamp], true, output)
 	for element in process_mb_output(output):
 		child_thoughts.append(element)
 
@@ -90,26 +98,41 @@ func load_parents():
 
 func load_parent_links(link_to):
 	if (get_parent().get_parent().get_node(link_to).get_child(1).parent_thoughts.find(get_parent().get_name()) == -1):
-		print("test")
 		get_parent().get_parent().get_node(link_to).get_child(1).parent_thoughts.append(get_parent().get_name())
 
 func get_latest_bubble_property_value(property, element):
 	var output = []
 	var timestamp = ""
 	#Add further thought context ability to this property value command
-	print(get_parent().get_name())
+	#print(get_parent().get_name())
 	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
 	output = process_mb_output(output)
 	if (str(output) != "[]"):
 		timestamp = output[len(output)-1]
 		OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
 		if (len(process_mb_output(output)) > 0):
-			return process_mb_output(output)[0]
+			return process_mb_output(output)[len(process_mb_output(output))-1]
 		else:
 			return null
 	else:
 		return null
-	
+
+func get_bubble_property(property,element,timestamp):
+	var output = []
+	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
+	output = process_mb_output(output)
+	for time in output:
+			if (time < timestamp):
+				timestamp = time
+				
+	if (output.find(timestamp) > -1):
+		OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
+		if (len(process_mb_output(output)) > 0):
+			return process_mb_output(output)[len(process_mb_output(output))-1]
+		else:
+			return null
+	else:
+		get_parent().visible = false
 # ----------------------- Saving ----------------------- #
 	
 func save_thought(timestamp):
@@ -154,14 +177,15 @@ func save_color(timestamp):
 	save_bubble_property("Material", "Color", "a", timestamp, str(bubble_color.a))
 
 func save_bubble_property(field, property, element, timestamp, value):
-	if (get_latest_bubble_property_value(property, element) != value):
+	if (get_latest_bubble_property_value(property, element) != value && value != ""):
 		var save_array = ["|Godot|", "|Bubble|", get_parent().get_parent().get_parent().get_name() , get_parent().get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", timestamp, value]
 		#print(lookup_array)
 		OS.execute(godot_to_nodes_path, save_array, false)
 
 func save_links(timestamp):
 	for link in child_thoughts:
-		OS.execute(godot_to_nodes_path, [ "Godot", get_parent().get_name(), "|Link|", str(link).replace("../", "")], false)
+		print(get_parent().get_name() + " saving... " + link)
+		OS.execute(godot_to_nodes_path, [ "|Godot|", get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), get_parent().get_name(), "|Link|", timestamp, str(link).replace("../", "")], false)
 
 func process_mb_output(output):
 	var text = output[0].replace("[(", "")
@@ -184,7 +208,7 @@ func new_linked_thought(new_thought):
 				thoughts.append(thought)
 			thoughts.append(get_parent().get_name())
 			print("Creating and linking " + new_thought)
-			get_parent().get_parent().create_and_link_new_thought(new_thought, thoughts)
+			get_parent().get_parent().create_and_link_new_thought(new_thought, thoughts, global_transform.origin)
 		else:
 			child_thoughts.append(new_thought)
 			load_parent_links(new_thought)
@@ -196,7 +220,7 @@ func load_link_nodes():
 	#clear existing link renderers
 	for link in get_parent().get_child(3).get_children():
 		link.free()
-	print("Loading Links")
+	#print("Loading Links")
 	var linked_nodes = process_links()
 	if (len(linked_nodes)>0):
 		for node in process_links():
@@ -211,7 +235,6 @@ func load_link_nodes():
 func process_links():
 	if (len(parent_thoughts) <= 1):
 		#Just render link to the thought space owner
-		print(get_parent())
 		return [get_parent().get_parent().get_parent()]
 	
 	var ordered_thoughts = []

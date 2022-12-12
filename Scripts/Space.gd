@@ -15,21 +15,29 @@ signal clear_thoughts
 #func _load_links(_value):
 #	emit_signal("load_links")
 
+func load_timestamps():
+	var output = []
+	OS.execute(MB_to_godot_path, [get_parent().get_name(), "|Timestamp|"], true, output)
+	get_parent().load_timestamps(process_mb_output(output))
+	
 func load_space():
 	var output = []
+	
 	#Add ability to intersect or union with other thought spaces in the scene
 	#Child thought spaces intersect with their parents
 	#Child thought spaces can at any point be "Expanded" to union instead
-	print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
+	#print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
 	OS.execute(MB_to_godot_path, [get_parent().get_name(), "|Thought|"], true, output)
-	print(str(Time.get_time_string_from_system()) + ": Thought Space after Execute()")
+	#print(str(Time.get_time_string_from_system()) + ": Thought Space after Execute()")
 	process_thoughts(output)
+	
 
 func save():
 	print("saving thoughts")
 	var timestamp = Time.get_unix_time_from_system()
 	#print(Time.get_datetime_string_from_system(true,true))
-	OS.execute(godot_to_nodes_path, ["|Timestamp|", timestamp], false)
+	OS.execute(godot_to_nodes_path, [get_parent().get_name(), "|Timestamp|", timestamp], false)
+	OS.execute(godot_to_nodes_path, ["|Space|", "|Thought|", get_parent().get_name()], false)
 	emit_signal("save_thoughts", timestamp)
 
 
@@ -43,19 +51,24 @@ func clear_scene():
 #Use the text retrieved from _start_recall to retrieve thoughts and thought properties
 func process_thoughts(text_block):
 	clear_scene()
-	var text = text_block[0].replace("[(", "")
-	text = text.replace(",)]", "")
-	text = text.replace("\n", "")
+
 	#Retrieve an intersect of the thought and "Transform" to recieve the transform numbers
 	print("Creating... " + get_parent().get_name())
-	for i in text.split(",), ("):
-		var linked_node = i.replace("'","")
-		#print("Creating... " + linked_node)
-		if (linked_node != "[]"):
+	for linked_node in process_mb_output(text_block):
 			load_thought(linked_node)
 	emit_signal("load_parents")
 	emit_signal("load_links")
 
+func process_mb_output(output):
+	var text = output[0].replace("[(", "")
+	var text_array = []
+	text = text.replace(",)]", "")
+	text = text.replace("\n", "")
+	for i in text.split(",), ("):
+		var element = i.replace("'","")
+		if (element != "[]"):
+			text_array.append(element)
+	return text_array
 	
 func load_thought(thought_text):
 	if thought_text != "":
@@ -64,15 +77,18 @@ func load_thought(thought_text):
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
+		new_bubble.get_child(1).load_thought_properties(get_parent().current_timestamp)
 		
 
-func create_and_link_new_thought(thought_text, linking_thoughts):
+func create_and_link_new_thought(thought_text, linking_thoughts, position):
 	if thought_text != "":
 		var new_bubble = thought_scene.instance()
 		new_bubble.set_name(thought_text)
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
+		new_bubble.translate(position)
+		new_bubble.translate(Vector3(0,-2,0))
 		
 		
 		for thought in linking_thoughts:
@@ -92,3 +108,5 @@ func new_thought_in_space(thought_text):
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
 		new_bubble.get_child(1).load_link_nodes()
+		new_bubble.translate(Vector3(0,-2,0))
+		

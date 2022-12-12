@@ -1,78 +1,12 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
-[ext_resource path="res://Scripts/LineRenderer.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=3]
 [ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scripts/Space.gd" type="Script" id=5]
-[ext_resource path="res://Scripts/Bubble.gd" type="Script" id=6]
-[ext_resource path="res://Scripts/Thought.gd" type="Script" id=7]
-[ext_resource path="res://Font/LiberationSans-Regular-Font.tres" type="DynamicFont" id=8]
-[ext_resource path="res://LineRenderer.tscn" type="PackedScene" id=9]
 
 [sub_resource type="SpatialMaterial" id=1]
 flags_transparent = true
 flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=10]
-flags_transparent = true
-flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=3]
-flags_transparent = true
-flags_unshaded = true
-flags_do_not_receive_shadows = true
-params_cull_mode = 1
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SphereShape" id=4]
-radius = 0.633015
-
-[sub_resource type="SpatialMaterial" id=11]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=5]
-flags_transparent = true
-flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=9]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=7]
-flags_transparent = true
-flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=8]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=12]
-flags_transparent = true
-flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=13]
-flags_unshaded = true
-flags_use_point_size = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=14]
-flags_transparent = true
-flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[sub_resource type="SpatialMaterial" id=15]
-flags_unshaded = true
-flags_use_point_size = true
 albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
 
 [node name="scene" type="Spatial"]
@@ -85,314 +19,468 @@ __meta__ = {
 -Implement Shape saving and loading
 - Expand and contract thought spaces
 - Enter into Thought spaces
-- Breadcrumb trail back and forth"
+- Breadcrumb trail back and forth
+- Sub Space Focusing
+- Hiding (And view hiding)
+- Load images from links
+- Load documents from links"
 }
 
 [node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.620661, 0.672125, 12.1693 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.74497, 6.0902, -9.89673 )
 script = ExtResource( 2 )
 offset = Vector3( -0.633, 0.315, 0 )
 
-[node name="Projects" parent="." instance=ExtResource( 4 )]
-new_thought = "a"
+[node name="Designing Reality Folder" parent="." instance=ExtResource( 4 )]
+__meta__ = {
+"_editor_description_": "To get timestamps / inspector data to update properly, the script must be updated and saved"
+}
+new_thought = "docx"
 is_focused = true
+current_timestamp = "1670816018.495043"
+my_property = 9
 
-[node name="Text" parent="Projects/Thought" index="0"]
-text = "Projects"
+[node name="Text" parent="Designing Reality Folder/Thought" index="0"]
+text = "Designing Reality Folder"
 
-[node name="Bubble" parent="Projects" index="1"]
+[node name="Bubble" parent="Designing Reality Folder" index="1"]
 child_thoughts = [ "2" ]
 
-[node name="Sphere Shape" parent="Projects/Bubble" index="0"]
+[node name="Sphere Shape" parent="Designing Reality Folder/Bubble" index="0"]
 material_override = SubResource( 1 )
 
-[node name="Star System" type="Spatial" parent="Projects/Space" index="0" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61631, -2.90326, 0 )
-script = ExtResource( 1 )
-run_functions = true
-
-[node name="Cyber Ship" type="Spatial" parent="Projects/Space" index="1" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86571, -3.18003, 0 )
-script = ExtResource( 1 )
-run_functions = true
-
-[node name="Cyber Space" type="Spatial" parent="Projects/Space" index="2" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.44238, -1.21067, 0 )
-script = ExtResource( 1 )
-run_functions = true
-
-[node name="1" parent="Projects/Space" index="3" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.05462, 0 )
-script = ExtResource( 1 )
-new_thought = "2"
-run_functions = true
-
-[node name="Thought" parent="Projects/Space/1" index="0"]
-script = ExtResource( 7 )
-
-[node name="Text" parent="Projects/Space/1/Thought" index="0"]
-cast_shadow = 0
-billboard = 1
-double_sided = false
-alpha_scissor_threshold = 0.0
-render_priority = 2
-outline_render_priority = 1
-text = "1"
-font = ExtResource( 8 )
-autowrap = true
-width = 123.0
-
-[node name="Bubble" parent="Projects/Space/1" index="1"]
-script = ExtResource( 6 )
-parent_thoughts = [ "Projects" ]
-child_thoughts = [ "2", "3", "4" ]
-
-[node name="Sphere Shape" parent="Projects/Space/1/Bubble" index="0"]
-material_override = SubResource( 10 )
-invert_faces = true
-radius = 0.632312
-radial_segments = 16
-rings = 16
-material = SubResource( 3 )
-
-[node name="CollisionShape" parent="Projects/Space/1/Bubble/Area" index="0"]
-shape = SubResource( 4 )
-
-[node name="Space" parent="Projects/Space/1" index="2"]
-script = ExtResource( 5 )
-
-[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/1/Links" index="0" instance=ExtResource( 9 )]
-material_override = SubResource( 11 )
+[node name="Folders" type="Spatial" parent="Designing Reality Folder/Space" index="0" instance=ExtResource( 4 )]
 script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "1"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="2" type="Spatial" parent="Projects/Space" index="4" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.00826, 0 )
-script = ExtResource( 1 )
-new_thought = "b"
 run_functions = true
+my_property = 1
 
-[node name="3" parent="Projects/Space" index="5" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -8.24348, 0 )
-script = ExtResource( 1 )
-new_thought = "4"
-run_functions = true
-
-[node name="Thought" parent="Projects/Space/3" index="0"]
-script = ExtResource( 7 )
-
-[node name="Text" parent="Projects/Space/3/Thought" index="0"]
-cast_shadow = 0
-billboard = 1
-double_sided = false
-alpha_scissor_threshold = 0.0
-render_priority = 2
-outline_render_priority = 1
-text = "3"
-font = ExtResource( 8 )
-autowrap = true
-width = 123.0
-
-[node name="Bubble" parent="Projects/Space/3" index="1"]
-script = ExtResource( 6 )
-parent_thoughts = [ "Projects", "1", "2", "test" ]
-child_thoughts = [ "4" ]
-
-[node name="Sphere Shape" parent="Projects/Space/3/Bubble" index="0"]
-material_override = SubResource( 5 )
-invert_faces = true
-radius = 0.632312
-radial_segments = 16
-rings = 16
-material = SubResource( 3 )
-
-[node name="CollisionShape" parent="Projects/Space/3/Bubble/Area" index="0"]
-shape = SubResource( 4 )
-
-[node name="Space" parent="Projects/Space/3" index="2"]
-script = ExtResource( 5 )
-
-[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/3/Links" index="0" instance=ExtResource( 9 )]
-material_override = SubResource( 9 )
+[node name="An app a week" type="Spatial" parent="Designing Reality Folder/Space" index="1" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5114, -4, -6.44357 )
 script = ExtResource( 3 )
-link1 = "2"
-link2 = "3"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="4" parent="Projects/Space" index="6" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -10.9682, 0 )
-script = ExtResource( 1 )
 run_functions = true
+my_property = 1
 
-[node name="Thought" parent="Projects/Space/4" index="0"]
-script = ExtResource( 7 )
-
-[node name="Text" parent="Projects/Space/4/Thought" index="0"]
-cast_shadow = 0
-billboard = 1
-double_sided = false
-alpha_scissor_threshold = 0.0
-render_priority = 2
-outline_render_priority = 1
-text = "4"
-font = ExtResource( 8 )
-autowrap = true
-width = 123.0
-
-[node name="Bubble" parent="Projects/Space/4" index="1"]
-script = ExtResource( 6 )
-parent_thoughts = [ "Projects", "1", "2", "3" ]
-
-[node name="Sphere Shape" parent="Projects/Space/4/Bubble" index="0"]
-material_override = SubResource( 7 )
-invert_faces = true
-radius = 0.632312
-radial_segments = 16
-rings = 16
-material = SubResource( 3 )
-
-[node name="CollisionShape" parent="Projects/Space/4/Bubble/Area" index="0"]
-shape = SubResource( 4 )
-
-[node name="Space" parent="Projects/Space/4" index="2"]
-script = ExtResource( 5 )
-
-[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/4/Links" index="0" instance=ExtResource( 9 )]
-material_override = SubResource( 8 )
+[node name="Audio Journal Documents" type="Spatial" parent="Designing Reality Folder/Space" index="2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.82495, -4, -8.11775 )
 script = ExtResource( 3 )
-link1 = "3"
-link2 = "4"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="test" type="Spatial" parent="Projects/Space" index="7" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.23821, -5.17376, 0 )
-script = ExtResource( 1 )
-new_thought = "c"
 run_functions = true
+my_property = 1
 
-[node name="a" parent="Projects/Space" index="8" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.22828, -3.73174, 0 )
-script = ExtResource( 1 )
-new_thought = "b"
-run_functions = true
-
-[node name="Thought" parent="Projects/Space/a" index="0"]
-script = ExtResource( 7 )
-
-[node name="Text" parent="Projects/Space/a/Thought" index="0"]
-cast_shadow = 0
-billboard = 1
-double_sided = false
-alpha_scissor_threshold = 0.0
-render_priority = 2
-outline_render_priority = 1
-text = "a"
-font = ExtResource( 8 )
-autowrap = true
-width = 123.0
-
-[node name="Bubble" parent="Projects/Space/a" index="1"]
-script = ExtResource( 6 )
-parent_thoughts = [ "Projects" ]
-child_thoughts = [ "b", "c", "d" ]
-
-[node name="Sphere Shape" parent="Projects/Space/a/Bubble" index="0"]
-material_override = SubResource( 12 )
-invert_faces = true
-radius = 0.632312
-radial_segments = 16
-rings = 16
-material = SubResource( 3 )
-
-[node name="CollisionShape" parent="Projects/Space/a/Bubble/Area" index="0"]
-shape = SubResource( 4 )
-
-[node name="Space" parent="Projects/Space/a" index="2"]
-script = ExtResource( 5 )
-
-[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/a/Links" index="0" instance=ExtResource( 9 )]
-material_override = SubResource( 13 )
+[node name="Calcifer" type="Spatial" parent="Designing Reality Folder/Space" index="3" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1316, -4, -4.73711 )
 script = ExtResource( 3 )
-link1 = "Projects"
-link2 = "a"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="b" type="Spatial" parent="Projects/Space" index="9" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.60967, -7.00717, 0 )
-script = ExtResource( 1 )
-new_thought = "c"
 run_functions = true
+my_property = 1
 
-[node name="c" parent="Projects/Space" index="10" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.62838, -9.46633, 0 )
-script = ExtResource( 1 )
-new_thought = "d"
-run_functions = true
-
-[node name="Thought" parent="Projects/Space/c" index="0"]
-script = ExtResource( 7 )
-
-[node name="Text" parent="Projects/Space/c/Thought" index="0"]
-cast_shadow = 0
-billboard = 1
-double_sided = false
-alpha_scissor_threshold = 0.0
-render_priority = 2
-outline_render_priority = 1
-text = "c"
-font = ExtResource( 8 )
-autowrap = true
-width = 123.0
-
-[node name="Bubble" parent="Projects/Space/c" index="1"]
-script = ExtResource( 6 )
-parent_thoughts = [ "Projects", "a", "b", "test" ]
-child_thoughts = [ "d" ]
-
-[node name="Sphere Shape" parent="Projects/Space/c/Bubble" index="0"]
-material_override = SubResource( 14 )
-invert_faces = true
-radius = 0.632312
-radial_segments = 16
-rings = 16
-material = SubResource( 3 )
-
-[node name="CollisionShape" parent="Projects/Space/c/Bubble/Area" index="0"]
-shape = SubResource( 4 )
-
-[node name="Space" parent="Projects/Space/c" index="2"]
-script = ExtResource( 5 )
-
-[node name="LineRenderer" type="ImmediateGeometry" parent="Projects/Space/c/Links" index="0" instance=ExtResource( 9 )]
-material_override = SubResource( 15 )
+[node name="Design Notes" type="Spatial" parent="Designing Reality Folder/Space" index="4" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.452218, -4, -7.74751 )
 script = ExtResource( 3 )
-link1 = "b"
-link2 = "c"
-link_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
-
-[node name="d" type="Spatial" parent="Projects/Space" index="11" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.71188, -12.3315, 0 )
-script = ExtResource( 1 )
 run_functions = true
+my_property = 1
 
-[connection signal="renamed" from="Projects/Space/Star System" to="Projects/Space/Star System" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Cyber Ship" to="Projects/Space/Cyber Ship" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/Cyber Space" to="Projects/Space/Cyber Space" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/1" to="Projects/Space/1" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/2" to="Projects/Space/2" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/3" to="Projects/Space/3" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/4" to="Projects/Space/4" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/test" to="Projects/Space/test" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/a" to="Projects/Space/a" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/b" to="Projects/Space/b" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/c" to="Projects/Space/c" method="_on_renamed"]
-[connection signal="renamed" from="Projects/Space/d" to="Projects/Space/d" method="_on_renamed"]
+[node name="Learning" type="Spatial" parent="Designing Reality Folder/Space" index="5" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.91714, -4, -2.78498 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
 
-[editable path="Projects"]
-[editable path="Projects/Space/1"]
-[editable path="Projects/Space/3"]
-[editable path="Projects/Space/4"]
-[editable path="Projects/Space/a"]
-[editable path="Projects/Space/c"]
+[node name="Magic System" type="Spatial" parent="Designing Reality Folder/Space" index="6" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.54528, -4, -3.63028 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="My Home" type="Spatial" parent="Designing Reality Folder/Space" index="7" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.51516, -4, -7.93506 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Phone Notes" type="Spatial" parent="Designing Reality Folder/Space" index="8" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.17066, -4, -8.99273 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Project Ideas" type="Spatial" parent="Designing Reality Folder/Space" index="9" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.69289, -4, -7.95299 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Projects" type="Spatial" parent="Designing Reality Folder/Space" index="10" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.69053, -4, -2.00134 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Solid Development" type="Spatial" parent="Designing Reality Folder/Space" index="11" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.66093, -4, -9.172 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="some stuff" type="Spatial" parent="Designing Reality Folder/Space" index="12" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.2003, -4, -4.85168 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Unity EditorXR" type="Spatial" parent="Designing Reality Folder/Space" index="13" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.08728, -4, -2.12683 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Whiteboard Notes" type="Spatial" parent="Designing Reality Folder/Space" index="14" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.12313, -4, -5.90935 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="docx" type="Spatial" parent="Designing Reality Folder/Space" index="15" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.29461, 0, -3.04753 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="CyberShip Master" type="Spatial" parent="Designing Reality Folder/Space" index="16" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.70692, -4, -5.28836 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="MasterDoc" type="Spatial" parent="Designing Reality Folder/Space" index="17" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.681213, -4, -4.96568 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Player Controller" type="Spatial" parent="Designing Reality Folder/Space" index="18" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.23069, -4, -4.1052 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="The Four Project Plan" type="Spatial" parent="Designing Reality Folder/Space" index="19" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143414, -4, -2.50973 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="VR Media Design Doc" type="Spatial" parent="Designing Reality Folder/Space" index="20" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.69289, -4, -1.16523 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="App list" type="Spatial" parent="Designing Reality Folder/Space" index="21" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8214, -6, -8.4718 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Week 1 Astroid Runner" type="Spatial" parent="Designing Reality Folder/Space" index="22" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1842, -6, -5.04262 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Audio Notes" type="Spatial" parent="Designing Reality Folder/Space" index="23" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.17873, -6, -10.0058 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Futurology thoughts speech to text" type="Spatial" parent="Designing Reality Folder/Space" index="24" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.38783, -6, -8.1657 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Matter Of Time" type="Spatial" parent="Designing Reality Folder/Space" index="25" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.619497, -6, -10.2776 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="My World Program" type="Spatial" parent="Designing Reality Folder/Space" index="26" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.48778, -6, -9.62938 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Oculus Start Application" type="Spatial" parent="Designing Reality Folder/Space" index="27" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.31684, -6, -10.3403 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Star System" type="Spatial" parent="Designing Reality Folder/Space" index="28" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.53326, -6, -7.26659 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Virtual Reality Ideas" type="Spatial" parent="Designing Reality Folder/Space" index="29" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.83592, -6, -8.1657 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Cyber Ship" type="Spatial" parent="Designing Reality Folder/Space" index="30" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.91387, -0.030108, -4.96563 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Cyber Space" type="Spatial" parent="Designing Reality Folder/Space" index="31" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.75997, -0.030108, -2.91687 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Thought Bubbles" type="Spatial" parent="Designing Reality Folder/Space" index="32" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.65335, -3.11873, -2.69093 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Brainstorm" type="Spatial" parent="Designing Reality Folder/Space" index="33" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.71468, -1.03011, -1.35921 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Environments" type="Spatial" parent="Designing Reality Folder/Space" index="34" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7204, -2.03011, -5.41991 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Recording" type="Spatial" parent="Designing Reality Folder/Space" index="35" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8025, -2.03011, -4.52174 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Room Designer" type="Spatial" parent="Designing Reality Folder/Space" index="36" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.35326, -2.03011, 0.338314 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Fashion Designer" type="Spatial" parent="Designing Reality Folder/Space" index="37" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.11703, -2.03011, -3.21727 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Wood Carving" type="Spatial" parent="Designing Reality Folder/Space" index="38" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.17819, -2.03011, -7.70275 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Energy System" type="Spatial" parent="Designing Reality Folder/Space" index="39" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7215, -2.03011, 0.366422 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Pet AI" type="Spatial" parent="Designing Reality Folder/Space" index="40" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.768454, -2.03011, 1.78255 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Tabletop System" type="Spatial" parent="Designing Reality Folder/Space" index="41" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.00459, -2.03011, -3.3534 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Mirror" type="Spatial" parent="Designing Reality Folder/Space" index="42" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.36243, -2.45682, 2.94495 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Themes" type="Spatial" parent="Designing Reality Folder/Space" index="43" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.84914, -3.0687, 3.28613 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Iron Man" type="Spatial" parent="Designing Reality Folder/Space" index="44" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.48048, -2.03011, -1.38666 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Mini Golf" type="Spatial" parent="Designing Reality Folder/Space" index="45" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.64133, -2.03011, -3.63506 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Texture Painting" type="Spatial" parent="Designing Reality Folder/Space" index="46" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.71906, -2.03011, -5.36108 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Particle Sculpting" type="Spatial" parent="Designing Reality Folder/Space" index="47" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.13845, -2.03011, 2.38576 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Arcade" type="Spatial" parent="Designing Reality Folder/Space" index="48" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.69605, -2.03011, 2.66649 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Skeeball" type="Spatial" parent="Designing Reality Folder/Space" index="49" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6729, -4.94283, 4.33955 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Darts" type="Spatial" parent="Designing Reality Folder/Space" index="50" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.82685, -4.45868, 4.01276 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Claw Machine" type="Spatial" parent="Designing Reality Folder/Space" index="51" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.47115, -4.03011, 2.1851 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Bowling" type="Spatial" parent="Designing Reality Folder/Space" index="52" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.18161, -4.03011, 3.97207 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Mini Games" type="Spatial" parent="Designing Reality Folder/Space" index="53" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.36623, -2.03011, -2.5794 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Cube Runner" type="Spatial" parent="Designing Reality Folder/Space" index="54" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.70835, -2.03011, -6.27896 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Feeding Frenzy" type="Spatial" parent="Designing Reality Folder/Space" index="55" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010533, -2.03011, -4.05911 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Zombie Defense" type="Spatial" parent="Designing Reality Folder/Space" index="56" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.62372, -2.03011, -0.520445 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Tower Defense" type="Spatial" parent="Designing Reality Folder/Space" index="57" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.13205, -2.03011, 3.7666 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Rube Goldberg" type="Spatial" parent="Designing Reality Folder/Space" index="58" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.184819, -2.03011, -6.25597 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Rollercoaster Tycoon" type="Spatial" parent="Designing Reality Folder/Space" index="59" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.40159, -2.03011, -1.16985 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Pokemon Snap" type="Spatial" parent="Designing Reality Folder/Space" index="60" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.15259, -2.03011, 1.41803 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[node name="Smash Bros" type="Spatial" parent="Designing Reality Folder/Space" index="61" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.41747, -2.03011, -4.96563 )
+script = ExtResource( 3 )
+run_functions = true
+my_property = 1
+
+[connection signal="renamed" from="Designing Reality Folder/Space/Folders" to="Designing Reality Folder/Space/Folders" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/An app a week" to="Designing Reality Folder/Space/An app a week" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Audio Journal Documents" to="Designing Reality Folder/Space/Audio Journal Documents" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Calcifer" to="Designing Reality Folder/Space/Calcifer" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Design Notes" to="Designing Reality Folder/Space/Design Notes" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Learning" to="Designing Reality Folder/Space/Learning" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Magic System" to="Designing Reality Folder/Space/Magic System" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/My Home" to="Designing Reality Folder/Space/My Home" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Phone Notes" to="Designing Reality Folder/Space/Phone Notes" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Project Ideas" to="Designing Reality Folder/Space/Project Ideas" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Projects" to="Designing Reality Folder/Space/Projects" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Solid Development" to="Designing Reality Folder/Space/Solid Development" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/some stuff" to="Designing Reality Folder/Space/some stuff" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Unity EditorXR" to="Designing Reality Folder/Space/Unity EditorXR" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Whiteboard Notes" to="Designing Reality Folder/Space/Whiteboard Notes" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/docx" to="Designing Reality Folder/Space/docx" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/CyberShip Master" to="Designing Reality Folder/Space/CyberShip Master" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/MasterDoc" to="Designing Reality Folder/Space/MasterDoc" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Player Controller" to="Designing Reality Folder/Space/Player Controller" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/The Four Project Plan" to="Designing Reality Folder/Space/The Four Project Plan" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/VR Media Design Doc" to="Designing Reality Folder/Space/VR Media Design Doc" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/App list" to="Designing Reality Folder/Space/App list" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Week 1 Astroid Runner" to="Designing Reality Folder/Space/Week 1 Astroid Runner" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Audio Notes" to="Designing Reality Folder/Space/Audio Notes" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Futurology thoughts speech to text" to="Designing Reality Folder/Space/Futurology thoughts speech to text" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Matter Of Time" to="Designing Reality Folder/Space/Matter Of Time" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/My World Program" to="Designing Reality Folder/Space/My World Program" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Oculus Start Application" to="Designing Reality Folder/Space/Oculus Start Application" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Star System" to="Designing Reality Folder/Space/Star System" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Virtual Reality Ideas" to="Designing Reality Folder/Space/Virtual Reality Ideas" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Cyber Ship" to="Designing Reality Folder/Space/Cyber Ship" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Cyber Space" to="Designing Reality Folder/Space/Cyber Space" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Thought Bubbles" to="Designing Reality Folder/Space/Thought Bubbles" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Brainstorm" to="Designing Reality Folder/Space/Brainstorm" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Environments" to="Designing Reality Folder/Space/Environments" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Recording" to="Designing Reality Folder/Space/Recording" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Room Designer" to="Designing Reality Folder/Space/Room Designer" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Fashion Designer" to="Designing Reality Folder/Space/Fashion Designer" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Wood Carving" to="Designing Reality Folder/Space/Wood Carving" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Energy System" to="Designing Reality Folder/Space/Energy System" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Pet AI" to="Designing Reality Folder/Space/Pet AI" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Tabletop System" to="Designing Reality Folder/Space/Tabletop System" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Mirror" to="Designing Reality Folder/Space/Mirror" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Themes" to="Designing Reality Folder/Space/Themes" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Iron Man" to="Designing Reality Folder/Space/Iron Man" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Mini Golf" to="Designing Reality Folder/Space/Mini Golf" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Texture Painting" to="Designing Reality Folder/Space/Texture Painting" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Particle Sculpting" to="Designing Reality Folder/Space/Particle Sculpting" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Arcade" to="Designing Reality Folder/Space/Arcade" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Skeeball" to="Designing Reality Folder/Space/Skeeball" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Darts" to="Designing Reality Folder/Space/Darts" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Claw Machine" to="Designing Reality Folder/Space/Claw Machine" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Bowling" to="Designing Reality Folder/Space/Bowling" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Mini Games" to="Designing Reality Folder/Space/Mini Games" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Cube Runner" to="Designing Reality Folder/Space/Cube Runner" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Feeding Frenzy" to="Designing Reality Folder/Space/Feeding Frenzy" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Zombie Defense" to="Designing Reality Folder/Space/Zombie Defense" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Tower Defense" to="Designing Reality Folder/Space/Tower Defense" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Rube Goldberg" to="Designing Reality Folder/Space/Rube Goldberg" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Rollercoaster Tycoon" to="Designing Reality Folder/Space/Rollercoaster Tycoon" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Pokemon Snap" to="Designing Reality Folder/Space/Pokemon Snap" method="_on_renamed"]
+[connection signal="renamed" from="Designing Reality Folder/Space/Smash Bros" to="Designing Reality Folder/Space/Smash Bros" method="_on_renamed"]
+
+[editable path="Designing Reality Folder"]
