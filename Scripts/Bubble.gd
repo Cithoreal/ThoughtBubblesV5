@@ -1,6 +1,7 @@
 tool
 extends Spatial
 
+export(String) var space_context
 export(Array, String) var parent_thoughts
 export(Array, String) var child_thoughts  
 export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -10,14 +11,17 @@ var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-G
 var link_scene = load("res://LineRenderer.tscn")
 var mat = SpatialMaterial.new()
 
-# ----------------------- INITIATION ----------------------- #
+
+# ----------------------- INITILIZATION ----------------------- #
 func _enter_tree():
 	if (get_parent().get_parent().get_name() != get_viewport().get_child(0).get_name()):
 		get_parent().get_parent().connect("save_thoughts" , self, "save_thought")
 		get_parent().get_parent().connect("load_parents", self, "load_parents")
 		get_parent().get_parent().connect("load_links", self, "load_link_nodes")
 	prepare_material()
-
+	
+	
+	
 func prepare_material():
 	bubble_color = get_child(0).material.albedo_color
 	mat.flags_unshaded = true
@@ -34,12 +38,12 @@ func set_color(color):
 func initialize():
 	get_parent().get_child(0).set_thought(get_parent().get_name())
 	parent_thoughts.append(get_parent().get_parent().get_parent().get_name())
+	space_context = get_parent().get_parent().get_parent().get_name()
 	#Lookup self in the memory base, exit if doesn't already exist
 	#If it does exist, collect all properties/meta values and apply them to self
+	
 # ----------------------- Loading ----------------------- #
 func load_thought_properties(timestamp):
-	
-	
 	print(str(Time.get_time_string_from_system()) + ": Loading " + get_parent().get_name())
 	load_position(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Position")
@@ -47,6 +51,8 @@ func load_thought_properties(timestamp):
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Color")
 	load_links(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Links")
+
+
 
 func load_position(timestamp):
 	var x = ""
@@ -267,4 +273,35 @@ func clear_links():
 	for link in get_parent().get_child(3).get_children():
 		link.free()
 
+# ----------------------- Focus ----------------------- #
 
+func focus():
+	for child in child_thoughts:
+		get_parent().get_child(2).new_thought_in_space(child)
+		get_parent().get_parent().get_node(child).check_context()
+		get_parent().get_child(2).get_node(child).translate(get_parent().get_parent().get_node(child).transform.origin - get_parent().transform.origin - Vector3(0,-2,0))
+		
+	#Create new instance of each child
+	#Check child link structure to see if it exists in other focused contexts
+
+func unfocus():
+	for child in child_thoughts:
+		#print("Find them all as siblings and enable all of them")
+		get_parent().get_parent().get_node(child).visible = true
+		for link in get_parent().get_parent().get_node(child).get_child(3).get_children():
+			link.visible = true	
+	get_parent().get_child(2).clear_scene()
+
+func check_context():
+	#subtracting one because the thought space context is not considered
+	var num_parents = len(parent_thoughts) - 1
+	for i in range(1, len(parent_thoughts)):
+		#print (parent_thoughts[i] + " is focused: " + get_parent().get_parent().get_node(parent_thoughts[i]).is_focused)
+		if (get_parent().get_parent().get_node(parent_thoughts[i]).is_focused):
+			num_parents -= 1
+			
+	if (num_parents <= 0):
+		get_parent().visible = false
+		for link in get_parent().get_child(3).get_children():
+			link.visible = false	
+	

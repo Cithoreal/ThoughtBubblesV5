@@ -14,6 +14,13 @@ signal clear_thoughts
 
 #func _load_links(_value):
 #	emit_signal("load_links")
+#var thread
+
+#func _ready():
+	
+	
+#func _exit_tree():
+#	thread.wait_to_finish()
 
 func load_timestamps():
 	var output = []
@@ -21,8 +28,16 @@ func load_timestamps():
 	get_parent().load_timestamps(process_mb_output(output))
 	
 func load_space():
-	var output = []
+	#if thread != null:
+	#	thread.wait_to_finish()
+	#thread = Thread.new()
+	#print ("Create Thread ID: ", thread)
+	#thread.start(self, "_thread_load_space")
+	_thread_load_space(null)
 	
+	
+func _thread_load_space(data):
+	var output = []
 	#Add ability to intersect or union with other thought spaces in the scene
 	#Child thought spaces intersect with their parents
 	#Child thought spaces can at any point be "Expanded" to union instead
@@ -31,7 +46,6 @@ func load_space():
 	#print(str(Time.get_time_string_from_system()) + ": Thought Space after Execute()")
 	process_thoughts(output)
 	
-
 func save():
 	print("saving thoughts")
 	var timestamp = Time.get_unix_time_from_system()
@@ -110,3 +124,6 @@ func new_thought_in_space(thought_text):
 		new_bubble.get_child(1).load_link_nodes()
 		new_bubble.translate(Vector3(0,-2,0))
 		
+
+
+
