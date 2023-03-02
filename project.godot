@@ -22,7 +22,7 @@ _global_script_class_icons={
 
 config/name="ThoughtBubblesV5"
 run/main_scene="res://Main.tscn"
-config/icon="res://icon.png"
+config/icon="res://Images/icon.png"
 
 [editor]
 
@@ -31,7 +31,7 @@ version_control_plugin_name="GitAPI"
 
 [gdnative]
 
-singletons=[ "res://pythonscript.gdnlib" ]
+singletons=[ "res://Scripts/pythonscript.gdnlib" ]
 
 [gui]
 
@@ -96,4 +96,4 @@ common/enable_pause_aware_picking=true
 [rendering]
 
 threads/thread_model=2
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://Images/default_env.tres"

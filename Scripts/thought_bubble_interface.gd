@@ -61,7 +61,7 @@ func _on_focus_thought(_value):
 		#print(str(Time.get_time_string_from_system()) + ": Starting Load")
 		is_focused = !is_focused
 		if (is_focused):
-			get_child(1).focus()
+			get_child(1).get_node("Focus").call_deferred("focus")
 			print("Focusing " + get_name())
 			#print("Iterate through child thoughts and intance them into sub space")
 			#print("If child thought belongs only to the focused context, remove it elsewhere")
@@ -69,7 +69,7 @@ func _on_focus_thought(_value):
 			print("Load properties within the |Focused| |True| context")
 			#also add the condition of |Focused| |False| otherwise
 		else:
-			get_child(1).unfocus()
+			get_child(1).get_node("Focus").unfocus()
 			print("Clear thought space")
 			print("iterate through all child thoughts and enable them where applicable")
 
@@ -99,7 +99,7 @@ func _on_new_thought_button(_value):
 		if (is_focused):
 			get_child(2).new_thought_in_space(new_thought)
 		else:
-			get_child(1).new_linked_thought(new_thought)
+			get_child(1).get_node("Linking").new_linked_thought(new_thought)
 
 func _on_clear_space(_value):
 	if (run_functions):
@@ -120,5 +120,5 @@ func load_focus_context():
 	print("Probably in bubble")
 
 func check_context():
-	get_child(1).check_context()
+	get_child(1).get_node("Focus").check_context()
 

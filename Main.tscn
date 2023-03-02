@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
-[ext_resource path="res://ThoughtBubble.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/ThoughtBubble.tscn" type="PackedScene" id=4]
 
 [sub_resource type="SpatialMaterial" id=1]
 flags_transparent = true
@@ -27,7 +27,7 @@ __meta__ = {
 }
 
 [node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.80013, 3.47972, -17.6075 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.6899, 2.54322, 5.36117 )
 script = ExtResource( 2 )
 offset = Vector3( -0.633, 0.315, 0 )
 
@@ -37,7 +37,6 @@ __meta__ = {
 }
 new_thought = "docx"
 current_timestamp = "1670816018.495043"
-timestamp_selector = 9
 
 [node name="Text" parent="Designing Reality Folder/Thought" index="0"]
 text = "Designing Reality Folder"
@@ -49,389 +48,375 @@ child_thoughts = [ "2" ]
 material_override = SubResource( 1 )
 
 [node name="Folders" type="Spatial" parent="Designing Reality Folder/Space" index="0" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.53421, -1.17321, -6.62691 )
 script = ExtResource( 1 )
-is_focused = true
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="An app a week" type="Spatial" parent="Designing Reality Folder/Space" index="1" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5114, -4, -6.44357 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Audio Journal Documents" type="Spatial" parent="Designing Reality Folder/Space" index="2" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.82495, -4, -8.11775 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Calcifer" type="Spatial" parent="Designing Reality Folder/Space" index="3" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1316, -4, -4.73711 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Design Notes" type="Spatial" parent="Designing Reality Folder/Space" index="4" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.452218, -4, -7.74751 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Learning" type="Spatial" parent="Designing Reality Folder/Space" index="5" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.91714, -4, -2.78498 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Magic System" type="Spatial" parent="Designing Reality Folder/Space" index="6" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.54528, -4, -3.63028 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="My Home" type="Spatial" parent="Designing Reality Folder/Space" index="7" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.51516, -4, -7.93506 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Phone Notes" type="Spatial" parent="Designing Reality Folder/Space" index="8" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.17066, -4, -8.99273 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Project Ideas" type="Spatial" parent="Designing Reality Folder/Space" index="9" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.69289, -4, -7.95299 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Projects" type="Spatial" parent="Designing Reality Folder/Space" index="10" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.69053, -4, -2.00134 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Solid Development" type="Spatial" parent="Designing Reality Folder/Space" index="11" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.66093, -4, -9.172 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="some stuff" type="Spatial" parent="Designing Reality Folder/Space" index="12" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.2003, -4, -4.85168 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Unity EditorXR" type="Spatial" parent="Designing Reality Folder/Space" index="13" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.08728, -4, -2.12683 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Whiteboard Notes" type="Spatial" parent="Designing Reality Folder/Space" index="14" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.12313, -4, -5.90935 )
-visible = false
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="docx" type="Spatial" parent="Designing Reality Folder/Space" index="15" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.29461, 0, -3.04753 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="CyberShip Master" type="Spatial" parent="Designing Reality Folder/Space" index="16" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.70692, -4, -5.28836 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="MasterDoc" type="Spatial" parent="Designing Reality Folder/Space" index="17" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.681213, -4, -4.96568 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Player Controller" type="Spatial" parent="Designing Reality Folder/Space" index="18" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.23069, -4, -4.1052 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="The Four Project Plan" type="Spatial" parent="Designing Reality Folder/Space" index="19" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143414, -4, -2.50973 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="VR Media Design Doc" type="Spatial" parent="Designing Reality Folder/Space" index="20" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.69289, -4, -1.16523 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="App list" type="Spatial" parent="Designing Reality Folder/Space" index="21" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8214, -6, -8.4718 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Week 1 Astroid Runner" type="Spatial" parent="Designing Reality Folder/Space" index="22" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1842, -6, -5.04262 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Audio Notes" type="Spatial" parent="Designing Reality Folder/Space" index="23" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.17873, -6, -10.0058 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Futurology thoughts speech to text" type="Spatial" parent="Designing Reality Folder/Space" index="24" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.38783, -6, -8.1657 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Matter Of Time" type="Spatial" parent="Designing Reality Folder/Space" index="25" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.619497, -6, -10.2776 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="My World Program" type="Spatial" parent="Designing Reality Folder/Space" index="26" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.48778, -6, -9.62938 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Oculus Start Application" type="Spatial" parent="Designing Reality Folder/Space" index="27" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.31684, -6, -10.3403 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Star System" type="Spatial" parent="Designing Reality Folder/Space" index="28" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.53326, -6, -7.26659 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Virtual Reality Ideas" type="Spatial" parent="Designing Reality Folder/Space" index="29" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.83592, -6, -8.1657 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Cyber Ship" type="Spatial" parent="Designing Reality Folder/Space" index="30" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.91387, -0.030108, -4.96563 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Cyber Space" type="Spatial" parent="Designing Reality Folder/Space" index="31" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.75997, -0.030108, -2.91687 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Thought Bubbles" type="Spatial" parent="Designing Reality Folder/Space" index="32" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.65335, -3.11873, -2.69093 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Brainstorm" type="Spatial" parent="Designing Reality Folder/Space" index="33" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.71468, -1.03011, -1.35921 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Environments" type="Spatial" parent="Designing Reality Folder/Space" index="34" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7204, -2.03011, -5.41991 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Recording" type="Spatial" parent="Designing Reality Folder/Space" index="35" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8025, -2.03011, -4.52174 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Room Designer" type="Spatial" parent="Designing Reality Folder/Space" index="36" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.35326, -2.03011, 0.338314 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Fashion Designer" type="Spatial" parent="Designing Reality Folder/Space" index="37" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.11703, -2.03011, -3.21727 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Wood Carving" type="Spatial" parent="Designing Reality Folder/Space" index="38" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.17819, -2.03011, -7.70275 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Energy System" type="Spatial" parent="Designing Reality Folder/Space" index="39" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7215, -2.03011, 0.366422 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Pet AI" type="Spatial" parent="Designing Reality Folder/Space" index="40" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.768454, -2.03011, 1.78255 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Tabletop System" type="Spatial" parent="Designing Reality Folder/Space" index="41" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.00459, -2.03011, -3.3534 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Mirror" type="Spatial" parent="Designing Reality Folder/Space" index="42" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.36243, -2.45682, 2.94495 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Themes" type="Spatial" parent="Designing Reality Folder/Space" index="43" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.84914, -3.0687, 3.28613 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Iron Man" type="Spatial" parent="Designing Reality Folder/Space" index="44" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.48048, -2.03011, -1.38666 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Mini Golf" type="Spatial" parent="Designing Reality Folder/Space" index="45" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.64133, -2.03011, -3.63506 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Texture Painting" type="Spatial" parent="Designing Reality Folder/Space" index="46" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.71906, -2.03011, -5.36108 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Particle Sculpting" type="Spatial" parent="Designing Reality Folder/Space" index="47" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.13845, -2.03011, 2.38576 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Arcade" type="Spatial" parent="Designing Reality Folder/Space" index="48" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.69605, -2.03011, 2.66649 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Skeeball" type="Spatial" parent="Designing Reality Folder/Space" index="49" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6729, -4.94283, 4.33955 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Darts" type="Spatial" parent="Designing Reality Folder/Space" index="50" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.82685, -4.45868, 4.01276 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Claw Machine" type="Spatial" parent="Designing Reality Folder/Space" index="51" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.47115, -4.03011, 2.1851 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Bowling" type="Spatial" parent="Designing Reality Folder/Space" index="52" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.18161, -4.03011, 3.97207 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Mini Games" type="Spatial" parent="Designing Reality Folder/Space" index="53" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.36623, -2.03011, -2.5794 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Cube Runner" type="Spatial" parent="Designing Reality Folder/Space" index="54" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.70835, -2.03011, -6.27896 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Feeding Frenzy" type="Spatial" parent="Designing Reality Folder/Space" index="55" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010533, -2.03011, -4.05911 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Zombie Defense" type="Spatial" parent="Designing Reality Folder/Space" index="56" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.62372, -2.03011, -0.520445 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Tower Defense" type="Spatial" parent="Designing Reality Folder/Space" index="57" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.13205, -2.03011, 3.7666 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Rube Goldberg" type="Spatial" parent="Designing Reality Folder/Space" index="58" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.184819, -2.03011, -6.25597 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Rollercoaster Tycoon" type="Spatial" parent="Designing Reality Folder/Space" index="59" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.40159, -2.03011, -1.16985 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Pokemon Snap" type="Spatial" parent="Designing Reality Folder/Space" index="60" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.15259, -2.03011, 1.41803 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [node name="Smash Bros" type="Spatial" parent="Designing Reality Folder/Space" index="61" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.41747, -2.03011, -4.96563 )
 script = ExtResource( 1 )
 run_functions = true
+current_timestamp = "1670782696.204855"
 timestamp_selector = 1
 
 [connection signal="renamed" from="Designing Reality Folder/Space/Folders" to="Designing Reality Folder/Space/Folders" method="_on_renamed"]
