@@ -5,12 +5,12 @@ extends Spatial
 
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
-var thought_scene = load("res://Scenes/ThoughtBubble.tscn")
+var thought_scene = load("res://ThoughtBubble.tscn")
 signal save_thoughts(timestamp)
 signal load_links
 signal load_parents
 signal clear_thoughts
-signal load_thought_properties(timestamp, focus)
+
 
 #func _load_links(_value):
 #	emit_signal("load_links")
@@ -59,7 +59,7 @@ func save():
 func clear_scene():
 	emit_signal("clear_thoughts")
 	for node in get_children():
-		node.get_child(1).get_node("Linking").call_deferred("clear_links")
+		node.get_child(1).clear_links()
 		node.free()
 
 #Use the text retrieved from _start_recall to retrieve thoughts and thought properties
@@ -88,11 +88,10 @@ func load_thought(thought_text):
 	if thought_text != "":
 		var new_bubble = thought_scene.instance()
 		new_bubble.set_name(thought_text)
-		call_deferred("add_child", new_bubble)
-		new_bubble.call_deferred("set_owner", get_viewport().get_child(0))
-		new_bubble.call_deferred("initialize")
-		emit_signal("load_thought_properties", get_parent().current_timestamp, false)
-		#new_bubble.get_child(1).get_node("Loading").call_deferred("load_thought_properties",get_parent().current_timestamp, false)
+		add_child(new_bubble)
+		new_bubble.set_owner(get_viewport().get_child(0))
+		new_bubble.initialize()
+		new_bubble.get_child(1).load_thought_properties(get_parent().current_timestamp, false)
 		
 
 func create_and_link_new_thought(thought_text, linking_thoughts, position):
@@ -113,7 +112,7 @@ func create_and_link_new_thought(thought_text, linking_thoughts, position):
 				if (new_bubble.get_child(1).parent_thoughts.find(thought) == -1):
 					new_bubble.get_child(1).parent_thoughts.append(thought)
 				
-		new_bubble.get_child(1).get_node("Linking").load_link_nodes()
+		new_bubble.get_child(1).load_link_nodes()
 
 func new_thought_in_space(thought_text):
 	if thought_text != "":
@@ -122,7 +121,7 @@ func new_thought_in_space(thought_text):
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
-		new_bubble.get_child(1).get_node("Linking").load_link_nodes()
+		new_bubble.get_child(1).load_link_nodes()
 		new_bubble.translate(Vector3(0,-2,0))
 		
 
