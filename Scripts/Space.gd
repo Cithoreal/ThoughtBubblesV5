@@ -91,7 +91,7 @@ func load_thought(thought_text):
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
-		new_bubble.get_child(1).load_thought_properties(get_parent().current_timestamp)
+		new_bubble.get_child(1).load_thought_properties(get_parent().current_timestamp, false)
 		
 
 func create_and_link_new_thought(thought_text, linking_thoughts, position):

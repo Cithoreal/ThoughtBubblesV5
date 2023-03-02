@@ -43,25 +43,25 @@ func initialize():
 	#If it does exist, collect all properties/meta values and apply them to self
 	
 # ----------------------- Loading ----------------------- #
-func load_thought_properties(timestamp):
+func load_thought_properties(timestamp, focused):
 	print(str(Time.get_time_string_from_system()) + ": Loading " + get_parent().get_name())
-	load_position(timestamp)
+	load_position(timestamp, focused)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Position")
-	load_color(timestamp)
+	load_color(timestamp, focused)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Color")
 	load_links(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + get_parent().get_name() + " After Links")
 
 
 
-func load_position(timestamp):
+func load_position(timestamp, focused):
 	var x = ""
 	var y = ""
 	var z = ""
 	print(get_parent().get_name() + " loading position")
-	x = get_bubble_property("Position" ,"x", timestamp)
-	y = get_bubble_property("Position", "y", timestamp)
-	z = get_bubble_property("Position", "z", timestamp)
+	x = get_bubble_property("Position" ,"x", timestamp, focused)
+	y = get_bubble_property("Position", "y", timestamp, focused)
+	z = get_bubble_property("Position", "z", timestamp, focused)
 	#print(get_parent().get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
 	if (x == null):
 		x = 0
@@ -75,16 +75,16 @@ func load_position(timestamp):
 	else:
 		get_parent().transform.origin = Vector3(float(x),float(y),float(z))
 	
-func load_color(timestamp):
+func load_color(timestamp, focused):
 	var r = ""
 	var g = ""
 	var b = ""
 	var a = ""
 	
-	r = get_bubble_property("Color", "r", timestamp)
-	g = get_bubble_property("Color", "g", timestamp)
-	b = get_bubble_property("Color", "b", timestamp)
-	a = get_bubble_property("Color", "a", timestamp)
+	r = get_bubble_property("Color", "r", timestamp, focused)
+	g = get_bubble_property("Color", "g", timestamp, focused)
+	b = get_bubble_property("Color", "b", timestamp, focused)
+	a = get_bubble_property("Color", "a", timestamp, focused)
 	
 	if (r == null || g == null || b == null || a == null):
 		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -123,9 +123,12 @@ func get_latest_bubble_property_value(property, element):
 	else:
 		return null
 
-func get_bubble_property(property,element,timestamp):
+func get_bubble_property(property,element,timestamp, focused):
 	var output = []
-	OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
+	if (focused):
+		OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", "|Focused|", "|True|" ,"|Timestamp|"], true, output)
+	else:
+		OS.execute(MB_to_godot_path, [get_parent().get_parent().get_parent().get_name(), get_parent().get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
 	output = process_mb_output(output)
 	for time in output:
 			if (time < timestamp):
@@ -276,13 +279,14 @@ func clear_links():
 # ----------------------- Focus ----------------------- #
 
 func focus():
+	#Create new instance of each child
 	for child in child_thoughts:
 		get_parent().get_child(2).new_thought_in_space(child)
+		#Check child link structure to see if it exists in other focused contexts
 		get_parent().get_parent().get_node(child).check_context()
 		get_parent().get_child(2).get_node(child).translate(get_parent().get_parent().get_node(child).transform.origin - get_parent().transform.origin - Vector3(0,-2,0))
-		
-	#Create new instance of each child
-	#Check child link structure to see if it exists in other focused contexts
+		get_parent().get_child(2).get_node(child).get_child(1).load_focus_properties(get_parent().name)
+	#Load the focused properties for each child
 
 func unfocus():
 	for child in child_thoughts:
@@ -291,6 +295,9 @@ func unfocus():
 		for link in get_parent().get_parent().get_node(child).get_child(3).get_children():
 			link.visible = true	
 	get_parent().get_child(2).clear_scene()
+
+func load_focus_properties(focused_thought):
+	print("loading properties of " + get_parent().name + ": " + focused_thought)
 
 func check_context():
 	#subtracting one because the thought space context is not considered
