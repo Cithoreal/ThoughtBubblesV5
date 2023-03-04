@@ -5,7 +5,7 @@ extends Spatial
 
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
-var thought_scene = load("res://ThoughtBubble.tscn")
+var thought_scene = load("res://Scenes/ThoughtBubble.tscn")
 signal save_thoughts(timestamp)
 signal load_links
 signal load_parents
