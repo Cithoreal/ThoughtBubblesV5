@@ -6,22 +6,22 @@ export(Array, String) var parent_thoughts
 export(Array, String) var child_thoughts  
 export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 
-var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
-var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
+#var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
+#var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var link_scene = load("res://Scenes/LineRenderer.tscn")
 var mat = SpatialMaterial.new()
 
 var bubble_interface_node
 var parent_space_node
 var parent_bubble_node
-
+var file_manager
 # ----------------------- INITILIZATION ----------------------- #
 func _enter_tree():
 	
 	bubble_interface_node = get_parent()
 	parent_space_node = get_parent().get_parent()
 	parent_bubble_node = get_parent().get_parent().get_parent()
-	
+	file_manager = get_viewport().get_child(0).get_node("FileManager")
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
 		parent_space_node.connect("save_thoughts" , self, "save_thought")
@@ -105,7 +105,8 @@ func load_color(timestamp, focused):
 
 func load_links(timestamp):
 	var output = []
-	OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp], true, output)
+	print("Load Json")
+	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp], true, output)
 	for element in process_mb_output(output):
 		child_thoughts.append(element)
 
@@ -122,31 +123,36 @@ func get_latest_bubble_property_value(property, element):
 	var timestamp = ""
 	#Add further thought context ability to this property value command
 	#print(bubble_interface_node.get_name())
-	OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
+	print("Load Json")
+	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
 	output = process_mb_output(output)
-	if (str(output) != "[]"):
-		timestamp = output[len(output)-1]
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
-		if (len(process_mb_output(output)) > 0):
-			return process_mb_output(output)[len(process_mb_output(output))-1]
-		else:
-			return null
-	else:
-		return null
+#	if (str(output) != "[]"):
+#		timestamp = output[len(output)-1]
+#		print("Load Json")
+#		##OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
+#		if (len(process_mb_output(output)) > 0):
+#			return process_mb_output(output)[len(process_mb_output(output))-1]
+#		else:
+#			return null
+#	else:
+#		return null
 
 func get_bubble_property(property,element,timestamp, focused):
 	var output = []
 	if (focused):
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Focused|", "|True|" ,"|Timestamp|"], true, output)
+		print("Load Json")
+		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Focused|", "|True|" ,"|Timestamp|"], true, output)
 	else:
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
+		print("Load Json")
+		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
 	output = process_mb_output(output)
 	for time in output:
 			if (time < timestamp):
 				timestamp = time
 				
 	if (output.find(timestamp) > -1):
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
+		print("Load Json")
+		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
 		if (len(process_mb_output(output)) > 0):
 			return process_mb_output(output)[len(process_mb_output(output))-1]
 		else:
@@ -167,7 +173,8 @@ func save_thought(timestamp):
 
 func save_name(timestamp):
 	# Name
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Thought|", "|Text|", bubble_interface_node.get_name()], false)
+	print("Save Json")
+	#OS.execute(godot_to_nodes_path, [ "|Godot|", "|Thought|", "|Text|", bubble_interface_node.get_name()], false)
 
 func save_position(timestamp):
 	# Position
@@ -200,23 +207,29 @@ func save_bubble_property(field, property, element, timestamp, value):
 	if (get_latest_bubble_property_value(property, element) != value && value != ""):
 		var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name() , bubble_interface_node.get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", timestamp, value]
 		#print(lookup_array)
-		OS.execute(godot_to_nodes_path, save_array, false)
+		file_manager.save(save_array)
+
+		#OS.execute(godot_to_nodes_path, save_array, false)
 
 func save_links(timestamp):
 	for link in child_thoughts:
 		print(bubble_interface_node.get_name() + " saving... " + link)
-		OS.execute(godot_to_nodes_path, [ "|Godot|", parent_bubble_node.get_name(), bubble_interface_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp, str(link).replace("../", "")], false)
+		print("Save Json")
+		var save_array = [ "|Godot|", parent_bubble_node.get_name(), bubble_interface_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp, str(link).replace("../", "")]
+		file_manager.save(save_array)
+		#OS.execute(godot_to_nodes_path, [ "|Godot|", parent_bubble_node.get_name(), bubble_interface_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp, str(link).replace("../", "")], false)
 
 func process_mb_output(output):
-	var text = output[0].replace("[(", "")
-	var text_array = []
-	text = text.replace(",)]", "")
-	text = text.replace("\n", "")
-	for i in text.split(",), ("):
-		var element = i.replace("'","")
-		if (element != "[]"):
-			text_array.append(element)
-	return text_array
+	if (len(output) > 0):
+		var text = output[0].replace("[(", "")
+		var text_array = []
+		text = text.replace(",)]", "")
+		text = text.replace("\n", "")
+		for i in text.split(",), ("):
+			var element = i.replace("'","")
+			if (element != "[]"):
+				text_array.append(element)
+		return text_array
 	
 # ----------------------- Linking ----------------------- #
 
