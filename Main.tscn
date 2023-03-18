@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scripts/FileManager.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Cursor.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=3]
 [ext_resource path="res://Scenes/ThoughtBubble.tscn" type="PackedScene" id=4]
 
 [sub_resource type="SpatialMaterial" id=1]
@@ -30,25 +31,45 @@ __meta__ = {
 script = ExtResource( 1 )
 
 [node name="Cursor" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04994, 2.2327, 3.0806 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35207, 2.54939, 1.91439 )
 script = ExtResource( 2 )
 offset = Vector3( -0.633, 0.315, 0 )
 
-[node name="Designing Reality Folder" parent="." instance=ExtResource( 4 )]
+[node name="Thought Bubbles" parent="." instance=ExtResource( 4 )]
 __meta__ = {
 "_editor_description_": "To get timestamps / inspector data to update properly, the script must be updated and saved"
 }
-new_thought = "docx"
-current_timestamp = 1
-timestamp_selector = 13
+new_thought = "love u"
+is_focused = true
+current_timestamp = 1.67911e+09
 
-[node name="Text" parent="Designing Reality Folder/Thought" index="0"]
-text = "Designing Reality Folder"
+[node name="Text" parent="Thought Bubbles/Thought" index="0"]
+text = "Thought Bubbles"
 
-[node name="Bubble" parent="Designing Reality Folder" index="1"]
+[node name="Bubble" parent="Thought Bubbles" index="1"]
 child_thoughts = [ "2" ]
 
-[node name="Sphere Shape" parent="Designing Reality Folder/Bubble" index="0"]
+[node name="Sphere Shape" parent="Thought Bubbles/Bubble" index="0"]
 material_override = SubResource( 1 )
 
-[editable path="Designing Reality Folder"]
+[node name="a new one" type="Spatial" parent="Thought Bubbles/Space" index="0" instance=ExtResource( 4 )]
+visible = false
+script = ExtResource( 3 )
+run_functions = true
+
+[node name="love u" type="Spatial" parent="Thought Bubbles/Space" index="1" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.02755, 0 )
+visible = false
+script = ExtResource( 3 )
+run_functions = true
+
+[node name="<3" type="Spatial" parent="Thought Bubbles/Space" index="2" instance=ExtResource( 4 )]
+visible = false
+script = ExtResource( 3 )
+run_functions = true
+
+[connection signal="renamed" from="Thought Bubbles/Space/a new one" to="Thought Bubbles/Space/a new one" method="_on_renamed"]
+[connection signal="renamed" from="Thought Bubbles/Space/love u" to="Thought Bubbles/Space/love u" method="_on_renamed"]
+[connection signal="renamed" from="Thought Bubbles/Space/<3" to="Thought Bubbles/Space/<3" method="_on_renamed"]
+
+[editable path="Thought Bubbles"]

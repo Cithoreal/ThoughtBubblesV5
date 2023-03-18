@@ -22,27 +22,29 @@ export(bool) var run_functions = false
 export(Array, String) var hidden_thoughts  
 
 var timestamp_list = []
-var timestamp_selector = 1 setget _set_timestamp
+export var timestamp_selector = 1 
 export var current_timestamp = ""
+export(bool) var set_timestamp setget _set_timestamp
 
-func _get_property_list():
-	var properties = []
-	# Same as "export(int) var timestamp_selector"
-	properties.append({
-		name = "timestamp_selector",
-		type = TYPE_INT,
-		hint = 1,
-		hint_string = "1," + str(len(timestamp_list))
-	})
-	return properties
+#func _get_property_list():
+#	var properties = []
+#	# Same as "export(int) var timestamp_selector"
+#	properties.append({
+#		name = "timestamp_selector",
+#		type = TYPE_INT,
+#		hint = 1,
+#		hint_string = "1," + str(len(timestamp_list))
+#	})
+#	return properties
 
 func _set_timestamp(_value):
-	get_child(2).load_timestamps()
-	current_timestamp = len(timestamp_list)
+	current_timestamp = get_child(2).load_timestamps()
+	print(current_timestamp)
+	#current_timestamp = len(timestamp_list)
 	#print(_value)
-	timestamp_selector = _value
-	if (len(timestamp_list) > 0):
-		current_timestamp = str(timestamp_list[_value - 1])
+	#timestamp_selector = _value
+	#if (len(timestamp_list) > 0):
+	#	current_timestamp = str(timestamp_list[_value - 1])
 		#print(current_timestamp)
 		
 
@@ -121,4 +123,7 @@ func load_focus_context():
 
 func check_context():
 	get_child(1).check_context()
+	
+func get_child_thoughts():
+	return get_child(1).get_child_thoughts()
 
