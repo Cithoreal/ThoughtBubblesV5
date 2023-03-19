@@ -24,15 +24,12 @@ func _enter_tree():
 	file_manager = get_viewport().get_child(0).get_node("FileManager")
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
-		parent_space_node.connect("save_thoughts" , self, "save_thought")
-		parent_space_node.connect("load_parents", self, "load_parents")
-		parent_space_node.connect("load_links", self, "load_link_nodes")
+		print("signals connected")
+		parent_space_node.connect("save_thoughts" , self, "_save_thought")
+		parent_space_node.connect("load_parents", self, "_load_parents")
+		parent_space_node.connect("load_links", self, "_load_link_nodes")
 	prepare_material()
-	
-	
-	
-	
-	
+
 func prepare_material():
 	bubble_color = get_child(0).material.albedo_color
 	mat.flags_unshaded = true
@@ -109,12 +106,14 @@ func load_links(timestamp):
 	var output = []
 	var loaded_nodes = file_manager.load_file()
 	if (loaded_nodes.has("|Link|")):
-		output = getIntersection([loaded_nodes[parent_bubble_node.get_name()],loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|Link|"], loaded_nodes[str(timestamp)]])
+		var get_array = [loaded_nodes[parent_bubble_node.get_name()],loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|Link|"], loaded_nodes[str(timestamp)]]
+		output = getIntersection(get_array)
 		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp], true, output)
 		for element in output:
 			child_thoughts.append(element)
 
-func load_parents():
+func _load_parents():
+
 	for link in child_thoughts:
 		load_parent_links(link)
 
@@ -150,20 +149,24 @@ func get_bubble_property(property,element,timestamp):
 	var loaded_nodes = file_manager.load_file()
 	var output = []
 	var load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|"+property+"|"], loaded_nodes["|"+element+"|"], loaded_nodes["|Timestamp|"]]
-
-	output = getIntersection(load_array)
 	
-	if (!output.has(timestamp)):
-		#Ensure this is the closest timestamp to the selected as possible
-		for time in output:
-			if (float(time) < float(timestamp)):
-				timestamp = time
+	output = getIntersection(load_array)
+
+	#print(output)
+#	if (!output.has(timestamp)):
+#		#Ensure this is the closest timestamp to the selected as possible
+#		for time in output:
+#			if (float(time) < float(timestamp)):
+#				timestamp = time
 				
 	if (output.find(timestamp) > -1):
-		
-		output = getIntersection([loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|" + property + "|"], loaded_nodes["|" + element + "|"], loaded_nodes[str(timestamp)]])
-		
+
+		load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|" + property + "|"], loaded_nodes["|" + element + "|"], loaded_nodes[str(timestamp)]]
+
+		output = getIntersection(load_array)
+
 		if (len(output) > 0):
+
 			return output[len(output)-1]
 		else:
 			return null
@@ -185,7 +188,8 @@ func getIntersection(arrays):
 	return intersection
 # ----------------------- Saving ----------------------- #
 	
-func save_thought(timestamp):
+func _save_thought(timestamp):
+
 	timestamp = str(timestamp)
 	save_name(timestamp)
 	save_position(timestamp)
@@ -202,7 +206,7 @@ func save_name(timestamp):
 	#var save_dict = {}
 	#print("save name " + bubble_interface_node.get_name())
 	var save_array = [ "|Godot|", "|Thought|", "|Text|", get_parent().get_name()]
-	print(save_array)
+	#print(save_array)
 	file_manager.save(save_array)
 
 
@@ -245,9 +249,11 @@ func save_bubble_property(field, property, element, timestamp, value):
 
 
 func save_links(timestamp):
+
 	for link in child_thoughts:
+		print(link)
 		print(bubble_interface_node.get_name() + " saving... " + link)
-		print("Save Json")
+		
 		var save_array = [ "|Godot|", bubble_interface_node.get_name(), "|Link|", str(timestamp), str(link).replace("../", "")]
 		file_manager.save(save_array)
 
@@ -270,7 +276,8 @@ func new_linked_thought(new_thought):
 		print("Link to " + str(parent_space_node.get_node(new_thought)))
 
 #Runs on signal from thought space after all thoughts have been loaded into the scene
-func load_link_nodes():
+func _load_link_nodes():
+
 	#clear existing link renderers
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()

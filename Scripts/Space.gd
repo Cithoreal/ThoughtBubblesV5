@@ -9,7 +9,7 @@ var thought_scene = load("res://Scenes/ThoughtBubble.tscn")
 signal save_thoughts(timestamp)
 signal load_links
 signal load_parents
-signal clear_thoughts
+
 var file_manager
 
 #func _load_links(_value):
@@ -53,12 +53,15 @@ func load_space():
 	#Child thought spaces can at any point be "Expanded" to union instead
 	#print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
 	clear_scene()
-	emit_signal("load_parents")
-	emit_signal("load_links")
-	for node in loaded_nodes["|Text|"]:
-		print(node)
-		load_thought(node)
+
 	
+	
+	for node in loaded_nodes["|Text|"]:
+		#print(node)
+		load_thought(node)
+		
+	emit_signal("load_links")
+	emit_signal("load_parents")
 	#OS.execute(MB_to_godot_path, [get_parent().get_name(), "|Thought|"], true, output)
 	#print(str(Time.get_time_string_from_system()) + ": Thought Space after Execute()")
 	#process_thoughts(output)
@@ -81,7 +84,6 @@ func save():
 
 #Prep the scene to be loaded with new thoughts
 func clear_scene():
-	emit_signal("clear_thoughts")
 	for node in get_children():
 		node.get_child(1).clear_links()
 		node.free()

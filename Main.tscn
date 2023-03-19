@@ -41,7 +41,7 @@ __meta__ = {
 }
 new_thought = "love u"
 is_focused = true
-current_timestamp = "1679177578.191"
+current_timestamp = "1679246140.938"
 
 [node name="Text" parent="Thought Bubbles/Thought" index="0"]
 text = "Thought Bubbles"
@@ -52,20 +52,17 @@ child_thoughts = [ "2" ]
 [node name="Sphere Shape" parent="Thought Bubbles/Bubble" index="0"]
 material_override = SubResource( 1 )
 
-[node name="a new one" type="Spatial" parent="Thought Bubbles/Space" index="0" instance=ExtResource( 4 )]
+[node name="love u" type="Spatial" parent="Thought Bubbles/Space" index="0" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0.792465 )
 script = ExtResource( 3 )
 run_functions = true
 
-[node name="love u" type="Spatial" parent="Thought Bubbles/Space" index="1" instance=ExtResource( 4 )]
+[node name="u2" type="Spatial" parent="Thought Bubbles/Space" index="1" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 1.53716 )
 script = ExtResource( 3 )
 run_functions = true
 
-[node name="<3" type="Spatial" parent="Thought Bubbles/Space" index="2" instance=ExtResource( 4 )]
-script = ExtResource( 3 )
-run_functions = true
-
-[connection signal="renamed" from="Thought Bubbles/Space/a new one" to="Thought Bubbles/Space/a new one" method="_on_renamed"]
 [connection signal="renamed" from="Thought Bubbles/Space/love u" to="Thought Bubbles/Space/love u" method="_on_renamed"]
-[connection signal="renamed" from="Thought Bubbles/Space/<3" to="Thought Bubbles/Space/<3" method="_on_renamed"]
+[connection signal="renamed" from="Thought Bubbles/Space/u2" to="Thought Bubbles/Space/u2" method="_on_renamed"]
 
 [editable path="Thought Bubbles"]
