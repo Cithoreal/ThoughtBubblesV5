@@ -1,19 +1,19 @@
 tool
 extends Node
 
-var FILE_PATH = "res://Files/"
+var FILE_PATH = "res://Files/thought_dictionary.json"
 
-func save(save_data, file_name):
+func save(save_data):
 	
 	var file = File.new()
 	if typeof(save_data) == TYPE_ARRAY:
 		save_data = array_to_dict(save_data)
 	#print(save_data)
-	file_name = FILE_PATH + file_name + ".json"
-	
-	ensure_file_exists(file_name)
 
-	file.open(file_name, File.READ_WRITE)
+	
+	ensure_file_exists(FILE_PATH)
+
+	file.open(FILE_PATH, File.READ_WRITE)
 	var fixed_text = file.get_as_text()
 	fixed_text = fixed_text.substr(0,fixed_text.find("}")+1)
 	var data = parse_json(fixed_text)
@@ -21,7 +21,7 @@ func save(save_data, file_name):
 	#print(data)
 	if typeof(data) == TYPE_DICTIONARY:
 		#print(save_data)
-		print (data)
+		#print (data)
 		var merged_dict = data.duplicate()
 		merged_dict.merge(save_data)
 		for key in data:
@@ -34,12 +34,11 @@ func save(save_data, file_name):
 		file.store_string(JSON.print(merged_dict))
 	file.close()
 	
-func load_file(file_name):
+func load_file():
 	var file = File.new()
-	file_name = FILE_PATH + file_name + ".json"
-	ensure_file_exists(file_name)
-	if file.file_exists(file_name):
-		file.open(file_name, File.READ)
+	ensure_file_exists(FILE_PATH)
+	if file.file_exists(FILE_PATH):
+		file.open(FILE_PATH, File.READ)
 		var fixed_text = file.get_as_text()
 		fixed_text = fixed_text.substr(0,fixed_text.find("}")+1)
 		var data = parse_json(fixed_text)

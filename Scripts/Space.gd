@@ -24,7 +24,7 @@ var file_manager
 
 func load_timestamps():
 	file_manager = get_viewport().get_child(0).get_node("FileManager")
-	var loaded_nodes = file_manager.load_file(get_parent().get_name())
+	var loaded_nodes = file_manager.load_file()
 	var output = loaded_nodes["|Timestamp|"]
 	return output[0]
 	#var output = []
@@ -46,7 +46,7 @@ func getIntersection(arrays):
 	
 func load_space():
 	file_manager = get_viewport().get_child(0).get_node("FileManager")
-	var loaded_nodes = file_manager.load_file(get_parent().get_name())
+	var loaded_nodes = file_manager.load_file()
 	#print(loaded_nodes)
 	#Add ability to intersect or union with other thought spaces in the scene
 	#Child thought spaces intersect with their parents
@@ -71,9 +71,9 @@ func save():
 	for node in get_children():
 		space_dict[node.get_name()] = node.get_child_thoughts()
 
-	file_manager.save(space_dict, get_parent().get_name())
+	file_manager.save(space_dict)
 	#print(Time.get_datetime_string_from_system(true,true))
-	file_manager.save({"|Timestamp|": [timestamp]}, get_parent().get_name())
+	file_manager.save({"|Timestamp|": [str(timestamp)]})
 	#OS.execute(godot_to_nodes_path, [get_parent().get_name(), "|Timestamp|", timestamp], false)
 	#OS.execute(godot_to_nodes_path, ["|Space|", "|Thought|", get_parent().get_name()], false)
 	emit_signal("save_thoughts", timestamp)
