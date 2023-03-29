@@ -1,22 +1,20 @@
-tool
+@tool
 extends Node
 
 var FILE_PATH = "res://Files/thought_dictionary.json"
-
+#Converting this file from Godot 3.5 to Godot 4.0
 func save(save_data):
 	
-	var file = File.new()
+	
 	if typeof(save_data) == TYPE_ARRAY:
 		save_data = array_to_dict(save_data)
 	#print(save_data)
 
-	
-	ensure_file_exists(FILE_PATH)
-
-	file.open(FILE_PATH, File.READ_WRITE)
-	var fixed_text = file.get_as_text()
-	fixed_text = fixed_text.substr(0,fixed_text.find("}")+1)
-	var data = parse_json(fixed_text)
+	var file = FileAccess.open(FILE_PATH, FileAccess.READ_WRITE)
+	var text = file.get_as_text()
+	var test_json_conv = JSON.new()
+	test_json_conv.parse(text)
+	var data = test_json_conv.get_data()
 
 	#print(data)
 	if typeof(data) == TYPE_DICTIONARY:
@@ -31,32 +29,33 @@ func save(save_data):
 						merged_dict[key].append(str(value))
 		#print(data)
 		#print(merged_dict)
-		file.store_string(JSON.print(merged_dict))
+		file.store_line(JSON.stringify(merged_dict))
 	file.close()
 	
 func load_file():
-	var file = File.new()
-	ensure_file_exists(FILE_PATH)
-	if file.file_exists(FILE_PATH):
-		file.open(FILE_PATH, File.READ)
-		var fixed_text = file.get_as_text()
-		fixed_text = fixed_text.substr(0,fixed_text.find("}")+1)
-		var data = parse_json(fixed_text)
 
-		file.close()
-		if typeof(data) == TYPE_DICTIONARY:
-			return data
 
-		else:
-			printerr("Corrupted data!")
+	var file = FileAccess.open(FILE_PATH, FileAccess.READ)
+	var text = file.get_as_text()
+	var test_json_conv = JSON.new()
+	test_json_conv.parse(text)
+	var data = test_json_conv.get_data()
+
+	file.close()
+	if typeof(data) == TYPE_DICTIONARY:
+		return data
+
 	else:
-		printerr("No saved data!")
+		printerr("Corrupted data!")
 
-func ensure_file_exists(file_path):
-	var file = File.new()
-	if !file.file_exists(file_path):
-		file.open(file_path,File.WRITE)
-		file.store_string(JSON.print({}))
+
+
+
+func ensure_file_exists():
+
+	if not FileAccess.file_exists(FILE_PATH):
+		var file = FileAccess.open(FILE_PATH, FileAccess.WRITE)
+		file.store_string(JSON.stringify({}))
 		file.close()
 		
 #Takes an array and constructs a dictionary where every value becomes a key containing every value that follows

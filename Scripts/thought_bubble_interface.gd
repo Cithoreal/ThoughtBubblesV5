@@ -1,34 +1,34 @@
-tool
-extends Spatial
+@tool
+extends Node3D
 
 #Bubble properties
-export(Color) var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-export(bool) var set_color setget _on_set_color
-export(String) var new_thought
-export(bool) var link_new_thought setget _on_new_thought_button
+@export var bubble_color: Color = Color(0.329412, 0.517647, 0.6, 0.533333)
+@export var set_color: bool : set = _on_set_color
+@export var new_thought: String
+@export var link_new_thought: bool : set = _on_new_thought_button
 
-export(bool) var focus_thought setget _on_focus_thought
-export(bool) var minimize_thought setget _on_minimize_thought
-export(bool) var hide_thought setget _on_hide_thought
+@export var focus_thought: bool : set = _on_focus_thought
+@export var minimize_thought: bool : set = _on_minimize_thought
+@export var hide_thought: bool : set = _on_hide_thought
 #Space properties
-export(bool) var load_space setget _on_load_space
-export(bool) var save_space setget _on_save_thoughts
-export(bool) var clear_space setget _on_clear_space
+@export var load_space: bool : set = _on_load_space
+@export var save_space: bool : set = _on_save_thoughts
+@export var clear_space: bool : set = _on_clear_space
 
-export(bool) var is_focused
+@export var is_focused: bool
 
-export(bool) var run_functions = false
+@export var run_functions: bool = false
 
-export(Array, String) var hidden_thoughts  
+@export var hidden_thoughts : Array[String]
 
 var timestamp_list = []
-export var timestamp_selector = 1 
-export var current_timestamp = ""
-export(bool) var set_timestamp setget _set_timestamp
+@export var timestamp_selector = 1 
+@export var current_timestamp = ""
+@export var set_timestamp: bool : set = _set_timestamp
 
 #func _get_property_list():
 #	var properties = []
-#	# Same as "export(int) var timestamp_selector"
+#	# Same as "export var timestamp_selector: int"
 #	properties.append({
 #		name = "timestamp_selector",
 #		type = TYPE_INT,
@@ -49,7 +49,7 @@ func _set_timestamp(_value):
 		
 
 #export()
-#export(bool) var load_links setget load_link_nodes
+#export var load_links: bool : set = load_link_nodes
 
 func _enter_tree():
 	get_child(0).set_thought(get_name())

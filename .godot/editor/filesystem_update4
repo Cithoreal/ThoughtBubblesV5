@@ -1,0 +1,6 @@
+res://Scenes/LineRenderer.tscn
+res://Scripts/LineRenderer.gd
+res://Main.tscn
+res://Scripts/Space.gd
+res://Scripts/FileManager.gd
+res://Scenes/ThoughtBubble.tscn

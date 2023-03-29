@@ -1,7 +1,7 @@
-tool
-extends Spatial
+@tool
+extends Node3D
 
-#export(bool) var load_links setget _load_links
+#export var load_links: bool : set = _load_links
 
 var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
@@ -90,7 +90,7 @@ func clear_scene():
 	
 func load_thought(thought_text):
 	if thought_text != "":
-		var new_bubble = thought_scene.instance()
+		var new_bubble = thought_scene.instantiate()
 		new_bubble.set_name(thought_text)
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
@@ -100,7 +100,7 @@ func load_thought(thought_text):
 
 func create_and_link_new_thought(thought_text, linking_thoughts, position):
 	if thought_text != "":
-		var new_bubble = thought_scene.instance()
+		var new_bubble = thought_scene.instantiate()
 		new_bubble.set_name(thought_text)
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
@@ -116,16 +116,16 @@ func create_and_link_new_thought(thought_text, linking_thoughts, position):
 				if (new_bubble.get_child(1).parent_thoughts.find(thought) == -1):
 					new_bubble.get_child(1).parent_thoughts.append(thought)
 				
-		new_bubble.get_child(1).load_link_nodes()
+		new_bubble.get_child(1)._load_link_nodes()
 
 func new_thought_in_space(thought_text):
 	if thought_text != "":
-		var new_bubble = thought_scene.instance()
+		var new_bubble = thought_scene.instantiate()
 		new_bubble.set_name(thought_text)
 		add_child(new_bubble)
 		new_bubble.set_owner(get_viewport().get_child(0))
 		new_bubble.initialize()
-		new_bubble.get_child(1).load_link_nodes()
+		new_bubble.get_child(1)._load_link_nodes()
 		new_bubble.translate(Vector3(0,-2,0))
 		
 

@@ -1,15 +1,15 @@
-tool
-extends Spatial
+@tool
+extends Node3D
 
-export(String) var space_context
-export(Array, String) var parent_thoughts
-export(Array, String) var child_thoughts  
-export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+@export var space_context: String
+@export var  parent_thoughts : Array[String]
+@export var child_thoughts :Array[String]
+@export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 
 #var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 #var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var link_scene = load("res://Scenes/LineRenderer.tscn")
-var mat = SpatialMaterial.new()
+var mat = StandardMaterial3D.new()
 
 var bubble_interface_node
 var parent_space_node
@@ -25,9 +25,9 @@ func _enter_tree():
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
 		print("signals connected")
-		parent_space_node.connect("save_thoughts" , self, "_save_thought")
-		parent_space_node.connect("load_parents", self, "_load_parents")
-		parent_space_node.connect("load_links", self, "_load_link_nodes")
+		parent_space_node.connect("save_thoughts",Callable(self,"_save_thought"))
+		parent_space_node.connect("load_parents",Callable(self,"_load_parents"))
+		parent_space_node.connect("load_links",Callable(self,"_load_link_nodes"))
 	prepare_material()
 
 func prepare_material():
@@ -212,23 +212,23 @@ func save_name(timestamp):
 
 func save_position(timestamp):
 	# Position
-	save_bubble_property("Transform", "Position", "x", str(timestamp), str(bubble_interface_node.transform.origin.x))
-	save_bubble_property("Transform", "Position", "y", str(timestamp), str(bubble_interface_node.transform.origin.y))
-	save_bubble_property("Transform", "Position", "z", str(timestamp), str(bubble_interface_node.transform.origin.z))
+	save_bubble_property("Transform3D", "Position", "x", str(timestamp), str(bubble_interface_node.transform.origin.x))
+	save_bubble_property("Transform3D", "Position", "y", str(timestamp), str(bubble_interface_node.transform.origin.y))
+	save_bubble_property("Transform3D", "Position", "z", str(timestamp), str(bubble_interface_node.transform.origin.z))
 
 func save_basis(timestamp):
 		# Basis
-	save_bubble_property("Transform", "Basis", "xx", str(timestamp), str(bubble_interface_node.transform.basis.x.x))
-	save_bubble_property("Transform", "Basis", "xy", str(timestamp), str(bubble_interface_node.transform.basis.x.y))
-	save_bubble_property("Transform", "Basis", "xz", str(timestamp), str(bubble_interface_node.transform.basis.x.z))
+	save_bubble_property("Transform3D", "Basis", "xx", str(timestamp), str(bubble_interface_node.transform.basis.x.x))
+	save_bubble_property("Transform3D", "Basis", "xy", str(timestamp), str(bubble_interface_node.transform.basis.x.y))
+	save_bubble_property("Transform3D", "Basis", "xz", str(timestamp), str(bubble_interface_node.transform.basis.x.z))
 	
-	save_bubble_property("Transform", "Basis", "yx", str(timestamp), str(bubble_interface_node.transform.basis.y.x))
-	save_bubble_property("Transform", "Basis", "yy", str(timestamp), str(bubble_interface_node.transform.basis.y.y))
-	save_bubble_property("Transform", "Basis", "yz", str(timestamp), str(bubble_interface_node.transform.basis.y.z))
+	save_bubble_property("Transform3D", "Basis", "yx", str(timestamp), str(bubble_interface_node.transform.basis.y.x))
+	save_bubble_property("Transform3D", "Basis", "yy", str(timestamp), str(bubble_interface_node.transform.basis.y.y))
+	save_bubble_property("Transform3D", "Basis", "yz", str(timestamp), str(bubble_interface_node.transform.basis.y.z))
 	
-	save_bubble_property("Transform", "Basis", "zx", str(timestamp), str(bubble_interface_node.transform.basis.z.x))
-	save_bubble_property("Transform", "Basis", "zy", str(timestamp), str(bubble_interface_node.transform.basis.z.y))
-	save_bubble_property("Transform", "Basis", "zz", str(timestamp), str(bubble_interface_node.transform.basis.z.z))
+	save_bubble_property("Transform3D", "Basis", "zx", str(timestamp), str(bubble_interface_node.transform.basis.z.x))
+	save_bubble_property("Transform3D", "Basis", "zy", str(timestamp), str(bubble_interface_node.transform.basis.z.y))
+	save_bubble_property("Transform3D", "Basis", "zz", str(timestamp), str(bubble_interface_node.transform.basis.z.z))
 
 func save_color(timestamp):
 	# Color
@@ -262,7 +262,7 @@ func save_links(timestamp):
 
 func new_linked_thought(new_thought):
 	if (child_thoughts.find(new_thought) == -1):
-		if (parent_space_node.find_node(new_thought) == null):
+		if (parent_space_node.find_child(new_thought) == null):
 			var thoughts = []
 			for thought in parent_thoughts:
 				thoughts.append(thought)
@@ -285,7 +285,7 @@ func _load_link_nodes():
 	var linked_nodes = process_links()
 	if (len(linked_nodes)>0):
 		for node in process_links():
-			var new_link_node = link_scene.instance()
+			var new_link_node = link_scene.instantiate()
 			bubble_interface_node.get_child(3).add_child(new_link_node)
 			#print(str(self) + " " + str(len(parent_thoughts)-1))
 			new_link_node.bubble1 = node

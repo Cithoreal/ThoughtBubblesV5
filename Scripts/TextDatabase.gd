@@ -1,4 +1,4 @@
-extends Reference
+extends RefCounted
 class_name TextDatabase
 
 ## ID property for the entry. Each entry has an unique ID, starting from 0.
@@ -29,19 +29,19 @@ var is_validated: bool
 ## Helper for adding mandatory properties.
 func add_mandatory_property(property: String, type: int = TYPE_MAX):
 	if type == TYPE_MAX:
-		assert(not __property_exists(property), "Property '%s' already exists in mandatory properties." % property)
+		assert(not __property_exists(property)) #,"Property '%s' already exists in mandatory properties." % property)
 		mandatory_properties.append(property)
 	else:
-		assert(not __property_exists(property), "Property '%s' already exists in mandatory properties." % property) ## TODO: sprawdzać samą nazwę
+		assert(not __property_exists(property))  ## TODO: sprawdzać samą nazwę#,"Property '%s' already exists in mandatory properties." % property)
 		mandatory_properties.append([property, type])
 
 ## Helper for adding valid properties.
 func add_valid_property(property: String, type: int = TYPE_MAX):
 	if type == TYPE_MAX:
-		assert(not __property_exists(property), "Property '%s' already exists in valid properties." % property)
+		assert(not __property_exists(property)) #,"Property '%s' already exists in valid properties." % property)
 		valid_properties.append(property)
 	else:
-		assert(not __property_exists(property), "Property '%s' already exists in valid properties." % property)
+		assert(not __property_exists(property)) #,"Property '%s' already exists in valid properties." % property)
 		valid_properties.append([property, type])
 
 ## Helper for adding valid properties with defaults.
@@ -79,7 +79,7 @@ func get_array() -> Array:
 
 ## Returns the database as a Dictionary, where entry_name is used for key. Fails if entry_name is empty. Use skip_unnamed to automatically skip unnamed entries.
 func get_dictionary(skip_unnamed := false) -> Dictionary:
-	if entry_name.empty():
+	if entry_name.is_empty():
 		push_error("Can't create Dictionary if data is unnamed.")
 		return {}
 
@@ -87,7 +87,7 @@ func get_dictionary(skip_unnamed := false) -> Dictionary:
 		__dict.clear()
 		for entry in __data:
 			if not entry_name in entry:
-				assert(not skip_unnamed, "Entry has no name, can't create Dictionary key.")
+				assert(not skip_unnamed) #,"Entry has no name, can't create Dictionary key.")
 				continue
 			__dict[entry[entry_name]] = entry
 		__data_dirty = false
@@ -116,7 +116,7 @@ func is_property_valid(entry: Dictionary, property: String, value = null) -> boo
 	if not valid and is_typed:
 		for prop in valid_properties:
 			if prop[0] == property:
-				assert(__match_type(typeof(value), prop[1]), "Invalid type of property '%s' in entry '%s'." % [property, entry.get(entry_name)])
+				assert(__match_type(typeof(value), prop[1])) #,"Invalid type of property '%s' in entry '%s'." % [property, entry.get(entry_name)])
 				valid = true
 				break
 	
@@ -125,7 +125,7 @@ func is_property_valid(entry: Dictionary, property: String, value = null) -> boo
 ## Creates a TextDatabase from the given script and loads file(s) under provided path.
 static func load(storage_script: String, path: String) -> TextDatabase:
 	var storage := load(storage_script).new() as TextDatabase
-	assert(storage, "Invalid custom script: %s" % storage_script)
+	assert(storage) #,"Invalid custom script: %s" % storage_script)
 	storage.load_from_path(path)
 	return storage
 
@@ -136,7 +136,7 @@ func load_from_path(path: String):
 	if dir.open(path) == OK:
 		var file_list: Array
 		
-		dir.list_dir_begin(true)
+		dir.list_dir_begin() # TODOGODOT4 fill missing arguments https://github.com/godotengine/godot/pull/40547
 		var file := dir.get_next()
 		while file:
 			if not dir.current_is_dir():
@@ -159,21 +159,23 @@ func load_from_path(path: String):
 		"json":
 			var file := File.new()
 			file.open(path, file.READ)
-			var json = parse_json(file.get_as_text())
+			var test_json_conv = JSON.new()
+			test_json_conv.parse(file.get_as_text())
+			var json = test_json_conv.get_data()
 			file.close()
 
-			assert(json, "Parse failed, invalid JSON file: %s" % path)
-			assert(json is Array, "Invalid data type. Only JSON arrays are supported.")
+			assert(json) #,"Parse failed, invalid JSON file: %s" % path)
+			assert(json is Array) #,"Invalid data type. Only JSON arrays are supported.")
 			data = json
 
 			for i in data.size():
-				assert(data[i] is Dictionary, "Invalid data type. JSON array must contain only Dictionaries.")
+				assert(data[i] is Dictionary) #,"Invalid data type. JSON array must contain only Dictionaries.")
 				data[i][id_name] = __last_id
 				__last_id += 1
 		"cfg":
 			var file := ConfigFile.new()
 			var error := file.load(path)
-			assert(error == OK, "Parse failed, invalid ConfigFile. Error code: %s" % error)
+			assert(error == OK) #,"Parse failed, invalid ConfigFile. Error code: %s" % error)
 			
 			data = __config_file_to_array(file)
 		_:
@@ -183,7 +185,7 @@ func load_from_path(path: String):
 	for entry in data:
 		_preprocess_entry(entry)
 		
-		if not entry_name.empty() and not entry_name in entry:
+		if not entry_name.is_empty() and not entry_name in entry:
 			push_warning("Entry has no name key (%s): %s" % [entry_name, entry])
 		
 		for property in mandatory_properties:
@@ -196,13 +198,13 @@ func load_from_path(path: String):
 			
 			if property_name in entry:
 				if is_typed and property is Array:
-					assert(__match_type(typeof(entry[property_name]), property[1]), "Invalid type of property '%s' in entry '%s'." % [property_name, entry.get(entry_name)])
+					assert(__match_type(typeof(entry[property_name]), property[1])) #,"Invalid type of property '%s' in entry '%s'." % [property_name, entry.get(entry_name)])
 			else:
-				assert(false, "Missing mandatory property '%s' in entry '%s'." % [property, entry.get(entry_name)])
+				assert(false) #,"Missing mandatory property '%s' in entry '%s'." % [property, entry.get(entry_name)])
 		
 		if is_validated:
 			for property in entry:
-				assert(is_property_valid(entry, property), "Invalid property '%s' in entry '%s'." % [property, entry[entry_name]])
+				assert(is_property_valid(entry, property)) #,"Invalid property '%s' in entry '%s'." % [property, entry[entry_name]])
 		
 		for property in default_values:
 			if not property in entry:
@@ -226,7 +228,7 @@ func __assert_validity():
 	if not OS.has_feature("debug"):
 		return
 	
-	assert(!id_name.empty(), "'id_name' can't be empty String.")
+	assert(!id_name.is_empty()) #,"'id_name' can't be empty String.")
 	
 	for property in mandatory_properties:
 		__validate_property(property)
@@ -234,11 +236,11 @@ func __assert_validity():
 	for property in valid_properties:
 		__validate_property(property)
 	
-	if not valid_properties.empty():
+	if not valid_properties.is_empty():
 		is_validated = true
 	
 	for property in default_values:
-		assert(property is String, "Default value key '%s' is not a String." % property)
+		assert(property is String) #,"Default value key '%s' is not a String." % property)
 		var value = default_values[property]
 		
 		var valid: bool
@@ -246,7 +248,7 @@ func __assert_validity():
 			if property2 is Array:
 				if property2[0] == property:
 					valid = true
-					assert(not is_typed or __match_type(typeof(value), property2[1]), "Default value '%s' has wrong type." % property)
+					assert(not is_typed or __match_type(typeof(value), property2[1])) #,"Default value '%s' has wrong type." % property)
 			else:
 				valid = valid or property == property2
 		
@@ -254,11 +256,11 @@ func __assert_validity():
 			if property2 is Array:
 				if property2[0] == property:
 					valid = true
-					assert(not is_typed or __match_type(typeof(value), property2[1]), "Default value '%s' has wrong type." % property)
+					assert(not is_typed or __match_type(typeof(value), property2[1])) #,"Default value '%s' has wrong type." % property)
 			else:
 				valid = valid or property == property2
 		
-		assert(not is_validated or valid, "Default value '%s' is not recognized." % property)
+		assert(not is_validated or valid) #,"Default value '%s' is not recognized." % property)
 
 func __validate_property(property):
 	if not OS.has_feature("debug"):
@@ -268,17 +270,17 @@ func __validate_property(property):
 		pass
 	elif property is Array:
 		is_typed = true
-		assert(property.size() >= 2, "Invalid typed property: '%s'. Typed property must be an array of size 2." % property[0])
-		assert(property[0] is String, "Invalid typed property: '%s'. First array element must by name." % property[0])
-		assert(property[1] is int and property[1] >= 0 and property[1] < TYPE_MAX, "Invalid typed mandatory property: '%s'. Second array element must be valid TYPE_* enum value." % property[0])
+		assert(property.size() >= 2) #,"Invalid typed property: '%s'. Typed property must be an array of size 2." % property[0])
+		assert(property[0] is String) #,"Invalid typed property: '%s'. First array element must by name." % property[0])
+		assert(property[1] is int and property[1] >= 0 and property[1] < TYPE_MAX) #,"Invalid typed mandatory property: '%s'. Second array element must be valid TYPE_* enum value." % property[0])
 	else:
-		assert(false, "Invalid property: '%s'. Property must be String or Array [name, type]." % property)
+		assert(false) #,"Invalid property: '%s'. Property must be String or Array [name, type]." % property)
 
 func __match_type(type1: int, type2: int) -> bool:
 	if is_strict:
 		return type1 == type2
 	else:
-		return type1 == type2 or (type1 == TYPE_INT and type2 == TYPE_REAL)
+		return type1 == type2 or (type1 == TYPE_INT and type2 == TYPE_FLOAT)
 
 func __property_exists(property: String) -> bool:
 	for p in mandatory_properties:
@@ -299,7 +301,7 @@ func __config_file_to_array(data: ConfigFile) -> Array:
 	var array: Array
 	for section in data.get_sections():
 		var entry := {id_name: __last_id}
-		if not entry_name.empty():
+		if not entry_name.is_empty():
 			entry[entry_name] = section
 		__last_id += 1
 		

@@ -1,11 +1,11 @@
-extends KinematicBody
+extends CharacterBody3D
 
 var velocity = Vector3(0, 0, 0)
 
 const PLAYER_MOVE_SPEED = 4
 var boost = 1
 
-onready var Camera = $Camera
+@onready var Camera3D = $Camera3D
 
 func move_forward_back(in_direction: int):
 	"""
