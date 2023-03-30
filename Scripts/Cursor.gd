@@ -1,15 +1,15 @@
-tool
-extends Spatial
+#@tool
+extends Node3D
 
-export var offset : Vector3
+@export var offset : Vector3
 func _process(_delta):
 	var spatialeditor_viewport_container = find_SpatialEditorViewportContainer(get_node("/root/EditorNode"), 0)
 	var viewports_3d = find_viewports_3d(spatialeditor_viewport_container)
 	
 	# viewports_3d[ <viewport index 0-3> ] = {
-	#     "viewport_container": ViewportContainer,
-	#     "viewport": Viewport,
-	#     "camera": Camera,
+	#     "viewport_container": SubViewportContainer,
+	#     "viewport": SubViewport,
+	#     "camera": Camera3D,
 	#     "control": Control, 
 	# }
 	#      Indices:

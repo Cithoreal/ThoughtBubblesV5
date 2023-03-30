@@ -1,40 +1,36 @@
-tool
-extends Spatial
+@tool
+extends Node3D
 
-export(String) var space_context
-export(Array, String) var parent_thoughts
-export(Array, String) var child_thoughts  
-export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-
-var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
-var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
+@export var space_context: String
+@export var  parent_thoughts : Array[String]
+@export var child_thoughts :Array[String]
+@export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+#var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
+#var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var link_scene = load("res://Scenes/LineRenderer.tscn")
-var mat = SpatialMaterial.new()
+var mat = StandardMaterial3D.new()
 
 var bubble_interface_node
 var parent_space_node
 var parent_bubble_node
-
+var file_manager
 # ----------------------- INITILIZATION ----------------------- #
 func _enter_tree():
 	
 	bubble_interface_node = get_parent()
 	parent_space_node = get_parent().get_parent()
 	parent_bubble_node = get_parent().get_parent().get_parent()
-	
+	file_manager = get_viewport().get_child(0).get_node("FileManager")
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
-		parent_space_node.connect("save_thoughts" , self, "save_thought")
-		parent_space_node.connect("load_parents", self, "load_parents")
-		parent_space_node.connect("load_links", self, "load_link_nodes")
+		print("signals connected")
+		parent_space_node.connect("save_thoughts",Callable(self,"_save_thought"))
+		parent_space_node.connect("load_parents",Callable(self,"_load_parents"))
+		parent_space_node.connect("load_links",Callable(self,"_load_link_nodes"))
+		bubble_color = get_child(0).material.albedo_color
 	prepare_material()
-	
-	
-	
-	
-	
+
 func prepare_material():
-	bubble_color = get_child(0).material.albedo_color
 	mat.flags_unshaded = true
 	mat.flags_use_point_size = true
 	mat.flags_transparent = true
@@ -53,26 +49,52 @@ func initialize():
 	#Lookup self in the memory base, exit if doesn't already exist
 	#If it does exist, collect all properties/meta values and apply them to self
 	
+func get_child_thoughts():
+	return child_thoughts
+	
+func set_shape(shape):
+	get_child(0).free()
+	var new_shape 
+	match(shape):
+		0:
+			print("Sphere")
+			new_shape = CSGSphere3D.new()
+			new_shape.radius = .623
+			new_shape.radial_segments = 16
+			new_shape.rings = 16
+		1:
+			print("Cube")
+			new_shape = CSGBox3D.new()
+		2:
+			print("Cylinder")
+			new_shape= CSGCylinder3D.new()
+			new_shape.height = 1
+			new_shape.sides = 16
+	add_child(new_shape)
+	move_child(new_shape,0)
+	new_shape.set_owner(get_viewport().get_child(0))
+	prepare_material()
 # ----------------------- Loading ----------------------- #
-func load_thought_properties(timestamp, focused):
+func load_thought_properties(timestamp):
 	print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
-	load_position(timestamp, focused)
+	load_position(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
-	load_color(timestamp, focused)
+	load_color(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
 	load_links(timestamp)
 	print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
 
 
 
-func load_position(timestamp, focused):
+func load_position(timestamp):
 	var x = ""
 	var y = ""
 	var z = ""
 	print(bubble_interface_node.get_name() + " loading position")
-	x = get_bubble_property("Position" ,"x", timestamp, focused)
-	y = get_bubble_property("Position", "y", timestamp, focused)
-	z = get_bubble_property("Position", "z", timestamp, focused)
+	x = get_bubble_property("Position" ,"x", timestamp)
+	y = get_bubble_property("Position", "y", timestamp)
+	z = get_bubble_property("Position", "z", timestamp)
+	#print(x)
 	#print(bubble_interface_node.get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
 	if (x == null):
 		x = 0
@@ -86,17 +108,21 @@ func load_position(timestamp, focused):
 	else:
 		bubble_interface_node.transform.origin = Vector3(float(x),float(y),float(z))
 	
-func load_color(timestamp, focused):
+func load_color(timestamp):
 	var r = ""
 	var g = ""
 	var b = ""
 	var a = ""
 	
-	r = get_bubble_property("Color", "r", timestamp, focused)
-	g = get_bubble_property("Color", "g", timestamp, focused)
-	b = get_bubble_property("Color", "b", timestamp, focused)
-	a = get_bubble_property("Color", "a", timestamp, focused)
+	r = get_bubble_property("Color", "r", str(timestamp))
+	g = get_bubble_property("Color", "g", str(timestamp))
+	b = get_bubble_property("Color", "b", str(timestamp))
+	a = get_bubble_property("Color", "a", str(timestamp))
 	
+	r = float(r)
+	g = float(g)
+	b = float(b)
+	a = float(a)
 	if (r == null || g == null || b == null || a == null):
 		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 	else:
@@ -105,11 +131,16 @@ func load_color(timestamp, focused):
 
 func load_links(timestamp):
 	var output = []
-	OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp], true, output)
-	for element in process_mb_output(output):
-		child_thoughts.append(element)
+	var loaded_nodes = file_manager.load_file()
+	if (loaded_nodes.has("|Link|")):
+		var get_array = [loaded_nodes[parent_bubble_node.get_name()],loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|Link|"], loaded_nodes[str(timestamp)]]
+		output = getIntersection(get_array)
+		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp], true, output)
+		for element in output:
+			child_thoughts.append(element)
 
-func load_parents():
+func _load_parents():
+
 	for link in child_thoughts:
 		load_parent_links(link)
 
@@ -120,109 +151,150 @@ func load_parent_links(link_to):
 func get_latest_bubble_property_value(property, element):
 	var output = []
 	var timestamp = ""
+	var loaded_nodes = file_manager.load_file()
 	#Add further thought context ability to this property value command
 	#print(bubble_interface_node.get_name())
-	OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
+	print("Load Json")
+	
+	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
+	#output = process_mb_output(output)
+	output = getIntersection([loaded_nodes[parent_bubble_node.get_name()],loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|"+property+"|"], loaded_nodes["|"+element +"|"], loaded_nodes["|Timestamp|"]])
 	if (str(output) != "[]"):
 		timestamp = output[len(output)-1]
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
-		if (len(process_mb_output(output)) > 0):
-			return process_mb_output(output)[len(process_mb_output(output))-1]
+		print("Load Json")
+		##OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
+		output = getIntersection([loaded_nodes[parent_bubble_node.get_name()],loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|"+property+"|"], loaded_nodes["|"+element +"|"], loaded_nodes[timestamp]])
+		if (len(output) > 0):
+			return output[len(output)-1]
 		else:
 			return null
 	else:
 		return null
 
-func get_bubble_property(property,element,timestamp, focused):
+func get_bubble_property(property,element,timestamp):
+	var focused = false
+	var loaded_nodes = file_manager.load_file()
 	var output = []
-	if (focused):
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Focused|", "|True|" ,"|Timestamp|"], true, output)
-	else:
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", "|Timestamp|"], true, output)
-	output = process_mb_output(output)
-	for time in output:
-			if (time < timestamp):
+	var load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|"+property+"|"], loaded_nodes["|"+element+"|"], loaded_nodes["|Timestamp|"]]
+	
+	output = getIntersection(load_array)
+
+	#print(output)
+	if (!output.has(timestamp)):
+		#Ensure this is the closest timestamp to the selected as possible
+		for time in output:
+			if (float(time) < float(timestamp)):
 				timestamp = time
-				
+	#print(output)		
+	#print(timestamp)	
 	if (output.find(timestamp) > -1):
-		OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + property + "|", "|" + element + "|", timestamp], true, output)
-		if (len(process_mb_output(output)) > 0):
-			return process_mb_output(output)[len(process_mb_output(output))-1]
+
+		load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|" + property + "|"], loaded_nodes["|" + element + "|"], loaded_nodes[str(timestamp)]]
+		#print(load_array)
+		output = getIntersection(load_array)
+		#print(output)
+		if (len(output) > 0):
+
+			return output[len(output)-1]
 		else:
 			return null
 	else:
 		bubble_interface_node.visible = false
+		
+#Generated by Bing Chat
+func getIntersection(arrays):
+	#print(arrays)
+	var intersection = []
+	for item in arrays[0]:
+		var exists = true
+		for i in range(1, arrays.size()):
+			if !arrays[i].has(item):
+				exists = false
+				break
+		if exists:
+			intersection.append(item)
+	return intersection
 # ----------------------- Saving ----------------------- #
 	
-func save_thought(timestamp):
+func _save_thought(timestamp):
+
+	timestamp = str(timestamp)
 	save_name(timestamp)
 	save_position(timestamp)
 	save_basis(timestamp)
 	save_links(timestamp)
 	save_color(timestamp)
+	#save_shape(timestamp)
 	
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
 
 func save_name(timestamp):
 	# Name
-	OS.execute(godot_to_nodes_path, [ "|Godot|", "|Thought|", "|Text|", bubble_interface_node.get_name()], false)
+	#print("Save Json")
+	#var save_dict = {}
+	#print("save name " + bubble_interface_node.get_name())
+	var save_array = [ "|Godot|", "|Thought|", "|Text|", get_parent().get_name()]
+	#print(save_array)
+	file_manager.save(save_array)
+
 
 func save_position(timestamp):
 	# Position
-	save_bubble_property("Transform", "Position", "x", timestamp, str(bubble_interface_node.transform.origin.x))
-	save_bubble_property("Transform", "Position", "y", timestamp, str(bubble_interface_node.transform.origin.y))
-	save_bubble_property("Transform", "Position", "z", timestamp, str(bubble_interface_node.transform.origin.z))
+	save_bubble_property("Transform3D", "Position", "x", str(timestamp), str(bubble_interface_node.transform.origin.x))
+	save_bubble_property("Transform3D", "Position", "y", str(timestamp), str(bubble_interface_node.transform.origin.y))
+	save_bubble_property("Transform3D", "Position", "z", str(timestamp), str(bubble_interface_node.transform.origin.z))
 
 func save_basis(timestamp):
 		# Basis
-	save_bubble_property("Transform", "Basis", "xx", timestamp, str(bubble_interface_node.transform.basis.x.x))
-	save_bubble_property("Transform", "Basis", "xy", timestamp, str(bubble_interface_node.transform.basis.x.y))
-	save_bubble_property("Transform", "Basis", "xz", timestamp, str(bubble_interface_node.transform.basis.x.z))
+	save_bubble_property("Transform3D", "Basis", "xx", str(timestamp), str(bubble_interface_node.transform.basis.x.x))
+	save_bubble_property("Transform3D", "Basis", "xy", str(timestamp), str(bubble_interface_node.transform.basis.x.y))
+	save_bubble_property("Transform3D", "Basis", "xz", str(timestamp), str(bubble_interface_node.transform.basis.x.z))
 	
-	save_bubble_property("Transform", "Basis", "yx", timestamp, str(bubble_interface_node.transform.basis.y.x))
-	save_bubble_property("Transform", "Basis", "yy", timestamp, str(bubble_interface_node.transform.basis.y.y))
-	save_bubble_property("Transform", "Basis", "yz", timestamp, str(bubble_interface_node.transform.basis.y.z))
+	save_bubble_property("Transform3D", "Basis", "yx", str(timestamp), str(bubble_interface_node.transform.basis.y.x))
+	save_bubble_property("Transform3D", "Basis", "yy", str(timestamp), str(bubble_interface_node.transform.basis.y.y))
+	save_bubble_property("Transform3D", "Basis", "yz", str(timestamp), str(bubble_interface_node.transform.basis.y.z))
 	
-	save_bubble_property("Transform", "Basis", "zx", timestamp, str(bubble_interface_node.transform.basis.z.x))
-	save_bubble_property("Transform", "Basis", "zy", timestamp, str(bubble_interface_node.transform.basis.z.y))
-	save_bubble_property("Transform", "Basis", "zz", timestamp, str(bubble_interface_node.transform.basis.z.z))
+	save_bubble_property("Transform3D", "Basis", "zx", str(timestamp), str(bubble_interface_node.transform.basis.z.x))
+	save_bubble_property("Transform3D", "Basis", "zy", str(timestamp), str(bubble_interface_node.transform.basis.z.y))
+	save_bubble_property("Transform3D", "Basis", "zz", str(timestamp), str(bubble_interface_node.transform.basis.z.z))
 
 func save_color(timestamp):
 	# Color
-	save_bubble_property("Material", "Color", "r", timestamp, str(bubble_color.r))
-	save_bubble_property("Material", "Color", "g", timestamp, str(bubble_color.g))
-	save_bubble_property("Material", "Color", "b", timestamp, str(bubble_color.b))
-	save_bubble_property("Material", "Color", "a", timestamp, str(bubble_color.a))
+	save_bubble_property("Material", "Color", "r", str(timestamp), str(bubble_color.r))
+	save_bubble_property("Material", "Color", "g", str(timestamp), str(bubble_color.g))
+	save_bubble_property("Material", "Color", "b", str(timestamp), str(bubble_color.b))
+	save_bubble_property("Material", "Color", "a", str(timestamp), str(bubble_color.a))
 
+func save_shape(timestamp):
+	save_bubble_property("Geometry", "Shape", "Smthn", str(timestamp), str(get_child(0)))
+	
 func save_bubble_property(field, property, element, timestamp, value):
-	if (get_latest_bubble_property_value(property, element) != value && value != ""):
-		var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name() , bubble_interface_node.get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", timestamp, value]
+	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
+		
+		#var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name() , bubble_interface_node.get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", timestamp, value]
+		#print(get_parent().get_name())
+		var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", str(timestamp), value]
 		#print(lookup_array)
-		OS.execute(godot_to_nodes_path, save_array, false)
+		file_manager.save(save_array)
+
+
 
 func save_links(timestamp):
-	for link in child_thoughts:
-		print(bubble_interface_node.get_name() + " saving... " + link)
-		OS.execute(godot_to_nodes_path, [ "|Godot|", parent_bubble_node.get_name(), bubble_interface_node.get_name(), bubble_interface_node.get_name(), "|Link|", timestamp, str(link).replace("../", "")], false)
 
-func process_mb_output(output):
-	var text = output[0].replace("[(", "")
-	var text_array = []
-	text = text.replace(",)]", "")
-	text = text.replace("\n", "")
-	for i in text.split(",), ("):
-		var element = i.replace("'","")
-		if (element != "[]"):
-			text_array.append(element)
-	return text_array
+	for link in child_thoughts:
+		print(link)
+		print(bubble_interface_node.get_name() + " saving... " + link)
+		
+		var save_array = [ "|Godot|", bubble_interface_node.get_name(), "|Link|", str(timestamp), str(link).replace("../", "")]
+		file_manager.save(save_array)
+
 	
 # ----------------------- Linking ----------------------- #
 
 func new_linked_thought(new_thought):
 	if (child_thoughts.find(new_thought) == -1):
-		if (parent_space_node.find_node(new_thought) == null):
+		if (parent_space_node.find_child(new_thought) == null):
 			var thoughts = []
 			for thought in parent_thoughts:
 				thoughts.append(thought)
@@ -236,7 +308,8 @@ func new_linked_thought(new_thought):
 		print("Link to " + str(parent_space_node.get_node(new_thought)))
 
 #Runs on signal from thought space after all thoughts have been loaded into the scene
-func load_link_nodes():
+func _load_link_nodes():
+
 	#clear existing link renderers
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()
@@ -244,7 +317,7 @@ func load_link_nodes():
 	var linked_nodes = process_links()
 	if (len(linked_nodes)>0):
 		for node in process_links():
-			var new_link_node = link_scene.instance()
+			var new_link_node = link_scene.instantiate()
 			bubble_interface_node.get_child(3).add_child(new_link_node)
 			#print(str(self) + " " + str(len(parent_thoughts)-1))
 			new_link_node.bubble1 = node

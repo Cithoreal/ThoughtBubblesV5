@@ -1,64 +1,67 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=3 uid="uid://bag3770qsr67s"]
 
-[ext_resource path="res://Scripts/thought_bubble_interface.gd" type="Script" id=1]
-[ext_resource path="res://Font/LiberationSans-Regular-Font.tres" type="DynamicFont" id=2]
-[ext_resource path="res://Scripts/Space.gd" type="Script" id=3]
-[ext_resource path="res://Scripts/Thought.gd" type="Script" id=4]
-[ext_resource path="res://Scripts/Bubble.gd" type="Script" id=5]
+[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="1"]
+[ext_resource type="FontFile" uid="uid://bmjo81t7wimgm" path="res://Font/LiberationSans-Regular-Font.tres" id="2"]
+[ext_resource type="Script" path="res://Scripts/Space.gd" id="3"]
+[ext_resource type="Script" path="res://Scripts/Thought.gd" id="4"]
+[ext_resource type="Script" path="res://Scripts/Bubble.gd" id="5"]
+[ext_resource type="Material" uid="uid://cstvbalj42b2n" path="res://Materials/ThoughtBubble_Mat.tres" id="5_voyx5"]
 
-[sub_resource type="SpatialMaterial" id=5]
-flags_transparent = true
-flags_unshaded = true
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_imoha"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 
-[sub_resource type="SpatialMaterial" id=3]
-flags_transparent = true
-flags_unshaded = true
-flags_do_not_receive_shadows = true
-params_cull_mode = 1
-albedo_color = Color( 0.329412, 0.517647, 0.6, 0.533333 )
+[sub_resource type="StandardMaterial3D" id="3"]
+transparency = 1
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+refraction_texture_channel = 2
+disable_receive_shadows = true
 
-[sub_resource type="SphereShape" id=4]
+[sub_resource type="SphereShape3D" id="4"]
 radius = 0.633015
 
-[node name="Thought Bubble Interface" type="Spatial"]
-script = ExtResource( 1 )
+[node name="Thought Bubble Interface" type="Node3D"]
+script = ExtResource("1")
 run_functions = true
 
-[node name="Thought" type="Spatial" parent="."]
-script = ExtResource( 4 )
+[node name="Thought" type="Node3D" parent="."]
+script = ExtResource("4")
 
 [node name="Text" type="Label3D" parent="Thought"]
-cast_shadow = 0
 billboard = 1
 double_sided = false
 alpha_scissor_threshold = 0.0
 render_priority = 2
 outline_render_priority = 1
 text = "Thought Bubble Interface"
-font = ExtResource( 2 )
-autowrap = true
-width = 123.0
+font = ExtResource("2")
+autowrap_mode = 3
+width = 240.0
 
-[node name="Bubble" type="Spatial" parent="."]
-script = ExtResource( 5 )
+[node name="Bubble" type="Node3D" parent="."]
+script = ExtResource("5")
+material = ExtResource("5_voyx5")
 
-[node name="Sphere Shape" type="CSGSphere" parent="Bubble"]
-material_override = SubResource( 5 )
-invert_faces = true
+[node name="Sphere Shape3D" type="CSGSphere3D" parent="Bubble"]
+material_override = SubResource("StandardMaterial3D_imoha")
 radius = 0.632312
 radial_segments = 16
 rings = 16
-material = SubResource( 3 )
+material = SubResource("3")
 
-[node name="Area" type="Area" parent="Bubble"]
+[node name="Area3D" type="Area3D" parent="Bubble"]
 
-[node name="CollisionShape" type="CollisionShape" parent="Bubble/Area"]
-shape = SubResource( 4 )
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bubble/Area3D"]
+shape = SubResource("4")
 
-[node name="Space" type="Spatial" parent="."]
-script = ExtResource( 3 )
+[node name="Space" type="Node3D" parent="."]
+script = ExtResource("3")
 
 [node name="Links" type="Node" parent="."]
+
+[node name="Node" type="Node" parent="."]
 
 [connection signal="renamed" from="." to="." method="_on_renamed"]
