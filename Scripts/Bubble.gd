@@ -5,7 +5,6 @@ extends Node3D
 @export var  parent_thoughts : Array[String]
 @export var child_thoughts :Array[String]
 @export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-
 #var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
 #var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
 var link_scene = load("res://Scenes/LineRenderer.tscn")
@@ -28,10 +27,10 @@ func _enter_tree():
 		parent_space_node.connect("save_thoughts",Callable(self,"_save_thought"))
 		parent_space_node.connect("load_parents",Callable(self,"_load_parents"))
 		parent_space_node.connect("load_links",Callable(self,"_load_link_nodes"))
+		bubble_color = get_child(0).material.albedo_color
 	prepare_material()
 
 func prepare_material():
-	bubble_color = get_child(0).material.albedo_color
 	mat.flags_unshaded = true
 	mat.flags_use_point_size = true
 	mat.flags_transparent = true
@@ -52,6 +51,29 @@ func initialize():
 	
 func get_child_thoughts():
 	return child_thoughts
+	
+func set_shape(shape):
+	get_child(0).free()
+	var new_shape 
+	match(shape):
+		0:
+			print("Sphere")
+			new_shape = CSGSphere3D.new()
+			new_shape.radius = .623
+			new_shape.radial_segments = 16
+			new_shape.rings = 16
+		1:
+			print("Cube")
+			new_shape = CSGBox3D.new()
+		2:
+			print("Cylinder")
+			new_shape= CSGCylinder3D.new()
+			new_shape.height = 1
+			new_shape.sides = 16
+	add_child(new_shape)
+	move_child(new_shape,0)
+	new_shape.set_owner(get_viewport().get_child(0))
+	prepare_material()
 # ----------------------- Loading ----------------------- #
 func load_thought_properties(timestamp):
 	print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
@@ -96,6 +118,7 @@ func load_color(timestamp):
 	g = get_bubble_property("Color", "g", str(timestamp))
 	b = get_bubble_property("Color", "b", str(timestamp))
 	a = get_bubble_property("Color", "a", str(timestamp))
+	
 	r = float(r)
 	g = float(g)
 	b = float(b)
@@ -201,6 +224,7 @@ func _save_thought(timestamp):
 	save_basis(timestamp)
 	save_links(timestamp)
 	save_color(timestamp)
+	#save_shape(timestamp)
 	
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
@@ -242,6 +266,9 @@ func save_color(timestamp):
 	save_bubble_property("Material", "Color", "b", str(timestamp), str(bubble_color.b))
 	save_bubble_property("Material", "Color", "a", str(timestamp), str(bubble_color.a))
 
+func save_shape(timestamp):
+	save_bubble_property("Geometry", "Shape", "Smthn", str(timestamp), str(get_child(0)))
+	
 func save_bubble_property(field, property, element, timestamp, value):
 	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
 		

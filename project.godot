@@ -8,6 +8,16 @@
 
 config_version=5
 
+_global_script_classes=[{
+"base": "Reference",
+"class": "TextDatabase",
+"language": "GDScript",
+"path": "res://Scripts/TextDatabase.gd"
+}]
+_global_script_class_icons={
+"TextDatabase": ""
+}
+
 [application]
 
 config/name="ThoughtBubblesV5"

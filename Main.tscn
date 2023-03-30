@@ -1,9 +1,15 @@
-[gd_scene load_steps=10 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=23 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
 [ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_ocdaq"]
+[ext_resource type="Script" path="res://Scripts/Thought.gd" id="5_4vdv4"]
+[ext_resource type="FontFile" uid="uid://bmjo81t7wimgm" path="res://Font/LiberationSans-Regular-Font.tres" id="6_hml4x"]
+[ext_resource type="Script" path="res://Scripts/Bubble.gd" id="7_tjqh5"]
+[ext_resource type="Script" path="res://Scripts/Space.gd" id="8_qrxjt"]
+[ext_resource type="PackedScene" uid="uid://cqo8ra0wvccy7" path="res://Scenes/LineRenderer.tscn" id="9_cn1lp"]
+[ext_resource type="Script" path="res://Scripts/LineRenderer.gd" id="10_hrwxb"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -17,7 +23,40 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6lv7c"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6htsq"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6ub7q"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[sub_resource type="SphereShape3D" id="4"]
+radius = 0.633015
+
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_shfmk"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_xondx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6atfp"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.72549, 0.152941, 0.470588, 0.533333)
+
+[sub_resource type="StandardMaterial3D" id="3"]
+transparency = 1
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+refraction_texture_channel = 2
+disable_receive_shadows = true
+
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_ai4sk"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -36,31 +75,109 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
 
-[node name="Thought Bubbles" parent="." instance=ExtResource("4")]
-new_thought = "I love u"
-is_focused = true
+[node name="Thought Bubble Interface" parent="." instance=ExtResource("4")]
+shape = null
+timestamp_selector = 1
 current_timestamp = "1680135704.949"
 
-[node name="Text" parent="Thought Bubbles/Thought" index="0"]
-text = "Thought Bubbles"
+[node name="Sphere Shape3D" parent="Thought Bubble Interface/Bubble" index="0"]
+material_override = SubResource("StandardMaterial3D_6htsq")
 
-[node name="Bubble" parent="Thought Bubbles" index="1"]
-child_thoughts = Array[String](["2"])
-
-[node name="Sphere Shape3D" parent="Thought Bubbles/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_6lv7c")
-
-[node name="test" type="Node3D" parent="Thought Bubbles/Space" index="0" instance=ExtResource("4")]
+[node name="test" parent="Thought Bubble Interface/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.17849, -2, 0)
 script = ExtResource("4_ocdaq")
+shape = 2
 run_functions = true
 
-[node name="I love u" type="Node3D" parent="Thought Bubbles/Space" index="1" instance=ExtResource("4")]
+[node name="Thought" parent="Thought Bubble Interface/Space/test" index="0"]
+script = ExtResource("5_4vdv4")
+
+[node name="Text" parent="Thought Bubble Interface/Space/test/Thought" index="0"]
+billboard = 1
+double_sided = false
+alpha_scissor_threshold = 0.0
+render_priority = 2
+outline_render_priority = 1
+text = "test"
+font = ExtResource("6_hml4x")
+autowrap_mode = 3
+width = 240.0
+
+[node name="Bubble" parent="Thought Bubble Interface/Space/test" index="1"]
+transform = Transform3D(-0.0243859, 0.993764, 0, -0.989322, -0.0244953, 0, 0, 0, 1, 0, 0, 0)
+script = ExtResource("7_tjqh5")
+space_context = "Thought Bubble Interface"
+parent_thoughts = Array[String](["Thought Bubble Interface"])
+
+[node name="@@49318" type="CSGCylinder3D" parent="Thought Bubble Interface/Space/test/Bubble" index="0"]
+material_override = SubResource("StandardMaterial3D_6ub7q")
+height = 1.103
+sides = 17
+
+[node name="CollisionShape3D" parent="Thought Bubble Interface/Space/test/Bubble/Area3D" index="0"]
+shape = SubResource("4")
+
+[node name="Space" parent="Thought Bubble Interface/Space/test" index="2"]
+script = ExtResource("8_qrxjt")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Thought Bubble Interface/Space/test/Links" index="0" instance=ExtResource("9_cn1lp")]
+material_override = SubResource("ORMMaterial3D_shfmk")
+mesh = SubResource("ImmediateMesh_xondx")
+script = ExtResource("10_hrwxb")
+link1 = "Thought Bubble Interface"
+link2 = "test"
+link_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[node name="I love u" parent="Thought Bubble Interface/Space" index="1" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87272, -2.86732, 0)
 script = ExtResource("4_ocdaq")
+shape = null
 run_functions = true
 
-[connection signal="renamed" from="Thought Bubbles/Space/test" to="Thought Bubbles/Space/test" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Thought Bubbles/Space/I love u" to="Thought Bubbles/Space/I love u" method="_on_renamed" flags=18]
+[node name="Thought" parent="Thought Bubble Interface/Space/I love u" index="0"]
+script = ExtResource("5_4vdv4")
 
-[editable path="Thought Bubbles"]
+[node name="Text" parent="Thought Bubble Interface/Space/I love u/Thought" index="0"]
+billboard = 1
+double_sided = false
+alpha_scissor_threshold = 0.0
+render_priority = 2
+outline_render_priority = 1
+text = "I love u"
+font = ExtResource("6_hml4x")
+autowrap_mode = 3
+width = 240.0
+
+[node name="Bubble" parent="Thought Bubble Interface/Space/I love u" index="1"]
+script = ExtResource("7_tjqh5")
+space_context = "Thought Bubble Interface"
+parent_thoughts = Array[String](["Thought Bubble Interface"])
+bubble_color = Color(0.72549, 0.152941, 0.470588, 0.533333)
+
+[node name="Sphere Shape3D" parent="Thought Bubble Interface/Space/I love u/Bubble" index="0"]
+material_override = SubResource("StandardMaterial3D_6atfp")
+radius = 0.632312
+radial_segments = 16
+rings = 16
+material = SubResource("3")
+
+[node name="CollisionShape3D" parent="Thought Bubble Interface/Space/I love u/Bubble/Area3D" index="0"]
+shape = SubResource("4")
+
+[node name="Space" parent="Thought Bubble Interface/Space/I love u" index="2"]
+script = ExtResource("8_qrxjt")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Thought Bubble Interface/Space/I love u/Links" index="0" instance=ExtResource("9_cn1lp")]
+material_override = SubResource("ORMMaterial3D_ai4sk")
+mesh = SubResource("ImmediateMesh_xondx")
+script = ExtResource("10_hrwxb")
+link1 = "Thought Bubble Interface"
+link2 = "I love u"
+link_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[connection signal="renamed" from="Thought Bubble Interface/Space/test" to="Thought Bubble Interface/Space/test" method="_on_renamed" flags=18]
+[connection signal="renamed" from="Thought Bubble Interface/Space/I love u" to="Thought Bubble Interface/Space/I love u" method="_on_renamed" flags=18]
+
+[editable path="Thought Bubble Interface"]
+[editable path="Thought Bubble Interface/Space/test"]
+[editable path="Thought Bubble Interface/Space/I love u"]
