@@ -62,38 +62,46 @@ func set_shape(shape):
 			new_shape.radius = .623
 			new_shape.radial_segments = 16
 			new_shape.rings = 16
+			var test = CollisionShape3D.new()
+			get_child(0).get_child(0).shape = SphereShape3D
+			#get_parent().shape = 0
 		1:
 			print("Cube")
 			new_shape = CSGBox3D.new()
+			get_child(0).get_child(0).shape = BoxShape3D
+			#get_parent().shape = 1
 		2:
 			print("Cylinder")
 			new_shape= CSGCylinder3D.new()
 			new_shape.height = 1
 			new_shape.sides = 16
+			get_child(0).get_child(0).shape = CylinderShape3D
+			#get_parent().shape = 2
 	add_child(new_shape)
 	move_child(new_shape,0)
 	new_shape.set_owner(get_viewport().get_child(0))
 	prepare_material()
 # ----------------------- Loading ----------------------- #
 func load_thought_properties(timestamp):
-	print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
+	#print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
 	load_position(timestamp)
-	print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
+	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
 	load_color(timestamp)
-	print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
+	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
 	load_links(timestamp)
-	print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
-
+	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
+	load_shape(timestamp)
 
 
 func load_position(timestamp):
+	timestamp = str(timestamp)
 	var x = ""
 	var y = ""
 	var z = ""
 	print(bubble_interface_node.get_name() + " loading position")
-	x = get_bubble_property("Position" ,"x", timestamp)
-	y = get_bubble_property("Position", "y", timestamp)
-	z = get_bubble_property("Position", "z", timestamp)
+	x = get_bubble_property(["|Position|" ,"|x|"], timestamp)
+	y = get_bubble_property(["|Position|", "|y|"], timestamp)
+	z = get_bubble_property(["|Position|", "|z|"], timestamp)
 	#print(x)
 	#print(bubble_interface_node.get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
 	if (x == null):
@@ -114,21 +122,34 @@ func load_color(timestamp):
 	var b = ""
 	var a = ""
 	
-	r = get_bubble_property("Color", "r", str(timestamp))
-	g = get_bubble_property("Color", "g", str(timestamp))
-	b = get_bubble_property("Color", "b", str(timestamp))
-	a = get_bubble_property("Color", "a", str(timestamp))
+	r = get_bubble_property(["|Color|", "|r|"], str(timestamp))
+	g = get_bubble_property(["|Color|", "|g|"], str(timestamp))
+	b = get_bubble_property(["|Color|", "|b|"], str(timestamp))
+	a = get_bubble_property(["|Color|", "|a|"], str(timestamp))
 	
-	r = float(r)
-	g = float(g)
-	b = float(b)
-	a = float(a)
 	if (r == null || g == null || b == null || a == null):
 		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 	else:
+		r = float(r)
+		g = float(g)
+		b = float(b)
+		a = float(a)
 		bubble_color = Color(r,g,b,a)
 	get_child(0).material_override.albedo_color = bubble_color
 
+func load_shape(timestamp):
+	timestamp = str(timestamp)
+	var shape = get_bubble_property(["|Shape|"], timestamp)
+	var shape_id
+	match shape:
+		"CSGSphere3D":
+			shape_id = 0
+		"CSGBox3D":
+			shape_id = 1
+		"CSGCylinder3D":
+			shape_id = 2
+	get_parent().shape = shape_id
+			
 func load_links(timestamp):
 	var output = []
 	var loaded_nodes = file_manager.load_file()
@@ -171,14 +192,17 @@ func get_latest_bubble_property_value(property, element):
 	else:
 		return null
 
-func get_bubble_property(property,element,timestamp):
+func get_bubble_property(property_arr, timestamp):
 	var focused = false
 	var loaded_nodes = file_manager.load_file()
 	var output = []
-	var load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|"+property+"|"], loaded_nodes["|"+element+"|"], loaded_nodes["|Timestamp|"]]
-	
+	var load_array = [loaded_nodes[bubble_interface_node.get_name()]]#, loaded_nodes["|"+property+"|"], loaded_nodes["|"+element+"|"], loaded_nodes["|Timestamp|"]]
+	for property in property_arr:
+		load_array.append(loaded_nodes[property])
+	load_array.append(loaded_nodes["|Timestamp|"])
 	output = getIntersection(load_array)
 
+	#print(load_array)
 	#print(output)
 	if (!output.has(timestamp)):
 		#Ensure this is the closest timestamp to the selected as possible
@@ -188,8 +212,9 @@ func get_bubble_property(property,element,timestamp):
 	#print(output)		
 	#print(timestamp)	
 	if (output.find(timestamp) > -1):
-
-		load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|" + property + "|"], loaded_nodes["|" + element + "|"], loaded_nodes[str(timestamp)]]
+		load_array.pop_back()
+		load_array.append(loaded_nodes[str(timestamp)])
+		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|" + property + "|"], loaded_nodes["|" + element + "|"], loaded_nodes[str(timestamp)]]
 		#print(load_array)
 		output = getIntersection(load_array)
 		#print(output)
@@ -199,6 +224,7 @@ func get_bubble_property(property,element,timestamp):
 		else:
 			return null
 	else:
+		print("Remember to set the timestamp")
 		bubble_interface_node.visible = false
 		
 #Generated by Bing Chat
@@ -224,7 +250,7 @@ func _save_thought(timestamp):
 	save_basis(timestamp)
 	save_links(timestamp)
 	save_color(timestamp)
-	#save_shape(timestamp)
+	save_shape(timestamp)
 	
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
@@ -241,41 +267,41 @@ func save_name(timestamp):
 
 func save_position(timestamp):
 	# Position
-	save_bubble_property("Transform3D", "Position", "x", str(timestamp), str(bubble_interface_node.transform.origin.x))
-	save_bubble_property("Transform3D", "Position", "y", str(timestamp), str(bubble_interface_node.transform.origin.y))
-	save_bubble_property("Transform3D", "Position", "z", str(timestamp), str(bubble_interface_node.transform.origin.z))
+	save_bubble_property(["|Transform3D|", "|Position|", "|x|", str(timestamp), str(bubble_interface_node.transform.origin.x)])
+	save_bubble_property(["|Transform3D|", "|Position|", "|y|", str(timestamp), str(bubble_interface_node.transform.origin.y)])
+	save_bubble_property(["|Transform3D|", "|Position|", "|z|", str(timestamp), str(bubble_interface_node.transform.origin.z)])
 
 func save_basis(timestamp):
 		# Basis
-	save_bubble_property("Transform3D", "Basis", "xx", str(timestamp), str(bubble_interface_node.transform.basis.x.x))
-	save_bubble_property("Transform3D", "Basis", "xy", str(timestamp), str(bubble_interface_node.transform.basis.x.y))
-	save_bubble_property("Transform3D", "Basis", "xz", str(timestamp), str(bubble_interface_node.transform.basis.x.z))
+	save_bubble_property(["|Transform3D|", "|Basis|", "|xx|", str(timestamp), str(bubble_interface_node.transform.basis.x.x)])
+	save_bubble_property(["|Transform3D|", "|Basis|", "|xy|", str(timestamp), str(bubble_interface_node.transform.basis.x.y)])
+	save_bubble_property(["|Transform3D|", "|Basis|", "|xz|", str(timestamp), str(bubble_interface_node.transform.basis.x.z)])
 	
-	save_bubble_property("Transform3D", "Basis", "yx", str(timestamp), str(bubble_interface_node.transform.basis.y.x))
-	save_bubble_property("Transform3D", "Basis", "yy", str(timestamp), str(bubble_interface_node.transform.basis.y.y))
-	save_bubble_property("Transform3D", "Basis", "yz", str(timestamp), str(bubble_interface_node.transform.basis.y.z))
+	save_bubble_property(["|Transform3D|", "|Basis|", "|yx|", str(timestamp), str(bubble_interface_node.transform.basis.y.x)])
+	save_bubble_property(["|Transform3D|", "|Basis|", "|yy|", str(timestamp), str(bubble_interface_node.transform.basis.y.y)])
+	save_bubble_property(["|Transform3D|", "|Basis|", "|yz|", str(timestamp), str(bubble_interface_node.transform.basis.y.z)])
 	
-	save_bubble_property("Transform3D", "Basis", "zx", str(timestamp), str(bubble_interface_node.transform.basis.z.x))
-	save_bubble_property("Transform3D", "Basis", "zy", str(timestamp), str(bubble_interface_node.transform.basis.z.y))
-	save_bubble_property("Transform3D", "Basis", "zz", str(timestamp), str(bubble_interface_node.transform.basis.z.z))
+	save_bubble_property(["|Transform3D|", "|Basis|", "|zx|", str(timestamp), str(bubble_interface_node.transform.basis.z.x)])
+	save_bubble_property(["|Transform3D|", "|Basis|", "|zy|", str(timestamp), str(bubble_interface_node.transform.basis.z.y)])
+	save_bubble_property(["|Transform3D|", "|Basis|", "|zz|", str(timestamp), str(bubble_interface_node.transform.basis.z.z)])
 
 func save_color(timestamp):
 	# Color
-	save_bubble_property("Material", "Color", "r", str(timestamp), str(bubble_color.r))
-	save_bubble_property("Material", "Color", "g", str(timestamp), str(bubble_color.g))
-	save_bubble_property("Material", "Color", "b", str(timestamp), str(bubble_color.b))
-	save_bubble_property("Material", "Color", "a", str(timestamp), str(bubble_color.a))
+	save_bubble_property(["|Material|", "|Color|", "|r|", str(timestamp), str(bubble_color.r)])
+	save_bubble_property(["|Material|", "|Color|", "|g|", str(timestamp), str(bubble_color.g)])
+	save_bubble_property(["|Material|", "|Color|", "|b|", str(timestamp), str(bubble_color.b)])
+	save_bubble_property(["|Material|", "|Color|", "|a|", str(timestamp), str(bubble_color.a)])
 
 func save_shape(timestamp):
-	save_bubble_property("Geometry", "Shape", "Smthn", str(timestamp), str(get_child(0)))
+	save_bubble_property(["|Shape|", str(timestamp), str(get_child(0).get_class())])
 	
-func save_bubble_property(field, property, element, timestamp, value):
+func save_bubble_property(propertyArr):
 	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
 		
-		#var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name() , bubble_interface_node.get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", timestamp, value]
 		#print(get_parent().get_name())
-		var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name(), bubble_interface_node.get_name(), "|" + field + "|", "|" + property + "|", "|" + element + "|", str(timestamp), value]
-		#print(lookup_array)
+		var save_array = ["|Godot|", "|Bubble|", parent_bubble_node.get_name(), bubble_interface_node.get_name()] #, "|" + field + "|", "|" + property + "|", "|" + element + "|", str(timestamp), value]
+		for property in propertyArr:
+			save_array.append(property)
 		file_manager.save(save_array)
 
 

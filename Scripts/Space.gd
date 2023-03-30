@@ -105,7 +105,6 @@ func create_and_link_new_thought(thought_text, linking_thoughts, position):
 		new_bubble.translate(position)
 		new_bubble.translate(Vector3(0,-2,0))
 		
-		
 		for thought in linking_thoughts:
 			if (thought != get_parent().get_name()):
 				if (get_node(thought).get_child(1).child_thoughts.find(new_bubble.get_name()) == -1):

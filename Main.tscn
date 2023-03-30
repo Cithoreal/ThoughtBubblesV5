@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=9 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
-[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_ocdaq"]
+[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_wd2yd"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -16,11 +16,6 @@ background_color = Color(0.0588235, 0.0941176, 0.109804, 1)
 sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_edlqi"]
-transparency = 1
-shading_mode = 0
-albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 
 [node name="scene" type="Node3D"]
 
@@ -37,26 +32,16 @@ script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
 
 [node name="Thought Bubble Interface" parent="." instance=ExtResource("4")]
-timestamp_selector = 1
-current_timestamp = "1680135704.949"
+new_thought = "Hi there"
+is_focused = true
+current_timestamp = "1680202784.642"
 
-[node name="@@20880" type="CSGSphere3D" parent="Thought Bubble Interface/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_edlqi")
-radius = 0.623
-radial_segments = 16
-rings = 16
-
-[node name="test" type="Node3D" parent="Thought Bubble Interface/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.17849, -2, 0)
-script = ExtResource("4_ocdaq")
+[node name="Hi there" type="Node3D" parent="Thought Bubble Interface/Space" index="0" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68326, -2, 0)
+script = ExtResource("4_wd2yd")
+shape = 2
 run_functions = true
 
-[node name="I love u" type="Node3D" parent="Thought Bubble Interface/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87272, -2.86732, 0)
-script = ExtResource("4_ocdaq")
-run_functions = true
-
-[connection signal="renamed" from="Thought Bubble Interface/Space/test" to="Thought Bubble Interface/Space/test" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Thought Bubble Interface/Space/I love u" to="Thought Bubble Interface/Space/I love u" method="_on_renamed" flags=18]
+[connection signal="renamed" from="Thought Bubble Interface/Space/Hi there" to="Thought Bubble Interface/Space/Hi there" method="_on_renamed" flags=18]
 
 [editable path="Thought Bubble Interface"]
