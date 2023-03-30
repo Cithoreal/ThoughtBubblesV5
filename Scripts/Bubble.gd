@@ -72,6 +72,7 @@ func load_position(timestamp):
 	x = get_bubble_property("Position" ,"x", timestamp)
 	y = get_bubble_property("Position", "y", timestamp)
 	z = get_bubble_property("Position", "z", timestamp)
+	#print(x)
 	#print(bubble_interface_node.get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
 	if (x == null):
 		x = 0
@@ -95,7 +96,10 @@ func load_color(timestamp):
 	g = get_bubble_property("Color", "g", str(timestamp))
 	b = get_bubble_property("Color", "b", str(timestamp))
 	a = get_bubble_property("Color", "a", str(timestamp))
-	
+	r = float(r)
+	g = float(g)
+	b = float(b)
+	a = float(a)
 	if (r == null || g == null || b == null || a == null):
 		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 	else:
@@ -153,18 +157,19 @@ func get_bubble_property(property,element,timestamp):
 	output = getIntersection(load_array)
 
 	#print(output)
-#	if (!output.has(timestamp)):
-#		#Ensure this is the closest timestamp to the selected as possible
-#		for time in output:
-#			if (float(time) < float(timestamp)):
-#				timestamp = time
-				
+	if (!output.has(timestamp)):
+		#Ensure this is the closest timestamp to the selected as possible
+		for time in output:
+			if (float(time) < float(timestamp)):
+				timestamp = time
+	#print(output)		
+	#print(timestamp)	
 	if (output.find(timestamp) > -1):
 
 		load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["|" + property + "|"], loaded_nodes["|" + element + "|"], loaded_nodes[str(timestamp)]]
-
+		#print(load_array)
 		output = getIntersection(load_array)
-
+		#print(output)
 		if (len(output) > 0):
 
 			return output[len(output)-1]

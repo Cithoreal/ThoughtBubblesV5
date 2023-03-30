@@ -1,9 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=10 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
-[ext_resource type="PackedScene" uid="uid://cqo8ra0wvccy7" path="res://Scenes/LineRenderer.tscn" id="9_cn1lp"]
+[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_ocdaq"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -17,26 +17,10 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1cf3i"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6lv7c"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oa2hx"]
-transparency = 1
-shading_mode = 0
-albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-
-[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_k1rgy"]
-transparency = 1
-shading_mode = 0
-diffuse_mode = 3
-specular_mode = 2
-albedo_color = Color(0.329412, 0.517647, 0.6, 0.717647)
-heightmap_scale = 16.0
-heightmap_deep_parallax = true
-heightmap_min_layers = 8
-heightmap_max_layers = 32
 
 [node name="scene" type="Node3D"]
 
@@ -53,9 +37,9 @@ script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
 
 [node name="Thought Bubbles" parent="." instance=ExtResource("4")]
-new_thought = "test"
+new_thought = "I love u"
 is_focused = true
-current_timestamp = "1679246140.938"
+current_timestamp = "1680135704.949"
 
 [node name="Text" parent="Thought Bubbles/Thought" index="0"]
 text = "Thought Bubbles"
@@ -64,30 +48,19 @@ text = "Thought Bubbles"
 child_thoughts = Array[String](["2"])
 
 [node name="Sphere Shape3D" parent="Thought Bubbles/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_1cf3i")
+material_override = SubResource("StandardMaterial3D_6lv7c")
 
-[node name="test" parent="Thought Bubbles/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.22246, -2.4059, 0)
-current_timestamp = null
+[node name="test" type="Node3D" parent="Thought Bubbles/Space" index="0" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.17849, -2, 0)
+script = ExtResource("4_ocdaq")
+run_functions = true
 
-[node name="Text" parent="Thought Bubbles/Space/test/Thought" index="0"]
-alpha_hash_scale = 0.0
-modulate = Color(0.941176, 0.94902, 0.866667, 1)
-text = "test"
-width = 237.7
+[node name="I love u" type="Node3D" parent="Thought Bubbles/Space" index="1" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87272, -2.86732, 0)
+script = ExtResource("4_ocdaq")
+run_functions = true
 
-[node name="Bubble" parent="Thought Bubbles/Space/test" index="1"]
-space_context = "Thought Bubbles"
-parent_thoughts = Array[String](["Thought Bubbles"])
-
-[node name="Sphere Shape3D" parent="Thought Bubbles/Space/test/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_oa2hx")
-
-[node name="MeshInstance3D" parent="Thought Bubbles/Space/test/Links" index="0" instance=ExtResource("9_cn1lp")]
-material_override = SubResource("ORMMaterial3D_k1rgy")
-link1 = "Thought Bubbles"
-link2 = "test"
-link_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+[connection signal="renamed" from="Thought Bubbles/Space/test" to="Thought Bubbles/Space/test" method="_on_renamed" flags=18]
+[connection signal="renamed" from="Thought Bubbles/Space/I love u" to="Thought Bubbles/Space/I love u" method="_on_renamed" flags=18]
 
 [editable path="Thought Bubbles"]
-[editable path="Thought Bubbles/Space/test"]

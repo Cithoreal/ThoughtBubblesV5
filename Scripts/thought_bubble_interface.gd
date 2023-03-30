@@ -38,7 +38,7 @@ var timestamp_list = []
 #	return properties
 
 func _set_timestamp(_value):
-	current_timestamp = get_child(2).load_timestamps()
+	current_timestamp = get_child(2).load_timestamps(timestamp_selector)
 	print(current_timestamp)
 	#current_timestamp = len(timestamp_list)
 	#print(_value)
