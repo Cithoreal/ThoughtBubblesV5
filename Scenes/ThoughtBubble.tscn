@@ -1,13 +1,12 @@
-[gd_scene load_steps=10 format=3 uid="uid://bag3770qsr67s"]
+[gd_scene load_steps=9 format=3 uid="uid://bag3770qsr67s"]
 
 [ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="1"]
 [ext_resource type="FontFile" uid="uid://bmjo81t7wimgm" path="res://Font/LiberationSans-Regular-Font.tres" id="2"]
 [ext_resource type="Script" path="res://Scripts/Space.gd" id="3"]
 [ext_resource type="Script" path="res://Scripts/Thought.gd" id="4"]
 [ext_resource type="Script" path="res://Scripts/Bubble.gd" id="5"]
-[ext_resource type="Material" uid="uid://cstvbalj42b2n" path="res://Materials/ThoughtBubble_Mat.tres" id="5_voyx5"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_imoha"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rqpu8"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -43,10 +42,9 @@ width = 240.0
 
 [node name="Bubble" type="Node3D" parent="."]
 script = ExtResource("5")
-material = ExtResource("5_voyx5")
 
 [node name="Sphere Shape3D" type="CSGSphere3D" parent="Bubble"]
-material_override = SubResource("StandardMaterial3D_imoha")
+material_override = SubResource("StandardMaterial3D_rqpu8")
 radius = 0.632312
 radial_segments = 16
 rings = 16

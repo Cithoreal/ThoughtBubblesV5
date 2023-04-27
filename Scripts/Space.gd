@@ -126,4 +126,18 @@ func new_thought_in_space(thought_text):
 		
 
 
+func test(test_var):
+	file_manager = get_viewport().get_child(0).get_node("FileManager")
+	file_manager.connect("orbitdb_recieved", Callable(self, "test_get_signal"))
+	file_manager.get_from_orbitdb(test_var)
+	
+func test_get_signal(test_var):
+	print(test_var)
+	var fixed_var = ""
+	file_manager = get_viewport().get_child(0).get_node("FileManager")
+	file_manager.disconnect("orbitdb_recieved", Callable(self, "test_get_signal"))
+	fixed_var = test_var.replace("\'","\"")
+	var dict = JSON.parse_string(fixed_var)
+	print(dict)
+	print(dict["5"])
 

@@ -3,7 +3,6 @@
 [ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
-[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_wd2yd"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -16,6 +15,11 @@ background_color = Color(0.0588235, 0.0941176, 0.109804, 1)
 sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bxcp5"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 
 [node name="scene" type="Node3D"]
 
@@ -31,17 +35,24 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
 
-[node name="Thought Bubble Interface" parent="." instance=ExtResource("4")]
+[node name="Thought_Bubble Interface" parent="." instance=ExtResource("4")]
+shape = 1
 new_thought = "Hi there"
 is_focused = true
 current_timestamp = "1680202784.642"
+test_var = "get `y`"
 
-[node name="Hi there" type="Node3D" parent="Thought Bubble Interface/Space" index="0" instance=ExtResource("4")]
+[node name="Text" parent="Thought_Bubble Interface/Thought" index="0"]
+text = "Thought_Bubble Interface"
+
+[node name="@@20464" type="CSGBox3D" parent="Thought_Bubble Interface/Bubble" index="0"]
+material_override = SubResource("StandardMaterial3D_bxcp5")
+
+[node name="CollisionShape3D" parent="Thought_Bubble Interface/Bubble/Area3D" index="0"]
+shape = null
+
+[node name="Hi_there" parent="Thought_Bubble Interface/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68326, -2, 0)
-script = ExtResource("4_wd2yd")
-shape = 2
-run_functions = true
+test_var = "get -a"
 
-[connection signal="renamed" from="Thought Bubble Interface/Space/Hi there" to="Thought Bubble Interface/Space/Hi there" method="_on_renamed" flags=18]
-
-[editable path="Thought Bubble Interface"]
+[editable path="Thought_Bubble Interface"]

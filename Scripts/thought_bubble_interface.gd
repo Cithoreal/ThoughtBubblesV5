@@ -25,7 +25,8 @@ extends Node3D
 @export var timestamp_selector: int : set = _set_timestamp
 @export var current_timestamp = ""
 
-
+@export var test: bool : set = test_stuff
+@export var test_var = ""
 func _enter_tree():
 	get_child(0).set_thought(get_name())
 	run_functions = true
@@ -41,6 +42,7 @@ func _on_set_color(_value):
 	
 func _set_shape(_value):
 	if(run_functions):
+		print(OS.get_video_adapter_driver_info())
 		shape = _value
 		get_child(1).set_shape(shape)
 		
@@ -105,3 +107,5 @@ func check_context():
 func get_child_thoughts():
 	return get_child(1).get_child_thoughts()
 
+func test_stuff(_value):
+	get_child(2).test(test_var)
