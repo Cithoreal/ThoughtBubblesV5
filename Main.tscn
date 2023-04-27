@@ -16,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bxcp5"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jy6u4"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -35,24 +35,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
 
-[node name="Thought_Bubble Interface" parent="." instance=ExtResource("4")]
-shape = 1
-new_thought = "Hi there"
+[node name="Cyberspace" parent="." instance=ExtResource("4")]
+new_thought = "CyberShip"
 is_focused = true
-current_timestamp = "1680202784.642"
-test_var = "get `y`"
+test_var = "`Transform3D`"
 
-[node name="Text" parent="Thought_Bubble Interface/Thought" index="0"]
-text = "Thought_Bubble Interface"
+[node name="Text" parent="Cyberspace/Thought" index="0"]
+text = "Cyberspace"
 
-[node name="@@20464" type="CSGBox3D" parent="Thought_Bubble Interface/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_bxcp5")
+[node name="Sphere Shape3D" parent="Cyberspace/Bubble" index="0"]
+material_override = SubResource("StandardMaterial3D_jy6u4")
 
-[node name="CollisionShape3D" parent="Thought_Bubble Interface/Bubble/Area3D" index="0"]
-shape = null
-
-[node name="Hi_there" parent="Thought_Bubble Interface/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68326, -2, 0)
-test_var = "get -a"
-
-[editable path="Thought_Bubble Interface"]
+[editable path="Cyberspace"]
