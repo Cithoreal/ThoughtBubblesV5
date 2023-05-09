@@ -152,15 +152,23 @@ func load_shape(timestamp):
 			
 func load_links(timestamp):
 	var output = []
+	file_manager.connect("orbitdb_recieved", Callable(self, "load_links_part_2"))
+	file_manager.get_from_orbitdb(timestamp, [parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`", str(timestamp)])
+	#Set up Data Reciever function to continue on thread
 
-	var loaded_nodes = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`", str(timestamp)])
+
+func load_links_part_2(loaded_nodes, timestamp):
+	file_manager.disconnect("orbitdb_recieved", Callable(self, "load_links_part_2"))
 	if (loaded_nodes.has("`Link`")):
 		var get_array = [loaded_nodes[parent_bubble_node.get_name()],loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`Link`"], loaded_nodes[str(timestamp)]]
-		output = file_manager.get_from_orbitdb(get_array)
-		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
-		for element in output:
+		file_manager.connect("orbitdb_recieved", Callable(self, "load_links_end"))
+		
+	
+func load_links_end(loaded_nodes, timestamp):
+	file_manager.disconnect("orbitdb_recieved", Callable(self, "load_links_end"))
+	for element in loaded_nodes:
 			child_thoughts.append(element)
-
+	
 func _load_parents():
 
 	for link in child_thoughts:
@@ -170,8 +178,9 @@ func load_parent_links(link_to):
 	if (parent_space_node.get_node(link_to).get_child(1).parent_thoughts.find(bubble_interface_node.get_name()) == -1):
 		parent_space_node.get_node(link_to).get_child(1).parent_thoughts.append(bubble_interface_node.get_name())
 
-func get_latest_bubble_property_value(property, element):
-	var output = []
+#make the paramaters an array so the loading cycle can expand infinitely
+func get_latest_bubble_property_value(thought_list):
+
 	var timestamp = ""
 
 	#Add further thought context ability to this property value command
@@ -180,19 +189,25 @@ func get_latest_bubble_property_value(property, element):
 	
 	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", "`Timestamp`"], true, output)
 	#output = process_mb_output(output)
-	output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", "`Timestamp`"])
-	if (str(output) != "[]"):
-		timestamp = output[len(output)-1]
+	file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", "`Timestamp`"])
+	
+		
+func get_latest_bubble_property_value_part_2(thought_list, timestamp):
+	if (str(thought_list) != "[]"):
+		timestamp = thought_list[len(thought_list)-1]
 		print("Load Json")
 		##OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", timestamp], true, output)
-		output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", timestamp])
-		if (len(output) > 0):
-			return output[len(output)-1]
+		file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", timestamp])
+		
+	
+func get_latest_bubble_property_end(thought_list, timestamp):
+	#Set up Data Reciever function to continue on thread
+		if (len(thought_list) > 0):
+			return thought_list[len(thought_list)-1]
 		else:
 			return null
-	else:
-		return null
 
+	
 func get_bubble_property(property_arr, timestamp):
 	var focused = false
 
@@ -202,6 +217,7 @@ func get_bubble_property(property_arr, timestamp):
 		load_array.append(property)
 	load_array.append("`Timestamp`")
 	output = file_manager.get_from_orbitdb(load_array)
+	#Set up Data Reciever function to continue on thread
 
 	#print(load_array)
 	#print(output)
@@ -218,6 +234,7 @@ func get_bubble_property(property_arr, timestamp):
 		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
 		#print(load_array)
 		output = file_manager.get_from_orbitdb(load_array)
+		#Set up Data Reciever function to continue on thread
 		#print(output)
 		if (len(output) > 0):
 
