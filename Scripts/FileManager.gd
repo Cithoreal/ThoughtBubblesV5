@@ -5,7 +5,6 @@ var FILE_PATH = "res://Files/thought_dictionary.json"
 var ORBITDB_DIR = "C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/"
 var SOCKET_SCRIPT = "DBSocket.js"
 
-signal orbitdb_recieved(values)
 func save(save_data):
 	save_to_orbitdb(save_data)
 	
@@ -20,37 +19,37 @@ func array_to_dict(array):
 			out_dict[array[i]].append(array[n])
 	return out_dict
 	
-func get_from_orbitdb(thought):
-	var thread = Thread.new()
-	var callable = Callable(self, "_thread_get_orbitdb")
-	callable = callable.bind(thought)
-	thread.start(callable, 1)
+func get_from_orbitdb(thoughts):
 
-func _thread_get_orbitdb(node):
 	var loadString = "node DBSocket.js get -1 "
-	for value in node:
+	for value in thoughts:
 		loadString = loadString + value + " "
 	var output = []
 
 	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + loadString], output)
-	print(output)
-	orbitdb_recieved.emit(output[0])
+	#print(output[0])
+
+	var processed_output = output[0].replace("values: ", "")
+	processed_output = processed_output.replace("\n", "")
+	var arr= processed_output.split(',')
+	#print(arr)
+	return(arr)
+	
+	#Convert to dictionary before returning?
 #-1 means intersect return collection
 #-2 means full dictionary collection
+
+
 func save_to_orbitdb(thoughts):
-	var thread = Thread.new()
-	var callable = Callable(self, "_thread_save_to_orbitdb")
-	callable = callable.bind(thoughts)
-	thread.start(callable,1)
-	
-func _thread_save_to_orbitdb(node):
 	var saveString = "node DBSocket.js post -1 "
-	for value in node:
+	for value in thoughts:
 		saveString = saveString + value + " "
 	var output = []
 	#print(saveString)
 	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + saveString], output)
 	print(output)
+	
+
 	
 #-1 means right directional full linking
 #-2 means two directional full linking (All link to all)

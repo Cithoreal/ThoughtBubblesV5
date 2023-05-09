@@ -42,7 +42,6 @@ func _on_set_color(_value):
 	
 func _set_shape(_value):
 	if(run_functions):
-		print(OS.get_video_adapter_driver_info())
 		shape = _value
 		get_child(1).set_shape(shape)
 		

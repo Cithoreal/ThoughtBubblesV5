@@ -14,6 +14,7 @@ var bubble_interface_node
 var parent_space_node
 var parent_bubble_node
 var file_manager
+
 # ----------------------- INITILIZATION ----------------------- #
 func _enter_tree():
 	
@@ -57,7 +58,7 @@ func set_shape(shape):
 	var new_shape 
 	match(shape):
 		0:
-			print("Sphere")
+			#print("Sphere")
 			new_shape = CSGSphere3D.new()
 			new_shape.radius = .623
 			new_shape.radial_segments = 16
@@ -66,12 +67,12 @@ func set_shape(shape):
 			get_child(0).get_child(0).shape = SphereShape3D
 			#get_parent().shape = 0
 		1:
-			print("Cube")
+			#print("Cube")
 			new_shape = CSGBox3D.new()
 			get_child(0).get_child(0).shape = BoxShape3D
 			#get_parent().shape = 1
 		2:
-			print("Cylinder")
+			#print("Cylinder")
 			new_shape= CSGCylinder3D.new()
 			new_shape.height = 1
 			new_shape.sides = 16
@@ -84,13 +85,30 @@ func set_shape(shape):
 # ----------------------- Loading ----------------------- #
 func load_thought_properties(timestamp):
 	#print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
-	load_position(timestamp)
+	var thread = Thread.new()
+	var callable = Callable(self, "load_position")
+	callable = callable.bind(timestamp)
+	thread.start(callable,1)
+
+	#load_position(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
-	load_color(timestamp)
+	thread = Thread.new()
+	callable = Callable(self, "load_color")
+	callable = callable.bind(timestamp)
+	thread.start(callable,1)
+	#load_color(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
-	load_links(timestamp)
+	thread = Thread.new()
+	callable = Callable(self, "load_links")
+	callable = callable.bind(timestamp)
+	thread.start(callable,1)
+	#load_links(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
-	load_shape(timestamp)
+	thread = Thread.new()
+	callable = Callable(self, "load_shape")
+	callable = callable.bind(timestamp)
+	thread.start(callable,1)
+	#load_shape(timestamp)
 
 
 func load_position(timestamp):
@@ -160,6 +178,7 @@ func load_links(timestamp):
 		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
 		for element in output:
 			child_thoughts.append(element)
+			
 
 func _load_parents():
 
@@ -193,13 +212,12 @@ func get_latest_bubble_property_value(property, element):
 	else:
 		return null
 
-func get_bubble_property(property_arr, timestamp):
+func get_bubble_property(property_array, timestamp):
 	var focused = false
 
 	var output = []
 	var load_array = [bubble_interface_node.get_name()]#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
-	for property in property_arr:
-		load_array.append(property)
+	load_array.append_array(property_array)
 	load_array.append("`Timestamp`")
 	output = file_manager.get_from_orbitdb(load_array)
 
