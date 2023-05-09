@@ -12,14 +12,14 @@ var bubble2 : Node3D
 var path = []
 # Called when the node enters the scene tree for the first time.
 	
-func _enter_tree():
-	if (link1 != "" && get_parent().get_parent().get_child(2).find_child(link1)):
-		bubble1 = get_parent().get_parent().get_child(2).get_node(link1)
-	else:
-		bubble1 = get_parent().get_parent().get_parent()
-	if (link2 != ""):
-		bubble2 = get_parent().get_parent().get_child(2).get_node(link2)
-		initialize()
+#func _enter_tree():
+#	if (link1 != "" && get_parent().get_parent().get_child(2).find_child(link1)):
+#		bubble1 = get_parent().get_parent().get_child(2).get_node(link1)
+#	else:
+#		bubble1 = get_parent().get_parent().get_parent()
+#	if (link2 != ""):
+#		bubble2 = get_parent().get_parent().get_parent().get_node(link2)
+#		initialize()
 	
 func initialize():
 	if (bubble2 != null):
@@ -39,15 +39,20 @@ func _process(_delta):
 	path.append(bubble1.global_transform.origin) 
 	path.append(bubble2.global_transform.origin)
 	draw_path(path)
+	#print("link bubble: " + bubble2.get_name())
+
 
 func draw_path(path_array):
 	set_material_override(mat)
+	#var line = ImmediateMesh.new()
+	mesh = ImmediateMesh.new()
 	mesh.clear_surfaces()
 	mesh.surface_begin(Mesh.PRIMITIVE_POINTS, null)
 	mesh.surface_add_vertex(path_array[0])
-	mesh.surface_add_vertex(path_array[path_array.size() - 1])
+	#self.mesh.surface_add_vertex(path_array[path_array.size() - 1])
 	mesh.surface_end()
 	mesh.surface_begin(Mesh.PRIMITIVE_LINE_STRIP, null)
+	#print(mesh)
 	for x in path:
 		mesh.surface_add_vertex(x)
 	mesh.surface_end()

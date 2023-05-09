@@ -249,7 +249,12 @@ func get_bubble_property(property_array, timestamp):
 # ----------------------- Saving ----------------------- #
 	
 func _save_thought(timestamp):
-
+	var thread = Thread.new()
+	var callable = Callable(self, "save_thought")
+	callable = callable.bind(timestamp)
+	thread.start(callable,1)
+	
+func save_thought(timestamp):
 	timestamp = str(timestamp)
 	save_name(timestamp)
 	save_position(timestamp)
@@ -346,26 +351,20 @@ func _load_link_nodes():
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()
 	#print("Loading Links")
-	var linked_nodes = process_links()
-	if (len(linked_nodes)>0):
-		for node in process_links():
-			var new_link_node = link_scene.instantiate()
-			bubble_interface_node.get_child(3).add_child(new_link_node)
-			#print(str(self) + " " + str(len(parent_thoughts)-1))
-			new_link_node.bubble1 = node
-			new_link_node.bubble2 = bubble_interface_node
-			new_link_node.set_owner(get_viewport().get_child(0))
-			new_link_node.initialize()
 
-func process_links():
-	if (len(parent_thoughts) <= 1):
-		#Just render link to the thought space owner
-		return [parent_bubble_node]
-	
+	var new_link_node = link_scene.instantiate()
+	bubble_interface_node.get_child(3).add_child(new_link_node)
+	#print(str(self) + " " + str(len(parent_thoughts)-1))
+	new_link_node.bubble1 = parent_bubble_node
+	new_link_node.bubble2 = bubble_interface_node
+	new_link_node.set_owner(get_viewport().get_child(0))
+	new_link_node.initialize()
+
+
 	var ordered_thoughts = []
 	# Don't know how to initiate lists of specified sizes in gdscript
 	# and too lazy to look it up when I can just do this
-	for i in range(1, len(parent_thoughts)):
+	for i in range(0, len(parent_thoughts)):
 		ordered_thoughts.append([])
 	
 	#How many of my parent thoughts does each thought share as child thoughts?
@@ -386,7 +385,8 @@ func process_links():
 	var output_thoughts = []
 	for parent in ordered_thoughts[0]:
 		output_thoughts.append(parent_space_node.get_node(parent))
-	return output_thoughts
+
+	#return output_thoughts
 
 func clear_links():
 	for link in bubble_interface_node.get_child(3).get_children():
