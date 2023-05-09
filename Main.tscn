@@ -16,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ktty7"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jy6u4"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -44,6 +44,6 @@ test_var = "`Transform3D`"
 text = "Cyberspace"
 
 [node name="Sphere Shape3D" parent="Cyberspace/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_ktty7")
+material_override = SubResource("StandardMaterial3D_jy6u4")
 
 [editable path="Cyberspace"]

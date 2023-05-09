@@ -20,21 +20,21 @@ func array_to_dict(array):
 			out_dict[array[i]].append(array[n])
 	return out_dict
 	
-func get_from_orbitdb(timestamp, thought):
+func get_from_orbitdb(thought):
 	var thread = Thread.new()
 	var callable = Callable(self, "_thread_get_orbitdb")
-	callable = callable.bind(thought, timestamp)
+	callable = callable.bind(thought)
 	thread.start(callable, 1)
 
-func _thread_get_orbitdb(thought, timestamp):
+func _thread_get_orbitdb(node):
 	var loadString = "node DBSocket.js get -1 "
-	for value in thought:
+	for value in node:
 		loadString = loadString + value + " "
 	var output = []
 
 	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + loadString], output)
 	print(output)
-	orbitdb_recieved.emit(output[0], timestamp)
+	orbitdb_recieved.emit(output[0])
 #-1 means intersect return collection
 #-2 means full dictionary collection
 func save_to_orbitdb(thoughts):
