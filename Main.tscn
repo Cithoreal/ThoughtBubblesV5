@@ -17,7 +17,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jgr5j"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k5xal"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -39,22 +39,23 @@ offset = Vector3(-0.633, 0.315, 0)
 [node name="Cyberspace" parent="." instance=ExtResource("4")]
 new_thought = "huh"
 is_focused = true
-current_timestamp = "1682564145.704"
+timestamp_selector = 26
+current_timestamp = "1683688247.053"
 test_var = "`Transform3D`"
 
 [node name="Text" parent="Cyberspace/Thought" index="0"]
 text = "Cyberspace"
 
 [node name="Sphere Shape3D" parent="Cyberspace/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_jgr5j")
+material_override = SubResource("StandardMaterial3D_k5xal")
 
 [node name="CyberShip" type="Node3D" parent="Cyberspace/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.87667, -2, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.34092, -2, 0)
 script = ExtResource("4_e2jo6")
 run_functions = true
 
 [node name="ThoughtBubbles" type="Node3D" parent="Cyberspace/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.05076, -2, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46201, -2, 0)
 script = ExtResource("4_e2jo6")
 run_functions = true
 

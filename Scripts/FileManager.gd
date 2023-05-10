@@ -41,13 +41,14 @@ func get_from_orbitdb(thoughts):
 
 
 func save_to_orbitdb(thoughts):
+	print("saving: ",thoughts)
 	var saveString = "node DBSocket.js post -1 "
 	for value in thoughts:
 		saveString = saveString + value + " "
 	var output = []
 	#print(saveString)
 	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + saveString], output)
-	print(output)
+	#print(output)
 	
 
 	

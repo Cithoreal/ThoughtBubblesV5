@@ -154,6 +154,7 @@ func load_color(timestamp):
 		a = float(a)
 		bubble_color = Color(r,g,b,a)
 	get_child(0).material_override.albedo_color = bubble_color
+	bubble_interface_node.bubble_color  = bubble_color
 
 func load_shape(timestamp):
 	timestamp = str(timestamp)
@@ -255,7 +256,9 @@ func _save_thought(timestamp):
 	thread.start(callable,1)
 	
 func save_thought(timestamp):
+
 	timestamp = str(timestamp)
+	#Check each value to see if it has changed before saving
 	save_name(timestamp)
 	save_position(timestamp)
 	save_basis(timestamp)
@@ -271,13 +274,16 @@ func save_name(timestamp):
 	#print("Save Json")
 	#var save_dict = {}
 	#print("save name " + bubble_interface_node.get_name())
+	
 	var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
 	#print(save_array)
-	file_manager.save(save_array)
+	if !file_manager.get_from_orbitdb([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
+		file_manager.save(save_array)
 
 
 func save_position(timestamp):
 	# Position
+	
 	save_bubble_property(["`Transform3D`", "`Position`", "`x`", str(timestamp), str(bubble_interface_node.transform.origin.x)])
 	save_bubble_property(["`Transform3D`", "`Position`", "`y`", str(timestamp), str(bubble_interface_node.transform.origin.y)])
 	save_bubble_property(["`Transform3D`", "`Position`", "`z`", str(timestamp), str(bubble_interface_node.transform.origin.z)])
@@ -313,7 +319,10 @@ func save_bubble_property(propertyArr):
 		var save_array = ["`Godot`", "`Bubble`", parent_bubble_node.get_name(), bubble_interface_node.get_name()] #, "`" + field + "`", "`" + property + "`", "`" + element + "`", str(timestamp), value]
 		for property in propertyArr:
 			save_array.append(property)
-		file_manager.save(save_array)
+		#print(save_array, save_array.slice(0,-2) ,save_array[-1])
+		if !file_manager.get_from_orbitdb(save_array.slice(0,-2)).has(str(save_array[-1])):
+			#print("New")
+			file_manager.save(save_array)
 
 
 

@@ -9,7 +9,7 @@ var bubble2 : Node3D
 @export var link1 : String
 @export var link2 : String
 @export var link_color : Color
-var path = []
+
 # Called when the node enters the scene tree for the first time.
 	
 #func _enter_tree():
@@ -23,7 +23,7 @@ var path = []
 	
 func initialize():
 	if (bubble2 != null):
-		link_color = bubble2.bubble_color
+		mesh = ImmediateMesh.new()
 		set_process_input(true)
 		mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
 		mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
@@ -33,26 +33,31 @@ func initialize():
 		
 
 func _process(_delta):
+	link_color = bubble2.bubble_color
+	var path = []
 	if bubble1 == null or bubble2 == null:
 		return
 	path.clear()
 	path.append(bubble1.global_transform.origin) 
 	path.append(bubble2.global_transform.origin)
+
+	
+
 	draw_path(path)
 	#print("link bubble: " + bubble2.get_name())
 
 
-func draw_path(path_array):
+func draw_path(path):
 	set_material_override(mat)
 	#var line = ImmediateMesh.new()
-	mesh = ImmediateMesh.new()
+	
 	mesh.clear_surfaces()
-	mesh.surface_begin(Mesh.PRIMITIVE_POINTS, null)
-	mesh.surface_add_vertex(path_array[0])
-	#self.mesh.surface_add_vertex(path_array[path_array.size() - 1])
-	mesh.surface_end()
+
 	mesh.surface_begin(Mesh.PRIMITIVE_LINE_STRIP, null)
+	mesh.surface_set_color(link_color)
 	#print(mesh)
 	for x in path:
 		mesh.surface_add_vertex(x)
+	
 	mesh.surface_end()
+	material_override.albedo_color = link_color
