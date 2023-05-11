@@ -41,7 +41,7 @@ func get_from_orbitdb(thoughts):
 
 
 func save_to_orbitdb(thoughts):
-	print("saving: ",thoughts)
+	#print("saving: ",thoughts)
 	var saveString = "node DBSocket.js post -1 "
 	for value in thoughts:
 		saveString = saveString + value + " "

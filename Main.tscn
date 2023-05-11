@@ -1,9 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=9 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
-[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_e2jo6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -17,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k5xal"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yyhym"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -39,27 +38,20 @@ offset = Vector3(-0.633, 0.315, 0)
 [node name="Cyberspace" parent="." instance=ExtResource("4")]
 new_thought = "huh"
 is_focused = true
-timestamp_selector = 26
-current_timestamp = "1683688247.053"
+timestamp_selector = 28
+current_timestamp = "1683688490.206"
 test_var = "`Transform3D`"
 
 [node name="Text" parent="Cyberspace/Thought" index="0"]
 text = "Cyberspace"
 
 [node name="Sphere Shape3D" parent="Cyberspace/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_k5xal")
+material_override = SubResource("StandardMaterial3D_yyhym")
 
-[node name="CyberShip" type="Node3D" parent="Cyberspace/Space" index="0" instance=ExtResource("4")]
+[node name="CyberShip" parent="Cyberspace/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.34092, -2, 0)
-script = ExtResource("4_e2jo6")
-run_functions = true
 
-[node name="ThoughtBubbles" type="Node3D" parent="Cyberspace/Space" index="1" instance=ExtResource("4")]
+[node name="ThoughtBubbles" parent="Cyberspace/Space" index="1" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46201, -2, 0)
-script = ExtResource("4_e2jo6")
-run_functions = true
-
-[connection signal="renamed" from="Cyberspace/Space/CyberShip" to="Cyberspace/Space/CyberShip" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Cyberspace/Space/ThoughtBubbles" to="Cyberspace/Space/ThoughtBubbles" method="_on_renamed" flags=18]
 
 [editable path="Cyberspace"]

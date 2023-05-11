@@ -190,28 +190,28 @@ func load_parent_links(link_to):
 	if (parent_space_node.get_node(link_to).get_child(1).parent_thoughts.find(bubble_interface_node.get_name()) == -1):
 		parent_space_node.get_node(link_to).get_child(1).parent_thoughts.append(bubble_interface_node.get_name())
 
-func get_latest_bubble_property_value(property, element):
-	var output = []
-	var timestamp = ""
-
-	#Add further thought context ability to this property value command
-	#print(bubble_interface_node.get_name())
-	#print("Load Json")
-	
-	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", "`Timestamp`"], true, output)
-	#output = process_mb_output(output)
-	output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", "`Timestamp`"])
-	if (str(output) != "[]"):
-		timestamp = output[len(output)-1]
-		print("Load Json")
-		##OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", timestamp], true, output)
-		output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", timestamp])
-		if (len(output) > 0):
-			return output[len(output)-1]
-		else:
-			return null
-	else:
-		return null
+#func get_latest_bubble_property_value(property, element):
+#	var output = []
+#	var timestamp = ""
+#
+#	#Add further thought context ability to this property value command
+#	#print(bubble_interface_node.get_name())
+#	#print("Load Json")
+#
+#	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", "`Timestamp`"], true, output)
+#	#output = process_mb_output(output)
+#	output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", "`Timestamp`"])
+#	if (str(output) != "[]"):
+#		timestamp = output[len(output)-1]
+#		print("Load Json")
+#		##OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", timestamp], true, output)
+#		output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", timestamp])
+#		if (len(output) > 0):
+#			return output[len(output)-1]
+#		else:
+#			return null
+#	else:
+#		return null
 
 func get_bubble_property(property_array, timestamp):
 	var focused = false
@@ -239,7 +239,6 @@ func get_bubble_property(property_array, timestamp):
 		output = file_manager.get_from_orbitdb(load_array)
 		#print(output)
 		if (len(output) > 0):
-
 			return output[len(output)-1]
 		else:
 			return null
@@ -320,9 +319,30 @@ func save_bubble_property(propertyArr):
 		for property in propertyArr:
 			save_array.append(property)
 		#print(save_array, save_array.slice(0,-2) ,save_array[-1])
-		if !file_manager.get_from_orbitdb(save_array.slice(0,-2)).has(str(save_array[-1])):
-			#print("New")
-			file_manager.save(save_array)
+		var selector = bubble_interface_node.get_parent().timestamp_selector
+
+		# Check if each timestamp going in reverse time for latest save data 
+		# When one is found, check if the data being saved is the same, if not then save values new
+		# When found, if is the same as current values, do not save. Values will be loaded from that same prior timestamp
+		# If the list ends, save values new
+		for n in range(selector,0,-1):
+			#print(n)
+			var get_array = save_array.slice(0,-2)
+			get_array.append(bubble_interface_node.get_parent().timestamp_list[n])
+			var get= file_manager.get_from_orbitdb(get_array)
+			if get.has(str(save_array[-1])):
+				#print("if", get)
+				#if same, exit and don't save
+				return
+			elif get[0] != "":
+				#print("elif: ", get)
+				print("Saving...")
+				file_manager.save(save_array)
+				#print(file_manager.get_from_orbitdb(get_array))
+				return
+		#Save
+		print("Saving...")
+		file_manager.save(save_array)
 
 
 

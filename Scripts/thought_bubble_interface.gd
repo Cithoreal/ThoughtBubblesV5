@@ -95,6 +95,7 @@ func initialize():
 func _set_timestamp(_value):
 	timestamp_selector = _value
 	current_timestamp = get_child(2).load_timestamps(_value)
+	#print(current_timestamp)
 	
 
 func load_focus_context():
