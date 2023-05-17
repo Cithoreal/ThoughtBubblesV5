@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://gr1uop6gj0b0"]
+
+[ext_resource type="PackedScene" uid="uid://dtc51gsua6xo1" path="res://Assets/Lightbulb.fbx" id="1_qamrf"]
+
+[node name="3DModelThought" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.997072, 0, 0, 0, 0.997072, 0, 0, 0, 0.997072, 0, 0, 0)
+
+[node name="Lightbulb" parent="." instance=ExtResource("1_qamrf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.435763, -1.19209e-07, -0.609164)
+
+[node name="Bulb" parent="Lightbulb/RootNode/blend_root" index="0"]
+transform = Transform3D(0.704768, 0, 0, 0, 0, 0.704769, 0, -0.704769, 0, 0, -0.0212985, 1.39698e-09)
+
+[editable path="Lightbulb"]

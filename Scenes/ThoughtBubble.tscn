@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://Scripts/Thought.gd" id="4"]
 [ext_resource type="Script" path="res://Scripts/Bubble.gd" id="5"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rqpu8"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a3g46"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -44,7 +44,7 @@ width = 240.0
 script = ExtResource("5")
 
 [node name="Sphere Shape3D" type="CSGSphere3D" parent="Bubble"]
-material_override = SubResource("StandardMaterial3D_rqpu8")
+material_override = SubResource("StandardMaterial3D_a3g46")
 radius = 0.632312
 radial_segments = 16
 rings = 16

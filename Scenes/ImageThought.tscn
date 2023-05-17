@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://wpi46hnayl87"]
+
+[ext_resource type="Texture2D" uid="uid://bh0lmvov3k3qr" path="res://Assets/Images/Starting Yard.PNG" id="1_560dw"]
+
+[node name="ImageThought" type="Sprite3D"]
+texture = ExtResource("1_560dw")

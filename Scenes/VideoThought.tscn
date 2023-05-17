@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://3x33cku5k365"]
+
+[ext_resource type="VideoStream" path="res://Assets/Beatsaber Uta.ogv" id="1_e5exs"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_7nknj"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lns3i"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = SubResource("ViewportTexture_7nknj")
+albedo_texture_force_srgb = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2svgg"]
+
+[node name="VideoThought" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.249342, -0.0703785, 4.1762)
+
+[node name="SubViewport" type="SubViewport" parent="."]
+size = Vector2i(1920, 1080)
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="SubViewport"]
+anchors_preset = -1
+anchor_right = 1.664
+anchor_bottom = 1.665
+offset_left = -342.0
+offset_top = -174.0
+offset_right = 726.032
+offset_bottom = 61.52
+stream = ExtResource("1_e5exs")
+autoplay = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.778, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_lns3i")
+mesh = SubResource("PlaneMesh_2svgg")

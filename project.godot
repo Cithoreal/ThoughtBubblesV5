@@ -15,6 +15,11 @@ run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.0")
 config/icon="res://icon.png"
 
+[debug]
+
+file_logging/enable_file_logging.pc=false
+file_logging/log_path="C:/Users/cdica/logs/godot.log"
+
 [dotnet]
 
 project/assembly_name="ThoughtBubblesV5"

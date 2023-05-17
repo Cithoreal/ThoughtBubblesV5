@@ -1,4 +1,5 @@
 @tool
+class_name thought_bubbles_interface
 extends Node3D
 
 #Bubble properties
@@ -33,6 +34,8 @@ func _enter_tree():
 
 func _on_renamed():
 	get_child(0).set_thought(get_name())
+
+
 
 
 func _on_set_color(_value):
@@ -108,4 +111,12 @@ func get_child_thoughts():
 	return get_child(1).get_child_thoughts()
 
 func test_stuff(_value):
-	get_child(2).test(test_var)
+	pass
+	
+func unselect():
+	pass
+#	if (!is_focused):
+#		print(name, " saving")
+#		get_child(2).save()
+	
+

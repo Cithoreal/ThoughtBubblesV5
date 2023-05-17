@@ -9,15 +9,15 @@ func save(save_data):
 	save_to_orbitdb(save_data)
 	
 #Takes an array and constructs a dictionary where every value becomes a key containing every value that follows
-func array_to_dict(array):
-	var out_dict = {}
-	for element in array:
-		out_dict[element] = []
-	for i in range(0,len(array)):
-		for n in range(i +1, len(array)):
-			var arr = out_dict[array[i]]
-			out_dict[array[i]].append(array[n])
-	return out_dict
+#func array_to_dict(array):
+#	var out_dict = {}
+#	for element in array:
+#		out_dict[element] = []
+#	for i in range(0,len(array)):
+#		for n in range(i +1, len(array)):
+#			var arr = out_dict[array[i]]
+#			out_dict[array[i]].append(array[n])
+#	return out_dict
 	
 func get_from_orbitdb(thoughts):
 
@@ -46,7 +46,7 @@ func save_to_orbitdb(thoughts):
 	for value in thoughts:
 		saveString = saveString + value + " "
 	var output = []
-	#print(saveString)
+	print("Saving ",saveString)
 	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + saveString], output)
 	#print(output)
 	
