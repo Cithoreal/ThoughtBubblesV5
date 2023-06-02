@@ -26,6 +26,7 @@ func _enter_tree():
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
 		#print("signals connected")
 		#parent_space_node.connect("save_thoughts",Callable(self,"_save_thought"))
+		parent_space_node.connect("save_thoughts",Callable(self,"save_thought"))
 		parent_space_node.connect("load_parents",Callable(self,"_load_parents"))
 		parent_space_node.connect("load_links",Callable(self,"_load_link_nodes"))
 		bubble_color = get_child(0).material.albedo_color
@@ -121,7 +122,12 @@ func load_position(timestamp):
 	x = get_bubble_property(["`Position`" ,"`x`"], timestamp)
 	y = get_bubble_property(["`Position`", "`y`"], timestamp)
 	z = get_bubble_property(["`Position`", "`z`"], timestamp)
-	#print(x,y,z)
+	#print(x,",",y,",",z)
+	x = x[len(x)-1]
+	y = y[len(y)-1]
+	z = z[len(z)-1]
+	
+	#print(x,",",y,",",z)
 	#print(x)
 	#print(bubble_interface_node.get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
 	if (x == ""):
@@ -143,7 +149,10 @@ func load_color(timestamp):
 	g = get_bubble_property(["`Color`", "`g`"], str(timestamp))
 	b = get_bubble_property(["`Color`", "`b`"], str(timestamp))
 	a = get_bubble_property(["`Color`", "`a`"], str(timestamp))
-
+	r = r[len(r)-1]
+	g = g[len(g)-1]
+	b = b[len(b)-1]
+	a = a[len(a)-1]
 	if (r == "" || g == "" || b == "" || a == ""):
 		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 	else:
@@ -159,7 +168,7 @@ func load_shape(timestamp):
 
 	timestamp = str(timestamp)
 	var shape = get_bubble_property(["`Shape`"], timestamp)
-
+	shape = shape[len(shape)-1]
 	var shape_id = 0
 	match shape:
 		"CSGSphere3D":
@@ -172,14 +181,19 @@ func load_shape(timestamp):
 			
 func load_links(timestamp):
 	#Find and use proper timestamp
-	var get_array = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
-	var timestamps = file_manager.get_from_orbitdb(["`Timestamp`"])
-	if (get_array[0] != ""):
-		#print(get_parent().get_name(), " ", get_array)
-		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
-		for element in get_array:
-			if !timestamps.has(element):
-				child_thoughts.append(element)
+#	var get_array = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
+	var links = get_bubble_property([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"],timestamp)
+	print(links)
+	for link in links:
+		if (link != ""):
+			child_thoughts.append(link)
+#	var timestamps = file_manager.get_from_orbitdb(["`Timestamp`"])
+#	if (get_array[0] != ""):
+#		#print(get_parent().get_name(), " ", get_array)
+#		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
+#		for element in get_array:
+#			if !timestamps.has(element):
+#				child_thoughts.append(element)
 
 func _load_parents():
 	for link in child_thoughts:
@@ -189,29 +203,39 @@ func load_parent_links(link_to):
 	if (parent_space_node.get_node(link_to).get_child(1).parent_thoughts.find(bubble_interface_node.get_name()) == -1):
 		parent_space_node.get_node(link_to).get_child(1).parent_thoughts.append(bubble_interface_node.get_name())
 
-#func get_latest_bubble_property_value(property, element):
+
+#func get_bubble_property(property_array, timestamp):
+#	var focused = false
+#
 #	var output = []
-#	var timestamp = ""
+#	var load_array = [bubble_interface_node.get_name()]#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
+#	load_array.append_array(property_array)
+#	load_array.append("`Timestamp`")
+#	output = file_manager.get_from_orbitdb(load_array)
 #
-#	#Add further thought context ability to this property value command
-#	#print(bubble_interface_node.get_name())
-#	#print("Load Json")
-#
-#	#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", "`Timestamp`"], true, output)
-#	#output = process_mb_output(output)
-#	output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", "`Timestamp`"])
-#	if (str(output) != "[]"):
-#		timestamp = output[len(output)-1]
-#		print("Load Json")
-#		##OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`" + property + "`", "`" + element + "`", timestamp], true, output)
-#		output = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`"+property+"`", "`"+element +"`", timestamp])
+#	#print(load_array)
+#	#print(output)
+#	if (!output.has(timestamp)):
+#		#Ensure this is the closest timestamp to the selected as possible
+#		for time in output:
+#			if (float(time) < float(timestamp)):
+#				timestamp = time
+#	#print(output)		
+#	#print(timestamp)	
+#	if (output.find(timestamp) > -1):
+#		load_array.pop_back()
+#		load_array.append(str(timestamp))
+#		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
+#		#print(load_array)
+#		output = file_manager.get_from_orbitdb(load_array)
+#		#print(output)
 #		if (len(output) > 0):
 #			return output[len(output)-1]
 #		else:
 #			return null
 #	else:
-#		return null
-
+#		print("Remember to set the timestamp")
+#		bubble_interface_node.visible = false
 func get_bubble_property(property_array, timestamp):
 
 	var output = []
@@ -219,9 +243,9 @@ func get_bubble_property(property_array, timestamp):
 	load_array.append_array(property_array)
 	load_array.append("`Timestamp`")
 	output = file_manager.get_from_orbitdb(load_array)
-
-	#print(load_array)
-	#print(output)
+	#var back_timestamps = file_manager.get_from_orbitdb([timestamp], "`BackLink`")
+	#print(back_timestamps)
+	print(output)
 	if (!output.has(timestamp)):
 		#Ensure this is the closest timestamp to the selected as possible
 		for time in output:
@@ -235,9 +259,10 @@ func get_bubble_property(property_array, timestamp):
 		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
 		#print(load_array)
 		output = file_manager.get_from_orbitdb(load_array)
-		#print(output)
+		if (output.has(str(timestamp))):
+			output.remove_at(output.find(str(timestamp)))
 		if (len(output) > 0):
-			return output[len(output)-1]
+			return output
 		else:
 			return null
 	else:
@@ -246,6 +271,7 @@ func get_bubble_property(property_array, timestamp):
 # ----------------------- Saving ----------------------- #
 	
 func save_thought(timestamp):
+
 	var thread = Thread.new()
 	var callable = Callable(self, "_save_thought")
 	callable = callable.bind(timestamp)
@@ -295,15 +321,16 @@ func _save_thought(timestamp):
 	#execute external python script and pass it the node name and each property
 
 func save_name(timestamp):
-	# Name
-	#print("Save Json")
-	#var save_dict = {}
-	#print("save name " + bubble_interface_node.get_name())
 	
-	var save_array = [ "`Godot`", "`Thought`", "`Text`", timestamp, get_parent().get_name()]
+	# Name
+
+	print("save name " + bubble_interface_node.get_name())
+	
+	var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
 	#print(save_array)
+	
 	if !file_manager.get_from_orbitdb([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
-		file_manager.save(save_array)
+		save_bubble_property(save_array)
 
 
 func save_position(timestamp):
@@ -414,42 +441,55 @@ func save_bubble_property(propertyArr):
 		var save_array = ["`Godot`", "`Bubble`", parent_bubble_node.get_name(), bubble_interface_node.get_name()] #, "`" + field + "`", "`" + property + "`", "`" + element + "`", str(timestamp), value]
 		for property in propertyArr:
 			save_array.append(property)
-		#print(save_array, save_array.slice(0,-2) ,save_array[-1])
-		var selector = bubble_interface_node.get_parent().timestamp_selector
-
-		# Check if each timestamp going in reverse time for latest save data 
-		# When one is found, check if the data being saved is the same, if not then save values new
-		# When found, if is the same as current values, do not save. Values will be loaded from that same prior timestamp
-		# If the list ends, save values new
-		for n in range(selector,0,-1):
-			#print(n)
-			var get_array = save_array.slice(0,-2)
-			get_array.append(bubble_interface_node.get_parent().timestamp_list[n])
-			var get= file_manager.get_from_orbitdb(get_array)
-			if get.has(str(save_array[-1])):
-				#print("if", get)
-				#if same, exit and don't save
-				return
-			elif get[0] != "":
-				#print("elif: ", get)
-				#print("Saving... ", save_array)
-				file_manager.save(save_array)
-				#print(file_manager.get_from_orbitdb(get_array))
-				return
-		#Save
-		#print("Saving... ", save_array)
 		file_manager.save(save_array)
+		
+#func save_bubble_property(propertyArr):
+#	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
+#
+#		#print(get_parent().get_name())
+#		var save_array = ["`Godot`", "`Bubble`", parent_bubble_node.get_name(), bubble_interface_node.get_name()] #, "`" + field + "`", "`" + property + "`", "`" + element + "`", str(timestamp), value]
+#		for property in propertyArr:
+#			save_array.append(property)
+#		#print(save_array, save_array.slice(0,-2) ,save_array[-1])
+#		var selector = bubble_interface_node.get_parent().timestamp_selector
+#
+#		# Check if each timestamp going in reverse time for latest save data 
+#		# When one is found, check if the data being saved is the same, if not then save values new
+#		# When found, if is the same as current values, do not save. Values will be loaded from that same prior timestamp
+#		# If the list ends, save values new
+#		for n in range(selector,0,-1):
+#
+#			var get_array = save_array.slice(0,-2)
+#			get_array.append(bubble_interface_node.get_parent().timestamp_list[n])
+#			print (get_array)
+#			var get = file_manager.get_from_orbitdb(get_array)
+#			print(get)
+#			if get.has(str(save_array[-1])):
+#				print("if", get)
+#				#if same, exit and don't save
+#				return
+#			elif get[0] != "":
+#				print("elif: ", get)
+#				#print("Saving... ", save_array)
+#
+#				file_manager.save(save_array)
+#				#print(file_manager.get_from_orbitdb(get_array))
+#				return
+#		#Save
+#		#print("Saving... ", save_array)
+#
+#		file_manager.save(save_array)
 
 
 
 func save_links(timestamp):
-
+	
 	for link in child_thoughts:
+		
 		print(link)
 		print(bubble_interface_node.get_name() + " saving... " + link)
-		
 		var save_array = [ "`Godot`", bubble_interface_node.get_name(), "`Link`", str(timestamp), str(link).replace("../", "")]
-		file_manager.save(save_array)
+		save_bubble_property(save_array)
 
 	
 # ----------------------- Linking ----------------------- #

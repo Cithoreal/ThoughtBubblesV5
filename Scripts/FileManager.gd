@@ -2,7 +2,7 @@
 extends Node
 
 var FILE_PATH = "res://Files/thought_dictionary.json"
-var ORBITDB_DIR = "C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/"
+var ORBITDB_DIR = "C:/Users/cdica/Projects/IPFS-OrbitDB/Nodejs/Scripts/"
 var SOCKET_SCRIPT = "DBSocket.js"
 
 func save(save_data):
@@ -25,9 +25,9 @@ func get_from_orbitdb(thoughts):
 	for value in thoughts:
 		loadString = loadString + value + " "
 	var output = []
-
-	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + loadString], output)
-	#print(output[0])
+	#print(loadString)
+	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Nodejs/Scripts/ && " + loadString], output)
+	#print(output)
 
 	var processed_output = output[0].replace("values: ", "")
 	processed_output = processed_output.replace("\n", "")
@@ -47,7 +47,7 @@ func save_to_orbitdb(thoughts):
 		saveString = saveString + value + " "
 	var output = []
 	print("Saving ",saveString)
-	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Scripts/ && " + saveString], output)
+	OS.execute("CMD.exe", ["/C", "cd C:/Users/cdica/Projects/IPFS-OrbitDB/Nodejs/Scripts/ && " + saveString], output)
 	#print(output)
 	
 

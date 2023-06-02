@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
-[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_owijv"]
+[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_nkula"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -16,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0dvl4"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5vh86"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -34,48 +34,40 @@ script = ExtResource("1")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
+selected_thoughts = Array[Node]([Object(Node3D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":ExtResource("4_nkula"),"bubble_color":Color(0.329412, 0.517647, 0.6, 0.533333),"shape":0,"new_thought":"Puck","link_new_thought":false,"focus_thought":false,"minimize_thought":false,"hide_thought":false,"load_space":false,"save_space":false,"clear_space":false,"is_focused":true,"run_functions":true,"hidden_thoughts":Array[String]([]),"timestamp_selector":2,"current_timestamp":"1685730175.803","test":false,"test_var":"")
+])
 
 [node name="Air_Hockey" parent="." instance=ExtResource("4")]
-new_thought = "Table"
+new_thought = "Puck"
 is_focused = true
-timestamp_selector = 15
-current_timestamp = "1684290893.887"
+timestamp_selector = 2
+current_timestamp = "1685730175.803"
 
 [node name="Text" parent="Air_Hockey/Thought" index="0"]
 text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_0dvl4")
+material_override = SubResource("StandardMaterial3D_5vh86")
 
-[node name="Puck" type="Node3D" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
-script = ExtResource("4_owijv")
+[node name="Mallet" type="Node3D" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52878, -2, 0)
+script = ExtResource("4_nkula")
+new_thought = "AI"
 run_functions = true
 
-[node name="P2P" type="Node3D" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.20257, -4, 0)
-script = ExtResource("4_owijv")
+[node name="Puck" type="Node3D" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.738009, -2, 0)
+script = ExtResource("4_nkula")
 run_functions = true
 
-[node name="Multiplayer" type="Node3D" parent="Air_Hockey/Space" index="2" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8785, -2, 0)
-script = ExtResource("4_owijv")
+[node name="AI" type="Node3D" parent="Air_Hockey/Space" index="2" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.71741, -4, 0)
+script = ExtResource("4_nkula")
+shape = 1
 run_functions = true
 
-[node name="Table" type="Node3D" parent="Air_Hockey/Space" index="3" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -1.39932)
-script = ExtResource("4_owijv")
-run_functions = true
-
-[node name="WebRTC" type="Node3D" parent="Air_Hockey/Space" index="4" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8785, -4.62659, -1.74732)
-script = ExtResource("4_owijv")
-run_functions = true
-
+[connection signal="renamed" from="Air_Hockey/Space/Mallet" to="Air_Hockey/Space/Mallet" method="_on_renamed" flags=18]
 [connection signal="renamed" from="Air_Hockey/Space/Puck" to="Air_Hockey/Space/Puck" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Air_Hockey/Space/P2P" to="Air_Hockey/Space/P2P" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Air_Hockey/Space/Multiplayer" to="Air_Hockey/Space/Multiplayer" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Air_Hockey/Space/Table" to="Air_Hockey/Space/Table" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Air_Hockey/Space/WebRTC" to="Air_Hockey/Space/WebRTC" method="_on_renamed" flags=18]
+[connection signal="renamed" from="Air_Hockey/Space/AI" to="Air_Hockey/Space/AI" method="_on_renamed" flags=18]
 
 [editable path="Air_Hockey"]
