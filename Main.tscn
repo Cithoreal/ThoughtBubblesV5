@@ -16,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5vh86"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_084li"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -34,25 +34,24 @@ script = ExtResource("1")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
-selected_thoughts = Array[Node]([Object(Node3D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":ExtResource("4_nkula"),"bubble_color":Color(0.329412, 0.517647, 0.6, 0.533333),"shape":0,"new_thought":"Puck","link_new_thought":false,"focus_thought":false,"minimize_thought":false,"hide_thought":false,"load_space":false,"save_space":false,"clear_space":false,"is_focused":true,"run_functions":true,"hidden_thoughts":Array[String]([]),"timestamp_selector":2,"current_timestamp":"1685730175.803","test":false,"test_var":"")
+selected_thoughts = Array[Node]([Object(Node3D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":ExtResource("4_nkula"),"bubble_color":Color(0.329412, 0.517647, 0.6, 0.533333),"shape":0,"new_thought":"Puck","link_new_thought":false,"focus_thought":false,"minimize_thought":false,"hide_thought":false,"load_space":false,"save_space":false,"clear_space":false,"is_focused":true,"run_functions":true,"hidden_thoughts":Array[String]([]),"timestamp_selector":5,"current_timestamp":"1685804888.677","test":false,"test_var":"")
 ])
 
 [node name="Air_Hockey" parent="." instance=ExtResource("4")]
 new_thought = "Puck"
 is_focused = true
-timestamp_selector = 2
-current_timestamp = "1685730175.803"
+timestamp_selector = 5
+current_timestamp = "1685804888.677"
 
 [node name="Text" parent="Air_Hockey/Thought" index="0"]
 text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_5vh86")
+material_override = SubResource("StandardMaterial3D_084li")
 
 [node name="Mallet" type="Node3D" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52878, -2, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54345, -2.00797, 0)
 script = ExtResource("4_nkula")
-new_thought = "AI"
 run_functions = true
 
 [node name="Puck" type="Node3D" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
@@ -60,14 +59,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.738009, -2, 0)
 script = ExtResource("4_nkula")
 run_functions = true
 
-[node name="AI" type="Node3D" parent="Air_Hockey/Space" index="2" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.71741, -4, 0)
-script = ExtResource("4_nkula")
-shape = 1
-run_functions = true
-
 [connection signal="renamed" from="Air_Hockey/Space/Mallet" to="Air_Hockey/Space/Mallet" method="_on_renamed" flags=18]
 [connection signal="renamed" from="Air_Hockey/Space/Puck" to="Air_Hockey/Space/Puck" method="_on_renamed" flags=18]
-[connection signal="renamed" from="Air_Hockey/Space/AI" to="Air_Hockey/Space/AI" method="_on_renamed" flags=18]
 
 [editable path="Air_Hockey"]

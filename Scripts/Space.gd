@@ -111,10 +111,10 @@ func save():
 	file_manager.save(["`Timestamp`", str(timestamp)])
 	if get_parent().is_focused:
 		save_timestamp = get_parent().current_timestamp
-		get_parent().timestamp_selector += 1
+		#get_parent().timestamp_selector += 1
 	else:
 		save_timestamp = get_parent().get_parent().get_parent().current_timestamp
-		get_parent().get_parent().get_parent().timestamp_selector += 1
+		#get_parent().get_parent().get_parent().timestamp_selector += 1
 		
 	if str(get_parent().current_timestamp) != "not loaded" && get_parent().current_timestamp != null && get_parent().current_timestamp != "":
 		file_manager.save([str(timestamp), "`BackLink`", str(get_parent().current_timestamp)])
