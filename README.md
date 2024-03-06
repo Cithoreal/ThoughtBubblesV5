@@ -1,5 +1,14 @@
 # ThoughtBubblesV5
 
-is a prototype application. Its purpose is to provide an interface to Cyberspace. It connects to an IPFS-OrbitDB based backend system to save and load data.
+This version has a focus on creative writing applications. It uses JSON for data handling and stores all data locally.
 
-ThoughtBubbles is built with Godot v4.0.
+ThoughtBubbles is built with Godot 4
+
+
+
+Todo:
+
+- [ ] Switch to pure JSON for data handling
+- [ ] Comment Code and create documentation sheet
+- [ ] Basic flow chart
+- [ ] Update UI Styling for Writing Focus
