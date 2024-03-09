@@ -4,9 +4,8 @@ extends Node3D
 @export var space_context: String
 @export var  parent_thoughts : Array[String]
 @export var child_thoughts :Array[String]
-@export var bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-#var MB_to_godot_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/MB_to_godot.py"
-#var godot_to_nodes_path = "/run/media/cithoreal/Elements/MemoryBase/ToThoughts-Git/godot_to_nodes.py"
+@export var bubble_color: Color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
 var link_scene = load("res://Scenes/LineRenderer.tscn")
 var mat = StandardMaterial3D.new()
 
@@ -15,7 +14,8 @@ var parent_space_node
 var parent_bubble_node
 var file_manager
 
-# ----------------------- INITILIZATION ----------------------- #
+# ----------------------- INITIALIZATION ----------------------- #
+#region Initialization
 func _enter_tree():
 	
 	bubble_interface_node = get_parent()
@@ -82,7 +82,9 @@ func set_shape(shape):
 	move_child(new_shape,0)
 	new_shape.set_owner(get_viewport().get_child(0))
 	prepare_material()
+	#endregion
 # ----------------------- Loading ----------------------- #
+#region Loading
 func load_thought_properties(timestamp):
 	#print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
 	var thread1 = Thread.new()
@@ -268,8 +270,9 @@ func get_bubble_property(property_array, timestamp):
 	else:
 		print("Remember to set the timestamp")
 		bubble_interface_node.visible = false
+#endregion
 # ----------------------- Saving ----------------------- #
-	
+#region Saving
 func save_thought(timestamp):
 
 	var thread = Thread.new()
@@ -491,9 +494,9 @@ func save_links(timestamp):
 		var save_array = [ "`Godot`", bubble_interface_node.get_name(), "`Link`", str(timestamp), str(link).replace("../", "")]
 		save_bubble_property(save_array)
 
-	
+#endregion
 # ----------------------- Linking ----------------------- #
-
+#region Linking
 func new_linked_thought(new_thought):
 	if (child_thoughts.find(new_thought) == -1):
 		if (parent_space_node.find_child(new_thought) == null):
@@ -561,9 +564,9 @@ func process_links():
 func clear_links():
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()
-
+#endregion
 # ----------------------- Focus ----------------------- #
-
+#region Focus
 func focus():
 	#Create new instance of each child
 	for child in child_thoughts:
@@ -598,3 +601,4 @@ func check_context():
 		for link in bubble_interface_node.get_child(3).get_children():
 			link.visible = false	
 	
+#endregion

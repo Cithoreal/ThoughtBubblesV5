@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://c5sikjmth5uix"]
 
-[ext_resource type="Script" path="res://Scripts/FileManager.gd" id="1"]
+[ext_resource type="Script" path="res://Scripts/JSONManager.gd" id="1_122ea"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
 
@@ -15,7 +15,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2qo8r"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eoudu"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -27,7 +27,7 @@ environment = SubResource("Environment_7i306")
 camera_attributes = SubResource("CameraAttributesPractical_54i47")
 
 [node name="FileManager" type="Node" parent="."]
-script = ExtResource("1")
+script = ExtResource("1_122ea")
 
 [node name="Cursor" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
@@ -41,10 +41,10 @@ timestamp_selector = 5
 current_timestamp = "1685804888.677"
 
 [node name="Text" parent="Air_Hockey/Thought" index="0"]
-text = "Thought Bubbles"
+text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_2qo8r")
+material_override = SubResource("StandardMaterial3D_eoudu")
 
 [node name="Mallet" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54345, -2.00797, 0)
