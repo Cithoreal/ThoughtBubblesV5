@@ -63,7 +63,7 @@ func load_space():
 	#print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
 	clear_scene()
 
-	for node in file_manager.get_from_orbitdb(["`Text`"]):
+	for node in file_manager.get_nodes(["`Text`"]):
 		print(node)
 		load_thought(node)
 		
@@ -104,7 +104,7 @@ func save():
 	print("saving thoughts")
 	var timestamp = Time.get_unix_time_from_system()
 	file_manager = get_viewport().get_child(0).get_node("FileManager")
-	var space_dict = {}
+	#var space_dict = {}
 	var save_timestamp
 	# for node in get_children():
 	# 	space_dict[node.get_name()] = node.get_child_thoughts()
@@ -117,6 +117,7 @@ func save():
 		#get_parent().get_parent().get_parent().timestamp_selector += 1
 		
 	if str(get_parent().current_timestamp) != "not loaded" && get_parent().current_timestamp != null && get_parent().current_timestamp != "":
+		print("saving backlink")
 		file_manager.save([str(timestamp), "`BackLink`", str(get_parent().current_timestamp)])
 		file_manager.save([str(get_parent().current_timestamp), "`Link`", str(timestamp)])
 	# file_manager.save(space_dict)
