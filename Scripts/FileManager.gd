@@ -3,7 +3,7 @@ extends Node
 
 class_name FileManager
 
-var FILE_PATH = "res://Files/thought_dictionary.json"
+var FILE_PATH = "res://Files/"
 
 #Save(savedata) Saves data to file
 #Save_all()         Generic Save all

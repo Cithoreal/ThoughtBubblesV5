@@ -281,7 +281,7 @@ func save_thought(timestamp):
 	thread.start(callable,Thread.PRIORITY_NORMAL)
 	
 func _save_thought(timestamp):
-
+	print("Saving " + bubble_interface_node.get_name() + " at " + str(timestamp))
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
 	var thread1 = Thread.new()
@@ -332,7 +332,7 @@ func save_name(timestamp):
 	var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
 	#print(save_array)
 	
-	if !file_manager.get_from_orbitdb([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
+	if file_manager.get_nodes([ "`Godot`", "`Thought`", "`Text`"]) and !file_manager.get_nodes([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
 		save_bubble_property(save_array)
 
 
@@ -434,7 +434,7 @@ func save_color(timestamp):
 	#save_bubble_property(["`Material`", "`Color`", "`a`", str(timestamp), str(bubble_color.a)])
 
 func save_shape(timestamp):
-	save_bubble_property(["`Shape`", str(timestamp), str(get_child(0).get_class())])
+	save_bubble_property(["`Shape`", str(timestamp), str(get_child(0))])
 	print("possibly all saved")
 	
 func save_bubble_property(propertyArr):
@@ -495,8 +495,8 @@ func save_links(timestamp):
 		save_bubble_property(save_array)
 
 #endregion
-# ----------------------- Linking ----------------------- #
-#region Linking
+
+#region ----------------------- Linking ----------------------- #
 func new_linked_thought(new_thought):
 	if (child_thoughts.find(new_thought) == -1):
 		if (parent_space_node.find_child(new_thought) == null):
@@ -565,8 +565,8 @@ func clear_links():
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()
 #endregion
-# ----------------------- Focus ----------------------- #
-#region Focus
+
+#region -----------------------  Focus  ----------------------- #
 func focus():
 	#Create new instance of each child
 	for child in child_thoughts:

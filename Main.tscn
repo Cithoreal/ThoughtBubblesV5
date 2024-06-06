@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=10 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" path="res://Scripts/JSONManager.gd" id="1_122ea"]
 [ext_resource type="Script" path="res://Scripts/Cursor.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
+[ext_resource type="Script" path="res://Scripts/thought_bubble_interface.gd" id="4_13mv5"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -15,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eoudu"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_48dcd"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -28,28 +29,32 @@ camera_attributes = SubResource("CameraAttributesPractical_54i47")
 
 [node name="FileManager" type="Node" parent="."]
 script = ExtResource("1_122ea")
+FILE_NAME = "AirHockey"
 
-[node name="Cursor" type="Node3D" parent="."]
+[node name="Cursor" type="Node3D" parent="." node_paths=PackedStringArray("selected_thoughts")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 script = ExtResource("2")
 offset = Vector3(-0.633, 0.315, 0)
+selected_thoughts = [NodePath("../Air_Hockey")]
 
 [node name="Air_Hockey" parent="." instance=ExtResource("4")]
 new_thought = "Puck"
 is_focused = true
-timestamp_selector = 5
-current_timestamp = "1685804888.677"
+timestamp_selector = 1
+current_timestamp = null
+test_var = "test"
 
 [node name="Text" parent="Air_Hockey/Thought" index="0"]
 text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_eoudu")
+material_override = SubResource("StandardMaterial3D_48dcd")
 
-[node name="Mallet" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54345, -2.00797, 0)
+[node name="Puck" type="Node3D" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.898185, -2, 0)
+script = ExtResource("4_13mv5")
+run_functions = true
 
-[node name="Puck" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.738009, -2, 0)
+[connection signal="renamed" from="Air_Hockey/Space/Puck" to="Air_Hockey/Space/Puck" method="_on_renamed"]
 
 [editable path="Air_Hockey"]
