@@ -88,35 +88,21 @@ func set_shape(shape):
 #region Loading
 func load_thought_properties(timestamp):
 	#print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
-	var thread1 = Thread.new()
-	var thread2 = Thread.new()
-	var thread3 = Thread.new()
-	var thread4 = Thread.new()
-	var callable = Callable(self, "load_position")
-	callable = callable.bind(timestamp, thread1)
-	thread1.start(callable,Thread.PRIORITY_NORMAL)
 
-	callable = Callable(self, "load_shape")
-	callable = callable.bind(timestamp,thread2)
-	thread2.start(callable,Thread.PRIORITY_NORMAL)
 
-	#load_position(timestamp)
+	load_position(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
-	callable = Callable(self, "load_color")
-	callable = callable.bind(timestamp,thread3)
-	thread3.start(callable,Thread.PRIORITY_NORMAL)
-	#load_color(timestamp)
+
+	load_color(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
-	callable = Callable(self, "load_links")
-	callable = callable.bind(timestamp,thread4)
-	thread4.start(callable,Thread.PRIORITY_NORMAL)
-	#load_links(timestamp)
+
+	load_links(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
 	
-	#load_shape(timestamp)
+	load_shape(timestamp)
 
 
-func load_position(timestamp, thread):
+func load_position(timestamp):
 	timestamp = str(timestamp)
 	var x = ""
 	var y = ""
@@ -141,9 +127,9 @@ func load_position(timestamp, thread):
 		z = 0
 	#print(Vector3(float(x),float(y),float(z)))
 	bubble_interface_node.transform.origin = Vector3(float(x),float(y),float(z))
-	thread.wait_to_finish()
+
 	
-func load_color(timestamp, thread):
+func load_color(timestamp):
 	var r = ""
 	var g = ""
 	var b = ""
@@ -167,9 +153,9 @@ func load_color(timestamp, thread):
 		bubble_color = Color(r,g,b,a)
 	get_child(0).material_override.albedo_color = bubble_color
 	bubble_interface_node.bubble_color  = bubble_color
-	thread.wait_to_finish()
 
-func load_shape(timestamp, thread):
+
+func load_shape(timestamp):
 
 	timestamp = str(timestamp)
 	var shape = get_bubble_property(["`Shape`"], timestamp)
@@ -183,9 +169,9 @@ func load_shape(timestamp, thread):
 		"CSGCylinder3D":
 			shape_id = 2
 	get_parent().shape = shape_id
-	thread.wait_to_finish()
+
 			
-func load_links(timestamp, thread):
+func load_links(timestamp):
 	#Find and use proper timestamp
 #	var get_array = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
 	var links = get_bubble_property([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"],timestamp)
@@ -193,7 +179,6 @@ func load_links(timestamp, thread):
 	for link in links:
 		if (link != ""):
 			child_thoughts.append(link)
-	thread.wait_to_finish()
 #	var timestamps = file_manager.get_from_orbitdb(["`Timestamp`"])
 #	if (get_array[0] != ""):
 #		#print(get_parent().get_name(), " ", get_array)
@@ -302,63 +287,28 @@ func get_bubble_property(property_array, timestamp):
 	#print(name , " " , position_x , " " , position_y , " " , position_z , " " , basis_xx , " " , basis_xy , " " , basis_xz , " " , basis_yx , " " , basis_yy , " " , basis_yz , " " , basis_zx , " " , basis_zy , " " , basis_zz , " " , color_r , " " , color_g , " " , color_b , " " , color_a , " " , shape , " " , links)
 	
 
-func save_thought(timestamp):
-	var callable = Callable(self, "_save_thought")
-	var thread = Thread.new()
-	callable = callable.bind(timestamp, thread)
-	thread.start(callable,Thread.PRIORITY_NORMAL)
+
 	
-func _save_thought(timestamp, thread):
+func save_thought(timestamp):
 	print("Saving " + bubble_interface_node.get_name() + " at " + str(timestamp))
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
-	var thread1 = Thread.new()
-	var thread2 = Thread.new()
-	var thread3 = Thread.new()
-	var thread4 = Thread.new()
-	var thread5 = Thread.new()
-	var thread6 = Thread.new()
 
-	var callable = Callable(self, "save_name")
-	callable = callable.bind(timestamp, thread1)
-	thread1.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_position")
-	callable = callable.bind(timestamp, thread2)
-	thread2.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_basis")
-	callable = callable.bind(timestamp, thread3)
-	thread3.start(callable,Thread.PRIORITY_NORMAL)
-	
-	callable = Callable(self, "save_links")
-	callable = callable.bind(timestamp, thread4)
-	thread4.start(callable,Thread.PRIORITY_NORMAL)
-	
-	callable = Callable(self, "save_color")
-	callable = callable.bind(timestamp, thread5)
-	thread5.start(callable,Thread.PRIORITY_NORMAL)
-	
-	callable = Callable(self, "save_shape")
-	callable = callable.bind(timestamp, thread6)
-	thread6.start(callable,Thread.PRIORITY_NORMAL)
-	
-	thread.wait_to_finish()
-	#save_name(timestamp)
-	#save_position(timestamp)
-	#save_basis(timestamp)
-	#save_links(timestamp)
-	#save_color(timestamp)
-	#save_shape(timestamp)
+	save_name(timestamp)
+	save_position(timestamp)
+	save_basis(timestamp)
+	save_links(timestamp)
+	save_color(timestamp)
+	save_shape(timestamp)
 	
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
 
-func save_name(timestamp, thread):
+func save_name(timestamp):
 	
 	# Name
 	var dict = {"Godot":{"Thought":{"Text": get_parent().get_name()}}}
-	save_bubble_property(dict, thread)
+	save_bubble_property(dict)
 	print("save name " + bubble_interface_node.get_name())
 	
 	#var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
@@ -368,11 +318,9 @@ func save_name(timestamp, thread):
 		#save_bubble_property(save_array)
 
 
-func save_position(timestamp, thread):
+func save_position(timestamp):
 	# Position
-	var thread1 = Thread.new()
-	var thread2 = Thread.new()
-	var thread3 = Thread.new()
+
 
 	var dict = {"Transform3D":
 		{ "Position":
@@ -381,11 +329,9 @@ func save_position(timestamp, thread):
 			}
 		}
 	}
-	var callable = Callable(self, "save_bubble_property")
-	callable = callable.bind(dict, thread1)
-	thread1.start(callable,Thread.PRIORITY_NORMAL)
 
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
+
 	dict = {"Transform3D":
 		{ "Position":
 			{ "y": str(bubble_interface_node.transform.origin.y),
@@ -393,10 +339,8 @@ func save_position(timestamp, thread):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread2)
-	thread2.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 
-	callable = Callable(self, "save_bubble_property")
 	dict = {"Transform3D":
 		{ "Position":
 			{ "z": str(bubble_interface_node.transform.origin.z),
@@ -404,26 +348,16 @@ func save_position(timestamp, thread):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread3)
-	thread3.start(callable,Thread.PRIORITY_NORMAL)
-	thread.wait_to_finish()
+	save_bubble_property(dict)
 	#save_bubble_property(["`Transform3D`", "`Position`", "`x`", str(timestamp), str(bubble_interface_node.transform.origin.x)])
 	#save_bubble_property(["`Transform3D`", "`Position`", "`y`", str(timestamp), str(bubble_interface_node.transform.origin.y)])
 	#save_bubble_property(["`Transform3D`", "`Position`", "`z`", str(timestamp), str(bubble_interface_node.transform.origin.z)])
 
 func save_basis(timestamp):
 		# Basis
-	var thread1 = Thread.new()
-	var thread2 = Thread.new()
-	var thread3 = Thread.new()
-	var thread4 = Thread.new()
-	var thread5 = Thread.new()
-	var thread6 = Thread.new()
-	var thread7 = Thread.new()
-	var thread8 = Thread.new()
-	var thread9 = Thread.new()
 
-	var callable = Callable(self, "save_bubble_property")
+
+
 	var dict = {"Transform3D":
 		{ "Basis":
 			{ "xx": str(bubble_interface_node.transform.basis.x.x),
@@ -431,10 +365,7 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread1)
-	thread1.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "xy": str(bubble_interface_node.transform.basis.x.y),
@@ -442,10 +373,7 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread2)
-	thread2.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "xz": str(bubble_interface_node.transform.basis.x.z),
@@ -453,15 +381,14 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread3)
-	thread3.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 	
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`xx`", str(timestamp), str(bubble_interface_node.transform.basis.x.x)])
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`xy`", str(timestamp), str(bubble_interface_node.transform.basis.x.y)])
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`xz`", str(timestamp), str(bubble_interface_node.transform.basis.x.z)])
 	
 
-	callable = Callable(self, "save_bubble_property")
+
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "yx": str(bubble_interface_node.transform.basis.y.x),
@@ -469,10 +396,7 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread4)
-	thread4.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "yy": str(bubble_interface_node.transform.basis.y.y),
@@ -480,10 +404,7 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict,thread5)
-	thread5.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "yz": str(bubble_interface_node.transform.basis.y.z),
@@ -491,14 +412,13 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict,thread6)
-	thread6.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 	
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`yx`", str(timestamp), str(bubble_interface_node.transform.basis.y.x)])
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`yy`", str(timestamp), str(bubble_interface_node.transform.basis.y.y)])
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`yz`", str(timestamp), str(bubble_interface_node.transform.basis.y.z)])
 
-	callable = Callable(self, "save_bubble_property")
+
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "zx": str(bubble_interface_node.transform.basis.z.x),
@@ -506,10 +426,7 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread7)
-	thread7.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "zy": str(bubble_interface_node.transform.basis.z.y),
@@ -517,10 +434,7 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread8)
-	thread8.start(callable,Thread.PRIORITY_NORMAL)
-
-	callable = Callable(self, "save_bubble_property")
+	save_bubble_property(dict)
 	dict = {"Transform3D":
 		{ "Basis":
 			{ "zz": str(bubble_interface_node.transform.basis.z.z),
@@ -528,21 +442,14 @@ func save_basis(timestamp):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread9)
-	thread9.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 	
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`zx`", str(timestamp), str(bubble_interface_node.transform.basis.z.x)])
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`zy`", str(timestamp), str(bubble_interface_node.transform.basis.z.y)])
 	#save_bubble_property(["`Transform3D`", "`Basis`", "`zz`", str(timestamp), str(bubble_interface_node.transform.basis.z.z)])
 
-func save_color(timestamp, thread):
+func save_color(timestamp):
 	# Color
-	var thread1 = Thread.new()
-	var thread2 = Thread.new()
-	var thread3 = Thread.new()
-	var thread4 = Thread.new()
-	
-	var callable = Callable(self, "save_bubble_property")
 	var dict = {"Material":
 		{ "Color":
 			{ "r": str(bubble_color.r),
@@ -550,11 +457,8 @@ func save_color(timestamp, thread):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread1)
-	thread1.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 	
-
-	callable = Callable(self, "save_bubble_property")
 	dict = {"Material":
 		{ "Color":
 			{ "g": str(bubble_color.g),
@@ -562,11 +466,8 @@ func save_color(timestamp, thread):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread2)
-	thread2.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 	
-
-	callable = Callable(self, "save_bubble_property")
 	dict = {"Material":
 		{ "Color":
 			{ "b": str(bubble_color.b),
@@ -574,11 +475,8 @@ func save_color(timestamp, thread):
 			}
 		}
 	}
-	callable = callable.bind(dict,thread3)
-	thread3.start(callable,Thread.PRIORITY_NORMAL)
+	save_bubble_property(dict)
 	
-
-	callable = Callable(self, "save_bubble_property")
 	dict = {"Material":
 		{ "Color":
 			{ "a": str(bubble_color.a),
@@ -586,29 +484,27 @@ func save_color(timestamp, thread):
 			}
 		}
 	}
-	callable = callable.bind(dict, thread4)
-	thread4.start(callable,Thread.PRIORITY_NORMAL)
-	thread.wait_to_finish()
+	save_bubble_property(dict)
 	#save_bubble_property(["`Material`", "`Color`", "`r`", str(timestamp), str(bubble_color.r)])
 	#save_bubble_property(["`Material`", "`Color`", "`g`", str(timestamp), str(bubble_color.g)])
 	#save_bubble_property(["`Material`", "`Color`", "`b`", str(timestamp), str(bubble_color.b)])
 	#save_bubble_property(["`Material`", "`Color`", "`a`", str(timestamp), str(bubble_color.a)])
 
-func save_shape(timestamp,thread):
+func save_shape(timestamp):
 	var dict = {"`Shape`": str(get_child(0)), "Timestamp": timestamp}
-	save_bubble_property(dict,thread)
+	save_bubble_property(dict)
 	print("possibly all saved")
 	
-func save_bubble_property(propertyDict,thread):
+func save_bubble_property(propertyDict):
 	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
 		#print(get_parent().get_name())
 		var save_dict = {parent_bubble_node.get_name():["ThoughtSpace",{bubble_interface_node.get_name():["ThoughtBubble",propertyDict]}]}
 
 		file_manager.save(save_dict)
-		thread.wait_to_finish()
 
 
-func save_links(timestamp, thread):
+
+func save_links(timestamp):
 	
 	for link in child_thoughts:
 		
@@ -616,7 +512,7 @@ func save_links(timestamp, thread):
 		print(bubble_interface_node.get_name() + " saving... " + link)
 		var dict = {parent_bubble_node.get_name():{"Link":str(link.replace("../", "")),"Timestamp":timestamp}}
 		var save_array = dict
-		save_bubble_property(save_array, thread)
+		save_bubble_property(save_array)
 
 #endregion
 
