@@ -79,7 +79,7 @@ func _on_load_space(_value):
 
 func _on_save_thoughts(_value):
 	if (run_functions):
-		get_child(2).save()
+		get_child(2).save() #Space Sub Node
 
 func _on_new_thought_button(_value):
 	if (run_functions && new_thought != ""):
@@ -118,5 +118,5 @@ func unselect():
 #	if (!is_focused):
 #		print(name, " saving")
 #		get_child(2).save()
-	
+
 

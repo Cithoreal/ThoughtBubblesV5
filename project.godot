@@ -29,6 +29,10 @@ project/assembly_name="ThoughtBubblesV5"
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/nodewebsockets/plugin.cfg")
+
 [gdnative]
 
 singletons=["res://Scripts/pythonscript.gdnlib"]
