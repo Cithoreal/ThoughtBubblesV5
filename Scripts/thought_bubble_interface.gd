@@ -2,6 +2,7 @@
 class_name thought_bubbles_interface
 extends Node3D
 
+
 #Bubble properties
 @export var bubble_color: Color = Color(0.329412, 0.517647, 0.6, 0.533333) : set = _on_set_color
 #@export var set_color: bool : set = _on_set_color
@@ -26,16 +27,18 @@ extends Node3D
 @export var timestamp_selector: int : set = _set_timestamp
 @export var current_timestamp = ""
 
-@export var test: bool : set = test_stuff
 @export var test_var = ""
 func _enter_tree():
 	get_child(0).set_thought(get_name())
 	run_functions = true
+	set_notify_transform(true)
 
 func _on_renamed():
 	get_child(0).set_thought(get_name())
 
-
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSFORM_CHANGED:
+		print("changed position", position)
 
 
 func _on_set_color(_value):
@@ -110,8 +113,6 @@ func check_context():
 func get_child_thoughts():
 	return get_child(1).get_child_thoughts()
 
-func test_stuff(_value):
-	pass
 	
 func unselect():
 	pass

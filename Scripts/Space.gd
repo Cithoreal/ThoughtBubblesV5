@@ -108,7 +108,8 @@ func save():
 	var save_timestamp
 	# for node in get_children():
 	# 	space_dict[node.get_name()] = node.get_child_thoughts()
-	file_manager.save(["`Timestamp`", str(timestamp)])
+	#file_manager.save("MERGE (:Timestamp{})")
+	#file_manager.save(["`Timestamp`", str(timestamp)])
 	if get_parent().is_focused:
 		save_timestamp = get_parent().current_timestamp
 		#get_parent().timestamp_selector += 1
