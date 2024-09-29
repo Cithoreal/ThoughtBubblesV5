@@ -36,9 +36,20 @@ func _enter_tree():
 func _on_renamed():
 	get_child(0).set_thought(get_name())
 
+var _prev_position = Vector3()
+var _is_moving = false
+
 func _notification(what: int) -> void:
+	# Call when the node is moved and has stopped moving
 	if what == NOTIFICATION_TRANSFORM_CHANGED:
-		print("changed position", position)
+		if position != _prev_position:
+			_is_moving = true
+		elif _is_moving:
+			_is_moving = false
+			find_child("Bubble").position_updated()
+			
+	_prev_position = position
+		
 
 
 func _on_set_color(_value):

@@ -16,7 +16,7 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8d1dp"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tt7dy"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
@@ -58,22 +58,19 @@ new_thought = "Table"
 is_focused = true
 timestamp_selector = 1
 current_timestamp = null
-test = false
 test_var = "test"
 
 [node name="Text" parent="Air_Hockey/Thought" index="0"]
 text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_8d1dp")
+material_override = SubResource("StandardMaterial3D_tt7dy")
 
 [node name="Puck" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.60876, -2, 0)
-test = false
 
 [node name="Table" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, -0.0238988)
-test = false
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.73072, -2, -1.80594)
 
 [connection signal="text_received" from="FileManager/WebSocketServer" to="FileManager" method="_on_web_socket_server_text_received"]
 

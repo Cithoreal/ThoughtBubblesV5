@@ -84,6 +84,10 @@ func set_shape(shape):
 	new_shape.set_owner(get_viewport().get_child(0))
 	prepare_material()
 	#endregion
+
+func position_updated():
+	print("Position Updated " + bubble_interface_node.get_name() + " " + str(bubble_interface_node.transform.origin))
+	save_position(str(Time.get_unix_time_from_system()))
 # ----------------------- Loading ----------------------- #
 #region Loading
 func load_thought_properties(timestamp):
@@ -324,62 +328,19 @@ func save_name(timestamp):
 	#if file_manager.get_nodes([ "`Godot`", "`Thought`", "`Text`"]) and !file_manager.get_nodes([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
 		#save_bubble_property(save_array)
 
-
 func save_position(timestamp):
 	# Position
-	var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (Position:Property{name:"Position", timestamp:"'+timestamp+'"})'
-	cypher = cypher + '\n' + 'MERGE (x:Position{name:"x"})'
-	cypher = cypher + '\n' + 'MERGE (y:Position{name:"y"})'
-	cypher = cypher + '\n' + 'MERGE (z:Position{name:"z"})'
-	cypher = cypher + '\n' + 'MERGE (ts)-[:CONTAINS]->(tb)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Position)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(x)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(y)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(z)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.origin.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.origin.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.origin.z)+'"})'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(x)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(y)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(z)'
-	cypher = cypher + '\n' + 'MERGE (x)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.origin.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (y)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.origin.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (z)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.origin.z)+'"})'
-	file_manager.save(cypher)
-
-	#var dict = {"Transform3D":
-		#{ "Position":
-			#{ "x": str(bubble_interface_node.transform.origin.x),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#
-	##save_bubble_property(dict)
-#
-	#dict = {"Transform3D":
-		#{ "Position":
-			#{ "y": str(bubble_interface_node.transform.origin.y),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-#
-	##save_bubble_property(dict)
-#
-	#dict = {"Transform3D":
-		#{ "Position":
-			#{ "z": str(bubble_interface_node.transform.origin.z),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#save_bubble_property(["`Transform3D`", "`Position`", "`x`", str(timestamp), str(bubble_interface_node.transform.origin.x)])
-	#save_bubble_property(["`Transform3D`", "`Position`", "`y`", str(timestamp), str(bubble_interface_node.transform.origin.y)])
-	#save_bubble_property(["`Transform3D`", "`Position`", "`z`", str(timestamp), str(bubble_interface_node.transform.origin.z)])
+	var save_dict = {
+		"ThoughtSpace": parent_bubble_node.get_name(),
+		"ThoughtBubbles":bubble_interface_node.get_name(),
+		"Property": "Position",
+		"Position": ["x","y","z"],
+		"x": str(bubble_interface_node.transform.origin.x),
+		"y": str(bubble_interface_node.transform.origin.y),
+		"z": str(bubble_interface_node.transform.origin.z),
+		"Timestamp": timestamp,
+	}
+	file_manager.save(save_dict)
 
 func save_basis(timestamp):
 		# Basis

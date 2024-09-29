@@ -8,9 +8,10 @@ var socket = null
 
 func save(save_data):
 	socket = find_child("SaveThoughtsSocket")
-	#var json = JSON.stringify(save_data)
-	print(save_data)
-	socket.send_text(save_data)
+	var json = JSON.stringify(save_data, "\t", false)
+	print(json)
+	#print(save_data)
+	socket.send_text(json)
 	
 
 	
