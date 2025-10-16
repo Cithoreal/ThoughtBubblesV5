@@ -5,23 +5,39 @@ class_name FileManager
 
 var FILE_PATH = "res://Files/"
 
+# No need to extend, just use FileManager and save to ndjson and jsonld
+# Saving to an incremental log, individual thought files, and potentially 
+# a thought_dictionary which keeps link reference to all existing thoughts
+
+
+
 #Save(savedata) Saves data to file
 #Save_all()         Generic Save all
 #Load()         loads file into cache
 #Get(args[])    Get subset from cache
 
 
-func save(save_data):
-	pass
+@export var FILE_NAME = "thought_dictionary"
+var FILE_SUFFIX = ".json"
+
+func save_data(data):
+	print("Saving data to JSON")
+	print(data)
+	var json_string = JSON.stringify(data)
+	var file = FileAccess.open(FILE_PATH + FILE_NAME + FILE_SUFFIX, FileAccess.WRITE)
+	file.store_string(json_string)
+	file.close()
+	#save_file(json_string, FILE_PATH + FILE_NAME + FILE_SUFFIX)
 	
 func save_all():
-	pass
-	
+	print("Saving all data to JSON")
+
 func load_cache():
-	pass
-	
+	print("Loading cache from JSON")
+
 func get_nodes(args):
-	pass
+	print("Getting nodes from JSON")
+	print(args)
 
 func array_to_dict(array):
 	var out_dict = {}

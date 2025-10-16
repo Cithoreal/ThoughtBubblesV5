@@ -20,3 +20,5 @@ Returning to this project after a long haietus. Will focus in implementing local
 If making a build, maybe having a syncing script run by godot would be useful? Regardless, local files are all I care about right now.
 
 will remove any orbitdb and neo4j reference, as linked json is the source truth data. If I use other databases later I can reference them to export linked json for this app to injest.
+
+For saving, a ndjson log of all actions should be kept for reference and future processing, and thoughts should be saved as individual jsonld files in a directory

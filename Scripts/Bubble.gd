@@ -238,7 +238,7 @@ func get_bubble_property(property_array, timestamp):
 	var load_array = [bubble_interface_node.get_name()]#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
 	load_array.append_array(property_array)
 	load_array.append("`Timestamp`")
-	output = file_manager.get_from_orbitdb(load_array)
+	output = file_manager.load(load_array)
 	#var back_timestamps = file_manager.get_from_orbitdb([timestamp], "`BackLink`")
 	#print(back_timestamps)
 	print(output)
