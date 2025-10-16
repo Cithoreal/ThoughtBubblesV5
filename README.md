@@ -12,3 +12,11 @@ Todo:
 - [ ] Comment Code and create documentation sheet
 - [ ] Basic flow chart
 - [ ] Update UI Styling for Writing Focus
+
+10/16/25
+
+Returning to this project after a long haietus. Will focus in implementing local linked json data. I can later work on a script that syncs the json with a server, but that doesn't need to be implemented in godot. Linked data should be a standard format that I will use in many projects, and the syncing script will just look at it and sync it and can be dropped into any project.
+
+If making a build, maybe having a syncing script run by godot would be useful? Regardless, local files are all I care about right now.
+
+will remove any orbitdb and neo4j reference, as linked json is the source truth data. If I use other databases later I can reference them to export linked json for this app to injest.
