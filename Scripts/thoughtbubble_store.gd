@@ -30,30 +30,119 @@ class_name ThoughtBubbleStore
 # or thoughtbubbles themselves can exist as individual files with properties/metadata condensed into their own files
 
 #recieve data dictionary, break it down and categorize known properties/metadata
+
+#clear out links to positions and values that are commited to a git memory to keep current graphs lean
 var file_manager : FileManager
 
 func _enter_tree():
     file_manager = get_child(0)
 #data is dictionary
-func save(data_dict):
-
+func save(data_dict: Dictionary):
     var save_dict = {
         "@id": data_dict["ThoughtBubble"],
-        "@context": "linktothoughtcontext",
+        "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
         "data": data_dict["ThoughtBubble"],#text or link
        # "isLink": "", #probably worth making this explicit, but only needs to be included when true
-        "lastUpdated": data_dict["Timestamp"]
+        "lastUpdated": data_dict["Timestamp"],
+        "LinkTo": []
     }
     #print(save_dict)
-    file_manager.save_jsonld(save_dict)
-    # data - necesary
-    # context - necesary
+    #region Position
+    if data_dict.has("Position"):  #Load latest position and see if it's different, don't update lastUpdated if it's the same
+        var position_dict: Dictionary = {
+            "@id": "Position-[%s]" % [", ".join(data_dict["Position"])],
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/position#",
+            "data": ", ".join(data_dict["Position"]),
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+
+        }
+        var x_dict: Dictionary = {
+            "@id": "x-pos",
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+            "data": "x-pos",
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+
+        }
+        var y_dict: Dictionary = {
+            "@id": "y-pos",
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+            "data": "y-pos",
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+
+        }
+
+        var z_dict: Dictionary = {
+            "@id": "z-pos",
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+            "data": "z-pos",
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+ 
+        }
+
+        var xpos_dict: Dictionary = {
+            "@id": data_dict["x"],
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+            "data": data_dict["x"],
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+
+        }
+
+        var ypos_dict: Dictionary = {
+            "@id": data_dict["y"],
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+            "data": data_dict["y"],
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+
+        }
+
+        var zpos_dict: Dictionary = {
+            "@id": data_dict["z"],
+            "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+            "data": data_dict["z"],
+            "lastUpdated": data_dict["Timestamp"],
+            "LinkTo": []
+        }
+        
+        save_dict["LinkTo"].append("Thoughts/"+position_dict["@id"])
+        save_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
+        save_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
+        save_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
+        save_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
+        save_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
+        save_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+xpos_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+ypos_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+zpos_dict["@id"])
+        x_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
+        x_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
+        x_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
+
+        file_manager.save_jsonld(position_dict, "Thoughts")
+        file_manager.save_jsonld(x_dict, "Thoughts")
+        file_manager.save_jsonld(y_dict, "Thoughts")
+        file_manager.save_jsonld(z_dict, "Thoughts")
+        file_manager.save_jsonld(xpos_dict, "Positions")
+        file_manager.save_jsonld(ypos_dict, "Positions")
+        file_manager.save_jsonld(zpos_dict, "Positions")
+
+
+    #endregion
+    file_manager.save_jsonld(save_dict, "Thoughts")
+    
+    # data - necessary
+    # context - necessary
     # position -optional
     # color - optional
     # 
 
-func _save_thought():
-    pass
-
-func _save_metadata(metadata):
-    pass
+func load(load_array):
+    print(load_array)

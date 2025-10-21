@@ -31,9 +31,11 @@ func save(data):
 	file.close()
 	#save_file(json_string, FILE_PATH + FILE_NAME + FILE_SUFFIX)
 	
-func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing files with new timestamp
+func save_jsonld(data_dict, sub_folder): # for thoughtbubbles #just get and update existing files with new timestamp
 	print(data_dict)
-	var file_path = FILE_PATH + data_dict["@id"] + ".jsonld"
+	if not DirAccess.dir_exists_absolute(FILE_PATH + sub_folder +"/"):
+		DirAccess.make_dir_absolute(FILE_PATH + sub_folder +"/")
+	var file_path = FILE_PATH + sub_folder +"/"+data_dict["@id"] + ".jsonld"
 	var file_exists = FileAccess.file_exists(file_path)
 	var json_string :String
 
@@ -48,6 +50,7 @@ func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing 
 			push_warning("JSON parse failed in %s: %s" % [file_path, json.get_error_message()])
 			#Start file fresh, can log corrupted file to try to save any data (and look for last stable version)
 			file = FileAccess.open(file_path, FileAccess.WRITE)
+
 			data_dict["createdAt"] = data_dict["lastUpdated"]
 			json_string = JSON.stringify(data_dict, "\t")
 		else:

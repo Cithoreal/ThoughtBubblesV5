@@ -10,7 +10,7 @@ signal save_thoughts(timestamp)
 signal load_links
 signal load_parents
 
-var file_manager
+var thoughtbubble_store
 var timestamp_list 
 var timestamp_selector 
 #func _load_links(_value):
@@ -28,8 +28,8 @@ func load_timestamps(selector):
 		return
 
 	if (timestamp_list == null || timestamp_list.is_empty()|| timestamp_list[0] == ""):
-		file_manager = get_viewport().get_child(0).get_node("FileManager")
-		var output = file_manager.get_from_orbitdb(["`Timestamp`"])
+		thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
+		var output = thoughtbubble_store.load(["Timestamp"])
 		#print(output)
 		if (!output[0] == "[" && output[0] != ""):
 			timestamp_list = output
@@ -55,7 +55,7 @@ func load_timestamps(selector):
 #	return intersection
 	
 func load_space():
-	file_manager = get_viewport().get_child(0).get_node("FileManager")
+	thoughtbubble_store = get_viewport().get_child(0).get_node("FileManager")
 	#print(loaded_nodes)
 	#Add ability to intersect or union with other thought spaces in the scene
 	#Child thought spaces intersect with their parents
@@ -63,7 +63,7 @@ func load_space():
 	#print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
 	clear_scene()
 
-	for node in file_manager.get_nodes(["`Text`"]):
+	for node in thoughtbubble_store.get_nodes(["`Text`"]):
 		print(node)
 		load_thought(node)
 		
@@ -74,7 +74,7 @@ func load_space():
 	#process_thoughts(output)
 #func load_space():
 #
-#	file_manager = get_viewport().get_child(0).get_node("FileManager")
+#	thoughtbubble_store = get_viewport().get_child(0).get_node("FileManager")
 #	#print(loaded_nodes)
 #	#Add ability to intersect or union with other thought spaces in the scene
 #	#Child thought spaces intersect with their parents
@@ -84,7 +84,7 @@ func load_space():
 #	#Get thoughts from current and all previous timestamps
 #	#for
 #	for time in timestamp_list:
-#		for node in file_manager.get_from_orbitdb(["`Text`", time]):
+#		for node in thoughtbubble_store.get_from_orbitdb(["`Text`", time]):
 #			print(node)
 #			if node != "" && !find_child(node):
 #				load_thought(node)
@@ -103,13 +103,13 @@ func save():
 		timestamp_list.clear()
 	print("saving thoughts")
 	var timestamp = Time.get_unix_time_from_system()
-	file_manager = get_viewport().get_child(0).get_node("FileManager")
+	thoughtbubble_store = get_viewport().get_child(0).get_node("FileManager")
 	#var space_dict = {}
 	var save_timestamp
 	# for node in get_children():
 	# 	space_dict[node.get_name()] = node.get_child_thoughts()
-	#file_manager.save("MERGE (:Timestamp{})")
-	#file_manager.save(["`Timestamp`", str(timestamp)])
+	#thoughtbubble_store.save("MERGE (:Timestamp{})")
+	#thoughtbubble_store.save(["`Timestamp`", str(timestamp)])
 	if get_parent().is_focused:
 		save_timestamp = get_parent().current_timestamp
 		#get_parent().timestamp_selector += 1
@@ -119,11 +119,11 @@ func save():
 		
 	if str(get_parent().current_timestamp) != "not loaded" && get_parent().current_timestamp != null && get_parent().current_timestamp != "":
 		print("saving backlink")
-		file_manager.save([str(timestamp), "`BackLink`", str(get_parent().current_timestamp)])
-		file_manager.save([str(get_parent().current_timestamp), "`Link`", str(timestamp)])
-	# file_manager.save(space_dict)
+		thoughtbubble_store.save([str(timestamp), "`BackLink`", str(get_parent().current_timestamp)])
+		thoughtbubble_store.save([str(get_parent().current_timestamp), "`Link`", str(timestamp)])
+	# thoughtbubble_store.save(space_dict)
 	#print(Time.get_datetime_string_from_system(true,true))
-	#file_manager.save(["`Timestamp`", str(timestamp)])
+	#thoughtbubble_store.save(["`Timestamp`", str(timestamp)])
 	#OS.execute(godot_to_nodes_path, [get_parent().get_name(), "|Timestamp|", timestamp], false)
 	#OS.execute(godot_to_nodes_path, ["|Space|", "|Thought|", get_parent().get_name()], false)
 	#emit_signal("save_thoughts", timestamp)
