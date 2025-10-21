@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=9 format=3 uid="uid://c5sikjmth5uix"]
 
-[ext_resource type="Script" uid="uid://dns6sh45uvrsh" path="res://Scripts/JSONManager.gd" id="1_uu6xs"]
+[ext_resource type="Script" uid="uid://bewcye7xlfe4i" path="res://Scripts/thoughtbubble_store.gd" id="1_r0du0"]
+[ext_resource type="Script" uid="uid://ddrjmbi2fab0v" path="res://Scripts/FileManager.gd" id="1_uu6xs"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
@@ -25,7 +26,10 @@ albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
 environment = SubResource("Environment_7i306")
 camera_attributes = SubResource("CameraAttributesPractical_54i47")
 
-[node name="FileManager" type="Node" parent="."]
+[node name="ThoughtBubbleStore" type="Node" parent="."]
+script = ExtResource("1_r0du0")
+
+[node name="FileManager" type="Node" parent="ThoughtBubbleStore"]
 script = ExtResource("1_uu6xs")
 
 [node name="Cursor" type="Node3D" parent="."]
@@ -46,9 +50,9 @@ text = "Air_Hockey"
 material_override = SubResource("StandardMaterial3D_r0du0")
 
 [node name="Puck" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.60876, -2, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4024694, -2, -0.3315884)
 
 [node name="Table" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.73072, -2, -1.80594)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9781795, -2, -1.7049855)
 
 [editable path="Air_Hockey"]

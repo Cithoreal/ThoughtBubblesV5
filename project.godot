@@ -31,7 +31,7 @@ version_control_plugin_name="GitAPI"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/nodewebsockets/plugin.cfg")
+enabled=PackedStringArray()
 
 [gdnative]
 

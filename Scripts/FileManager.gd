@@ -20,15 +20,50 @@ var FILE_PATH = "res://Files/"
 @export var FILE_NAME = "thought_dictionary"
 var FILE_SUFFIX = ".json"
 
-func save_data(data):
+func save(data):
 	print("Saving data to JSON")
 	print(data)
+	var file_path = FILE_PATH + FILE_NAME + FILE_SUFFIX
+	print(file_path)
 	var json_string = JSON.stringify(data)
-	var file = FileAccess.open(FILE_PATH + FILE_NAME + FILE_SUFFIX, FileAccess.WRITE)
+	var file = FileAccess.open(file_path, FileAccess.WRITE)
 	file.store_string(json_string)
 	file.close()
 	#save_file(json_string, FILE_PATH + FILE_NAME + FILE_SUFFIX)
 	
+func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing files with new timestamp
+	print(data_dict)
+	var file_path = FILE_PATH + data_dict["@id"] + ".jsonld"
+	var file_exists = FileAccess.file_exists(file_path)
+	var json_string :String
+
+	if file_exists:
+		var file = FileAccess.open(file_path, FileAccess.READ)
+		var file_contents = file.get_as_text()
+		file.close()
+
+		var json = JSON.new()
+		var err = json.parse(file_contents)
+		if (err != OK):
+			push_warning("JSON parse failed in %s: %s" % [file_path, json.get_error_message()])
+			#Start file fresh, can log corrupted file to try to save any data (and look for last stable version)
+			file = FileAccess.open(file_path, FileAccess.WRITE)
+			data_dict["createdAt"] = data_dict["lastUpdated"]
+			json_string = JSON.stringify(data_dict, "\t")
+		else:
+			var obj = json.get_data()
+			obj["lastUpdated"] = data_dict["lastUpdated"]
+			json_string = JSON.stringify(obj, "\t")
+	else:
+		data_dict["createdAt"] = data_dict["lastUpdated"]
+		json_string = JSON.stringify(data_dict, "\t")
+
+	var file = FileAccess.open(file_path, FileAccess.WRITE)
+	file.store_string(json_string)
+	file.close()
+
+func save_ndjson(): # for metadata and log
+	pass
 func save_all():
 	print("Saving all data to JSON")
 

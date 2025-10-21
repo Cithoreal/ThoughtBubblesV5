@@ -22,3 +22,6 @@ If making a build, maybe having a syncing script run by godot would be useful? R
 will remove any orbitdb and neo4j reference, as linked json is the source truth data. If I use other databases later I can reference them to export linked json for this app to injest.
 
 For saving, a ndjson log of all actions should be kept for reference and future processing, and thoughts should be saved as individual jsonld files in a directory
+
+10/20
+Thought bubbles should save with all relevant context, and only when a new context is discovered should irrelevant properties (to one or any context) be externalized as their own thoughts

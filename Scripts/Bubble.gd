@@ -12,7 +12,7 @@ var mat = StandardMaterial3D.new()
 var bubble_interface_node
 var parent_space_node
 var parent_bubble_node
-var file_manager
+var thoughtbubble_store
 
 # ----------------------- INITIALIZATION ----------------------- #
 #region Initialization
@@ -21,7 +21,7 @@ func _enter_tree():
 	bubble_interface_node = get_parent()
 	parent_space_node = get_parent().get_parent()
 	parent_bubble_node = get_parent().get_parent().get_parent()
-	file_manager = get_viewport().get_child(0).get_node("FileManager")
+	thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
 		#print("signals connected")
@@ -177,13 +177,13 @@ func load_shape(timestamp):
 			
 func load_links(timestamp):
 	#Find and use proper timestamp
-#	var get_array = file_manager.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
+#	var get_array = thoughtbubble_store.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
 	var links = get_bubble_property([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"],timestamp)
 	print(links)
 	for link in links:
 		if (link != ""):
 			child_thoughts.append(link)
-#	var timestamps = file_manager.get_from_orbitdb(["`Timestamp`"])
+#	var timestamps = thoughtbubble_store.get_from_orbitdb(["`Timestamp`"])
 #	if (get_array[0] != ""):
 #		#print(get_parent().get_name(), " ", get_array)
 #		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
@@ -200,46 +200,14 @@ func load_parent_links(link_to):
 		parent_space_node.get_node(link_to).get_child(1).parent_thoughts.append(bubble_interface_node.get_name())
 
 
-#func get_bubble_property(property_array, timestamp):
-#	var focused = false
-#
-#	var output = []
-#	var load_array = [bubble_interface_node.get_name()]#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
-#	load_array.append_array(property_array)
-#	load_array.append("`Timestamp`")
-#	output = file_manager.get_from_orbitdb(load_array)
-#
-#	#print(load_array)
-#	#print(output)
-#	if (!output.has(timestamp)):
-#		#Ensure this is the closest timestamp to the selected as possible
-#		for time in output:
-#			if (float(time) < float(timestamp)):
-#				timestamp = time
-#	#print(output)		
-#	#print(timestamp)	
-#	if (output.find(timestamp) > -1):
-#		load_array.pop_back()
-#		load_array.append(str(timestamp))
-#		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
-#		#print(load_array)
-#		output = file_manager.get_from_orbitdb(load_array)
-#		#print(output)
-#		if (len(output) > 0):
-#			return output[len(output)-1]
-#		else:
-#			return null
-#	else:
-#		print("Remember to set the timestamp")
-#		bubble_interface_node.visible = false
-func get_bubble_property(property_array, timestamp):
+func get_bubble_property(property_array, timestamp): # TODO Rewrite this to not reference specific loading procedures
 
 	var output = []
 	var load_array = [bubble_interface_node.get_name()]#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
 	load_array.append_array(property_array)
 	load_array.append("`Timestamp`")
-	output = file_manager.load(load_array)
-	#var back_timestamps = file_manager.get_from_orbitdb([timestamp], "`BackLink`")
+	output = thoughtbubble_store.load(load_array)
+	#var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
 	#print(back_timestamps)
 	print(output)
 	if (!output.has(timestamp)):
@@ -254,7 +222,7 @@ func get_bubble_property(property_array, timestamp):
 		load_array.append(str(timestamp))
 		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
 		#print(load_array)
-		output = file_manager.get_from_orbitdb(load_array)
+		output = thoughtbubble_store.get_from_orbitdb(load_array)
 		if (output.has(str(timestamp))):
 			output.remove_at(output.find(str(timestamp)))
 		if (len(output) > 0):
@@ -312,6 +280,11 @@ func save_name(timestamp):
 	
 	# Name
 	#var dict = {"Thought":{"Text": get_parent().get_name()}}
+
+	# Note: saves whole chain for context, probably inefficient
+	# Want to update latest change timestamps for thoughtspace, should be able to just tell the thought space to update that
+	
+
 	var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
 	cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
 	cypher = cypher + '\n' + 'MERGE (:ThoughtBubble{name:"'+get_parent().get_name()+'"})'
@@ -319,20 +292,22 @@ func save_name(timestamp):
 	cypher = cypher + '\n' + 'MERGE (ts)-[:CONTAINS]->(tb)'
 	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Name)'
 	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Name_val:Value{value:"'+get_parent().get_name()+'"})'
-	file_manager.save(cypher)
+
+	thoughtbubble_store.save(cypher)
+
 	print("save name " + bubble_interface_node.get_name())
 	
 	#var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
 	##print(save_array)
 	#
-	#if file_manager.get_nodes([ "`Godot`", "`Thought`", "`Text`"]) and !file_manager.get_nodes([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
+	#if thoughtbubble_store.get_nodes([ "`Godot`", "`Thought`", "`Text`"]) and !thoughtbubble_store.get_nodes([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
 		#save_bubble_property(save_array)
 
 func save_position(timestamp):
 	# Position
 	var save_dict = {
 		"ThoughtSpace": parent_bubble_node.get_name(),
-		"ThoughtBubbles":bubble_interface_node.get_name(),
+		"ThoughtBubble":bubble_interface_node.get_name(),
 		"Property": "Position",
 		"Position": ["x","y","z"],
 		"x": str(bubble_interface_node.transform.origin.x),
@@ -340,7 +315,8 @@ func save_position(timestamp):
 		"z": str(bubble_interface_node.transform.origin.z),
 		"Timestamp": timestamp,
 	}
-	file_manager.save(save_dict)
+	print(save_dict)
+	thoughtbubble_store.save(save_dict)
 
 func save_basis(timestamp):
 		# Basis
@@ -394,7 +370,7 @@ func save_basis(timestamp):
 	cypher = cypher + '\n' + 'MERGE (zx)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.x)+'"})'
 	cypher = cypher + '\n' + 'MERGE (zy)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.y)+'"})'
 	cypher = cypher + '\n' + 'MERGE (zz)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.z)+'"})'
-	file_manager.save(cypher)
+	thoughtbubble_store.save(cypher)
 
 
 	#var dict = {"Transform3D":
@@ -510,7 +486,7 @@ func save_color(timestamp):
 	cypher = cypher + '\n' + 'MERGE (g)-[:HAS]->(g_val:Value{value:"'+str(bubble_color.g)+'"})'
 	cypher = cypher + '\n' + 'MERGE (b)-[:HAS]->(b_val:Value{value:"'+str(bubble_color.b)+'"})'
 	cypher = cypher + '\n' + 'MERGE (a)-[:HAS]->(a_val:Value{value:"'+str(bubble_color.a)+'"})'
-	file_manager.save(cypher)
+	thoughtbubble_store.save(cypher)
 	
 	# var dict = {"Material":
 	# 	{ "Color":
@@ -563,7 +539,7 @@ func save_shape(timestamp):
 	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(get_child(0))+'"})'
 	cypher = cypher + '\n' + 'MERGE (Shape)-[:HAS]->(s)'
 	cypher = cypher + '\n' + 'MERGE (s)-[:HAS]->(:Value{value:"'+str(get_child(0))+'"})'
-	file_manager.save(cypher)
+	thoughtbubble_store.save(cypher)
 	# var dict = {"`Shape`": str(get_child(0)), "Timestamp": timestamp}
 	# save_bubble_property(dict)
 	print("possibly all saved")
@@ -575,7 +551,7 @@ func save_shape(timestamp):
 # 		var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
 # 		cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
 # 		cypher = cypher + '\n' + propertyDict
-# 		file_manager.save(cypher)
+# 		thoughtbubble_store.save(cypher)
 
 
 
