@@ -55,7 +55,7 @@ func load_timestamps(selector):
 #	return intersection
 	
 func load_space():
-	thoughtbubble_store = get_viewport().get_child(0).get_node("FileManager")
+	thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
 	#print(loaded_nodes)
 	#Add ability to intersect or union with other thought spaces in the scene
 	#Child thought spaces intersect with their parents

@@ -46,6 +46,13 @@ func save(data_dict: Dictionary):
         "lastUpdated": data_dict["Timestamp"],
         "LinkTo": []
     }
+    var timestamp_dict: Dictionary = {
+        "@id": "Timestamp-[%s]" % [data_dict["Timestamp"]],
+        "@context": "/home/cithoreal/ThoughtBubbles/vocab/timestamp#",
+        "data": data_dict["Timestamp"],
+        "lastUpdated": data_dict["Timestamp"],
+        "LinkTo": [save_dict["@id"]]
+    } 
     #print(save_dict)
     #region Position
     if data_dict.has("Position"):  #Load latest position and see if it's different, don't update lastUpdated if it's the same
@@ -55,7 +62,6 @@ func save(data_dict: Dictionary):
             "data": ", ".join(data_dict["Position"]),
             "lastUpdated": data_dict["Timestamp"],
             "LinkTo": []
-
         }
         var x_dict: Dictionary = {
             "@id": "x-pos",
@@ -63,7 +69,6 @@ func save(data_dict: Dictionary):
             "data": "x-pos",
             "lastUpdated": data_dict["Timestamp"],
             "LinkTo": []
-
         }
         var y_dict: Dictionary = {
             "@id": "y-pos",
@@ -71,16 +76,13 @@ func save(data_dict: Dictionary):
             "data": "y-pos",
             "lastUpdated": data_dict["Timestamp"],
             "LinkTo": []
-
         }
-
         var z_dict: Dictionary = {
             "@id": "z-pos",
             "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
             "data": "z-pos",
             "lastUpdated": data_dict["Timestamp"],
             "LinkTo": []
- 
         }
 
         var xpos_dict: Dictionary = {
@@ -109,22 +111,27 @@ func save(data_dict: Dictionary):
             "LinkTo": []
         }
         
-        save_dict["LinkTo"].append("Thoughts/"+position_dict["@id"])
-        save_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
-        save_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
-        save_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
-        save_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
-        save_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
-        save_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
+        timestamp_dict["LinkTo"].append("Thoughts/"+position_dict["@id"])
+        timestamp_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
+        timestamp_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
+        timestamp_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
+        timestamp_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
+        timestamp_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
+        timestamp_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
         position_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
         position_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
         position_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
         position_dict["LinkTo"].append("Thoughts/"+xpos_dict["@id"])
         position_dict["LinkTo"].append("Thoughts/"+ypos_dict["@id"])
         position_dict["LinkTo"].append("Thoughts/"+zpos_dict["@id"])
+        position_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
         x_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
-        x_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
-        x_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
+        y_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
+        z_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
+        x_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
+        y_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
+        z_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
+
 
         file_manager.save_jsonld(position_dict, "Thoughts")
         file_manager.save_jsonld(x_dict, "Thoughts")
@@ -136,6 +143,8 @@ func save(data_dict: Dictionary):
 
 
     #endregion
+
+    file_manager.save_jsonld(timestamp_dict, "Timestamps")
     file_manager.save_jsonld(save_dict, "Thoughts")
     
     # data - necessary
