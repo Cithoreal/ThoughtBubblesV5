@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dtc51gsua6xo1"
-valid=false
+path="res://.godot/imported/Lightbulb.fbx-528e32640c9a2f149fb33bf76d5ba56a.scn"
 
 [deps]
 
 source_file="res://Assets/Lightbulb.fbx"
+dest_files=["res://.godot/imported/Lightbulb.fbx-528e32640c9a2f149fb33bf76d5ba56a.scn"]
 
 [params]
 

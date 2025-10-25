@@ -51,7 +51,7 @@ func save(data_dict: Dictionary):
         "@context": "/home/cithoreal/ThoughtBubbles/vocab/timestamp#",
         "data": data_dict["Timestamp"],
         "lastUpdated": data_dict["Timestamp"],
-        "LinkTo": [save_dict["@id"]]
+        "LinkTo": ["Thoughts/"+save_dict["@id"]]
     } 
     #print(save_dict)
     #region Position
@@ -144,7 +144,7 @@ func save(data_dict: Dictionary):
 
     #endregion
 
-    file_manager.save_jsonld(timestamp_dict, "Timestamps")
+    file_manager.save_jsonld(timestamp_dict, "Thoughts")
     file_manager.save_jsonld(save_dict, "Thoughts")
     
     # data - necessary
@@ -153,5 +153,11 @@ func save(data_dict: Dictionary):
     # color - optional
     # 
 
-func load(load_array):
-    print(load_array)
+func load(thought_id, timestamp, load_array):
+
+    print(thought_id, timestamp, load_array)
+    var links=file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
+    return #file_manager.load_jsonld(load_array)
+
+func get_latest_timestamp(thought_id: String):
+    return file_manager.get_latest_timestamp(thought_id)

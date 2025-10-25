@@ -90,13 +90,17 @@ func position_updated():
 	save_position(str(Time.get_unix_time_from_system()))
 # ----------------------- Loading ----------------------- #
 #region Loading
+
+
 func load_thought_properties(timestamp):
-	#print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
-
-
+	print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
+	if timestamp == 0:
+		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
+	print(timestamp)
+	
 	load_position(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
-
+	return
 	load_color(timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
 
@@ -112,13 +116,19 @@ func load_position(timestamp):
 	var y = ""
 	var z = ""
 	#print(bubble_interface_node.get_name() + " loading position")
-	x = get_bubble_property(["`Position`" ,"`x`"], timestamp)
-	y = get_bubble_property(["`Position`", "`y`"], timestamp)
-	z = get_bubble_property(["`Position`", "`z`"], timestamp)
+	x = get_bubble_property(["Position" ,"x"], timestamp)
+	y = get_bubble_property(["Position", "y"], timestamp)
+	z = get_bubble_property(["Position", "z"], timestamp)
+
+
+	return
 	#print(x,",",y,",",z)
-	x = x[len(x)-1]
-	y = y[len(y)-1]
-	z = z[len(z)-1]
+	if typeof(x) != TYPE_NIL:
+		x = x[len(x)-1]
+	if typeof(y) != TYPE_NIL:
+		y = y[len(y)-1]
+	if typeof(z) != TYPE_NIL:
+		z = z[len(z)-1]
 	
 	#print(x,",",y,",",z)
 	#print(x)
@@ -203,10 +213,11 @@ func load_parent_links(link_to):
 func get_bubble_property(property_array, timestamp): # TODO Rewrite this to not reference specific loading procedures
 
 	var output = []
-	var load_array = [bubble_interface_node.get_name()]#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
+	var load_array = []#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
 	load_array.append_array(property_array)
-	load_array.append("`Timestamp`")
-	output = thoughtbubble_store.load(load_array)
+	#load_array.append("Timestamp")
+	output = thoughtbubble_store.load(bubble_interface_node.get_name(), timestamp, load_array)
+	return
 	#var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
 	#print(back_timestamps)
 	print(output)

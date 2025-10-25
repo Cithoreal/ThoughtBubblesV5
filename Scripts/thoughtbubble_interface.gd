@@ -15,6 +15,7 @@ extends Node3D
 @export var hide_thought: bool : set = _on_hide_thought
 #Space properties
 @export var load_space: bool : set = _on_load_space
+@export var load_thought: bool : set = _on_load_thought
 @export var save_space: bool : set = _on_save_thoughts
 @export var clear_space: bool : set = _on_clear_space
 
@@ -90,6 +91,10 @@ func _on_load_space(_value):
 	if (run_functions):
 		#print(str(Time.get_time_string_from_system()) + ": Starting Load")
 		get_child(2).load_space()
+
+func _on_load_thought(_value):
+	if (run_functions):
+		get_child(1).load_thought_properties(0)
 
 func _on_save_thoughts(_value):
 	if (run_functions):

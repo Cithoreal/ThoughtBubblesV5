@@ -86,3 +86,35 @@ func array_to_dict(array):
 			var arr = out_dict[array[i]]
 			out_dict[array[i]].append(array[n])
 	return out_dict
+
+func load_jsonld(load_target):
+	var file_path = FILE_PATH + "Thoughts/" + load_target + ".jsonld"
+	print("loading from file Path:" + file_path)
+
+	var obj = open_json_file(file_path)
+	print("\n")
+	print(obj["LinkTo"])
+	return obj
+
+func get_latest_timestamp(thought_id: String):
+	var file_path = FILE_PATH + "Thoughts/" + thought_id + ".jsonld"
+	print("loading from file Path:" + file_path)
+
+	return open_json_file(file_path)["lastUpdated"]
+
+func open_json_file(file_path):
+	if not FileAccess.file_exists(file_path):
+		return ""
+	var file = FileAccess.open(file_path, FileAccess.READ)
+	var file_contents = file.get_as_text()
+	file.close()
+
+	var json = JSON.new()
+	var err = json.parse(file_contents)
+	if (err != OK):
+		push_warning("JSON parse failed in %s: %s" % [file_path, json.get_error_message()])
+		return ""
+	else:
+		var obj = json.get_data()
+		return obj
+
