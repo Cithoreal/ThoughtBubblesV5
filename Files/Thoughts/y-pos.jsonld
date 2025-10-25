@@ -2,10 +2,10 @@
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
 	"@id": "y-pos",
 	"LinkTo": [
-		"Positions/-2.0",
-		"Thoughts/Puck"
+		"-2.0",
+		"Puck"
 	],
-	"createdAt": "1761403152.349",
+	"createdAt": "1761408545.556",
 	"data": "y-pos",
-	"lastUpdated": "1761403152.349"
+	"lastUpdated": "1761408545.556"
 }
