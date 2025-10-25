@@ -98,108 +98,38 @@ func load_thought_properties(timestamp):
 		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
 	print(timestamp)
 	
-	load_position(timestamp)
+	position = thoughtbubble_store.load_position(bubble_interface_node.get_name(), timestamp)
+	return
+	bubble_interface_node.transform.origin = position
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
-	return
-	load_color(timestamp)
+	
+	bubble_color = thoughtbubble_store.load_color(bubble_interface_node.get_name(), timestamp)
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
-
-	load_links(timestamp)
-	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
-	
-	load_shape(timestamp)
-
-
-func load_position(timestamp):
-	timestamp = str(timestamp)
-	var x = ""
-	var y = ""
-	var z = ""
-	#print(bubble_interface_node.get_name() + " loading position")
-	x = get_bubble_property(["Position" ,"x"], timestamp)
-	y = get_bubble_property(["Position", "y"], timestamp)
-	z = get_bubble_property(["Position", "z"], timestamp)
-
-
-	return
-	#print(x,",",y,",",z)
-	if typeof(x) != TYPE_NIL:
-		x = x[len(x)-1]
-	if typeof(y) != TYPE_NIL:
-		y = y[len(y)-1]
-	if typeof(z) != TYPE_NIL:
-		z = z[len(z)-1]
-	
-	#print(x,",",y,",",z)
-	#print(x)
-	#print(bubble_interface_node.get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
-	if (x == ""):
-		x = 0
-	if (y == ""):
-		y = 0
-	if (z == ""):
-		z = 0
-	#print(Vector3(float(x),float(y),float(z)))
-	bubble_interface_node.transform.origin = Vector3(float(x),float(y),float(z))
-
-	
-func load_color(timestamp):
-	var r = ""
-	var g = ""
-	var b = ""
-	var a = ""
-
-	r = get_bubble_property(["`Color`", "`r`"], str(timestamp))
-	g = get_bubble_property(["`Color`", "`g`"], str(timestamp))
-	b = get_bubble_property(["`Color`", "`b`"], str(timestamp))
-	a = get_bubble_property(["`Color`", "`a`"], str(timestamp))
-	r = r[len(r)-1]
-	g = g[len(g)-1]
-	b = b[len(b)-1]
-	a = a[len(a)-1]
-	if (r == "" || g == "" || b == "" || a == ""):
-		bubble_color = Color(0.329412, 0.517647, 0.6, 0.533333)
-	else:
-		r = float(r)
-		g = float(g)
-		b = float(b)
-		a = float(a)
-		bubble_color = Color(r,g,b,a)
 	get_child(0).material_override.albedo_color = bubble_color
-	bubble_interface_node.bubble_color  = bubble_color
+	bubble_interface_node.bubble_color = bubble_color
 
-
-func load_shape(timestamp):
-
-	timestamp = str(timestamp)
-	var shape = get_bubble_property(["`Shape`"], timestamp)
-	shape = shape[len(shape)-1]
-	var shape_id = 0
-	match shape:
-		"CSGSphere3D":
-			shape_id = 0
-		"CSGBox3D":
-			shape_id = 1
-		"CSGCylinder3D":
-			shape_id = 2
+	var shape_id = thoughtbubble_store.load_shape(bubble_interface_node.get_name(), timestamp)
 	get_parent().shape = shape_id
 
-			
+	var links = thoughtbubble_store.load_links(bubble_interface_node.get_name(), timestamp)
+	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
+	
+
 func load_links(timestamp):
 	#Find and use proper timestamp
-#	var get_array = thoughtbubble_store.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
-	var links = get_bubble_property([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"],timestamp)
+	#	var get_array = thoughtbubble_store.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
+	var links = thoughtbubble_store.get_bubble_property([parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`"], timestamp)
 	print(links)
 	for link in links:
 		if (link != ""):
 			child_thoughts.append(link)
-#	var timestamps = thoughtbubble_store.get_from_orbitdb(["`Timestamp`"])
-#	if (get_array[0] != ""):
-#		#print(get_parent().get_name(), " ", get_array)
-#		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
-#		for element in get_array:
-#			if !timestamps.has(element):
-#				child_thoughts.append(element)
+	#	var timestamps = thoughtbubble_store.get_from_orbitdb(["`Timestamp`"])
+	#	if (get_array[0] != ""):
+	#		#print(get_parent().get_name(), " ", get_array)
+	#		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
+	#		for element in get_array:
+	#			if !timestamps.has(element):
+	#				child_thoughts.append(element)
 
 func _load_parents():
 	for link in child_thoughts:
@@ -209,40 +139,6 @@ func load_parent_links(link_to):
 	if (parent_space_node.get_node(link_to).get_child(1).parent_thoughts.find(bubble_interface_node.get_name()) == -1):
 		parent_space_node.get_node(link_to).get_child(1).parent_thoughts.append(bubble_interface_node.get_name())
 
-
-func get_bubble_property(property_array, timestamp): # TODO Rewrite this to not reference specific loading procedures
-
-	var output = []
-	var load_array = []#, loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
-	load_array.append_array(property_array)
-	#load_array.append("Timestamp")
-	output = thoughtbubble_store.load(bubble_interface_node.get_name(), timestamp, load_array)
-	return
-	#var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
-	#print(back_timestamps)
-	print(output)
-	if (!output.has(timestamp)):
-		#Ensure this is the closest timestamp to the selected as possible
-		for time in output:
-			if (float(time) < float(timestamp)):
-				timestamp = time
-	#print(output)		
-	#print(timestamp)	
-	if (output.find(timestamp) > -1):
-		load_array.pop_back()
-		load_array.append(str(timestamp))
-		#load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
-		#print(load_array)
-		output = thoughtbubble_store.get_from_orbitdb(load_array)
-		if (output.has(str(timestamp))):
-			output.remove_at(output.find(str(timestamp)))
-		if (len(output) > 0):
-			return output
-		else:
-			return null
-	else:
-		print("Remember to set the timestamp")
-		bubble_interface_node.visible = false
 #endregion
 # ----------------------- Saving ----------------------- #
 #region Saving

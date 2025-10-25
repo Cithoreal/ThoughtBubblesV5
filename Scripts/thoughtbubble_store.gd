@@ -32,7 +32,7 @@ class_name ThoughtBubbleStore
 #recieve data dictionary, break it down and categorize known properties/metadata
 
 #clear out links to positions and values that are commited to a git memory to keep current graphs lean
-var file_manager : FileManager
+var file_manager: FileManager
 
 func _enter_tree():
     file_manager = get_child(0)
@@ -41,7 +41,7 @@ func save(data_dict: Dictionary):
     var save_dict = {
         "@id": data_dict["ThoughtBubble"],
         "@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
-        "data": data_dict["ThoughtBubble"],#text or link
+        "data": data_dict["ThoughtBubble"], # text or link
        # "isLink": "", #probably worth making this explicit, but only needs to be included when true
         "lastUpdated": data_dict["Timestamp"],
         "LinkTo": []
@@ -51,11 +51,11 @@ func save(data_dict: Dictionary):
         "@context": "/home/cithoreal/ThoughtBubbles/vocab/timestamp#",
         "data": data_dict["Timestamp"],
         "lastUpdated": data_dict["Timestamp"],
-        "LinkTo": ["Thoughts/"+save_dict["@id"]]
-    } 
+        "LinkTo": [save_dict["@id"]]
+    }
     #print(save_dict)
     #region Position
-    if data_dict.has("Position"):  #Load latest position and see if it's different, don't update lastUpdated if it's the same
+    if data_dict.has("Position"): # Load latest position and see if it's different, don't update lastUpdated if it's the same
         var position_dict: Dictionary = {
             "@id": "Position-[%s]" % [", ".join(data_dict["Position"])],
             "@context": "/home/cithoreal/ThoughtBubbles/vocab/position#",
@@ -111,41 +111,41 @@ func save(data_dict: Dictionary):
             "LinkTo": []
         }
         
-        timestamp_dict["LinkTo"].append("Thoughts/"+position_dict["@id"])
-        timestamp_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
-        timestamp_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
-        timestamp_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
-        timestamp_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
-        timestamp_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
-        timestamp_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+x_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+y_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+z_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+xpos_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+ypos_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+zpos_dict["@id"])
-        position_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
-        x_dict["LinkTo"].append("Positions/"+xpos_dict["@id"])
-        y_dict["LinkTo"].append("Positions/"+ypos_dict["@id"])
-        z_dict["LinkTo"].append("Positions/"+zpos_dict["@id"])
-        x_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
-        y_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
-        z_dict["LinkTo"].append("Thoughts/"+save_dict["@id"])
+        timestamp_dict["LinkTo"].append(position_dict["@id"])
+        timestamp_dict["LinkTo"].append(x_dict["@id"])
+        timestamp_dict["LinkTo"].append(y_dict["@id"])
+        timestamp_dict["LinkTo"].append(z_dict["@id"])
+        timestamp_dict["LinkTo"].append(xpos_dict["@id"])
+        timestamp_dict["LinkTo"].append(ypos_dict["@id"])
+        timestamp_dict["LinkTo"].append(zpos_dict["@id"])
+        position_dict["LinkTo"].append(x_dict["@id"])
+        position_dict["LinkTo"].append(y_dict["@id"])
+        position_dict["LinkTo"].append(z_dict["@id"])
+        position_dict["LinkTo"].append(xpos_dict["@id"])
+        position_dict["LinkTo"].append(ypos_dict["@id"])
+        position_dict["LinkTo"].append(zpos_dict["@id"])
+        position_dict["LinkTo"].append(save_dict["@id"])
+        x_dict["LinkTo"].append(xpos_dict["@id"])
+        y_dict["LinkTo"].append(ypos_dict["@id"])
+        z_dict["LinkTo"].append(zpos_dict["@id"])
+        x_dict["LinkTo"].append(save_dict["@id"])
+        y_dict["LinkTo"].append(save_dict["@id"])
+        z_dict["LinkTo"].append(save_dict["@id"])
 
 
-        file_manager.save_jsonld(position_dict, "Thoughts")
-        file_manager.save_jsonld(x_dict, "Thoughts")
-        file_manager.save_jsonld(y_dict, "Thoughts")
-        file_manager.save_jsonld(z_dict, "Thoughts")
-        file_manager.save_jsonld(xpos_dict, "Positions")
-        file_manager.save_jsonld(ypos_dict, "Positions")
-        file_manager.save_jsonld(zpos_dict, "Positions")
+        file_manager.save_jsonld(position_dict)
+        file_manager.save_jsonld(x_dict)
+        file_manager.save_jsonld(y_dict)
+        file_manager.save_jsonld(z_dict)
+        file_manager.save_jsonld(xpos_dict)
+        file_manager.save_jsonld(ypos_dict)
+        file_manager.save_jsonld(zpos_dict)
 
 
     #endregion
 
-    file_manager.save_jsonld(timestamp_dict, "Thoughts")
-    file_manager.save_jsonld(save_dict, "Thoughts")
+    file_manager.save_jsonld(timestamp_dict)
+    file_manager.save_jsonld(save_dict)
     
     # data - necessary
     # context - necessary
@@ -153,11 +153,143 @@ func save(data_dict: Dictionary):
     # color - optional
     # 
 
-func load(thought_id, timestamp, load_array):
-
+func load_data(thought_id, timestamp, load_array):
     print(thought_id, timestamp, load_array)
-    var links=file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
-    return #file_manager.load_jsonld(load_array)
+    var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
+    var data_output = {}
+    for property in load_array:
+        var out = file_manager.load_jsonld(property)
+        for data in out["LinkTo"]:
+            data_output.append(data)
+    
+    print("\ndata output: ", data_output)
+    print(len(data_output))
+    var loaded_dict = {}
+    for data in data_output:
+        var out = file_manager.load_jsonld(data)
+        loaded_dict[data]=out["data"]
+    print("output dictionary: ", loaded_dict)
+    #if len(data_output)>0:
+       # load_data(thought_id, timestamp, data_output)
+
+    return # file_manager.load_jsonld(load_array)
 
 func get_latest_timestamp(thought_id: String):
     return file_manager.get_latest_timestamp(thought_id)
+
+#region load_properties
+
+func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite this to not reference specific loading procedures
+    var output = []
+    var load_array = [] # , loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
+    load_array.append_array(property_array)
+    #load_array.append("Timestamp")
+    output = load_data(thought_id, timestamp, load_array)
+    print("bubble properties %s" % output)
+    return
+    #var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
+    #print(back_timestamps)
+
+    if (!output.has(timestamp)):
+        #Ensure this is the closest timestamp to the selected as possible
+        for time in output:
+            if (float(time) < float(timestamp)):
+                timestamp = time
+    #print(output)		
+    #print(timestamp)	
+    if (output.find(timestamp) > -1):
+        load_array.pop_back()
+        load_array.append(str(timestamp))
+        #load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
+        #print(load_array)
+   #     output = thoughtbubble_store.get_from_orbitdb(load_array)
+        if (output.has(str(timestamp))):
+            output.remove_at(output.find(str(timestamp)))
+        if (len(output) > 0):
+            return output
+        else:
+            return null
+    else:
+        print("Remember to set the timestamp")
+        #bubble_interface_node.visible = false
+
+func load_position(thought_id, timestamp):
+    timestamp = str(timestamp)
+    var x = ""
+    var y = ""
+    var z = ""
+    #print(bubble_interface_node.get_name() + " loading position")
+    x = get_bubble_property(thought_id, timestamp, ["x-pos"])
+    print("x pos: %s" % x)
+    return
+    y = get_bubble_property(thought_id, timestamp, ["y-pos"])
+    z = get_bubble_property(thought_id, timestamp, ["z-pos"])
+
+
+    #print(x,",",y,",",z)
+    if typeof(x) != TYPE_NIL:
+        x = x[len(x) - 1]
+    if typeof(y) != TYPE_NIL:
+        y = y[len(y) - 1]
+    if typeof(z) != TYPE_NIL:
+        z = z[len(z) - 1]
+
+    #print(x,",",y,",",z)
+    #print(x)
+    #print(bubble_interface_node.get_name() + ": " + str(Vector3(float(x),float(y),float(z))))
+    if (x == ""):
+        x = 0
+    if (y == ""):
+        y = 0
+    if (z == ""):
+        z = 0
+    #print(Vector3(float(x),float(y),float(z)))
+    return Vector3(float(x), float(y), float(z))
+    
+
+func load_color(thought_id, timestamp):
+    var r = ""
+    var g = ""
+    var b = ""
+    var a = ""
+
+    r = get_bubble_property(thought_id, timestamp, ["`Color`", "`r`"])
+    g = get_bubble_property(thought_id, timestamp, ["`Color`", "`g`"])
+    b = get_bubble_property(thought_id, timestamp, ["`Color`", "`b`"])
+    a = get_bubble_property(thought_id, timestamp, ["`Color`", "`a`"])
+    r = r[len(r) - 1]
+    g = g[len(g) - 1]
+    b = b[len(b) - 1]
+    a = a[len(a) - 1]
+    if (r == "" || g == "" || b == "" || a == ""):
+        return Color(0.329412, 0.517647, 0.6, 0.533333)
+
+    else:
+        r = float(r)
+        g = float(g)
+        b = float(b)
+        a = float(a)
+        return Color(r, g, b, a)
+
+
+
+func load_shape(thought_id, timestamp):
+    timestamp = str(timestamp)
+    var shape = get_bubble_property(thought_id, timestamp, ["`Shape`"])
+    shape = shape[len(shape) - 1]
+    var shape_id = 0
+    match shape:
+        "CSGSphere3D":
+            shape_id = 0
+        "CSGBox3D":
+            shape_id = 1
+        "CSGCylinder3D":
+            shape_id = 2
+    return shape_id
+    
+    
+
+
+
+
+#endregion
