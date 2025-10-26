@@ -33,9 +33,11 @@ class_name ThoughtBubbleStore
 
 #clear out links to positions and values that are commited to a git memory to keep current graphs lean
 var file_manager: FileManager
+var sets
 
 func _enter_tree():
     file_manager = get_child(0)
+    sets = get_child(1)
 #data is dictionary
 func save(data_dict: Dictionary):
     var save_dict = {
@@ -156,23 +158,19 @@ func save(data_dict: Dictionary):
 func load_data(thought_id, timestamp, load_array):
     print(thought_id, timestamp, load_array)
     var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
-    var data_output = {}
+    var data_output = data_at_timestamp["LinkTo"]
     for property in load_array:
         var out = file_manager.load_jsonld(property)
-        for data in out["LinkTo"]:
-            data_output.append(data)
+        data_output = sets.IntersectArrays(data_output, out["LinkTo"])
+       
     
     print("\ndata output: ", data_output)
-    print(len(data_output))
-    var loaded_dict = {}
-    for data in data_output:
-        var out = file_manager.load_jsonld(data)
-        loaded_dict[data]=out["data"]
-    print("output dictionary: ", loaded_dict)
+    if data_output.has(thought_id):
+        data_output.remove_at(data_output.find(thought_id))
     #if len(data_output)>0:
        # load_data(thought_id, timestamp, data_output)
 
-    return # file_manager.load_jsonld(load_array)
+    return data_output[0]
 
 func get_latest_timestamp(thought_id: String):
     return file_manager.get_latest_timestamp(thought_id)
@@ -186,7 +184,7 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
     #load_array.append("Timestamp")
     output = load_data(thought_id, timestamp, load_array)
     print("bubble properties %s" % output)
-    return
+    return output
     #var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
     #print(back_timestamps)
 
@@ -202,7 +200,7 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
         load_array.append(str(timestamp))
         #load_array = [loaded_nodes[bubble_interface_node.get_name()], loaded_nodes["`" + property + "`"], loaded_nodes["`" + element + "`"], loaded_nodes[str(timestamp)]]
         #print(load_array)
-   #     output = thoughtbubble_store.get_from_orbitdb(load_array)
+       # output = thoughtbubble_store.get_from_orbitdb(load_array)
         if (output.has(str(timestamp))):
             output.remove_at(output.find(str(timestamp)))
         if (len(output) > 0):
@@ -220,8 +218,6 @@ func load_position(thought_id, timestamp):
     var z = ""
     #print(bubble_interface_node.get_name() + " loading position")
     x = get_bubble_property(thought_id, timestamp, ["x-pos"])
-    print("x pos: %s" % x)
-    return
     y = get_bubble_property(thought_id, timestamp, ["y-pos"])
     z = get_bubble_property(thought_id, timestamp, ["z-pos"])
 

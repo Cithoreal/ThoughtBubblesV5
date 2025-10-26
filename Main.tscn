@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=11 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" uid="uid://bewcye7xlfe4i" path="res://Scripts/thoughtbubble_store.gd" id="1_r0du0"]
 [ext_resource type="Script" uid="uid://ddrjmbi2fab0v" path="res://Scripts/FileManager.gd" id="1_uu6xs"]
+[ext_resource type="Script" uid="uid://c2eg8p3u4ubue" path="res://Scripts/utility/Sets.gd" id="3_cm0pq"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
@@ -15,10 +16,28 @@ sky = SubResource("Sky_r06ww")
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54i47"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r0du0"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cm0pq"]
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[sub_resource type="CSharpScript" id="CSharpScript_fos0i"]
+script/source = "using Godot;
+using System;
+
+public partial class Test : Node
+{
+	// Called when the node enters the scene tree for the first time.
+	public override void _Ready()
+	{
+	}
+
+	// Called every frame. 'delta' is the elapsed time since the previous frame.
+	public override void _Process(double delta)
+	{
+	}
+}
+"
 
 [node name="scene" type="Node3D"]
 
@@ -31,6 +50,9 @@ script = ExtResource("1_r0du0")
 
 [node name="FileManager" type="Node" parent="ThoughtBubbleStore"]
 script = ExtResource("1_uu6xs")
+
+[node name="SetsHelper" type="Node" parent="ThoughtBubbleStore"]
+script = ExtResource("3_cm0pq")
 
 [node name="Cursor" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
@@ -47,12 +69,15 @@ test_var = "test"
 text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
-material_override = SubResource("StandardMaterial3D_r0du0")
+material_override = SubResource("StandardMaterial3D_cm0pq")
 
 [node name="Puck" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4024694, -2, -0.3315884)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4024694, -2, -1.5773046)
 
 [node name="Table" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9781795, -2, -1.7049855)
+
+[node name="Node3D" type="Node3D" parent="."]
+script = SubResource("CSharpScript_fos0i")
 
 [editable path="Air_Hockey"]

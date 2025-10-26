@@ -580,4 +580,3 @@ func check_context():
 			link.visible = false	
 	
 #endregion
-
