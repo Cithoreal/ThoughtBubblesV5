@@ -76,11 +76,11 @@ func array_to_dict(array):
 
 func load_jsonld(load_target):
 	var file_path = FILE_PATH  + load_target + ".jsonld"
-	print("loading from file Path:" + file_path)
+	#print("loading from file Path:" + file_path)
 
 	var obj = open_json_file(file_path)
-	print("\n")
-	print(obj["LinkTo"])
+	#print("\n")
+	#print(obj["LinkTo"])
 	return obj
 
 func get_latest_timestamp(thought_id: String):

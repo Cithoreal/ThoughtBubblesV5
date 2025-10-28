@@ -156,20 +156,26 @@ func save(data_dict: Dictionary):
     # 
 
 func load_data(thought_id, timestamp, load_array):
-    print(thought_id, timestamp, load_array)
+    print("LOAD DATA START")
+    #print(thought_id, timestamp, load_array)
     var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
     var data_output = data_at_timestamp["LinkTo"]
+   # print("tbs 162 - data_output", data_output)
+    #print("tbs 163 - out[linkTo[", data_output)
     for property in load_array:
         var out = file_manager.load_jsonld(property)
+        print("tbs 167 - property: ", property)
+        print("tbs 168 - intersect1: ", data_output)
+        print("tbs 169 - intersect2: ", out["LinkTo"])
         data_output = sets.IntersectArrays(data_output, out["LinkTo"])
        
     
-    print("\ndata output: ", data_output)
+    print("tbs 167 - data output: ", data_output)
     if data_output.has(thought_id):
         data_output.remove_at(data_output.find(thought_id))
     #if len(data_output)>0:
        # load_data(thought_id, timestamp, data_output)
-
+    print("LOAD DATA END")
     return data_output[0]
 
 func get_latest_timestamp(thought_id: String):
@@ -183,7 +189,7 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
     load_array.append_array(property_array)
     #load_array.append("Timestamp")
     output = load_data(thought_id, timestamp, load_array)
-    print("bubble properties %s" % output)
+    print("tbs 186 - bubble properties %s" % output)
     return output
     #var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
     #print(back_timestamps)
@@ -210,6 +216,15 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
     else:
         print("Remember to set the timestamp")
         #bubble_interface_node.visible = false
+
+
+func load_position_x(thought_id, timestamp):
+    timestamp = str(timestamp)
+    var x = ""
+    x = get_bubble_property(thought_id, timestamp, ["x-pos"])
+    print("X: ",x)
+
+    return x
 
 func load_position(thought_id, timestamp):
     timestamp = str(timestamp)

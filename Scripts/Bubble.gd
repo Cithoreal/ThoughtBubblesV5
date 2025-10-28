@@ -9,7 +9,7 @@ extends Node3D
 var link_scene = load("res://Scenes/LineRenderer.tscn")
 var mat = StandardMaterial3D.new()
 
-var bubble_interface_node
+var bubble_interface_node 
 var parent_space_node
 var parent_bubble_node
 var thoughtbubble_store
@@ -98,10 +98,15 @@ func load_thought_properties(timestamp):
 		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
 	print(timestamp)
 
-	var loaded_position = thoughtbubble_store.load_position(bubble_interface_node.get_name(), timestamp)
-	print("Loaded Position: " + str(loaded_position))
-	if (loaded_position != null):
-		bubble_interface_node.Position = loaded_position
+	#var loaded_position = thoughtbubble_store.load_position(bubble_interface_node.get_name(), timestamp)
+	var x_position =  thoughtbubble_store.load_position_x(bubble_interface_node.get_name(), timestamp)
+	print("b 104 - type of x: ", typeof(x_position))
+	print("Loaded Position x: " + str(x_position))
+	if typeof(x_position) != 0:
+		bubble_interface_node.position.x = float(x_position)
+	
+	#if (loaded_position != null):
+	#	bubble_interface_node.Position = loaded_position
 	return
 
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
@@ -176,8 +181,11 @@ func save_thought(timestamp):
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
 
-	save_name(timestamp)
 	save_position(timestamp)
+
+	return
+	save_name(timestamp)
+
 	save_basis(timestamp)
 	#save_links(timestamp)
 	save_color(timestamp)
