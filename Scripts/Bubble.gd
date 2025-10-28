@@ -97,10 +97,13 @@ func load_thought_properties(timestamp):
 	if timestamp == 0:
 		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
 	print(timestamp)
-	
-	position = thoughtbubble_store.load_position(bubble_interface_node.get_name(), timestamp)
+
+	var loaded_position = thoughtbubble_store.load_position(bubble_interface_node.get_name(), timestamp)
+	print("Loaded Position: " + str(loaded_position))
+	if (loaded_position != null):
+		bubble_interface_node.Position = loaded_position
 	return
-	bubble_interface_node.transform.origin = position
+
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
 	
 	bubble_color = thoughtbubble_store.load_color(bubble_interface_node.get_name(), timestamp)

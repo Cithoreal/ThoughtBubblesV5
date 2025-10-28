@@ -216,18 +216,18 @@ func load_position(thought_id, timestamp):
     var x = ""
     var y = ""
     var z = ""
-    #print(bubble_interface_node.get_name() + " loading position")
+    print(thought_id + " loading position")
     x = get_bubble_property(thought_id, timestamp, ["x-pos"])
     y = get_bubble_property(thought_id, timestamp, ["y-pos"])
     z = get_bubble_property(thought_id, timestamp, ["z-pos"])
+    # don't update a position if the value is null
 
-
-    #print(x,",",y,",",z)
-    if typeof(x) != TYPE_NIL:
+    print(x,",",y,",",z)
+    if typeof(x) != null:
         x = x[len(x) - 1]
-    if typeof(y) != TYPE_NIL:
+    if typeof(y) != null:
         y = y[len(y) - 1]
-    if typeof(z) != TYPE_NIL:
+    if typeof(z) != null:
         z = z[len(z) - 1]
 
     #print(x,",",y,",",z)
