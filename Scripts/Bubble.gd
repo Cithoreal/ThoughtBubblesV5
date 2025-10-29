@@ -98,15 +98,18 @@ func load_thought_properties(timestamp):
 		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
 	print(timestamp)
 
-	#var loaded_position = thoughtbubble_store.load_position(bubble_interface_node.get_name(), timestamp)
 	var x_position =  thoughtbubble_store.load_position_x(bubble_interface_node.get_name(), timestamp)
+	var y_position =  thoughtbubble_store.load_position_y(bubble_interface_node.get_name(), timestamp)
+	var z_position =  thoughtbubble_store.load_position_z(bubble_interface_node.get_name(), timestamp)
 	print("b 104 - type of x: ", typeof(x_position))
 	print("Loaded Position x: " + str(x_position))
 	if typeof(x_position) != 0:
 		bubble_interface_node.position.x = float(x_position)
-	
-	#if (loaded_position != null):
-	#	bubble_interface_node.Position = loaded_position
+	if typeof(x_position) != 0:
+		bubble_interface_node.position.x = float(x_position)
+	if typeof(x_position) != 0:
+		bubble_interface_node.position.x = float(x_position)
+
 	return
 
 	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
