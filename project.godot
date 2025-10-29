@@ -33,6 +33,13 @@ version_control_plugin_name="GitAPI"
 
 enabled=PackedStringArray()
 
+[file_customization]
+
+folder_colors={
+"res://Files/": "orange",
+"res://Scripts/": "red"
+}
+
 [gdnative]
 
 singletons=["res://Scripts/pythonscript.gdnlib"]

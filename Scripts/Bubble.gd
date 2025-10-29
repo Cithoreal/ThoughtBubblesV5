@@ -24,7 +24,7 @@ func _enter_tree():
 	thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
-		#print("signals connected")
+		#print_debug("signals connected")
 		#parent_space_node.connect("save_thoughts",Callable(self,"_save_thought"))
 		parent_space_node.connect("save_thoughts",Callable(self,"save_thought"))
 		parent_space_node.connect("load_parents",Callable(self,"_load_parents"))
@@ -60,7 +60,7 @@ func set_shape(shape):
 	var new_shape 
 	match(shape):
 		0:
-			#print("Sphere")
+			#print_debug("Sphere")
 			new_shape = CSGSphere3D.new()
 			new_shape.radius = .623
 			new_shape.radial_segments = 16
@@ -68,12 +68,12 @@ func set_shape(shape):
 			get_child(0).get_child(0).shape = SphereShape3D
 			#get_parent().shape = 0
 		1:
-			#print("Cube")
+			#print_debug("Cube")
 			new_shape = CSGBox3D.new()
 			get_child(0).get_child(0).shape = BoxShape3D
 			#get_parent().shape = 1
 		2:
-			#print("Cylinder")
+			#print_debug("Cylinder")
 			new_shape= CSGCylinder3D.new()
 			new_shape.height = 1
 			new_shape.sides = 16
@@ -86,36 +86,37 @@ func set_shape(shape):
 	#endregion
 
 func position_updated():
-	print("Position Updated " + bubble_interface_node.get_name() + " " + str(bubble_interface_node.transform.origin))
+	print_debug("Position Updated " + bubble_interface_node.get_name() + " " + str(bubble_interface_node.transform.origin))
 	save_position(str(Time.get_unix_time_from_system()))
 # ----------------------- Loading ----------------------- #
 #region Loading
 
 
 func load_thought_properties(timestamp):
-	print(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
+	print_debug(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
 	if timestamp == 0:
 		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
-	print(timestamp)
+	print_debug(timestamp)
+	
 
 	var x_position =  thoughtbubble_store.load_position_x(bubble_interface_node.get_name(), timestamp)
 	var y_position =  thoughtbubble_store.load_position_y(bubble_interface_node.get_name(), timestamp)
 	var z_position =  thoughtbubble_store.load_position_z(bubble_interface_node.get_name(), timestamp)
-	print("b 104 - type of x: ", typeof(x_position))
-	print("Loaded Position x: " + str(x_position))
+	print_debug("b 104 - type of x: ", typeof(x_position))
+	print_debug("Loaded Position x: " + str(x_position))
 	if typeof(x_position) != 0:
 		bubble_interface_node.position.x = float(x_position)
 	if typeof(x_position) != 0:
-		bubble_interface_node.position.x = float(x_position)
+		bubble_interface_node.position.y = float(y_position)
 	if typeof(x_position) != 0:
-		bubble_interface_node.position.x = float(x_position)
+		bubble_interface_node.position.z = float(z_position)
 
 	return
 
-	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
+	#print_debug(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Position")
 	
 	bubble_color = thoughtbubble_store.load_color(bubble_interface_node.get_name(), timestamp)
-	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
+	#print_debug(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Color")
 	get_child(0).material_override.albedo_color = bubble_color
 	bubble_interface_node.bubble_color = bubble_color
 
@@ -123,20 +124,20 @@ func load_thought_properties(timestamp):
 	get_parent().shape = shape_id
 
 	var links = thoughtbubble_store.load_links(bubble_interface_node.get_name(), timestamp)
-	#print(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
+	#print_debug(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
 	
 
 func load_links(timestamp):
 	#Find and use proper timestamp
 	#	var get_array = thoughtbubble_store.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
 	var links = thoughtbubble_store.get_bubble_property([parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`"], timestamp)
-	print(links)
+	print_debug(links)
 	for link in links:
 		if (link != ""):
 			child_thoughts.append(link)
 	#	var timestamps = thoughtbubble_store.get_from_orbitdb(["`Timestamp`"])
 	#	if (get_array[0] != ""):
-	#		#print(get_parent().get_name(), " ", get_array)
+	#		#print_debug(get_parent().get_name(), " ", get_array)
 	#		#OS.execute(MB_to_godot_path, [parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`", timestamp], true, output)
 	#		for element in get_array:
 	#			if !timestamps.has(element):
@@ -174,13 +175,13 @@ func load_parent_links(link_to):
 	#var color_a = bubble_color.a
 	#var shape = str(get_child(0))
 	#var links = child_thoughts
-	#print(name , " " , position_x , " " , position_y , " " , position_z , " " , basis_xx , " " , basis_xy , " " , basis_xz , " " , basis_yx , " " , basis_yy , " " , basis_yz , " " , basis_zx , " " , basis_zy , " " , basis_zz , " " , color_r , " " , color_g , " " , color_b , " " , color_a , " " , shape , " " , links)
+	#print_debug(name , " " , position_x , " " , position_y , " " , position_z , " " , basis_xx , " " , basis_xy , " " , basis_xz , " " , basis_yx , " " , basis_yy , " " , basis_yz , " " , basis_zx , " " , basis_zy , " " , basis_zz , " " , color_r , " " , color_g , " " , color_b , " " , color_a , " " , shape , " " , links)
 	
 
 
 	
 func save_thought(timestamp):
-	print("Saving " + bubble_interface_node.get_name() + " at " + str(timestamp))
+	print_debug("Saving " + bubble_interface_node.get_name() + " at " + str(timestamp))
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
 
@@ -216,28 +217,54 @@ func save_name(timestamp):
 
 	thoughtbubble_store.save(cypher)
 
-	print("save name " + bubble_interface_node.get_name())
+	print_debug("save name " + bubble_interface_node.get_name())
 	
 	#var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
-	##print(save_array)
+	##print_debug(save_array)
 	#
 	#if thoughtbubble_store.get_nodes([ "`Godot`", "`Thought`", "`Text`"]) and !thoughtbubble_store.get_nodes([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
 		#save_bubble_property(save_array)
 
 func save_position(timestamp):
 	# Position
-	var save_dict = {
-		"ThoughtSpace": parent_bubble_node.get_name(),
-		"ThoughtBubble":bubble_interface_node.get_name(),
-		"Property": "Position",
-		"Position": ["x","y","z"],
-		"x": str(bubble_interface_node.transform.origin.x),
-		"y": str(bubble_interface_node.transform.origin.y),
-		"z": str(bubble_interface_node.transform.origin.z),
-		"Timestamp": timestamp,
-	}
-	print(save_dict)
-	thoughtbubble_store.save(save_dict)
+	save_position_x(timestamp);
+	save_position_y(timestamp);
+	save_position_z(timestamp);
+
+func save_position_x(timestamp):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Position-[X,Y,Z]", "x, y, z"], 
+		["x-pos", "x-pos"],
+		[str(bubble_interface_node.transform.origin.x), str(bubble_interface_node.transform.origin.x)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+func save_position_y(timestamp):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Position-[X,Y,Z]", "x, y, z"], 
+		["y-pos", "y-pos"],
+		[str(bubble_interface_node.transform.origin.y), str(bubble_interface_node.transform.origin.y)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+func save_position_z(timestamp):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Position-[X,Y,Z]", "x, y, z"], 
+		["z-pos","z-pos"],
+		[str(bubble_interface_node.transform.origin.z), str(bubble_interface_node.transform.origin.z)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+
 
 func save_basis(timestamp):
 		# Basis
@@ -463,11 +490,11 @@ func save_shape(timestamp):
 	thoughtbubble_store.save(cypher)
 	# var dict = {"`Shape`": str(get_child(0)), "Timestamp": timestamp}
 	# save_bubble_property(dict)
-	print("possibly all saved")
+	print_debug("possibly all saved")
 	
 # func save_bubble_property(propertyDict):
 # 	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
-# 		#print(get_parent().get_name())
+# 		#print_debug(get_parent().get_name())
 # 		#var save_dict = {"ThoughtSpace":[parent_bubble_node.get_name(),{"ThoughtBubble":[bubble_interface_node.get_name(),{"Properties":propertyDict}]}]}
 # 		var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
 # 		cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
@@ -480,8 +507,8 @@ func save_links(timestamp):
 	
 	for link in child_thoughts:
 		
-		print(link)
-		print(bubble_interface_node.get_name() + " saving... " + link)
+		print_debug(link)
+		print_debug(bubble_interface_node.get_name() + " saving... " + link)
 		var dict = {parent_bubble_node.get_name():{"Link":str(link.replace("../", "")),"Timestamp":timestamp}}
 		var save_array = dict
 		#save_bubble_property(save_array)
@@ -496,13 +523,13 @@ func new_linked_thought(new_thought):
 			for thought in parent_thoughts:
 				thoughts.append(thought)
 			thoughts.append(bubble_interface_node.get_name())
-			print("Creating and linking " + new_thought)
+			print_debug("Creating and linking " + new_thought)
 			parent_space_node.create_and_link_new_thought(new_thought, thoughts, global_transform.origin)
 		else:
 			child_thoughts.append(new_thought)
 			load_parent_links(new_thought)
 			parent_space_node.get_node(new_thought).get_child(1)._load_link_nodes()
-		print("Link to " + str(parent_space_node.get_node(new_thought)))
+		print_debug("Link to " + str(parent_space_node.get_node(new_thought)))
 
 #Runs on signal from thought space after all thoughts have been loaded into the scene
 func _load_link_nodes():
@@ -510,13 +537,13 @@ func _load_link_nodes():
 	#clear existing link renderers
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()
-	#print("Loading Links")
+	#print_debug("Loading Links")
 	var linked_nodes = process_links()
 	if (len(linked_nodes)>0):
 		for node in process_links():
 			var new_link_node = link_scene.instantiate()
 			bubble_interface_node.get_child(3).add_child(new_link_node)
-			#print(str(self) + " " + str(len(parent_thoughts)-1))
+			#print_debug(str(self) + " " + str(len(parent_thoughts)-1))
 			new_link_node.bubble1 = node
 			new_link_node.bubble2 = bubble_interface_node
 			new_link_node.set_owner(get_viewport().get_child(0))
@@ -571,20 +598,20 @@ func focus():
 
 func unfocus():
 	for child in child_thoughts:
-		#print("Find them all as siblings and enable all of them")
+		#print_debug("Find them all as siblings and enable all of them")
 		parent_space_node.get_node(child).visible = true
 		for link in parent_space_node.get_node(child).get_child(3).get_children():
 			link.visible = true	
 	bubble_interface_node.get_child(2).clear_scene()
 
 func load_focus_properties(focused_thought):
-	print("loading properties of " + bubble_interface_node.name + ": " + focused_thought)
+	print_debug("loading properties of " + bubble_interface_node.name + ": " + focused_thought)
 
 func check_context():
 	#subtracting one because the thought space context is not considered
 	var num_parents = len(parent_thoughts) - 1
 	for i in range(1, len(parent_thoughts)):
-		#print (parent_thoughts[i] + " is focused: " + parent_space_node.get_node(parent_thoughts[i]).is_focused)
+		#print_debug (parent_thoughts[i] + " is focused: " + parent_space_node.get_node(parent_thoughts[i]).is_focused)
 		if (parent_space_node.get_node(parent_thoughts[i]).is_focused):
 			num_parents -= 1
 			

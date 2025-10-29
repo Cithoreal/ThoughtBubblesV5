@@ -17,12 +17,19 @@ const FILE_PATH = "res://Files/Thoughts/"
 #Get(args[])    Get subset from cache
 
 	
+func append_unique(array1: Array, array2: Array):
+	var returnArray: Array
+	for element in array2:
+		if !array1.has(element):
+			returnArray.append(element)
+	return returnArray
+
 func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing files with new timestamp
-	print(data_dict)
+	print_debug(data_dict)
 	if not DirAccess.dir_exists_absolute(FILE_PATH):
 		DirAccess.make_dir_absolute(FILE_PATH)
 	var file_path = FILE_PATH + data_dict["@id"] + ".jsonld"
-	print("FILEPATH ", FILE_PATH)
+	print_debug("FILEPATH ", FILE_PATH)
 	var file_exists = FileAccess.file_exists(file_path)
 	var json_string :String
 
@@ -43,6 +50,7 @@ func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing 
 		else:
 			var obj = json.get_data()
 			obj["lastUpdated"] = data_dict["lastUpdated"]
+			obj["LinkTo"] = append_unique(obj["LinkTo"], data_dict["LinkTo"])
 			json_string = JSON.stringify(obj, "\t")
 	else:
 		data_dict["createdAt"] = data_dict["lastUpdated"]
@@ -55,14 +63,14 @@ func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing 
 func save_ndjson(): # for metadata and log
 	pass
 func save_all():
-	print("Saving all data to JSON")
+	print_debug("Saving all data to JSON")
 
 func load_cache():
-	print("Loading cache from JSON")
+	print_debug("Loading cache from JSON")
 
 func get_nodes(args):
-	print("Getting nodes from JSON")
-	print(args)
+	print_debug("Getting nodes from JSON")
+	print_debug(args)
 
 func array_to_dict(array):
 	var out_dict = {}
@@ -76,17 +84,17 @@ func array_to_dict(array):
 
 func load_jsonld(load_target):
 	var file_path = FILE_PATH  + load_target + ".jsonld"
-	#print("loading from file Path:" + file_path)
+	#print_debug("loading from file Path:" + file_path)
 
 	var obj = open_json_file(file_path)
-	#print("\n")
-	#print(obj["LinkTo"])
+	#print_debug("\n")
+	#print_debug(obj["LinkTo"])
 	return obj
 
 func get_latest_timestamp(thought_id: String):
 	var file_path = FILE_PATH + thought_id + ".jsonld"
-	print("loading from file Path: " + file_path)
-	print(open_json_file(file_path))
+	print_debug("loading from file Path: " + file_path)
+	print_debug(open_json_file(file_path))
 	return open_json_file(file_path)["lastUpdated"]
 
 func open_json_file(file_path):
