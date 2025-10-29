@@ -18,11 +18,10 @@ const FILE_PATH = "res://Files/Thoughts/"
 
 	
 func append_unique(array1: Array, array2: Array):
-	var returnArray: Array
 	for element in array2:
 		if !array1.has(element):
-			returnArray.append(element)
-	return returnArray
+			array1.append(element)
+	return array1
 
 func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing files with new timestamp
 	print_debug(data_dict)
