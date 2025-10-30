@@ -58,6 +58,8 @@ func save(timestamp: String, save_array: Array):
 		var save_dict = save_dict_template(save_array[i][0], save_array[i][1], timestamp, save_array.slice(i,save_array.size()))
 		file_manager.save_jsonld(save_dict)
 
+
+
 func load_data(thought_id, timestamp, load_array):
 	print_debug("LOAD DATA START")
 	#print_debug(thought_id, timestamp, load_array)
@@ -92,7 +94,7 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
 	load_array.append_array(property_array)
 	#load_array.append("Timestamp")
 	output = load_data(thought_id, timestamp, load_array)
-	print_debug("tbs 186 - bubble properties %s" % output)
+	print_debug(output)
 	return output
 	#var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")
 	#print_debug(back_timestamps)

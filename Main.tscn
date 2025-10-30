@@ -73,6 +73,7 @@ material_override = SubResource("StandardMaterial3D_cm0pq")
 
 [node name="Puck" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, 0)
+current_timestamp = null
 
 [node name="Table" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9781795, -2, -1.7049855)

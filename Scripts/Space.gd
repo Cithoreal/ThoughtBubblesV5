@@ -63,7 +63,7 @@ func load_space():
 	#print(str(Time.get_time_string_from_system()) + ": Thought Space before Execute()")
 	clear_scene()
 
-	for node in thoughtbubble_store.get_nodes(["`Text`"]):
+	for node in thoughtbubble_store.get_nodes(["Text"]):
 		print(node)
 		load_thought(node)
 		
