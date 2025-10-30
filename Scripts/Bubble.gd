@@ -170,11 +170,10 @@ func save_thought(timestamp):
 	save_color(timestamp)
 	save_shape(timestamp)
 	save_links(timestamp)
-	save_timestamp(timestamp)
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
 
-save_timestamp():
+func save_timestamp(timestamp):
 	var save_array = [
 		["Timestamps", "Timestamps"],
 		["Timestamp-[%s]" % timestamp, timestamp]
