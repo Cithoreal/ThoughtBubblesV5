@@ -186,44 +186,28 @@ func save_thought(timestamp):
 	#Check each value to see if it has changed before saving
 
 	save_position(timestamp)
+	save_rotation(timestamp)
 
-	return
 	save_name(timestamp)
 
-	save_basis(timestamp)
-	#save_links(timestamp)
 	save_color(timestamp)
 	save_shape(timestamp)
-	
+	save_links(timestamp)
+
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
 
 func save_name(timestamp):
-	
-	# Name
-	#var dict = {"Thought":{"Text": get_parent().get_name()}}
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
 
 	# Note: saves whole chain for context, probably inefficient
 	# Want to update latest change timestamps for thoughtspace, should be able to just tell the thought space to update that
-	
-
-	var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (:ThoughtBubble{name:"'+get_parent().get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (Name:Property{name:"Name", timestamp:"'+timestamp+'"})'
-	cypher = cypher + '\n' + 'MERGE (ts)-[:CONTAINS]->(tb)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Name)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Name_val:Value{value:"'+get_parent().get_name()+'"})'
-
-	thoughtbubble_store.save(cypher)
-
-	print_debug("save name " + bubble_interface_node.get_name())
-	
-	#var save_array = [ "`Godot`", "`Thought`", "`Text`", get_parent().get_name()]
-	##print_debug(save_array)
-	#
-	#if thoughtbubble_store.get_nodes([ "`Godot`", "`Thought`", "`Text`"]) and !thoughtbubble_store.get_nodes([ "`Godot`", "`Thought`", "`Text`"]).has(get_parent().get_name()):
-		#save_bubble_property(save_array)
 
 func save_position(timestamp):
 	# Position
@@ -265,243 +249,109 @@ func save_position_z(timestamp):
 	print_debug(save_array)
 	thoughtbubble_store.save(timestamp, save_array)
 
+func save_rotation(timestamp):
 
-func save_basis(timestamp):
-		# Basis
-	var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (Basis:Property{name:"Basis", timestamp:"'+timestamp+'"})'
-	cypher = cypher + '\n' + 'MERGE (xx:Basis{name:"xx"})'
-	cypher = cypher + '\n' + 'MERGE (xy:Basis{name:"xy"})'
-	cypher = cypher + '\n' + 'MERGE (xz:Basis{name:"xz"})'
-	cypher = cypher + '\n' + 'MERGE (yx:Basis{name:"yx"})'
-	cypher = cypher + '\n' + 'MERGE (yy:Basis{name:"yy"})'
-	cypher = cypher + '\n' + 'MERGE (yz:Basis{name:"yz"})'
-	cypher = cypher + '\n' + 'MERGE (zx:Basis{name:"zx"})'
-	cypher = cypher + '\n' + 'MERGE (zy:Basis{name:"zy"})'
-	cypher = cypher + '\n' + 'MERGE (zz:Basis{name:"zz"})'
-	cypher = cypher + '\n' + 'MERGE (ts)-[:CONTAINS]->(tb)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Basis)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(xx)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(xy)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(xz)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(yx)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(yy)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(yz)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(zx)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(zy)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(zz)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.x.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.x.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.x.z)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.y.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.y.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.y.z)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.z)+'"})'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(xx)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(xy)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(xz)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(yx)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(yy)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(yz)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(zx)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(zy)'
-	cypher = cypher + '\n' + 'MERGE (t3D)-[:HAS]->(zz)'
-	cypher = cypher + '\n' + 'MERGE (xx)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.x.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (xy)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.x.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (xz)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.x.z)+'"})'
-	cypher = cypher + '\n' + 'MERGE (yx)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.y.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (yy)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.y.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (yz)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.y.z)+'"})'
-	cypher = cypher + '\n' + 'MERGE (zx)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.x)+'"})'
-	cypher = cypher + '\n' + 'MERGE (zy)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.y)+'"})'
-	cypher = cypher + '\n' + 'MERGE (zz)-[:HAS]->(:Value{value:"'+str(bubble_interface_node.transform.basis.z.z)+'"})'
-	thoughtbubble_store.save(cypher)
+	save_rotation_x(timestamp)
+	save_rotation_y(timestamp)
+	save_rotation_z(timestamp)
 
 
-	#var dict = {"Transform3D":
-		#{ "Basis":
-			#{ "xx": str(bubble_interface_node.transform.basis.x.x),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "xy": str(bubble_interface_node.transform.basis.x.y),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "xz": str(bubble_interface_node.transform.basis.x.z),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	
-	#save_bubble_property(["`Transform3D`", "`Basis`", "`xx`", str(timestamp), str(bubble_interface_node.transform.basis.x.x)])
-	#save_bubble_property(["`Transform3D`", "`Basis`", "`xy`", str(timestamp), str(bubble_interface_node.transform.basis.x.y)])
-	#save_bubble_property(["`Transform3D`", "`Basis`", "`xz`", str(timestamp), str(bubble_interface_node.transform.basis.x.z)])
-	
+func save_rotation_x(timestamp):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Rotation", "x, y, z"], 
+		["x-rotation","x-rotation"],
+		[str(bubble_interface_node.transform.basis.x.x), str(bubble_interface_node.transform.basis.x.x)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
 
+func save_rotation_y(timestamp):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Rotation", "x, y, z"], 
+		["y-rotation","y-rotation"],
+		[str(bubble_interface_node.transform.basis.y.y), str(bubble_interface_node.transform.basis.y.y)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
 
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "yx": str(bubble_interface_node.transform.basis.y.x),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "yy": str(bubble_interface_node.transform.basis.y.y),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "yz": str(bubble_interface_node.transform.basis.y.z),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#
-	##save_bubble_property(["`Transform3D`", "`Basis`", "`yx`", str(timestamp), str(bubble_interface_node.transform.basis.y.x)])
-	##save_bubble_property(["`Transform3D`", "`Basis`", "`yy`", str(timestamp), str(bubble_interface_node.transform.basis.y.y)])
-	##save_bubble_property(["`Transform3D`", "`Basis`", "`yz`", str(timestamp), str(bubble_interface_node.transform.basis.y.z)])
-#
-#
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "zx": str(bubble_interface_node.transform.basis.z.x),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "zy": str(bubble_interface_node.transform.basis.z.y),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	#dict = {"Transform3D":
-		#{ "Basis":
-			#{ "zz": str(bubble_interface_node.transform.basis.z.z),
-			#"Timestamp": timestamp
-			#}
-		#}
-	#}
-	#save_bubble_property(dict)
-	
-	#save_bubble_property(["`Transform3D`", "`Basis`", "`zx`", str(timestamp), str(bubble_interface_node.transform.basis.z.x)])
-	#save_bubble_property(["`Transform3D`", "`Basis`", "`zy`", str(timestamp), str(bubble_interface_node.transform.basis.z.y)])
-	#save_bubble_property(["`Transform3D`", "`Basis`", "`zz`", str(timestamp), str(bubble_interface_node.transform.basis.z.z)])
+func save_rotation_z(timestamp):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Rotation", "x, y, z"], 
+		["z-rotation","z-rotation"],
+		[str(bubble_interface_node.transform.basis.z.z), str(bubble_interface_node.transform.basis.z.z)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
 
 func save_color(timestamp):
-	# Color
-	var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (Color:Property{name:"color", timestamp:"'+timestamp+'"})'
-	cypher = cypher + '\n' + 'MERGE (r:Color{name:"r"})'
-	cypher = cypher + '\n' + 'MERGE (g:Color{name:"g"})'
-	cypher = cypher + '\n' + 'MERGE (b:Color{name:"b"})'
-	cypher = cypher + '\n' + 'MERGE (a:Color{name:"a"})'
-	cypher = cypher + '\n' + 'MERGE (Color)-[:HAS]->(r)'
-	cypher = cypher + '\n' + 'MERGE (Color)-[:HAS]->(g)'
-	cypher = cypher + '\n' + 'MERGE (Color)-[:HAS]->(b)'
-	cypher = cypher + '\n' + 'MERGE (Color)-[:HAS]->(a)'
-	cypher = cypher + '\n' + 'MERGE (ts)-[:CONTAINS]->(tb)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Color)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(r)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(g)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(b)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(a)'
-	cypher = cypher + '\n' + 'MERGE (r)-[:HAS]->(r_val:Value{value:"'+str(bubble_color.r)+'"})'
-	cypher = cypher + '\n' + 'MERGE (g)-[:HAS]->(g_val:Value{value:"'+str(bubble_color.g)+'"})'
-	cypher = cypher + '\n' + 'MERGE (b)-[:HAS]->(b_val:Value{value:"'+str(bubble_color.b)+'"})'
-	cypher = cypher + '\n' + 'MERGE (a)-[:HAS]->(a_val:Value{value:"'+str(bubble_color.a)+'"})'
-	thoughtbubble_store.save(cypher)
-	
-	# var dict = {"Material":
-	# 	{ "Color":
-	# 		{ "r": str(bubble_color.r),
-	# 		"Timestamp": timestamp
-	# 		}
-	# 	}
-	# }
-	# save_bubble_property(dict)
-	
-	# dict = {"Material":
-	# 	{ "Color":
-	# 		{ "g": str(bubble_color.g),
-	# 		"Timestamp": timestamp
-	# 		}
-	# 	}
-	# }
-	# save_bubble_property(dict)
-	
-	# dict = {"Material":
-	# 	{ "Color":
-	# 		{ "b": str(bubble_color.b),
-	# 		"Timestamp": timestamp
-	# 		}
-	# 	}
-	# }
-	# save_bubble_property(dict)
-	
-	# dict = {"Material":
-	# 	{ "Color":
-	# 		{ "a": str(bubble_color.a),
-	# 		"Timestamp": timestamp
-	# 		}
-	# 	}
-	# }
-	# save_bubble_property(dict)
-	#save_bubble_property(["`Material`", "`Color`", "`r`", str(timestamp), str(bubble_color.r)])
-	#save_bubble_property(["`Material`", "`Color`", "`g`", str(timestamp), str(bubble_color.g)])
-	#save_bubble_property(["`Material`", "`Color`", "`b`", str(timestamp), str(bubble_color.b)])
-	#save_bubble_property(["`Material`", "`Color`", "`a`", str(timestamp), str(bubble_color.a)])
+	save_color_r(timestamp)
+	save_color_g(timestamp)
+	save_color_b(timestamp)
+	save_color_a(timestamp)
+
+func save_color_r(timestamp):
+	save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Color", "Color"], 
+		["r-color","r-color"],
+		[str(bubble_color.r), str(bubble_color.r)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+
+func save_color_g(timestamp):
+	save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Color", "Color"], 
+		["g-color","g-color"],
+		[str(bubble_color.g), str(bubble_color.g)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+func save_color_b(timestamp):
+	save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Color", "Color"], 
+		["b-color","b-color"],
+		[str(bubble_color.b), str(bubble_color.b)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+func save_color_a(timestamp):
+	save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Color", "Color"], 
+		["a-color","a-color"],
+		[str(bubble_color.a), str(bubble_color.a)],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
 
 func save_shape(timestamp):
-	var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
-	cypher = cypher + '\n' + 'MERGE (Shape:Property{name:"Shape", timestamp:"'+timestamp+'"})'
-	cypher = cypher + '\n' + 'MERGE (s:Shape{name:"'+str(get_child(0))+'"})'
-	cypher = cypher + '\n' + 'MERGE (ts)-[:CONTAINS]->(tb)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(Shape)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(s)'
-	cypher = cypher + '\n' + 'MERGE (tb)-[:HAS]->(:Value{value:"'+str(get_child(0))+'"})'
-	cypher = cypher + '\n' + 'MERGE (Shape)-[:HAS]->(s)'
-	cypher = cypher + '\n' + 'MERGE (s)-[:HAS]->(:Value{value:"'+str(get_child(0))+'"})'
-	thoughtbubble_store.save(cypher)
-	# var dict = {"`Shape`": str(get_child(0)), "Timestamp": timestamp}
-	# save_bubble_property(dict)
-	print_debug("possibly all saved")
-	
-# func save_bubble_property(propertyDict):
-# 	#if (get_latest_bubble_property_value(property, element) != value && value != ""):
-# 		#print_debug(get_parent().get_name())
-# 		#var save_dict = {"ThoughtSpace":[parent_bubble_node.get_name(),{"ThoughtBubble":[bubble_interface_node.get_name(),{"Properties":propertyDict}]}]}
-# 		var cypher = 'MERGE (ts:ThoughtSpace{name:"'+parent_bubble_node.get_name()+'"})'
-# 		cypher = cypher + '\n' + 'MERGE (tb:ThoughtBubble{name:"'+bubble_interface_node.get_name()+'"})'
-# 		cypher = cypher + '\n' + propertyDict
-# 		thoughtbubble_store.save(cypher)
-
-
+	save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+		["Shape", "Shape"], 
+		[str(get_child(0)), str(get_child(0))],
+		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+	]
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
 
 func save_links(timestamp):
 	
@@ -509,8 +359,14 @@ func save_links(timestamp):
 		
 		print_debug(link)
 		print_debug(bubble_interface_node.get_name() + " saving... " + link)
-		var dict = {parent_bubble_node.get_name():{"Link":str(link.replace("../", "")),"Timestamp":timestamp}}
-		var save_array = dict
+		save_array = [
+			["Timestamp-[%s]" % timestamp, timestamp],
+			[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
+			[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
+			[str(link.replace("../", "")), str(link.replace("../", ""))]
+		]
+		print_debug(save_array)
+		thoughtbubble_store.save(timestamp, save_array)
 		#save_bubble_property(save_array)
 
 #endregion
