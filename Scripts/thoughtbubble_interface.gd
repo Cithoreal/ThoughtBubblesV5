@@ -47,7 +47,7 @@ func _notification(what: int) -> void:
 			_is_moving = true
 		elif _is_moving:
 			_is_moving = false
-			find_child("Bubble").position_updated()
+			#find_child("Bubble").position_updated()
 			
 	_prev_position = position
 		

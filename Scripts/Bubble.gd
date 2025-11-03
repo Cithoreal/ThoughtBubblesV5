@@ -92,7 +92,7 @@ func position_updated():
 #region Loading
 
 
-func load_thought_properties(timestamp):
+func load_thought_properties(timestamp: float):
 	print_debug(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
 	if timestamp == 0:
 		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
@@ -160,13 +160,12 @@ func save_thought(timestamp):
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
 	save_timestamp(timestamp)
-
-	save_position(timestamp)
-	save_rotation(timestamp)
-	save_scale(timestamp)
-
 	save_name(timestamp)
 
+	save_position(timestamp)
+	return
+	save_rotation(timestamp)
+	save_scale(timestamp)
 	save_color(timestamp)
 	save_shape(timestamp)
 	save_links(timestamp)
@@ -183,7 +182,6 @@ func save_timestamp(timestamp):
 
 func save_name(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
@@ -206,7 +204,7 @@ func save_position_x(timestamp):
 		["Position-[X,Y,Z]", "x, y, z"], 
 		["x-pos", "x-pos"],
 		[str(bubble_interface_node.transform.origin.x), str(bubble_interface_node.transform.origin.x)],
-		["Text-Thought", "Text-Thought"],
+		
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -217,7 +215,6 @@ func save_position_y(timestamp):
 		["Timestamp-[%s]" % timestamp, timestamp],
 		["Position-[X,Y,Z]", "x, y, z"], 
 		["y-pos", "y-pos"],
-		["Text-Thought", "Text-Thought"],
 		[str(bubble_interface_node.transform.origin.y), str(bubble_interface_node.transform.origin.y)],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
@@ -229,7 +226,6 @@ func save_position_z(timestamp):
 		["Timestamp-[%s]" % timestamp, timestamp],
 		["Position-[X,Y,Z]", "x, y, z"], 
 		["z-pos","z-pos"],
-		["Text-Thought", "Text-Thought"],
 		[str(bubble_interface_node.transform.origin.z), str(bubble_interface_node.transform.origin.z)],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
@@ -250,7 +246,6 @@ func save_rotation_x(timestamp):
 		["Rotation", "x, y, z"], 
 		["x-rotation","x-rotation"],
 		[str(bubble_interface_node.transform.basis.x.x), str(bubble_interface_node.transform.basis.x.x)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -263,7 +258,6 @@ func save_rotation_y(timestamp):
 		["Rotation", "x, y, z"], 
 		["y-rotation","y-rotation"],
 		[str(bubble_interface_node.transform.basis.y.y), str(bubble_interface_node.transform.basis.y.y)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -276,7 +270,6 @@ func save_rotation_z(timestamp):
 		["Rotation", "x, y, z"], 
 		["z-rotation","z-rotation"],
 		[str(bubble_interface_node.transform.basis.z.z), str(bubble_interface_node.transform.basis.z.z)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -294,7 +287,6 @@ func save_scale_x(timestamp):
 		["Scale", "x, y, z"], 
 		["x-scale","x-scale"],
 		[str(bubble_interface_node.transform.scale.x), str(bubble_interface_node.transform.scale.x)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -307,7 +299,6 @@ func save_scale_y(timestamp):
 		["Scale", "x, y, z"], 
 		["y-scale","y-scale"],
 		[str(bubble_interface_node.transform.scale.y), str(bubble_interface_node.transform.scale.y)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -320,7 +311,6 @@ func save_scale_z(timestamp):
 		["Scale", "x, y, z"], 
 		["z-scale","z-scale"],
 		[str(bubble_interface_node.transform.scale.z), str(bubble_interface_node.transform.scale.z)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -339,7 +329,6 @@ func save_color_r(timestamp):
 		["Color", "Color"], 
 		["r-color","r-color"],
 		[str(bubble_color.r), str(bubble_color.r)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -352,7 +341,6 @@ func save_color_g(timestamp):
 		["Color", "Color"], 
 		["g-color","g-color"],
 		[str(bubble_color.g), str(bubble_color.g)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -364,7 +352,6 @@ func save_color_b(timestamp):
 		["Color", "Color"], 
 		["b-color","b-color"],
 		[str(bubble_color.b), str(bubble_color.b)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -376,7 +363,6 @@ func save_color_a(timestamp):
 		["Color", "Color"], 
 		["a-color","a-color"],
 		[str(bubble_color.a), str(bubble_color.a)],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -388,7 +374,6 @@ func save_shape(timestamp):
 		["Timestamp-[%s]" % timestamp, timestamp],
 		["Shape", "Shape"], 
 		[str(get_child(0)), str(get_child(0))],
-		["Text-Thought", "Text-Thought"],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
@@ -403,7 +388,6 @@ func save_links(timestamp):
 		print_debug(bubble_interface_node.get_name() + " saving... " + link)
 		var save_array = [
 			["Timestamp-[%s]" % timestamp, timestamp],
-			["Text-Thought", "Text-Thought"],
 			[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 			[bubble_interface_node.get_name(), bubble_interface_node.get_name()],
 			[str(link.replace("../", "")), str(link.replace("../", ""))]

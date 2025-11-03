@@ -81,7 +81,7 @@ func array_to_dict(array):
 			out_dict[array[i]].append(array[n])
 	return out_dict
 
-func load_jsonld(load_target):
+func load_jsonld(load_target: String):
 	var file_path = FILE_PATH  + load_target + ".jsonld"
 	#print_debug("loading from file Path:" + file_path)
 

@@ -40,27 +40,45 @@ func _enter_tree():
 	sets = get_child(1)
 
 
-func save_dict_template(id: String, data: String, timestamp: String, links: Array):
-	links.pop_front()
+func save_dict_template(id: String, data: String, timestamp: String, forwardLinks: Array, backLinks: Array):
+	forwardLinks.pop_front()
 	var save_dict = {
  		"@id": id,
  		"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
  		"data": data, # text or link
  	   # "isLink": "", #probably worth making this explicit, but only needs to be included when true
  		"lastUpdated": timestamp,
- 		"LinkTo": links.map(func(element): return element[0])
+ 		"LinkTo": forwardLinks.map(func(element): return element[0]),
+		"LinkFrom": backLinks.map(func(element): return element[0])
+
  	}
 	return save_dict
 	
 func save(timestamp: String, save_array: Array):
 	
 	for i in range(save_array.size()):
-		var save_dict = save_dict_template(save_array[i][0], save_array[i][1], timestamp, save_array.slice(i,save_array.size()))
+		var forwardLinks : Array = save_array.slice(i,save_array.size())
+		var backLinks : Array = save_array.slice(0,i)
+		backLinks.reverse()
+		var save_dict = save_dict_template(save_array[i][0], save_array[i][1], timestamp, forwardLinks, backLinks)
 		file_manager.save_jsonld(save_dict)
 
+func get_thought_data(thought_id: String):
+	var data = file_manager.load_jsonld(thought_id)
+	return data["data"]
 
+func load_thoughts(load_array: Array):
+	#print_debug(load_array)
+	var data_output = file_manager.load_jsonld(load_array[0])["LinkTo"]
+	#print_debug(data_output)
+	for property in load_array:
+		var out = file_manager.load_jsonld(property)
+		data_output = sets.IntersectArrays(data_output, out["LinkTo"])
+	#print_debug(data_output)
+	#print_debug(get_thought_data(data_output[0]))
+	return data_output
 
-func load_data(thought_id, timestamp, load_array):
+func load_thought(thought_id, timestamp, load_array):
 	print_debug("LOAD DATA START")
 	#print_debug(thought_id, timestamp, load_array)
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
@@ -79,7 +97,7 @@ func load_data(thought_id, timestamp, load_array):
 	if data_output.has(thought_id):
 		data_output.remove_at(data_output.find(thought_id))
 	#if len(data_output)>0:
-	   # load_data(thought_id, timestamp, data_output)
+	   # load_thought(thought_id, timestamp, data_output)
 	print_debug("LOAD DATA END")
 	return data_output[0]
 
@@ -93,7 +111,7 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
 	var load_array = [] # , loaded_nodes["`"+property+"`"], loaded_nodes["`"+element+"`"], loaded_nodes["`Timestamp`"]]
 	load_array.append_array(property_array)
 	#load_array.append("Timestamp")
-	output = load_data(thought_id, timestamp, load_array)
+	output = load_thought(thought_id, timestamp, load_array)
 	print_debug(output)
 	return output
 	#var back_timestamps = thoughtbubble_store.get_from_orbitdb([timestamp], "`BackLink`")

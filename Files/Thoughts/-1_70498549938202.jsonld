@@ -1,0 +1,12 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "-1_70498549938202",
+	"LinkFrom": [
+		"Air_Hockey",
+		"Text-Thought"
+	],
+	"LinkTo": [],
+	"createdAt": "1762188050.47184",
+	"data": "-1_70498549938202",
+	"lastUpdated": "1762188050.47184"
+}
