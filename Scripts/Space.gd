@@ -29,7 +29,7 @@ func load_timestamps(selector):
 
 	if (timestamp_list == null || timestamp_list.is_empty()|| timestamp_list[0] == ""):
 		thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
-		var output = thoughtbubble_store.load_thoughts(["Timestamps"])
+		var output = thoughtbubble_store.load_thoughts(["Timestamp"])
 		print_debug(output)
 		#print_debug(output)
 		if (!output[0] == "[" && output[0] != ""):
@@ -106,13 +106,14 @@ func save():
 		timestamp_list.clear()
 	print_debug("saving thoughts")
 	var timestamp = Time.get_unix_time_from_system()
+	var currentTimestamp = null
+	if get_parent().current_timestamp != null:
+		currentTimestamp = thoughtbubble_store.get_thought_data(get_parent().current_timestamp)
 	thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
 		
-	if str(get_parent().current_timestamp) != "not loaded" && get_parent().current_timestamp != null && get_parent().current_timestamp != "":
-		print_debug("saving backlink")
-
-		thoughtbubble_store.save(str(timestamp), [str(get_parent().current_timestamp), str(timestamp)])
-
+	if str(currentTimestamp) != "not loaded" && currentTimestamp != null && currentTimestamp != "":
+		print_debug("linking timestamp %s to %s" % [currentTimestamp, timestamp])
+		thoughtbubble_store.save(str(timestamp), [["Timestamp-[%s]" % currentTimestamp,currentTimestamp], ["Timestamp-[%s]" % str(timestamp), str(timestamp)]])
 	if get_parent().is_focused:
 		print_debug("saving whole space")
 		emit_signal("save_thoughts", timestamp)

@@ -50,6 +50,7 @@ func save_jsonld(data_dict): # for thoughtbubbles #just get and update existing 
 			var obj = json.get_data()
 			obj["lastUpdated"] = data_dict["lastUpdated"]
 			obj["LinkTo"] = append_unique(obj["LinkTo"], data_dict["LinkTo"])
+			obj["LinkFrom"] = append_unique(obj["LinkFrom"], data_dict["LinkFrom"])
 			json_string = JSON.stringify(obj, "\t")
 	else:
 		data_dict["createdAt"] = data_dict["lastUpdated"]

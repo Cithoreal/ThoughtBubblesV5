@@ -55,7 +55,7 @@ func save_dict_template(id: String, data: String, timestamp: String, forwardLink
 	return save_dict
 	
 func save(timestamp: String, save_array: Array):
-	
+	print_debug(save_array)
 	for i in range(save_array.size()):
 		var forwardLinks : Array = save_array.slice(i,save_array.size())
 		var backLinks : Array = save_array.slice(0,i)
@@ -65,6 +65,8 @@ func save(timestamp: String, save_array: Array):
 
 func get_thought_data(thought_id: String):
 	var data = file_manager.load_jsonld(thought_id)
+	if typeof(data) == 0:
+		return null
 	return data["data"]
 
 func load_thoughts(load_array: Array):

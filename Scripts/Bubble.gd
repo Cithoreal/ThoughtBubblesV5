@@ -1,8 +1,7 @@
 @tool
 extends Node3D
 
-@export var space_context: String
-@export var  parent_thoughts : Array[String]
+@export var parent_thoughts : Array[String]
 @export var child_thoughts :Array[String]
 @export var bubble_color: Color = Color(0.329412, 0.517647, 0.6, 0.533333)
 
@@ -21,6 +20,7 @@ func _enter_tree():
 	bubble_interface_node = get_parent()
 	parent_space_node = get_parent().get_parent()
 	parent_bubble_node = get_parent().get_parent().get_parent()
+	#if parent_bubble_node.
 	thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
 	#Check if parent node is "Space" and not "Scene" to ensure this bubble is not top level
 	if (parent_space_node.get_name() != get_viewport().get_child(0).get_name()):
@@ -48,7 +48,6 @@ func set_color(color):
 func initialize():
 	bubble_interface_node.get_child(0).set_thought(bubble_interface_node.get_name())
 	parent_thoughts.append(parent_bubble_node.get_name())
-	space_context = parent_bubble_node.get_name()
 	#Lookup self in the memory base, exit if doesn't already exist
 	#If it does exist, collect all properties/meta values and apply them to self
 	
@@ -154,14 +153,28 @@ func load_parent_links(link_to):
 #endregion
 # ----------------------- Saving ----------------------- #
 #region Saving
-	
+
+func construct_save_array(timestamp, properties):
+	var save_array = [
+		["Timestamp-[%s]" % timestamp, timestamp],
+	]
+	for parent in parent_thoughts:
+		save_array.append([parent, parent])
+	for property in properties:
+		save_array.append(property)
+	save_array.append([bubble_interface_node.get_name(), bubble_interface_node.get_name()])
+
+	print_debug(save_array)
+	thoughtbubble_store.save(timestamp, save_array)
+
 func save_thought(timestamp):
+	
 	print_debug("Saving " + bubble_interface_node.get_name() + " at " + str(timestamp))
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
 	save_timestamp(timestamp)
 	save_name(timestamp)
-
+	return
 	save_position(timestamp)
 	return
 	save_rotation(timestamp)
@@ -174,18 +187,20 @@ func save_thought(timestamp):
 
 func save_timestamp(timestamp):
 	var save_array = [
-		["Timestamps", "Timestamps"],
+		["Timestamp", "Timestamp"],
 		["Timestamp-[%s]" % timestamp, timestamp]
 		]
 	thoughtbubble_store.save(timestamp, save_array)
 
 
 func save_name(timestamp):
+	return
 	var save_array = [
 		["Text-Thought", "Text-Thought"],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
+	for parent in parent_thoughts:
+		save_array.append([parent, parent])
+	save_array.append([bubble_interface_node.get_name(), bubble_interface_node.get_name()])
 	print_debug(save_array)
 	thoughtbubble_store.save(timestamp, save_array)
 
@@ -195,43 +210,32 @@ func save_name(timestamp):
 func save_position(timestamp):
 	# Position
 	save_position_x(timestamp);
-	save_position_y(timestamp);
-	save_position_z(timestamp);
+	#save_position_y(timestamp);
+	#save_position_z(timestamp);
 
 func save_position_x(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Position-[X,Y,Z]", "x, y, z"], 
 		["x-pos", "x-pos"],
 		[str(bubble_interface_node.transform.origin.x), str(bubble_interface_node.transform.origin.x)],
-		
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 func save_position_y(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Position-[X,Y,Z]", "x, y, z"], 
 		["y-pos", "y-pos"],
 		[str(bubble_interface_node.transform.origin.y), str(bubble_interface_node.transform.origin.y)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
+
 func save_position_z(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Position-[X,Y,Z]", "x, y, z"], 
 		["z-pos","z-pos"],
 		[str(bubble_interface_node.transform.origin.z), str(bubble_interface_node.transform.origin.z)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], #needs the whole thoughtspace context chain
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
+
 
 func save_rotation(timestamp):
 
@@ -242,39 +246,27 @@ func save_rotation(timestamp):
 
 func save_rotation_x(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Rotation", "x, y, z"], 
 		["x-rotation","x-rotation"],
 		[str(bubble_interface_node.transform.basis.x.x), str(bubble_interface_node.transform.basis.x.x)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_rotation_y(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Rotation", "x, y, z"], 
 		["y-rotation","y-rotation"],
 		[str(bubble_interface_node.transform.basis.y.y), str(bubble_interface_node.transform.basis.y.y)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_rotation_z(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Rotation", "x, y, z"], 
 		["z-rotation","z-rotation"],
 		[str(bubble_interface_node.transform.basis.z.z), str(bubble_interface_node.transform.basis.z.z)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_scale(timestamp):
 	save_scale_x(timestamp)
@@ -283,40 +275,27 @@ func save_scale(timestamp):
 
 func save_scale_x(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Scale", "x, y, z"], 
 		["x-scale","x-scale"],
 		[str(bubble_interface_node.transform.scale.x), str(bubble_interface_node.transform.scale.x)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_scale_y(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Scale", "x, y, z"], 
 		["y-scale","y-scale"],
 		[str(bubble_interface_node.transform.scale.y), str(bubble_interface_node.transform.scale.y)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_scale_z(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Scale", "x, y, z"], 
 		["z-scale","z-scale"],
 		[str(bubble_interface_node.transform.scale.z), str(bubble_interface_node.transform.scale.z)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
-
+	construct_save_array(timestamp,save_array)
 func save_color(timestamp):
 	save_color_r(timestamp)
 	save_color_g(timestamp)
@@ -325,60 +304,42 @@ func save_color(timestamp):
 
 func save_color_r(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Color", "Color"], 
 		["r-color","r-color"],
 		[str(bubble_color.r), str(bubble_color.r)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_color_g(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Color", "Color"], 
 		["g-color","g-color"],
 		[str(bubble_color.g), str(bubble_color.g)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 func save_color_b(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Color", "Color"], 
 		["b-color","b-color"],
 		[str(bubble_color.b), str(bubble_color.b)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 func save_color_a(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Color", "Color"], 
 		["a-color","a-color"],
 		[str(bubble_color.a), str(bubble_color.a)],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_shape(timestamp):
 	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
 		["Shape", "Shape"], 
-		[str(get_child(0)), str(get_child(0))],
+		[get_child(0).get_name(), get_child(0).get_name()],
 		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
 		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
-	print_debug(save_array)
-	thoughtbubble_store.save(timestamp, save_array)
+	construct_save_array(timestamp,save_array)
 
 func save_links(timestamp):
 	
@@ -388,10 +349,11 @@ func save_links(timestamp):
 		print_debug(bubble_interface_node.get_name() + " saving... " + link)
 		var save_array = [
 			["Timestamp-[%s]" % timestamp, timestamp],
-			[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-			[bubble_interface_node.get_name(), bubble_interface_node.get_name()],
-			[str(link.replace("../", "")), str(link.replace("../", ""))]
 		]
+		for parent in parent_thoughts:
+			save_array.append([parent, parent])
+		save_array.append([bubble_interface_node.get_name(), bubble_interface_node.get_name()])
+		save_array.append([str(link.replace("../", "")), str(link.replace("../", ""))])
 		print_debug(save_array)
 		thoughtbubble_store.save(timestamp, save_array)
 		#save_bubble_property(save_array)

@@ -59,9 +59,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 
 [node name="Air_Hockey" parent="." instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.322681, 0, 0)
-new_thought = "Table"
+new_thought = "Puck"
 is_focused = true
-timestamp_selector = 1
 current_timestamp = null
 test_var = "test"
 
@@ -70,13 +69,6 @@ text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
 material_override = SubResource("StandardMaterial3D_cm0pq")
-
-[node name="Puck" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, 0)
-current_timestamp = null
-
-[node name="Table" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9781795, -2, -1.7049855)
 
 [node name="Node3D" type="Node3D" parent="."]
 script = SubResource("CSharpScript_fos0i")
