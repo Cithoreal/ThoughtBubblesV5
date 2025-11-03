@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://c5sikjmth5uix"]
+[gd_scene load_steps=12 format=3 uid="uid://c5sikjmth5uix"]
 
 [ext_resource type="Script" uid="uid://bewcye7xlfe4i" path="res://Scripts/thoughtbubble_store.gd" id="1_r0du0"]
 [ext_resource type="Script" uid="uid://ddrjmbi2fab0v" path="res://Scripts/FileManager.gd" id="1_uu6xs"]
@@ -20,6 +20,8 @@ sky = SubResource("Sky_r06ww")
 transparency = 1
 shading_mode = 0
 albedo_color = Color(0.329412, 0.517647, 0.6, 0.533333)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fos0i"]
 
 [sub_resource type="CSharpScript" id="CSharpScript_fos0i"]
 script/source = "using Godot;
@@ -58,17 +60,18 @@ script = ExtResource("3_cm0pq")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 
 [node name="Air_Hockey" parent="." instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.322681, 0, 0)
 new_thought = "Puck"
 is_focused = true
-current_timestamp = null
-test_var = "test"
+current_timestamp = "Timestamp-[1762198502.85518]"
 
 [node name="Text" parent="Air_Hockey/Thought" index="0"]
 text = "Air_Hockey"
 
 [node name="Sphere Shape3D" parent="Air_Hockey/Bubble" index="0"]
 material_override = SubResource("StandardMaterial3D_cm0pq")
+
+[node name="CollisionShape3D" parent="Air_Hockey/Bubble/Area3D" index="0"]
+shape = SubResource("SphereShape3D_fos0i")
 
 [node name="Node3D" type="Node3D" parent="."]
 script = SubResource("CSharpScript_fos0i")

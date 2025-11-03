@@ -113,4 +113,3 @@ func open_json_file(file_path):
 	else:
 		var obj = json.get_data()
 		return obj
-

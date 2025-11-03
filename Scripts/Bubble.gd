@@ -8,7 +8,7 @@ extends Node3D
 var link_scene = load("res://Scenes/LineRenderer.tscn")
 var mat = StandardMaterial3D.new()
 
-var bubble_interface_node 
+var bubble_interface_node: Node3D
 var parent_space_node
 var parent_bubble_node
 var thoughtbubble_store
@@ -174,9 +174,7 @@ func save_thought(timestamp):
 	#Check each value to see if it has changed before saving
 	save_timestamp(timestamp)
 	save_name(timestamp)
-	return
 	save_position(timestamp)
-	return
 	save_rotation(timestamp)
 	save_scale(timestamp)
 	save_color(timestamp)
@@ -194,7 +192,6 @@ func save_timestamp(timestamp):
 
 
 func save_name(timestamp):
-	return
 	var save_array = [
 		["Text-Thought", "Text-Thought"],
 	]
@@ -210,8 +207,8 @@ func save_name(timestamp):
 func save_position(timestamp):
 	# Position
 	save_position_x(timestamp);
-	#save_position_y(timestamp);
-	#save_position_z(timestamp);
+	save_position_y(timestamp);
+	save_position_z(timestamp);
 
 func save_position_x(timestamp):
 	var save_array = [
@@ -243,12 +240,11 @@ func save_rotation(timestamp):
 	save_rotation_y(timestamp)
 	save_rotation_z(timestamp)
 
-
 func save_rotation_x(timestamp):
 	var save_array = [
 		["Rotation", "x, y, z"], 
 		["x-rotation","x-rotation"],
-		[str(bubble_interface_node.transform.basis.x.x), str(bubble_interface_node.transform.basis.x.x)],
+		[str(bubble_interface_node.transform.basis.get_euler().x), str(bubble_interface_node.rotation.x)],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -256,7 +252,7 @@ func save_rotation_y(timestamp):
 	var save_array = [
 		["Rotation", "x, y, z"], 
 		["y-rotation","y-rotation"],
-		[str(bubble_interface_node.transform.basis.y.y), str(bubble_interface_node.transform.basis.y.y)],
+		[str(bubble_interface_node.transform.basis.get_euler().y), str(bubble_interface_node.rotation.y)],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -264,7 +260,7 @@ func save_rotation_z(timestamp):
 	var save_array = [
 		["Rotation", "x, y, z"], 
 		["z-rotation","z-rotation"],
-		[str(bubble_interface_node.transform.basis.z.z), str(bubble_interface_node.transform.basis.z.z)],
+		[str(bubble_interface_node.transform.basis.get_euler().z), str(bubble_interface_node.rotation.z)],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -277,7 +273,7 @@ func save_scale_x(timestamp):
 	var save_array = [
 		["Scale", "x, y, z"], 
 		["x-scale","x-scale"],
-		[str(bubble_interface_node.transform.scale.x), str(bubble_interface_node.transform.scale.x)],
+		[str(bubble_interface_node.scale.x), str(bubble_interface_node.scale.x)],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -285,7 +281,7 @@ func save_scale_y(timestamp):
 	var save_array = [
 		["Scale", "x, y, z"], 
 		["y-scale","y-scale"],
-		[str(bubble_interface_node.transform.scale.y), str(bubble_interface_node.transform.scale.y)],
+		[str(bubble_interface_node.scale.y), str(bubble_interface_node.scale.y)],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -293,7 +289,7 @@ func save_scale_z(timestamp):
 	var save_array = [
 		["Scale", "x, y, z"], 
 		["z-scale","z-scale"],
-		[str(bubble_interface_node.transform.scale.z), str(bubble_interface_node.transform.scale.z)],
+		[str(bubble_interface_node.scale.z), str(bubble_interface_node.scale.z)],
 	]
 	construct_save_array(timestamp,save_array)
 func save_color(timestamp):
@@ -336,8 +332,6 @@ func save_shape(timestamp):
 	var save_array = [
 		["Shape", "Shape"], 
 		[get_child(0).get_name(), get_child(0).get_name()],
-		[parent_bubble_node.get_name(), parent_bubble_node.get_name()], 
-		[bubble_interface_node.get_name(), bubble_interface_node.get_name()]
 	]
 	construct_save_array(timestamp,save_array)
 
