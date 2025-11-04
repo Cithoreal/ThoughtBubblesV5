@@ -80,7 +80,11 @@ func set_shape(shape):
 			#get_parent().shape = 2
 	add_child(new_shape)
 	move_child(new_shape,0)
-	new_shape.set_owner(get_viewport().get_child(0))
+	if get_viewport() != null:
+		new_shape.set_owner(get_viewport().get_child(0))
+	else:
+		call_deferred("_set_link_owner", new_shape)	
+
 	prepare_material()
 	#endregion
 
@@ -94,20 +98,21 @@ func position_updated():
 func load_thought_properties(timestamp: float):
 	print_debug(str(Time.get_time_string_from_system()) + ": Loading " + bubble_interface_node.get_name())
 	if timestamp == 0:
-		timestamp = thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name())
+		print_debug("latest_timestamp: ", thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name()))
+		timestamp = float(thoughtbubble_store.get_latest_timestamp(bubble_interface_node.get_name()))
 	print_debug(timestamp)
 	
 
-	var x_position =  thoughtbubble_store.load_position_x(bubble_interface_node.get_name(), timestamp)
-	var y_position =  thoughtbubble_store.load_position_y(bubble_interface_node.get_name(), timestamp)
-	var z_position =  thoughtbubble_store.load_position_z(bubble_interface_node.get_name(), timestamp)
-	print_debug("b 104 - type of x: ", typeof(x_position))
+	var x_position =  0#thoughtbubble_store.load_position_x(bubble_interface_node.get_name(), timestamp)
+	var y_position = thoughtbubble_store.load_position_y(bubble_interface_node.get_name(), timestamp)
+	var z_position =  0#thoughtbubble_store.load_position_z(bubble_interface_node.get_name(), timestamp)
+	print_debug("type of x: ", typeof(x_position))
 	print_debug("Loaded Position x: " + str(x_position))
 	if typeof(x_position) != 0:
 		bubble_interface_node.position.x = float(x_position)
-	if typeof(x_position) != 0:
+	if typeof(y_position) != 0:
 		bubble_interface_node.position.y = float(y_position)
-	if typeof(x_position) != 0:
+	if typeof(z_position) != 0:
 		bubble_interface_node.position.z = float(z_position)
 
 	return
@@ -154,15 +159,15 @@ func load_parent_links(link_to):
 # ----------------------- Saving ----------------------- #
 #region Saving
 
-func construct_save_array(timestamp, properties):
-	var save_array = [
-		["Timestamp-[%s]" % timestamp, timestamp],
+func construct_save_array(timestamp, properties: Array[Dictionary]):
+	var save_array: Array[Dictionary] = [
+		{"id": "Timestamp-[%s]" % timestamp}, {"data": timestamp}, {"type": "timestamp"},
 	]
 	for parent in parent_thoughts:
-		save_array.append([parent, parent])
+		save_array.append([{"id":parent}, {"data":parent}, {"type": "thought"}])
 	for property in properties:
 		save_array.append(property)
-	save_array.append([bubble_interface_node.get_name(), bubble_interface_node.get_name()])
+	save_array.append([{"id":bubble_interface_node.get_name()}, {"data":bubble_interface_node.get_name()}, {"type": "thought"}])
 
 	print_debug(save_array)
 	thoughtbubble_store.save(timestamp, save_array)
@@ -185,19 +190,19 @@ func save_thought(timestamp):
 
 func save_timestamp(timestamp):
 	var save_array = [
-		["Timestamp", "Timestamp"],
-		["Timestamp-[%s]" % timestamp, timestamp]
-		]
+		{"id":"Timestamp", "data":"Timestamp"},
+		{"id":"Timestamp-[%s]" % timestamp, "data":timestamp}
+	]
 	thoughtbubble_store.save(timestamp, save_array)
 
 
 func save_name(timestamp):
 	var save_array = [
-		["Text-Thought", "Text-Thought"],
+		[{"id":"Text-Thought"}, {"data":"Text-Thought"}],
 	]
 	for parent in parent_thoughts:
-		save_array.append([parent, parent])
-	save_array.append([bubble_interface_node.get_name(), bubble_interface_node.get_name()])
+		save_array.append([{"id":parent}, {"data":parent}])
+	save_array.append([{"id":bubble_interface_node.get_name()}, {"data":bubble_interface_node.get_name()}])
 	print_debug(save_array)
 	thoughtbubble_store.save(timestamp, save_array)
 
@@ -212,24 +217,24 @@ func save_position(timestamp):
 
 func save_position_x(timestamp):
 	var save_array = [
-		["Position-[X,Y,Z]", "x, y, z"], 
-		["x-pos", "x-pos"],
-		[str(bubble_interface_node.transform.origin.x), str(bubble_interface_node.transform.origin.x)],
+		[{"id":"Position-[X,Y,Z]"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"x-pos"}, {"data":"x-pos"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.transform.origin.x)}, {"data":str(bubble_interface_node.transform.origin.x)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 func save_position_y(timestamp):
 	var save_array = [
-		["Position-[X,Y,Z]", "x, y, z"], 
-		["y-pos", "y-pos"],
-		[str(bubble_interface_node.transform.origin.y), str(bubble_interface_node.transform.origin.y)],
+		[{"id":"Position-[X,Y,Z]"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"y-pos"}, {"data":"y-pos"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.transform.origin.y)}, {"data":str(bubble_interface_node.transform.origin.y)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_position_z(timestamp):
 	var save_array = [
-		["Position-[X,Y,Z]", "x, y, z"], 
-		["z-pos","z-pos"],
-		[str(bubble_interface_node.transform.origin.z), str(bubble_interface_node.transform.origin.z)],
+		[{"id":"Position-[X,Y,Z]"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"z-pos"}, {"data":"z-pos"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.transform.origin.z)}, {"data":str(bubble_interface_node.transform.origin.z)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -242,25 +247,25 @@ func save_rotation(timestamp):
 
 func save_rotation_x(timestamp):
 	var save_array = [
-		["Rotation", "x, y, z"], 
-		["x-rotation","x-rotation"],
-		[str(bubble_interface_node.transform.basis.get_euler().x), str(bubble_interface_node.rotation.x)],
+		[{"id":"Rotation"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"x-rotation"}, {"data":"x-rotation"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.transform.basis.get_euler().x)}, {"data":str(bubble_interface_node.rotation.x)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_rotation_y(timestamp):
 	var save_array = [
-		["Rotation", "x, y, z"], 
-		["y-rotation","y-rotation"],
-		[str(bubble_interface_node.transform.basis.get_euler().y), str(bubble_interface_node.rotation.y)],
+		[{"id":"Rotation"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"y-rotation"}, {"data":"y-rotation"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.transform.basis.get_euler().y)}, {"data":str(bubble_interface_node.rotation.y)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_rotation_z(timestamp):
 	var save_array = [
-		["Rotation", "x, y, z"], 
-		["z-rotation","z-rotation"],
-		[str(bubble_interface_node.transform.basis.get_euler().z), str(bubble_interface_node.rotation.z)],
+		[{"id":"Rotation"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"z-rotation"}, {"data":"z-rotation"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.transform.basis.get_euler().z)}, {"data":str(bubble_interface_node.rotation.z)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -271,25 +276,25 @@ func save_scale(timestamp):
 
 func save_scale_x(timestamp):
 	var save_array = [
-		["Scale", "x, y, z"], 
-		["x-scale","x-scale"],
-		[str(bubble_interface_node.scale.x), str(bubble_interface_node.scale.x)],
+		[{"id":"Scale"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"x-scale"}, {"data":"x-scale"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.scale.x)}, {"data":str(bubble_interface_node.scale.x)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_scale_y(timestamp):
 	var save_array = [
-		["Scale", "x, y, z"], 
-		["y-scale","y-scale"],
-		[str(bubble_interface_node.scale.y), str(bubble_interface_node.scale.y)],
+		[{"id":"Scale"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"y-scale"}, {"data":"y-scale"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.scale.y)}, {"data":str(bubble_interface_node.scale.y)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_scale_z(timestamp):
 	var save_array = [
-		["Scale", "x, y, z"], 
-		["z-scale","z-scale"],
-		[str(bubble_interface_node.scale.z), str(bubble_interface_node.scale.z)],
+		[{"id":"Scale"}, {"data":"x, y, z"}, {"type": "property"}], 
+		[{"id":"z-scale"}, {"data":"z-scale"}, {"type": "property"}],
+		[{"id":str(bubble_interface_node.scale.z)}, {"data":str(bubble_interface_node.scale.z)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 func save_color(timestamp):
@@ -300,38 +305,38 @@ func save_color(timestamp):
 
 func save_color_r(timestamp):
 	var save_array = [
-		["Color", "Color"], 
-		["r-color","r-color"],
-		[str(bubble_color.r), str(bubble_color.r)],
+		[{"id":"Color"}, {"data":"Color"}, {"type": "property"}], 
+		[{"id":"r-color"}, {"data":"r-color"}, {"type": "property"}],
+		[{"id":str(bubble_color.r)}, {"data":str(bubble_color.r)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_color_g(timestamp):
 	var save_array = [
-		["Color", "Color"], 
-		["g-color","g-color"],
-		[str(bubble_color.g), str(bubble_color.g)],
+		[{"id":"Color"}, {"data":"Color"}, {"type": "property"}], 
+		[{"id":"g-color"}, {"data":"g-color"}, {"type": "property"}],
+		[{"id":str(bubble_color.g)}, {"data":str(bubble_color.g)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 func save_color_b(timestamp):
 	var save_array = [
-		["Color", "Color"], 
-		["b-color","b-color"],
-		[str(bubble_color.b), str(bubble_color.b)],
+		[{"id":"Color"}, {"data":"Color"}, {"type": "property"}], 
+		[{"id":"b-color"}, {"data":"b-color"}, {"type": "property"}],
+		[{"id":str(bubble_color.b)}, {"data":str(bubble_color.b)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 func save_color_a(timestamp):
 	var save_array = [
-		["Color", "Color"], 
-		["a-color","a-color"],
-		[str(bubble_color.a), str(bubble_color.a)],
+		[{"id":"Color"}, {"data":"Color"}, {"type": "property"}], 
+		[{"id":"a-color"}, {"data":"a-color"}, {"type": "property"}],
+		[{"id":str(bubble_color.a)}, {"data":str(bubble_color.a)}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_shape(timestamp):
 	var save_array = [
-		["Shape", "Shape"], 
-		[get_child(0).get_name(), get_child(0).get_name()],
+		[{"id":"Shape"}, {"data":"Shape"}, {"type": "property"}],
+		[{"id":get_child(0).get_name()}, {"data":get_child(0).get_name()}, {"type": "value"}],
 	]
 	construct_save_array(timestamp,save_array)
 
@@ -345,9 +350,9 @@ func save_links(timestamp):
 			["Timestamp-[%s]" % timestamp, timestamp],
 		]
 		for parent in parent_thoughts:
-			save_array.append([parent, parent])
-		save_array.append([bubble_interface_node.get_name(), bubble_interface_node.get_name()])
-		save_array.append([str(link.replace("../", "")), str(link.replace("../", ""))])
+			save_array.append([{"id":parent}, {"data":parent}, {"type": "thought"}])
+		save_array.append([{"id":bubble_interface_node.get_name()}, {"data":bubble_interface_node.get_name()}, {"type": "thought"}])
+		save_array.append([{"id":str(link.replace("../", ""))}, {"data":str(link.replace("../", ""))}, {"type": "thought"}])
 		print_debug(save_array)
 		thoughtbubble_store.save(timestamp, save_array)
 		#save_bubble_property(save_array)
@@ -385,7 +390,12 @@ func _load_link_nodes():
 			#print_debug(str(self) + " " + str(len(parent_thoughts)-1))
 			new_link_node.bubble1 = node
 			new_link_node.bubble2 = bubble_interface_node
-			new_link_node.set_owner(get_viewport().get_child(0))
+			# Wait for the node to be added to scene tree before setting owner
+			if get_viewport() != null:
+				new_link_node.set_owner(get_viewport().get_child(0))
+			else:
+				# Defer setting owner until next frame when node is in scene tree
+				call_deferred("_set_link_owner", new_link_node)
 			new_link_node.initialize()
 
 func process_links():
@@ -422,6 +432,10 @@ func process_links():
 func clear_links():
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()
+
+func _set_link_owner(link_node):
+	if get_viewport() != null:
+		link_node.set_owner(get_viewport().get_child(0))
 #endregion
 
 #region -----------------------  Focus  ----------------------- #

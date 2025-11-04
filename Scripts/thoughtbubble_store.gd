@@ -40,13 +40,13 @@ func _enter_tree():
 	sets = get_child(1)
 
 
-func save_dict_template(id: String, data: String, timestamp: String, forwardLinks: Array, backLinks: Array):
+func save_dict_template(id: String, data: String, type: String, timestamp: String, forwardLinks: Array, backLinks: Array):
 	forwardLinks.pop_front()
 	var save_dict = {
  		"@id": id,
  		"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
  		"data": data, # text or link
- 	   # "isLink": "", #probably worth making this explicit, but only needs to be included when true
+		"type": type,
  		"lastUpdated": timestamp,
  		"LinkTo": forwardLinks.map(func(element): return element[0]),
 		"LinkFrom": backLinks.map(func(element): return element[0])
@@ -60,13 +60,14 @@ func save(timestamp: String, save_array: Array):
 		var forwardLinks : Array = save_array.slice(i,save_array.size())
 		var backLinks : Array = save_array.slice(0,i)
 		backLinks.reverse()
-		var save_dict = save_dict_template(save_array[i][0], save_array[i][1], timestamp, forwardLinks, backLinks)
+		var save_dict = save_dict_template(save_array[i]["id"], save_array[i]["data"], save_array[i]["type"], timestamp, forwardLinks, backLinks)
 		file_manager.save_jsonld(save_dict)
 
 func get_thought_data(thought_id: String):
 	var data = file_manager.load_jsonld(thought_id)
 	if typeof(data) == 0:
 		return null
+	print_debug(data)
 	return data["data"]
 
 func load_thoughts(load_array: Array):
@@ -81,21 +82,23 @@ func load_thoughts(load_array: Array):
 	return data_output
 
 func load_thought(thought_id, timestamp, load_array):
-	print_debug("LOAD DATA START")
+	print_debug("LOAD DATA START: ", thought_id)
+	print_debug(load_array)
 	#print_debug(thought_id, timestamp, load_array)
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
-	var data_output = data_at_timestamp["LinkTo"]
+	var data_output:Array = data_at_timestamp["LinkTo"]
    # print_debug("tbs 162 - data_output", data_output)
 	#print_debug("tbs 163 - out[linkTo[", data_output)
 	for property in load_array:
 		var out = file_manager.load_jsonld(property)
-		print_debug("tbs 167 - property: ", property)
-		print_debug("tbs 168 - intersect1: ", data_output)
-		print_debug("tbs 169 - intersect2: ", out["LinkTo"])
+		print_debug("property: ", property)
+		print_debug("intersect1: ", data_output)
+		print_debug("intersect2: ", out["LinkTo"])
 		data_output = sets.IntersectArrays(data_output, out["LinkTo"])
-	   
 	
-	print_debug("tbs 167 - data output: ", data_output)
+	data_output = sets.IntersectArrays(data_output, file_manager.load_jsonld(thought_id)["LinkFrom"])
+	
+	print_debug("data output: ", data_output)
 	if data_output.has(thought_id):
 		data_output.remove_at(data_output.find(thought_id))
 	#if len(data_output)>0:

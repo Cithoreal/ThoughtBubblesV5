@@ -187,4 +187,3 @@ func new_thought_in_space(thought_text):
 		new_bubble.get_child(1)._load_link_nodes()
 		new_bubble.translate(Vector3(0,-2,0))
 		
-

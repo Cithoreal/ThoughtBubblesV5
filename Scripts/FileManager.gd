@@ -94,7 +94,7 @@ func load_jsonld(load_target: String):
 func get_latest_timestamp(thought_id: String):
 	var file_path = FILE_PATH + thought_id + ".jsonld"
 	print_debug("loading from file Path: " + file_path)
-	print_debug(open_json_file(file_path))
+	print_debug(open_json_file(file_path)["lastUpdated"])
 	return open_json_file(file_path)["lastUpdated"]
 
 func open_json_file(file_path):

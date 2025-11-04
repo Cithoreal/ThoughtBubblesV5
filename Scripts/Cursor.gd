@@ -7,7 +7,7 @@ signal thought_focused
 
 @export var selected_thoughts : Array[Node]
 
-const thought_interface_class = preload("res://Scripts/thought_bubble_interface.gd")
+#const thought_interface_class = preload("res://Scripts/thought_bubble_interface.gd")
 func _enter_tree():
 	EditorPlugin.new().get_editor_interface().get_selection().selection_changed.connect(Callable(self,"_on_selection_changed"))
 
@@ -75,8 +75,8 @@ func _on_selection_changed():
 	
 	selected_thoughts.clear()
 	#print("selection: ",EditorPlugin.new().get_editor_interface().get_selection().get_selected_nodes())
-	for node in EditorPlugin.new().get_editor_interface().get_selection().get_selected_nodes():
-		if (node.get_script() != null && node.get_script() == thought_interface_class):
-			selected_thoughts.append(node)
+	#for node in EditorPlugin.new().get_editor_interface().get_selection().get_selected_nodes():
+#		if (node.get_script() != null && node.get_script() == thought_interface_class):
+#			selected_thoughts.append(node)
 	#print("Selected ", selected_thoughts)
 	#get_child(2).test(test_var)
