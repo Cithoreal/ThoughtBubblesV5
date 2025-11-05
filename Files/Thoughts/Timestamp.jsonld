@@ -1,0 +1,12 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "Timestamp",
+	"LinkFrom": [],
+	"LinkTo": [
+		null,
+		"Timestamp-[1762386044.61561]"
+	],
+	"createdAt": "1762385413.55092",
+	"data": "Timestamp",
+	"lastUpdated": "1762386044.61561"
+}

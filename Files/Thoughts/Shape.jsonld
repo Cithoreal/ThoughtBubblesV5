@@ -1,0 +1,19 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "Shape",
+	"LinkFrom": [
+		null,
+		null,
+		"Air_Hockey",
+		"Timestamp-[1762386044.61561]"
+	],
+	"LinkTo": [
+		null,
+		null,
+		"Sphere Shape3D",
+		"Table"
+	],
+	"createdAt": "1762385992.77912",
+	"data": "Shape",
+	"lastUpdated": "1762386044.61561"
+}

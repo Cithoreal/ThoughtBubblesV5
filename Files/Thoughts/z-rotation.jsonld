@@ -1,0 +1,21 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "z-rotation",
+	"LinkFrom": [
+		null,
+		null,
+		null,
+		"Rotation",
+		"Air_Hockey",
+		"Timestamp-[1762386044.61561]"
+	],
+	"LinkTo": [
+		null,
+		null,
+		"0.0",
+		"Table"
+	],
+	"createdAt": "1762385992.77912",
+	"data": "z-rotation",
+	"lastUpdated": "1762386044.61561"
+}

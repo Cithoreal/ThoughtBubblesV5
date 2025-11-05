@@ -40,16 +40,15 @@ func _enter_tree():
 	sets = get_child(1)
 
 
-func save_dict_template(id: String, data: String, type: String, timestamp: String, forwardLinks: Array, backLinks: Array):
+func save_dict_template(id: String, data: String, timestamp: String, forwardLinks: Array, backLinks: Array):
 	forwardLinks.pop_front()
 	var save_dict = {
  		"@id": id,
  		"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
  		"data": data, # text or link
-		"type": type,
  		"lastUpdated": timestamp,
- 		"LinkTo": forwardLinks.map(func(element): return element[0]),
-		"LinkFrom": backLinks.map(func(element): return element[0])
+ 		"LinkTo": forwardLinks.map(func(element): return element["id"]),
+		"LinkFrom": backLinks.map(func(element): return element["id"])
 
  	}
 	return save_dict
@@ -60,7 +59,7 @@ func save(timestamp: String, save_array: Array):
 		var forwardLinks : Array = save_array.slice(i,save_array.size())
 		var backLinks : Array = save_array.slice(0,i)
 		backLinks.reverse()
-		var save_dict = save_dict_template(save_array[i]["id"], save_array[i]["data"], save_array[i]["type"], timestamp, forwardLinks, backLinks)
+		var save_dict = save_dict_template(save_array[i]["id"], save_array[i]["data"], timestamp, forwardLinks, backLinks)
 		file_manager.save_jsonld(save_dict)
 
 func get_thought_data(thought_id: String):
