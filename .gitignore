@@ -14,5 +14,9 @@ export_presets.cfg
 data_*/
 mono_crash.*.json
 
+# Window embedding temporary files
+/tmp/thoughtbubbles_*.png
+/tmp/thoughtbubbles_window_capture.png
+
 # Saved_data
 # Files/*

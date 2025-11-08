@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://cy3m5k9h4w8rt"]
+
+[ext_resource type="PackedScene" uid="uid://b5xm4k8h9w2pq" path="res://Scenes/WindowEmbeddingThought.tscn" id="1_demo"]
+[ext_resource type="Script" path="res://Scripts/WindowEmbeddingInterface.gd" id="2_interface"]
+
+[sub_resource type="Environment" id="Environment_demo"]
+background_mode = 1
+background_color = Color(0.2, 0.2, 0.25, 1)
+
+[node name="WindowEmbeddingDemo" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_demo")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 2, 6)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 0)
+
+[node name="WindowEmbeddingInterface" type="Node3D" parent="."]
+script = ExtResource("2_interface")
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+text = "Window Embedding Demo
+Open files or select windows to embed in 3D space"
+horizontal_alignment = 1
+
+[node name="Instructions" type="Label3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, -2.5, 0)
+text = "Instructions:
+1. Call open_file_in_window() with a file path
+2. Call embed_window_by_title() to capture an existing window
+3. Call launch_program() to start a new application
+4. Windows will appear as 3D objects in this space"
+horizontal_alignment = 1
