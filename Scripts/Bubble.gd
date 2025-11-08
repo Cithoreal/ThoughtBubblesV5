@@ -127,7 +127,6 @@ func load_thought_properties(timestamp: float):
 	var shape_id = thoughtbubble_store.load_shape(bubble_interface_node.get_name(), timestamp)
 	get_parent().shape = shape_id
 
-	var links = thoughtbubble_store.load_links(bubble_interface_node.get_name(), timestamp)
 	#print_debug(str(Time.get_time_string_from_system()) + ": " + bubble_interface_node.get_name() + " After Links")
 	
 
@@ -135,7 +134,7 @@ func load_links(timestamp):
 	#Find and use proper timestamp
 	#	var get_array = thoughtbubble_store.get_from_orbitdb([parent_bubble_node.get_name(),bubble_interface_node.get_name(), "`Link`"])
 	var links = thoughtbubble_store.get_bubble_property([parent_bubble_node.get_name(), bubble_interface_node.get_name(), "`Link`"], timestamp)
-	print_debug(links)
+	print_debug("Loading Links: ", links)
 	for link in links:
 		if (link != ""):
 			child_thoughts.append(link)
@@ -369,7 +368,7 @@ func new_linked_thought(new_thought):
 
 #Runs on signal from thought space after all thoughts have been loaded into the scene
 func _load_link_nodes():
-
+	print_debug("Load link nodes")
 	#clear existing link renderers
 	for link in bubble_interface_node.get_child(3).get_children():
 		link.free()

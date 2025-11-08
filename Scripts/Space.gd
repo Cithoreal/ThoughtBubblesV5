@@ -70,6 +70,7 @@ func load_space():
 	for node in nodes:
 		print_debug(node)
 		load_thought(node)
+	print_debug("emit signal load links and parents")
 	emit_signal("load_links")
 	emit_signal("load_parents")
 	#OS.execute(MB_to_godot_path, [get_parent().get_name(), "|Thought|"], true, output)
