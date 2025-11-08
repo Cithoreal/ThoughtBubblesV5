@@ -81,7 +81,7 @@ func get_thought_data(thought_id: String):
 # for example, when getting tags of the value -6.0 on puck
 # get the puck backlinks, intersect with timestamp and tags, then remove any remaining that don't contain the value
 func get_tags(timestamp: String, thought_id: String, value: String, tags: Array):
-	print_debug("Getting tags for ", thought_id)
+	print_debug("Getting tags for ", thought_id, " ", value)
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)["LinkTo"]
 	var thought_backlinks = file_manager.load_jsonld(thought_id)["LinkFrom"]
 	var out_set = sets.IntersectArrays(data_at_timestamp, thought_backlinks)
@@ -93,12 +93,14 @@ func get_tags(timestamp: String, thought_id: String, value: String, tags: Array)
 			return_set.append(element)
 	return return_set
 
-func get_values(timestamp: String, thought_id: String, property: String):
+func get_values(timestamp: String, thought_id: String, property: String, value: String):
 	print_debug("Getting values for ", thought_id, " ", property)
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)["LinkTo"]
-	var thought_backlinks = file_manager.load_jsonld(thought_id)["LinkFrom"]
-	var out_set = sets.IntersectArrays(data_at_timestamp, thought_backlinks)
+	var thought_backlinks = file_manager.load_jsonld(thought_id)["LinkFrom"] 
+	var out_set = sets.IntersectArrays(data_at_timestamp, thought_backlinks) #These three lines get the set of backlinks at the timestamp
+
 	out_set = sets.IntersectArrays(out_set, file_manager.load_jsonld(property)["LinkTo"])
+	out_set = sets.IntersectArrays(out_set, file_manager.load_jsonld(value)["LinkTo"])
 	return out_set
 	
 
@@ -124,6 +126,7 @@ func load_thought(thought_id, timestamp, load_array):
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
 	var data_output:Array = data_at_timestamp["LinkTo"]
 
+
    # print_debug("tbs 162 - data_output", data_output)
 	#print_debug("tbs 163 - out[linkTo[", data_output)
 	for property in load_array:
@@ -143,6 +146,8 @@ func load_thought(thought_id, timestamp, load_array):
 		#data_output = sets.ExcludeArray(data_output, thought_id)
 		# get all associated properties of values within the context of thought id backlinks
 		#probably want to keep whole data objects when loading them, compared based on links as done so I can just use them for this step
+
+		#Need to exclude any properties associated with child thoughts
 		var property_array = []
 		for value in data_output:
 			var tags = get_tags(timestamp, thought_id, value, ["property", "atomic-property"])
@@ -154,8 +159,12 @@ func load_thought(thought_id, timestamp, load_array):
 		
 		print_debug("excluded properties for ",thought_id, ": ", property_array)
 		for property in property_array:
-			var values = get_values(timestamp, thought_id, property)
+			var values = get_values(timestamp, thought_id, property, "value")
 			print_debug("values to exclude: ", values)
+			if len(values) > 1:
+				data_output = sets.ExcludeArray(data_output, values)
+
+	print_debug("Final Data Output: ",data_output)
 				
 
 

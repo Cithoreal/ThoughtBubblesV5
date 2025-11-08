@@ -7,13 +7,16 @@
 		"Air_Hockey",
 		"Timestamp-[1762449504.89258]",
 		"value",
-		"z-pos"
+		"z-pos",
+		"Timestamp-[1762614103.5695]",
+		"Table"
 	],
 	"LinkTo": [
 		"Table",
-		"Puck"
+		"Puck",
+		"Goals"
 	],
 	"createdAt": "1762449504.89258",
 	"data": "-6.0",
-	"lastUpdated": "1762449504.89258"
+	"lastUpdated": "1762614103.5695"
 }

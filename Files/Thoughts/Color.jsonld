@@ -4,7 +4,40 @@
 	"LinkFrom": [
 		"Air_Hockey",
 		"Timestamp-[1762449504.89258]",
-		"property"
+		"property",
+		"Timestamp-[1762614103.5695]",
+		"composite-property",
+		"Puck",
+		"Timestamp",
+		"thought",
+		"Table",
+		"Text-Thought",
+		"-5.0",
+		"x-pos",
+		"Position-[X,Y,Z]",
+		"y-pos",
+		"0.0",
+		"z-pos",
+		"x-rotation",
+		"Rotation",
+		"y-rotation",
+		"z-rotation",
+		"1.0",
+		"x-scale",
+		"Scale",
+		"y-scale",
+		"z-scale",
+		"0.32941201329231",
+		"r-color",
+		"Color",
+		"0.51764702796936",
+		"g-color",
+		"0.60000002384186",
+		"b-color",
+		"0.53333300352097",
+		"a-color",
+		"Sphere Shape3D",
+		"Shape"
 	],
 	"LinkTo": [
 		"r-color",
@@ -16,9 +49,12 @@
 		"0.60000002384186",
 		"a-color",
 		"0.53333300352097",
-		"Puck"
+		"Puck",
+		"Shape",
+		"Color",
+		"Goals"
 	],
 	"createdAt": "1762449504.89258",
 	"data": "Color",
-	"lastUpdated": "1762449504.89258"
+	"lastUpdated": "1762614103.5695"
 }

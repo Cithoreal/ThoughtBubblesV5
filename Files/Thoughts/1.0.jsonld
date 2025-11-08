@@ -10,13 +10,19 @@
 		"x-scale",
 		"Scale",
 		"y-scale",
-		"z-scale"
-	],
-	"LinkTo": [
+		"z-scale",
+		"Timestamp-[1762614103.5695]",
 		"Table",
 		"Puck"
 	],
+	"LinkTo": [
+		"Table",
+		"Puck",
+		"Shape",
+		"Color",
+		"Goals"
+	],
 	"createdAt": "1762449504.89258",
 	"data": "1.0",
-	"lastUpdated": "1762449504.89258"
+	"lastUpdated": "1762614103.5695"
 }

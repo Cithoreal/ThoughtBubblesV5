@@ -5,9 +5,20 @@
 	"LinkTo": [
 		"x-pos",
 		"y-pos",
-		"z-pos"
+		"z-pos",
+		"x-rotation",
+		"y-rotation",
+		"z-rotation",
+		"x-scale",
+		"y-scale",
+		"z-scale",
+		"r-color",
+		"g-color",
+		"b-color",
+		"a-color",
+		"Shape"
 	],
 	"createdAt": "1762449504.89258",
 	"data": "atomic-property",
-	"lastUpdated": "1762449504.89258"
+	"lastUpdated": "1762614103.5695"
 }

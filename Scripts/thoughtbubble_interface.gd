@@ -45,9 +45,7 @@ var _is_moving = false
 var testcs
 func _on_test(_value):
 	# Load the C# script and create an instance
-	var TestClass = load("res://Scripts/utility/Test.cs")
-	testcs = TestClass.new()
-	testcs._print_debug("Test function called from thought bubble interface")
+	pass
 
 func _notification(what: int) -> void:
 	# Call when the node is moved and has stopped moving

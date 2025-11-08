@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://ddrjmbi2fab0v" path="res://Scripts/FileManager.gd" id="1_uu6xs"]
 [ext_resource type="Script" uid="uid://c2eg8p3u4ubue" path="res://Scripts/utility/Sets.gd" id="3_cm0pq"]
 [ext_resource type="PackedScene" uid="uid://bag3770qsr67s" path="res://Scenes/ThoughtBubble.tscn" id="4"]
-[ext_resource type="Script" path="res://Scripts/utility/Test.cs" id="4_fos0i"]
+[ext_resource type="Script" uid="uid://ht5laa41aqij" path="res://Scripts/thoughtbubble_interface.gd" id="5_fos0i"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tuqga"]
 
@@ -40,7 +40,6 @@ script = ExtResource("1_uu6xs")
 script = ExtResource("3_cm0pq")
 
 [node name="Test" type="Node" parent="ThoughtBubbleStore"]
-script = ExtResource("4_fos0i")
 
 [node name="Cursor" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
@@ -48,7 +47,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35269, 2.91397, 1.67412)
 [node name="Air_Hockey" parent="." instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
 new_thought = "Puck"
-test = null
 is_focused = true
 current_timestamp = "Timestamp-[1762449504.89258]"
 
@@ -61,14 +59,20 @@ material_override = SubResource("StandardMaterial3D_3dxm6")
 [node name="CollisionShape3D" parent="Air_Hockey/Bubble/Area3D" index="0"]
 shape = SubResource("SphereShape3D_fos0i")
 
-[node name="Table" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
+[node name="Table" type="Node3D" parent="Air_Hockey/Space" index="0" instance=ExtResource("4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6, 0)
-test = null
+script = ExtResource("5_fos0i")
+run_functions = true
+current_timestamp = null
 
-[node name="Puck" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6, 0)
-test = null
+[node name="Puck" type="Node3D" parent="Air_Hockey/Space" index="1" instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 0)
+script = ExtResource("5_fos0i")
+run_functions = true
 
 [node name="Node3D" type="Node3D" parent="."]
+
+[connection signal="renamed" from="Air_Hockey/Space/Table" to="Air_Hockey/Space/Table" method="_on_renamed"]
+[connection signal="renamed" from="Air_Hockey/Space/Puck" to="Air_Hockey/Space/Puck" method="_on_renamed"]
 
 [editable path="Air_Hockey"]

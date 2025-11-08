@@ -2,7 +2,6 @@
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
 	"@id": "Timestamp-[1762449504.89258]",
 	"LinkFrom": [
-		"Timestamp",
 		"timestamp"
 	],
 	"LinkTo": [
@@ -36,9 +35,10 @@
 		"Shape",
 		"Sphere Shape3D",
 		"-4.0",
-		"Puck"
+		"Puck",
+		"Timestamp-[1762614103.5695]"
 	],
 	"createdAt": "1762449504.89258",
 	"data": "1762449504.89258",
-	"lastUpdated": "1762449504.89258"
+	"lastUpdated": "1762614103.5695"
 }

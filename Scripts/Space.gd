@@ -25,7 +25,7 @@ var timestamp_list
 func update_timestamp_list():
 	if (timestamp_list == null || timestamp_list.is_empty()|| timestamp_list[0] == ""):
 		thoughtbubble_store = get_viewport().get_child(0).get_node("ThoughtBubbleStore")
-		var output = thoughtbubble_store.load_thoughts(["Timestamp"])
+		var output = thoughtbubble_store.load_thoughts(["timestamp"])
 		print_debug(output)
 		#print_debug(output)
 		if (!output[0] == "[" && output[0] != ""):
@@ -114,7 +114,10 @@ func save():
 		
 	if str(currentTimestamp) != "not loaded" && currentTimestamp != null && currentTimestamp != "":
 		print_debug("linking timestamp %s to %s" % [currentTimestamp, timestamp])
-		thoughtbubble_store.save(str(timestamp), [["Timestamp-[%s]" % currentTimestamp,currentTimestamp], ["Timestamp-[%s]" % str(timestamp), str(timestamp)]])
+		var save_array :Array[Dictionary]= [
+			{"id": "Timestamp-[%s]" % currentTimestamp, "data":currentTimestamp}, 
+			{"id": "Timestamp-[%s]" % str(timestamp), "data":str(timestamp)}]
+		thoughtbubble_store.save(str(timestamp), save_array)
 	if get_parent().is_focused:
 		print_debug("saving whole space")
 		emit_signal("save_thoughts", timestamp)
@@ -127,7 +130,7 @@ func save():
 	
 
 func save_timestamp(timestamp):
-	var save_array = [
+	var save_array :Array[Dictionary]= [
 		{"id":"timestamp", "data":"timestamp"},
 		{"id":"Timestamp-[%s]" % timestamp, "data":timestamp}
 		]
