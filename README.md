@@ -4,14 +4,27 @@ This version has a focus on creative writing applications. It uses JSON for data
 
 ThoughtBubbles is built with Godot 4
 
+## Features
 
+### Window Embedding (NEW!)
+Open files directly in thought bubbles with external programs of your choice! Similar to Oculus and SteamVR's 3D window popout and pinning.
 
-Todo:
+- **Target Platform**: Arch Linux with KDE Plasma Wayland
+- **Capture Method**: KWin DBus interface for window streaming
+- **Supported Applications**: Kate, VS Code, Gwenview, Okular, VLC, and more
+- **Real-time Updates**: 30 FPS window capture to 3D texture
+
+See [Docs/WindowEmbedding.md](Docs/WindowEmbedding.md) for detailed documentation.
+
+## Todo
 
 - [ ] Switch to pure JSON for data handling
 - [ ] Comment Code and create documentation sheet
 - [ ] Basic flow chart
 - [ ] Update UI Styling for Writing Focus
+- [x] Window Embedding feature for Wayland
+- [ ] Add UI controls for window selection
+- [ ] Optimize window capture performance
 
 10/16/25
 
