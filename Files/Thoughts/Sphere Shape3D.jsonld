@@ -4,20 +4,14 @@
 	"LinkFrom": [
 		"Shape",
 		"Air_Hockey",
-		"Timestamp-[1762449504.89258]",
-		"value",
-		"Timestamp-[1762614103.5695]",
-		"Table",
-		"Puck"
+		"Timestamp-[1762620020.17438]",
+		"value"
 	],
 	"LinkTo": [
 		"Table",
-		"Puck",
-		"Shape",
-		"Color",
-		"Goals"
+		"Puck"
 	],
-	"createdAt": "1762449504.89258",
+	"createdAt": "1762620020.17438",
 	"data": "Sphere Shape3D",
-	"lastUpdated": "1762614103.5695"
+	"lastUpdated": "1762620020.17438"
 }

@@ -3,12 +3,9 @@
 	"@id": "Scale",
 	"LinkFrom": [
 		"Air_Hockey",
-		"Timestamp-[1762449504.89258]",
+		"Timestamp-[1762620020.17438]",
 		"property",
-		"Timestamp-[1762614103.5695]",
-		"composite-property",
-		"Table",
-		"Puck"
+		"composite-property"
 	],
 	"LinkTo": [
 		"x-scale",
@@ -16,12 +13,9 @@
 		"Table",
 		"y-scale",
 		"z-scale",
-		"Puck",
-		"Shape",
-		"Color",
-		"Goals"
+		"Puck"
 	],
-	"createdAt": "1762449504.89258",
+	"createdAt": "1762620020.17438",
 	"data": "x, y, z",
-	"lastUpdated": "1762614103.5695"
+	"lastUpdated": "1762620020.17438"
 }

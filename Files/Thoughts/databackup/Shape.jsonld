@@ -1,19 +1,23 @@
 {
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
-	"@id": "Goals",
+	"@id": "Shape",
 	"LinkFrom": [
-		"Table",
 		"Air_Hockey",
+		"Timestamp-[1762449504.89258]",
+		"property",
+		"Timestamp-[1762614103.5695]",
+		"atomic-property",
+		"Table",
 		"Timestamp",
 		"thought",
+		"Puck",
 		"Text-Thought",
-		"5.0",
+		"-2.0",
 		"x-pos",
 		"Position-[X,Y,Z]",
-		"Timestamp-[1762614103.5695]",
 		"-8.0",
 		"y-pos",
-		"-6.0",
+		"-1.0",
 		"z-pos",
 		"0.0",
 		"x-rotation",
@@ -35,10 +39,18 @@
 		"0.53333300352097",
 		"a-color",
 		"Sphere Shape3D",
-		"Shape"
+		"Shape",
+		"Timestamp-[1762617833.86192]"
 	],
-	"LinkTo": [],
-	"createdAt": "1762614103.5695",
-	"data": "Goals",
-	"lastUpdated": "1762614103.5695"
+	"LinkTo": [
+		"Sphere Shape3D",
+		"Table",
+		"Puck",
+		"Shape",
+		"Color",
+		"Goals"
+	],
+	"createdAt": "1762449504.89258",
+	"data": "Shape",
+	"lastUpdated": "1762617833.86192"
 }

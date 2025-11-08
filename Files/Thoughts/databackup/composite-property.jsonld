@@ -1,0 +1,14 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "composite-property",
+	"LinkFrom": [],
+	"LinkTo": [
+		"Position-[X,Y,Z]",
+		"Rotation",
+		"Scale",
+		"Color"
+	],
+	"createdAt": "1762614103.5695",
+	"data": "composite-property",
+	"lastUpdated": "1762617833.86192"
+}

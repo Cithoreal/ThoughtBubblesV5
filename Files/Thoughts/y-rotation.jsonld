@@ -4,22 +4,16 @@
 	"LinkFrom": [
 		"Rotation",
 		"Air_Hockey",
-		"Timestamp-[1762449504.89258]",
+		"Timestamp-[1762620020.17438]",
 		"property",
-		"Timestamp-[1762614103.5695]",
-		"atomic-property",
-		"Table",
-		"Puck"
+		"atomic-property"
 	],
 	"LinkTo": [
 		"0.0",
 		"Table",
-		"Puck",
-		"Shape",
-		"Color",
-		"Goals"
+		"Puck"
 	],
-	"createdAt": "1762449504.89258",
+	"createdAt": "1762620020.17438",
 	"data": "y-rotation",
-	"lastUpdated": "1762614103.5695"
+	"lastUpdated": "1762620020.17438"
 }

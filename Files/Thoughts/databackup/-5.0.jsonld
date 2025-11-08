@@ -8,12 +8,14 @@
 		"Air_Hockey",
 		"Timestamp-[1762614103.5695]",
 		"value",
-		"y-pos"
+		"y-pos",
+		"Timestamp-[1762617833.86192]"
 	],
 	"LinkTo": [
-		"Color"
+		"Color",
+		"Goals"
 	],
 	"createdAt": "1762614103.5695",
 	"data": "-5.0",
-	"lastUpdated": "1762614103.5695"
+	"lastUpdated": "1762617833.86192"
 }

@@ -94,7 +94,7 @@ func get_tags(timestamp: String, thought_id: String, value: String, tags: Array)
 	return return_set
 
 func get_values(timestamp: String, thought_id: String, property: String, value: String):
-	print_debug("Getting values for ", thought_id, " ", property)
+	#print_debug("Getting values for ", thought_id, " ", property)
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)["LinkTo"]
 	var thought_backlinks = file_manager.load_jsonld(thought_id)["LinkFrom"] 
 	var out_set = sets.IntersectArrays(data_at_timestamp, thought_backlinks) #These three lines get the set of backlinks at the timestamp
@@ -126,7 +126,7 @@ func load_thought(thought_id, timestamp, load_array):
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
 	var data_output:Array = data_at_timestamp["LinkTo"]
 
-
+	
    # print_debug("tbs 162 - data_output", data_output)
 	#print_debug("tbs 163 - out[linkTo[", data_output)
 	for property in load_array:
@@ -138,8 +138,8 @@ func load_thought(thought_id, timestamp, load_array):
 		data_output = sets.IntersectArrays(data_output, out["LinkTo"])
 	
 	data_output = sets.IntersectArrays(data_output, file_manager.load_jsonld(thought_id)["LinkFrom"])
-	
-	print_debug("data output: ", data_output)
+	data_output = sets.IntersectArrays(data_output, file_manager.load_jsonld("value")["LinkTo"])
+	print_debug("data output: ", load_array, ": ", data_output)
 
 	if len(data_output) > 1:
 		print_debug("Multiple results found, exclusion step")
@@ -160,9 +160,30 @@ func load_thought(thought_id, timestamp, load_array):
 		print_debug("excluded properties for ",thought_id, ": ", property_array)
 		for property in property_array:
 			var values = get_values(timestamp, thought_id, property, "value")
-			print_debug("values to exclude: ", values)
+			
 			if len(values) > 1:
+				print_debug("values to exclude for ", property, ": ", values)
 				data_output = sets.ExcludeArray(data_output, values)
+			#if load_array contains a composite property and this property  is not included in it's links then 
+			# it is interfering and it's value should be excluded
+	if len(data_output) > 1:
+		#if it's still greater then 1, we need to exclude any propertys that got loaded
+		var property_array = []
+		for value in data_output:
+			var tags = get_tags(timestamp, thought_id, value, ["property", "atomic-property"])
+			property_array.append_array(tags)
+		property_array = sets.RemoveDuplicates(property_array)
+		for property in load_array:
+			if property_array.has(property):
+				property_array.erase(property)
+		
+		print_debug("excluded properties for ",thought_id, ": ", property_array)
+		for property in property_array:
+			var values = get_values(timestamp, thought_id, property, "value")
+			
+
+			print_debug("values to exclude for ", property, ": ", values)
+			data_output = sets.ExcludeArray(data_output, values)
 
 	print_debug("Final Data Output: ",data_output)
 				
@@ -220,21 +241,21 @@ func get_bubble_property(thought_id, timestamp, property_array): # TODO Rewrite 
 func load_position_x(thought_id, timestamp):
 	timestamp = str(timestamp)
 	var x = ""
-	x = get_bubble_property(thought_id, timestamp, ["x-pos"])
+	x = get_bubble_property(thought_id, timestamp, ["Position-[X,Y,Z]","x-pos"])
 	print_debug("X: ",x)
 	return x
 
 func load_position_y(thought_id, timestamp):
 	timestamp = str(timestamp)
 	var y = ""
-	y = get_bubble_property(thought_id, timestamp, ["y-pos"])
+	y = get_bubble_property(thought_id, timestamp, ["Position-[X,Y,Z]","y-pos"])
 	print_debug("Y: ",y)
 	return y
 
 func load_position_z(thought_id, timestamp):
 	timestamp = str(timestamp)
 	var z = ""
-	z = get_bubble_property(thought_id, timestamp, ["z-pos"])
+	z = get_bubble_property(thought_id, timestamp, ["Position-[X,Y,Z]","z-pos"])
 	print_debug("Z: ",z)
 	return z
 	

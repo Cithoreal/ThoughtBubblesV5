@@ -4,25 +4,16 @@
 	"LinkFrom": [
 		"Position-[X,Y,Z]",
 		"Air_Hockey",
-		"Timestamp-[1762449504.89258]",
+		"Timestamp-[1762620020.17438]",
 		"property",
-		"Timestamp-[1762614103.5695]",
-		"atomic-property",
+		"atomic-property"
+	],
+	"LinkTo": [
+		"0.0",
 		"Table",
 		"Puck"
 	],
-	"LinkTo": [
-		"1.0",
-		"Table",
-		"-6.0",
-		"Puck",
-		"0.0",
-		"-1.0",
-		"Shape",
-		"Color",
-		"Goals"
-	],
-	"createdAt": "1762449504.89258",
+	"createdAt": "1762620020.17438",
 	"data": "z-pos",
-	"lastUpdated": "1762614103.5695"
+	"lastUpdated": "1762620020.17438"
 }

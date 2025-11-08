@@ -1,0 +1,24 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "atomic-property",
+	"LinkFrom": [],
+	"LinkTo": [
+		"x-pos",
+		"y-pos",
+		"z-pos",
+		"x-rotation",
+		"y-rotation",
+		"z-rotation",
+		"x-scale",
+		"y-scale",
+		"z-scale",
+		"r-color",
+		"g-color",
+		"b-color",
+		"a-color",
+		"Shape"
+	],
+	"createdAt": "1762449504.89258",
+	"data": "atomic-property",
+	"lastUpdated": "1762617833.86192"
+}

@@ -177,7 +177,7 @@ func save_thought(timestamp):
 	print_debug("Saving " + bubble_interface_node.get_name() + " at " + str(timestamp))
 	timestamp = str(timestamp)
 	#Check each value to see if it has changed before saving
-	save_timestamp(timestamp)
+	#save_timestamp(timestamp)
 	save_name(timestamp)
 	save_position(timestamp)
 	save_rotation(timestamp)
@@ -187,14 +187,6 @@ func save_thought(timestamp):
 	save_links(timestamp)
 	#Collect all meta properties
 	#execute external python script and pass it the node name and each property
-
-func save_timestamp(timestamp):
-	var save_array: Array[Dictionary] = [
-		{"id":"Timestamp", "data":"Timestamp"},
-		{"id":"Timestamp-[%s]" % timestamp, "data":timestamp}
-	]
-	thoughtbubble_store.save(timestamp, save_array)
-
 
 func save_name(timestamp):
 	var save_array: Array[Dictionary]= [
@@ -347,7 +339,7 @@ func save_links(timestamp):
 		print_debug(link)
 		print_debug(bubble_interface_node.get_name() + " saving... " + link)
 		var save_array: Array[Dictionary] = [
-			{"id":"Timestamp", "data":"[%s]" % timestamp, "tags": ["timestamp"]},
+			{"id":"timestamp", "data":"[%s]" % timestamp, "tags": ["timestamp"]},
 		]
 		for parent in parent_thoughts:
 			save_array.append({"id":parent, "data":parent, "tags": ["thought"]})

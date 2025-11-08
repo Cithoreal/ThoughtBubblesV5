@@ -2,27 +2,21 @@
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
 	"@id": "0.0",
 	"LinkFrom": [
-		"x-rotation",
-		"Rotation",
-		"Air_Hockey",
-		"Timestamp-[1762449504.89258]",
-		"value",
-		"y-rotation",
-		"z-rotation",
-		"Timestamp-[1762614103.5695]",
 		"z-pos",
 		"Position-[X,Y,Z]",
-		"Table",
-		"Puck"
+		"Air_Hockey",
+		"Timestamp-[1762620020.17438]",
+		"value",
+		"x-rotation",
+		"Rotation",
+		"y-rotation",
+		"z-rotation"
 	],
 	"LinkTo": [
 		"Table",
-		"Puck",
-		"Shape",
-		"Color",
-		"Goals"
+		"Puck"
 	],
-	"createdAt": "1762449504.89258",
+	"createdAt": "1762620020.17438",
 	"data": "0.0",
-	"lastUpdated": "1762614103.5695"
+	"lastUpdated": "1762620020.17438"
 }

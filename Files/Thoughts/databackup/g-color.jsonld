@@ -1,0 +1,26 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "g-color",
+	"LinkFrom": [
+		"Color",
+		"Air_Hockey",
+		"Timestamp-[1762449504.89258]",
+		"property",
+		"Timestamp-[1762614103.5695]",
+		"atomic-property",
+		"Table",
+		"Puck",
+		"Timestamp-[1762617833.86192]"
+	],
+	"LinkTo": [
+		"0.51764702796936",
+		"Table",
+		"Puck",
+		"Shape",
+		"Color",
+		"Goals"
+	],
+	"createdAt": "1762449504.89258",
+	"data": "g-color",
+	"lastUpdated": "1762617833.86192"
+}

@@ -1,0 +1,28 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "property",
+	"LinkFrom": [],
+	"LinkTo": [
+		"Position-[X,Y,Z]",
+		"x-pos",
+		"y-pos",
+		"z-pos",
+		"Rotation",
+		"x-rotation",
+		"y-rotation",
+		"z-rotation",
+		"Scale",
+		"x-scale",
+		"y-scale",
+		"z-scale",
+		"Color",
+		"r-color",
+		"g-color",
+		"b-color",
+		"a-color",
+		"Shape"
+	],
+	"createdAt": "1762449504.89258",
+	"data": "property",
+	"lastUpdated": "1762617833.86192"
+}

@@ -1,0 +1,28 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "Rotation",
+	"LinkFrom": [
+		"Air_Hockey",
+		"Timestamp-[1762449504.89258]",
+		"property",
+		"Timestamp-[1762614103.5695]",
+		"composite-property",
+		"Table",
+		"Puck",
+		"Timestamp-[1762617833.86192]"
+	],
+	"LinkTo": [
+		"x-rotation",
+		"0.0",
+		"Table",
+		"y-rotation",
+		"z-rotation",
+		"Puck",
+		"Shape",
+		"Color",
+		"Goals"
+	],
+	"createdAt": "1762449504.89258",
+	"data": "x, y, z",
+	"lastUpdated": "1762617833.86192"
+}

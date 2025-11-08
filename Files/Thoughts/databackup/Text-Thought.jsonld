@@ -1,0 +1,16 @@
+{
+	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
+	"@id": "Text-Thought",
+	"LinkFrom": [],
+	"LinkTo": [
+		"Air_Hockey",
+		"Table",
+		"Puck",
+		"Shape",
+		"Color",
+		"Goals"
+	],
+	"createdAt": "1762449504.89258",
+	"data": "Text-Thought",
+	"lastUpdated": "1762617833.86192"
+}

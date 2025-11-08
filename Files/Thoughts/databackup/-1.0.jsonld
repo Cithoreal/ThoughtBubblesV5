@@ -1,8 +1,8 @@
 {
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
-	"@id": "-8.0",
+	"@id": "-1.0",
 	"LinkFrom": [
-		"y-pos",
+		"z-pos",
 		"Position-[X,Y,Z]",
 		"Table",
 		"Puck",
@@ -11,10 +11,9 @@
 		"value"
 	],
 	"LinkTo": [
-		"Shape",
-		"Goals"
+		"Shape"
 	],
 	"createdAt": "1762614103.5695",
-	"data": "-8.0",
+	"data": "-1.0",
 	"lastUpdated": "1762614103.5695"
 }
