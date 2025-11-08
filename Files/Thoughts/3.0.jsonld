@@ -1,18 +1,17 @@
 {
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
-	"@id": "0.60000002384186",
+	"@id": "3.0",
 	"LinkFrom": [
-		"b-color",
-		"Color",
+		"x-pos",
+		"Position-[X,Y,Z]",
 		"Air_Hockey",
 		"Timestamp-[1762449504.89258]",
 		"value"
 	],
 	"LinkTo": [
-		"Table",
-		"Puck"
+		"Table"
 	],
 	"createdAt": "1762449504.89258",
-	"data": "0.60000002384186",
+	"data": "3.0",
 	"lastUpdated": "1762449504.89258"
 }

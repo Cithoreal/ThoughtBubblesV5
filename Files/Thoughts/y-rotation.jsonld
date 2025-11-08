@@ -2,20 +2,17 @@
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
 	"@id": "y-rotation",
 	"LinkFrom": [
-		null,
-		null,
-		null,
 		"Rotation",
 		"Air_Hockey",
-		"Timestamp-[1762386044.61561]"
+		"Timestamp-[1762449504.89258]",
+		"property"
 	],
 	"LinkTo": [
-		null,
-		null,
 		"0.0",
-		"Table"
+		"Table",
+		"Puck"
 	],
-	"createdAt": "1762385992.77912",
+	"createdAt": "1762449504.89258",
 	"data": "y-rotation",
-	"lastUpdated": "1762386044.61561"
+	"lastUpdated": "1762449504.89258"
 }

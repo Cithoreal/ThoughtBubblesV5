@@ -19,6 +19,8 @@ extends Node3D
 @export var save_space: bool : set = _on_save_thoughts
 @export var clear_space: bool : set = _on_clear_space
 
+@export var test: bool : set = _on_test
+
 @export var is_focused: bool
 
 @export var run_functions: bool = false
@@ -39,6 +41,13 @@ func _on_renamed():
 
 var _prev_position = Vector3()
 var _is_moving = false
+
+var testcs
+func _on_test(_value):
+	# Load the C# script and create an instance
+	var TestClass = load("res://Scripts/utility/Test.cs")
+	testcs = TestClass.new()
+	testcs._print_debug("Test function called from thought bubble interface")
 
 func _notification(what: int) -> void:
 	# Call when the node is moved and has stopped moving

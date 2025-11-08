@@ -53,7 +53,7 @@ func save_dict_template(id: String, data: String, timestamp: String, forwardLink
  	}
 	return save_dict
 	
-func save(timestamp: String, save_array: Array):
+func save(timestamp: String, save_array: Array[Dictionary]):
 	print_debug(save_array)
 	for i in range(save_array.size()):
 		var forwardLinks : Array = save_array.slice(i,save_array.size())
@@ -61,13 +61,49 @@ func save(timestamp: String, save_array: Array):
 		backLinks.reverse()
 		var save_dict = save_dict_template(save_array[i]["id"], save_array[i]["data"], timestamp, forwardLinks, backLinks)
 		file_manager.save_jsonld(save_dict)
+		if save_array[i].has("tags"):
+			var tags: Array = save_array[i]["tags"]
+			save_array[i].erase("tags")
+			for tag in tags:
+				save(timestamp, [{"id":tag, "data":tag},save_array[i]])
 
 func get_thought_data(thought_id: String):
 	var data = file_manager.load_jsonld(thought_id)
-	if typeof(data) == 0:
+	if typeof(data) == 0 or typeof(data) == TYPE_STRING:
 		return null
 	print_debug(data)
 	return data["data"]
+
+
+
+#takes a thought id, a value,  and a parent tag label list
+#gets tags of the thought id in its "LinkFrom" set
+# for example, when getting tags of the value -6.0 on puck
+# get the puck backlinks, intersect with timestamp and tags, then remove any remaining that don't contain the value
+func get_tags(timestamp: String, thought_id: String, value: String, tags: Array):
+	print_debug("Getting tags for ", thought_id)
+	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)["LinkTo"]
+	var thought_backlinks = file_manager.load_jsonld(thought_id)["LinkFrom"]
+	var out_set = sets.IntersectArrays(data_at_timestamp, thought_backlinks)
+	for tag in tags:
+		out_set = sets.IntersectArrays(out_set, file_manager.load_jsonld(tag)["LinkTo"])
+	var return_set: Array
+	for element in out_set:
+		if file_manager.load_jsonld(element)["LinkTo"].has(value):
+			return_set.append(element)
+	return return_set
+
+func get_values(timestamp: String, thought_id: String, property: String):
+	print_debug("Getting values for ", thought_id, " ", property)
+	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)["LinkTo"]
+	var thought_backlinks = file_manager.load_jsonld(thought_id)["LinkFrom"]
+	var out_set = sets.IntersectArrays(data_at_timestamp, thought_backlinks)
+	out_set = sets.IntersectArrays(out_set, file_manager.load_jsonld(property)["LinkTo"])
+	return out_set
+	
+
+
+
 
 func load_thoughts(load_array: Array):
 	#print_debug(load_array)
@@ -80,30 +116,57 @@ func load_thoughts(load_array: Array):
 	#print_debug(get_thought_data(data_output[0]))
 	return data_output
 
+
 func load_thought(thought_id, timestamp, load_array):
 	print_debug("LOAD DATA START: ", thought_id)
 	print_debug(load_array)
 	#print_debug(thought_id, timestamp, load_array)
 	var data_at_timestamp = file_manager.load_jsonld("Timestamp-[%s]" % timestamp)
 	var data_output:Array = data_at_timestamp["LinkTo"]
+
    # print_debug("tbs 162 - data_output", data_output)
 	#print_debug("tbs 163 - out[linkTo[", data_output)
 	for property in load_array:
 		var out = file_manager.load_jsonld(property)
-		print_debug("property: ", property)
-		print_debug("intersect1: ", data_output)
-		print_debug("intersect2: ", out["LinkTo"])
+		#print_debug("property: ", property)
+		#print_debug("intersect1: ", data_output)
+		#print_debug("intersect2: ", out["LinkTo"])
+
 		data_output = sets.IntersectArrays(data_output, out["LinkTo"])
 	
 	data_output = sets.IntersectArrays(data_output, file_manager.load_jsonld(thought_id)["LinkFrom"])
 	
 	print_debug("data output: ", data_output)
+
+	if len(data_output) > 1:
+		print_debug("Multiple results found, exclusion step")
+		#data_output = sets.ExcludeArray(data_output, thought_id)
+		# get all associated properties of values within the context of thought id backlinks
+		#probably want to keep whole data objects when loading them, compared based on links as done so I can just use them for this step
+		var property_array = []
+		for value in data_output:
+			var tags = get_tags(timestamp, thought_id, value, ["property", "atomic-property"])
+			property_array.append_array(tags)
+		property_array = sets.RemoveDuplicates(property_array)
+		for property in load_array:
+			if property_array.has(property):
+				property_array.erase(property)
+		
+		print_debug("excluded properties for ",thought_id, ": ", property_array)
+		for property in property_array:
+			var values = get_values(timestamp, thought_id, property)
+			print_debug("values to exclude: ", values)
+				
+
+
 	if data_output.has(thought_id):
 		data_output.remove_at(data_output.find(thought_id))
 	#if len(data_output)>0:
 	   # load_thought(thought_id, timestamp, data_output)
 	print_debug("LOAD DATA END")
 	return data_output[0]
+
+
 
 func get_latest_timestamp(thought_id: String):
 	return file_manager.get_latest_timestamp(thought_id)

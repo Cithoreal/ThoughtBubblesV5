@@ -1,13 +1,13 @@
 {
 	"@context": "/home/cithoreal/ThoughtBubbles/vocab/tb#",
-	"@id": "Text-Thought",
+	"@id": "atomic-property",
 	"LinkFrom": [],
 	"LinkTo": [
-		"Air_Hockey",
-		"Table",
-		"Puck"
+		"x-pos",
+		"y-pos",
+		"z-pos"
 	],
 	"createdAt": "1762449504.89258",
-	"data": "Text-Thought",
+	"data": "atomic-property",
 	"lastUpdated": "1762449504.89258"
 }

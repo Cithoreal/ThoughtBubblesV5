@@ -128,7 +128,7 @@ func save():
 
 func save_timestamp(timestamp):
 	var save_array = [
-		{"id":"Timestamp", "data":"Timestamp"},
+		{"id":"timestamp", "data":"timestamp"},
 		{"id":"Timestamp-[%s]" % timestamp, "data":timestamp}
 		]
 	thoughtbubble_store.save(timestamp, save_array)

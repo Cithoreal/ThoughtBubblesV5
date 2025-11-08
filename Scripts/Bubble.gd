@@ -217,23 +217,23 @@ func save_position(timestamp):
 
 func save_position_x(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Position-[X,Y,Z]", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"x-pos", "data":"x-pos", "tags": ["property"]},
+		{"id":"Position-[X,Y,Z]", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"x-pos", "data":"x-pos", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.transform.origin.x), "data":str(bubble_interface_node.transform.origin.x), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 func save_position_y(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Position-[X,Y,Z]", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"y-pos", "data":"y-pos", "tags": ["property"]},
+		{"id":"Position-[X,Y,Z]", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"y-pos", "data":"y-pos", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.transform.origin.y), "data":str(bubble_interface_node.transform.origin.y), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_position_z(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Position-[X,Y,Z]", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"z-pos", "data":"z-pos", "tags": ["property"]},
+		{"id":"Position-[X,Y,Z]", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"z-pos", "data":"z-pos", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.transform.origin.z), "data":str(bubble_interface_node.transform.origin.z), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
@@ -247,24 +247,24 @@ func save_rotation(timestamp):
 
 func save_rotation_x(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Rotation", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"x-rotation", "data":"x-rotation", "tags": ["property"]},
+		{"id":"Rotation", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"x-rotation", "data":"x-rotation", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.transform.basis.get_euler().x), "data":str(bubble_interface_node.rotation.x), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_rotation_y(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Rotation", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"y-rotation", "data":"y-rotation", "tags": ["property"]},
+		{"id":"Rotation", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"y-rotation", "data":"y-rotation", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.transform.basis.get_euler().y), "data":str(bubble_interface_node.rotation.y), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_rotation_z(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Rotation", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"z-rotation", "data":"z-rotation", "tags": ["property"]},
+		{"id":"Rotation", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"z-rotation", "data":"z-rotation", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.transform.basis.get_euler().z), "data":str(bubble_interface_node.rotation.z), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
@@ -276,24 +276,24 @@ func save_scale(timestamp):
 
 func save_scale_x(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Scale", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"x-scale", "data":"x-scale", "tags": ["property"]},
+		{"id":"Scale", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"x-scale", "data":"x-scale", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.scale.x), "data":str(bubble_interface_node.scale.x), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_scale_y(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Scale", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"y-scale", "data":"y-scale", "tags": ["property"]},
+		{"id":"Scale", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"y-scale", "data":"y-scale", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.scale.y), "data":str(bubble_interface_node.scale.y), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_scale_z(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Scale", "data":"x, y, z", "tags": ["property"]}, 
-		{"id":"z-scale", "data":"z-scale", "tags": ["property"]},
+		{"id":"Scale", "data":"x, y, z", "tags": ["property", "composite-property"]}, 
+		{"id":"z-scale", "data":"z-scale", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_interface_node.scale.z), "data":str(bubble_interface_node.scale.z), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
@@ -305,37 +305,37 @@ func save_color(timestamp):
 
 func save_color_r(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Color", "data":"Color", "tags": ["property"]}, 
-		{"id":"r-color", "data":"r-color", "tags": ["property"]},
+		{"id":"Color", "data":"Color", "tags": ["property", "composite-property"]}, 
+		{"id":"r-color", "data":"r-color", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_color.r), "data":str(bubble_color.r), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_color_g(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Color", "data":"Color", "tags": ["property"]}, 
-		{"id":"g-color", "data":"g-color", "tags": ["property"]},
+		{"id":"Color", "data":"Color", "tags": ["property", "composite-property"]}, 
+		{"id":"g-color", "data":"g-color", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_color.g), "data":str(bubble_color.g), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 func save_color_b(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Color", "data":"Color", "tags": ["property"]}, 
-		{"id":"b-color", "data":"b-color", "tags": ["property"]},
+		{"id":"Color", "data":"Color", "tags": ["property", "composite-property"]}, 
+		{"id":"b-color", "data":"b-color", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_color.b), "data":str(bubble_color.b), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 func save_color_a(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Color", "data":"Color", "tags": ["property"]}, 
-		{"id":"a-color", "data":"a-color", "tags": ["property"]},
+		{"id":"Color", "data":"Color", "tags": ["property", "composite-property"]}, 
+		{"id":"a-color", "data":"a-color", "tags": ["property", "atomic-property"]},
 		{"id":str(bubble_color.a), "data":str(bubble_color.a), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
 
 func save_shape(timestamp):
 	var save_array: Array[Dictionary] = [
-		{"id":"Shape", "data":"Shape", "tags": ["property"]},
+		{"id":"Shape", "data":"Shape", "tags": ["property", "atomic-property"]},
 		{"id":get_child(0).get_name(), "data":get_child(0).get_name(), "tags": ["value"]},
 	]
 	construct_save_array(timestamp,save_array)
