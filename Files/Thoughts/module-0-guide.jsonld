@@ -1,0 +1,34 @@
+{
+	"@id": "module-0-guide",
+	"@context": "tb",
+	"data": "Core System — Module 0 Implementation Guide\n\nTarget: Godot 4.7 (stable) · GDScript · Quest 3 + Desktop\nGoal: A working Core Runtime that discovers, loads, connects, and manages modules at runtime — no modules yet, just the host.\n\nThis guide is production code. Copy-paste everything. Run it. Ship it.\n\nTable of Contents\nProject Setup\nCoreBus — Event Bus\nCoreStore — Shared Data Substrate\nCoreLoader — Module Loader\nCoreLifecycle — State Machine\nModuleContext — Resource Object\nmodule.json…",
+	"lastUpdated": "1781827200",
+	"createdAt": "1781827200",
+	"LinkTo": [
+		"core-system",
+		"core-system-technical-outline",
+		"production-plan",
+		"phase-0-technical-review",
+		"module-1-player-controller",
+		"ecs-linked-data-architecture",
+		"room-2-0",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"projects",
+		"module-1-player-controller",
+		"module-depth-sensor",
+		"phase-0-technical-review",
+		"production-plan"
+	],
+	"tags": [
+		"project",
+		"active",
+		"guide",
+		"implementation",
+		"core",
+		"godot",
+		"gdscript"
+	],
+	"category": "projects"
+}

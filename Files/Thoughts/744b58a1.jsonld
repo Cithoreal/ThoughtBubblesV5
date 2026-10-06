@@ -1,0 +1,12 @@
+{
+	"@id": "744b58a1",
+	"@context": "tb",
+	"data": "Have full description of the function in the service\n\n\"Or just like have the full description of the function in the service that I'm calling\"\n\nSource Journals\n[[Web Search Function.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Web-Search-Function.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

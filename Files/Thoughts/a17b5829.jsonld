@@ -1,0 +1,12 @@
+{
+	"@id": "a17b5829",
+	"@context": "tb",
+	"data": "Take break in about an hour\n\n\"I'll take my break in about an hour.\"\n\nSource Journals\n[[What is Conciousness.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"What-is-Conciousness.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

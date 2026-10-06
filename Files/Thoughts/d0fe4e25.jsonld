@@ -1,0 +1,12 @@
+{
+	"@id": "d0fe4e25",
+	"@context": "tb",
+	"data": "Ask dad for assistance with budget tracking\n\n\"I can go to dad for that. I can ask him for assistance to help me track my budget at first. So I'll do that.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

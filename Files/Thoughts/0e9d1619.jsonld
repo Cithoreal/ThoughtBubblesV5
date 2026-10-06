@@ -1,0 +1,12 @@
+{
+	"@id": "0e9d1619",
+	"@context": "tb",
+	"data": "Set up Patreon\n\n\"I want to set up a Patreon\"\n\nSource Journals\n[[To Do + blog post.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"To-Do-blog-post.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

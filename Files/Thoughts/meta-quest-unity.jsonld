@@ -1,0 +1,24 @@
+{
+	"@id": "meta-quest-unity",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Meta Quest Unity.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Meta Quest Unity\nTranscribed: 2026-03-30 12:28  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 4 23 PM, August 1st, 2024.\n[00:00:06 → 00:00:24]  \nSo, so, so, so I've been working on air hockey a little bit, not on air hockey so much as just, uh, seeing all the latest stuff for…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"personal/finance",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "c649f3c9",
+	"@context": "tb",
+	"data": "List all skills on About Me page\n\n\"Current goals, list all skills\"\n\nSource Journals\n[[About Me and Major Level Ups.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"About-Me-and-Major-Level-Ups.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

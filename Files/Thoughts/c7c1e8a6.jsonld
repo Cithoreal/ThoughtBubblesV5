@@ -1,0 +1,12 @@
+{
+	"@id": "c7c1e8a6",
+	"@context": "tb",
+	"data": "Go on trail walks\n\n\"So going on trail walks\"\n\nSource Journals\n[[2026-05-18 14-11-02.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-05-18-14-11-02.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

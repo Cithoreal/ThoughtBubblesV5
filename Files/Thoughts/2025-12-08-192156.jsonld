@@ -1,0 +1,22 @@
+{
+	"@id": "2025-12-08-192156",
+	"@context": "tb",
+	"data": "Journal — 2025-12-08 19:21\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-12-08 19-21-56.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-12-08 19-21-56\nTranscribed: 2026-03-30 11:38  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:04]  \nIt is 7.21 p.m. My phone's in my pocket.\n[00:00:04 → 00:00:05]  \nOkay.\n[00:00:09 → 00:00:13]  \nDecember 8th, 2026, 2025.\n[00:00:13 → 00:00:13]  \nOops.\n[00:00:14 → 00:00:18] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

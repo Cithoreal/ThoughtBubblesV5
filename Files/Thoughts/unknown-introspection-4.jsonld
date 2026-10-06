@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-introspection-4",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Watch Khan Academy videos about electrical engineering', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I just spent a while in the student center just watching Khan Academy videos and stuff. Just learning some more about electrical engineering.', 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Introspection 4.md', 'extracted_at': '2026-05-18T17:04:56.816078', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

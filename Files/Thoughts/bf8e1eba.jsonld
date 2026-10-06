@@ -1,0 +1,12 @@
+{
+	"@id": "bf8e1eba",
+	"@context": "tb",
+	"data": "Drop recording into inbox\n\n\"I'll drop it into the inbox and see what happens\"\n\nSource Journals\n[[2026-04-02 23-52-09.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-23-52-09.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

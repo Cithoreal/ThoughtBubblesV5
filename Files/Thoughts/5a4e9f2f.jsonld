@@ -1,0 +1,12 @@
+{
+	"@id": "5a4e9f2f",
+	"@context": "tb",
+	"data": "Refer to Git repositories for code references\n\n\"Just to refer to the Git repos\"\n\nSource Journals\n[[Thought Bubbles Interface.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

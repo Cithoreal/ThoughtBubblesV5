@@ -1,0 +1,12 @@
+{
+	"@id": "9c8379da",
+	"@context": "tb",
+	"data": "Find speech-to-text/text-to-speech solution for Jetson Nano\n\n\"so find something that can fit on that\"\n\nSource Journals\n[[One Exam Left.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"One-Exam-Left.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

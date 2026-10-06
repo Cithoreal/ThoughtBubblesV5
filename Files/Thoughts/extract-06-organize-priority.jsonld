@@ -1,0 +1,16 @@
+{
+	"@id": "extract-06-organize-priority",
+	"@context": "tb",
+	"data": "Extract: organize-priority.md\n\nRelevant Passages\n\nProject priority ordering — schedule/task system as prerequisite\n\nI really do think I can't move on from the schedule system. I can't move on from the task system. Those are my highest priorities of the year to come. I would love to start working on my website, but... It's just these are a prerequisite and that's all there is to it. So I'll just keep these on my mind.\n\nRelevance: Establishes an explicit dependency/ordering model for projects — a…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

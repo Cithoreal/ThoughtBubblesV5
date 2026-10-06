@@ -1,0 +1,12 @@
+{
+	"@id": "11e18805",
+	"@context": "tb",
+	"data": "Stay on top of public speaking\n\n\"Make sure to stay on top of my public speaking.\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

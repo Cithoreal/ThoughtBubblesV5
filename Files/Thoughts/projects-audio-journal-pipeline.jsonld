@@ -1,0 +1,23 @@
+{
+	"@id": "projects-audio-journal-pipeline",
+	"@context": "tb",
+	"data": "Project: Audio Journal Pipeline\n\nVision\nFully automated pipeline that transcribes voice journals from the Elements drive, enriches them with NLP (mood, tasks, topics), stores structured data in SQLite, syncs to Nextcloud, and notifies Calcifer for reflection.\n\nStatus\nPhase 3 complete. Phase 4 next.\n\nPhase 4 targets:\n[ ] Grafana dashboard (mood/energy over time, task extraction rates)\n[ ] Daily digest cron (summarize yesterday's journals, deliver via Signal)\n[ ] Nextcloud Tasks WebDAV sync (push…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1774656000",
+	"LinkTo": [
+		"star",
+		"optiplex",
+		"anythingllm",
+		"journal-pipeline-ui",
+		"time-based-task-analysis",
+		"elements-drive-reorg",
+		"weekly-retrospective",
+		"elements-drive"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"active"
+	],
+	"category": "projects"
+}

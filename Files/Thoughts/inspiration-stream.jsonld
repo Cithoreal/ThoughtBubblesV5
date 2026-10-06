@@ -1,0 +1,30 @@
+{
+	"@id": "inspiration-stream",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Inspiration Stream.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Inspiration Stream\nTranscribed: 2026-03-30 12:22  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 11.35 p.m., November 28th, 2023.\n[00:00:08 → 00:00:12]  \nBeen working on my schedule assistant code for a while.\n[00:00:18 → 00:00:27]  \nSo I went hard into working with the chat…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"tech/python",
+		"mood/low",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

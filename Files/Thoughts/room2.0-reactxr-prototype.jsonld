@@ -1,0 +1,26 @@
+{
+	"@id": "room2.0-reactxr-prototype",
+	"@context": "tb",
+	"data": "Room 2.0 (ReactXR Prototype)\n\n\"Forget any amount of mixed reality. Go just full and hard on pure augmented reality.\" — cithoreal, May 2026\n\nPure AR system using Quest 3 to create contextual interfaces anchored to physical devices. Walk up to a Pi, see its context menu. The room becomes an interface.\n\nCurrent Status (2026-05-28)\nPhase 1 (Empty Room): Complete ✅\nPhase 2 (Tap to Place): Hit testing + anchor creation working ✅, anchor persistence + device association in progress\nECS + Linked Data…",
+	"lastUpdated": "1779926400",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"ecs-linked-data-architecture",
+		"room-2-0",
+		"room-2-0-vocab",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"projects",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"active",
+		"augmented-reality",
+		"spatial-computing",
+		"xr",
+		"linked-data"
+	],
+	"category": "projects"
+}

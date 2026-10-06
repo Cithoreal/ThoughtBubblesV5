@@ -1,0 +1,12 @@
+{
+	"@id": "079875b5",
+	"@context": "tb",
+	"data": "Set up swift clock to scan Nextcloud for task alterations\n\n\"And I could just have it on like a swift clock as well to just scan next cloud and, uh, tell if i've altered any tasks reflect that\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

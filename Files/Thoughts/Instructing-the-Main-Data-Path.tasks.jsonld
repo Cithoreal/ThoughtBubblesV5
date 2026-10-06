@@ -1,0 +1,24 @@
+{
+	"@id": "Instructing-the-Main-Data-Path.tasks",
+	"@context": "tb",
+	"data": "Instructing the Main Data Path.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"047c6771",
+		"3baeceb0",
+		"5ab95db3",
+		"a6753de0",
+		"b458a32d",
+		"c692d281",
+		"e9cc1ef1",
+		"ed97a10c",
+		"f55041fc",
+		"fc8a752d"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

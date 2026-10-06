@@ -1,0 +1,12 @@
+{
+	"@id": "468b9cf4",
+	"@context": "tb",
+	"data": "Define intents that call Node-RED flows\n\n\"have it so that I can define intents that basically just call Node-RED flows\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

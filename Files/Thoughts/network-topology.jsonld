@@ -1,0 +1,16 @@
+{
+	"@id": "network-topology",
+	"@context": "tb",
+	"data": "Network Topology — Post-Migration\n\nLegend: 🟢 Compute · 🟡 Edge/Proxy · 🔴 Decommissioned · 📦 Storage · 🔗 Mesh\n\nStorage\n\n| Drive | Device | Interface | Size | Used | Risk |\n|---|---|---|---|---|---|\n| Elements Drive | star | USB 3.0 | 7.3TB | 73% | 🔴 No backup |\n| Cybership NVMe | star | NVMe | 1.9TB | 77% | 🟡 Single copy |\n| 932GB SSD | star | SATA | 932GB | OS + /home | 🟢 On device |\n| 3.6TB SSD | pi5 | USB 3.0 | 3.6TB | 6% | 🟢 Mostly empty |\n| 116GB SD | pi4 | SD slot | 116GB | 63% | 🟡 SD wear…",
+	"lastUpdated": "1785542400",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"map"
+	],
+	"category": "infra"
+}

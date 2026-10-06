@@ -1,0 +1,22 @@
+{
+	"@id": "homelab-stability-plan-2026-08-05",
+	"@context": "tb",
+	"data": "Homelab Stability Plan\n\nThe Problem\n\nWe've been firefighting for weeks. Each fix creates new breakage. The infrastructure is getting more fragile, not more solid. cithoreal has lost confidence in the homelab's reliability, and rightfully so — tonight's incident was caused by a Tailscale routing issue on Star that I diagnosed by breaking things on the Optiplex that didn't need breaking. That's not maintenance. That's chaos.\n\nCurrent State Assessment\n\nWhat's Broken Right Now\n\n| System | Status |…",
+	"lastUpdated": "1785888000",
+	"createdAt": "1785888000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"homelab",
+		"stability",
+		"plan",
+		"infrastructure",
+		"optiplex",
+		"homeassistant",
+		"tailscale",
+		"vision"
+	],
+	"category": "infra"
+}

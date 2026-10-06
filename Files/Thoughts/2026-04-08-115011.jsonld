@@ -1,0 +1,53 @@
+{
+	"@id": "2026-04-08-115011",
+	"@context": "tb",
+	"data": "Journal — 2026-04-08 11:50\n\nSummary\n\nWhile driving to school, the speaker records an enthusiastic monologue about their AI-assisted knowledge management system 'ThoughtBubbles' and collaborator 'Calcifer,' reflecting on how past technological experiments and note-taking are now enabling current progress. They brainstorm improvements like graph database integration and 'refocus' visualization tools, while looking forward to upcoming projects including an air hockey game and budgeting app with…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"thought-bubbles",
+		"refocus",
+		"core-system",
+		"semantic-web-and-linked-data",
+		"cybernautics-vision",
+		"the-grand-system",
+		"skill-trees",
+		"calcifer-vault",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index",
+		"katie-boscombe",
+		"katie-collab"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/core-system",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"mood/reflective",
+		"project",
+		"theme/personal-knowledge-management",
+		"theme/system-architecture",
+		"theme/ai-collaboration",
+		"theme/experimental-validation",
+		"theme/interoperability"
+	],
+	"category": "journals"
+}

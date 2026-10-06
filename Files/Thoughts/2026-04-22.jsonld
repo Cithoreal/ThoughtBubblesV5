@@ -1,0 +1,17 @@
+{
+	"@id": "2026-04-22",
+	"@context": "tb",
+	"data": "2026-04-22\n\nEvents\nJournal analyst: processed 1 entry (2026-04-21, migrated manually due to space in filename), notified via Signal\nSet up Mac Mini (M2, macOS Tahoe) as OpenClaw node 'macmini' on Tailscale. SSH access configured, sleep disabled, LaunchAgents for SSH tunnel and node process. Next: BlueBubbles server for iMessage bridge.\nThoughtBubbles researcher cron ran: Khronos OpenXR extension matrix now includes Godot (Apr 7 2026); JSON-LD cemented as dominant structured data format in 2026…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"internship-budget-2026"
+	],
+	"LinkFrom": [
+		"internship-budget-2026"
+	],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

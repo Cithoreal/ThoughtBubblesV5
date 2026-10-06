@@ -1,0 +1,12 @@
+{
+	"@id": "300bf764",
+	"@context": "tb",
+	"data": "Return to college\n\n\"Decided to return to college before I left... and have been learning\"\n\nSource Journals\n[[Year Reflections.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Year-Reflections.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

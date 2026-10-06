@@ -1,0 +1,23 @@
+{
+	"@id": "openclaw",
+	"@context": "tb",
+	"data": "OpenClaw\n\nOpenClaw personal AI assistant running on Star. Gateway + agent framework.\n\nModel Configuration (2026-06-17)\nDefault model: ollama/glm-5.2:cloud — 1M context, reasoning, agentic coding\nVision model: ollama/kimi-k2.6:cloud — primary, with github-copilot/claude-sonnet-4.6 fallback\nDeep reasoning: ollama/deepseek-v4-flash:cloud — 1M context, 3 thinking modes\n\nSee skills/model-router/SKILL.md for full routing rules.\n\nVision Model History\nDiagnosed 2026-05-11: glm-5.1:cloud (previous…",
+	"lastUpdated": "1781654400",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star",
+		"openclaw-calcifer",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"HOME",
+		"infra",
+		"openclaw-agents",
+		"openclaw-cleanup-2026-08-29",
+		"openclaw-config"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,15 @@
+{
+	"@id": "signal-2026-09-14",
+	"@context": "tb",
+	"data": "signal 2026 09 14",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journal"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

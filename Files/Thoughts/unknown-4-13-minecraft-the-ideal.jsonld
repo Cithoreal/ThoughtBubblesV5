@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-4-13-minecraft-the-ideal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Start mobile track of CS50 course', 'type': 'progress', 'status': 'completed', 'raw_quote': \"I started today the mobile track for the CS50 course, so that's good.\", 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '4-13 Minecraft the Ideal.md', 'extracted_at': '2026-05-03T17:47:17.981319', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Finish CS50 course (all three tracks)', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

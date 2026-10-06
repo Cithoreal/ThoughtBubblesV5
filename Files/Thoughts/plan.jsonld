@@ -1,0 +1,10 @@
+{
+	"@id": "plan",
+	"@context": "tb",
+	"data": "Star OS — Skill Tree Plan\n\nVision Recap\n\nStar OS is an XR-native operating system where the 3D spatial layer IS the desktop. Linux kernel handles hardware. A custom spatial compositor replaces the 2D desktop. Core manages spatial services. ThoughtBubbles is the filesystem. Godot renders directly to DRM/KMS. OpenXR handles input/display. Visual services replace terminal daemons.\n\nThis is not an XR app on top of Linux. It's an OS where spatial computing is the native paradigm.\n\nDomain…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_twelve_thirty_one-_a_m-_april-1st_thought-friday-_apr-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Go to car dealerships tomorrow to browse and look at cars', 'type': 'explicit', 'status': 'new', 'raw_quote': 'the plan is to go to some car dealerships tomorrow and just browse just look at the cars sit in some um just get a feeling', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Inbox-It_is_twelve_thirty_one._A_m._April-1st_thought-Friday,_Apr-CocoonWeaverApp.md', 'extracted_at':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

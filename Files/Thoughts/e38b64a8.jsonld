@@ -1,0 +1,12 @@
+{
+	"@id": "e38b64a8",
+	"@context": "tb",
+	"data": "Decide on general length for blog posts\n\n\"Decide on a general length. That I want my blog posts\"\n\nSource Journals\n[[To Do + blog post.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"To-Do-blog-post.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

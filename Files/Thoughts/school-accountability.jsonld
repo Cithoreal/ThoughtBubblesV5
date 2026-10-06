@@ -1,0 +1,19 @@
+{
+	"@id": "school-accountability",
+	"@context": "tb",
+	"data": "School Accountability\n\nComplete. Physics final finished and all related tasks archived: Complete physics final lab, Do well on physics final, Study for physics final, Perform well on physics final exam. Removed from HEARTBEAT reminders and working memory.\n\nSession History\n2026-08-22: Discussed school accountability",
+	"lastUpdated": "1778976000",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"calcifer-vault",
+		"personal-finances"
+	],
+	"tags": [
+		"project",
+		"school",
+		"accountability"
+	],
+	"category": "projects"
+}

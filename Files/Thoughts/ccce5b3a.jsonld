@@ -1,0 +1,12 @@
+{
+	"@id": "ccce5b3a",
+	"@context": "tb",
+	"data": "Figure out how to convert .m4a and .aup files to .wav\n\n\"the first step is to figure out how do I convert .m4a and .aup to .wav\"\n\nSource Journals\n[[AI Week_ Wav Conversion.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"AI-Week_-Wav-Conversion.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,28 @@
+{
+	"@id": "12-12-full-moon",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/12-12 Full Moon.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 12-12 Full Moon\nTranscribed: 2026-03-30 05:04  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:09]  \nHello, I've not been recording on this much as much lately because I've been on just using audacity on the computer.\n[00:00:10 → 00:00:12]  \nIt's full moon tonight, super bright out.\n[00:00:13 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "1c6b1bf3",
+	"@context": "tb",
+	"data": "Make area and collision node a child of bubble node (remove from main hierarchy)\n\n\"I'll probably make the area and collision node a child of bubble. I think that makes more sense. Get that out of this main hierarchy.\"\n\nSource Journals\n[[Journal-It_is_three,_twelve_pm,-1st_thought-Wednesday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_three-_twelve_pm-1st_thought-Wednesday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

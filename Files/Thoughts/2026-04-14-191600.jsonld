@@ -1,0 +1,26 @@
+{
+	"@id": "2026-04-14-191600",
+	"@context": "tb",
+	"data": "Journal — 2026-04-14 19:16\n\nSummary\n\nThe speaker balances end-of-semester academic pressures with ambitious technical planning, detailing a transition to custom AI infrastructure with Calcifer and reorganizing home servers. They explore innovative workflows like hand-drawn diagram-to-code conversion and envision ThoughtBubbles as a visual programming environment that teaches software architecture through spatial node relationships.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"optiplex",
+		"anythingllm",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"theme/academic-completion",
+		"theme/technical-infrastructure",
+		"theme/ai-collaboration",
+		"theme/system-migration",
+		"theme/knowledge-visualization"
+	],
+	"category": "journals"
+}

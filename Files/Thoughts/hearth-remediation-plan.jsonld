@@ -1,0 +1,25 @@
+{
+	"@id": "hearth-remediation-plan",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 104d — review -->\n\nHearth Weakness Remediation Plan\n\nSystematic fix for every weakness identified in the architecture review.\nEach has: problem, solution, concrete steps, what Calcifer can do, what needs cithoreal.\n\nW1: Barge-In Verification — ✅ COMPLETE (2026-05-02)\n\nProblem: Firmware has barge-in code but it's never been physically tested. This is the blocker for downstairs deployment.\n\nResolution: cithoreal physically verified all three…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1777680000",
+	"LinkTo": [
+		"Hearth",
+		"hearth-system-graph",
+		"hearth-weekend-sprint-2026-05"
+	],
+	"LinkFrom": [
+		"projects",
+		"hearth-weekend-sprint-2026-05"
+	],
+	"tags": [
+		"project",
+		"hearth",
+		"architecture",
+		"remediation",
+		"plan",
+		"deprioritized"
+	],
+	"category": "projects"
+}

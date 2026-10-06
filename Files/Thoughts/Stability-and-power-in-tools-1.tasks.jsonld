@@ -1,0 +1,26 @@
+{
+	"@id": "Stability-and-power-in-tools-1.tasks",
+	"@context": "tb",
+	"data": "Stability and power in tools 1.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"09613881",
+		"0b443a87",
+		"0eae2fdb",
+		"15ff049b",
+		"235b403c",
+		"381c4847",
+		"5dbb7a16",
+		"97273251",
+		"af8271b7",
+		"e696a64a",
+		"e8e6f9e7",
+		"f73fba00"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

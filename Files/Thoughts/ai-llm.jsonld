@@ -1,0 +1,20 @@
+{
+	"@id": "ai-llm",
+	"@context": "tb",
+	"data": "AI/LLM Industry — Current State\n\nLiving document. Updated weekly by the Monday AI news sweep.\n\nModel Landscape (September 2026)\n\nFrontier Models (API)\n| Model | Provider | Context | Price (in/out per 1M tokens) | Notes |\n|-------|----------|---------|-------------------------------|-------|\n| GPT-6 Astra | OpenAI | 1.05M | $10/$50 (cached: $1/M) | Sep 3. Flagship. 1.05M context, 128K max output, 922K max input. Reasoning: low/medium/high/xhigh/max. Knowledge cutoff Apr 30, 2026. Over-272K…",
+	"lastUpdated": "1790553600",
+	"createdAt": "1784073600",
+	"LinkTo": [],
+	"LinkFrom": [
+		"README",
+		"HOME"
+	],
+	"tags": [
+		"external",
+		"reference",
+		"ai",
+		"llm",
+		"living"
+	],
+	"category": "external"
+}

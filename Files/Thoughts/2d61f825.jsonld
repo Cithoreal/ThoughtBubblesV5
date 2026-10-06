@@ -1,0 +1,12 @@
+{
+	"@id": "2d61f825",
+	"@context": "tb",
+	"data": "Sell 3D models online\n\n\"if I sell my 3D models, that might be a fun thing.\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

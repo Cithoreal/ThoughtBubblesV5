@@ -1,0 +1,12 @@
+{
+	"@id": "5fa2c03c",
+	"@context": "tb",
+	"data": "Sell stuff online\n\n\"I could start trying to sell stuff online, which I'm going to start doing.\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

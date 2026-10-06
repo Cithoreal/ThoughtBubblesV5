@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_twelve_ten_a_m-_well-_thirtieth-1st_thought-sunday-_apr-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Work on Sithara/Cythera worldbuilding', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I would love to work on uh Sithara a bit the world of Sithara', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Inbox-It_is_twelve_ten_a_m._Well,_thirtieth,-1st_thought-Sunday,_Apr-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T16:46:44.413817', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

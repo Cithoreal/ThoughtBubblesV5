@@ -1,0 +1,18 @@
+{
+	"@id": "lessons",
+	"@context": "tb",
+	"data": "Reference: Lessons Learned\n\nExtracted rules from real sessions. Promoted from .learnings/. See also lessons.md.\n\nInfrastructure / Networking\nOllama on star: OLLAMA_HOST=0.0.0.0:11434 needs systemctl edit ollama to persist across reboots — assume it needs re-enabling after reboots until fixed\nGateway bind: Keep gateway.bind=loopback with gateway.tailscale.mode=serve — changing to network breaks Tailscale Serve proxy\nDocker builds on ARM: Never run heavy builds (Node/Vite) on pi5/ARM. OOM risk.…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"git-discipline"
+	],
+	"LinkFrom": [
+		"HOME"
+	],
+	"tags": [
+		"reference",
+		"project"
+	],
+	"category": "reference"
+}

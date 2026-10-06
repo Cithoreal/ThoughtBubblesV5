@@ -1,0 +1,21 @@
+{
+	"@id": "nextcloud-calendar-app",
+	"@context": "tb",
+	"data": "Project: Nextcloud Calendar App\n\nVision\nA custom progressive web app (PWA) for Nextcloud calendar management — replacing the built-in Nextcloud calendar UI with a faster, more polished React interface that syncs bidirectionally via CalDAV. Built local-first with offline support.\n\nStatus\nParked. Curriculum scaffolded in January 2026, not yet started. RAG knowledge base already built (calendar_curriculum_resources collection in ChromaDB — 9 records, 4-stage curriculum, ~20 hours estimated).\n\nTech…",
+	"lastUpdated": "1776038400",
+	"createdAt": "1769126400",
+	"LinkTo": [
+		"pi5",
+		"optiplex",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"projects",
+		"calcifer-vault"
+	],
+	"tags": [
+		"project",
+		"parked"
+	],
+	"category": "projects"
+}

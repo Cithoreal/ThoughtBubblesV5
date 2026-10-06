@@ -1,0 +1,12 @@
+{
+	"@id": "d50f8831",
+	"@context": "tb",
+	"data": "Message Mike more often\n\n\"start probably just messaging mike a little bit more often\"\n\nSource Journals\n[[11-17 Social Distress.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-17-Social-Distress.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

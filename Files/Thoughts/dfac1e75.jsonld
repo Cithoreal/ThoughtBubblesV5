@@ -1,0 +1,12 @@
+{
+	"@id": "dfac1e75",
+	"@context": "tb",
+	"data": "Set up AI to check tasks and craft messages at start of time blocks\n\n\"At the start of each time block, have the AI check what tasks exist for that category and craft a message for me telling me what tasks I can work on at that time\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

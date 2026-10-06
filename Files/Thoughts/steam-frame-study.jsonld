@@ -1,0 +1,12 @@
+{
+	"@id": "steam-frame-study",
+	"@context": "tb",
+	"data": "Steam Frame Dev Study Notes\n\nPurpose: Be the expert dev/tinkerer voice for unboxing and all following videos. Study before the Frame arrives.\nStarted: 2026-09-16\nCompanion research: vault/calcifer/current-curiosity.md Thread 7 (news/timing), this file (dev/technical)\nHardware\n\nAnswered (2026-09-16 research pass — iFixit device page + IGN preview + tracker):\n[x] SoC — Snapdragon 8 Gen 3 (4nm, ARM64)\n[x] RAM — 16GB unified LPDDR5X\n[x] Display — 2160x2160 per eye, custom pancake lenses, FOV up to…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"core-spatial-containers"
+	],
+	"category": "projects"
+}

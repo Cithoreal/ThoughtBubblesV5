@@ -1,0 +1,13 @@
+{
+	"@id": "unknown-journal-it_is_twelve_o-_two_am-1st_thought-saturday-_jan-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nNLP analysis failed for this entry.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion | engaged | unknown |\n| Valence | — | unknown |\n| Energy | medium | unknown |\n| Arousal | — | unknown |\n\nSentiment arc: Analysis failed\n\nAcoustic Signals\n\n| Metric | Acoustic | Semantic |\n|---|---|---|\n| Energy | medium | unknown |\n| Emotion | engaged | unknown |\n| Silence ratio | 38% | — |\n| Environment | car engine | — |\n\nSource\nTranscript:…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

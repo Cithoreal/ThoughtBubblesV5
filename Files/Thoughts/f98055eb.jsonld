@@ -1,0 +1,12 @@
+{
+	"@id": "f98055eb",
+	"@context": "tb",
+	"data": "Set up daily report with Calcifer\n\n\"I should get the daily report going with calcifer as well\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

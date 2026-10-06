@@ -1,0 +1,12 @@
+{
+	"@id": "a9b67d7c",
+	"@context": "tb",
+	"data": "Add GunDB layer for communication between apps\n\n\"GunDB will serve as a layer to add communication between my apps\"\n\nSource Journals\n[[Short Term Project Goals and Future culmination.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Short-Term-Project-Goals-and-Future-culmination.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

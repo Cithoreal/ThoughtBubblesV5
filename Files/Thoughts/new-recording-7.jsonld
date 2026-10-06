@@ -1,0 +1,20 @@
+{
+	"@id": "new-recording-7",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/New Recording 7.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# New Recording 7\nTranscribed: 2026-03-30 12:36  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:09]  \nIt is 10.23pm, August 21st, 2025.\n[00:00:11 → 00:00:13]  \nGoing to Cape Cod tomorrow.\n[00:00:14 → 00:00:17]  \nBeen enjoying my time home alone.\n[00:00:20 → 00:00:22]  \nJust been hanging out,…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/homelab",
+		"tech/graph-db"
+	],
+	"category": "journals"
+}

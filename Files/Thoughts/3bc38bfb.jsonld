@@ -1,0 +1,12 @@
+{
+	"@id": "3bc38bfb",
+	"@context": "tb",
+	"data": "Implement rule of no work after 9 PM\n\n\"First of all, I have the idea of no working after like 9 o'clock at night.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

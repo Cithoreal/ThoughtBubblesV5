@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-speech-to-paige-first-pass",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Transcribe the recording to recover the speech', 'type': 'explicit', 'status': 'new', 'raw_quote': 'potentially transcribe this recording such that I can get the speech back', 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Speech to Paige first pass.md', 'extracted_at': '2026-05-18T18:36:02.194237', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Thoroughly prepare the speech for…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

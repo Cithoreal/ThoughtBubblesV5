@@ -1,0 +1,15 @@
+{
+	"@id": "delsys-cover-letter",
+	"@context": "tb",
+	"data": "Delsys Cover Letter\n\nMansfield, MA\n3/06/2026\nDear Hiring Manager,\nI am writing to express my interest in the Software Engineer – Backend Intern position at Delsys Inc. As a computer science student graduating in May 2026 with experience in backend development, I am excited about the opportunity to contribute to your pioneering work in wearable sensor technology and biosignal processing systems.\nMy professional experience at Infosys provided me with a solid foundation in backend development…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume"
+	],
+	"category": "projects"
+}

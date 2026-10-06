@@ -1,0 +1,12 @@
+{
+	"@id": "d831b94c",
+	"@context": "tb",
+	"data": "Create specific processes for text analysis\n\n\"For now, I'll just create specific processes.\"\n\nSource Journals\n[[What projects excite me right now?.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"What-projects-excite-me-right-now-.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

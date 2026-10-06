@@ -1,0 +1,12 @@
+{
+	"@id": "147c5781",
+	"@context": "tb",
+	"data": "Show cat photos to parents\n\n\"I'll show them to mom and dad, Fancy and Freya, the current ones I'm looking to adopt\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

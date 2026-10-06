@@ -1,0 +1,29 @@
+{
+	"@id": "core-system-technical-outline",
+	"@context": "tb",
+	"data": "Core System — Technical Outline\n\nA detailed functional specification for the Core Runtime. This is the what it does document — the production plan covers when and in what order; this covers how it works.\nPurpose & Principles\n\nThe Core Runtime is a module host. It is not an app, not a framework, not a game engine. It does exactly three things:\nDiscover and load modules at runtime\nConnect modules through a shared event bus and data substrate\nManage module lifecycle — activate, deactivate,…",
+	"lastUpdated": "1781740800",
+	"createdAt": "1781740800",
+	"LinkTo": [
+		"thought-bubbles",
+		"room-2-0",
+		"skill-trees",
+		"semantic-web-and-linked-data",
+		"ecs-linked-data-architecture",
+		"decentralized-local-first-stack",
+		"air-hockey-mr",
+		"core-system",
+		"production-plan"
+	],
+	"LinkFrom": [
+		"module-0-guide"
+	],
+	"tags": [
+		"concept",
+		"architecture",
+		"technical-outline",
+		"core",
+		"production"
+	],
+	"category": "concepts"
+}

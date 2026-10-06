@@ -1,0 +1,12 @@
+{
+	"@id": "95ef7f2c",
+	"@context": "tb",
+	"data": "Run GPT analysis on journal to extract actionable tasks\n\n\"Just run a straight analyze this document and give me actionable tasks and a list from a GPT\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

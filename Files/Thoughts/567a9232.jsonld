@@ -1,0 +1,12 @@
+{
+	"@id": "567a9232",
+	"@context": "tb",
+	"data": "Add Markdown inline support to ThoughtBubbles\n\n\"I think ThoughtBubbles should support Markdown inline\"\n\nSource Journals\n[[Thought Bubbles Interface.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

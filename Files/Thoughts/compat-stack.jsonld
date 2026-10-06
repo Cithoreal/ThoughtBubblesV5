@@ -1,0 +1,10 @@
+{
+	"@id": "compat-stack",
+	"@context": "tb",
+	"data": "Compatibility Stack (Proton / FEX / Lepton) — Research Resources\n\nResearch date: 2026-09-30\nDomain: Steam Frame compatibility layers for running Windows x86, Linux x86, and Android apps on ARM64 SteamOS\n\n4.1 Proton on ARM64 (Windows x86 → Linux → ARM)\n\nProton is Valve's Windows-on-Linux compatibility layer (Wine + DXVK + VKD3D etc.). On Steam Frame's Snapdragon 8 Gen 3 (ARM64), Proton works in conjunction with FEX to translate Windows x86 games: Proton handles the Win32 API translation (Wine),…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

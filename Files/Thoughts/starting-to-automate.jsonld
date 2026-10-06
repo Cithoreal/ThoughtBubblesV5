@@ -1,0 +1,23 @@
+{
+	"@id": "starting-to-automate",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Starting To Automate.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Starting To Automate\nTranscribed: 2026-03-30 13:01  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 4.14 p.m. Tuesday, May 21st, 2024.\n[00:00:09 → 00:00:13]  \nI slipped in an extra Tuesday there, but I guess I'll keep this one.\n[00:00:13 → 00:00:21]  \nIt might not be completely…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/homelab",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

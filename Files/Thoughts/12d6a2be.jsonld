@@ -1,0 +1,12 @@
+{
+	"@id": "12d6a2be",
+	"@context": "tb",
+	"data": "Get Obsidian or similar file graph viewer\n\n\"get also another, well, maybe like Obsidian, some file graph viewer\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_740_pm_september_19th_2023-2nd_thought-tuesday-_sep-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Seal this off for now', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm going to seal this off for now since I haven't been using this.\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Inbox-It_is_740_pm_September_19th_2023.-2nd_thought-Tuesday,_Sep-CocoonWeaverApp.md', 'extracted_at': '2026-05-03T18:41:12.071122', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n\nSource\nTranscript:…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

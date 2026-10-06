@@ -1,0 +1,29 @@
+{
+	"@id": "story-development",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Story Development.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Story Development\nTranscribed: 2026-03-30 13:03  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 1120 p.m. December 3rd, 2023.\n[00:00:08 → 00:00:15]  \nAlrighty, well, I have a busy, busy week ahead as far as homework goes.\n[00:00:15 → 00:00:23]  \nI think at this point, I'd like to…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/skill-trees",
+		"topic/estia",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

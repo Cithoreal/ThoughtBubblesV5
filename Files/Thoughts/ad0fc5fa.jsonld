@@ -1,0 +1,12 @@
+{
+	"@id": "ad0fc5fa",
+	"@context": "tb",
+	"data": "Get back to car and change socks\n\n\"Well, should probably get back to the car and head home and get a change of socks\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-planning-for-the-weekend",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Learn 2D Unity to teach 2D development', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I should learn some 2D so that I can teach that as well', 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Planning for the weekend.md', 'extracted_at': '2026-05-18T18:18:28.291671', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Return Sonos speaker', 'type': 'explicit', 'status': 'new',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

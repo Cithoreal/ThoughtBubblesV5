@@ -1,0 +1,12 @@
+{
+	"@id": "c692d281",
+	"@context": "tb",
+	"data": "Set up AI to auto-tag data with privacy levels\n\n\"I want the AI processing all of this, all of my files, that whenever you see potential not safe for work, wording or topics automatically give that data a privacy level\"\n\nSource Journals\n[[Instructing the Main Data Path.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Instructing-the-Main-Data-Path.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

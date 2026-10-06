@@ -1,0 +1,12 @@
+{
+	"@id": "7b3e96e1",
+	"@context": "tb",
+	"data": "Take final break in 20 to 50 minutes\n\n\"in about 20 to 50 minutes, I'll take my final break of the night\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

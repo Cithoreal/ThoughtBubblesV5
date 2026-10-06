@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-web-search-function",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Look into and try out smart home products like Philips bulbs and sensors', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'd like to look into some smart home products as well. I could try out just like a few popular products. Like one bulb from Philips. One sensor from something else.\", 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Web Search Function.md', 'extracted_at':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

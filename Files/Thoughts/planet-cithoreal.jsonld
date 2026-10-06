@@ -1,0 +1,32 @@
+{
+	"@id": "planet-cithoreal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Planet Cithoreal.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Planet [[people/cithoreal|Cithoreal]]\nTranscribed: 2026-03-30 12:47  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 3.11am, February 5th, 2024.\n[00:00:08 → 00:00:23]  \nWell, I'm already up way later than I want to be tonight, as far as I have class tomorrow, but I don't leave for…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cithoreal",
+		"thought-bubbles",
+		"core-system",
+		"cithoreal-identity",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"cithoreal-identity",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"topic/calcifer",
+		"topic/core-system",
+		"personal/identity",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"project"
+	],
+	"category": "journals"
+}

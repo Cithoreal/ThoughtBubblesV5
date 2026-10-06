@@ -1,0 +1,41 @@
+{
+	"@id": "2026-04-07-180545",
+	"@context": "tb",
+	"data": "Journal — 2026-04-07 18:05\n\nSummary\n\nRecorded while driving home tired and hungry, the speaker details their migration to an Obsidian vault system for managing knowledge with 'Calcifer' (an AI assistant), proposing technical improvements for source attribution and 3D visualization. They then outline a demanding academic schedule including a physics test, Linux lab, and job interview, maintaining a structured, methodical approach to managing overwhelming coursework despite visible fatigue.\n\nMood…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"semantic-web-and-linked-data",
+		"thought-bubbles",
+		"cybernautics-vision",
+		"calcifer-vault",
+		"cithoreal",
+		"elements-drive"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"calcifer-vault"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"project",
+		"theme/knowledge-management-systems",
+		"theme/academic-pressure-and-time-management",
+		"theme/source-attribution-and-data-provenance",
+		"theme/human-ai-workflow-integration",
+		"theme/technical-debt-maintenance"
+	],
+	"category": "journals"
+}

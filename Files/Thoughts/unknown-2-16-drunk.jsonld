@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-2-16-drunk",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Apply to jobs', 'type': 'explicit', 'status': 'new', 'raw_quote': \"So this week I'm going to definitely start applying to some jobs.\", 'project': 'Career', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '2-16 Drunk.md', 'extracted_at': '2026-05-03T16:25:19.105644', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Send out job applications tomorrow', 'type': 'explicit', 'status': 'new', 'raw_quote': \"But I'm…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

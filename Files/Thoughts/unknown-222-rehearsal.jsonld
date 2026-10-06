@@ -1,0 +1,18 @@
+{
+	"@id": "unknown-222-rehearsal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker is rehearsing what they plan to say to Eve tomorrow, explaining that they noticed her unique energy immediately on the first day of class and trusted their intuition to pursue a connection despite social anxiety. They navigate between excitement about shared interests like Star Trek and nervousness about revealing their hope for a romantic relationship, ultimately committing to vulnerable authenticity.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/authentic-expression",
+		"theme/romantic-pursuit",
+		"theme/intuition-and-energy",
+		"theme/social-anxiety",
+		"theme/vulnerability"
+	],
+	"category": "journals"
+}

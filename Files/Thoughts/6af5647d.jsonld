@@ -1,0 +1,12 @@
+{
+	"@id": "6af5647d",
+	"@context": "tb",
+	"data": "Include calendar and task data in personal database\n\n\"I guess I would end up wanting to include calendar and task data in the database that I create too\"\n\nSource Journals\n[[Databases.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Databases.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_a_thirty_one-_the_am-_june-1st_thought-wednesday-_jun-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Record audio journal while talking/driving more in the future', 'type': 'explicit', 'status': 'new', 'raw_quote': \"But I'll definitely record while talking more in the future.\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': True, 'source_file': 'Inbox-It_is_a_thirty_one._The_Am,_june-1st_thought-Wednesday,_Jun-CocoonWeaverApp.md', 'extracted_at': '2026-05-03T18:42:25.162900', 'first_mentioned': '2026-05-03', 'mention_count':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,30 @@
+{
+	"@id": "neurosity-bci",
+	"@context": "tb",
+	"data": "Neurosity Notion (BCI Device)\n\nWhat It Is\nA brain-computer interface (BCI) device from Neurosity — cithoreal researched and apparently owned/used the Notion 1 device in early 2025. The Notion series uses EEG sensors for cognitive state monitoring.\n\nDevice Specs (Notion 1)\n8-channel EEG sensors (temporal and frontal regions)\n250Hz sampling rate\n25 samples per epoch\nConnects via Bluetooth + Wi-Fi\n\nUse Case\nNeurosity devices read brainwaves to monitor mental states (focus, calm, cognitive load).…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-02-24_neurosity-notion-devices",
+		"2025-02-24_neurosity-notion-specs",
+		"2025-02-24_reverse-engineering-neurosity-notion",
+		"thought-bubbles",
+		"thoughtbubbles-vision-expansion",
+		"room-2-0",
+		"health-and-sleep",
+		"cithoreal-identity",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"cycles-app",
+		"health-and-sleep",
+		"thoughtbubbles-vision-expansion",
+		"xr-development-arc",
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced"
+	],
+	"category": "concepts"
+}

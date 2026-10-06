@@ -1,0 +1,25 @@
+{
+	"@id": "2026-05-18-151711",
+	"@context": "tb",
+	"data": "Journal — 2026-05-18 15:17\n\nSummary\n\nThe speaker excitedly documents a creative vision for 'Room 2.0'—a pure augmented reality system using Quest 3 to create contextual interfaces anchored to physical devices like Raspberry Pis and workstations. They detail plans for web-based AR menus, SSH terminal access, and a custom spatial coordinate system for their home, even considering light nanoseconds as a measurement unit.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"nanolucent",
+		"journals-index",
+		"health-strength",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"journal",
+		"theme/augmented_reality",
+		"theme/personal_automation",
+		"theme/spatial_computing",
+		"theme/diy_technology",
+		"theme/interface_design"
+	],
+	"category": "journals"
+}

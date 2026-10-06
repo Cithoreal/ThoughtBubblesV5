@@ -1,0 +1,12 @@
+{
+	"@id": "3e6193bf",
+	"@context": "tb",
+	"data": "Implement chat completions API approach for Schedule AI\n\n\"I'll definitely do it that way. I just need to implement it.\"\n\nSource Journals\n[[Switching to Chat Completions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Switching-to-Chat-Completions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

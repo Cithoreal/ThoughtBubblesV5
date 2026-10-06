@@ -1,0 +1,33 @@
+{
+	"@id": "story-system",
+	"@context": "tb",
+	"data": "Story System — Subtitles, Spatial Audio, and Immersive Narrative\n\nOverview\n\nThe story system is the narrative layer of the larger Designing Reality / Cybernautics vision. It encompasses subtitle/caption display, speech recognition interaction, spatial audio storytelling, and the Calcifer-as-DM interaction model. This note consolidates Chris's original design work (2019–2020 journals) with later spatial audio explorations (2026) and the Ready Player One vision references.\n\nThe Subtitle…",
+	"lastUpdated": "1782172800",
+	"createdAt": "1782172800",
+	"LinkTo": [
+		"matter-of-time",
+		"the-rescue-experience",
+		"mirrorworlds-themes",
+		"sign-language-text-input",
+		"thought-bubbles",
+		"designing-reality",
+		"cybernautics-vision",
+		"room-2-0",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"story-system",
+		"subtitles",
+		"spatial-audio",
+		"xr",
+		"vr",
+		"designing-reality",
+		"narrative",
+		"immersion"
+	],
+	"category": "projects"
+}

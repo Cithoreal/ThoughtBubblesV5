@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-introspection-8",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Start walking towards the lake', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"Well, I'll start walking towards it, I guess.\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Introspection 8.md', 'extracted_at': '2026-05-18T17:10:16.318289', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Listen to Miku Edge music', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

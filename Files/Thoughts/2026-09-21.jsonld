@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-21",
+	"@context": "tb",
+	"data": "2026-09-21\n\nEvents\nCorrected stale info: Nextcloud has been on Optiplex since 2026-04-15 migration, NOT Pi5. Fixed vault/infra/nextcloud.md (was still saying 'being evaluated'), fixed vault/infra/cloud-backup-research.md (subagent wrote 'Pi5' throughout). Historical journal entries and migration project doc left as-is since they accurately describe the pre-migration state.\nDaily infra health: all green — RAG ok, Optiplex docker 18/18 up, restic backup succeeded (drive connected), reindex timer…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

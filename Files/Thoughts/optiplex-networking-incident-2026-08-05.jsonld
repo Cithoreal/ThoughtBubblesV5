@@ -1,0 +1,20 @@
+{
+	"@id": "optiplex-networking-incident-2026-08-05",
+	"@context": "tb",
+	"data": "Optiplex Networking Incident — August 5, 2026\n\nSummary\n\nRoot cause: Tailscale on Star was hijacking the local LAN subnet (192.168.1.0/24) through its routing table 52, redirecting all traffic to Optiplex (192.168.1.228) through the Tailscale tunnel instead of the local network. The Optiplex's Tailscale node was active but not properly routing return traffic, causing 100% packet loss from Star's exec sessions.\n\nImpact: All OpenClaw-managed access to Optiplex was down for ~1.5 hours. Manual…",
+	"lastUpdated": "1785888000",
+	"createdAt": "1785888000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"incident-report",
+		"optiplex",
+		"networking",
+		"tailscale",
+		"docker",
+		"diagnostics"
+	],
+	"category": "infra"
+}

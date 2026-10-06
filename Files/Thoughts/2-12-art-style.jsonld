@@ -1,0 +1,27 @@
+{
+	"@id": "2-12-art-style",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-12 Art Style.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-12 Art Style\nTranscribed: 2026-03-30 05:15  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is January 12th, 2020, 4.34 p.m.\n[00:00:13 → 00:00:24]  \nI mostly played Overwatch today, but I did a little bit of work with the goal of basically...\n[00:00:25 → 00:00:34]  \nFiguring out an art…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"designing-reality",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/identity",
+		"personal/finance",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

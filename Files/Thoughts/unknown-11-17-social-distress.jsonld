@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-11-17-social-distress",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Meet up with Alex soon', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I should definitely try to meet up with Alex soon', 'project': 'Social', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '11-17 Social Distress.md', 'extracted_at': '2026-05-03T16:02:32.631507', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Invite Mike over during week leading up to Christmas', 'type': 'explicit', 'status': 'new',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

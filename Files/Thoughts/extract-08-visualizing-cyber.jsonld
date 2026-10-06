@@ -1,0 +1,18 @@
+{
+	"@id": "extract-08-visualizing-cyber",
+	"@context": "tb",
+	"data": "Extract: visualizing-thought-bubbles.md + cyber-thoughts.md\n\nFrom: visualizing-thought-bubbles.md\n\nCyberpunk Skill Trees as Inspiration\nThe play style, the ability to level up and down different trees, and the tree that I've chosen, the sort of brawler assassin with two throwing knives and a katana.\n\nWhy relevant: Direct experience of branching skill trees in Cyberpunk 2077 as a felt, personal reference — the kind of lived model that could inform a real-life skill tree design.\n\nThoughtBubbles…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

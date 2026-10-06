@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-the-home-depot-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Do trash', 'type': 'explicit', 'status': 'new', 'raw_quote': \"So in about 40 minutes, I'll do the trash.\", 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'The Home Depot 2.md', 'extracted_at': '2026-05-18T18:56:03.230978', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Learn more about infrastructure and technological design of star system', 'type': 'explicit', 'status': 'new',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

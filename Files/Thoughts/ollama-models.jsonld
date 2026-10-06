@@ -1,0 +1,20 @@
+{
+	"@id": "ollama-models",
+	"@context": "tb",
+	"data": "Reference: Ollama Model Playbook\n\nLocal models available on [[infra/star]]. Use these when cloud models aren't appropriate (privacy, offline, cost).\n\nRuntime Notes\nStart: systemctl --user start ollama\nKeep OLLAMA_MAX_LOADED_MODELS=1 to avoid VRAM thrash\nFor GPU-bound models: close Steam/games first\nCPU fallback: OLLAMA_GPU_LAYERS=0\n\nModels\n\n| Model | Use Case | Notes |\n|---|---|---|\n| llama3.1:8b-instruct-q4_0 | Primary local — analysis, planning, drafting | Needs GPU (8GB VRAM) |\n|…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"star",
+		"2026-03-31-model-strategy",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"HOME",
+		"persistent-ai-memory-research"
+	],
+	"tags": [
+		"reference"
+	],
+	"category": "reference"
+}

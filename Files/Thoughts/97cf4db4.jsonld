@@ -1,0 +1,12 @@
+{
+	"@id": "97cf4db4",
+	"@context": "tb",
+	"data": "Arrange for partner to meet Alex\n\n\"I need you to meet Alex.\"\n\nSource Journals\n[[2025-04-29 08-42-17.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-04-29-08-42-17.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

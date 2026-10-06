@@ -1,0 +1,51 @@
+{
+	"@id": "index",
+	"@context": "tb",
+	"data": "star — Drive Map & Personal Data Index\n\nHost: star (cithoreal's main Linux workstation, Arch Linux)\nSurvey date: 2026-04-12\n\n📊 Full drive inventory with health, speeds, and bottleneck analysis: [[infra/drives/inventory]]\n\nDrive Overview\n\n| Drive | Device | Mount | Size | Used | Type | Speed | Label |\n|---|---|---|---|---|---|---|---|\n| Home/OS | /dev/sda2 | /home + / | 932 GB | 438 GB | btrfs SSD | 369 MB/s | — |\n| Storage | /dev/sdb2 | /run/media/cithoreal/Storage | 698 GB | 567 GB | NTFS HDD…",
+	"lastUpdated": "1775952000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"inventory",
+		"star-home",
+		"star-elements",
+		"star-storage",
+		"star-pi5",
+		"star-windows-sdc",
+		"ios",
+		"elements-drive"
+	],
+	"LinkFrom": [
+		"project-mirror",
+		"HOME",
+		"star-cybership",
+		"star-elements",
+		"star-home",
+		"star-pi5",
+		"star-windows-sdc",
+		"elements-drive",
+		"ios",
+		"1-17-smthn-about-somthn",
+		"2022-10-26-000000",
+		"ai-week_-wav-conversion",
+		"task-system-planning",
+		"1-25-air-hockey-refresher",
+		"10-12-foundations",
+		"11-17-airhockey-planning",
+		"2025-10-27-131941",
+		"2025-11-04-184707",
+		"2025-11-05-190600",
+		"2025-11-05-191232",
+		"cr-sqlite-and-current-project-notes",
+		"new-recording-5",
+		"11-12-myroom2-0",
+		"11-19-calcifer"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"index",
+		"project"
+	],
+	"category": "infra"
+}

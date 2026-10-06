@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-want-to-3d-model",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Fix skee-ball physics so ball falls when off alleyway (add positional trigger or collider)', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I just need to make it so that when the ball goes off the alleyway, it falls. Just... either have some positional stuff or a trigger collider.', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Want to 3D Model.md', 'extracted_at': '2026-05-18T19:21:19.055184',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "4adba291",
+	"@context": "tb",
+	"data": "Get some gum\n\n\"Actually, I'm gonna get some gum.\"\n\nSource Journals\n[[The Home Depot 4.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

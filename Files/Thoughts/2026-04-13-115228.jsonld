@@ -1,0 +1,31 @@
+{
+	"@id": "2026-04-13-115228",
+	"@context": "tb",
+	"data": "Journal — 2026-04-13 11:52\n\nSummary\n\nThe speaker records an enthusiastic update while driving to school about their personal AI assistant 'Calcifer,' celebrating the successful integration of GLM 5.1 as a performant and private alternative to Claude. They outline extensive infrastructure plans including hardware migrations between Raspberry Pi and Optiplex workstations, enabling video analysis capabilities for Calcifer, and implementing power monitoring to prepare for future renewable energy…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"optiplex",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index",
+		"katie-boscombe",
+		"katie-collab"
+	],
+	"tags": [
+		"journal",
+		"theme/ai-infrastructure",
+		"theme/data-privacy",
+		"theme/home-automation",
+		"theme/hardware-optimization",
+		"theme/sustainability"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "5917ecdd",
+	"@context": "tb",
+	"data": "Create a system to clean Neo4j nodes and relationships\n\n\"I think one thing I'm going to want is a system that cleans the nodes a little bit, just looks them over, sees if there's like any duplications any like additional straggler nodes that don't belong\"\n\nSource Journals\n[[Talking to Cal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Talking-to-Cal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

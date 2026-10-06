@@ -1,0 +1,25 @@
+{
+	"@id": "xrsh",
+	"@context": "tb",
+	"data": "XRSH\n\nLinux shell running inside WebXR. \"Termux for VR.\"\nRepo: <https://codeberg.org/xrsh/xrsh>\nLicense: FOSS (A-Frame/Three.js based)\nStatus: Active development, working demo, ambitious roadmap\n\nWhat It Provides\nBoots a Linux VM (via v86 x86 emulation in JS) inside WebXR\nFull filesystem, command line, CodeMirror editing\nLivecoding with terminal auto-completion\nWASM support\nremotestorage integration\nGesture-based input\nPlans: nix package manager, X11/VNC\n\nRelevance to Spatial Authoring\nThe most…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"atlas-code",
+		"vride"
+	],
+	"LinkFrom": [
+		"spatial-authoring-research",
+		"transfer-thought",
+		"vride"
+	],
+	"tags": [
+		"tool",
+		"webxr",
+		"reference",
+		"shell"
+	],
+	"category": "projects"
+}

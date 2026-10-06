@@ -1,0 +1,23 @@
+{
+	"@id": "inbox-it_is_twelve_twelve_a_am-_june-1st_thought-friday-_jun-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nIn this late-night journal entry recorded after midnight, the speaker reflects on the trade-off between enjoying a D&D podcast and maintaining productivity while working on an air hockey game project. They outline detailed plans for a modular, cross-platform game architecture using abstracted input systems, and an ambitious machine learning implementation where AI agents iteratively train against each other to create automatic difficulty scaling and player…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"air-hockey-mr",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/game-development",
+		"theme/multitasking-balance",
+		"theme/modular-architecture",
+		"theme/machine-learning",
+		"theme/workflow-organization"
+	],
+	"category": "journals"
+}

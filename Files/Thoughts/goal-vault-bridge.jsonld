@@ -1,0 +1,29 @@
+{
+	"@id": "goal-vault-bridge",
+	"@context": "tb",
+	"data": "Goal: Vault Bridge\n\nBi-directional sync between the Obsidian vault and the spatial thought graph. The vault IS the data model.\n\nWhat This Is\nThe connection between the 2D text vault (Obsidian) and the 3D spatial graph (Godot XR). The vault isn't replaced — it's the persistence layer. The spatial environment is a rendering and interaction layer on top.\n\nSpecific Behaviors Needed\nImport — vault notes become thought bubbles (wikilinks → typed links, frontmatter → bubble metadata)\nExport — spatial…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"thought-bubbles",
+		"goal-typed-links",
+		"goal-spatial-authoring",
+		"xenolith-graph",
+		"semantic-web-and-linked-data",
+		"calcifer-vault"
+	],
+	"LinkFrom": [
+		"goal-skill-tree-integration",
+		"goal-typed-links",
+		"spatial-authoring-research",
+		"xenolith-graph",
+		"thoughtbubbles-source-dump"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"vault"
+	],
+	"category": "projects"
+}

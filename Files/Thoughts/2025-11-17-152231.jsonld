@@ -1,0 +1,29 @@
+{
+	"@id": "2025-11-17-152231",
+	"@context": "tb",
+	"data": "Journal — 2025-11-17 15:22\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-17 15-22-31.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-17 15-22-31\nTranscribed: 2026-03-30 11:34  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 322 p.m. November 17th, 2025.\n[00:00:08 → 00:00:14]  \nWoke up early today again for the curriculum committee, but it's fine.\n[00:00:15 → 00:00:28]  \nWorked with Copilot a…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybership",
+		"designing-reality",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/homelab",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

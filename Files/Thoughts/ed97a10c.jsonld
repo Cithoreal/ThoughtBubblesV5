@@ -1,0 +1,12 @@
+{
+	"@id": "ed97a10c",
+	"@context": "tb",
+	"data": "Clear hiking path and trail maintenance\n\n\"I just got to keep walking it. Keep clearing it up little by little. You know, some of these sticks in the way, just throw them off the path. Clean it up a little.\"\n\nSource Journals\n[[Instructing the Main Data Path.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Instructing-the-Main-Data-Path.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

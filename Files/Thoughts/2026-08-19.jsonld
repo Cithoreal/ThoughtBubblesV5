@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-19",
+	"@context": "tb",
+	"data": "2026-08-19\n\nEvents\ncithoreal decided to target MEXT 2029 instead of 2027/2028 intake. Entire grad school timeline shifted forward ~1 year. US applications shelved — Japan/MEXT is sole target. 15 vault files updated, committed and pushed.\nThoughtBubbles researcher: Aug 19 sweep — CBOR-LD 1.0 FPWD published (CR target Q4 2026), GenosDB Cellular Mesh + full architecture evaluation, LWS 1.0 CID auth suite for agent identity, OrbitDB closed as backend candidate, Neo4j vector quantization pattern,…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

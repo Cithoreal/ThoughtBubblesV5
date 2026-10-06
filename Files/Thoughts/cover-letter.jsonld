@@ -1,0 +1,16 @@
+{
+	"@id": "cover-letter",
+	"@context": "tb",
+	"data": "cover_letter\n\nChristopher DiCarlo\ncdicarlo28@gmail.com\n508-562-2736\nlinkedin.com/in/chrisdicarlovr\n\nMarch 3, 2026\nHiring Manager\nDelsys Inc.\nDear Hiring Team,\nI am writing to express my strong interest in the Software Engineer position at Delsys Inc. As a computer\nscience student graduating in May 2025 with a 3.95 GPA and demonstrated experience in backend development,\nI am excited about the opportunity to contribute to your pioneering work in wearable sensor technology and\nbiosignal processing…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume",
+		"project"
+	],
+	"category": "projects"
+}

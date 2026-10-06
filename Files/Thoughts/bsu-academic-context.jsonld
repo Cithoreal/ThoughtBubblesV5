@@ -1,0 +1,39 @@
+{
+	"@id": "bsu-academic-context",
+	"@context": "tb",
+	"data": "BSU (Bridgewater State University) Academic Context\n\nWhat It Is\ncithoreal is a student at Bridgewater State University (BSU) in MA. The Jan–May 2025 ChatGPT arc shows active academic engagement — coursework, projects, transfer credits, travel courses, and scholarships all surfacing in this period.\n\nEvidence Points\n\nCoursework & Projects\nAI Learning Pipeline (Apr 2025) — Class project using LangChain + Open-WebUI to build an AI tutor. Submitted as academic work; will continue independently.…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-04-08_ai-learning-pipeline-design",
+		"2025-05-05_newtons-laws-review",
+		"2025-05-12_archimedes-principle-explanation",
+		"2025-05-06_osi-vs-tcpip-layers",
+		"2025-05-28_summary-of-chapters-in-classical",
+		"2025-04-01_cheap-cs-club-ideas",
+		"2025-02-25_bsu-transfer-credit-inquiry",
+		"2025-05-16_bsu-course-substitution-form",
+		"2025-02-12_thank-you-scholarship-letter",
+		"2025-02-19_scholarship-thank-you-note",
+		"2025-02-19_bsu-travel-course-experiences",
+		"japan-travel-2025",
+		"cithoreal",
+		"cybernautics-vision",
+		"skill-trees",
+		"health-and-sleep",
+		"systems-programming-2025"
+	],
+	"LinkFrom": [
+		"japan-travel-2025",
+		"skill-trees",
+		"systems-programming-2025",
+		"concepts",
+		"cithoreal"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"project"
+	],
+	"category": "concepts"
+}

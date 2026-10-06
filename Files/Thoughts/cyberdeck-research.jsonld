@@ -1,0 +1,18 @@
+{
+	"@id": "cyberdeck-research",
+	"@context": "tb",
+	"data": "Cyberdeck Building — State of the Hobby/Community (Mid-2026)\n\nResearched August 2026. Sources: vapor95.com 2026 guide, Hackaday, cyberdeck.cafe, Reddit, Wikipedia, Forbes, TechCrunch, PCBSync, Eclypsium, Tom's Hardware, and others.\nCommunity & Culture\n\nWhere the community lives\nCyberdeck Cafe (cyberdeck.cafe) — the community's central hub. Build showcases, guides, news, and a very active Discord with thousands of members. This is the primary gathering place.\nr/cyberDeck (reddit.com/r/cyberDeck)…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"cyberdeck-gargoyle-research"
+	],
+	"tags": [
+		"project",
+		"cyberdeck",
+		"research"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "6d22cd33",
+	"@context": "tb",
+	"data": "Transcribe this audio file\n\n\"So now my current goal, transcribe this file.\"\n\nSource Journals\n[[PDF Game Inatructions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"PDF-Game-Inatructions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

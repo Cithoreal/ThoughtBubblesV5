@@ -1,0 +1,51 @@
+{
+	"@id": "solid-pod-sovereignty",
+	"@context": "tb",
+	"data": "Concept: Solid Pod Sovereignty\n\nWhat It Is\n\nThe Solid Protocol (Tim Berners-Lee, MIT) is the decentralized data layer for the Cybernautics ecosystem. A Solid Pod is a personal data store you fully control — apps request access to your data rather than owning it. You grant, revoke, and scope permissions per resource.\n\n\"My Solid pod is my Cybership.\"\n\nThis is not a speculative alignment. The Solid Protocol implements exactly the data sovereignty principles cithoreal articulated independently in…",
+	"lastUpdated": "1782345600",
+	"createdAt": "1774828800",
+	"LinkTo": [
+		"solid-encryption-layer",
+		"cybernautics-vision",
+		"cybernautics-business-model",
+		"core-system",
+		"decentralized-local-first-stack",
+		"semantic-web-and-linked-data",
+		"internet-scale-world",
+		"project-mirror",
+		"star-system-vision",
+		"production-plan",
+		"the-grand-system"
+	],
+	"LinkFrom": [
+		"2026-09-15-vault-vocabulary-and-nanolucent",
+		"community-first-adoption-strategy",
+		"cybernautics-dao-governance",
+		"cybernautics-vision",
+		"decentralized-local-first-stack",
+		"homelab-infrastructure",
+		"internet-scale-world",
+		"semantic-web-and-linked-data",
+		"solid-encryption-layer",
+		"technology-ethics-framework",
+		"concepts",
+		"solid-pod",
+		"11-9-vrchat-future",
+		"11-14-brain",
+		"11-1-jojo-sims-fanfic",
+		"11-1-overwatch-2",
+		"12-4-goodnight",
+		"12-8-text-adventure",
+		"2026-03-31-183935",
+		"phase-0-technical-review",
+		"production-plan"
+	],
+	"tags": [
+		"concept",
+		"tier-1",
+		"project",
+		"active",
+		"architecture"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "2019-11-27-021103",
+	"@context": "tb",
+	"data": "Journal — 2019-11-27 02:11:03 (Video) — STUB\n\nSource\nVideo: /run/media/cithoreal/Elements/MemoryBase/VideoJournal/2019-11-27 02-11-03.mkv\nFile size: ~1.7 GB\nTranscription status: Failed — CUDA out of memory\n\nNotes\n~25 min recording (2 AM). Transcription failed due to VRAM constraints.\n\n[!warning] Needs Transcription\nRetry standalone or with chunked mode.",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"video-journal",
+		"theme/2019",
+		"needs-transcription"
+	],
+	"category": "journals"
+}

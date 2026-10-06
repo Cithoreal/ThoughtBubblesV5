@@ -1,0 +1,37 @@
+{
+	"@id": "katie-and-thought-bubbles-tui",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Katie and Thought Bubbles TUI.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Katie and Thought Bubbles TUI\nTranscribed: 2026-03-30 12:25  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 1152 p.m. March 2nd, 2025.\n[00:00:07 → 00:00:10]  \nBoy, it's been a while.\n[00:00:13 → 00:00:15]  \nIncredibly, for all the...\n[00:00:16 → 00:00:21]  \nI feel like…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"room-2-0",
+		"core-system",
+		"thought-bubbles",
+		"semantic-web-and-linked-data"
+	],
+	"LinkFrom": [
+		"thought-bubbles",
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"topic/homelab",
+		"topic/core-system",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"tech/python",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

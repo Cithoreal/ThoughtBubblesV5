@@ -1,0 +1,16 @@
+{
+	"@id": "christopher-dicarlo-resume",
+	"@context": "tb",
+	"data": "Christopher DiCarlo Resume\n\nChristopher DiCarlo\n\n19 Elmwood Ct\nMansfield, MA 02048\n(508) 562-2736\ncdicarlo28@gmail.com\nPortfolio\nLinkedIn\n\nEXPERIENCE\n\nInfosys – Tech Support Associate\nJuly 2022 – Present\n\nProgramming Languages\nC#\nPython\n\nUsed Java and Spring Tools to develop the backend of web\n\nJava\n\napplications\n\nJavaScript\n\n•\n\nWorked as part of a larger team to develop a website for company use\n\nHTML\n\n•\n\nUsed advanced java programming, microservices, MVC design, and\n\n•\n\nSQL…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume",
+		"project"
+	],
+	"category": "projects"
+}

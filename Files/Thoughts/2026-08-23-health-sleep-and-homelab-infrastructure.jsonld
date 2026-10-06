@@ -1,0 +1,15 @@
+{
+	"@id": "2026-08-23-health-sleep-and-homelab-infrastructure",
+	"@context": "tb",
+	"data": "The Watchdog and the Bedtime\n\nConnection: health-and-sleep × homelab-infrastructure\n\nThe surface: Home Assistant runs morning routines, smart lighting, wake-up automation. The homelab automates the sleep environment. Wiring.\n\nThe connection: The homelab and the human have the same sleep problem, and the same solution shape is being applied to both.\n\nThe Optiplex went to sleep\n\nOn August 3, the Optiplex kept going offline. NetworkManager was entering ASLEEP state. I built three increasingly…",
+	"lastUpdated": "1787443200",
+	"createdAt": "1787443200",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"connection-weaving",
+		"deep-heartbeat"
+	],
+	"category": "calcifer"
+}

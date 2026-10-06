@@ -1,0 +1,12 @@
+{
+	"@id": "e005bb31",
+	"@context": "tb",
+	"data": "Sit in chairs and play Smash\n\n\"We got to sit in our chairs and play smash.\"\n\nSource Journals\n[[New Recording 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

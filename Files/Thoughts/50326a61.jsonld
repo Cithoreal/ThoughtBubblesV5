@@ -1,0 +1,12 @@
+{
+	"@id": "50326a61",
+	"@context": "tb",
+	"data": "Implement audio source linking in transcripts\n\n\"I would love if the transcripts could also point to the location of the original audio file\"\n\nSource Journals\n[[2026-04-07 18-05-45.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-07-18-05-45.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

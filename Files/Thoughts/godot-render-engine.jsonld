@@ -1,0 +1,10 @@
+{
+	"@id": "godot-render-engine",
+	"@context": "tb",
+	"data": "Godot as Spatial Rendering Engine — Research\n\n5.1 Godot Rendering Pipeline Internals\n\nRenderingDevice API, direct Vulkan access, custom rendering passes, Compositor effect system, framebuffer management, Vulkan renderer architecture\n\nCourses/Talks:\nGodotCon 2024 talks — Godot YouTube channel includes GodotCon rendering talks (search \"GodotCon rendering\")\nGDC talks referencing Godot rendering — search \"Godot\" on GDC Vault\n\nDocs:\nRenderingDevice — Godot 4.x stable docs — Full API reference for…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

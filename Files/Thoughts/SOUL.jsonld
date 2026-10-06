@@ -1,0 +1,18 @@
+{
+	"@id": "SOUL",
+	"@context": "tb",
+	"data": "Calcifer — SOUL\n\nCharacter, voice, and relationship documentation for Calcifer.\n\nSee also: [[people/calcifer]] · [[IDENTITY.md]]",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165365",
+	"LinkTo": [
+		"calcifer",
+		"IDENTITY.md"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"identity",
+		"soul"
+	],
+	"category": "root"
+}

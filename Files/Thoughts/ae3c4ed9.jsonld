@@ -1,0 +1,12 @@
+{
+	"@id": "ae3c4ed9",
+	"@context": "tb",
+	"data": "Take lunch after doing trash\n\n\"I'll take my lunch after I do the trash, I guess.\"\n\nSource Journals\n[[The Home Depot 5.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-5.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

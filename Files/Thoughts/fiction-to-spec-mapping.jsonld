@@ -1,0 +1,21 @@
+{
+	"@id": "fiction-to-spec-mapping",
+	"@context": "tb",
+	"data": "Fiction-to-Spec Mapping: Estia's World → Skill Trees\n\nThe fiction is the better design document. This mapping extracts engineering decisions from the narrative so the spec can catch up to what the story already knows.\n\nOpen Question 1: Custom Language/Vocabulary\n\nSpec asks: What vocabulary should the system use, avoiding direct RPG tropes?\n\nFiction answers:\nAttunement — the act of connecting to an energy type. Not \"learning a skill\" — attuning to a domain. The word implies relationship, not…",
+	"lastUpdated": "1787184000",
+	"createdAt": "1787184000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"project",
+		"thoughtbubbles",
+		"skill-trees",
+		"estia",
+		"fiction",
+		"engineering"
+	],
+	"category": "projects"
+}

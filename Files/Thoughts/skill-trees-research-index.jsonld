@@ -1,0 +1,29 @@
+{
+	"@id": "skill-trees-research-index",
+	"@context": "tb",
+	"data": "Skill Trees Research\n\nResearch extracts for the Skill Trees physics curriculum project.\n\nSee also: [[projects/skill-trees-physics-curriculum]] and [[concepts/skill-trees]]\n\nExtracts\n[[projects/skill-trees-research/extract-01-cithoreal-progression|01: Cithoreal Progression]]\n[[projects/skill-trees-research/extract-02-about-me-level-ups|02: About Me Level Ups]]\n[[projects/skill-trees-research/extract-03-planning-ai-systems|03: Planning AI…",
+	"lastUpdated": "1785110400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"skill-trees-physics-curriculum",
+		"skill-trees",
+		"extract-01-cithoreal-progression",
+		"extract-02-about-me-level-ups",
+		"extract-03-planning-ai-systems",
+		"extract-04-react-todos",
+		"extract-05-story-development",
+		"extract-06-organize-priority",
+		"extract-07-inspiration-newrec4",
+		"extract-08-visualizing-cyber",
+		"extract-09-fireguy-shortterm",
+		"extract-10-recent-2025-2026"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research",
+		"index"
+	],
+	"category": "projects"
+}

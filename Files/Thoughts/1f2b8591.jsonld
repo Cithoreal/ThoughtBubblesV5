@@ -1,0 +1,12 @@
+{
+	"@id": "1f2b8591",
+	"@context": "tb",
+	"data": "Remove Grafana from Raspberry Pi (keep reporting only)\n\n\"get rid of Grafana on it, other than to report to Grafana\"\n\nSource Journals\n[[2026-04-13 11-52-28.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-13-11-52-28.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

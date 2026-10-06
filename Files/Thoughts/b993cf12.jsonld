@@ -1,0 +1,12 @@
+{
+	"@id": "b993cf12",
+	"@context": "tb",
+	"data": "Create message cache for CalDAV events and tasks\n\n\"I'm going to actually create that right now. Okay, I wrote down, as CalDive events and tasks get processed, add to the message cache with results that can be sent to the AI once the current run is completed\"\n\nSource Journals\n[[Inspiration Stream.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inspiration-Stream.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

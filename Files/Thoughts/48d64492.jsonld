@@ -1,0 +1,12 @@
+{
+	"@id": "48d64492",
+	"@context": "tb",
+	"data": "Get noodles with Steph\n\n\"I'm going to get noodles with Steph, so that should be fun.\"\n\nSource Journals\n[[10-18 Yuru Camp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-18-Yuru-Camp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

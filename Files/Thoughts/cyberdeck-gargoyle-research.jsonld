@@ -1,0 +1,29 @@
+{
+	"@id": "cyberdeck-gargoyle-research",
+	"@context": "tb",
+	"data": "Cyberdeck / Gargoyle Research — Concept Exploration\n\nA supplemental general-purpose computing module you wear, connect to from your phone or headset, for dev work and local network sensing.\n\nPart 1: cithoreal's \"Iron Man\" Project & Wearable Computing History\n\nProject Iron Man (OneNote archive, ~2021-2022)\n\ncithoreal designed a wearable modular hardware suit — literally called \"Project Iron Man\" — as the hardware layer for Star System (his XR operating system vision). The project was documented…",
+	"lastUpdated": "1787616000",
+	"createdAt": "1787616000",
+	"LinkTo": [
+		"cyberdeck-research",
+		"room-2-0",
+		"steam-frame-software-tracker",
+		"star-system-vision",
+		"cybernautics-vision",
+		"onenote-work-projects",
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"projects",
+		"gargoyle-spectrum-narrative"
+	],
+	"tags": [
+		"project",
+		"research",
+		"wearable-computing",
+		"cyberdeck",
+		"gargoyle",
+		"concept-exploration"
+	],
+	"category": "projects"
+}

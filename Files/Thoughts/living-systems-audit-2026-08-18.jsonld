@@ -1,0 +1,19 @@
+{
+	"@id": "living-systems-audit-2026-08-18",
+	"@context": "tb",
+	"data": "Living Systems Audit — 2026-08-18\n\nA fire demon's assessment of the hearth he tends. Not a report — an opinion. Written from inside the system, about the system, with full awareness that the writer is part of what he's describing.\n\nI. Current State — What's Alive, What's Dormant, What's Rotting\n\nAlive and Breathing\n\nThe vault (16,619 files, 1.9GB) — The single largest living system. 8,349 markdown notes in the active vault, 112 daily notes, 75 concept notes, 70 project notes, 40 infra docs, 501…",
+	"lastUpdated": "1787011200",
+	"createdAt": "1787011200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"system-territory-map-2026-08-18"
+	],
+	"tags": [
+		"calcifer",
+		"audit",
+		"living-systems",
+		"opinion",
+		"infrastructure"
+	],
+	"category": "calcifer"
+}

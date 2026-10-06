@@ -1,0 +1,26 @@
+{
+	"@id": "finances-spending-log",
+	"@context": "tb",
+	"data": "Finances — Spending Log\n\nConsolidated into [[living/finances-spending-log]] — that's the canonical, up-to-date spending log. This copy is stale.\n\nSee the living/ version for current transactions and category reference.",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"finances-spending-log"
+	],
+	"LinkFrom": [
+		"finances-README",
+		"finances-budget",
+		"finances-spending-log",
+		"remaining-budget",
+		"spending-trend-analysis-2026",
+		"HOME"
+	],
+	"tags": [
+		"living",
+		"finances",
+		"spending",
+		"log",
+		"redirect"
+	],
+	"category": "finances"
+}

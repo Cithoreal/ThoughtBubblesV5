@@ -1,0 +1,41 @@
+{
+	"@id": "personal-finances",
+	"@context": "tb",
+	"data": "Personal Finances — Live Tracker\n\nQuick-reference budget sheet. Update as money comes in or goes out.\nThe Buckets app will eventually replace this — for now, this is the bucket system.\n\n📊 At a Glance\n\nLast updated: 2026-08-27. Balances from Fidelity dashboard screenshots.\n\n| | Amount |\n|---|---|\n| Fidelity Cash Management (X91430969) | $1,178.66 |\n| Fidelity Brokerage (X94712593) | $6,151.82 |\n<!-- as of 2026-08-27 — verify -->\n| Rollover IRA (245852926) | $6,639.45 |\n| ~~Infosys Tax Account…",
+	"lastUpdated": "1787788800",
+	"createdAt": "1777248000",
+	"LinkTo": [
+		"finances-budget",
+		"projects",
+		"budget-app",
+		"katie-collab",
+		"school-accountability",
+		"internship-budget-2026",
+		"calcifer-vault",
+		"finances-wishlist",
+		"HOME",
+		"audio-journal-pipeline",
+		"thought-bubbles",
+		"systems-programming-2025",
+		"minecraft-server",
+		"journal-pipeline-ui"
+	],
+	"LinkFrom": [
+		"finances-README",
+		"car-loan-payoff-tracker",
+		"finances-budget",
+		"HOME",
+		"projects",
+		"buckets-app",
+		"health-strength",
+		"internship-budget-2026",
+		"vault-temporal-scanner-rewrite"
+	],
+	"tags": [
+		"project",
+		"finance",
+		"budget",
+		"active"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "3e9cbadd",
+	"@context": "tb",
+	"data": "Upgrade Home Assistant\n\n\"Home assistant itself needs to be upgraded, I think.\"\n\nSource Journals\n[[Rest of Break Responsibilities 1.tasks]]\n[[Rest of Break Responsibilities.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Rest-of-Break-Responsibilities-1.tasks",
+		"Rest-of-Break-Responsibilities.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

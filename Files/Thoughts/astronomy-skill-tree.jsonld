@@ -1,0 +1,17 @@
+{
+	"@id": "astronomy-skill-tree",
+	"@context": "tb",
+	"data": "Astronomy Skill Tree\n\n4-tier skill tree for learning astronomy: Tier 1 (Naked Eye - constellations, planet spotting), Tier 2 (Binoculars - Messier objects, star-hopping), Tier 3 (Telescope + Astrophysics - stellar lifecycle, 6-8\" Dobsonian), Tier 4 (Advanced Amateur - Messier catalog, astrophotography). Key resources: Stellarium (desktop), Crash Course Astronomy (YouTube), 'The Stars' by H.A. Rey, 'NightWatch' by Terence Dickinson. Location context: Mansfield, MA with dark sky access 30-40 min…",
+	"lastUpdated": "1779062400",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"astronomy",
+		"skill-trees"
+	],
+	"category": "projects"
+}

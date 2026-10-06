@@ -1,0 +1,12 @@
+{
+	"@id": "65617257",
+	"@context": "tb",
+	"data": "Develop saving and loading functionality for ThoughtBubbles\n\n\"Now I can focus on saving, saving and loading... the top priority is just getting saving and loading working within ThoughtBubbles.\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

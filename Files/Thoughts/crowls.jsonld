@@ -1,0 +1,19 @@
+{
+	"@id": "crowls",
+	"@context": "tb",
+	"data": "Crowls\n\nHauppauge USB Live 2 capture device connected and configured.\nDevice path: /dev/video2\nDriver: cx231xx (kernel 6.19.14)\nAudio: Cx231xxAudio registered as card 1\nVideo format: YUYV 4:2:2, 720×576, PAL/NTSC/SECAM support\nInputs: Composite1 (input 0), S-Video (input 1)\nSoftware: FFmpeg n8.1 with v4l2 support installed\nStatus: Device healthy, no input signal detected (blue frame output)\nNetwork: 100.125.163.22 (Tailscale)\nNote: Ready for VHS/game console digitization via Composite1 or…",
+	"lastUpdated": "1779148800",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"infra",
+		"ios",
+		"2-5-waiting-for-the-change"
+	],
+	"tags": [
+		"infra",
+		"crowls"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,28 @@
+{
+	"@id": "practicing-speech",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Practicing Speech.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Practicing Speech\nTranscribed: 2026-03-30 12:50  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 4.22 p.m., June 7th, 2024.\n[00:00:07 → 00:00:14]  \nOut on the trail, out at the Great Woods, and feeling pretty good about my speech overall.\n[00:00:14 → 00:00:23]  \nI'm still just…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

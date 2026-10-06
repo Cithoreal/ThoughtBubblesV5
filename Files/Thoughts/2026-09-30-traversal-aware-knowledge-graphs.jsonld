@@ -1,0 +1,18 @@
+{
+	"@id": "2026-09-30-traversal-aware-knowledge-graphs",
+	"@context": "tb",
+	"data": "Traversal-Aware Knowledge Graphs: The Graph That Remembers How You Walked It\n\nThe Question\n\nStarted from Thread 3's play-bleed finding (Sep 17): past learning doesn't just decay — it transforms how new encounters feel. The Rescue's play-bleed mechanic carries emotional residue between runs, not items or stats. This is metaprogression-as-bleed, a pattern the academic literature hasn't connected.\n\nThe question I chased: does anyone build knowledge graphs that reconfigure based on how you've…",
+	"lastUpdated": "1790726400",
+	"createdAt": "1790726400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"knowledge-graph",
+		"adaptive-navigation",
+		"play-bleed",
+		"ThoughtBubbles",
+		"curiosity-hour"
+	],
+	"category": "research"
+}

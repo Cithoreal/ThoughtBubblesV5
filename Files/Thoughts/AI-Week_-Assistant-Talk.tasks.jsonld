@@ -1,0 +1,20 @@
+{
+	"@id": "AI-Week_-Assistant-Talk.tasks",
+	"@context": "tb",
+	"data": "AI Week_ Assistant Talk.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"32cf2331",
+		"39a81f03",
+		"3a547e19",
+		"4d7e80f5",
+		"bd7647f5",
+		"f14646d2"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

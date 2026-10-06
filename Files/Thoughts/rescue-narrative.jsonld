@@ -1,0 +1,30 @@
+{
+	"@id": "rescue-narrative",
+	"@context": "tb",
+	"data": "Project: Rescue Narrative (Fiction)\n\nWhat It Is\ncithoreal's primary ongoing fiction project — a fantasy narrative featuring a character named Rescue. Exists in two interconnected forms: the Fog Story (written fiction, detailed in OneNote) and the VR Experience (described in Brain Extensions.docx, Dec 2019). Both are about entering a space that forces you to confront yourself.\n\nFor the full deep-dive article, see: [[concepts/the-rescue-experience]]\n\nEvidence Across Eras\n\n2023–2024 H1\nMultiple…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"the-rescue-experience",
+		"non-linear-editor",
+		"cithoreal-identity",
+		"fiction-worldbuilding",
+		"skill-trees",
+		"thought-bubbles",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"non-linear-editor",
+		"the-rescue-experience",
+		"HOME",
+		"projects"
+	],
+	"tags": [
+		"project",
+		"fiction",
+		"writing",
+		"recurring"
+	],
+	"category": "projects"
+}

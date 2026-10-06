@@ -1,0 +1,12 @@
+{
+	"@id": "1a0ce3b7",
+	"@context": "tb",
+	"data": "Set up CastleCart to autonomously open browser, debug tools, and capture errors\n\n\"I would love it if CastleCart could open the browser on their own, go to the URL, open the debug tools, take a screenshot\"\n\nSource Journals\n[[2026-04-02 11-44-37.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-11-44-37.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

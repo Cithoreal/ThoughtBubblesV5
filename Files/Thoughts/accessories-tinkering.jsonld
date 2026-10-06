@@ -1,0 +1,10 @@
+{
+	"@id": "accessories-tinkering",
+	"@context": "tb",
+	"data": "Accessories, Hardware Extension & OS Tinkering — Research Resources\n\nResearch date: 2026-09-30\nDomain: Steam Frame accessories, controller RE, haptics, Mesa/graphics, SteamOS beta, day-one toolkit\n\n6.1 Expansion Port & Accessory Ecosystem\n\nDocs:\nSteam Frame — Steamworks Documentation — Official Valve developer hub for Steam Frame, covers setup, controllers, loading games, debugging, OpenXR integrations\nSteam Frame — Valve Developer Community Wiki — Community-editable wiki with full hardware…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,38 @@
+{
+	"@id": "Transcription-pipeline-sprint.tasks",
+	"@context": "tb",
+	"data": "Transcription pipeline sprint.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"08e70f06",
+		"0acb68e4",
+		"1a02dfed",
+		"2e06211f",
+		"2f76b7a6",
+		"3166a295",
+		"50b45154",
+		"559c2d70",
+		"88662509",
+		"8b8c9495",
+		"a0e050e3",
+		"a3a0752f",
+		"a74d4234",
+		"aa6efbdb",
+		"b7531e9e",
+		"c18640ca",
+		"ceb2a0dc",
+		"d48c2e31",
+		"e61bedcd",
+		"e834360e",
+		"e8cf94b8",
+		"e90f89f9",
+		"f3c7086f",
+		"fb4b68ec"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

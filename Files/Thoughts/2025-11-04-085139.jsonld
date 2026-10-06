@@ -1,0 +1,21 @@
+{
+	"@id": "2025-11-04-085139",
+	"@context": "tb",
+	"data": "Journal — 2025-11-04 08:51\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-04 08-51-39.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-04 08-51-39\nTranscribed: 2026-03-30 11:30  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 8.51 a.m., November 4th, 2025.\n[00:00:08 → 00:00:16]  \nOn my way to school, running out of gas a little bit.\n[00:00:16 → 00:00:18]  \nI think it's just because\n[00:00:19 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

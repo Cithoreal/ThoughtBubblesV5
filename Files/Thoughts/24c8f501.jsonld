@@ -1,0 +1,13 @@
+{
+	"@id": "24c8f501",
+	"@context": "tb",
+	"data": "Clean up room\n\n\"Clean up this room a little bit\"\n\nSource Journals\n[[11-17 Social Distress.tasks]]\n[[Introspection 4.tasks]]\n\nAll Quotes\n\"Clean up this room a little bit\"\n\"I cleaned up my room afterwards.\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-17-Social-Distress.tasks",
+		"Introspection-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

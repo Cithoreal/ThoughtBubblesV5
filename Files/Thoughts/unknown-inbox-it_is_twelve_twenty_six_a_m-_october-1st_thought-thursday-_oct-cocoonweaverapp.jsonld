@@ -1,0 +1,17 @@
+{
+	"@id": "unknown-inbox-it_is_twelve_twenty_six_a_m-_october-1st_thought-thursday-_oct-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker is conducting a late-night test drive of a new audio note-taking app to determine if its transcription and export features meet their standards for daily use. They hope this tool might streamline their existing workflow for managing a large backlog of unprocessed audio recordings.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion | engaged | analytical |\n| Valence | — | neutral |\n| Energy | medium | medium |\n| Arousal | — | medium…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/technology-evaluation",
+		"theme/productivity-optimization",
+		"theme/speech-to-text-workflow",
+		"theme/digital-tool-assessment"
+	],
+	"category": "journals"
+}

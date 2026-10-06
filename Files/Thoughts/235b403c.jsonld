@@ -1,0 +1,13 @@
+{
+	"@id": "235b403c",
+	"@context": "tb",
+	"data": "Set up old drive as backup drive\n\n\"I think I'll have it be just a backup drive\"\n\nSource Journals\n[[Stability and power in tools 1.tasks]]\n[[Stability and power in tools.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Stability-and-power-in-tools-1.tasks",
+		"Stability-and-power-in-tools.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

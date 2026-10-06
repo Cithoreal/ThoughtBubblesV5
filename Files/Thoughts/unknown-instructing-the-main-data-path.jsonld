@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-instructing-the-main-data-path",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Go camping during week off', 'type': 'explicit', 'status': 'new', 'raw_quote': \"i am definitely going out i'm going camping i can camp throughout the week if i want to\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Instructing the Main Data Path.md', 'extracted_at': '2026-05-18T16:54:39.120960', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Clear hiking path and trail…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,20 @@
+{
+	"@id": "openclaw-gateway",
+	"@context": "tb",
+	"data": "Openclaw Gateway\n\nImage model routing configured 2026-05-11:\nPrimary: ollama/kimi-k2.6:cloud\nFallback: github-copilot/claude-sonnet-4.6\n\nDiagnosis: Vision model was unreliable due to auto-selection from limited vision-capable models. Only 4 models in catalog declare image support: mistral-large-3:675b-cloud, qwen3-vl:cloud, gemma3:27b-cloud, kimi-k2.6:cloud. Primary chat model (glm-5.1:cloud) lacks vision support.",
+	"lastUpdated": "1782259200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"infra",
+		"openclaw-agents",
+		"openclaw-config"
+	],
+	"tags": [
+		"infra",
+		"openclaw",
+		"gateway"
+	],
+	"category": "infra"
+}

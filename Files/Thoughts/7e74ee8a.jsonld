@@ -1,0 +1,12 @@
+{
+	"@id": "7e74ee8a",
+	"@context": "tb",
+	"data": "Start working on ThoughtBubbles\n\n\"I'll happily start working on ThoughtBubbles a bit over the next few days\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

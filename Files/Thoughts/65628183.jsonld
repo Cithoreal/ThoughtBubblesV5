@@ -1,0 +1,12 @@
+{
+	"@id": "65628183",
+	"@context": "tb",
+	"data": "Prepare for road trip\n\n\"I'm going to start preparing for it.\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

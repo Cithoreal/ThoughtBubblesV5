@@ -1,0 +1,17 @@
+{
+	"@id": "optiplex-backup-audit",
+	"@context": "tb",
+	"data": "Optiplex Backup Audit — 2026-06-06\n\nHardware\n\n| Disk | Size | Mount | Label | Purpose |\n|------|------|-------|-------|---------|\n| /dev/sdb1 | 848GB (29GB used) | / | — | Internal OS disk (ext4) |\n| /dev/sda2 | 3.6TB (876GB used) | /mnt/storage | cybership-main | T7 external SSD (ext4) |\n\nKey point: \"Internal disk\" = /dev/sdb1 (the 848GB OS drive). \"T7/external\" = /dev/sda2 mounted at /mnt/storage.\n\nServices & Their Data\n\n🔴 Critical (user data, hard to recreate)\n\n| Service | Data Location |…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"optiplex",
+		"backup"
+	],
+	"category": "infra"
+}

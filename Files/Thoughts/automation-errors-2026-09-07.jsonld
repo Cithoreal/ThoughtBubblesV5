@@ -1,0 +1,16 @@
+{
+	"@id": "automation-errors-2026-09-07",
+	"@context": "tb",
+	"data": "Automation Error Diagnosis — 2026-09-07\n\nPrimary Finding: ALL failures are rate_limit from Ollama API\n\nEvery erroring job fails with the same error at the model API call step (first tool call, ~1-4s into the run):\n\n⚠️ API rate limit reached. Please try again later. (errorReason: rate_limit, source: agent-run)\n\nThe consecutiveErrors counter (4x/5x) counts retry attempts within a single day (Sept 6), not separate daily failures. Most daily jobs ran OK through Sept 2-5 and only started failing on…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"openclaw",
+		"automation",
+		"diagnostic"
+	],
+	"category": "infra"
+}

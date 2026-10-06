@@ -1,0 +1,22 @@
+{
+	"@id": "mit",
+	"@context": "tb",
+	"data": "MIT — EECS & Media Lab (XR / Spatial Computing)\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nMIT is the world's premier institution for technology research, and its approach to XR and spatial computing spans multiple programs. Two primary pathways are relevant:\nPhD in EECS (Electrical Engineering and Computer Science) — the traditional research doctorate, with faculty working on computer vision, HCI, and graphics as applied to XR\nMAS (Media Arts and…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

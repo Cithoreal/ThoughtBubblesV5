@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-starting-to-automate",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': \"Hook up Nextcloud to-do's to Neo4j\", 'type': 'progress', 'status': 'completed', 'raw_quote': \"i have next cloud to do's hooked up to neo4j\", 'project': 'Work', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Starting To Automate.md', 'extracted_at': '2026-05-18T18:42:48.290597', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Set up ability to make requests to OpenAI and local AIs', 'type': 'progress',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

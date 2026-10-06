@@ -1,0 +1,12 @@
+{
+	"@id": "a21fb3dd",
+	"@context": "tb",
+	"data": "Look at Nextcloud tasks and create task template\n\n\"Uh, so look at those tasks, create the task template\"\n\nSource Journals\n[[What projects excite me right now?.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"What-projects-excite-me-right-now-.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

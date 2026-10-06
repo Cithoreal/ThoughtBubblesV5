@@ -1,0 +1,10 @@
+{
+	"@id": "steamos-holo-core",
+	"@context": "tb",
+	"data": "SteamOS / Holo Core Internals — Research Resources\n\n1.1 Holo Core ARM64 Arch Port\n\nCourses/Talks:\nBuilding an Arch Linux aarch64 port for Holo Core — Collabora blog post (July 2026) detailing the engineering challenges of porting Arch Linux to aarch64 for Steam Frame, including the build replay model, CI infrastructure, and dependency resolution. The most comprehensive primary-source overview available.\n\nDocs:\nHolo Core aarch64 Preview — GitLab Repo — Official Valve/Collabora GitLab repository…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

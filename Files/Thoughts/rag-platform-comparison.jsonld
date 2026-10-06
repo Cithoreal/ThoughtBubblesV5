@@ -1,0 +1,18 @@
+{
+	"@id": "rag-platform-comparison",
+	"@context": "tb",
+	"data": "RAG Platform Comparison for Calcifer's Homelab\n\n✅ RESOLVED (2026-04-18): Decision made — built Custom RAG Pipeline with Qdrant on star (see [[projects/custom-rag-pipeline]]). AnythingLLM + ChromaDB have been decommissioned. This comparison is archived for reference.\n\nResearched: 2026-04-14 | Context: 3K+ markdown docs, Ollama embeddings, Tailscale network, pi5 + Optiplex hardware\n\nOur Setup & Requirements\n\n| Factor | Detail |\n|---|---|\n| Documents | ~3,050 markdown files (Obsidian vault +…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"custom-rag-pipeline"
+	],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"rag"
+	],
+	"category": "infra"
+}

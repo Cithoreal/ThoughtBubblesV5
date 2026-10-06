@@ -1,0 +1,12 @@
+{
+	"@id": "67b60143",
+	"@context": "tb",
+	"data": "Prompt the AI to define what it needs to remember (general and progress memory)\n\n\"i want to prompt the ai to sort of tell it what's important tell it what it needs to remember so that it can have its own general memory as well as progress memory\"\n\nSource Journals\n[[2025-06-10 11-09-59.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-06-10-11-09-59.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

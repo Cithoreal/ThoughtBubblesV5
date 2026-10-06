@@ -1,0 +1,12 @@
+{
+	"@id": "a162fded",
+	"@context": "tb",
+	"data": "Reach out to Anna again\n\n\"I should reach out to her again.\"\n\nSource Journals\n[[DePaul Social Life.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"DePaul-Social-Life.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

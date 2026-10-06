@@ -1,0 +1,28 @@
+{
+	"@id": "nanolucent",
+	"@context": "tb",
+	"data": "Concept: Nanolucent — Light-Based Spatial Unit\n\n\"Maybe try to use light. Nanoseconds. One nano-lucent.\" — cithoreal, May 2026\n\nDefinition\n\n1 nano-lucent (nL) = 1 light-nanosecond ≈ 29.98 cm ≈ 11.8 inches\n\nA spatial unit based on the distance light travels in one nanosecond. Conveniently close to 1 foot, making it intuitive for room-scale measurements while being physically grounded in the speed of light.\n\nWhy\n\nFor Room 2.0's coordinate system, spatial computing deserves spatial units. Rather…",
+	"lastUpdated": "1779062400",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"room-2-0",
+		"ar-xr-development",
+		"cybernautics-vision",
+		"2026-05-18-151711"
+	],
+	"LinkFrom": [
+		"2026-09-15-vault-vocabulary-and-nanolucent",
+		"lucent-unit",
+		"HOME",
+		"concepts",
+		"room-2-0-scaffold-reactxr"
+	],
+	"tags": [
+		"concept",
+		"unit",
+		"spatial",
+		"coordinate-system",
+		"ar"
+	],
+	"category": "concepts"
+}

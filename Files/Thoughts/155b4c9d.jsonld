@@ -1,0 +1,12 @@
+{
+	"@id": "155b4c9d",
+	"@context": "tb",
+	"data": "Withdraw from DePaul University\n\n\"when I withdraw, when I'm no longer a student at DePaul.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

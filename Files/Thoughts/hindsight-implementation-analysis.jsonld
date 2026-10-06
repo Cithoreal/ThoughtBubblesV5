@@ -1,0 +1,10 @@
+{
+	"@id": "hindsight-implementation-analysis",
+	"@context": "tb",
+	"data": "Hindsight Implementation Analysis\n\nDeep research dive — September 25, 2026\nResearcher: Calcifer (subagent)\nStatus: Complete analysis, ready for review\n\nExecutive Summary\n\nHindsight (Vectorize.io, MIT, arXiv:2512.12818) has matured significantly since our last research pass in August 2026. It's now at v0.9.x with 22.7K+ GitHub stars, an official OpenClaw plugin, an Obsidian integration, and SOTA results on both LongMemEval (91.4%) and the new BEAM 10M benchmark (64.1%). The architecture decision…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

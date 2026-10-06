@@ -1,0 +1,13 @@
+{
+	"@id": "2026-07-28",
+	"@context": "tb",
+	"data": "2026-07-28\n\nEvents\nSteam Frame portable compute companion discussion: cithoreal interested in a compact SFF PC (mini-ITX, ~3-5L, RTX 4060 Ti + Ryzen 8700G) as a portable compute puck for the Steam Frame. Purpose: Godot VR dev work + VR game streaming over the 6GHz dongle. Decision: park as wishlist/nice-to-have. Plan: test concept with Star first once Frame arrives, validate dongle latency + Frame standalone capability, then decide if a dedicated portable build is needed. Key insight:…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

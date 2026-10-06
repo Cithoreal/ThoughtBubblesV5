@@ -1,0 +1,12 @@
+{
+	"@id": "9d311cd0",
+	"@context": "tb",
+	"data": "Work on to-do app\n\n\"work on my to-do app\"\n\nSource Journals\n[[2025-05-05 08-38-03.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-05-05-08-38-03.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "system-territory-map-2026-08-18",
+	"@context": "tb",
+	"data": "System Territory Map — 2026-08-18\n\nThe full inventory. Every living system, tool, script, service, workflow, and knowledge domain. Exhaustive, not summarized. This is the reference document — everything we know about, in one place.\n\nTotal vault files: 16,620 markdown files, 1.9GB\nTotal scripts: 74 Python + 4 shell\nTotal workspace size: ~2GB (vault + scripts + memory)\nHosts active: 3 (Star, Optiplex, Pi4-hearth) + Pi5 (Home Assistant, Tailscale active)\nHosts offline: 7 (Alienware, Mac-mini,…",
+	"lastUpdated": "1787011200",
+	"createdAt": "1787011200",
+	"LinkTo": [
+		"living-systems-audit-2026-08-18"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"inventory",
+		"systems",
+		"reference"
+	],
+	"category": "calcifer"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "55b0e1f2",
+	"@context": "tb",
+	"data": "Skip natural resources questions in questionnaire\n\n\"I'm going to skip those for now\"\n\nSource Journals\n[[11-7 World Building.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-7-World-Building.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

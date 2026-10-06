@@ -1,0 +1,12 @@
+{
+	"@id": "c0f02340",
+	"@context": "tb",
+	"data": "Clean up audio recording\n\n\"I'll just do what I can to clean it up later.\"\n\nSource Journals\n[[New Recording.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

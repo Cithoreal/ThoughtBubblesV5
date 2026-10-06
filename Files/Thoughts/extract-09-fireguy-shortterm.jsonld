@@ -1,0 +1,16 @@
+{
+	"@id": "extract-09-fireguy-shortterm",
+	"@context": "tb",
+	"data": "Extract: fire-guy-origins.md + short-term-project-goals-and-future-culmination.md\n\nFrom: fire-guy-origins.md\n\nLife as Source Material for Fiction\n\"so that I can basically take notes about my experiences throughout college and use that to write the story of Estia's academy days with Estia very much just portraying you know I'll just use stories from my own life\"\n\nWhy relevant: Establishes the mirroring principle — lived experience feeds the skill tree narrative, and the narrative feeds…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

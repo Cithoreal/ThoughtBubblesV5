@@ -1,0 +1,15 @@
+{
+	"@id": "test-recording",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Test Recording.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Test Recording\nTranscribed: 2026-03-30 13:08  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nThis is a quick test recording to test speak recognition runtimes.\nExtracted Tasks\n[ ] {'text': 'Test speech recognition runtimes', 'type': 'progress', 'status': 'in_progress', 'raw_quote': 'This is…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

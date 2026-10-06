@@ -1,0 +1,12 @@
+{
+	"@id": "a7108ac9",
+	"@context": "tb",
+	"data": "Find silences in audio to determine chunk points\n\n\"find time in a silence so that between words I can snip it, chunk it\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

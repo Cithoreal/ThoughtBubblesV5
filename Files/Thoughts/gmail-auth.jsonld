@@ -1,0 +1,21 @@
+{
+	"@id": "gmail-auth",
+	"@context": "tb",
+	"data": "Gmail Auth\n\nAuthentication token expired (invalid_grant error). Gmail integration requires re-authorization.\n\nStatus\n\n_2026-05-18:_ OAuth token expired 2026-05-09. Re-authentication required via scripts/gmail_auth.py.\n\n_2026-05-22:_ Confirmed OAuth token still expired/revoked. Gmail credential refresh failed during OpenClaw heartbeat check. Requires re-authentication to restore inbox monitoring.\n\n_2026-06-05:_ Still expired. See [[infra/gmail-service]] for integration status. Run python3…",
+	"lastUpdated": "1780876800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"gmail-service"
+	],
+	"LinkFrom": [
+		"HOME",
+		"infra",
+		"gmail-oauth"
+	],
+	"tags": [
+		"infra",
+		"gmail",
+		"auth"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-practicing-my-speech",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Watch One Piece with dad', 'type': 'explicit', 'status': 'new', 'raw_quote': \"We're gonna watch One Piece\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Practicing my Speech.md', 'extracted_at': '2026-05-18T18:20:01.096486', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Practice speech for Paige (second pass)', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"So let's go…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

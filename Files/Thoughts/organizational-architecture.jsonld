@@ -1,0 +1,33 @@
+{
+	"@id": "organizational-architecture",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Organizational Architecture.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Organizational Architecture\nTranscribed: 2026-03-30 12:39  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 4.30 p.m., June 4th, 2024.\n[00:00:08 → 00:00:12]  \nSo I begin my training for work tomorrow, 3 to 6.\n[00:00:14 → 00:00:14]  \nShould be good.\n[00:01:08 → 00:01:24] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"health-and-sleep",
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/homelab",
+		"topic/star-system",
+		"personal/health-sleep",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/low",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

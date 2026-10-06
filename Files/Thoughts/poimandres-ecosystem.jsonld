@@ -1,0 +1,27 @@
+{
+	"@id": "poimandres-ecosystem",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 85d — review -->\n\nConcept: Poimandres Ecosystem (pmndrs)\n\n\"As a collective, Poimandres is more than a set of libraries, it is the people who make them and the people who use them. It is all of their creativity and joy. The libraries are just how we get there.\" — pmndrs blog, July 2024\n\nWhat It Is\n\nPoimandres (pmndrs) is an open-source developer collective for the creative web. Founded in 2017 by Paul Henschel (0xca0a), a German developer,…",
+	"lastUpdated": "1779321600",
+	"createdAt": "1779321600",
+	"LinkTo": [
+		"room-2-0",
+		"room-2-0-scaffold-reactxr",
+		"ar-xr-development",
+		"skill-trees",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"projects-room-2-0"
+	],
+	"tags": [
+		"concept",
+		"ecosystem",
+		"open-source",
+		"dependency",
+		"3d",
+		"xr",
+		"react"
+	],
+	"category": "concepts"
+}

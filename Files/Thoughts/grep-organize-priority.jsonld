@@ -1,0 +1,15 @@
+{
+	"@id": "grep-organize-priority",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2023/organize-priority.md\n\n154-> \n155-> [00:04:16 → 00:04:18]  \n156-> Let's start from the top again, one last time.\n157-> \n158-> [00:04:18 → 00:04:32]  \n159:> I've been kind of trying to encourage myself to plan out long-term, large systems, like think of the education system, think of Project Calcifer on a whole, and start to break it down there.\n160-> \n161-> [00:04:33 → 00:04:35]  \n162-> But I'm really struggling with that too.\n163-> \n164-> [00:04:39 → 00:04:40] …",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

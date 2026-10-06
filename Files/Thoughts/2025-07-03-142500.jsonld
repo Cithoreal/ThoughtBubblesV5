@@ -1,0 +1,21 @@
+{
+	"@id": "2025-07-03-142500",
+	"@context": "tb",
+	"data": "Journal — 2025-07-03 14:25\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-07-03 14-25-00.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-07-03 14-25-00\nTranscribed: 2026-03-30 11:23  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 2.25 p.m., June 3rd, 2025.\n[00:00:07 → 00:00:15]  \nPulling onto the highway, it seems rather busy and it's going to be a day of fireworks for sure.\n[00:00:15 → 00:00:17] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"tech/python",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

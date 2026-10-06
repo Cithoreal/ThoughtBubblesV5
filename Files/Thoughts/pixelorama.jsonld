@@ -1,0 +1,21 @@
+{
+	"@id": "pixelorama",
+	"@context": "tb",
+	"data": "Pixelorama\n\n2D pixel art editor built in Godot.\nRepo: <https://github.com/Orama-Interactive/Pixelorama>\nLicense: Check repo\nGodot version: 4.x\nStatus: Active, full-featured, listed in awesome-godot\n\nWhat It Provides\nFull 2D pixel art editor running inside Godot\nDrawing tools, layers, animation, palette\nProves you can build a complete editor application in Godot\n\nRelevance\nLess directly relevant to spatial authoring, but proves the pattern: Godot can host a full-featured editor application, not…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"lorien",
+		"godotsvg"
+	],
+	"LinkFrom": [
+		"lorien",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"creative"
+	],
+	"category": "projects"
+}

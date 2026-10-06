@@ -1,0 +1,15 @@
+{
+	"@id": "START-HERE",
+	"@context": "tb",
+	"data": "Start Here — The Big Picture\n\nWelcome. This is the entry point for all our grad school research. If you're reading this for the first time, you're in the right place.\n\nWhat Is This?\n\nA collection of research documents about graduate school options for cithoreal, focused on XR (Extended Reality), spatial computing, and HCI (Human-Computer Interaction). The research covers 6 universities in Japan and 11 in the United States.\n\nIt's also a guide for Katie — each Japanese university document…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"grad-school",
+		"index"
+	],
+	"category": "projects"
+}

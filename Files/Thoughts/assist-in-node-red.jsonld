@@ -1,0 +1,25 @@
+{
+	"@id": "assist-in-node-red",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Assist in Node Red.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Assist in Node Red\nTranscribed: 2026-03-30 11:47  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:05]  \nIt is 4.52pm, June 25th, 2024.\n[00:00:05 → 00:00:09]  \nWhat was my recording yesterday about?\n[00:00:19 → 00:00:24]  \nWas gonna just pause it and resume it, but I never felt like resuming…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

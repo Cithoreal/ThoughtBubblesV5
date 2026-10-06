@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://qtgwo6th3ixu"]
+
+[ext_resource type="Script" uid="uid://d0dp4d3kq0pp3" path="res://addons/rts_camera_3d/rts_camera.gd" id="1_c60bw"]
+
+[node name="RTSCamera" type="Camera3D" unique_id=1448793996]
+script = ExtResource("1_c60bw")
+move_speed = 14.0
+sprint_speed = 24.0
+pan_on_screen_edge = false
+zoom_speed = 0.6

@@ -1,0 +1,10 @@
+{
+	"@id": "spatial-compositor",
+	"@context": "tb",
+	"data": "Spatial Compositor Design — Research Resources\n\n2.1 Compositor Architecture Fundamentals\n\nWhat a compositor IS, 2D compositing, surface stacking, damage tracking, render loop, input routing, seat management\n\nCourses/Talks\nWhy YOU should write a Wayland compositor — Victoria Brekenfeld — HiP22 Berlin — 53 min talk motivating compositor development and walking through the fundamentals\nXDC 2021 | Addressing Wayland robustness | David Edmundson, KDE — Wayland compositor robustness, POC…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

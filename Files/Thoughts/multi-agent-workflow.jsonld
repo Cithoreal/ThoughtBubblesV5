@@ -1,0 +1,10 @@
+{
+	"@id": "multi-agent-workflow",
+	"@context": "tb",
+	"data": "Multi-Agent Workflow — Coding & Godot Projects\n\nAgent Roster (11 agents)\n\n| Agent | Role | Model | Purpose |\n|-------|------|-------|---------|\n| main (Calcifer) | Orchestrator | glm-5.2 | Receives requests, decomposes work, dispatches to agents, reviews output, manages the workboard |\n| planner 📋 | Planner | glm-5.3-flash | Evaluates scope, splits tasks across coders based on context window, writes specs |\n| coder 🔨 | Executor | glm-5.3:cloud | Writes code, ports libraries, implements features…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "projects"
+}

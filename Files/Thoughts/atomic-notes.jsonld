@@ -1,0 +1,26 @@
+{
+	"@id": "atomic-notes",
+	"@context": "tb",
+	"data": "Concept: Atomic Notes\n\nWhat It Is\nThe design principle underlying the Calcifer Vault. Each note covers exactly one thing. Relationships are expressed as explicit [[wikilinks]]. Context is composed on demand by loading only relevant nodes.\n\nDerived from Zettelkasten methodology, adapted for agent memory.\n\nWhy It Matters\nMonolithic files degrade: they grow unbounded, load entirely into context, and bury fresh signal under stale noise. Atomic notes scale: as the corpus grows, context window cost…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"wikilinks",
+		"calcifer-vault",
+		"focus-system",
+		"git-discipline",
+		"HOME",
+		"2026-04-07-obsidian-vault-architecture"
+	],
+	"LinkFrom": [
+		"calcifer-memory",
+		"feedback-layer",
+		"2026-04-07-obsidian-vault-architecture",
+		"concepts",
+		"calcifer-vault"
+	],
+	"tags": [
+		"concept"
+	],
+	"category": "concepts"
+}

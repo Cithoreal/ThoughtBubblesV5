@@ -1,0 +1,13 @@
+{
+	"@id": "e696a64a",
+	"@context": "tb",
+	"data": "Save backups on both drives\n\n\"Probably save backups on both drives\"\n\nSource Journals\n[[Stability and power in tools 1.tasks]]\n[[Stability and power in tools.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Stability-and-power-in-tools-1.tasks",
+		"Stability-and-power-in-tools.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

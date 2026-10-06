@@ -1,0 +1,19 @@
+{
+	"@id": "12-17-Life-is-that-which-has-Death.tasks",
+	"@context": "tb",
+	"data": "12 17 Life is that which has Death.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"087d1b8b",
+		"2f220762",
+		"35132754",
+		"59a5a932",
+		"eff7c1b2"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "unknown-journal-it_is_eleven_thirty_four_pm-_the_ember-1st_thought-tuesday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker records a late-night journal entry in their car, briefly updating on feeling confident but slightly behind at their Infosys job before diving into their main focus: a personal software project called 'Thought Bubbles.' They outline their Q4 priorities for developing a Godot-based interface that uses Python file observers to create a stable, persistent 'memory base' for thoughts, methodically working through technical implementation steps while…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/productivity",
+		"theme/software-development",
+		"theme/knowledge-management",
+		"theme/persistence",
+		"theme/procrastination"
+	],
+	"category": "journals"
+}

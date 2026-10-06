@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-new-recording-4",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Watch Drag Race tomorrow', 'type': 'explicit', 'status': 'new', 'raw_quote': 'But I have to watch Drag Race tomorrow.', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'New Recording 4.md', 'extracted_at': '2026-05-18T17:56:33.912893', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Go on date on Saturday', 'type': 'explicit', 'status': 'new', 'raw_quote': \"And then I have a date on…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

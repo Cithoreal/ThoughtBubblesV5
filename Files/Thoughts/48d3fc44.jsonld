@@ -1,0 +1,12 @@
+{
+	"@id": "48d3fc44",
+	"@context": "tb",
+	"data": "Walk around room during wind-down\n\n\"Walk around the room a little bit, get a bit of energy out\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

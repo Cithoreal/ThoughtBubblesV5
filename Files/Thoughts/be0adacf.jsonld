@@ -1,0 +1,12 @@
+{
+	"@id": "be0adacf",
+	"@context": "tb",
+	"data": "Save paychecks to bank account for car fund\n\n\"I'll just save everything in my bank account directly from now on\"\n\nSource Journals\n[[Journal-It_is_twelve_thirty_seven_a_M._October,-1st_thought-Monday,_Oct-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_twelve_thirty_seven_a_M._October-1st_thought-Monday-_Oct-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

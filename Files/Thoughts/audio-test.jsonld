@@ -1,0 +1,15 @@
+{
+	"@id": "audio-test",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/audio test.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# audio test\nTranscribed: 2026-03-30 06:21  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:06]  \nThis is an audio test with the adapter just to see if it changes anything.",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

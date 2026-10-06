@@ -1,0 +1,12 @@
+{
+	"@id": "2149a489",
+	"@context": "tb",
+	"data": "Integrate Hearth satellite with Home Assistant\n\n\"make sure that it's all working well with home assistant\"\n\nSource Journals\n[[2026-04-30 16-56-58.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-30-16-56-58.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

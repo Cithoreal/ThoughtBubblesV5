@@ -1,0 +1,10 @@
+{
+	"@id": "nextcloud-evaluation-2026-09-25",
+	"@context": "tb",
+	"data": "Nextcloud Health Evaluation — Optiplex Docker Deployment\n\nDate: 2026-09-25\nEvaluator: Calcifer (subagent)\nHost: Optiplex (Debian 13 trixie, kernel 6.12.96, Tailscale 100.96.169.9)\nNextcloud Version: 33.0.2 (33.0.9 available)\nDeployment: Docker (nextcloud:33, mariadb:11.4, redis:alpine, caddy:alpine)\nURL: cloud.cybernautics.net\n\nExecutive Summary\n\nOverall Health Grade: B-\n\nThe Nextcloud deployment on Optiplex is fundamentally solid — well-architected with proper Docker composition, Redis…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

@@ -1,0 +1,16 @@
+{
+	"@id": "data-flow",
+	"@context": "tb",
+	"data": "Data Flow Map — Post-Migration\n\nLegend: 🎙️ Journal flow · 📝 Vault flow · 🔍 Query flow · ⚠️ Bottleneck\n\nData Flow Narratives\n\n🎙️ Audio Journal Pipeline\ncithoreal records voice memo on iPhone\nAudio file → WhisperX on star → transcript .md\njournals_enrich.py adds analysis/metadata\njournals_to_vault.py moves transcript to vault\nVault watcher auto-ingests into Custom RAG (Qdrant)\njournal-notifications.json triggers OpenClaw → Signal summary\n\n📝 Vault Edit Cycle\nCalcifer or cithoreal edits a vault…",
+	"lastUpdated": "1776729600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"map"
+	],
+	"category": "infra"
+}

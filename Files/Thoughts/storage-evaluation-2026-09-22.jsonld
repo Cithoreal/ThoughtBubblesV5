@@ -1,0 +1,18 @@
+{
+	"@id": "storage-evaluation-2026-09-22",
+	"@context": "tb",
+	"data": "Storage Evaluation & Disorder Map\n\nAudited: Sept 22, 2026\nPurpose: Identify what lives where, find duplicated/scattered data, plan a drive organization pass.\n\nDrive Overview\n\n| Drive | Size | Used | Free | FS | Mount | Role (current) |\n|---|---|---|---|---|---|---|\n| sda (1TB SSD) | 932G | 827G (90%) | 100G | btrfs | /home | Active OS + dev + workspace |\n| sdb (700G HDD) | 699G | 637G (92%) | 62G | NTFS | /run/media/.../Storage | Legacy Windows data dump |\n| sdc (954G SSD) | 953G | — | — | NTFS…",
+	"lastUpdated": "1790035200",
+	"createdAt": "1790035200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"finances-wishlist"
+	],
+	"tags": [
+		"infra",
+		"storage",
+		"organization",
+		"research"
+	],
+	"category": "infra"
+}

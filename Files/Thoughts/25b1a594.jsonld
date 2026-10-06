@@ -1,0 +1,12 @@
+{
+	"@id": "25b1a594",
+	"@context": "tb",
+	"data": "Stay on top of daily coursework\n\n\"I've just got to stay on top of the daily coursework\"\n\nSource Journals\n[[Anatomy Z.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Anatomy-Z.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,26 @@
+{
+	"@id": "2-10-old-and-new",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-10 Old and New.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-10 Old and New\nTranscribed: 2026-03-30 05:13  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt's Monday, January 10th, 2020.\n[00:00:10 → 00:00:13]  \nMm-hmm.\n[00:00:15 → 00:00:21]  \nWent to the first hour of the Helix watch party, Boston Uprising watch party.\n[00:00:22 → 00:00:26] …",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"personal/identity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"project"
+	],
+	"category": "journals"
+}

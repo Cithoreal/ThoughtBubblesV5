@@ -1,0 +1,12 @@
+{
+	"@id": "f291ede9",
+	"@context": "tb",
+	"data": "Use ThoughtBubbles for personal to-do list management\n\n\"use ThoughtBubbles itself to basically take care of my to-do lists\"\n\nSource Journals\n[[Journal-It_is_twelve_fifty_one_am,-1st_thought-Monday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_twelve_fifty_one_am-1st_thought-Monday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

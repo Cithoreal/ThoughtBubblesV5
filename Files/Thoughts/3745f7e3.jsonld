@@ -1,0 +1,12 @@
+{
+	"@id": "3745f7e3",
+	"@context": "tb",
+	"data": "Use recommended LTS version of Unity for development\n\n\"i think i need to just learn finally learn my lesson and just if i'm going to develop any apps do it in just the recommended lts version of unity\"\n\nSource Journals\n[[Setting up Quest Dev Environment.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Setting-up-Quest-Dev-Environment.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

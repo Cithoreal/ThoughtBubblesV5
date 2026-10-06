@@ -1,0 +1,12 @@
+{
+	"@id": "222ced4e",
+	"@context": "tb",
+	"data": "Get presents for Mom and Dad\n\n\"I still need to get presents for Mom and Dad.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

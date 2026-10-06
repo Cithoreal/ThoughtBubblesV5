@@ -1,0 +1,28 @@
+{
+	"@id": "ai-memory",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Ai Memory.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Ai Memory\nTranscribed: 2026-03-30 11:44  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 4 14 PM, June 19th, 2024.\n[00:00:07 → 00:00:20]  \nSo I'm at great woods, just been walking around thinking, uh, but I started thinking about, uh, AI memories, uh, with Neo4j and decided I should start…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

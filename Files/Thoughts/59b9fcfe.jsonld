@@ -1,0 +1,12 @@
+{
+	"@id": "59b9fcfe",
+	"@context": "tb",
+	"data": "Splice audio journals into chunks for pre-processing\n\n\"I needed to do a bit more pre-processing to like splice up audio journals into different chunks and then process it in lesser quantities\"\n\nSource Journals\n[[Journal Backlog.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-Backlog.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

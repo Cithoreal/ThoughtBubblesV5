@@ -1,0 +1,12 @@
+{
+	"@id": "1fecdd64",
+	"@context": "tb",
+	"data": "Work on ThoughtBubbles saving and loading system\n\n\"work on thought bubbles. Work on the whole saving system.\"\n\nSource Journals\n[[Thought Bubbles Interface.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

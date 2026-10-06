@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-talking-to-cal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Finish the saving process for Thought Bubbles', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I would like to get back into it, finish the saving process from Thought Bubbles', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Talking to Cal.md', 'extracted_at': '2026-05-18T18:49:46.830047', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Check out the Notice app', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

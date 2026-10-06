@@ -1,0 +1,18 @@
+{
+	"@id": "AR-Glasses-as-Dev-Workstation",
+	"@context": "tb",
+	"data": "AR Glasses as Dev Workstation\n\nType: Hardware Research\nStatus: Research complete, recommendation made\nDate: 2026-09-04\n\nCore Idea\nUse tethered AR display glasses as a wearable monitor for coding and dev work on Star (Arch Linux, NVIDIA RTX 3070 Ti, 3x 1080p monitors). Paired with Steam Frame for VR immersion. Two-device setup: AR for presence (stay in the real world while working), VR for Room 2.0 (fully immersive spatial computing).\n\nRecommendation: RayNeo GT Max ($399)\n59° FOV (widest…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Monado-and-the-Open-XR-Landscape",
+		"Steam-Frame-Valve-s-Reputation-Moat"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Monado-and-the-Open-XR-Landscape",
+		"Room-2.0-Architecture-Core-and-Sub-Apps",
+		"Steam-Frame-Valve-s-Reputation-Moat"
+	],
+	"category": "thought-spaces"
+}

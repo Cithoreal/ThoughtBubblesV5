@@ -1,0 +1,12 @@
+{
+	"@id": "bccd6d32",
+	"@context": "tb",
+	"data": "Set up dual SD cards for 3D printer and Hyperion\n\n\"Maybe I can have the 3D printer installed on one SD card, have the Hyperion installed on another.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "4c12375c",
+	"@context": "tb",
+	"data": "Condition self out of watching videos before breakfast\n\n\"I need to just condition myself out of that.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

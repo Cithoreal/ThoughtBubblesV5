@@ -1,0 +1,23 @@
+{
+	"@id": "homeassistant-research",
+	"@context": "tb",
+	"data": "Home Assistant — What's Relevant Going Forward\n\nResearch summary for Home Assistant running on pi5 (HA hub). Focus: what matters for cithoreal's setup and the Calcifer integration vision.\n\n🔑 The Biggest Thing: MCP Server (Model Context Protocol)\n\nWhat it is: HA now ships a built-in MCP Server integration. MCP is the open standard that lets AI assistants talk to external tools. Home Assistant exposes its entire Assist API as MCP tools.\n\nWhat this means for Calcifer:\nI can connect to your Home…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776297600",
+	"LinkTo": [
+		"pi5",
+		"homeassistant",
+		"nextcloud-research",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"homeassistant"
+	],
+	"tags": [
+		"reference",
+		"homeassistant",
+		"infrastructure",
+		"automation"
+	],
+	"category": "reference"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "f07bbb47",
+	"@context": "tb",
+	"data": "Ask GPT to convert handwritten notes to markdown format\n\n\"So my plan is to ask GPT to basically just create, you know, in a markdown format, you know, copy my handwritten notes when I take pictures of them.\"\n\nSource Journals\n[[Task System Planning.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System-Planning.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

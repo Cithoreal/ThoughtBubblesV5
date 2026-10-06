@@ -1,0 +1,12 @@
+{
+	"@id": "0286feea",
+	"@context": "tb",
+	"data": "Set up InfluxDB\n\n\"I still need to look into and set up InfluxDB.\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

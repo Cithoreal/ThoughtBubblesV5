@@ -1,0 +1,12 @@
+{
+	"@id": "918e6d05",
+	"@context": "tb",
+	"data": "Go to current flows\n\n\"So my next steps are to go to my current flows.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

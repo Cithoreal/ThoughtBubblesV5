@@ -1,0 +1,12 @@
+{
+	"@id": "c0db7065",
+	"@context": "tb",
+	"data": "Work on the task system to reliably work with existing tasks and update Nextcloud\n\n\"For now I need to get to the task system\"\n\nSource Journals\n[[Talking to Cal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Talking-to-Cal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,30 @@
+{
+	"@id": "godot-46-xr-features",
+	"@context": "tb",
+	"data": "Godot 4.6 XR Features\n\nGodot 4.6 (released January 26, 2026) brought major XR maturation.\nRelease: <https://godotengine.org/releases/4.6/>\nXR Update: <https://godotengine.org/article/godot-xr-update-mar-2026/>\nLicense: MIT\nStatus: Stable release\n\nWhat Shipped\nOpenXR 1.1 with automatic 1.0 fallback\nSpatial Entities — persistent anchors, plane detection, marker tracking\nFrame synthesis with depth buffer (Application SpaceWarp — ~70% more rendering headroom)\nKhronos-loader APK — one build deploys…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-room-2-0-convergence",
+		"goal-spatial-navigation",
+		"goal-node-visualization",
+		"godot-openxr-vendors",
+		"godot-47-xr-improvements"
+	],
+	"LinkFrom": [
+		"goal-node-visualization",
+		"goal-room-2-0-convergence",
+		"goal-spatial-navigation",
+		"godot-47-xr-improvements",
+		"godot-openxr-vendors",
+		"godot-quest-editor",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"platform",
+		"godot",
+		"xr",
+		"openxr"
+	],
+	"category": "projects"
+}

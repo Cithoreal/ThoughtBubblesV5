@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-it_is_eleven_fifty_nine_pm_november-1st_thought-tuesday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Create prompts or character sheets for story characters', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I think the next steps for this story is to just come up with prompts or character sheets or something where I just run through each character one at a time', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Journal-It_is_eleven_fifty_nine_Pm_November.-1st_thought-Tuesday,_Nov-CocoonWeaverApp.md',…",
+	"lastUpdated": "1789430400",
+	"createdAt": "1789430400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

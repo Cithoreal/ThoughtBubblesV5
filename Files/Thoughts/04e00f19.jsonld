@@ -1,0 +1,12 @@
+{
+	"@id": "04e00f19",
+	"@context": "tb",
+	"data": "Set up white noise automation triggered by computer shutdown\n\n\"once my computer is off Maybe I'll use that as the trigger to start playing white noise or green noise from the home assistant speakers\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,35 @@
+{
+	"@id": "cybernautics-business-plan",
+	"@context": "tb",
+	"data": "Cybernautics Business Plan\n\nWhat It Is\nThe business model and operational plan for Cybernautics — cithoreal's content/dev brand. Distilled from OneNote planning documents (pre-vault era).\n\nBusiness Areas\nFrom [[OneNote/Cybernautics/Main Business/Brainstorm]]:\nPodcast — flagship content format\nYouTube — video content, dev logs, tutorials\nStreaming — Twitch / live development\nBlog Articles — written content\nApps — XR/spatial computing apps\n\"Metaverse\" / Spatial Internet — XR experiences and…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"Brainstorm",
+		"Members",
+		"cithoreal",
+		"alex-hardy",
+		"jarrod-dicarlo",
+		"Goals-Budget",
+		"cybernautics-vision",
+		"cybernautics-business-model",
+		"thought-bubbles",
+		"skill-trees",
+		"homelab-infrastructure"
+	],
+	"LinkFrom": [
+		"cybernautics-business-model",
+		"thought-bubbles",
+		"concepts",
+		"alex-hardy",
+		"jarrod-dicarlo",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"concept",
+		"cybernautics",
+		"business",
+		"project"
+	],
+	"category": "concepts"
+}

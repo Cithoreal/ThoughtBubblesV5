@@ -1,0 +1,12 @@
+{
+	"@id": "3b60dd95",
+	"@context": "tb",
+	"data": "Ask Claude to help plan high-level overview of Node-RED project\n\n\"I'll ask Claude. Help me plan a high-level overview of my Node-RED project instance\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

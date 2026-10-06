@@ -1,0 +1,12 @@
+{
+	"@id": "57d27f40",
+	"@context": "tb",
+	"data": "Speak with president on Friday regarding final interview\n\n\"I'm going to be speaking with the president on Friday\"\n\nSource Journals\n[[2026-04-15 18-51-31.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-15-18-51-31.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "25b2ed73",
+	"@context": "tb",
+	"data": "Learn base tools and packages for Unity development\n\n\"I set everything up, learn what all the base tools, all the base packages that I want to use are\"\n\nSource Journals\n[[Setting up Quest Dev Environment.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Setting-up-Quest-Dev-Environment.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

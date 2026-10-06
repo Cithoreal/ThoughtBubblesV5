@@ -1,0 +1,20 @@
+{
+	"@id": "2026-09-05-room-2-0-foundations",
+	"@context": "tb",
+	"data": "Thought Space — Room 2.0 Foundations\n\nCreated: 2026-09-05\nContext: Late-night spec writing session. Chris started handwriting specifications for Room 2.0 sub-apps after researching AR glasses, XR development landscape, and the Dave Plummer TMOG story.\n\nThought Bubbles\n[[Globe — Real-Time Earth in Your Room]] — A persistent 3D earth simulation as a Room 2.0 sub-app\n[[Bookshelf — Scanning, Sorting, and the XR Slider]] — Physical bookshelf that augments into a digital library\n[[The XR Slider — A…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Globe-Real-Time-Earth-in-Your-Room",
+		"Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+		"The-XR-Slider-A-Volume-Knob-for-Reality",
+		"Spec-Writing-as-a-Skill",
+		"Mirrorworlds-Technological-Parallel-Realities",
+		"AR-Glasses-as-Dev-Workstation",
+		"Steam-Frame-Valve-s-Reputation-Moat",
+		"Monado-and-the-Open-XR-Landscape",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"LinkFrom": [],
+	"category": "thought-spaces"
+}

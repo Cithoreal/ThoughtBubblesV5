@@ -1,0 +1,12 @@
+{
+	"@id": "07cbbd37",
+	"@context": "tb",
+	"data": "Check recording quality\n\n\"See what kind of quality this thing gives me\"\n\nSource Journals\n[[mic audio test.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"mic-audio-test.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

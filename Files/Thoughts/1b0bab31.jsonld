@@ -1,0 +1,12 @@
+{
+	"@id": "1b0bab31",
+	"@context": "tb",
+	"data": "Go swimming\n\n\"Yep, so I'm gonna get home, gonna swim, and I'll get my laptop and work on that.\"\n\nSource Journals\n[[Sunday Update.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Sunday-Update.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

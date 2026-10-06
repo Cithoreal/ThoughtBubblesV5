@@ -1,0 +1,25 @@
+{
+	"@id": "forgejo",
+	"@context": "tb",
+	"data": "Service: Forgejo\n\nRole\nSelf-hosted Git server. All Calcifer projects version-controlled here.\n\nLocation\nHosted on [[infra/optiplex]] (migrated from pi4 in April 2026)\n\nAccess\nInternal: http://100.70.181.28:3001\nExternal: http://git.cybernautics.net\nAccount: Calcifer / calcifer@cybernautics.net\nAPI token: ~/.config/forgejo-token (scopes: write:repository, write:issue, read:user)\nAuth: ~/.netrc has entries for both hostnames\n\nCreate Repo (API snippet)\n\nNotes\nSSH git port is 222 — git remote…",
+	"lastUpdated": "1781654400",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"optiplex",
+		"star",
+		"git-discipline",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"git-discipline",
+		"homelab-2025-buildout",
+		"homelab-infrastructure",
+		"HOME",
+		"infra",
+		"journal-pipeline-ui"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

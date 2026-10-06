@@ -1,0 +1,12 @@
+{
+	"@id": "8ed63b02",
+	"@context": "tb",
+	"data": "Do tweaks to CalDAV API\n\n\"I'm sure there'll be some tweaks I need to do with it, but I'll sort of figure those out as they come up.\"\n\nSource Journals\n[[Switching to Chat Completions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Switching-to-Chat-Completions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

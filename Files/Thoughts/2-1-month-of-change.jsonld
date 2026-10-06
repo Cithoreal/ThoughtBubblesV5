@@ -1,0 +1,22 @@
+{
+	"@id": "2-1-month-of-change",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-1 Month of Change.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-1 Month of Change\nTranscribed: 2026-03-30 05:13  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nWell, well, it's February.\n[00:00:05 → 00:00:06]  \nYikes.\n[00:00:07 → 00:00:09]  \nFebruary 1st, 2023, 27 p.m.\n[00:00:15 → 00:00:23]  \nI guess first things first, I didn't really do any…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

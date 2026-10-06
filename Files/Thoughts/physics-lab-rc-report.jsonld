@@ -1,0 +1,17 @@
+{
+	"@id": "physics-lab-rc-report",
+	"@context": "tb",
+	"data": "Physics Lab Rc Report\n\nStatus: Completed (2026-05-04)\nDeliverable: vault/tmp/Formal Lab Report/Formal_Lab_Report_RC_Circuits.docx\nSelf-Grade: A (against rubric)\n\nData Corrections Applied:\nFlipped negative voltage readings to positive for discharge curve (sign convention fix)\nApplied time offset correction (t=270s as effective t=0)\n\nKey Findings:\nExperimental time constant τ_exp ≈ 125s vs predicted τ = 99.3s (26% deviation)\nImplied total resistance R ≈ 125Ω suggests ~25Ω additional circuit…",
+	"lastUpdated": "1777852800",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"physics",
+		"lab-report"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,29 @@
+{
+	"@id": "orchestrator",
+	"@context": "tb",
+	"data": "Orchestrator\n\nDialog and visual-scripting subsystem for 2D and 3D games in Godot.\nRepo: <https://github.com/Vahera/godot-orchestrator>\nLicense: Check repo\nGodot version: 4.x\nStatus: Active, listed in awesome-godot\n\nWhat It Provides\nVisual scripting editor inside Godot\nNode-based logic graphs\nDialog system with branching\n2D and 3D game support\nMore general than ProtonGraph — handles game logic, not just procedural content\n\nRelevance to Spatial Authoring\nThe visual scripting graph is the closest…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-typed-links",
+		"goal-skill-tree-integration",
+		"protongraph",
+		"xenolith-graph"
+	],
+	"LinkFrom": [
+		"goal-skill-tree-integration",
+		"goal-spatial-authoring",
+		"goal-typed-links",
+		"protongraph",
+		"spatial-authoring-research",
+		"xenolith-graph"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"node-graph",
+		"visual-programming"
+	],
+	"category": "projects"
+}

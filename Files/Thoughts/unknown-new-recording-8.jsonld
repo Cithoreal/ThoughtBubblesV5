@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-new-recording-8",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Try new speech-to-text app', 'type': 'explicit', 'status': 'new', 'raw_quote': 'So, I am going to try my new text, or speech-to-text app.', 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'New Recording 8.md', 'extracted_at': '2026-05-18T18:02:20.686920', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Test recording with app at the same time', 'type': 'explicit', 'status': 'new',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

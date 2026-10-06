@@ -1,0 +1,29 @@
+{
+	"@id": "xr-web-integration",
+	"@context": "tb",
+	"data": "XR Web Integration in Godot\n\nResearch and architectural decisions from 2026-06-29 journal + discussion about embedding web content in Godot XR, specifically for Room 2.0 and Core System modules.\n\nThe Problem\n\nRoom 2.0 needs to display web content (LibreCloset inventory, bookshelf, device dashboards) inside AR panels. How do you render a webpage inside a Godot XR scene?\n\nThree Approaches\nSubViewport + OpenXR Composition Layers (Built-in, Best for XR)\nCreate a SubViewport with Godot-native UI…",
+	"lastUpdated": "1782691200",
+	"createdAt": "1782691200",
+	"LinkTo": [
+		"room-2-0",
+		"production-plan",
+		"module-1-player-controller",
+		"core-system",
+		"thought-bubbles",
+		"ecs-linked-data-architecture"
+	],
+	"LinkFrom": [
+		"module-depth-sensor",
+		"production-plan",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"concept",
+		"active",
+		"xr",
+		"godot",
+		"web",
+		"architecture"
+	],
+	"category": "concepts"
+}

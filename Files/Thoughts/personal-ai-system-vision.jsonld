@@ -1,0 +1,39 @@
+{
+	"@id": "personal-ai-system-vision",
+	"@context": "tb",
+	"data": "Personal AI System Vision\n\nWhat It Is\ncithoreal's long-running design for a personal AI assistant with persistent memory, full self-hosting, and deep integration with his life data. He was designing this system before LLM APIs made it practical. Calcifer is the partial realization of this vision.\n\nThe Vision (as articulated across 2023–2024)\nLocal-first: All models running on own hardware — no cloud dependency, no data leakage\nPersistent memory: AI that remembers across sessions, learns from…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"skill-trees",
+		"2023-10-17_localai-setup-considerations",
+		"2023-10-27_local-ai-model-basics",
+		"2023-11-03_ai-development-on-arch-linux",
+		"2023-12-02_setting-up-mozilla-tts",
+		"2023-12-02_personalized-ai-database-system",
+		"2023-11-28_chat-models-with-external-functions",
+		"2024-02-06_local-ai-ecosystem-setup",
+		"2024-09-18_conversational-ai-assistant-plan",
+		"2024-05-07_ai-developer-workflow-setup",
+		"thought-bubbles",
+		"cybernautics-vision",
+		"homelab-infrastructure",
+		"local-ai-infrastructure",
+		"calcifer-character",
+		"anythingllm",
+		"star",
+		"cithoreal",
+		"the-grand-system"
+	],
+	"LinkFrom": [
+		"concepts",
+		"the-grand-system-onenote"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"ai",
+		"personal-vision"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "lucent-unit",
+	"@context": "tb",
+	"data": "Lucent Unit (stub — superseded)\n\nEarly sketch, superseded by [[concepts/nanolucent]] which has the full definition, conversions, and implementation notes.\n\nSession History\n2026-08-27: Discussed lucent unit",
+	"lastUpdated": "1780876800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"nanolucent"
+	],
+	"LinkFrom": [
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"duplicate"
+	],
+	"category": "concepts"
+}

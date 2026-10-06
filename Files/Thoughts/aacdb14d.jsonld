@@ -1,0 +1,12 @@
+{
+	"@id": "aacdb14d",
+	"@context": "tb",
+	"data": "Change calendar setup to use multiple calendars with color coding\n\n\"I'll change the color of it and then change the color of the specific events... I'll just do multiple\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "9cfb1235",
+	"@context": "tb",
+	"data": "Learn more about InfluxDB\n\n\"i need to learn a little bit more about influxdb and how to work with it\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

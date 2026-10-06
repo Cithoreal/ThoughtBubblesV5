@@ -1,0 +1,15 @@
+{
+	"@id": "2025-10-30_master-method-recurrence",
+	"@context": "tb",
+	"data": "2025 10 30_master method recurrence",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"systems-programming-2025"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

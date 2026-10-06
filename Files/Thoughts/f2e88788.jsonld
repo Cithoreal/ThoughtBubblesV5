@@ -1,0 +1,12 @@
+{
+	"@id": "f2e88788",
+	"@context": "tb",
+	"data": "Focus on creative writing class\n\n\"I got to focus in on this creative writing class that I'm in.\"\n\nSource Journals\n[[Introspection 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

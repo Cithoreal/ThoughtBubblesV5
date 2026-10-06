@@ -1,0 +1,41 @@
+{
+	"@id": "thoughtbubbles-v6-stack",
+	"@context": "tb",
+	"data": "ThoughtBubbles v6 Tech Stack\n\nWhat It Is\nThe finalized technical blueprint for ThoughtBubbles version 6, determined through an extensive iterative decision-making session in early February 2025. This is the canonical stack for the web-first v6 prototype — a major pivot away from Unity/game-engine approaches.\n\nThe Stack\n\nFrontend\n| Component | Choice |\n|---|---|\n| Framework | React + TypeScript |\n| State Management | Redux (Redux Toolkit) |\n| Styling | Tailwind CSS |\n| 3D/XR | React Three Fiber…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-02-01_thought-bubbles-v6-tech-plan",
+		"2025-02-01_svelte-vs-react-for-thoughtbubbles",
+		"2025-02-01_decentralized-graph-db-selection",
+		"2025-02-02_thought-bubbles-v6-tech-stack",
+		"2025-02-02_thought-bubbles-v6-preproduction",
+		"2025-02-04_thought-bubbles-v6-review",
+		"2025-02-04_thought-bubbles-v6-roadmap",
+		"2025-02-10_react-redux-thought-bubble",
+		"2025-02-15_thoughtbubbles-v6-brainstorming",
+		"2025-02-26_thought-bubbles-tech-stack",
+		"thought-bubbles",
+		"cybernautics-vision",
+		"decentralized-local-first-stack",
+		"semantic-web-and-linked-data",
+		"core-system",
+		"internet-scale-world"
+	],
+	"LinkFrom": [
+		"decentralized-local-first-stack",
+		"ecs-linked-data-architecture",
+		"thought-bubbles",
+		"thoughtbubbles-vision-expansion",
+		"concepts",
+		"room-2-0-vocab",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"thoughtbubbles",
+		"tech"
+	],
+	"category": "concepts"
+}

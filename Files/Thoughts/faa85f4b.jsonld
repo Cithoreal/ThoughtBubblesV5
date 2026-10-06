@@ -1,0 +1,12 @@
+{
+	"@id": "faa85f4b",
+	"@context": "tb",
+	"data": "Rework existing code to accommodate ThoughtSpace as child of ThoughtBubble interface node\n\n\"I'm going to have to rework some stuff\"\n\nSource Journals\n[[Journal-It_is_three,_twelve_pm,-1st_thought-Wednesday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_three-_twelve_pm-1st_thought-Wednesday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

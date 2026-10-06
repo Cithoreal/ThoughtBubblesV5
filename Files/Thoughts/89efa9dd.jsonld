@@ -1,0 +1,12 @@
+{
+	"@id": "89efa9dd",
+	"@context": "tb",
+	"data": "Work on good journaling tool\n\n\"So I want a good journaling tool is something we want to work on.\"\n\nSource Journals\n[[The Home Depot 2.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-2.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-06",
+	"@context": "tb",
+	"data": "2026-08-06\n\nEvents\nJournal processed: 2026-08-04 19:42 — XR minimalism and gamify consciousness vision\nJournal processed: 2026-08-04 19:42 — contemplative journal on practical effects, XR minimalism, and gamify consciousness product vision\nHA down after OS update — Pi5 USB SSD boot failure (USB 3.0 port). Interim fix: switch to USB 2.0 port. Plan: order NVMe HAT (HatDrive AI or Pimoroni NVMe Base) + M.2 NVMe SSD for reliable boot. Monitoring confirmed: HomeAssistantDown alert fired in…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

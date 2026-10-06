@@ -1,0 +1,12 @@
+{
+	"@id": "9f14b10e",
+	"@context": "tb",
+	"data": "Implement error handling for JSON errors in project\n\n\"bit more error handling... I just want to make sure that that's sorted\"\n\nSource Journals\n[[2026-04-06 16-06-31.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-06-16-06-31.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

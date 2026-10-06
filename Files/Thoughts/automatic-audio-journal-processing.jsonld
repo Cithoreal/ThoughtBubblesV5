@@ -1,0 +1,24 @@
+{
+	"@id": "automatic-audio-journal-processing",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Automatic Audio Journal Processing.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Automatic Audio Journal Processing\nTranscribed: 2026-03-30 11:50  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 10.50 a.m. May 28th, 2024.\n[00:00:09 → 00:00:12]  \nSo, I've been sick the past few days.\n[00:00:15 → 00:00:17]  \nBut starting to get over it.\n[00:00:20…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"semantic-web-and-linked-data",
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/semantic-web",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"topic/homelab",
+		"tech/graph-db"
+	],
+	"category": "journals"
+}

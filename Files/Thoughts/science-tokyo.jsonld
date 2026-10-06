@@ -1,0 +1,23 @@
+{
+	"@id": "science-tokyo",
+	"@context": "tb",
+	"data": "Institute of Science Tokyo — School of Computing\n\nPart of [[projects/grad-school-options|Grad School Options]] research. See also [[projects/mext-scholarship-2029|Mext Scholarship 2029]] for funding details.\n\nOverview\n\nInstitute of Science Tokyo (科学技術院) was formed on October 1, 2024, from the merger of Tokyo Institute of Technology and Tokyo Medical and Dental University — the first merger between designated national universities in Japan. The School of Computing has strong XR/VR labs including…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options",
+		"mext-scholarship-2029"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

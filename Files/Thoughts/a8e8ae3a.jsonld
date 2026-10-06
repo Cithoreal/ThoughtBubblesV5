@@ -1,0 +1,12 @@
+{
+	"@id": "a8e8ae3a",
+	"@context": "tb",
+	"data": "Get another utensil\n\n\"Uh, we need another utensil.\"\n\nSource Journals\n[[New Recording 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

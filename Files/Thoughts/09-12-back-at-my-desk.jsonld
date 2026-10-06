@@ -1,0 +1,12 @@
+{
+	"@id": "09-12-back-at-my-desk",
+	"@context": "tb",
+	"data": "Back at My Desk\n\nRecorded September 12, 2026, 12:16 AM. Signing off at 12:36 AM.\n\nLive Monitoring Detour\n\nChris had been setting up a live monitoring system with OpenClaw but realized it became a detour. Decided to disable the live watcher for now — recording with OBS and sending clips is sufficient. Having OBS running also helps mentally as a \"start work\" trigger.\n\nGodot + Thought Bubbles Session Plan\n\nWants to work on Godot projects with a new workflow: brainstorm → record → have OpenClaw…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"category": "journals"
+}

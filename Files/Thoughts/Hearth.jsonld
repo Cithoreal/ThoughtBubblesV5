@@ -1,0 +1,28 @@
+{
+	"@id": "Hearth",
+	"@context": "tb",
+	"data": "Hearth — Voice Assistant for the Home\n\nStatus: Phase 1 COMPLETE ✅ + Conversation Memory ✅ + Kokoro TTS ✅ + Voice Self-Management ✅ + Speaker ID ✅ + Cloud STT ✅\nDate: 2026-05-08\n\nFull voice pipeline working end-to-end: wake word → STT → conversation → TTS → satellite audio output.\nConversation memory active: Hermes sessions persist across turns via X-Hermes-Session-Id.\nKokoro TTS is now the primary voice (af_nicole), replacing Piper for better quality. Piper remains as automatic…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"hearth-soul-draft"
+	],
+	"LinkFrom": [
+		"current-curiosity",
+		"HOME",
+		"projects",
+		"macmini",
+		"hearth-family-home-ai",
+		"hearth-remediation-plan",
+		"hearth-system-graph",
+		"hearth-weekend-sprint-2026-05",
+		"room-2-0-esp32-sensors"
+	],
+	"tags": [
+		"project",
+		"active",
+		"voice-assistant",
+		"home-automation"
+	],
+	"category": "projects"
+}

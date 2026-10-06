@@ -1,0 +1,12 @@
+{
+	"@id": "a516ae3d",
+	"@context": "tb",
+	"data": "Meet up with Alex soon\n\n\"I should definitely try to meet up with Alex soon\"\n\nSource Journals\n[[11-17 Social Distress.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-17-Social-Distress.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

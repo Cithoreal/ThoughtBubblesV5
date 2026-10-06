@@ -1,0 +1,12 @@
+{
+	"@id": "e629b241",
+	"@context": "tb",
+	"data": "Read Red Mars book\n\n\"I'll read Red Mars\"\n\nSource Journals\n[[Visualizing Thought Bubbles.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Visualizing-Thought-Bubbles.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

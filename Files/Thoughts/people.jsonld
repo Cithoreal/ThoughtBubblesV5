@@ -1,0 +1,21 @@
+{
+	"@id": "people",
+	"@context": "tb",
+	"data": "People Index\n[[people/cithoreal]] — Chris DiCarlo, the human\n[[people/katie-boscombe]] — partner, collaborator\n[[people/alex-hardy]]\n[[people/jarrod-dicarlo]]\n[[people/dr-flood]]",
+	"lastUpdated": "1776038400",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"cithoreal",
+		"katie-boscombe",
+		"alex-hardy",
+		"jarrod-dicarlo",
+		"dr-flood"
+	],
+	"LinkFrom": [
+		"HOME"
+	],
+	"tags": [
+		"index"
+	],
+	"category": "index"
+}

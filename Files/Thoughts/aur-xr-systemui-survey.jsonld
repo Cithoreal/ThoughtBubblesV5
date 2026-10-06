@@ -1,0 +1,10 @@
+{
+	"@id": "aur-xr-systemui-survey",
+	"@context": "tb",
+	"data": "AUR XR System UI & Package Survey\n\nDate: 2026-09-30\nAuthor: Calcifer (research subagent)\nScope: All XR/VR/AR-related packages on the Arch User Repository (AUR), plus key official repo packages\n\nSummary\n\nTotal unique XR-relevant packages found: ~80+ (including -git, -bin, lib32 variants, and split packages)\n\nAfter searching AUR with keywords: openxr, monado, openvr, steamvr, alvr, wivrn, xrdesktop, stardust, openhmd, slimevr, opentrack, headset, spatial, immersive, vrui, and VR — and…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

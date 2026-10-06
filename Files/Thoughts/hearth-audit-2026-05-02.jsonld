@@ -1,0 +1,15 @@
+{
+	"@id": "hearth-audit-2026-05-02",
+	"@context": "tb",
+	"data": "Hearth System Audit — 2026-05-02\n\nArchitecture\n\n✅ What's Working Well\nSpeaker recognition pipeline — ECAPA-TDNN + parallel STT, confidence-based access, continuous learning\nFallback chain — Health monitor (30s checks) sets flags → bridge routes to local Whisper/Piper\nService auto-restart — All services have Restart=on-failure or Restart=always\nMemory safety — Bridge clears audio_buffer each utterance, no leak; _last_audio_buffer holds only one copy\nGPU headroom — 2910 MiB used / 8192 MiB total…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

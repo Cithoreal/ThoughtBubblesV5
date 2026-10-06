@@ -1,0 +1,30 @@
+{
+	"@id": "budget-app",
+	"@context": "tb",
+	"data": "Budget App — Project Plan\n\nCore concept: A personal finance app with visual bucket allocation — see your money distributed into spending categories at a glance, not just numbers in a spreadsheet.\n\nOrigin\nFirst mentioned: Journal 2026-04-06 (\"Budget-based personal finance app with visual bucket allocation\")\nRevisited: Journal 2026-04-22 (car, planning internship finances)\nMotivation: Starting Delsis internship June 2026, need a real tool to manage $30/hr income, debt payoff, and discretionary…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776816000",
+	"LinkTo": [
+		"internship-budget-2026",
+		"2026-04-06-160631"
+	],
+	"LinkFrom": [
+		"finances-README",
+		"car-loan-payoff-tracker",
+		"finances-budget",
+		"HOME",
+		"projects",
+		"buckets-app",
+		"health-strength",
+		"internship-budget-2026",
+		"personal-finances"
+	],
+	"tags": [
+		"project",
+		"app",
+		"finance",
+		"budget",
+		"parked"
+	],
+	"category": "projects"
+}

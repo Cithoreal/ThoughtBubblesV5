@@ -1,0 +1,12 @@
+{
+	"@id": "8f1c37d5",
+	"@context": "tb",
+	"data": "Get bHapticsPlayer and haptic vest working\n\n\"oh yeah where i left off last night that i want to try to figure out is um getting b haptics player working... I think I'm gonna go up for a few minutes and try to get the haptic vest working.\"\n\nSource Journals\n[[Rest of Break Responsibilities.tasks]]\n\nProgress\n(empty, to be filled as work happens)\nProgress (2026-09-17)\nRESOLVED — superseded by the bhapd project. Native Linux BLE motor control confirmed live: TactSuit Air paired to star,…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Rest-of-Break-Responsibilities.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

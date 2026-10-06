@@ -1,0 +1,12 @@
+{
+	"@id": "cdd5b7b6",
+	"@context": "tb",
+	"data": "Review sociology\n\n\"I'll want to review... Sociology as well\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

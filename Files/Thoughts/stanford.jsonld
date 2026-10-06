@@ -1,0 +1,22 @@
+{
+	"@id": "stanford",
+	"@context": "tb",
+	"data": "Stanford University — CS Graduate Programs (HCI/XR Focus)\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nStanford University is one of the birthplaces of modern VR/AR research. The Virtual Human Interaction Lab (VHIL), founded in 2003 by Jeremy Bailenson, has been a global leader in studying how virtual experiences transform education, empathy, environmental conservation, and health. Stanford's Computer Science department offers both PhD and MS programs, with…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

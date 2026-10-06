@@ -1,0 +1,17 @@
+{
+	"@id": "monitoring-alertmanager",
+	"@context": "tb",
+	"data": "Monitoring Alertmanager\n\nConnection failure: Alertmanager at 100.96.169.9:9093 (optiplex) unreachable from cron alert check script. Connection timeout. Monitoring blind spot active. Investigate: host reachability, service status, firewall/Tailscale port 9093 access.\n\nStatus\n\n_2026-05-18:_ Service unreachable since 2026-05-11.",
+	"lastUpdated": "1779062400",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"monitoring",
+		"alertmanager"
+	],
+	"category": "infra"
+}

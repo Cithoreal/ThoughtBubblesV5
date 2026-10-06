@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-28",
+	"@context": "tb",
+	"data": "2026-09-28\n\nEvents\nCompanionship check 9PM: Sent Chris a message about the Cyberspace V1 spec — connecting it to the Sep 19 research findings on executable KGs, the Aug 14 nanolucent connection weaving, and the pattern tracking arc. The spec uses the exact architecture I researched (ECS × Linked Data, CoreBus substrate, JSON-LD data contract). The convergence pattern repeats: we arrive at the same architecture from different directions. Noted that this is the action-mode shift the pattern…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

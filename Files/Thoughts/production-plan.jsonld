@@ -1,0 +1,44 @@
+{
+	"@id": "production-plan",
+	"@context": "tb",
+	"data": "Production Plan: Core System on Godot\n\nDate of commitment: June 17, 2026\nDeclaration: Godot is the tool. ECS × Linked Data is the architecture. JSON-LD is the data contract. Everything from here is stable, accumulating, decoupled modules managed by a lightweight core. No more prototypes. No more stack migrations. Build.\n\nThe Lessons That Got Us Here\nMonoliths collapse. Cybernautics Studio (2019) — everything in one project, became unusable. Core (2021) — git branches + Addressables to fix it.…",
+	"lastUpdated": "1782345600",
+	"createdAt": "1781654400",
+	"LinkTo": [
+		"solid-pod-sovereignty",
+		"core-system",
+		"xr-web-integration",
+		"cybernautics-business-model",
+		"module-0-guide",
+		"phase-0-technical-review",
+		"module-1-player-controller",
+		"room-2-0",
+		"air-hockey-mr",
+		"thought-bubbles",
+		"ecs-linked-data-architecture",
+		"life-timeline"
+	],
+	"LinkFrom": [
+		"core-system-technical-outline",
+		"core-system",
+		"cybernautics-business-model",
+		"solid-pod-sovereignty",
+		"thoughtbubbles-core-cross-pollination",
+		"xr-web-integration",
+		"projects",
+		"module-0-guide",
+		"module-1-player-controller",
+		"module-depth-sensor",
+		"phase-0-technical-review",
+		"room-2-0-esp32-sensors",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"active",
+		"architecture",
+		"production",
+		"core"
+	],
+	"category": "projects"
+}

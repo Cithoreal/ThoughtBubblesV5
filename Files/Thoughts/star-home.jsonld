@@ -1,0 +1,31 @@
+{
+	"@id": "star-home",
+	"@context": "tb",
+	"data": "Drive: star — Home (sda2, btrfs)\n\nDevice: /dev/sda2 → mounted at /home and / (btrfs with snapshots)\nSize: 932 GB total | 438 GB used | 493 GB free\nFilesystem: btrfs (with .snapshots subvolume)\nHost: star (cithoreal's main Linux workstation)\n\nTop-Level Personal Directories\n\n| Path | Size | Notes |\n|---|---|---|\n| ~/Nextcloud/ | 57 GB | Nextcloud sync root — primary live data |\n| ~/projects/ | 38 GB | Active code projects |\n| ~/.local/ | 156 GB | Large — likely contains game data, Steam caches…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"index",
+		"star-elements",
+		"star-storage",
+		"star-cybership",
+		"star-windows-sdc"
+	],
+	"LinkFrom": [
+		"index",
+		"inventory",
+		"star-cybership",
+		"star-elements",
+		"star-storage",
+		"star-windows-sdc",
+		"elements-drive"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"home",
+		"project"
+	],
+	"category": "infra"
+}

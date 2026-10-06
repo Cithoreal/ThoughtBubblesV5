@@ -1,0 +1,29 @@
+{
+	"@id": "12-17-life-is-that-which-has-death",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/12-17 Life is that which has Death.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 12-17 Life is that which has Death\nTranscribed: 2026-03-30 05:08  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nOh my, what a day.\n[00:00:02 → 00:00:13]  \nSo Alex, driving Alex home tomorrow.\n[00:00:13 → 00:00:14]  \nHad another relaxing day.\n[00:00:18 → 00:00:22] …",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"designing-reality",
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/identity",
+		"personal/finance",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

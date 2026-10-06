@@ -1,0 +1,19 @@
+{
+	"@id": "finances-README",
+	"@context": "tb",
+	"data": "Living Documents\n\nQuick-reference sheets that change often. Check these when you need fast answers — budget splits, current subscriptions, spending logs, goals in progress.\n\nThese are not project plans. They're operational dashboards: current state, not future roadmap.\n\n📊 Active Sheets\n[[finances/finances-budget|Finances Budget]] — budget percentages, income allocation, spending philosophy\n[[finances/finances-spending-log|Finances Spending Log]] — transaction log, categorized spending…",
+	"lastUpdated": "1780531200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"finances-budget",
+		"finances-spending-log",
+		"budget-app",
+		"personal-finances"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"index",
+		"living"
+	],
+	"category": "finances"
+}

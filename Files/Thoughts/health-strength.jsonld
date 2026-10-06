@@ -1,0 +1,32 @@
+{
+	"@id": "health-strength",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 88d — review -->\n\nHealth & Strength — Post-Graduation Priority\n\n\"Maybe the key is not to focus on progress and skills and work. Maybe the key is hiking and camping, being outdoorsy, training my body.\" — cithoreal, May 2026\n\nWhy This Is #1\n\nGraduation is done. The burnout is real. Three explicit signals from the 2:11 PM journal:\n\"I want to start really working on my body as a main goal\" — not a side project, THE goal\n\"I intend to be a lot…",
+	"lastUpdated": "1779062400",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"skill-trees",
+		"budget-app",
+		"personal-finances",
+		"health-and-sleep",
+		"bevy-physics-mastery",
+		"2026-05-18-141102",
+		"2026-05-18-151711"
+	],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"bevy-physics-mastery",
+		"daily-schedule",
+		"fitness-tracker",
+		"vault-temporal-scanner-rewrite"
+	],
+	"tags": [
+		"project",
+		"active",
+		"health",
+		"fitness",
+		"skill-trees"
+	],
+	"category": "projects"
+}

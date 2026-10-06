@@ -1,0 +1,19 @@
+{
+	"@id": "thoughtbubbles",
+	"@context": "tb",
+	"data": "Thoughtbubbles\n\nStatus: 214 journal mentions, data shape stabilized October 2024. Architecture: semantic web/RDF triple model.\n\nEvolution: Transitioning from standalone pre-XR Unity app to Room 2.0 module. Spatial knowledge graph rendered in AR anchors, navigable by walking through it.\n\nCritical Insight: Earlier prototypes lacked grounding; bubbles floating in void have no context. True value requires anchoring to physical reality (specific desk, Pi, room location) rather than floating in void,…",
+	"lastUpdated": "1780012800",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"cybernautics-dao-governance",
+		"vault-vocabulary",
+		"projects",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"project",
+		"thoughtbubbles"
+	],
+	"category": "projects"
+}

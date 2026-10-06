@@ -1,0 +1,12 @@
+{
+	"@id": "d99a2b6a",
+	"@context": "tb",
+	"data": "Transcribe audio through general pipeline\n\n\"For now, transcribe it, run it through the general pipeline to just get summaries.\"\n\nSource Journals\n[[New Recording 10 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-10-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

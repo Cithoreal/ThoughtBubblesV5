@@ -1,0 +1,24 @@
+{
+	"@id": "star-system-docs",
+	"@context": "tb",
+	"data": "Project: Star System Documentation\n\nVision\nComprehensive documentation of the homelab fleet — hardware roster, architecture vision, idea catalogue, themed device roles. The living record of the infrastructure cithoreal is building.\n\nStatus\nIn progress. Hardware roster + architecture vision + idea catalogue written.\n\nNext actions:\n[x] Pi-5 rename propagation across all docs/configs (pi5 is now HA-only, renamed accordingly) ✅ 2026-04-21\n[ ] Add Dell Optiplex + Solid Pod notes to architecture…",
+	"lastUpdated": "1779148800",
+	"createdAt": "1774915200",
+	"LinkTo": [
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"cybernautics-vision",
+		"homelab-2025-buildout",
+		"homelab-infrastructure",
+		"HOME",
+		"projects",
+		"calcifer-vault",
+		"internship-budget-2026"
+	],
+	"tags": [
+		"project",
+		"in-progress"
+	],
+	"category": "projects"
+}

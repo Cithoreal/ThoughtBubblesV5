@@ -1,0 +1,17 @@
+{
+	"@id": "gmail-integration",
+	"@context": "tb",
+	"data": "Gmail Integration\n\nAuthentication token expired (invalid_grant error) as of 2026-05-11. Re-authorization required via python3 scripts/gmail_check.py --setup.",
+	"lastUpdated": "1782259200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"gmail",
+		"integration"
+	],
+	"category": "infra"
+}

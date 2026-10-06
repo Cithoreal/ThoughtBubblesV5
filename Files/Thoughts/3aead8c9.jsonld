@@ -1,0 +1,12 @@
+{
+	"@id": "3aead8c9",
+	"@context": "tb",
+	"data": "Home Assistant running on Pi 5\n\n\"Home Assistant is up and running on the Pi 5\"\n\nSource Journals\n[[2026-04-15 11-54-29.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-15-11-54-29.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

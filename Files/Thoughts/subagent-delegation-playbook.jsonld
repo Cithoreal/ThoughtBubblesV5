@@ -1,0 +1,18 @@
+{
+	"@id": "subagent-delegation-playbook",
+	"@context": "tb",
+	"data": "Sub-Agent Delegation Playbook\n\nWhen to spawn, when to do it yourself, and how to write briefs that don't time out.\n\nDecision Criteria\n\nSpawn a sub-agent when:\nMulti-step research — searching, reading, and summarizing across many files\nFile editing chains — read → transform → write → verify → repeat\nIndependent parallel tasks — N unrelated things that could run simultaneously\nAnything that blocks the conversation for >2 minutes — if cithoreal is waiting, delegate\nLong tool chains — >3 sequential…",
+	"lastUpdated": "1784937600",
+	"createdAt": "1784937600",
+	"LinkTo": [
+		"subagent-research-lessons"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"reference",
+		"playbook",
+		"subagents",
+		"delegation"
+	],
+	"category": "reference"
+}

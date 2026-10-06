@@ -1,0 +1,26 @@
+{
+	"@id": "12-5-presence",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/12-5 Presence.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 12-5 Presence\nTranscribed: 2026-03-30 05:10  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:08 → 00:00:12]  \nSee, I do got some stuff to say, but first... Ooh.\n[00:00:16 → 00:00:19]  \nAlex is playing Halo Reach Campaign with whom?\n[00:00:27 → 00:00:28]  \nWild.\n[00:00:28 → 00:00:31]  \nHe said he wasn't going…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"air-hockey-mr",
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

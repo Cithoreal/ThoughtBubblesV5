@@ -1,0 +1,33 @@
+{
+	"@id": "Planning-AI-Systems.tasks",
+	"@context": "tb",
+	"data": "Planning AI Systems.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"22d651ec",
+		"269cea31",
+		"33b0e7a7",
+		"37601ae4",
+		"3d58eee9",
+		"7a941c63",
+		"7aae51b8",
+		"970e92ce",
+		"a49817b6",
+		"bbb3bb0e",
+		"c6d389ef",
+		"c88c3d7e",
+		"cfba088d",
+		"d1635292",
+		"db239f2b",
+		"de633cf3",
+		"e7b77f8b",
+		"f63127bb",
+		"fb67404e"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

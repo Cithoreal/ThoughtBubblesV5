@@ -1,0 +1,21 @@
+{
+	"@id": "godot-xr-handtracking-toolkit",
+	"@context": "tb",
+	"data": "Godot XR Handtracking Toolkit\n\nStripped-down hand pose toolkit from a real game.\nRepo: <https://github.com/RevolNoom/godot_xr_handtracking>\nLicense: Check repo\nGodot version: 4.x\nStatus: Extracted from a game project, minimal\n\nWhat It Provides\nHand pose detection modules\nGesture recognition patterns\nMinimal — no full framework, just the working parts from a shipped game\n\nRelevance\nAlternative to [[godot-xr-auto-hand]] if you need specific hand pose detection without the full auto-hand…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-xr-auto-hand"
+	],
+	"LinkFrom": [
+		"godot-xr-auto-hand",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"hand-tracking"
+	],
+	"category": "projects"
+}

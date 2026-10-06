@@ -1,0 +1,21 @@
+{
+	"@id": "llm-memory-landscape-2026",
+	"@context": "tb",
+	"data": "LLM Memory Landscape — April 2026 Research\n\nSurvey of current tools, techniques, and breakthroughs in LLM agent memory, with actionable improvements for our vault system.\n\nKey Findings\nKarpathy's \"LLM Wiki\" Pattern (April 2026)\nSource: Karpathy's gist\n\nThe core insight: Instead of RAG retrieval at query time, maintain a structured wiki that the LLM reads directly. The wiki is a persistent, compounding artifact — cross-references already exist, contradictions are already flagged, synthesis…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"forgetting-mechanism",
+		"forgetting-tier-3-analysis",
+		"intake-filtering",
+		"vault-pruning-knowledge-map",
+		"HOME"
+	],
+	"tags": [
+		"concept",
+		"llm",
+		"memory"
+	],
+	"category": "concepts"
+}

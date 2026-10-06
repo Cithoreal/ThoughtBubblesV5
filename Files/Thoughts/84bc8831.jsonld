@@ -1,0 +1,12 @@
+{
+	"@id": "84bc8831",
+	"@context": "tb",
+	"data": "Categorize nodes (platform nodes, project nodes, space nodes)\n\n\"But I still need to sort of categorize them all now.\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

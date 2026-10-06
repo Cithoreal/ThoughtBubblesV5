@@ -1,0 +1,20 @@
+{
+	"@id": "grep-visualizing-thought-bubbles",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2024/visualizing-thought-bubbles.md\n\n12-\n13-# Journal — unknown\n14-\n15-## Source\n16-\n17:- Transcript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Visualizing Thought Bubbles.md\n18-- Transcribed by: WhisperX\n19-\n20-> [!note]- Full Transcript\n21-> \n22:> # Visualizing Thought Bubbles\n23-> \n24-> Transcribed: 2026-03-30 13:13  \n25-> Model: WhisperX large-v3  \n26-> Language: English  \n27-> \n--\n64-> \n65-> [00:00:45 → 00:00:48]  \n66-> So, yeah, feeling good.\n67->…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"thought-bubbles",
+		"semantic-web-and-linked-data"
+	],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

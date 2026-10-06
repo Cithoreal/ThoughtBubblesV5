@@ -1,0 +1,25 @@
+{
+	"@id": "calcifer-voice-presence",
+	"@context": "tb",
+	"data": "Concept: Calcifer Voice Presence\n\nWhat It Is\nCalcifer speaking aloud in cithoreal's physical space. Not a separate assistant — the same Calcifer, given a voice through the room's speakers via Home Assistant + Piper TTS.\n\nCurrent State\nPlanned / Backlog. Infrastructure partially in place.\n\nWhat's Ready\nOpenWakeWord running on [[infra/homeassistant]] — wake word detection live\nPiper TTS available on HA — voice synthesis engine present\nOpenClaw messaging to HA already possible in principle\n\nWhat's…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"room-2-0",
+		"calcifer-character",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"calcifer-character",
+		"room-2-0",
+		"concepts",
+		"calcifer-voice-mode",
+		"calcifer-voice"
+	],
+	"tags": [
+		"concept",
+		"recurring"
+	],
+	"category": "concepts"
+}

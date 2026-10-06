@@ -1,0 +1,22 @@
+{
+	"@id": "godot-xr-template",
+	"@context": "tb",
+	"data": "Godot XR Template\n\nStarter project with XR plugins and tools pre-configured. Your starting point.\nRepo: <https://github.com/GodotVR/godot-xr-template>\nLicense: MIT\nGodot version: 4.x\nStatus: Maintained\n\nWhat It Provides\nPre-configured XR project with godot-xr-tools and openxr vendors plugin\nBasic demo game scene\nExport presets for Quest and desktop\n\nRelevance\nClone this to start the spatial authoring project. Saves the setup dance.\n\nRelated\n[[godot-xr-tools]] — bundled in…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-xr-tools",
+		"godot-openxr-vendors"
+	],
+	"LinkFrom": [
+		"godot-xr-tools",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"foundation"
+	],
+	"category": "projects"
+}

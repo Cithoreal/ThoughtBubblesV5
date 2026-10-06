@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-10",
+	"@context": "tb",
+	"data": "2026-08-10\n\nEvents\nVault steward run 2026-08-10: Removed 365 journal/unknown duplicates, fixed wikilinks in fiction-to-spec-mapping, added missing entries to index/projects.md and index/infra.md, updated frontmatter dates on touched indexes\n\nDecisions\n\nNotes touched\n\nSession History\n2026-08-20: Discussed 2026 08 10",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

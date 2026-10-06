@@ -1,0 +1,29 @@
+{
+	"@id": "10-16-pokemon-snap-update",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/10-16 Pokemon snap Update.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 10-16 Pokemon snap Update\nTranscribed: 2026-03-30 04:20  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nSo just a bit of an update, just pacing around my room.\n[00:00:07 → 00:00:10]  \nMight as well try to record something.\n[00:00:11 → 00:00:12]  \nIt's raining outside.\n[00:00:12 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

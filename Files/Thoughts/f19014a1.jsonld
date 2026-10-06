@@ -1,0 +1,12 @@
+{
+	"@id": "f19014a1",
+	"@context": "tb",
+	"data": "Emptied THC vape cartridge\n\n\"I emptied my THC vape cartridge\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

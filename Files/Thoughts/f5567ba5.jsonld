@@ -1,0 +1,12 @@
+{
+	"@id": "f5567ba5",
+	"@context": "tb",
+	"data": "Investigate how IPFS static URL links work alongside URIs for identification\n\n\"I'll have to see how that works alongside URIs and the rest of this\"\n\nSource Journals\n[[10-26-22.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-26-22.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

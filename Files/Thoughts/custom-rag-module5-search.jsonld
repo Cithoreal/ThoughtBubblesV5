@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module5-search",
+	"@context": "tb",
+	"data": "Module 5: Search Engine — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nM5 is the query-facing module — it takes a natural language query, runs dual retrieval (dense vector + BM25 sparse), and fuses results using Qdrant's server-side Reciprocal Rank Fusion. It's the brain of the pipeline: M2-M4 handle ingestion, M5 handles the question \"given this query, what's most relevant?\"\n\nSingle entry point: search(query: str, top_k:…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-5"
+	],
+	"category": "projects"
+}

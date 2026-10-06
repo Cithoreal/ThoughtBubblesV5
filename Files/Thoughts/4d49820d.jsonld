@@ -1,0 +1,12 @@
+{
+	"@id": "4d49820d",
+	"@context": "tb",
+	"data": "Research creative writing courses\n\n\"I'll look into creative writing courses.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

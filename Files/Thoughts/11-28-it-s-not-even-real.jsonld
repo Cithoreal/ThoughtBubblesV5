@@ -1,0 +1,26 @@
+{
+	"@id": "11-28-it-s-not-even-real",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-28 It's not even real.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-28 It's not even real\nTranscribed: 2026-03-30 04:54  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:04]  \nSo, just, uh...\n[00:00:15 → 00:00:43]  \nSo the idea, the mind experiment, is if this isn't even real life, if this is just a simulation, and I'm the only actual conscious entity…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

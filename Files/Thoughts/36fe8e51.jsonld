@@ -1,0 +1,13 @@
+{
+	"@id": "36fe8e51",
+	"@context": "tb",
+	"data": "Take a shower\n\n\"Got to take a shower at some point.\"\n\nSource Journals\n[[2-16 Drunk.tasks]]\n[[Thought Bubbles Interface.tasks]]\n\nAll Quotes\n\"Got to take a shower at some point.\"\n\"take a shower\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2-16-Drunk.tasks",
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "73553b0a",
+	"@context": "tb",
+	"data": "Make request directly to the Brave API\n\n\"Potentially, I can just make the request directly to the Brave API\"\n\nSource Journals\n[[Web Search Function.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Web-Search-Function.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

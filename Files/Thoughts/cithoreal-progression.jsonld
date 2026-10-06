@@ -1,0 +1,36 @@
+{
+	"@id": "cithoreal-progression",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Cithoreal Progression.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# [[people/cithoreal|Cithoreal]] Progression\nTranscribed: 2026-03-30 11:54  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:10]  \nIt is 1 14 AM, February 14th, 2024.\n[00:00:10 → 00:00:11]  \nIs this Valentine's day?\n[00:00:11 → 00:00:12]  \nFebruary 14th.\n[00:00:14 → 00:00:16]  \nI'm not even a…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cithoreal",
+		"cybership",
+		"fiction-worldbuilding",
+		"skill-trees",
+		"thought-bubbles",
+		"year-reflections",
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"year-reflections",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/estia",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/identity",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "438adc21",
+	"@context": "tb",
+	"data": "Resume going to the gym\n\n\"I've been kind of really disappointed with myself for the past few days for not going to the gym.\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

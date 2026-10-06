@@ -1,0 +1,25 @@
+{
+	"@id": "2026-03-30-154123",
+	"@context": "tb",
+	"data": "Journal — 2026-03-30 15:41\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2026-03-30 15-41-23.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2026-03-30 15-41-23\nTranscribed: 2026-03-30 17:25  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 3.41 p.m. March 30th, 2026.\n[00:00:09 → 00:00:10]  \nHeading home.\n[00:00:11 → 00:00:26]  \nWill very likely have a meeting with my senior design team right when I get…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"anythingllm",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

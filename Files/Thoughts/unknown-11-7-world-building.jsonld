@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-11-7-world-building",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Work on worldbuilding', 'type': 'explicit', 'status': 'new', 'raw_quote': 'for right now i want to work on some world building', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '11-7 World Building.md', 'extracted_at': '2026-05-03T16:10:02.702694', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Pulled up The Ultimate Worldbuilding Questionnaire', 'type': 'progress', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

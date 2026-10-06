@@ -1,0 +1,17 @@
+{
+	"@id": "inbox-cancelled_transcription-1st_thought-thursday-_jul-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Inbox-Cancelled_transcription-1st_thought-Thursday,_Jul-CocoonWeaverApp.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Inbox-Cancelled_transcription-1st_thought-Thursday,_Jul-CocoonWeaverApp\nTranscribed: 2026-04-13 02:12  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 1112 p.m. July 13th, 2023.\n[00:00:06 → 00:00:07]  \nUh-huh.\n[00:00:12 →…",
+	"lastUpdated": "1776038400",
+	"createdAt": "1776038400",
+	"LinkTo": [
+		"ar-xr-development",
+		"health-and-sleep",
+		"designing-reality",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"category": "journals"
+}

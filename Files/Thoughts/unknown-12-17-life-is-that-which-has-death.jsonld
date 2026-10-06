@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-12-17-life-is-that-which-has-death",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Drive Alex home tomorrow (noon-ish)', 'type': 'explicit', 'status': 'new', 'raw_quote': 'Driving Alex home probably noon-ish tomorrow.', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '12-17 Life is that which has Death.md', 'extracted_at': '2026-05-03T16:17:06.653736', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Cancel VRV premium subscription', 'type': 'explicit', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "2eff7599",
+	"@context": "tb",
+	"data": "Set up internet search flow in Node-RED\n\n\"set up like a internet search flow\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

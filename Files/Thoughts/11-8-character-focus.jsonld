@@ -1,0 +1,26 @@
+{
+	"@id": "11-8-character-focus",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-8 Character Focus.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-8 Character Focus\nTranscribed: 2026-03-30 04:59  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:21]  \nso i want to get um work on the rescue story a bit more work on some developments um so i think i've done enough general world building for as far as this project goes um this project is…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/xr-development",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,26 @@
+{
+	"@id": "kitties-kats-and-room2-0",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Kitties, Kats, and Room2.0.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Kitties, Kats, and Room2.0\nTranscribed: 2026-03-30 12:26  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 2 0 8 PM, October 24th, 2024.\n[00:00:10 → 00:00:11]  \nOut on the trail.\n[00:00:11 → 00:00:15]  \nOh, got something in my eye.\n[00:00:16 → 00:00:20]  \nSo a couple of…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"room-2-0",
+		"homeassistant",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"personal/finance",
+		"personal/relationships"
+	],
+	"category": "journals"
+}

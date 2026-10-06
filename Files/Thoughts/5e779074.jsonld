@@ -1,0 +1,12 @@
+{
+	"@id": "5e779074",
+	"@context": "tb",
+	"data": "Finish linear algebra homework\n\n\"tomorrow I'm going to submit my meditations final and finish my linear algebra homework\"\n\nSource Journals\n[[Task System Planning.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System-Planning.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

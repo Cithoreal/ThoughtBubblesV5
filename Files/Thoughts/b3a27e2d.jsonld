@@ -1,0 +1,13 @@
+{
+	"@id": "b3a27e2d",
+	"@context": "tb",
+	"data": "Do laundry\n\n\"I should probably do laundry.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n[[Introspection 4.tasks]]\n\nAll Quotes\n\"I should probably do laundry.\"\n\"Ugh, I gotta do my laundry.\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks",
+		"Introspection-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

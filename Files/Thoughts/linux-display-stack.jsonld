@@ -1,0 +1,10 @@
+{
+	"@id": "linux-display-stack",
+	"@context": "tb",
+	"data": "Linux Kernel & Display Stack Foundations — Research Resources\n\n1.1 DRM/KMS Subsystem Internals\nDRM drivers, framebuffers, planes, CRTCs, encoders, connectors, KMS atomic commits, VR headset DRM devices, direct rendering\n\nCourses:\nLinux Kernel Development (free) — Official kernel GPU docs include DRM/KMS subsystem guide\nBaeldung: KMS and the Linux Graphics Subsystem — Practical overview of DRM/KMS architecture\n\nBooks:\nThe Linux Programming Interface by Michael Kerrisk — Chapter on timers/file…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "a6ad0135",
+	"@context": "tb",
+	"data": "Go with partner to MRI appointment\n\n\"She's getting an MRI tomorrow. I'm going to go with her.\"\n\nSource Journals\n[[Katie and Thought Bubbles TUI.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Katie-and-Thought-Bubbles-TUI.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

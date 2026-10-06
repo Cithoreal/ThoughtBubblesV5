@@ -1,0 +1,12 @@
+{
+	"@id": "744b9e0d",
+	"@context": "tb",
+	"data": "Fix skee-ball physics so ball falls when off alleyway (add positional trigger or collider)\n\n\"I just need to make it so that when the ball goes off the alleyway, it falls. Just... either have some positional stuff or a trigger collider.\"\n\nSource Journals\n[[Want to 3D Model.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Want-to-3D-Model.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

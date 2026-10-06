@@ -1,0 +1,12 @@
+{
+	"@id": "621ebbf2",
+	"@context": "tb",
+	"data": "Get textbook for public speaking\n\n\"I need to get the textbook for public speaking\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

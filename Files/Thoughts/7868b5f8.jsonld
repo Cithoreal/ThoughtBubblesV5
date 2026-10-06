@@ -1,0 +1,12 @@
+{
+	"@id": "7868b5f8",
+	"@context": "tb",
+	"data": "Put phone down on desk\n\n\"I've just been cleaning up, so I put the phone down on my desk for a while.\"\n\nSource Journals\n[[Mostly Silence.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Mostly-Silence.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

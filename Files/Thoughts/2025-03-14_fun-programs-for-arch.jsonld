@@ -1,0 +1,15 @@
+{
+	"@id": "2025-03-14_fun-programs-for-arch",
+	"@context": "tb",
+	"data": "2025 03 14_fun programs for arch",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"arch-linux-platform"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

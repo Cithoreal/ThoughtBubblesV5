@@ -1,0 +1,15 @@
+{
+	"@id": "newer-note",
+	"@context": "tb",
+	"data": "newer note",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"forgetting-mechanism"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

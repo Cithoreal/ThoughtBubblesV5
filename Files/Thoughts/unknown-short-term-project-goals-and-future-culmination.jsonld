@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-short-term-project-goals-and-future-culmination",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Send recording to Katie', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"I'm going to send this to Katie\", 'project': 'Social', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Short Term Project Goals and Future culmination.md', 'extracted_at': '2026-05-18T18:33:34.566163', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Review CRSQLite repositories', 'type': 'progress', 'status': 'completed',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

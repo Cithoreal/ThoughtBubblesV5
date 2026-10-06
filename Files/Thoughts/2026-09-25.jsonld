@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-25",
+	"@context": "tb",
+	"data": "2026-09-25\n\nEvents\nCreated Nextcloud evaluation report — Optiplex Docker deployment health check\nCreated Nextcloud evaluation report — comprehensive health check\nCreated Hindsight implementation analysis — deep dive on architecture options, disposition params, and deployment strategy\n\nDecisions\n\nNotes touched",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

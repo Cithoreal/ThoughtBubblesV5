@@ -1,0 +1,12 @@
+{
+	"@id": "335afdd1",
+	"@context": "tb",
+	"data": "Go for a run/sprint\n\n\"I want to just go for a run right now. I need to go for a sprint\"\n\nSource Journals\n[[Walking off some energy.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Walking-off-some-energy.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

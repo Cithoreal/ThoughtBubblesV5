@@ -1,0 +1,15 @@
+{
+	"@id": "grep-new-recording-4",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2025/new-recording-4.md\n\n115-> \n116-> [00:02:21 → 00:02:25]  \n117-> There's a lot of additional features that the community made and that I can make.\n118-> \n119-> [00:02:28 → 00:02:41]  \n120:> The reason I started looking into it all in the first place was for an AI project for school where I wanted to create basically my first iteration of skill trees.\n121-> \n122-> [00:02:41 → 00:02:41]  \n123:> Not so much skill trees.\n124-> \n125-> [00:02:41 → 00:02:48]  \n126:> It was…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

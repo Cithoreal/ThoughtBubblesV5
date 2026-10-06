@@ -1,0 +1,12 @@
+{
+	"@id": "bcb3ed1e",
+	"@context": "tb",
+	"data": "Look over purchased presents, map, count, and label them\n\n\"look over all of my presents I bought, map them, I count for them. Put names on them\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

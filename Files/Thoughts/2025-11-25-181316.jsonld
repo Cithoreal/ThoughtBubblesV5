@@ -1,0 +1,25 @@
+{
+	"@id": "2025-11-25-181316",
+	"@context": "tb",
+	"data": "Journal — 2025-11-25 18:13\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-25 18-13-16.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-25 18-13-16\nTranscribed: 2026-03-30 11:36  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 6.13 p.m. November 25th, 2025.\n[00:00:09 → 00:00:11]  \nHeading home, heading to Katie's actually.\n[00:00:12 → 00:00:15]  \nAnd school week is finished.\n[00:00:17 → 00:00:23] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"cybership"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,15 @@
+{
+	"@id": "grad-school-README",
+	"@context": "tb",
+	"data": "🎓 Grad School Research Guide\n\nFor Katie — a guided tour through everything we've researched about graduate school options for cithoreal (and opportunities for you). Start here and follow the flow.\n\nHow to Use This Guide\n\nRead these documents in order. Each one builds on the last:\nStart here → START-HERE.md — the big picture: what we're doing, why, and what matters\nUnderstand the project → thoughtbubbles-project.md — the XR concept driving cithoreal's research direction\nThe scholarship that…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"grad-school",
+		"index"
+	],
+	"category": "projects"
+}

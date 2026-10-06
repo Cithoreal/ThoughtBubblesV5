@@ -1,0 +1,22 @@
+{
+	"@id": "godotsvg",
+	"@context": "tb",
+	"data": "GodSVG\n\nTool to create optimized Scalable Vector Graphics files, built in Godot.\nRepo: <https://github.com/MewPurPur/GodSVG>\nLicense: Check repo\nGodot version: 4.x\nStatus: Active, listed in awesome-godot\n\nWhat It Provides\nSVG creation and editing\nVector graphics tool built entirely in Godot\nNode-based editing of SVG elements\n\nRelevance\nVector graphics could be used for bubble icons, edge styling, and 2D UI elements in the spatial environment. The Godot-native SVG editor pattern shows how to…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-node-visualization",
+		"goal-spatial-authoring"
+	],
+	"LinkFrom": [
+		"lorien",
+		"pixelorama",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"creative"
+	],
+	"category": "projects"
+}

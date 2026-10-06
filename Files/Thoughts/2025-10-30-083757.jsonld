@@ -1,0 +1,27 @@
+{
+	"@id": "2025-10-30-083757",
+	"@context": "tb",
+	"data": "Journal — 2025-10-30 08:37\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-10-30 08-37-57.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-10-30 08-37-57\nTranscribed: 2026-03-30 11:30  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 8.37 a.m. October 30th, 2025.\n[00:00:08 → 00:00:16]  \nDon't have too much to say, but just getting into the habit of these and enjoy getting thoughts out.\n[00:00:16 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"air-hockey-mr",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/homelab",
+		"tech/audio-pipeline",
+		"tech/python",
+		"mood/low",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

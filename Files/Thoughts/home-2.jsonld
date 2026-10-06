@@ -1,0 +1,17 @@
+{
+	"@id": "home-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Home 2.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Home 2\nTranscribed: 2026-03-30 05:41  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:03 → 00:00:03]  \nGotta read it fine.\n[00:00:06 → 00:00:07]  \nOkay.\n[00:00:08 → 00:00:12]  \nWell, we'll see how this thing goes.\n[00:00:15 → 00:00:18]  \nI'm going to get this water right away.\n[00:00:20 → 00:00:21] …",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

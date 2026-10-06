@@ -1,0 +1,12 @@
+{
+	"@id": "1b53d4a1",
+	"@context": "tb",
+	"data": "Extract discussion about AI system from transcript\n\n\"extract my whole discussion about this AI system\"\n\nSource Journals\n[[PDF Game Inatructions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"PDF-Game-Inatructions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "d1bb7503",
+	"@context": "tb",
+	"data": "Remove response field from report table\n\n\"We removed response yesterday.\"\n\nSource Journals\n[[WorkMeetings-Because_this,_and_we're_the-1st_thought-Friday,_Mar-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"WorkMeetings-Because_this-_and_we-re_the-1st_thought-Friday-_Mar-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

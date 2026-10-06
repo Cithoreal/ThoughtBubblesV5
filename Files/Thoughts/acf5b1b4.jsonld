@@ -1,0 +1,12 @@
+{
+	"@id": "acf5b1b4",
+	"@context": "tb",
+	"data": "Study astronomy/physics for 3 hours\n\n\"I spend some more time learning about the universe.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

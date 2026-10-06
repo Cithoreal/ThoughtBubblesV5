@@ -1,0 +1,12 @@
+{
+	"@id": "a6753de0",
+	"@context": "tb",
+	"data": "Set up Discord integration for AI bots\n\n\"set it up in Discord so that every time there's a message or every few messages they just can respond\"\n\nSource Journals\n[[Instructing the Main Data Path.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Instructing-the-Main-Data-Path.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

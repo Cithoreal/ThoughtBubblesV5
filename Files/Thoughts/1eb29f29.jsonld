@@ -1,0 +1,12 @@
+{
+	"@id": "1eb29f29",
+	"@context": "tb",
+	"data": "Apply to LOB\n\n\"I applied to LOB, which was on my to-do list.\"\n\nSource Journals\n[[10-18 Yuru Camp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-18-Yuru-Camp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

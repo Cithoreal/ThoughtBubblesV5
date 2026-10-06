@@ -1,0 +1,12 @@
+{
+	"@id": "5d21068e",
+	"@context": "tb",
+	"data": "Go for walk on the trail\n\n\"Getting out on the trail today\"\n\nSource Journals\n[[Saving Thoughts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thoughts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

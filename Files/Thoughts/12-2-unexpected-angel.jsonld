@@ -1,0 +1,27 @@
+{
+	"@id": "12-2-unexpected-angel",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/12-2 Unexpected Angel.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 12-2 Unexpected Angel\nTranscribed: 2026-03-30 05:09  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nThis probably won't be very long, but the idea just came to me, so...\n[00:00:07 → 00:00:23]  \nI was just thinking... Part of... And this is just to record down ideas so that they can…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"ar-xr-development",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"topic/star-system",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

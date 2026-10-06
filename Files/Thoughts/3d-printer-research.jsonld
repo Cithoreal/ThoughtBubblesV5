@@ -1,0 +1,18 @@
+{
+	"@id": "3d-printer-research",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/3D printer research.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 3D printer research\nTranscribed: 2026-03-30 11:42  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 618 p.m. December 11th, 2023.\n[00:00:05 → 00:00:21]  \nI've had a lot of trouble the last couple days with my arch installation.\n[00:00:25 → 00:00:52]  \nhad well it all started…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia"
+	],
+	"category": "journals"
+}

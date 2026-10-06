@@ -1,0 +1,17 @@
+{
+	"@id": "gmail-service",
+	"@context": "tb",
+	"data": "Gmail Service\n\nAuthentication token expired (invalid_grant error). Requires re-authorization via python3 scripts/gmail_check.py --setup.\n\nIssue persistent since: 2026-05-11",
+	"lastUpdated": "1780617600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra",
+		"gmail-auth"
+	],
+	"tags": [
+		"infra",
+		"gmail"
+	],
+	"category": "infra"
+}

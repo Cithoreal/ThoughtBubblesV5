@@ -1,0 +1,25 @@
+{
+	"@id": "onedrive-personal-writings",
+	"@context": "tb",
+	"data": "OneDrive Personal Writings Archive\n\nIngested 2026-04-12 from OneDrive local backup on Elements drive.\nThese are cithoreal's personal written documents — journals, identity pieces, philosophy notes, creative writing.\n\nIdentity & Self-Knowledge\n\n\"Who I Am\" (Creating/Writing/Personal/)\n\"I'm an incredibly social based person who most of the time hates having to be social. I'm an extrovert, but I'm not outgoing. I'm shy. I tend to get down on myself for not being particularly specialized in…",
+	"lastUpdated": "1775952000",
+	"createdAt": "1791165365",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"cithoreal-identity",
+		"project-calcifer-founding-vision",
+		"research-threads",
+		"cithoreal"
+	],
+	"tags": [
+		"archive",
+		"onedrive",
+		"personal",
+		"identity",
+		"writing"
+	],
+	"category": "archive"
+}

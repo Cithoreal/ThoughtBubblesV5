@@ -1,0 +1,18 @@
+{
+	"@id": "runbooks",
+	"@context": "tb",
+	"data": "Calcifer Operational Runbooks\n\nInstructions for three operational modes: Status Report, Full Diagnostic, and Alert States.\nStatus Report\n\nWhen: cithoreal asks \"status report\", \"how are things\", \"what's up\", or similar casual check-ins.\n\nGoal: Concise, prioritized briefing. Lead with what matters, skip what doesn't.\n\nPriority Order\n🔴 Problems — anything broken, auth expired, services down, blockers on active projects\n🟡 Changes — what's different since last report (new journals processed,…",
+	"lastUpdated": "1781136000",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"runbook",
+		"status-report",
+		"diagnostic",
+		"alert"
+	],
+	"category": "infra"
+}

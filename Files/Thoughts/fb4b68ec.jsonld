@@ -1,0 +1,13 @@
+{
+	"@id": "fb4b68ec",
+	"@context": "tb",
+	"data": "Clean up external drive\n\n\"I'll go through and clean up my external drive pretty soon\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks",
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

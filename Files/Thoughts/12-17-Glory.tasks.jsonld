@@ -1,0 +1,19 @@
+{
+	"@id": "12-17-Glory.tasks",
+	"@context": "tb",
+	"data": "12 17 Glory.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"48d8cc03",
+		"97cfe556",
+		"b10e9b38",
+		"d70a8d7e",
+		"ed095dac"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

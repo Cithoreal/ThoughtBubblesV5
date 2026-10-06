@@ -1,0 +1,17 @@
+{
+	"@id": "2026-08-24-triple-extraction-batch1",
+	"@context": "tb",
+	"data": "Triple Extraction — Batch 1 (Priority Concepts)\n\nBottom-up vocabulary induction from 6 high-value concept notes, following the AutoSchemaKG approach: extract triples first, let the predicate vocabulary emerge from the data.\n\nMethod\n\nExtracted typed subject-predicate-object triples from 6 vault concept notes. Each triple includes the note source, the relationship type, and a supporting quote. Predicates were NOT predefined — they emerged from what the text actually says.\n\nNotes…",
+	"lastUpdated": "1787529600",
+	"createdAt": "1787529600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"research",
+		"triple-extraction",
+		"knowledge-graph",
+		"thoughtbubbles"
+	],
+	"category": "calcifer"
+}

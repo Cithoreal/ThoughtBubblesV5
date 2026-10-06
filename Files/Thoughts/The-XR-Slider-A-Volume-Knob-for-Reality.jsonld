@@ -1,0 +1,19 @@
+{
+	"@id": "The-XR-Slider-A-Volume-Knob-for-Reality",
+	"@context": "tb",
+	"data": "The XR Slider — A Volume Knob for Reality\n\nType: Room 2.0 Core System\nStatus: Conceptual — needs its own spec\nOrigin: Mirrorworlds capstone project (2022), applied to Room 2.0 sub-apps (2026)\n\nCore Idea\nA spectrum between base reality and full virtual simulation. Like a volume knob: all the way down is the real world as-is, all the way up is completely virtual, and anything in between is a blend. Every Room 2.0 sub-app exists on this spectrum and declares which positions it supports and what it…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Mirrorworlds-Technological-Parallel-Realities",
+		"Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+		"Mirrorworlds-Technological-Parallel-Realities",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"category": "thought-spaces"
+}

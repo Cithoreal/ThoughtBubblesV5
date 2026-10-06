@@ -1,0 +1,19 @@
+{
+	"@id": "2026-08-31-jsonld-semantic-web",
+	"@context": "tb",
+	"data": "JSON-LD ↔ Semantic Web — The Vision You Already Run\n\nFirst missing edge written from the recommender's list. 0.80 Jaccard — the strongest structural signal in the graph.\n\nThe Signal\n\nThe missing-edge recommender flagged this pair as the #1 same-domain gap: JSON-LD and Semantic Web & Linked Data share 80% of their prose neighbors (Core System, RDF, Refocus, ThoughtBubbles) but have no direct edge between them. The vault treats them as two independent concepts orbiting the same hubs — one a…",
+	"lastUpdated": "1788134400",
+	"createdAt": "1788134400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"connection-weaving",
+		"knowledge-graph",
+		"missing-edges",
+		"semantic-web",
+		"json-ld",
+		"thoughtbubbles"
+	],
+	"category": "calcifer"
+}

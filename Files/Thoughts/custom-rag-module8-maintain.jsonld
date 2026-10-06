@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module8-maintain",
+	"@context": "tb",
+	"data": "Module 8: Maintenance — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nM8 is the caretaker — it keeps the pipeline healthy over time. Where M7 detects problems, M8 fixes them. The vault is a living document: files are created, edited, moved, and deleted daily. The Qdrant index must track these changes or the pipeline silently degrades.\n\nCore principle: M8 operations are safe by default. Nothing is deleted without…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-8"
+	],
+	"category": "projects"
+}

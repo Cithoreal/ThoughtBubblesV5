@@ -1,0 +1,24 @@
+{
+	"@id": "2025-09-09-184626",
+	"@context": "tb",
+	"data": "Journal — 2025-09-09 18:46\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-09-09 18-46-26.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-09-09 18-46-26\nTranscribed: 2026-03-30 11:26  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:06]  \nIt is 6.46 p.m. September 9th, 2025.\n[00:00:08 → 00:00:09]  \nMy head hurts quite a bit.\n[00:00:10 → 00:00:17]  \nI've taken medicine, but either it didn't help or it did help, and…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"thought-bubbles",
+		"audio-journal-pipeline"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/homelab",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

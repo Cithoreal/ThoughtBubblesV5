@@ -1,0 +1,12 @@
+{
+	"@id": "2cae65eb",
+	"@context": "tb",
+	"data": "Build knowledge graph of public speaking class in Neo4j\n\n\"I'd love to use Cypher to, or rather Neo4j to build a knowledge graph of my public speaking class as an experiment\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

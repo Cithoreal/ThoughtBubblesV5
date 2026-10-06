@@ -1,0 +1,27 @@
+{
+	"@id": "11-15-non-existance",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-15 Non-existance.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-15 Non-existance\nTranscribed: 2026-03-30 04:38  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nWell, well, well\n[00:00:04 → 00:00:20]  \nSo, I think from a mixture of having what I ate for dinner last night and the fact that I messaged, sent a text to Rebecca this morning, I'm hoping…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"room-2-0",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

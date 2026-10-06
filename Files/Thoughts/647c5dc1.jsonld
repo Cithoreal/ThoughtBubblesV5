@@ -1,0 +1,12 @@
+{
+	"@id": "647c5dc1",
+	"@context": "tb",
+	"data": "Schedule SLA sheet on Nextcloud with reminder\n\n\"Please schedule that on my next cloud and remind me. Remind me first thing in the morning\"\n\nSource Journals\n[[2026-04-02 16-19-30.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-16-19-30.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

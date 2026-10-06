@@ -1,0 +1,23 @@
+{
+	"@id": "inbox-it_is_eleven_forty_six-_p-_m-_may-1st_thought-monday-_may-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker begins with a late-night conceptual breakthrough regarding their 'Thought Bubbles' project, reframing it as a complete data architecture rather than just a visual interface. They then shift to narrating a recent solo car camping trip along the Kancamagus Highway, describing their reliance on Subaru's EyeSight technology, struggles with closed campgrounds and headaches, and the conflicting feelings of anxiety and determination during the journey.\n\nMood &…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/personal-knowledge-management",
+		"theme/solo-travel",
+		"theme/driving-automation",
+		"theme/camping-logistics",
+		"theme/late-night-reflection"
+	],
+	"category": "journals"
+}

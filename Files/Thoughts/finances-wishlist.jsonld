@@ -1,0 +1,32 @@
+{
+	"@id": "finances-wishlist",
+	"@context": "tb",
+	"data": "Finances & Wishlist\n\nTracking finances, budgets, wishlists, and hardware sources. This is the living document for that.\n\nHardware Source Registry\n_Places to buy Shelly, ESP, and other smart home / maker hardware._\n\n| Source | Specializes In | Notes |\n|---|---|---|\n| Shelly Store | Shelly relays, dimmers, sensors | Official; sometimes slower shipping |\n| Shelly Amazon | Shelly devices | Faster shipping, sometimes higher price |\n| Adafruit | ESP32/ESP8266 boards, sensors, components | Great docs,…",
+	"lastUpdated": "1790035200",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"pi5-optiplex-migration",
+		"homeassistant",
+		"homelab-infrastructure",
+		"skill-trees",
+		"cybernautics-vision",
+		"backup-strategy-evaluation",
+		"storage-evaluation-2026-09-22"
+	],
+	"LinkFrom": [
+		"infrastructure-productivity-habits-plan",
+		"finances-budget",
+		"alienware",
+		"inventory",
+		"internship-budget-2026",
+		"personal-finances",
+		"room-2-0-esp32-sensors"
+	],
+	"tags": [
+		"finances",
+		"wishlist",
+		"project",
+		"hardware"
+	],
+	"category": "reference"
+}

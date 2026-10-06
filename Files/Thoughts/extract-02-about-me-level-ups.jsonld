@@ -1,0 +1,16 @@
+{
+	"@id": "extract-02-about-me-level-ups",
+	"@context": "tb",
+	"data": "Extract: about-me-and-major-level-ups.md\n\nSource: vault/journals/2022/about-me-and-major-level-ups.md\nRecorded: 2022-08-07 (March 13, 2022 per transcript)\nExtraction focus: Skill Trees / Quest System / Gamified Learning / ThoughtBubbles progression\n\nRelevant Passages\n\nRPG Skill Leveling as Life Philosophy\n\n[00:35:04 → 00:35:26]\nBut if I focus on something else, and then I've obviously put it in perspective of leveling up, that in an RPG, by leveling up the skills that are easy to level up, that…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

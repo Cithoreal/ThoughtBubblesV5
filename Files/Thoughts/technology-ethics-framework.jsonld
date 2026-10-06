@@ -1,0 +1,27 @@
+{
+	"@id": "technology-ethics-framework",
+	"@context": "tb",
+	"data": "Technology Ethics & Data Sovereignty Philosophy\n\nWhat It Is\ncithoreal's explicit philosophical framework for technology development, particularly around XR, immersive interfaces, and brain-computer interfaces. Not background beliefs — active design inputs. He studies this to face the challenges head-on.\n\nCore Position (articulated Jul 2023)\n\"My main area of study is the development and implications of more immersive and higher bandwidth devices between living beings and computers... I believe…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2023-07-11_technologys-ethical-future",
+		"2024-05-10_privacy-notice-ai-tools",
+		"2024-10-24_signal-messenger-unique-features",
+		"cybernautics-vision",
+		"solid-pod-sovereignty",
+		"thought-bubbles",
+		"homelab-infrastructure",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"philosophy",
+		"ethics"
+	],
+	"category": "concepts"
+}

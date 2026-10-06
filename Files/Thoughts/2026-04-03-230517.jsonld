@@ -1,0 +1,20 @@
+{
+	"@id": "2026-04-03-230517",
+	"@context": "tb",
+	"data": "Journal — 2026-04-03 23:05\n\nSummary\n\nThis entry appears to be a brief technical test of the recording equipment, likely conducted while the speaker was in a vehicle. The speaker verifies audio capture functionality with a standard test phrase before presumably beginning an actual journal entry.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion | engaged | technical |\n| Valence | — | neutral |\n| Energy | medium | medium |\n| Arousal | — | medium |\n\nSentiment arc: Flat line…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"audio-journal-pipeline"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"tech/audio-pipeline",
+		"theme/audio-testing",
+		"theme/technical-verification"
+	],
+	"category": "journals"
+}

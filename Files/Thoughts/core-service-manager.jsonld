@@ -1,0 +1,10 @@
+{
+	"@id": "core-service-manager",
+	"@context": "tb",
+	"data": "Core — Spatial Service Manager: Research Resources\n\n3.1 ECS (Entity-Component-System) Architecture for OS Services\n\nSub-skill: ECS fundamentals, entities as IDs, components as data, systems as behavior, data-oriented design, ECS for OS services, reactive ECS\n\nCourses/Talks:\nEntity Component Systems — UT Austin CS354P Lecture (PDF) — University lecture covering ECS vs OOP, component structs, systems, IComponentData interfaces, data-oriented design principles\nData-Oriented Design for Games:…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

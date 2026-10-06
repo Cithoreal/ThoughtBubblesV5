@@ -1,0 +1,20 @@
+{
+	"@id": "pi3",
+	"@context": "tb",
+	"data": "Node: pi3\n\nRole\nPi-hole — Network-wide DNS sinkhole and ad blocker.\n\nSpecs\nCPU: ARM (Pi 3 generation)\nRAM: 1 GB\nStorage: SD card\nTailscale IP: 100.109.214.81\nLocal IP: 192.168.1.178\nOS: Debian GNU/Linux 12 (bookworm)\n\nServices\n| Service | URL/Port | Status |\n|---|---|---|\n| Pi-hole / AdGuard | TBD | 🔲 Pending setup |\n\nAccess\nSSH: ssh pi3 (key auth only)\nTailscale hostname: pi3\nMAC: b8:27:eb:10:67:22\n\nNotes\nFormerly hostname hyperion — re-enrolled in Tailscale 2026-04-24\nSSH key auth configured…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"pi4",
+		"pi5",
+		"star",
+		"homelab-infrastructure"
+	],
+	"LinkFrom": [
+		"pi4"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

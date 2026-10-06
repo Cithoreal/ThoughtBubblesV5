@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_twelve_forty_three_a_m-_which-1st_thought-sunday-_mar-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Fix loading and positioning data issues in ThoughtBubbles', 'type': 'explicit', 'status': 'new', 'raw_quote': \"Loading isn't yet working... Things like positioning data is just not working yet. So I'll have to figure that out.\", 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Inbox-It_is_twelve_forty_three_a_m,_which-1st_thought-Sunday,_Mar-CocoonWeaverApp.md', 'extracted_at':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

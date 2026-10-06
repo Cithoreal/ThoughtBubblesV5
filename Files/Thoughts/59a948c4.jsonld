@@ -1,0 +1,12 @@
+{
+	"@id": "59a948c4",
+	"@context": "tb",
+	"data": "Get textbook for public speaking class\n\n\"I still need to get the textbook\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

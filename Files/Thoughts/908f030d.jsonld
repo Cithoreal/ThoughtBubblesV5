@@ -1,0 +1,12 @@
+{
+	"@id": "908f030d",
+	"@context": "tb",
+	"data": "Bring laptop downstairs and load 3D model into Blender\n\n\"my plan is to bring my laptop down and get that model up and get it into Blender on my laptop\"\n\nSource Journals\n[[Planning for the weekend.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-for-the-weekend.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

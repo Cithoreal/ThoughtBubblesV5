@@ -1,0 +1,27 @@
+{
+	"@id": "home-3",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Home 3.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Home 3\nTranscribed: 2026-03-30 05:41  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nAlright, it, uh, ended the recording, but that's okay, I think it sounds alright.\n[00:00:11 → 00:00:12]  \nOkay, downloads.\n[00:00:13 → 00:00:14]  \nAudacity.\n[00:00:16 → 00:00:20]  \nThank you.\n[00:00:22 → 00:00:24] …",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"room-2-0",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

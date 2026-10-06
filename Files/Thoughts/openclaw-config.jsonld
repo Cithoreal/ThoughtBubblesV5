@@ -1,0 +1,23 @@
+{
+	"@id": "openclaw-config",
+	"@context": "tb",
+	"data": "OpenClaw Config Summary\n\nImage model routing and configuration summary for OpenClaw.\n\nRelated\n[[infra/openclaw]] — main OpenClaw config\n[[infra/openclaw-gateway]] — gateway config & pending maintenance\n[[infra/openclaw-calcifer]] — Calcifer config reference & feature map\n[[infra/openclaw-agents]] — agent vision model routing",
+	"lastUpdated": "1783900800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"openclaw",
+		"openclaw-gateway",
+		"openclaw-calcifer",
+		"openclaw-agents"
+	],
+	"LinkFrom": [
+		"HOME",
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"openclaw",
+		"config"
+	],
+	"category": "infra"
+}

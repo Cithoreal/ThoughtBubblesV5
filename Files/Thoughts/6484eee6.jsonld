@@ -1,0 +1,12 @@
+{
+	"@id": "6484eee6",
+	"@context": "tb",
+	"data": "Store documents properly and link in Node-RED or Neo4j\n\n\"I need to make sure that I store the documents properly and link to them in Node-RED or in Neo4j\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,27 @@
+{
+	"@id": "2026-04-15-185131",
+	"@context": "tb",
+	"data": "Journal — 2026-04-15 18:51\n\nSummary\n\nThe speaker discusses securing a final interview for a $100k position where they'll start as an intern with potential for full-time conversion, while managing end-of-semester stress over senior design and physics finals. They extensively plan technical infrastructure improvements with their AI assistant Calcifer, including custom RAG systems, audio journal UIs, and automated task management, alongside personal branding projects with Katie.\n\nMood & Energy\n\n|…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"nextcloud",
+		"audio-journal-pipeline",
+		"elements-drive",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"theme/career_transition",
+		"theme/academic_completion",
+		"theme/technical_infrastructure",
+		"theme/ai_collaboration",
+		"theme/personal_organization"
+	],
+	"category": "journals"
+}

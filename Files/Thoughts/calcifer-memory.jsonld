@@ -1,0 +1,28 @@
+{
+	"@id": "calcifer-memory",
+	"@context": "tb",
+	"data": "Calcifer Memory\n\nThe architecture behind Calcifer's persistent memory across sessions. Not a single system — a layered stack:\nVault notes (vault/) — canonical knowledge store. Atomic notes, projects, concepts, infra, people. The source of truth.\nDaily notes (vault/daily/) — auto-generated timestamped logs of events, decisions, and stewardship runs.\nCustom RAG (scripts/vault_rag.py) — Qdrant + qwen3-embedding + BM25 hybrid search over the vault. Falls back to BM25-only if Qdrant is down.…",
+	"lastUpdated": "1781654400",
+	"createdAt": "1791165365",
+	"LinkTo": [
+		"openclaw-calcifer",
+		"calcifer-vault",
+		"custom-rag-pipeline",
+		"atomic-notes",
+		"git-discipline"
+	],
+	"LinkFrom": [
+		"forgetting-mechanism",
+		"forgetting-tier-3-analysis",
+		"intake-filtering",
+		"openclaw-calcifer",
+		"projects-custom-rag-pipeline",
+		"nextcloud-research"
+	],
+	"tags": [
+		"concept",
+		"memory-system",
+		"architecture"
+	],
+	"category": "concepts"
+}

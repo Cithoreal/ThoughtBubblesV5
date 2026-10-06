@@ -1,0 +1,12 @@
+{
+	"@id": "be85f732",
+	"@context": "tb",
+	"data": "Test print\n\n\"test print\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "32df456f",
+	"@context": "tb",
+	"data": "Set up ability to make requests to OpenAI and local AIs\n\n\"I can make requests to OpenAI and to local AIs\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

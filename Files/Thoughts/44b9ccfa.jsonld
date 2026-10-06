@@ -1,0 +1,12 @@
+{
+	"@id": "44b9ccfa",
+	"@context": "tb",
+	"data": "Transfer SSD from Alienware to Optiplex\n\n\"I'm going to try to get the SSD Alienware transferred over to the Optiplex\"\n\nSource Journals\n[[2026-04-14 19-16-00.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-14-19-16-00.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

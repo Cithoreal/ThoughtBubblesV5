@@ -1,0 +1,25 @@
+{
+	"@id": "blank-title",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Blank Title.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Blank Title\nTranscribed: 2026-03-30 05:40  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:12]  \nUh, so against my better judgment, I'm gonna masturbate until I fall asleep and just figured if I'm gonna do it, might as well do this.\n[00:00:15 → 00:00:17]  \nAnd I'm logging into the reddit.\n[00:00:29 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr",
+		"project-calcifer-founding-vision",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

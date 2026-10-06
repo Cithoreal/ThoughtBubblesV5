@@ -1,0 +1,12 @@
+{
+	"@id": "85e47260",
+	"@context": "tb",
+	"data": "Create front-end experience for Home Assistant\n\n\"I'll eventually need to create a really good front-end experience\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

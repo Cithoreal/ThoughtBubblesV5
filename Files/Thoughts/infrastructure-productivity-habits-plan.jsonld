@@ -1,0 +1,30 @@
+{
+	"@id": "infrastructure-productivity-habits-plan",
+	"@context": "tb",
+	"data": "Comprehensive Infrastructure, Productivity & Habits Plan\n\ncithoreal's 2026-04-14 pre-sleep directive: \"I want to come up with a comprehensive plan to continue to improve my infrastructure, productivity, and habits.\" This is the umbrella. Skill trees are the framework for managing it all.\n\nThe Problem\n\nThere are too many parallel paths — hardware projects, software builds, learning goals, finance tracking, habits — and no unified way to see where you are in each, what's blocked, and what to…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776124800",
+	"LinkTo": [
+		"skill-trees",
+		"cybernautics-vision",
+		"finances-wishlist",
+		"pi5-optiplex-migration",
+		"alienware",
+		"homelab-infrastructure",
+		"focus-system"
+	],
+	"LinkFrom": [
+		"skill-trees",
+		"HOME",
+		"concepts",
+		"adhd-personal-deep-dive",
+		"skill-trees-physics-curriculum"
+	],
+	"tags": [
+		"concept",
+		"active",
+		"planning",
+		"infrastructure"
+	],
+	"category": "concepts"
+}

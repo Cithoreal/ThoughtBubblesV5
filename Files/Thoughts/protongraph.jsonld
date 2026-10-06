@@ -1,0 +1,27 @@
+{
+	"@id": "protongraph",
+	"@context": "tb",
+	"data": "ProtonGraph\n\nNode-based tool for procedural content creation in Godot. Like visual scripting but for 3D model generation.\nRepo: <https://github.com/protongraph/protongraph>\nLicense: Check repo\nGodot version: Requires custom engine modules\nStatus: Listed in awesome-godot, needs custom build\n\nWhat It Provides\nNode-based visual editor for procedural generation\nNodes represent operations (noise, blend, transform, etc.)\nGraph structure defines the generation pipeline\nOutput is 3D content\n\nRelevance…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-typed-links",
+		"orchestrator",
+		"xenolith-graph"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"goal-typed-links",
+		"orchestrator",
+		"spatial-authoring-research",
+		"xenolith-graph"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"node-graph",
+		"visual-programming"
+	],
+	"category": "projects"
+}

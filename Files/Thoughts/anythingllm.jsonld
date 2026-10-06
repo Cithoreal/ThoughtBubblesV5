@@ -1,0 +1,37 @@
+{
+	"@id": "anythingllm",
+	"@context": "tb",
+	"data": "Service: AnythingLLM\n\n⛔ DEPRECATED — 2026-04-20\nAnythingLLM has been replaced by the Custom RAG pipeline (Qdrant + BM25 on [[infra/star]]).\nThe kb.cybernautics.net Caddy route has been removed.\nContainers (anythingllm, chromadb) still exist on [[infra/optiplex]] but are no longer in use.\nDecommission: ssh optiplex 'docker stop anythingllm chromadb && docker rm anythingllm chromadb'\nData volumes: /mnt/storage/anythingllm and /mnt/storage/chromadb can be archived or deleted.\nSee [[infra/star]]…",
+	"lastUpdated": "1776729600",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star",
+		"optiplex",
+		"pi5",
+		"knowledge-base-pipeline",
+		"local-ai-infrastructure",
+		"audio-journal-pipeline",
+		"thought-bubbles",
+		"2026-04-07-obsidian-vault-architecture"
+	],
+	"LinkFrom": [
+		"homelab-2025-buildout",
+		"homelab-infrastructure",
+		"local-ai-infrastructure",
+		"personal-ai-system-vision",
+		"refocus",
+		"2026-03-30-114045",
+		"2026-03-30-154123",
+		"2026-04-02-114437",
+		"2026-04-14-191600",
+		"projects-audio-journal-pipeline",
+		"knowledge-base-pipeline",
+		"nextcloud-research"
+	],
+	"tags": [
+		"infra",
+		"project",
+		"deprecated"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,19 @@
+{
+	"@id": "2025-07-11-141633",
+	"@context": "tb",
+	"data": "Journal — 2025-07-11 14:16\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-07-11 14-16-33.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-07-11 14-16-33\nTranscribed: 2026-03-30 11:24  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:03]  \nHello, hi QD.\n[00:00:05 → 00:00:20]  \nAlright, so for some project updates, and I'll probably have this transcribed and summarized by AI as well for my tasks.\n[00:00:20 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/homelab",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"project"
+	],
+	"category": "journals"
+}

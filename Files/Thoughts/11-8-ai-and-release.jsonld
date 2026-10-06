@@ -1,0 +1,27 @@
+{
+	"@id": "11-8-ai-and-release",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-8 AI and Release.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-8 AI and Release\nTranscribed: 2026-03-30 04:58  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:14]  \nSo I was just watching the video on BCI stuff and then just my first introductory video on TensorFlow.\n[00:00:19 → 00:00:34]  \nSo I'm definitely going to want to, like all of my…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/identity",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

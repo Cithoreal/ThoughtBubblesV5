@@ -1,0 +1,17 @@
+{
+	"@id": "bluesky-atproto",
+	"@context": "tb",
+	"data": "Bluesky & AT Protocol (ATProto) — Research Overview\nWhat is AT Protocol?\n\nThe Authenticated Transfer Protocol (ATProto) is an open, federated protocol for decentralized social networking, created by Bluesky Social PBC. It's designed around \"big world with small world fallbacks\" — network-wide indexing and discoverability, while allowing independent operation.\n\nCore Architecture: Four Services\n\nATProto splits what would be a monolithic social server into four distinct roles:\nPersonal Data Server…",
+	"lastUpdated": "1786147200",
+	"createdAt": "1786147200",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"concept",
+		"research",
+		"bluesky",
+		"atproto",
+		"decentralized"
+	],
+	"category": "concepts"
+}

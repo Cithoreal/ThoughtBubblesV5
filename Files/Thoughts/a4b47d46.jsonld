@@ -1,0 +1,12 @@
+{
+	"@id": "a4b47d46",
+	"@context": "tb",
+	"data": "Create stock market game using real stocks\n\n\"What if I made a game about the stock market using real stocks to learn it?\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

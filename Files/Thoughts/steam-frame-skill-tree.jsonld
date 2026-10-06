@@ -1,0 +1,10 @@
+{
+	"@id": "steam-frame-skill-tree",
+	"@context": "tb",
+	"data": "Steam Frame Development Skill Tree\nVision\n\nMastery of Steam Frame development means: building standalone VR apps that run natively on Snapdragon 8 Gen 3 / SteamOS ARM64, understanding SteamOS/Holo Core internals deeply enough to modify the OS, navigating the full compatibility stack (Proton/FEX/Lepton), developing OpenXR applications and API layers for the Frame's unique hardware, streaming PC VR wirelessly, and building/certifying accessories that interface with the expansion port. You go from…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "aa6efbdb",
+	"@context": "tb",
+	"data": "Chunk audio files for processing\n\n\"I am going to need to chunk my audio files\"\n\nSource Journals\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

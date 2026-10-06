@@ -1,0 +1,12 @@
+{
+	"@id": "31549e3e",
+	"@context": "tb",
+	"data": "Implement temporary saving scheme using generic ThoughtBubbles nodes with names only\n\n\"Yeah, I think for now, just for the sake of getting the saving working, I'll just say everything is a ThoughtBubbles node with the name.\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

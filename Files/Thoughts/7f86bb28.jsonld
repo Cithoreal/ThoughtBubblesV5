@@ -1,0 +1,12 @@
+{
+	"@id": "7f86bb28",
+	"@context": "tb",
+	"data": "Look into tracking events for Nextcloud task completion\n\n\"I'd need to look into... tracking events for like especially with the next cloud if I check off a to-do list and mark it as done I'd like to immediately track that event\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

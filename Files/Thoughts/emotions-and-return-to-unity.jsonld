@@ -1,0 +1,29 @@
+{
+	"@id": "emotions-and-return-to-unity",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Emotions and Return to Unity.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Emotions and Return to Unity\nTranscribed: 2026-03-30 12:02  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:12]  \nIt is 3 38 PM, April 3rd, 2024.\n[00:00:12 → 00:00:15]  \nI need to get out of my own head.\n[00:00:17 → 00:00:19]  \nI need to talk.\n[00:00:19 → 00:00:30]  \nI need to pass…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybership",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/homelab",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

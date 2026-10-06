@@ -1,0 +1,10 @@
+{
+	"@id": "smart-locks-2026",
+	"@context": "tb",
+	"data": "Smart Locks Research 2026 — Mechanical Key First\n\nDate: 2026-08-22\nPriority: Mechanical key reliability above all else, then phone unlock, then HA integration.\n\nWhat \"Mechanical Key First\" Means\n\nThe lock must function as a normal deadbolt with a physical keyway — even if every electronic system fails (dead batteries, WiFi down, Z-Wave hub offline, motor broken). The key turns the bolt directly through the mechanical cylinder. This rules out keyless-only smart locks and locks where the key is…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

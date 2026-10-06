@@ -1,0 +1,12 @@
+{
+	"@id": "2826b396",
+	"@context": "tb",
+	"data": "Continue journaling to clarify database implementation goals\n\n\"I kind of just need to keep talking about it until I kind of know how to refer to what I'm trying to do\"\n\nSource Journals\n[[Databases.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Databases.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

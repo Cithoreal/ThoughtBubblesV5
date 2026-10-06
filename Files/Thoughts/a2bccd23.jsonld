@@ -1,0 +1,12 @@
+{
+	"@id": "a2bccd23",
+	"@context": "tb",
+	"data": "Figure out how to download and upload data to the DEC app\n\n\"And I need to figure out a way to... Download and upload data to the DEC app.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

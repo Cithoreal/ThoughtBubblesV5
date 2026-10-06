@@ -1,0 +1,17 @@
+{
+	"@id": "service-map",
+	"@context": "tb",
+	"data": "Service Map — Post-Migration\n\nLegend: 🟠 optiplex services · 🔵 star · 🟢 pi5 · 🟡 pi4 (decommissioned)\n\nService Inventory\n\n| Device | Service | Port | URL | Status |\n|---|---|---|---|---|\n| star | Ollama | 11434 | ollama.star:11434 | ✅ Active |\n| star | OpenClaw | 18789/18791 | localhost | ✅ Active |\n| optiplex | Open WebUI | 8180 | chat.cybernautics.net | ✅ Active |\n| star | Syncthing | 22000/8384 | localhost:8384 | ✅ Active |\n| star | Obsidian REST | 27124 | localhost:27124 | ✅ Active |\n| star |…",
+	"lastUpdated": "1781395200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra",
+		"nextcloud"
+	],
+	"tags": [
+		"infra",
+		"map"
+	],
+	"category": "infra"
+}

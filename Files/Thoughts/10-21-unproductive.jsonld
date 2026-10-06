@@ -1,0 +1,27 @@
+{
+	"@id": "10-21-unproductive",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/10-21 Unproductive.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 10-21 Unproductive\nTranscribed: 2026-03-30 04:24  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:07]  \nI'm feeling a little unproductive at the moment, so I decided, uh, might as well, um, do this.\n[00:00:09 → 00:00:17]  \nUm, so, what I got done today, I had my meeting with, uh, the…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

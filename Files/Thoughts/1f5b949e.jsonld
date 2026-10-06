@@ -1,0 +1,12 @@
+{
+	"@id": "1f5b949e",
+	"@context": "tb",
+	"data": "Organized tasks and due dates in Nextcloud\n\n\"I went through and put down a bunch of my tasks and due dates in Nextcloud\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

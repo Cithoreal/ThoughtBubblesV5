@@ -1,0 +1,12 @@
+{
+	"@id": "7ca7d8c0",
+	"@context": "tb",
+	"data": "Ask Calcifer what he knows about himself\n\n\"I'm going to ask Calcifer what he knows about himself\"\n\nSource Journals\n[[Talking to Cal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Talking-to-Cal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

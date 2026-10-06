@@ -1,0 +1,12 @@
+{
+	"@id": "3b477be3",
+	"@context": "tb",
+	"data": "Move the bunk bed out of room and put up the green screen\n\n\"I'm moving the bunk bed out of my room and putting up the green screen\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

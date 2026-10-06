@@ -1,0 +1,33 @@
+{
+	"@id": "godot-xr-tools",
+	"@context": "tb",
+	"data": "Godot XR Tools\n\nThe core interaction toolkit for XR in Godot. This is the floor you build on.\nRepo: <https://github.com/GodotVR/godot-xr-tools>\nLicense: MIT\nGodot version: 4.x (works with 4.6+)\nStatus: Actively maintained, official GodotVR org\n\nWhat It Provides\nLocomotion (teleport, smooth movement, climb)\nObject interaction (grab, release, snap points, SnapPath)\nPointer-hosted scenes (ray-based interaction)\nViewport2Din3D — render 2D content as panels in 3D space\nPickable objects with…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-interaction-primitives",
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"godot-xr-auto-hand",
+		"godot-xr-template"
+	],
+	"LinkFrom": [
+		"goal-card-system",
+		"goal-node-visualization",
+		"goal-spatial-authoring",
+		"goal-spatial-interaction-primitives",
+		"goal-spatial-navigation",
+		"godot-spatial-audio-demo",
+		"godot-spatialize",
+		"godot-xr-auto-hand",
+		"godot-xr-template",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"foundation"
+	],
+	"category": "projects"
+}

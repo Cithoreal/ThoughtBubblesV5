@@ -1,0 +1,24 @@
+{
+	"@id": "stability-and-power-in-tools",
+	"@context": "tb",
+	"data": "See also: [[concepts/ar-xr-development]] · [[concepts/designing-reality]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Stability and power in tools.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Stability and power in tools\nTranscribed: 2026-03-30 13:01  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 2 0 7 PM, December 29th, 2025.\n[00:00:09 → 00:00:12]  \nIn my room, got my Christmas…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"ar-xr-development",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/finance",
+		"tech/audio-pipeline",
+		"tech/python",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

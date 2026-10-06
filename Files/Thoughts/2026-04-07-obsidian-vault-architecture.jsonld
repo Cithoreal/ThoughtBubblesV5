@@ -1,0 +1,24 @@
+{
+	"@id": "2026-04-07-obsidian-vault-architecture",
+	"@context": "tb",
+	"data": "Decision: Obsidian Vault as Primary Memory Architecture\n\nContext\nAs the knowledge base grows, monolithic memory files (MEMORY.md, PROJECTS.md, RECENT.md) degrade in quality — they load entirely into context regardless of relevance, and fresh signal gets buried under stale noise.\n\nDecision\nAdopt an atomic-note Obsidian vault as the primary memory architecture for Calcifer. The vault lives at ~/.openclaw/workspace/vault/. cithoreal navigates via Obsidian app; Calcifer reads/writes via filesystem…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"wikilinks",
+		"calcifer-vault",
+		"atomic-notes",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"atomic-notes",
+		"thought-bubbles",
+		"anythingllm",
+		"ios",
+		"calcifer-vault"
+	],
+	"tags": [
+		"decision"
+	],
+	"category": "decisions"
+}

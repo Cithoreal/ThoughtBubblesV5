@@ -1,0 +1,12 @@
+{
+	"@id": "3c8e465c",
+	"@context": "tb",
+	"data": "Schedule drawing session for today at 7:30 PM for 30 minutes\n\n\"at 7.30, sketch something. And 30 minutes\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

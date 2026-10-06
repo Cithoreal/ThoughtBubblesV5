@@ -1,0 +1,15 @@
+{
+	"@id": "grep-inspiration-stream",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2023/inspiration-stream.md\n\n106-> \n107-> [00:04:14 → 00:04:25]  \n108-> But as far as just literally comparing the events that are already on the calendar versus the event that I'm trying to either create or update.\n109-> \n110-> [00:04:28 → 00:04:42]  \n111:> But what I can do is create a chat completions request, basically, with the OpenAI API and say, here's the\n112-> \n113-> [00:04:43 → 00:04:50]  \n114-> the function output that, you know, the assistant gave me, which we…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

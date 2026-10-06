@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-new-recording-5",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Get swim time in', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I gotta get that swim time in', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'New Recording 5.md', 'extracted_at': '2026-05-18T17:58:11.946668', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Complete swimming session', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I got my swim time in', 'project':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

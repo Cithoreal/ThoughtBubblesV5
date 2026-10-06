@@ -1,0 +1,34 @@
+{
+	"@id": "elements-drive",
+	"@context": "tb",
+	"data": "Hardware: Elements Drive\n\nWhat It Is\nWD 7.3TB external hard drive, NTFS, ~66% used. Connected to star at /run/media/cithoreal/Elements. The primary audio journal archive.\n\nTop-Level Structure\nMemoryBase/ — main personal archive (audio journals, transcripts, Obsidian vaults, video, IPFS)\nVideos/ — game recordings, dev logs\nUnity Projects/, UnityAssetsRepo/ — old game dev work\nBackup/, Syncthing/, go-btfs/ — infrastructure/backup\nAir Hockey Documented/ — Unity game project docs\n\nAudio Journal…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"pi5",
+		"elements-drive-reorg",
+		"star",
+		"audio-journal-pipeline",
+		"star-elements",
+		"index",
+		"star-cybership",
+		"star-home"
+	],
+	"LinkFrom": [
+		"HOME",
+		"index",
+		"star-cybership",
+		"star-elements",
+		"2026-03-31-183935",
+		"2026-04-07-180545",
+		"2026-04-15-185131",
+		"projects-audio-journal-pipeline",
+		"elements-drive-reorg"
+	],
+	"tags": [
+		"infra",
+		"hardware",
+		"project"
+	],
+	"category": "infra"
+}

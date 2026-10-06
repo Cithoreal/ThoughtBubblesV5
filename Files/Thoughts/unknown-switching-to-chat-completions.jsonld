@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-switching-to-chat-completions",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Reinstall Nextcloud app to fix connection issues', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I had, just by reinstalling the app, it all got fixed.', 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Switching to Chat Completions.md', 'extracted_at': '2026-05-18T18:48:02.448603', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Transfer Cocoon Weaver files to Nextcloud',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

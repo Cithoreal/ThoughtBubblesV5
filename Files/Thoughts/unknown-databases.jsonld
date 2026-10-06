@@ -1,0 +1,21 @@
+{
+	"@id": "unknown-databases",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker is architecting a personal database system to aggregate their audio journals and digital interactions, enabling future AI models to learn about them across devices. They debate technical approaches—favoring the stability of MySQL against the flexibility of NoSQL and the decentralization of OrbitDB/IPFS—ultimately conceptualizing a tiered system that moves raw data through processing stages to create device-specific AI knowledge subsets.\n\nMood & Energy\n\n|…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"calcifer-vault",
+		"cybernautics-vision",
+		"audio-journal-pipeline"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/database-architecture",
+		"theme/personal-ai-memory",
+		"theme/decentralized-systems",
+		"theme/data-organization-strategies"
+	],
+	"category": "journals"
+}

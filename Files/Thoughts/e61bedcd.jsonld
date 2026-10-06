@@ -1,0 +1,13 @@
+{
+	"@id": "e61bedcd",
+	"@context": "tb",
+	"data": "Reply to Katie's message\n\n\"Katie did just message me. I should reply to her. Let me just ask her how she's doing.\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n[[Transcription pipeline sprint.tasks]]\n\nAll Quotes\n\"Katie did just message me. I should reply to her. Let me just ask her how she's doing.\"\n\"Katie did just message me. I should reply to her.\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks",
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

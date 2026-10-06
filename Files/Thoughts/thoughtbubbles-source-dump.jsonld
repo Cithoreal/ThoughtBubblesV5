@@ -1,0 +1,21 @@
+{
+	"@id": "thoughtbubbles-source-dump",
+	"@context": "tb",
+	"data": "ThoughtBubbles — Source Dump (all ideas gathered for spec synthesis)\n\nPurpose: exhaustive, cited raw material about ThoughtBubbles (aka Dot Bubbles / Top Bubbles / TB / V5 / V6) from Chris's corpus, gathered 2026-09-09 by Calcifer for a later clean-context spec-writing pass. This is not a spec. Sections 0–16 are thematic; each begins with vault-concept-derived bullets, followed by per-source-family blocks (reference/, calcifer/, projects/, tasks/, _archive, ChatGPT, journals, prototype code)…",
+	"lastUpdated": "1788912000",
+	"createdAt": "1788912000",
+	"LinkTo": [
+		"note",
+		"thought-bubbles",
+		"goal-vault-bridge",
+		"target"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"spec",
+		"source-dump",
+		"thoughtbubbles",
+		"research"
+	],
+	"category": "specs"
+}

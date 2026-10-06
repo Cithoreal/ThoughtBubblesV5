@@ -1,0 +1,12 @@
+{
+	"@id": "cfba088d",
+	"@context": "tb",
+	"data": "Study sociology for final\n\n\"I'm going to want to study the sociology too\"\n\nSource Journals\n[[Planning AI Systems.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

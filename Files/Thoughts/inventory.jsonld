@@ -1,0 +1,30 @@
+{
+	"@id": "inventory",
+	"@context": "tb",
+	"data": "Drive Inventory — All Nodes\n\nComprehensive drive health, speed, and bottleneck analysis across the homelab.\n\nStar (Arch Linux workstation)\n\n| Drive | Device | Model | Type | Size | Mount | Speed (seq read) | Interface | Health | Role |\n|---|---|---|---|---|---|---|---|---|---|\n| NVMe | /dev/nvme0n1 | Samsung 970 EVO Plus 2TB | NVMe SSD | 1.86 TB | /run/media/cithoreal/Cybership | 2.4 GB/s | PCIe 3.0 x2 | ⚠️ needs SMART check | Steam, dev projects, ThoughtBubbles |\n| SATA SSD | /dev/sda | WDC…",
+	"lastUpdated": "1775952000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"finances-wishlist",
+		"star",
+		"pi5",
+		"pi4",
+		"alienware",
+		"homeassistant",
+		"star-home",
+		"star-elements",
+		"star-pi5",
+		"star-windows-sdc"
+	],
+	"LinkFrom": [
+		"index",
+		"peripherals",
+		"pi5-optiplex-migration"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"index"
+	],
+	"category": "infra"
+}

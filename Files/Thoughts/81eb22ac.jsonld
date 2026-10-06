@@ -1,0 +1,12 @@
+{
+	"@id": "81eb22ac",
+	"@context": "tb",
+	"data": "Started public speaking class\n\n\"I started officially my public speaking class today\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

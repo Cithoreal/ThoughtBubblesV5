@@ -1,0 +1,12 @@
+{
+	"@id": "4f7f06b9",
+	"@context": "tb",
+	"data": "Write pseudocode and flows for audio journal pipeline\n\n\"this morning I just did some pseudocode, wrote out the flows for the whole audio journal pipeline\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

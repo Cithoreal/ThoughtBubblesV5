@@ -1,0 +1,22 @@
+{
+	"@id": "remaining-budget",
+	"@context": "tb",
+	"data": "Remaining Budget Tracker\n\nLive remaining balances per category. Reset on each paycheck, deduct on each spend.\n\nRecalculate with: python3 scripts/finance_budget.py --paycheck AMOUNT\nCanonical buckets: [[finances/finances-budget|Finances Budget]]\n\nCurrent Pay Period\n\n| Bucket | Budgeted | Spent | Remaining | Notes |\n|--------|----------|-------|-----------|-------|\n<!-- as of 2026-08-27 — verify -->\n| 🛡️ Emergency Fund | $441.07 | $0 | $441.07 | |\n<!-- as of 2026-08-27 — verify -->\n| 💳 Debt…",
+	"lastUpdated": "1787788800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"finances-budget",
+		"finances-spending-log"
+	],
+	"LinkFrom": [
+		"car-loan-payoff-tracker",
+		"spending-trend-analysis-2026",
+		"HOME"
+	],
+	"tags": [
+		"finances",
+		"budget",
+		"tracker"
+	],
+	"category": "finances"
+}

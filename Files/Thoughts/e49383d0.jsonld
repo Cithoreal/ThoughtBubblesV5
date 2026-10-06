@@ -1,0 +1,12 @@
+{
+	"@id": "e49383d0",
+	"@context": "tb",
+	"data": "Look into running Llama models locally\n\n\"And then I'll look into Llama, just running some Llama models\"\n\nSource Journals\n[[Planet Cithoreal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planet-Cithoreal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

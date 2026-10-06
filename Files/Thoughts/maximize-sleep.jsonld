@@ -1,0 +1,30 @@
+{
+	"@id": "maximize-sleep",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Maximize Sleep.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Maximize Sleep\nTranscribed: 2026-03-30 12:27  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 1047 p.m. December 6th, 2023.\n[00:00:12 → 00:00:15]  \nSo I would like to go to bed a little earlier tonight.\n[00:00:15 → 00:00:20]  \nI've been going to bed at like two at least the past few…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"health-and-sleep",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"health-and-sleep",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/room-2-0",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

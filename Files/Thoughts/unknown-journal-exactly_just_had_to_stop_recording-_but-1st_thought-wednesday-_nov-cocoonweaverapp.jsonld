@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-exactly_just_had_to_stop_recording-_but-1st_thought-wednesday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Remove unwanted path UI element', 'type': 'explicit', 'status': 'completed', 'raw_quote': 'first of all i need to get rid of this', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Journal-Exactly_just_had_to_stop_recording._But-1st_thought-Wednesday,_Nov-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T17:15:32.305032', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Rename path…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

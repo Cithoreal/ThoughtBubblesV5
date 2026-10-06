@@ -1,0 +1,29 @@
+{
+	"@id": "pi4",
+	"@context": "tb",
+	"data": "Node: pi4-hearth\n\nRole\nHearth bastion — Security boundary between public-facing voice hardware and private infrastructure. Runs Hermes agent for the Family Home AI project.\n\nSpecs\nCPU: Cortex-A72, 4c @ 1.8 GHz\nRAM: 8 GB\nStorage: 1 TB SSD (fresh install 2026-04-24)\nTailscale IP: 100.107.33.1\nLocal IP: 192.168.1.231\nOS: Debian GNU/Linux 13 (trixie)\n\nServices\n| Service | Status |\n|---|---|\n| OpenClaw node (pi4-hearth) | ✅ Running — v2026.4.23, systemd user service |\n| Hermes agent | 🔲 Pending…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"pi3",
+		"pi5",
+		"star",
+		"hearth-family-home-ai",
+		"homelab-infrastructure"
+	],
+	"LinkFrom": [
+		"homelab-2025-buildout",
+		"homelab-infrastructure",
+		"HOME",
+		"infra",
+		"alienware",
+		"inventory",
+		"pi3",
+		"2026-03-31-183935",
+		"grep-2026-03-31-183935"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

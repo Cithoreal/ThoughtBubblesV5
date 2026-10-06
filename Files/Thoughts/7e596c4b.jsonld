@@ -1,0 +1,12 @@
+{
+	"@id": "7e596c4b",
+	"@context": "tb",
+	"data": "Set up file and image sending in Discord system\n\n\"I would like to look into setting up sending files back and forth. Files and images back and forth.\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "9da84496",
+	"@context": "tb",
+	"data": "Fix Wake on LAN\n\n\"I don't think the, uh... Wake on land is working right now either. Which is... Something I might want to fix.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

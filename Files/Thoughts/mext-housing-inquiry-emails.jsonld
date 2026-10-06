@@ -1,0 +1,21 @@
+{
+	"@id": "mext-housing-inquiry-emails",
+	"@context": "tb",
+	"data": "Housing Inquiry Emails — Dual MEXT Married Couple Scenario\n\nDraft emails to each university's international office asking about married couple housing eligibility when both spouses hold MEXT scholarships (Student visas, not Dependent visas).\n\nKey question: Can two MEXT scholars who are married to each other use married couple housing?\n\nNAIST — CISS (Center for International Students and Scholars)\n\nTo: kokusai@ad.naist.jp (general) or ciss@ad.naist.jp\nCC: ryugaku@ad.naist.jp (International…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"mext-scholarship-guide"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"japan",
+		"mext",
+		"housing",
+		"active"
+	],
+	"category": "projects"
+}

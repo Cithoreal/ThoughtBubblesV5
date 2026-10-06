@@ -1,0 +1,18 @@
+{
+	"@id": "2026-03-31-model-strategy",
+	"@context": "tb",
+	"data": "Decision: Model Strategy\n\nContext\nHeavy daily usage of AI models was accumulating per-token costs. Needed a sustainable model strategy across different task types.\n\nDecision\nMain driver: github-copilot/claude-sonnet-4.6 — flat rate via GitHub Copilot subscription, best value for heavy usage\nRAG/summarization: kimi-k2.5:cloud via Ollama Cloud (free tier)\nLocal/offline: llama3.2:latest via Ollama on star\nAvoid: GPT-5.4 and GPT-5.4-pro (expensive per-token)\n\nRationale\nGitHub Copilot flat-rate…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"cithoreal",
+		"star"
+	],
+	"LinkFrom": [
+		"ollama-models"
+	],
+	"tags": [
+		"decision"
+	],
+	"category": "decisions"
+}

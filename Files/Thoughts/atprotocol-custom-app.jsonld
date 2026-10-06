@@ -1,0 +1,10 @@
+{
+	"@id": "atprotocol-custom-app",
+	"@context": "tb",
+	"data": "Building a Custom AT Protocol Application: Practical Assessment\n\nResearched: 2026-08-10\nFor: cithoreal — evaluating what it takes to build a custom AT Protocol app with personalized UI that can receive and contribute data to the network.\n\nArchitecture Overview\n\nThe AT Protocol (\"atproto\") is a federated social networking protocol. Users publish signed JSON records into repositories (PDS), and those records sync across the network via relays and AppViews. Here are the core components:\n\nThe Stack…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

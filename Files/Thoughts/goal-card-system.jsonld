@@ -1,0 +1,29 @@
+{
+	"@id": "goal-card-system",
+	"@context": "tb",
+	"data": "Goal: Card System\n\nSkill nodes as discrete, collectible, tradeable cards. Pick up, place, and trade skill nodes by hand.\n\nWhat This Is\nThe UX metaphor for skill node acquisition — from Estia's fiction, directly into the spatial authoring environment. Instead of clicking \"add skill\" in a menu, you pick up a card from a deck and place it in your thought space.\n\nSpecific Behaviors Needed\nCard deck — a spatial stack of available skill cards you can flip through\nPick up — grab a card from the deck…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-interaction-primitives",
+		"goal-spatial-authoring",
+		"godot-xr-auto-hand",
+		"godot-xr-tools",
+		"goal-skill-tree-integration",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"goal-skill-tree-integration",
+		"goal-spatial-authoring",
+		"goal-spatial-interaction-primitives",
+		"godot-xr-auto-hand",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"skill-trees"
+	],
+	"category": "projects"
+}

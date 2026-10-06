@@ -1,0 +1,15 @@
+{
+	"@id": "CustomRag-custom-rag-pipeline",
+	"@context": "tb",
+	"data": "Custom RAG Pipeline — Module Map\n\nLegend: 🟢 Source · 🔵 Ingest · 🧠 Embed · 💾 Store · 🔍 Search · 🔌 API · 📊 Monitor · 🔧 Maintain\n\nModule Specifications\n\nModule 1: Document Source\nPurpose: Watch the vault for changes and feed them to the ingest engine.\n\n| Component | Implementation | Notes |\n|---|---|---|\n| Vault Directory | Existing ~/.openclaw/workspace/vault/ | ~3,050 .md files |\n| Filesystem Watcher | watchdog Python lib (wraps inotify) | Events: create, modify, delete, move |\n| Pre-processing…",
+	"lastUpdated": "1776470400",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"map",
+		"project"
+	],
+	"category": "projects"
+}

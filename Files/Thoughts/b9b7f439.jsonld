@@ -1,0 +1,12 @@
+{
+	"@id": "b9b7f439",
+	"@context": "tb",
+	"data": "Fill out first time sheet\n\n\"Filled out my first time sheet.\"\n\nSource Journals\n[[2026-06-11 08-11-14.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-06-11-08-11-14.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

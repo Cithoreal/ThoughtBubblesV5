@@ -1,0 +1,12 @@
+{
+	"@id": "ff6e780a",
+	"@context": "tb",
+	"data": "Hook up template, get list of tasks, and start analyzing files\n\n\"once I just hook up the template, get the list of the tasks and just start analyzing files\"\n\nSource Journals\n[[What projects excite me right now?.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"What-projects-excite-me-right-now-.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "grep-2025-04-21_p2p-fediverse-architecture",
+	"@context": "tb",
+	"data": "Grep Extract: _archive/reference/chatgpt/2025/04/2025-04-21_p2p-fediverse-architecture.md\n\n6-\n7-# P2P Fediverse Architecture\n8-\n9-User:\n10-\n11:Based on what you know about thought bubbles, what sort of architecture should I strive for to achieve a p2p first architecture with fediverse scaling?\n12-\n13----\n14-\n15-Assistant:\n16-\n17:To build ThoughtBubbles with a P2P-first architecture and Fediverse-style scaling, you'll want to create a system that is decentralized by design, with local-first…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

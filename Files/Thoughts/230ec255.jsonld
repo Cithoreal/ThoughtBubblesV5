@@ -1,0 +1,12 @@
+{
+	"@id": "230ec255",
+	"@context": "tb",
+	"data": "Migrate thoughts from V2 to V3 format\n\n\"decided to scrap doing that\"\n\nSource Journals\n[[Journal-It_is_twelve_fifty_one_am,-1st_thought-Monday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_twelve_fifty_one_am-1st_thought-Monday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

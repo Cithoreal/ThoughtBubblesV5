@@ -1,0 +1,12 @@
+{
+	"@id": "410def56",
+	"@context": "tb",
+	"data": "Remove job level from admin table (fetch from master employee table instead)\n\n\"Job level, again, we should not store it separately. It should come from master employee table.\"\n\nSource Journals\n[[WorkMeetings-Because_this,_and_we're_the-1st_thought-Friday,_Mar-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"WorkMeetings-Because_this-_and_we-re_the-1st_thought-Friday-_Mar-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

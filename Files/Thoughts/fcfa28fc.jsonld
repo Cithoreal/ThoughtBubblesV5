@@ -1,0 +1,12 @@
+{
+	"@id": "fcfa28fc",
+	"@context": "tb",
+	"data": "Make the most of each day\n\n\"Get into a habit of making the most of each day\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

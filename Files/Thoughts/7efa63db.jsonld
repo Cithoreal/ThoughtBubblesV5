@@ -1,0 +1,12 @@
+{
+	"@id": "7efa63db",
+	"@context": "tb",
+	"data": "Open left window of tent\n\n\"Opened up my left window.\"\n\nSource Journals\n[[10-18 Yuru Camp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-18-Yuru-Camp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

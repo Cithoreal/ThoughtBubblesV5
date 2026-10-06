@@ -1,0 +1,23 @@
+{
+	"@id": "car-loan-payoff-tracker",
+	"@context": "tb",
+	"data": "🚗 Car Loan Payoff Bucket\n\nGoal: Accumulate $4,541.85 to pay off the car loan in full.\nTarget: $4,541.85\nContributions: $1,000/paycheck (dedicated payoff acceleration)\nEstimated payoff: ~5 paychecks from June 25, 2026 → ~September 2026\n\nBucket Progress\n\n| | Amount |\n|---|---|\n| 🎯 Target | $4,541.85 |\n| ✅ Accumulated | $4,140.90 |\n| ⏳ Remaining | $0.00 |\n| Progress | 100% — PAID OFF |\n\nLast contribution: $4,140.90 — July 23, 2026 (FINAL PAYOFF)\nActual payoff amount: $4,140.90 (lower than…",
+	"lastUpdated": "1785888000",
+	"createdAt": "1782345600",
+	"LinkTo": [
+		"finances-budget",
+		"remaining-budget",
+		"personal-finances",
+		"budget-app"
+	],
+	"LinkFrom": [
+		"HOME"
+	],
+	"tags": [
+		"finances",
+		"debt",
+		"car-loan",
+		"tracker"
+	],
+	"category": "finances"
+}

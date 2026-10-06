@@ -1,0 +1,12 @@
+{
+	"@id": "8ddc1b51",
+	"@context": "tb",
+	"data": "Complete Duolingo lesson\n\n\"I just finished my Duolingo\"\n\nSource Journals\n[[Fourth.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Fourth.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

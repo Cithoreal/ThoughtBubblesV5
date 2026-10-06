@@ -1,0 +1,22 @@
+{
+	"@id": "2025-12-03-164110",
+	"@context": "tb",
+	"data": "Journal — 2025-12-03 16:41\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-12-03 16-41-10.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-12-03 16-41-10\nTranscribed: 2026-03-30 11:37  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:10]  \nIt is 4.41 p.m. November, sorry, December 3rd, 2025.\n[00:00:13 → 00:00:17]  \nOn the way to school, just for the Computer Science Club.\n[00:00:18 → 00:00:20]  \nAnd I'm a little bit…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybership"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm"
+	],
+	"category": "journals"
+}

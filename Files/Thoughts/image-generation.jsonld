@@ -1,0 +1,30 @@
+{
+	"@id": "image-generation",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Image Generation.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Image Generation\nTranscribed: 2026-03-30 12:18  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 4.03 p.m. June 23rd, 2024.\n[00:00:11 → 00:00:13]  \nJust one more thing with my public speaking class.\n[00:00:14 → 00:00:16]  \nJust have my exam tomorrow.\n[00:00:17 → 00:00:23]  \nHopefully,…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

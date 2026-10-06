@@ -1,0 +1,12 @@
+{
+	"@id": "85e48128",
+	"@context": "tb",
+	"data": "Move phone across the room\n\n\"maybe I'll try to move my phone across the room\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

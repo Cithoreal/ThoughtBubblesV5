@@ -1,0 +1,21 @@
+{
+	"@id": "macmini",
+	"@context": "tb",
+	"data": "Node: macmini (Christopher's Mac Mini)\n\nRole\niMessage bridge + OpenClaw node — always-on Mac for BlueBubbles server and async voice messaging.\n\nSpecs\nModel: Mac mini (2023, M2, Mac14,3)\nChip: Apple M2 (8-core: 4 performance + 4 efficiency)\nMemory: 8 GB\nStorage: 256 GB SSD (~25 GB free)\nmacOS: Tahoe 26.1 (Build 25B78)\nTailscale IP: 100.104.154.96\n\nAccess\nSSH: ssh cithoreal@100.104.154.96 (key-based auth from star)\nOpenClaw Node: macmini — connected via Tailscale TLS to star gateway\n\nOpenClaw…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star",
+		"calcifer-voice",
+		"Hearth"
+	],
+	"LinkFrom": [
+		"infra",
+		"mac-mini",
+		"calcifer-voice"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

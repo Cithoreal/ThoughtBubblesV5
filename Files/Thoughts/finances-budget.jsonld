@@ -1,0 +1,29 @@
+{
+	"@id": "finances-budget",
+	"@context": "tb",
+	"data": "Budget & Finances\n\n canonical source for bucket allocations and percentages. All other docs (personal-finances, remaining-budget) derive their bucket numbers from this table. When updating buckets, edit HERE first, then propagate.\n\nBudget math guard: Bucket percentages must sum to exactly 100% and dollar amounts must match the current paycheck amount ($3,180.81). If a change breaks this, rebalance before committing.\n\nQuick-reference for income allocation and spending philosophy. Update when…",
+	"lastUpdated": "1786579200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"personal-finances",
+		"internship-budget-2026",
+		"finances-spending-log",
+		"budget-app",
+		"finances-wishlist"
+	],
+	"LinkFrom": [
+		"finances-README",
+		"car-loan-payoff-tracker",
+		"remaining-budget",
+		"spending-trend-analysis-2026",
+		"HOME",
+		"buckets-app",
+		"personal-finances"
+	],
+	"tags": [
+		"living",
+		"finances",
+		"budget"
+	],
+	"category": "finances"
+}

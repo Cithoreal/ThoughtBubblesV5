@@ -1,0 +1,12 @@
+{
+	"@id": "26cad129",
+	"@context": "tb",
+	"data": "Check available TTS voices and training options\n\n\"See what voices are available to me and if I can possibly train my own with my own voice.\"\n\nSource Journals\n[[Sunday Update.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Sunday-Update.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

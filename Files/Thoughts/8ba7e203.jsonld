@@ -1,0 +1,12 @@
+{
+	"@id": "8ba7e203",
+	"@context": "tb",
+	"data": "Set up dimmer Shelly device for downstairs light\n\n\"I'd like to get the dimmer shelly device I have in the wall downstairs so that we can just at the very least turn that you know control that light\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

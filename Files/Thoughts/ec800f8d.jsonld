@@ -1,0 +1,13 @@
+{
+	"@id": "ec800f8d",
+	"@context": "tb",
+	"data": "Finish the audio to text pipeline\n\n\"Yeah, look into the next cloud WebSockets and finish the audio to text pipeline.\"\n\nSource Journals\n[[New Recording 10 7.tasks]]\n[[New Recording 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-10-7.tasks",
+		"New-Recording-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

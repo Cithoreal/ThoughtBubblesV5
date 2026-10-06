@@ -1,0 +1,12 @@
+{
+	"@id": "55734710",
+	"@context": "tb",
+	"data": "Set up Bluetooth device tracking for room presence detection\n\n\"so I think I'll set that up right now... each of them can just track bluetooth devices as you move around and track which room you're in\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

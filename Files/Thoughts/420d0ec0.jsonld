@@ -1,0 +1,13 @@
+{
+	"@id": "420d0ec0",
+	"@context": "tb",
+	"data": "Go inside\n\n\"I'm going to go in.\"\n\nSource Journals\n[[Introspection 4.tasks]]\n[[New Recording 6.tasks]]\n\nAll Quotes\n\"I'm going to go in.\"\n\"We gotta go inside now.\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-4.tasks",
+		"New-Recording-6.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

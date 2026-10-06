@@ -1,0 +1,22 @@
+{
+	"@id": "dr-flood",
+	"@context": "tb",
+	"data": "Dr. Flood\n\nWhat Is Known\nA professor or advisor who appears in a June 2025 journal entry. cithoreal was driving home from \"Great Water State\" to meet Dr. Flood in the afternoon. The meeting context suggests academic/project collaboration — possibly related to the AI Curriculum project cithoreal was working on at that time.\n\nEvidence\n[[_archive/reference/chatgpt/2025/06/2025-06-30_digital-footprint-journal-prototype]] — cithoreal preparing talking points for a meeting with Dr. Flood; context is…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-06-30_digital-footprint-journal-prototype",
+		"cithoreal",
+		"skill-trees",
+		"audio-journal-pipeline"
+	],
+	"LinkFrom": [
+		"people"
+	],
+	"tags": [
+		"person",
+		"chatgpt-sourced",
+		"project"
+	],
+	"category": "people"
+}

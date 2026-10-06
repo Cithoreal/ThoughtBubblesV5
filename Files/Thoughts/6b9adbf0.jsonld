@@ -1,0 +1,12 @@
+{
+	"@id": "6b9adbf0",
+	"@context": "tb",
+	"data": "Learn how to cook and get good at it\n\n\"I definitely want to learn how to cook though and get good at it\"\n\nSource Journals\n[[More Spice.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"More-Spice.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

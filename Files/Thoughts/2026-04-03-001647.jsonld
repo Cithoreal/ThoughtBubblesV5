@@ -1,0 +1,31 @@
+{
+	"@id": "2026-04-03-001647",
+	"@context": "tb",
+	"data": "Journal — 2026-04-03 00:16\n\nSummary\n\nThe speaker records a brief voice note before bed to test if their audio journaling system successfully captures the recording and if their AI assistant 'Calcifer' can send a confirmation message within minutes. They express hope the test works and wish the AI goodnight.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion | engaged | anticipatory |\n| Valence | — | neutral |\n| Energy | medium | medium |\n| Arousal | — | low |\n\nSentiment…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"theme/technology-testing",
+		"theme/bedtime-routine",
+		"theme/human-ai-interaction"
+	],
+	"category": "journals"
+}

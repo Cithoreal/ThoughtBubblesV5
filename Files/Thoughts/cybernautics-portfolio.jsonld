@@ -1,0 +1,26 @@
+{
+	"@id": "cybernautics-portfolio",
+	"@context": "tb",
+	"data": "Reference: Cybernautics Portfolio\n\ncithoreal's public portfolio and professional identity. Site: https://cybernautics.net\n\nAbout (in cithoreal's own words)\n\n\"I am a very enthusiastic XR developer with a deep love for technology and its potential to improve people's lives.\"\n\n\"Cybernautics' goal is to work with human augmenting technology, as well as to explore the philosophical and ethical responsibilities required in this pursuit.\"\n\n\"All ideas lead back to Thought Bubbles.\"\n\nFounded: 2019,…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775606400",
+	"LinkTo": [
+		"air-hockey-mr",
+		"audio-journal-pipeline",
+		"thought-bubbles",
+		"cybernautics-vision",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"cithoreal",
+		"air-hockey-mr",
+		"delsys-interview-prep"
+	],
+	"tags": [
+		"reference",
+		"portfolio",
+		"identity",
+		"project"
+	],
+	"category": "reference"
+}

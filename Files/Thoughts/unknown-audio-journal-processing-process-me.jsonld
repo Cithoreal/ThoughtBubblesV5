@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-audio-journal-processing-process-me",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Do homework this weekend', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I do have some homework I need to get done this weekend, so I'd like to do that sooner than later.\", 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Audio Journal Processing (Process me).md', 'extracted_at': '2026-05-03T17:58:55.762706', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Water Lucky', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

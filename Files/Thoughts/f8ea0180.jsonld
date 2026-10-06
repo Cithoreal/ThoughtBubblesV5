@@ -1,0 +1,12 @@
+{
+	"@id": "f8ea0180",
+	"@context": "tb",
+	"data": "Fix loading issue in Godot 4 build\n\n\"The one thing that I don't have working yet, I didn't really dig too deep yet, is the loading doesn't seem to be working with the Godot 4 build of Thought Bubbles\"\n\nSource Journals\n[[Inbox-It_is_twelve_twenty_four_a_m._March,-1st_thought-Wednesday,_Mar-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inbox-It_is_twelve_twenty_four_a_m._March-1st_thought-Wednesday-_Mar-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

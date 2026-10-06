@@ -1,0 +1,12 @@
+{
+	"@id": "0f77968f",
+	"@context": "tb",
+	"data": "Enable room colliders for puck physics\n\n\"just get that enabled so that you know a puck can fly off and hit the wall\"\n\nSource Journals\n[[Meta Quest Unity.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Meta-Quest-Unity.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

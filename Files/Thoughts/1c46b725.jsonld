@@ -1,0 +1,12 @@
+{
+	"@id": "1c46b725",
+	"@context": "tb",
+	"data": "Save payload data rather than clearing it\n\n\"I suppose it would be good to make sure I save any data rather than just clearing it.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

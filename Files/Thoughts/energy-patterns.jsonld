@@ -1,0 +1,16 @@
+{
+	"@id": "energy-patterns",
+	"@context": "tb",
+	"data": "Energy Patterns\n\nTracking cithoreal's daily energy levels and finding the patterns underneath.\n\nThe System\n\ncithoreal sends a daily energy ping via Signal — a number 1-5, sometimes with a short note. This started 2026-08-20. The data lives in memory/energy-tracking.json and is managed by scripts/energy_tracker.py.\n\nCommands:\npython3 scripts/energy_tracker.py log <level> [--date YYYY-MM-DD] [note] — log a new entry\npython3 scripts/energy_tracker.py report — show patterns and trends\npython3…",
+	"lastUpdated": "1787184000",
+	"createdAt": "1787184000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"health",
+		"tracking",
+		"patterns"
+	],
+	"category": "calcifer"
+}

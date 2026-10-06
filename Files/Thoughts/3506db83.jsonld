@@ -1,0 +1,12 @@
+{
+	"@id": "3506db83",
+	"@context": "tb",
+	"data": "Complete first algorithms homework\n\n\"I got my first algorithms homework done today\"\n\nSource Journals\n[[Planet Cithoreal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planet-Cithoreal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

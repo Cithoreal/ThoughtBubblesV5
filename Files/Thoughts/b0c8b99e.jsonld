@@ -1,0 +1,12 @@
+{
+	"@id": "b0c8b99e",
+	"@context": "tb",
+	"data": "Do linear algebra test four on Saturday\n\n\"do linear algebra on Saturday\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

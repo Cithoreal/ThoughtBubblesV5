@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-test-recording",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Test speech recognition runtimes', 'type': 'progress', 'status': 'in_progress', 'raw_quote': 'This is a quick test recording to test speak recognition runtimes.', 'project': 'Work', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Test Recording.md', 'extracted_at': '2026-05-18T18:54:03.757018', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n\nSource\nTranscript: /home/cithoreal/AudioJournals/raw_transcripts/Test…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

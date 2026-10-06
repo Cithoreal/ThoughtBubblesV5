@@ -1,0 +1,13 @@
+{
+	"@id": "88662509",
+	"@context": "tb",
+	"data": "Set up final permanent local transcriber on PC\n\n\"today I've been working on setting up a sort of final permanent transcriber on my pc a local transcriber one that will run on my 2080 in the background\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks",
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

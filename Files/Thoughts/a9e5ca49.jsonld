@@ -1,0 +1,12 @@
+{
+	"@id": "a9e5ca49",
+	"@context": "tb",
+	"data": "Buy airplane tickets\n\n\"I should buy it soon.\"\n\nSource Journals\n[[11-23 Me time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-23-Me-time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

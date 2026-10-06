@@ -1,0 +1,15 @@
+{
+	"@id": "supersede-dispositions",
+	"@context": "tb",
+	"data": "Supersede Review Dispositions\n\nRecord of similarity-flag dispositions from the weekly superseding scan (vault_supersede.py). The reports themselves are auto-regenerated wholesale, so dispositions live here — not in the reports.\n\n2026-09-07 — forget-report ↔ prune-report (similarity 0.8158)\n\nDisposition: NOT superseding — complementary scans. Keep both.\nreference/forget-report.md (vault_forget.py, generated 2026-08-30) — retrieval vitality: 3,807 notes analyzed, flags never-retrieved-in-RAG…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"maintenance",
+		"supersede-review",
+		"dispositions"
+	],
+	"category": "reference"
+}

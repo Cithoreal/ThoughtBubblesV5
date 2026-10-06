@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-12-5-presence",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Shut down the computer', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm going to shut the computer down.\", 'project': 'Home', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': '12-5 Presence.md', 'extracted_at': '2026-05-03T16:20:06.488996', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Drink some water', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm going to drink some water.\", 'project':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

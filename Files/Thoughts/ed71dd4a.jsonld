@@ -1,0 +1,12 @@
+{
+	"@id": "ed71dd4a",
+	"@context": "tb",
+	"data": "Complete sociology work by this weekend\n\n\"I'll get most of sociology done by this weekend.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

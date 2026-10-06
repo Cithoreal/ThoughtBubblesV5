@@ -1,0 +1,18 @@
+{
+	"@id": "2025-11-20-085715",
+	"@context": "tb",
+	"data": "Journal — 2025-11-20 08:57\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-20 08-57-15.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-20 08-57-15\nTranscribed: 2026-03-30 11:35  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 8.57 a.m., November 20th, 2025.\n[00:00:07 → 00:00:12]  \nJust the last few minutes on the way to school.\n[00:00:14 → 00:00:27]  \nI just wanted to update, used Copilot Agent…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

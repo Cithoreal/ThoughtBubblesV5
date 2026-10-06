@@ -1,0 +1,12 @@
+{
+	"@id": "77440844",
+	"@context": "tb",
+	"data": "Check deployment on Pi 5 and verify live watcher data integration\n\n\"So we'll need to check on that and see that it's all deployed and hooked into all the live watcher data and everything\"\n\nSource Journals\n[[2026-04-01 11-47-54.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-01-11-47-54.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

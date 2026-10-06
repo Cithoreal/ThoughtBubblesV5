@@ -1,0 +1,12 @@
+{
+	"@id": "5abf6b3a",
+	"@context": "tb",
+	"data": "Work on a Bevy and Rust project to simulate physics 2 electric fields\n\n\"I would love to work on a project of using bevy and rust to create basically a simulator for physics 2 to simulate electric fields and visualize them\"\n\nSource Journals\n[[2026-02-04 18-51-17.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-02-04-18-51-17.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

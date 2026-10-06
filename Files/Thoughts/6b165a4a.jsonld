@@ -1,0 +1,12 @@
+{
+	"@id": "6b165a4a",
+	"@context": "tb",
+	"data": "Debug OpenClaw and journal UI issues\n\n\"Been kind of stuck in a debugging loop with OpenClaw and the journal UI\"\n\nSource Journals\n[[2026-04-02 11-44-37.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-11-44-37.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

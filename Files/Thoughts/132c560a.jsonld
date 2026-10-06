@@ -1,0 +1,12 @@
+{
+	"@id": "132c560a",
+	"@context": "tb",
+	"data": "Fix sleep schedule and energy balance\n\n\"I'm going to work on that more.\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

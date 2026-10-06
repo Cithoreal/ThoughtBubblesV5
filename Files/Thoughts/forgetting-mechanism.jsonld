@@ -1,0 +1,29 @@
+{
+	"@id": "forgetting-mechanism",
+	"@context": "tb",
+	"data": "Intelligent Forgetting for a Personal Knowledge Vault\n\nThe vault has 8,200+ markdown files, 10,425 wikilinks, and no pruning mechanism. It accumulates without bound. This note explores what intelligent forgetting would look like — grounded in biology, existing systems, and practical vault architecture.\n\nWhy Forgetting Matters — The Biological Case\n\nForgetting is not a bug. It's the most underappreciated feature of biological memory. A system that remembers everything is an archive, not a mind.…",
+	"lastUpdated": "1788048000",
+	"createdAt": "1786233600",
+	"LinkTo": [
+		"newer-note",
+		"composite-note",
+		"llm-memory-landscape-2026",
+		"homelab-as-cognitive-architecture",
+		"current-curiosity",
+		"calcifer-memory",
+		"vault-pruning-knowledge-map",
+		"intake-filtering"
+	],
+	"LinkFrom": [
+		"forgetting-tier-3-analysis",
+		"intake-filtering",
+		"vault-pruning-knowledge-map"
+	],
+	"tags": [
+		"concept",
+		"memory",
+		"forgetting",
+		"cognitive-architecture"
+	],
+	"category": "concepts"
+}

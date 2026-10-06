@@ -1,0 +1,10 @@
+{
+	"@id": "tasks-index",
+	"@context": "tb",
+	"data": "Task Index\nAuto-generated from 2349 raw tasks → 2259 canonical tasks\n\nHigh Priority 🔴\nCareer\n[ ] Accumulate code and apps for development pipeline (mentioned 1x, first: 2026-05-18)\n[x] Applied to one job (mentioned 1x, first: 2026-05-18)\n[x] Apply to LOB (mentioned 1x, first: 2026-05-03)\n[ ] Apply to jobs for spring/winter (mentioned 5x, first: 2026-05-03)\n[ ] Become a better prompt engineer (mentioned 1x, first: 2026-05-18)\n[ ] Build interface using React with Python backend (mentioned 1x,…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,15 @@
+{
+	"@id": "Navigation-Interface",
+	"@context": "tb",
+	"data": "Navigation Interface",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thought-bubbles"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

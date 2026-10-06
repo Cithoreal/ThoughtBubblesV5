@@ -1,0 +1,12 @@
+{
+	"@id": "de5c7c5d",
+	"@context": "tb",
+	"data": "Look into implementing stream parameter for Discord bot message editing\n\n\"so i'll look into that having it return a stream and then just constantly update constantly edit the discord message so i can read it as it generates\"\n\nSource Journals\n[[Inspiration Stream.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inspiration-Stream.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

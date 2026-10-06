@@ -1,0 +1,19 @@
+{
+	"@id": "spending-trend-analysis-2026",
+	"@context": "tb",
+	"data": "Spending Trend Analysis — Jun–Aug 2026\n\nFive pay periods tracked since the Delsis internship started. Here's what the numbers say.\n\nPeriod-by-Period Breakdown\n\nPeriod 1 — Jun 13–24 ($1,323.22 paycheck, partial week)\n⛽ Transport: $299.50 (budget ~$98) — OVER by $201\nGas fill-ups: $51.46 + $52.17 = $103.63\nFull car service + inspection: $195.87 (one-time)\n🍕 Food: $137.92 (budget ~$139) — AT BUDIT (under by $1)\nCheesecake Factory: $73, Tavern in the Square: $49.53, Bubble Tea: $15.39\n📺…",
+	"lastUpdated": "1786579200",
+	"createdAt": "1786579200",
+	"LinkTo": [
+		"finances-spending-log",
+		"remaining-budget",
+		"finances-budget"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"finances",
+		"analysis",
+		"trends"
+	],
+	"category": "finances"
+}

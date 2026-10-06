@@ -1,0 +1,22 @@
+{
+	"@id": "bhaptics-linux",
+	"@context": "tb",
+	"data": "Reference: bHaptics TactSuit — Linux Haptics\n\nHardware\nDevice: bHaptics TactSuit Air\nBLE dongle: TP-Link, attached to Windows VM at boot\nHost: [[infra/star]] (Linux, PipeWire audio)\n\nCurrent Working Pipeline (Windows VM required)\n\nScript: ~/bin/start-bhaptics-audio.sh\n\nLimitation\nAudio-to-Haptic in Surround mode requires Windows runtime. Currently running a VM just for this.\n\nProposed: Native Linux Daemon (bhapticsd)\nFull spec in notes/haptics-linux.md. Architecture:\nYAML profiles for motor…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"star",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"HOME",
+		"openclaw-cleanup-2026-08-29",
+		"peripherals"
+	],
+	"tags": [
+		"reference",
+		"hardware",
+		"project"
+	],
+	"category": "reference"
+}

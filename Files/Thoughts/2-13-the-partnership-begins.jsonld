@@ -1,0 +1,27 @@
+{
+	"@id": "2-13-the-partnership-begins",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-13 The Partnership Begins.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-13 The Partnership Begins\nTranscribed: 2026-03-30 05:16  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:10]  \nIt is January 13th, 2020, 519 p.m.\n[00:00:13 → 00:00:19]  \nWhenever I say 9 a.m., 9 a.m., what the hell am I saying?\n[00:00:19 → 00:00:26]  \nWhenever I say a.m. before 8…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

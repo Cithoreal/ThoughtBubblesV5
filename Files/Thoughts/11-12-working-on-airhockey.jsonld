@@ -1,0 +1,23 @@
+{
+	"@id": "11-12-working-on-airhockey",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-12 Working on AirHockey.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-12 Working on AirHockey\nTranscribed: 2026-03-30 04:34  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:06]  \nI took theater all this morning and I'm feeling prime.\n[00:00:06 → 00:00:28]  \nI've been playing a lot of pistol whip and definitely the best that I've been at that game even…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

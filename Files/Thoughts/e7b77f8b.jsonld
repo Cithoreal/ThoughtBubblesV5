@@ -1,0 +1,12 @@
+{
+	"@id": "e7b77f8b",
+	"@context": "tb",
+	"data": "Look into Llama CP\n\n\"Oh yeah, I wanted to look into Llama CP today.\"\n\nSource Journals\n[[Planning AI Systems.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

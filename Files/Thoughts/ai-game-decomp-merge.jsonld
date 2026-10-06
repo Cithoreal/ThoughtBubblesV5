@@ -1,0 +1,10 @@
+{
+	"@id": "ai-game-decomp-merge",
+	"@context": "tb",
+	"data": "AI Game Decompilation & Merging — What's Actually Happening\n\nDate: 2026-10-01\nAuthor: Calcifer (research subagent)\nTrigger: Chris has been seeing lots of reels/social media content about AI decompiling games and merging them together. This document separates hype from reality.\n\nSummary: What the Trend Actually Is\n\nThere are two distinct trends being conflated in social media content right now, and understanding the difference is critical:\nAI-Assisted Game Decompilation & Recompilation (REAL,…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

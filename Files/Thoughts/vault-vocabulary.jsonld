@@ -1,0 +1,26 @@
+{
+	"@id": "vault-vocabulary",
+	"@context": "tb",
+	"data": "Vault Vocabulary — JSON-LD Predicate Mapping\n\nThe formal RDF vocabulary for the Obsidian vault knowledge graph. Maps the 9 predicates extracted from vault prose to standard RDF vocabularies where they fit, and defines custom vault: predicates where no standard applies.\n\nThis is Phase 2 of the ThoughtBubbles data model. The @context lives at vault/vault-context.jsonld and can be imported by any JSON-LD file in the vault.\n\nNamespace\n\nAll custom predicates use this namespace. Standard prefixes…",
+	"lastUpdated": "1786752000",
+	"createdAt": "1786752000",
+	"LinkTo": [
+		"wikilink",
+		"semantic-web-and-linked-data",
+		"thought-bubbles",
+		"room-2-0-vocab",
+		"goal-typed-links",
+		"thoughtbubbles"
+	],
+	"LinkFrom": [
+		"2026-09-15-vault-vocabulary-and-nanolucent"
+	],
+	"tags": [
+		"concept",
+		"vocabulary",
+		"linked-data",
+		"thoughtbubbles",
+		"data-model"
+	],
+	"category": "concepts"
+}

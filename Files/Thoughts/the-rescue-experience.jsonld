@@ -1,0 +1,37 @@
+{
+	"@id": "the-rescue-experience",
+	"@context": "tb",
+	"data": "The Rescue: The Experience That Grows Calcifer\n\nThe most personal project in the archive. A VR experience, a fiction, a consciousness experiment, and a spiritual catalyst — all the same thing.\n\nTwo Rescues, One Vision\n\nHere's what I didn't expect: The Rescue exists in two forms that at first seem like different projects, but aren't. They're the same idea expressed in different media — one as a fiction, one as a VR experience. Both are about entering a space that forces you to confront yourself.…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776124800",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"fiction-worldbuilding",
+		"rescue-narrative",
+		"room-2-0",
+		"non-linear-editor",
+		"thought-bubbles",
+		"health-and-sleep",
+		"cithoreal-identity",
+		"matter-of-time"
+	],
+	"LinkFrom": [
+		"matter-of-time",
+		"project-mirror",
+		"research-threads",
+		"concepts",
+		"11-13-rescue-time-progression",
+		"11-3-rescue",
+		"rescue-narrative",
+		"story-system"
+	],
+	"tags": [
+		"concept",
+		"founding-document",
+		"the-rescue",
+		"vr-experience",
+		"fiction",
+		"consciousness"
+	],
+	"category": "concepts"
+}

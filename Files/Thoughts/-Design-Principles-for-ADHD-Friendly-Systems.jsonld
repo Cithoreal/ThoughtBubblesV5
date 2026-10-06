@@ -1,0 +1,15 @@
+{
+	"@id": "-Design-Principles-for-ADHD-Friendly-Systems",
+	"@context": "tb",
+	"data": " Design Principles for ADHD Friendly Systems",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"adhd-execution-design"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

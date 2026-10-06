@@ -1,0 +1,12 @@
+{
+	"@id": "5f8f5fc9",
+	"@context": "tb",
+	"data": "Reevaluate linking functionality\n\n\"I just need to reevaluate the linking\"\n\nSource Journals\n[[Journal-It_is_one,_twenty_eight,_a_m.-1st_thought-Friday,_Dec-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_one-_twenty_eight-_a_m.-1st_thought-Friday-_Dec-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

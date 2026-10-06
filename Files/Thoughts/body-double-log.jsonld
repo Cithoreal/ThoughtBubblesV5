@@ -1,0 +1,16 @@
+{
+	"@id": "body-double-log",
+	"@context": "tb",
+	"data": "Body Double Session Log\n\nAppend-only log of ADHD body doubling work sessions.",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"living",
+		"adhd",
+		"body-double",
+		"log"
+	],
+	"category": "living"
+}

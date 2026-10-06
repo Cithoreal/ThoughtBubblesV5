@@ -1,0 +1,25 @@
+{
+	"@id": "directory-llms",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Directory LLMs.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Directory LLMs\nTranscribed: 2026-03-30 12:00  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:03]  \nIt is 3.23pm, August 22nd, 2024.\n[00:00:03 → 00:00:08]  \nOut on the Great Woods Trail once again.\n[00:00:16 → 00:00:27]  \nWe just finished a documentary on Lincoln today, marking the conclusion of…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

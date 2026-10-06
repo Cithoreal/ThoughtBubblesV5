@@ -1,0 +1,12 @@
+{
+	"@id": "e830d7a6",
+	"@context": "tb",
+	"data": "Set up WebSockets connection\n\n\"at the very least the websockets is working\"\n\nSource Journals\n[[Thought Bubbles Interface.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

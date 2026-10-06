@@ -1,0 +1,12 @@
+{
+	"@id": "c65c381f",
+	"@context": "tb",
+	"data": "Grab footage from dash cam each day\n\n\"I'll see if I can grab footage from my dash cam each day as well.\"\n\nSource Journals\n[[New Recording.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

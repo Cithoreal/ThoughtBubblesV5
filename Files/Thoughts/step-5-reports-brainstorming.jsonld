@@ -1,0 +1,27 @@
+{
+	"@id": "step-5-reports-brainstorming",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Step 5 Reports Brainstorming.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Step 5 Reports Brainstorming\nTranscribed: 2026-03-30 13:02  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 3.47 p.m. June 2nd, 2024.\n[00:00:08 → 00:00:11]  \nOut in the great woods.\n[00:00:12 → 00:00:14]  \nDefinitely needed to come out here today.\n[00:00:14 → 00:00:22] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/anythingllm",
+		"topic/homelab",
+		"topic/star-system",
+		"personal/relationships",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

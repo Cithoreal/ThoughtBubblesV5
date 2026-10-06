@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-the-home-depot",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Learn about NVIDIA supercomputer and AI initiatives', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll have to learn what uh NVIDIA is doing with their kind of supercomputer and AI ideas\", 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'The Home Depot.md', 'extracted_at': '2026-05-18T19:04:58.198832', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Draw out the star system…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

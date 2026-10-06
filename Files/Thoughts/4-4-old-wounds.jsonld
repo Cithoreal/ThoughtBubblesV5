@@ -1,0 +1,22 @@
+{
+	"@id": "4-4-old-wounds",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/4-4 Old Wounds.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 4-4 Old Wounds\nTranscribed: 2026-03-30 05:33  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:21]  \nIt is 12 oh 4am on April 4 2020. numerology wise, this day is special for being a universal four year a\n[00:00:26 → 00:00:27]  \nfour months.\n[00:00:29 → 00:00:38]  \nAlthough now that I think about…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

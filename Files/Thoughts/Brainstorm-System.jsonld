@@ -1,0 +1,15 @@
+{
+	"@id": "Brainstorm-System",
+	"@context": "tb",
+	"data": "Brainstorm System",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thought-bubbles"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

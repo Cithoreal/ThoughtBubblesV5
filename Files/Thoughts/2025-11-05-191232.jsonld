@@ -1,0 +1,26 @@
+{
+	"@id": "2025-11-05-191232",
+	"@context": "tb",
+	"data": "Journal — 2025-11-05 19:12\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-05 19-12-32.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-05 19-12-32\nTranscribed: 2026-03-30 11:31  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 712 p.m. November 5th, 2025.\n[00:00:06 → 00:00:12]  \nI was trying to reach dad and couldn't and called me, but I'm not home to be able to do anything about it.\n[00:00:13 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"index",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

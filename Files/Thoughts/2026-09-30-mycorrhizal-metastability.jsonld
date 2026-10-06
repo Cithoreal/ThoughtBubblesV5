@@ -1,0 +1,17 @@
+{
+	"@id": "2026-09-30-mycorrhizal-metastability",
+	"@context": "tb",
+	"data": "Mycorrhizal Metastability: What Forest Soils Teach About Distributed System Collapse\n\nThe Connection\n\nForests and distributed systems share a failure mode that nobody has named from both sides at once. In ecology it's called \"alternative stable states maintained through positive feedbacks.\" In distributed systems it's called \"metastable failures.\" They are the same phenomenon.\n\nThe Shared Structure\nA shared substrate enables resource flow\n\nForests: Mycorrhizal networks — underground hyphal…",
+	"lastUpdated": "1790726400",
+	"createdAt": "1790726400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"cross-pollination",
+		"ecology",
+		"distributed-systems",
+		"knowledge-graph"
+	],
+	"category": "calcifer"
+}

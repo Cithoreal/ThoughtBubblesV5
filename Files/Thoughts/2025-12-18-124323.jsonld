@@ -1,0 +1,17 @@
+{
+	"@id": "2025-12-18-124323",
+	"@context": "tb",
+	"data": "Journal — 2025-12-18 12:43\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-12-18 12-43-23.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-12-18 12-43-23\nTranscribed: 2026-03-30 11:40  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:03]  \nIt is 1243 p.m. December 18th, 2025.\n[00:00:03 → 00:00:06]  \nJust heading home.\n[00:00:25 → 00:00:30]  \nHeading home from BSU for the semester, all done.\n[00:00:31 → 00:00:33] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

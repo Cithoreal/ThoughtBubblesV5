@@ -1,0 +1,12 @@
+{
+	"@id": "7f626a0c",
+	"@context": "tb",
+	"data": "Complete sociology final\n\n\"So I got my sociology final done today.\"\n\nSource Journals\n[[One Exam Left.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"One-Exam-Left.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

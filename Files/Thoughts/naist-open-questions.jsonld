@@ -1,0 +1,16 @@
+{
+	"@id": "naist-open-questions",
+	"@context": "tb",
+	"data": "NAIST Open Questions — Research Findings\n\nResearched: 2026-07-22  \nStatus: Comprehensive findings with citations from official NAIST pages and secondary sources\nEntrance Exam Format & Content\n\nStructure (Information Science Division)\n\nThe NAIST entrance exam for the Division of Information Science is conducted entirely online via Webex and consists of three parts totaling ~30 minutes:\nRegistration — Identity verification, connection check, and exam status confirmation\nMath examination (~12…",
+	"lastUpdated": "1785715200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"grad-school",
+		"naist",
+		"research"
+	],
+	"category": "projects"
+}

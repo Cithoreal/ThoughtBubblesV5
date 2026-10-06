@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-planet-cithoreal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Complete computer organization homework', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm going to have to complete all of my computer organization homework\", 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Planet Cithoreal.md', 'extracted_at': '2026-05-18T18:14:54.224665', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Stay after class tomorrow to work on homework at…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

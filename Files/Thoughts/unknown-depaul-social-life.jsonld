@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-depaul-social-life",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Reach out to Anna again', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I should reach out to her again.', 'project': 'Social', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'DePaul Social Life.md', 'extracted_at': '2026-05-03T18:16:22.873722', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n\nSource\nTranscript: /home/cithoreal/AudioJournals/raw_transcripts/DePaul Social Life.md\nTranscribed by: WhisperX\n\n[!note]-…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

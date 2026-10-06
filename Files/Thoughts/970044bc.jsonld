@@ -1,0 +1,12 @@
+{
+	"@id": "970044bc",
+	"@context": "tb",
+	"data": "Do calculus homework\n\n\"I'll do some calculus homework\"\n\nSource Journals\n[[Walking off some energy.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Walking-off-some-energy.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

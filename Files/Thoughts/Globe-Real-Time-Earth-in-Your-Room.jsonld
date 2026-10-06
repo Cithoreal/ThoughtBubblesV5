@@ -1,0 +1,14 @@
+{
+	"@id": "Globe-Real-Time-Earth-in-Your-Room",
+	"@context": "tb",
+	"data": "Globe — Real-Time Earth in Your Room\n\nType: Room 2.0 Sub-App\nStatus: Spec in progress (handwritten, 2026-09-04)\nSpec Location: Handwritten pages — Globe Vision draft\n\nCore Idea\nAn accurate 3D model of the earth that taps into real-time APIs. Sits in an XR space and visualizes weather, time of day, satellites, and anything observable at world scale. Persistent decoration and utility — a real-time earth simulation that can be placed in a real or digital environment.\n\nKey Behaviors\nPlaced in the…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"category": "thought-spaces"
+}

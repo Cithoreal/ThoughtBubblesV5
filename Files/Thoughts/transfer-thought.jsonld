@@ -1,0 +1,25 @@
+{
+	"@id": "transfer-thought",
+	"@context": "tb",
+	"data": "Transfer Thought\n\nFull no-code WebXR editor. The closest open-source equivalent to ShapesXR.\nRepo: <https://github.com/TransferThoughtLLC/transfer-thought>\nLicense: MIT\nStars: 176\nStatus: 5 years of development, just open-sourced\n\nWhat It Provides\nVisual scene editor for WebXR experiences\nNo-code interface for building spatial scenes\nAdvanced code editor mode for developers\nAWS hosting integration\n5 years of production development\n\nRelevance to Spatial Authoring\nValidates the concept: a no-code…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-node-visualization",
+		"meta-iwsdk",
+		"xrsh"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"meta-iwsdk",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"webxr",
+		"reference",
+		"no-code"
+	],
+	"category": "projects"
+}

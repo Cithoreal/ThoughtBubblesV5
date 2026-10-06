@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-it_is_twelve_forty_seven-_a_m-_november-1st_thought-tuesday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Complete work assignments', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I completed my assignments for work today', 'project': 'Work', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Journal-It_is_twelve_forty_seven,_a_M._November-1st_thought-Tuesday,_Nov-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T17:29:29.762561', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Get Christmas present for…",
+	"lastUpdated": "1789430400",
+	"createdAt": "1789430400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

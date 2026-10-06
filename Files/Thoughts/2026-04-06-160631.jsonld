@@ -1,0 +1,37 @@
+{
+	"@id": "2026-04-06-160631",
+	"@context": "tb",
+	"data": "Journal — 2026-04-06 16:06\n\nSummary\n\nThe speaker records an 11-minute journal entry while driving home after a calculus test, mentally organizing upcoming academic deadlines including a physics test and job interview. Despite fatigue, they elaborate extensively on future coding projects planned with Katie (KT), prioritizing a personal finance tracking app over a previous inventory idea, while acknowledging the need to personally intervene in their AI project Calcifer's development. The entry…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"real-world-inventory",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index",
+		"katie-boscombe",
+		"budget-app"
+	],
+	"tags": [
+		"journal",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"personal/finance",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/audio-pipeline",
+		"project",
+		"theme/academic-pressure",
+		"theme/project-planning",
+		"theme/relationship-collaboration",
+		"theme/habit-formation",
+		"theme/ai-development"
+	],
+	"category": "journals"
+}

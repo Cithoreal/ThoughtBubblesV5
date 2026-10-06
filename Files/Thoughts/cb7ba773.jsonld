@@ -1,0 +1,12 @@
+{
+	"@id": "cb7ba773",
+	"@context": "tb",
+	"data": "Set up DigitalOcean server\n\n\"Eventually on a DigitalOcean\"\n\nSource Journals\n[[Short Term Project Goals and Future culmination.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Short-Term-Project-Goals-and-Future-culmination.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

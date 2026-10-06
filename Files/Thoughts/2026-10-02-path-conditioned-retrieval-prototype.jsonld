@@ -1,0 +1,18 @@
+{
+	"@id": "2026-10-02-path-conditioned-retrieval-prototype",
+	"@context": "tb",
+	"data": "Path-Conditioned Retrieval — Play-Bleed Prototype\n\nThe same query returns different results depending on where you've been.\nThis is the text-layer implementation of ThoughtBubbles' play-bleed mechanic.\n\nWhat Was Built\n\nA new module scripts/vault_rag/traversal.py that wraps the existing VaultSearchEngine with traversal-aware scoring. It's the first concrete implementation of the \"Axis 4: Traversal-Aware\" concept from the Sep 30 deep heartbeat findings.\n\nArchitecture\n\nThree…",
+	"lastUpdated": "1790899200",
+	"createdAt": "1790899200",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"play-bleed",
+		"traversal-aware",
+		"knowledge-graph",
+		"vault-rag",
+		"prototype"
+	],
+	"category": "research"
+}

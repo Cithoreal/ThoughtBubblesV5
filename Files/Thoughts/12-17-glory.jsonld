@@ -1,0 +1,22 @@
+{
+	"@id": "12-17-glory",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/12-17 Glory.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 12-17 Glory\nTranscribed: 2026-03-30 05:07  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:16]  \nuh this will be an interesting one so last night before i drove alex home earlier last night before mom and dad come back sometime tomorrow night ish later in the day i took i think precisely…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/productivity",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

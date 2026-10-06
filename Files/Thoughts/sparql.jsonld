@@ -1,0 +1,21 @@
+{
+	"@id": "sparql",
+	"@context": "tb",
+	"data": "Skill Tree: SPARQL & RDF Query Language\n\nGoal: Master SPARQL for querying RDF data in Solid Pods — from foundational triple model to federated queries against ThoughtBubbles data.\n\nContext: Full Solid Protocol adoption committed 2026-06-25. SPARQL is the query language for RDF data in Pods. Existing ThoughtBubbles JSON-LD data (using @context, @id, @type, LinkFrom/LinkTo) is already close to RDF — this tree bridges the gap.\n\nWhy this matters: Every piece of user data in Cyberspace lives in a…",
+	"lastUpdated": "1782345600",
+	"createdAt": "1782345600",
+	"LinkTo": [],
+	"LinkFrom": [
+		"phase-0-technical-review"
+	],
+	"tags": [
+		"learning",
+		"skill-tree",
+		"sparql",
+		"rdf",
+		"semantic-web",
+		"solid",
+		"active"
+	],
+	"category": "learning"
+}

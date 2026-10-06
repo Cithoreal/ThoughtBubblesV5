@@ -1,0 +1,22 @@
+{
+	"@id": "usc",
+	"@context": "tb",
+	"data": "University of Southern California — Interactive Media, XR & MxR Lab\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nUSC is unique among the four universities on this list because its XR strength comes not from a traditional CS department but from a convergence of the School of Cinematic Arts (SCA), the Institute for Creative Technologies (ICT), and the CS department. The MxR Lab (Mixed Reality Lab), led by Mark Bolas (who is also Associate Director of ICT), is…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

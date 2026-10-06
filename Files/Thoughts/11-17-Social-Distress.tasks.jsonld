@@ -1,0 +1,30 @@
+{
+	"@id": "11-17-Social-Distress.tasks",
+	"@context": "tb",
+	"data": "11 17 Social Distress.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"18ad890a",
+		"24c8f501",
+		"3543d7fa",
+		"3ff71d0c",
+		"4a51a0ae",
+		"611226b3",
+		"737239f8",
+		"7ea0ec34",
+		"882e65ce",
+		"97a2ab7b",
+		"a516ae3d",
+		"a76a0add",
+		"b86e987a",
+		"d50f8831",
+		"d692dc75",
+		"fc864d75"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-12-6",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': \"Get Steph's present\", 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"I'm starting to get Steph's present.\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '12-6.md', 'extracted_at': '2026-05-03T16:20:30.792034', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Complete AI foundational course', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"About 30% left to do…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

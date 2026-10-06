@@ -1,0 +1,31 @@
+{
+	"@id": "Thought-Bubbles-Interface.tasks",
+	"@context": "tb",
+	"data": "Thought Bubbles Interface.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"0334b0e9",
+		"1fecdd64",
+		"27469204",
+		"36fe8e51",
+		"37d9ba9c",
+		"567a9232",
+		"58f185cc",
+		"5a4e9f2f",
+		"5b7a3ed3",
+		"72150007",
+		"ac306f83",
+		"baaecb0c",
+		"c1efd870",
+		"ce719e95",
+		"dcf5cad0",
+		"e830d7a6",
+		"f6a832c8"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

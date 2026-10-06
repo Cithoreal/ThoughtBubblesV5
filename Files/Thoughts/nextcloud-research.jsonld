@@ -1,0 +1,23 @@
+{
+	"@id": "nextcloud-research",
+	"@context": "tb",
+	"data": "Nextcloud — What's Relevant Going Forward\n\nResearch summary for cithoreal's self-hosted Nextcloud instance (cloud.cybernautics.net, v33 on Optiplex).\n\n🔑 The Big One: ExApp / AppAPI\n\nWhat it is: Nextcloud's new framework for building apps as external microservices (Docker containers) rather than PHP plugins baked into the Nextcloud codebase.\n\nWhy it matters for us:\nWrite Calcifer integrations in Python (not PHP) — same language as everything else we build\nThe ExApp runs as a Docker container on…",
+	"lastUpdated": "1776297600",
+	"createdAt": "1776297600",
+	"LinkTo": [
+		"optiplex",
+		"anythingllm",
+		"star",
+		"calcifer-memory"
+	],
+	"LinkFrom": [
+		"nextcloud",
+		"homeassistant-research"
+	],
+	"tags": [
+		"reference",
+		"nextcloud",
+		"infrastructure"
+	],
+	"category": "reference"
+}

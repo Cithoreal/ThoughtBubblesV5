@@ -1,0 +1,21 @@
+{
+	"@id": "alex-hardy",
+	"@context": "tb",
+	"data": "Alex Hardy\n\nRole\nProducer at Cybernautics (early founding team).\n\nContext\nListed in [[OneNote/Cybernautics/Main Business/Members]] as a founding member of the Cybernautics team, with the role of Producer. No further details in available records.\n\nConnections\n[[concepts/cybernautics-business-plan]]\n[[people/cithoreal]]",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"Members",
+		"cybernautics-business-plan",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"cybernautics-business-plan",
+		"people",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"person"
+	],
+	"category": "people"
+}

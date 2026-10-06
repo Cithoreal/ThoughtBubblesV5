@@ -1,0 +1,21 @@
+{
+	"@id": "unknown-inbox-cancelled_transcription-2nd_thought-sunday-_sep-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nWhile driving in their car, the speaker designs a personal productivity framework involving automated time-block notifications and structured daily routines. They emphasize a gradual approach—starting with minimal scheduling and ample free time before adding complexity—and outline plans for an integrated review system that links notes or audio timestamps to calendar events to track progress.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"star",
+		"audio-journal-pipeline"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/productivity-systems",
+		"theme/routine-building",
+		"theme/incremental-improvement",
+		"theme/time-management",
+		"theme/self-tracking"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-planning-ai-systems",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Complete sociology homework', 'type': 'progress', 'status': 'completed', 'raw_quote': \"Got my sociology homework done, which I'm very proud of because I was really stressing about it all day, but I just took my laptop downstairs and hammered it out.\", 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Planning AI Systems.md', 'extracted_at': '2026-05-18T18:16:36.009036', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

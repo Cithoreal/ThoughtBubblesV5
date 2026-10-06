@@ -1,0 +1,12 @@
+{
+	"@id": "8f42e66f",
+	"@context": "tb",
+	"data": "Fix home automation to wake up PC after WiFi change\n\n\"since the wi-fi changed i haven't really had the home automation waking up my pc\"\n\nSource Journals\n[[Journal Backlog.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-Backlog.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

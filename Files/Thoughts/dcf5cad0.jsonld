@@ -1,0 +1,12 @@
+{
+	"@id": "dcf5cad0",
+	"@context": "tb",
+	"data": "Add docx compatibility to ThoughtBubbles\n\n\"I can definitely make compatibility stuff with docx as well\"\n\nSource Journals\n[[Thought Bubbles Interface.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

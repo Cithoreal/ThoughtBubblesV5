@@ -1,0 +1,10 @@
+{
+	"@id": "bhaptics-linux-recon",
+	"@context": "tb",
+	"data": "bHaptics Linux Compatibility Daemon — Technical Recon\n\nEngineering recon document for the \"bhapd\" project.\nGoal: native Linux haptics for bHaptics TactSuit on Arch desktop AND Steam Frame (aarch64 SteamOS).\nDate: 2026-09-17 | Author: Calcifer (recon agent)\n\n(A) Architecture Options + Verdict\n\nOption 1: Player-Protocol Reimplementation (Hybrid)\nConcept: Reimplement the bHaptics Player local server as a Linux daemon. Games use the official bHaptics SDKs (embedded in game binaries via…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "projects"
+}

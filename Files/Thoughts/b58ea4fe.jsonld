@@ -1,0 +1,12 @@
+{
+	"@id": "b58ea4fe",
+	"@context": "tb",
+	"data": "Complete basic physics lab analysis (skip extra magnetic field work)\n\n\"I'm just going to do the basic. Just to look at the linear relationships between current and force\"\n\nSource Journals\n[[2026-04-06 16-06-31.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-06-16-06-31.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

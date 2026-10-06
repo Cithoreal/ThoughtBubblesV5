@@ -1,0 +1,12 @@
+{
+	"@id": "0cec8886",
+	"@context": "tb",
+	"data": "Think about adding task relationships rather than specifying\n\n\"I should just think about adding rather than trying to specify\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

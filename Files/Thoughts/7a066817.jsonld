@@ -1,0 +1,12 @@
+{
+	"@id": "7a066817",
+	"@context": "tb",
+	"data": "Go message her [Katie]\n\n\"now I want to go message her instead\"\n\nSource Journals\n[[New Recording 10 6.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-10-6.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

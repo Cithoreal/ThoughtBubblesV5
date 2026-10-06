@@ -1,0 +1,20 @@
+{
+	"@id": "unknown-ai-week_-assistant-talk",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker explores his vision for accessible AI assistants that combine transcription, document organization, and coding tools to amplify human creativity. He emphasizes that while AI can handle technical implementation and tedious organization, human vision remains central, allowing people to work at higher conceptual levels and focus on creative details rather than implementation mechanics.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/ai-augmentation",
+		"theme/human-ai-collaboration",
+		"theme/technology-accessibility",
+		"theme/creative-empowerment",
+		"theme/friction-reduction"
+	],
+	"category": "journals"
+}

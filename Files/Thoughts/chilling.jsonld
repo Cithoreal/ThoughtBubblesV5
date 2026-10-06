@@ -1,0 +1,25 @@
+{
+	"@id": "chilling",
+	"@context": "tb",
+	"data": "See also: [[concepts/ar-xr-development]] · [[concepts/project-calcifer-founding-vision]] · [[projects/air-hockey-mr]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Chilling.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Chilling\nTranscribed: 2026-03-30 11:54  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:02]  \nIt is 3.46 PM, August 19th, 2020.\n[00:00:11 → 00:00:13]  \nIt's been a couple weeks since I…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"ar-xr-development",
+		"project-calcifer-founding-vision",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

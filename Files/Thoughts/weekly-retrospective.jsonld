@@ -1,0 +1,24 @@
+{
+	"@id": "weekly-retrospective",
+	"@context": "tb",
+	"data": "Concept: Weekly Retrospective\n\nWhat It Is\nA Monday morning automated review. Pulls git activity, journal mood/energy, and task completion data and surfaces 3 questions for cithoreal.\n\nSchedule\nEvery Monday at 9:00 AM — calcifer-retrospective.timer (systemd)\n\nScript\n~/.openclaw/workspace/scripts/weekly_retrospective.py\n\nFormat\nGit activity summary (what got committed this week)\nJournal mood/energy trend (from audio pipeline data)\nTask completion rate\n3 questions for cithoreal to answer\n\nThe Q2…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"focus-system",
+		"audio-journal-pipeline",
+		"time-based-task-analysis",
+		"year-reflections",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"focus-system",
+		"time-based-task-analysis",
+		"concepts",
+		"projects-audio-journal-pipeline"
+	],
+	"tags": [
+		"concept"
+	],
+	"category": "concepts"
+}

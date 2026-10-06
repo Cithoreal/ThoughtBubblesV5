@@ -1,0 +1,12 @@
+{
+	"@id": "be57bce7",
+	"@context": "tb",
+	"data": "Get weightlifting bench\n\n\"We've got to get the bench.\"\n\nSource Journals\n[[Task System.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

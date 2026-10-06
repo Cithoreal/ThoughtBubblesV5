@@ -1,0 +1,10 @@
+{
+	"@id": "timeline-current",
+	"@context": "tb",
+	"data": "Timeline — Current Week (Sep 28-Oct 4, 2026)\nGenerated 2026-10-04 00:00 — this is a live view, overwritten each run.\n\nThis Week\n\n2026-10-03 (53 entries)\ncalcifer/current-curiosity.md: curiosity-hour ran — Thread 7 (SteamOS as XR Platform) tenth deep dive: spatial computing OS landscape mapped across fiv\ncalcifer/current-curiosity.md: journal-analyst ran (ok) — processed journals, sent notifications\njournals/index.md (updated: 2026-10-03)\njournals/2022/2022-10-26-000000.md (updated:…",
+	"lastUpdated": "1791165365",
+	"createdAt": "1791165365",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "calcifer"
+}

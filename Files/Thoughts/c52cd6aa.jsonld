@@ -1,0 +1,12 @@
+{
+	"@id": "c52cd6aa",
+	"@context": "tb",
+	"data": "Schedule time to work on meditations final\n\n\"And at some point, I just need to schedule out some time to work on my meditations final.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

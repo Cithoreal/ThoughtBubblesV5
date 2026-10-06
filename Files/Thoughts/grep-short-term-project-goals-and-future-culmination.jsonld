@@ -1,0 +1,18 @@
+{
+	"@id": "grep-short-term-project-goals-and-future-culmination",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2025/short-term-project-goals-and-future-culmination.md\n\n82-> \n83-> [00:03:36 → 00:03:41]  \n84-> It makes it so that you can...\n85-> \n86-> [00:03:42 → 00:04:08]  \n87:> have sqlite just embedded in your your front end it uses browser storage and then any other tab any other window any other device that you open up to that application they'll track each other down either through http requests or through web sockets and can automatically sync\n88-> \n89-> [00:04:09 → 00:04:28]…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"skill-trees",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

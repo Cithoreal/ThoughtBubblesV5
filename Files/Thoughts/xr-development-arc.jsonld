@@ -1,0 +1,41 @@
+{
+	"@id": "xr-development-arc",
+	"@context": "tb",
+	"data": "XR Development & Air Hockey Testbed\n\nWhat It Is\ncithoreal's primary active XR development work, centered on Unity and Meta Quest. Air Hockey was his first published app (Oculus Store, 2019) and continues to serve as the primary ThoughtBubbles prototype sandbox — a real app where spatial computing and graph DB concepts are tested before being rolled into TB.\n\nAir Hockey as Prototype Strategy\nUsing a game as a testing ground is intentional. Rather than building ThoughtBubbles from scratch in an…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2023-06-11_unity-air-hockey-game",
+		"2023-07-02_airhockey-mlagents",
+		"2023-07-03_xr-air-hockey-arcade",
+		"2023-07-14_monado-vr-on-windows",
+		"2023-07-16_arch-monado-xrdesktop-implementation",
+		"2023-07-14_ar-disk-golf-project",
+		"2023-07-24_mixed-reality-story-app",
+		"2023-09-20_xr-app-business-plan",
+		"2024-05-06_unity-vr-quest-demo",
+		"2024-05-13_neo4j-air-hockey-schema",
+		"2024-04-12_meta-quest-mr-app",
+		"2024-04-16_mixed-reality-zen-garden",
+		"thought-bubbles",
+		"ar-xr-development",
+		"cybernautics-vision",
+		"air-hockey-mr",
+		"room-2-0",
+		"star-system-vision",
+		"neurosity-bci",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"2026-08-04-journal",
+		"concepts",
+		"onenote-work-projects"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"xr",
+		"project"
+	],
+	"category": "concepts"
+}

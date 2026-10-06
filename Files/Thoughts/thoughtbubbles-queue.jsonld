@@ -1,0 +1,15 @@
+{
+	"@id": "thoughtbubbles-queue",
+	"@context": "tb",
+	"data": "ThoughtBubbles Research Queue\n\nItems worth cithoreal's attention, prioritized by relevance to current project status.\nMaintained by the ThoughtBubbles researcher cron agent (Calcifer).\n\nCurrent TB status: Godot-based, saving/loading stabilized (dict-keyed JSON), pre-XR phase.\nLast updated: 2026-09-23 by Calcifer ThoughtBubbles researcher cron.\nTB status note (Sep 18): Active development paused. Cithoreal questioning TB vs Obsidian. Focusing on smaller finishable projects. TB is NOT abandoned —…",
+	"lastUpdated": "1790726400",
+	"createdAt": "1776211200",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"reference",
+		"thoughtbubbles",
+		"queue"
+	],
+	"category": "reference"
+}

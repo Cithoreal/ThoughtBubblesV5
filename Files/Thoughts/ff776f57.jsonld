@@ -1,0 +1,12 @@
+{
+	"@id": "ff776f57",
+	"@context": "tb",
+	"data": "Implement feedback loops for Calcifer\n\n\"I definitely want a feedback loop\"\n\nSource Journals\n[[Talking to Cal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Talking-to-Cal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

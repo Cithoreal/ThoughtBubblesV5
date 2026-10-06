@@ -1,0 +1,21 @@
+{
+	"@id": "2018-05-27-000000",
+	"@context": "tb",
+	"data": "Journal — 2018-05-27 00:00\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Audio Journal Eight 5-27-18.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Audio Journal Eight 5-27-18\nTranscribed: 2026-03-30 05:35  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nHello, this is Chris and this is my daily audio journal.\n[00:00:09 → 00:00:12]  \nIt is weird.\n[00:00:12 → 00:00:18]  \nIt's 20 degrees colder than it was yesterday…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

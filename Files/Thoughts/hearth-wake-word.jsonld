@@ -1,0 +1,19 @@
+{
+	"@id": "hearth-wake-word",
+	"@context": "tb",
+	"data": "Hearth Wake Word\n\nWake word server deployed and live on Pi4 (Satellite1). Requires physical testing: verify \"Hey Hearth\" triggers end-to-end near Satellite1.\n\nSession History\n2026-08-30: Discussed hearth wake word",
+	"lastUpdated": "1777766400",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"homeassistant",
+		"hearth-family-home-ai"
+	],
+	"tags": [
+		"infra",
+		"hearth",
+		"voice"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "740e19b2",
+	"@context": "tb",
+	"data": "Buy Christmas presents for Preston, Dan, Lauren, and Cecily\n\n\"I want to buy Preston, Dan, Lauren, and Cecily all presents.\"\n\nSource Journals\n[[One Exam Left.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"One-Exam-Left.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

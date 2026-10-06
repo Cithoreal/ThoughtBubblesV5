@@ -1,0 +1,12 @@
+{
+	"@id": "5bc1b5d8",
+	"@context": "tb",
+	"data": "Train voice\n\n\"I can train my voice\"\n\nSource Journals\n[[Walking off some energy.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Walking-off-some-energy.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

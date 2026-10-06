@@ -1,0 +1,12 @@
+{
+	"@id": "94d6c13a",
+	"@context": "tb",
+	"data": "Reduce meat consumption\n\n\"I'll definitely eat a lot less meat\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

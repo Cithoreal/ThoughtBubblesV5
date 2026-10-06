@@ -1,0 +1,28 @@
+{
+	"@id": "2025-04-28-191801",
+	"@context": "tb",
+	"data": "Journal — 2025-04-28 19:18\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-04-28 19-18-01.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-04-28 19-18-01\nTranscribed: 2026-03-29 12:44  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:03 → 00:00:06]  \nJust waved goodbye to you, pulling out of the parking spot.\n[00:00:08 → 00:00:10]  \nDriving around a long spring lot.\n[00:00:11 → 00:00:12]  \nNo idea what I'm going to talk about,…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

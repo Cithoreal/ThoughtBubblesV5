@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-pdf-game-inatructions",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Set up audio transcription on Mac', 'type': 'progress', 'status': 'completed', 'raw_quote': \"i tried setting up the audio transcription on my mac but maybe i'm setting it up incorrectly but it is just not fast\", 'project': 'Work', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'PDF Game Inatructions.md', 'extracted_at': '2026-05-18T18:13:41.444723', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Look into…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

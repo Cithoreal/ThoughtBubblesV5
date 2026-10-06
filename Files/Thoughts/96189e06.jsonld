@@ -1,0 +1,12 @@
+{
+	"@id": "96189e06",
+	"@context": "tb",
+	"data": "Check emails but not immediately upon waking\n\n\"I should check my emails, but not right when I wake up.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

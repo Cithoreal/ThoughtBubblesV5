@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-it_is_three-_twelve_pm-1st_thought-wednesday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Work on the thought space (ThoughtSpace node)', 'type': 'explicit', 'status': 'new', 'raw_quote': 'what I want to work on today, which is space, the thought space', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Journal-It_is_three,_twelve_pm,-1st_thought-Wednesday,_Nov-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T17:25:16.386233', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text':…",
+	"lastUpdated": "1789430400",
+	"createdAt": "1789430400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

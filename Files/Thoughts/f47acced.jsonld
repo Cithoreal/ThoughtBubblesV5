@@ -1,0 +1,12 @@
+{
+	"@id": "f47acced",
+	"@context": "tb",
+	"data": "Learn about electric lighter internals\n\n\"I want to learn about what's going on inside this electric lighter.\"\n\nSource Journals\n[[Introspection 4.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

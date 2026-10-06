@@ -1,0 +1,38 @@
+{
+	"@id": "goal-spatial-navigation",
+	"@context": "tb",
+	"data": "Goal: Spatial Navigation\n\nFly, walk, and teleport through thought space. Portals between clusters. Infinite canvas in 3D.\n\nWhat This Is\nThe movement system for navigating the spatial thought graph. Thought spaces can be enormous — you need smooth, comfortable, multi-scale navigation.\n\nSpecific Behaviors Needed\nWalk — room-scale movement for examining nearby bubbles\nFly — smooth locomotion through larger thought spaces\nTeleport — instant jump to distant clusters (XR Tools teleport)\nPortals —…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-xr-tools",
+		"lorien",
+		"godot-46-xr-features",
+		"godot-spatialize",
+		"goal-spatial-authoring",
+		"goal-node-visualization",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"atlas-code",
+		"goal-node-visualization",
+		"goal-spatial-authoring",
+		"godot-46-xr-features",
+		"godot-47-xr-improvements",
+		"godot-openxr-vendors",
+		"godot-quest-editor",
+		"godot-spatialize",
+		"godot-xr-tools",
+		"lorien",
+		"spatial-authoring-research",
+		"vride",
+		"xrsh"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"navigation"
+	],
+	"category": "projects"
+}

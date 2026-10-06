@@ -1,0 +1,26 @@
+{
+	"@id": "networking-hardware-fundamentals",
+	"@context": "tb",
+	"data": "Networking Hardware & Fundamentals\n\nA learning track for understanding the physical and logical infrastructure that connects devices — switches, routers, VLANs, PoE, subnetting, and beyond.\n\nWhy This Matters\n\nThe homelab runs on networking. Every device — Pi 5, Optiplex, Star, Quest 3, Shelly relays, Satellite1, ESP32 nodes — talks through the network. Right now the knowledge is patchy: I know what a switch does at a surface level, but not the differences between managed and unmanaged, how…",
+	"lastUpdated": "1781827200",
+	"createdAt": "1781827200",
+	"LinkTo": [
+		"homeassistant",
+		"pi5",
+		"homelab-infrastructure",
+		"room-2-0",
+		"skill-trees",
+		"homelab-2025-buildout"
+	],
+	"LinkFrom": [
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"learning",
+		"networking",
+		"infrastructure",
+		"active"
+	],
+	"category": "concepts"
+}

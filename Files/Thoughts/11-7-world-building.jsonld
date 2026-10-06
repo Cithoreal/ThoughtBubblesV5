@@ -1,0 +1,23 @@
+{
+	"@id": "11-7-world-building",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-7 World Building.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-7 World Building\nTranscribed: 2026-03-30 04:57  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:23]  \nAlright, um, already a week into November, it's going very fast, especially from the perspective that I have not gotten much work done, but as I've said a few times before, um, I haven't…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

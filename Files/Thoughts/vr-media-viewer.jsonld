@@ -1,0 +1,27 @@
+{
+	"@id": "vr-media-viewer",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/VR Media Viewer.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# VR Media Viewer\nTranscribed: 2026-03-30 06:19  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:04]  \nIt is 1118pm, October 18 2021.\n[00:00:04 → 00:00:04]  \nNew line.\n[00:00:19 → 00:00:37]  \nSo for making money in the short term and for sort of gaining confidence, beefing up my portfolio and my…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"the-grand-system",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/core-system",
+		"personal/identity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

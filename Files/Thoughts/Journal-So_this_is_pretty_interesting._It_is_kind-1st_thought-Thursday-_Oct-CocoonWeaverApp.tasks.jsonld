@@ -1,0 +1,30 @@
+{
+	"@id": "Journal-So_this_is_pretty_interesting._It_is_kind-1st_thought-Thursday-_Oct-CocoonWeaverApp.tasks",
+	"@context": "tb",
+	"data": "Journal So_this_is_pretty_interesting._It_is_kind 1st_thought Thursday _Oct CocoonWeaverApp.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"028fd3c8",
+		"2aa63825",
+		"2ad8403d",
+		"3caa3a5e",
+		"5009e8bc",
+		"613f4a79",
+		"631c922b",
+		"69933a0e",
+		"6c7bf1b9",
+		"8f78ff97",
+		"9884df23",
+		"99d28b27",
+		"b0b633d2",
+		"b2dd9aa6",
+		"b3124511",
+		"ffcc9880"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

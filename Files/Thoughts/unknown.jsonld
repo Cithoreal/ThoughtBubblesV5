@@ -1,0 +1,31 @@
+{
+	"@id": "unknown",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/unknown.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# unknown\nTranscribed: 2026-03-30 06:21  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nAlright, so a few things.\n[00:00:05 → 00:00:16]  \nOne, we had dinner with Matt at the airport, meaning I went off paleo quite considerably.\n[00:00:18 → 00:00:19]  \nI had fish and chips for dinner.\n[00:00:20 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr",
+		"ar-xr-development",
+		"project-calcifer-founding-vision",
+		"mirrorworlds-themes",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

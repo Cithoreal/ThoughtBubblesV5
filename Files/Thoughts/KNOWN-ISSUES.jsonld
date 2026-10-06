@@ -1,0 +1,10 @@
+{
+	"@id": "KNOWN-ISSUES",
+	"@context": "tb",
+	"data": "KNOWN-ISSUES.md — Star Current Verified Issues\nBtrfs Disk Pressure on /dev/sda2 (94%)\nSeverity: High\nFirst observed: Known ongoing concern\nLast verified: 2026-10-02\nStatus: Active — 867G used of 932G, 60G free. Worsening trend: 90% (Sep 22) → 91% (Sep 23) → 94% (Oct 2). Shadercache clear (64G, safe, identified Sep 18) still not executed.\nImpact: Root, /home, and /.snapshots all share this single btrfs filesystem. Snapshots consume shared space. Risk of filesystem full → system instability.\nWhat…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

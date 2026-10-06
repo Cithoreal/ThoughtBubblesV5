@@ -1,0 +1,29 @@
+{
+	"@id": "ongoing-efforts.tasks",
+	"@context": "tb",
+	"data": "ongoing efforts.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"0286feea",
+		"05dbc948",
+		"11e18805",
+		"1243261f",
+		"1f04db8c",
+		"4f7f06b9",
+		"5e57efad",
+		"7e596c4b",
+		"7ff7d4ce",
+		"8cfc0152",
+		"8d96ebd0",
+		"996b876e",
+		"a99ef910",
+		"aee19b88",
+		"fbd860ea"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

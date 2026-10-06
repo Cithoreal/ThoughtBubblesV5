@@ -1,0 +1,12 @@
+{
+	"@id": "d5aff517",
+	"@context": "tb",
+	"data": "Figure out conversation chaining for smart home hub\n\n\"I still want to try to figure out conversation chaining the hub\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

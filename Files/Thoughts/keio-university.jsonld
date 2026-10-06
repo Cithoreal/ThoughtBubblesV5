@@ -1,0 +1,23 @@
+{
+	"@id": "keio-university",
+	"@context": "tb",
+	"data": "Keio University — KMD / SFC / Science & Technology\n\nPart of [[projects/grad-school-options|Grad School Options]] research. See also [[projects/mext-scholarship-2029|Mext Scholarship 2029]] for funding details.\n\nOverview\n\nKeio University stands out for its creative, design-oriented approach to XR — particularly through KMD's Embodied Media Project (Prof. Minamizawa) and SFC's Cyber Informatics/X-Design programs. The Embodied Media Project is world-class for haptics/VR/telexistence with regular…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options",
+		"mext-scholarship-2029"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

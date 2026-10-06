@@ -1,0 +1,22 @@
+{
+	"@id": "purdue",
+	"@context": "tb",
+	"data": "Purdue University — Spatial Computing Hub & CS/CGT\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nPurdue University combines strong CS research with a rapidly growing investment in spatial computing. The Spatial Computing Hub, which opened in September 2025, is a university-level initiative spanning Computer Science, Electrical & Computer Engineering, and Computer Graphics Technology — signaling Purdue's serious commitment to XR as a strategic area. The CGT…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

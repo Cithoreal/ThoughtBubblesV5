@@ -1,0 +1,12 @@
+{
+	"@id": "9291f27b",
+	"@context": "tb",
+	"data": "Remove ML agents expertise mention from About Me\n\n\"Recently, becoming an expert on ML agents. Gonna get rid of that\"\n\nSource Journals\n[[About Me and Major Level Ups.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"About-Me-and-Major-Level-Ups.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

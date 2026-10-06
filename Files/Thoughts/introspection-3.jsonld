@@ -1,0 +1,21 @@
+{
+	"@id": "introspection-3",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection 3.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection 3\nTranscribed: 2026-03-30 05:49  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:02]  \nMm-hmm.\n[00:00:03 → 00:00:03]  \nTest.\n[00:00:04 → 00:00:05]  \nAlright.\n[00:00:07 → 00:00:08]  \nHello there.\n[00:00:15 → 00:00:23]  \nDun dun dun dun dun dun dun\n[00:00:29 → 00:00:31]  \nThis will be…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"cithoreal-identity",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "1101c162",
+	"@context": "tb",
+	"data": "Create Unity application to sort family photos\n\n\"set up a unity application... using Unity that sorts the photos\"\n\nSource Journals\n[[11-8 AI and Release.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-8-AI-and-Release.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "ff8e0ad7",
+	"@context": "tb",
+	"data": "Complete SQL coursework\n\n\"I got some sequel stuff to do today\"\n\nSource Journals\n[[Anatomy Z.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Anatomy-Z.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

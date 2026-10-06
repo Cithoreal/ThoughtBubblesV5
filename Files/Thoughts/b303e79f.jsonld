@@ -1,0 +1,12 @@
+{
+	"@id": "b303e79f",
+	"@context": "tb",
+	"data": "Look up word (micro/macro)\n\n\"I'm gonna look it up.\"\n\nSource Journals\n[[Introspection 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

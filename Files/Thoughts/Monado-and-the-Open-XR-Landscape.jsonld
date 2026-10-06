@@ -1,0 +1,16 @@
+{
+	"@id": "Monado-and-the-Open-XR-Landscape",
+	"@context": "tb",
+	"data": "Monado and the Open XR Landscape\n\nType: Technology Research\nStatus: Research complete\nDate: 2026-09-04\n\nCore Finding\nNo consumer AR glasses support 6DoF tracking through Monado (or any open XR runtime) out of the box. The open XR landscape on Linux is still early.\n\nMonado Supported AR Glasses (All 3DoF Only)\n| Device | Tracking | Notes |\n|---|---|---|\n| Xreal Air | 3DoF | Rotation only |\n| Xreal Air 2 | 3DoF | Rotation only |\n| Xreal Air 2 Pro | 3DoF | Rotation only |\n\nNo RayNeo, VITURE, or…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"AR-Glasses-as-Dev-Workstation",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"AR-Glasses-as-Dev-Workstation"
+	],
+	"category": "thought-spaces"
+}

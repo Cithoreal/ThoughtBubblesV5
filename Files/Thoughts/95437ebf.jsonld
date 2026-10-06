@@ -1,0 +1,12 @@
+{
+	"@id": "95437ebf",
+	"@context": "tb",
+	"data": "Visually inspect document chunks produced by chunking module\n\n\"I can just directly see what the chunks look like... just visually see what chunks it produces\"\n\nSource Journals\n[[2026-04-16 09-21-12.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-16-09-21-12.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

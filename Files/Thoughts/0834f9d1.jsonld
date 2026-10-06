@@ -1,0 +1,12 @@
+{
+	"@id": "0834f9d1",
+	"@context": "tb",
+	"data": "Go to bed earlier tonight\n\n\"So I would like to go to bed a little earlier tonight.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

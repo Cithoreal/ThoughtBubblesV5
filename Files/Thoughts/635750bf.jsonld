@@ -1,0 +1,12 @@
+{
+	"@id": "635750bf",
+	"@context": "tb",
+	"data": "Ask Claude about purpose of subflows in Node-RED\n\n\"I'll ask Claude. Why not?... What is the purpose of subflows in Node-RED?\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

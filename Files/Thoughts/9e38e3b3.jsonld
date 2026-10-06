@@ -1,0 +1,12 @@
+{
+	"@id": "9e38e3b3",
+	"@context": "tb",
+	"data": "Examine current save data structure\n\n\"just before I left I made sure to properly see what the save data currently looks like\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

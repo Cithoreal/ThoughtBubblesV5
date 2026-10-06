@@ -1,0 +1,12 @@
+{
+	"@id": "e6947121",
+	"@context": "tb",
+	"data": "Put up tent in backyard\n\n\"I put up my tent in the backyard, so I'm currently there.\"\n\nSource Journals\n[[10-18 Yuru Camp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-18-Yuru-Camp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

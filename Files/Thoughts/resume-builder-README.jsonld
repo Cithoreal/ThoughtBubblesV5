@@ -1,0 +1,15 @@
+{
+	"@id": "resume-builder-README",
+	"@context": "tb",
+	"data": "Resume Builder\n\nCareer experience record and resume reference. Job search is done — this is now an archive of what was built, not a tool for applying places.\n\nWhat This Is Now\nA career reference — your experience database is still useful for bios, speaking engagements, grad school apps, or anything that asks \"what have you done\"\nAn archive of past job search materials (cover letters, old resume variants, interview prep)\n\nActive Files\nexperience-database.md — Master pool of all experience,…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"career",
+		"resume",
+		"index"
+	],
+	"category": "projects"
+}

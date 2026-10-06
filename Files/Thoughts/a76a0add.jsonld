@@ -1,0 +1,12 @@
+{
+	"@id": "a76a0add",
+	"@context": "tb",
+	"data": "Ask Mike to invite other people for a fun time\n\n\"ask him if he wants to invite some other people as well for a bit of a fun time\"\n\nSource Journals\n[[11-17 Social Distress.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"11-17-Social-Distress.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

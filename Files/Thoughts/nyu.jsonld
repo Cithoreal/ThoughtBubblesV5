@@ -1,0 +1,22 @@
+{
+	"@id": "nyu",
+	"@context": "tb",
+	"data": "NYU — ITP/IDM & Courant CS\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nNew York University offers multiple paths into XR and creative technology, making it one of the most flexible options on the list. The crown jewel is ITP (Interactive Telecommunications Program) at Tisch — a legendary creative-tech program running since 1979 that has produced XR artists, designers, and entrepreneurs. IDM (Integrated Design & Media) at Tandon offers a more…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

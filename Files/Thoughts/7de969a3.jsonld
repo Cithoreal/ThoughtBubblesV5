@@ -1,0 +1,12 @@
+{
+	"@id": "7de969a3",
+	"@context": "tb",
+	"data": "Get some exercise\n\n\"I just think I need to get some exercise\"\n\nSource Journals\n[[Talking to Cal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Talking-to-Cal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

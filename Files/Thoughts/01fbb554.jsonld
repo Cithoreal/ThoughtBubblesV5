@@ -1,0 +1,12 @@
+{
+	"@id": "01fbb554",
+	"@context": "tb",
+	"data": "Get ESP device for living room\n\n\"get an ESP device for the living room\"\n\nSource Journals\n[[One Exam Left.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"One-Exam-Left.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

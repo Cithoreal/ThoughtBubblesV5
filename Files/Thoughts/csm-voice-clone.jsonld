@@ -1,0 +1,19 @@
+{
+	"@id": "csm-voice-clone",
+	"@context": "tb",
+	"data": "Csm Voice Clone\n\nSesame CSM-1B voice cloning pipeline operational at ~/Projects/csm. Source: ~40 minutes of Audacity recordings (411MB .aup3). voice_clone.py script generates audio via zero-shot context conditioning. Critical constraint: Requires NO_TORCH_COMPILE=1 environment variable to avoid Triton kernel compilation crashes. VRAM usage: ~3.6GB for model loading, ~5.7GB total recommended. First successful output generated: clone_test_1.wav (3.2s).\n\nStatus\n\n_2026-05-14:_ Active - added to…",
+	"lastUpdated": "1778716800",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"hearth-family-home-ai"
+	],
+	"tags": [
+		"project",
+		"voice-clone",
+		"csm"
+	],
+	"category": "projects"
+}

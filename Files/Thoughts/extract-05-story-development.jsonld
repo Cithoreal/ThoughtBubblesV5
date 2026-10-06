@@ -1,0 +1,18 @@
+{
+	"@id": "extract-05-story-development",
+	"@context": "tb",
+	"data": "Extract: story-development.md\nSource: Dec 3, 2023 journal — creative fiction brainstorm session. Written manually from grep extract.\n\nRelevant Passages\n\nDungeon/quest unlock mechanic (text game brainstorm)\n\"a set of rooms each time, and you'll need to collect certain objects to unlock certain rooms and to complete certain objectives. But, you know, just mostly make it this series of puzzles, but as you move through the rooms... the AI also crafts a bit of a story and just generates some lore…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

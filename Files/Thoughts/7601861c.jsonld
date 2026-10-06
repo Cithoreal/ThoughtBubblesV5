@@ -1,0 +1,12 @@
+{
+	"@id": "7601861c",
+	"@context": "tb",
+	"data": "Create overarching tags and calendars for projects and school\n\n\"Or perhaps the best thing to do would be to just create some overarching tags and make them into their own calendars.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

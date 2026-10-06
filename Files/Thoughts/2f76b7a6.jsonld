@@ -1,0 +1,12 @@
+{
+	"@id": "2f76b7a6",
+	"@context": "tb",
+	"data": "Create interface for computer performance and capacity monitoring\n\n\"I want to create an interface for all the performance and capacity of all of my computers as well eventually.\"\n\nSource Journals\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

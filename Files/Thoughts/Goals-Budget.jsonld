@@ -1,0 +1,16 @@
+{
+	"@id": "Goals-Budget",
+	"@context": "tb",
+	"data": "Goals Budget",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"cybernautics-business-plan",
+		"cybernautics-vision"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

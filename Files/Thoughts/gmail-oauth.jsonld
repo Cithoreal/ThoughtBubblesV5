@@ -1,0 +1,18 @@
+{
+	"@id": "gmail-oauth",
+	"@context": "tb",
+	"data": "Gmail OAuth (stub — superseded)\n\nDuplicate stub — merged into [[infra/gmail-auth]]. OAuth expiry timeline and re-auth instructions live there.",
+	"lastUpdated": "1780876800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"gmail-auth"
+	],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"duplicate"
+	],
+	"category": "infra"
+}

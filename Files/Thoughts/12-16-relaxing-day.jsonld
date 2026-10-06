@@ -1,0 +1,21 @@
+{
+	"@id": "12-16-relaxing-day",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/12-16 Relaxing Day.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 12-16 Relaxing Day\nTranscribed: 2026-03-30 05:06  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:03]  \nOh, hi.\n[00:00:03 → 00:00:12]  \nIt is Monday in the AMs, December 16th, 2019.\n[00:00:12 → 00:00:27]  \nToday has been probably the most, it's been the most relaxing day in as far as I can…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/air-hockey",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

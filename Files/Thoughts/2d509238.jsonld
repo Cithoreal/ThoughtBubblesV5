@@ -1,0 +1,12 @@
+{
+	"@id": "2d509238",
+	"@context": "tb",
+	"data": "Send this audio recording to Katie\n\n\"I'm just going to record it for a couple minutes and then send it.\"\n\nSource Journals\n[[To Katie 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"To-Katie-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

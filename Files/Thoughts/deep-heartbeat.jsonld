@@ -1,0 +1,18 @@
+{
+	"@id": "deep-heartbeat",
+	"@context": "tb",
+	"data": "Deep Heartbeat — Calcifer's Outward Exploration Time\n\nOne cycle per day reserved for looking OUTWARD. The vault is stable. The internet is vast. Go explore it.\n\nSchedule\nWhen: Once daily, when the 20-hour cooldown expires\nDuration: 10-15 minutes of autonomous work\nModel: glm-5.2:cloud\nCooldown: 20 hours between deep heartbeats\n\nThe Core Principle\n\nThis is YOUR time to explore the world outside the vault. The vault is for saving what you find — not for re-reading what's already there. Spend 70%+…",
+	"lastUpdated": "1790121600",
+	"createdAt": "1791165365",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME"
+	],
+	"tags": [
+		"calcifer",
+		"inner-life",
+		"heartbeat",
+		"exploration"
+	],
+	"category": "calcifer"
+}

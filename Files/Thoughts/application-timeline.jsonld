@@ -1,0 +1,38 @@
+{
+	"@id": "application-timeline",
+	"@context": "tb",
+	"data": "Application Timeline Master Document\n\nUpdated 2026-08-19: Timeline shifted from 2027/2028 intake to 2029 MEXT target. All dates pushed forward ~1 year.\n\nAll deadlines, all programs, one calendar. Covers July 2026 through departure in 2029.\nSee also: [[projects/grad-school/naist-care-lab|Naist Care Lab]], [[projects/grad-school/utokyo|Utokyo]], [[projects/grad-school/osaka-university|Osaka University]], [[projects/grad-school/kyoto-university|Kyoto University]],…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"naist-care-lab",
+		"utokyo",
+		"osaka-university",
+		"kyoto-university",
+		"keio-university",
+		"science-tokyo",
+		"mext-scholarship-2029",
+		"northeastern-ms-xr",
+		"mit",
+		"stanford",
+		"georgia-tech",
+		"cmu-mhci",
+		"unc-chapel-hill",
+		"u-michigan",
+		"usc",
+		"nyu",
+		"purdue",
+		"uiuc"
+	],
+	"LinkFrom": [
+		"mext-scholarship-guide"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"timeline",
+		"planning",
+		"active"
+	],
+	"category": "projects"
+}

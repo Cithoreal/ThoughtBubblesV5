@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-fourth",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Complete Duolingo lesson', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I just finished my Duolingo', 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': True, 'source_file': 'Fourth.md', 'extracted_at': '2026-05-03T18:24:54.792456', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Name Fire Guy character', 'type': 'explicit', 'status': 'new', 'raw_quote': 'Fire Guy, who I really have to name',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

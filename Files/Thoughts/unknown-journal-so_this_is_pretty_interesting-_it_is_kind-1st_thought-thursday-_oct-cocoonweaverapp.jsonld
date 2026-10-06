@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-so_this_is_pretty_interesting-_it_is_kind-1st_thought-thursday-_oct-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Test out the recording app and use it', 'type': 'explicit', 'status': 'new', 'raw_quote': \"i'll have to test it out and use it a bit\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Journal-So_this_is_pretty_interesting._It_is_kind-1st_thought-Thursday,_Oct-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T17:35:57.473236', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Check audio…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

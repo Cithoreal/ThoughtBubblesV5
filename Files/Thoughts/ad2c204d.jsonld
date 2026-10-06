@@ -1,0 +1,12 @@
+{
+	"@id": "ad2c204d",
+	"@context": "tb",
+	"data": "Transcribe the recording to recover the speech\n\n\"potentially transcribe this recording such that I can get the speech back\"\n\nSource Journals\n[[Speech to Paige first pass.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Speech-to-Paige-first-pass.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

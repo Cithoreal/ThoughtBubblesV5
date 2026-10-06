@@ -1,0 +1,37 @@
+{
+	"@id": "Morning-Automation.tasks",
+	"@context": "tb",
+	"data": "Morning Automation.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"04e00f19",
+		"0ff4ef8c",
+		"21151d14",
+		"2f9ad20f",
+		"488e3610",
+		"4d859464",
+		"55734710",
+		"5c055b5b",
+		"6e358f8a",
+		"70d57ee1",
+		"85e48128",
+		"88d551a7",
+		"95ef7f2c",
+		"a0afe60e",
+		"a0c83429",
+		"a5f9b32f",
+		"ca2d87eb",
+		"df12f7b2",
+		"e1e974bc",
+		"eba3d00e",
+		"f19014a1",
+		"f2062361",
+		"f8a9fc11"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

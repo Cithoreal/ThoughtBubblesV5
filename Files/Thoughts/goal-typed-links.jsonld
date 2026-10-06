@@ -1,0 +1,36 @@
+{
+	"@id": "goal-typed-links",
+	"@context": "tb",
+	"data": "Goal: Typed Links\n\nTyped relationships between thought bubbles — not just \"A links to B\" but \"A references B\" or \"A extends B\" or \"A contradicts B.\"\n\nWhat This Is\nThe semantic layer on top of the spatial graph. UnTyped wikilinks become typed edges. This is ThoughtBubbles as RDF — the connection to the semantic web vision.\n\nLink Types (from vault analysis)\nreferences — general connection\nextends — builds on, elaborates\ncontradicts — opposes, argues against\nimplements — puts into…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"protongraph",
+		"orchestrator",
+		"xenolith-graph",
+		"godot-vr-editor-proposal",
+		"goal-skill-tree-integration",
+		"goal-vault-bridge",
+		"goal-spatial-authoring",
+		"fiction-worldbuilding",
+		"semantic-web-and-linked-data",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"vault-vocabulary",
+		"goal-skill-tree-integration",
+		"goal-spatial-authoring",
+		"goal-vault-bridge",
+		"orchestrator",
+		"protongraph",
+		"spatial-authoring-research",
+		"xenolith-graph"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"data-model"
+	],
+	"category": "projects"
+}

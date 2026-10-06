@@ -1,0 +1,20 @@
+{
+	"@id": "hermes-gateway",
+	"@context": "tb",
+	"data": "Hermes Gateway\n\nHermes Agent gateway runs on pi4 (100.107.33.1) at ~/hermes/config.yaml.\n\nConfiguration to prevent API credit burn:\nwatch_all: false\nwatch_domains: []\nwatch_entities: []\n\nCritical operational note: Gateway does NOT hot-reload config changes. Must restart the service (pkill -f hermes or add-on restart) for config updates to take effect.\n\nArchitecture:\nGateway platform: Subscribes to HA WebSocket state changes, forwards to LLM (costs credits continuously)\nConversation agent: Only…",
+	"lastUpdated": "1778371200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"infra",
+		"homeassistant",
+		"hearth-family-home-ai"
+	],
+	"tags": [
+		"infra",
+		"hermes",
+		"gateway"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,26 @@
+{
+	"@id": "instructing-the-main-data-path",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Instructing the Main Data Path.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Instructing the Main Data Path\nTranscribed: 2026-03-30 12:23  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 2.49 p.m. May 11th, 2024.\n[00:00:06 → 00:00:07]  \nJust had a sip of water.\n[00:00:08 → 00:00:12]  \nAccidentally stopped recording my last recording, so I'm just…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"thought-bubbles",
+		"cybership"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/room-2-0",
+		"topic/homelab",
+		"personal/finance",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "3f8dcc14",
+	"@context": "tb",
+	"data": "Make memory base data stable and persistent\n\n\"I want the data to start to be stable and persistent\"\n\nSource Journals\n[[Journal-It_is_eleven_thirty_four_Pm,_the_Ember-1st_thought-Tuesday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_eleven_thirty_four_Pm-_the_Ember-1st_thought-Tuesday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

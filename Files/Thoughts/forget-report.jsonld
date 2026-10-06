@@ -1,0 +1,15 @@
+{
+	"@id": "forget-report",
+	"@context": "tb",
+	"data": "Vault Forgetting Report\n\nGenerated: 2026-08-30 11:06\nNotes analyzed: 3807\n\nREVIEW (879)\nconcepts/designing-reality (vitality: 0.161, reason: never_seen)\nNever retrieved in RAG. Updated 2026-04-07.\nconcepts/star-system-vision (vitality: 0.161, reason: never_seen)\nNever retrieved in RAG. Updated 2026-04-07.\ninfra/elements-drive (vitality: 0.161, reason: never_seen)\nNever retrieved in RAG. Updated 2026-04-07.\ninfra/ios (vitality: 0.161, reason: never_seen)\nNever retrieved in RAG. Updated…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"reference",
+		"maintenance",
+		"forgetting"
+	],
+	"category": "reference"
+}

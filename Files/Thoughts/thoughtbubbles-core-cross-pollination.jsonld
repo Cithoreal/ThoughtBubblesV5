@@ -1,0 +1,32 @@
+{
+	"@id": "thoughtbubbles-core-cross-pollination",
+	"@context": "tb",
+	"data": "ThoughtBubbles → Core System: Cross-Pollination Map\n\n\"You were building the same instincts from both sides — the user-facing side and the system-facing side. The bridge is Core.\"\n\nWhat This Is\n\nA mapping of ThoughtBubbles design concepts to Core System architecture. The insight: ThoughtBubbles was always the application design of something that also exists as a platform design. Every TB concept has a runtime analog. Core is Mind-OS as infrastructure. ThoughtBubbles is Mind-OS as…",
+	"lastUpdated": "1782086400",
+	"createdAt": "1782086400",
+	"LinkTo": [
+		"core-system",
+		"thought-bubbles",
+		"thoughtbubbles-vision-expansion",
+		"skill-trees",
+		"semantic-web-and-linked-data",
+		"room-2-0",
+		"production-plan",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"core-spatial-containers",
+		"core-system",
+		"thought-bubbles",
+		"2026-08-04-journal"
+	],
+	"tags": [
+		"concept",
+		"architecture",
+		"active",
+		"thoughtbubbles",
+		"core-system",
+		"cross-pollination"
+	],
+	"category": "concepts"
+}

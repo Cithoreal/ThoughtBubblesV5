@@ -1,0 +1,12 @@
+{
+	"@id": "9420d960",
+	"@context": "tb",
+	"data": "Evaluate whether to use Minio or Forgejo (4G0) for storage\n\n\"I'll have to look into that and discuss. Okay, should I use Minio, should I use 4G0\"\n\nSource Journals\n[[2025-11-21 15-08-55.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-11-21-15-08-55.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

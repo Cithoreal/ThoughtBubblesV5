@@ -1,0 +1,30 @@
+{
+	"@id": "2026-04-14-091917",
+	"@context": "tb",
+	"data": "Journal — 2026-04-14 09:19\n\nSummary\n\nWhile driving to school and planning a computer hardware upgrade involving an SSD transfer, the speaker outlines their vision for 'skill trees'—an AI-assisted learning system with their assistant Calcifer designed to calibrate and expand their technical knowledge. They discuss aligning their projects with solarpunk values through ethical vendor selection, then detail ambitious plans for augmented reality tools that visualize infrastructure from household…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"optiplex",
+		"skill-trees",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/diy-hardware-modification",
+		"theme/ai-assisted-learning-systems",
+		"theme/ethical-technology-consumption",
+		"theme/infrastructure-transparency",
+		"theme/educational-visualization"
+	],
+	"category": "journals"
+}

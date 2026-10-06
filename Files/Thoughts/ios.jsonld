@@ -1,0 +1,22 @@
+{
+	"@id": "ios",
+	"@context": "tb",
+	"data": "Device: iOS (cithoreal's phone)\n\nRole\nMobile vault access via Möbius Sync + Obsidian for iOS.\n\nSyncthing\nApp: Möbius Sync\nDevice ID: BRKNMR7-KLFEWQA-R6KI4U3-NWEQ3FU-H3IPPRG-GT76J24-23L7XPC-2WVCCQC\nSyncing: Calcifer Vault folder (paired with [[infra/star]])\n\nSetup (completed 2026-04-07)\nMöbius Sync installed, device paired with star\nVault folder accepted in Möbius\nObsidian for iOS: open Möbius Sync folder as vault\n\nLinks\n[[infra/star]] · [[infra/crowls]] · [[projects/calcifer-vault]]\n\nSee…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star",
+		"crowls",
+		"calcifer-vault",
+		"index",
+		"2026-04-07-obsidian-vault-architecture"
+	],
+	"LinkFrom": [
+		"index",
+		"calcifer-vault"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

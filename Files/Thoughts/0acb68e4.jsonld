@@ -1,0 +1,13 @@
+{
+	"@id": "0acb68e4",
+	"@context": "tb",
+	"data": "Create FLAC version of audio files\n\n\"And then I will create a FLAC version\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n[[Transcription pipeline sprint.tasks]]\n\nAll Quotes\n\"And then I will create a FLAC version\"\n\"And then I will create a FLAC version.\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks",
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

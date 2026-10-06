@@ -1,0 +1,16 @@
+{
+	"@id": "ha-voice-audit-2026-08-30",
+	"@context": "tb",
+	"data": "HA Voice/Satellite Audit — 2026-08-30\n\nAudit type: Read-only SSH + REST API investigation  \nDate: Sun 2026-08-30 16:52 EDT  \nAccess: SSH to Pi5 (cithoreal@192.168.1.230), SSH to Pi4 (pi4 via Tailscale 100.107.33.1), HA REST API (hass.cybernautics.net)\nHA Install Type + Version\nInstall type: Home Assistant OS (HAOS) — Alpine Linux v3.23 base\nHA Core version: 2026.8.3\nHAOS version: 18.2\nSupervisor version: 2026.08.0\nHost: Raspberry Pi 5 at 192.168.1.230 (ethernet)\nConfig dir: /homeassistant/…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"homeassistant",
+		"voice",
+		"audit"
+	],
+	"category": "infra"
+}

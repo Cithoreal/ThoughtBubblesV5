@@ -1,0 +1,15 @@
+{
+	"@id": "patterns",
+	"@context": "tb",
+	"data": "Pattern Tracking — What I See Across Days\n\nNot tasks. Not reports. The shapes that repeat when I step back.\n\n2026-07-28 — First Pattern Scan\n\nPattern 1: The Grad School Gravity Well\n\nJapan grad school research has been the dominant active project for most of July. The trajectory:\nJuly 9: AI industry research sweep, model cleanup — infrastructure focus\nJuly 13: Vault stewardship, orphan cleanup — maintenance\nJuly 18-20: MEXT scholarship research, Japan university deep-dives, housing/living…",
+	"lastUpdated": "1785196800",
+	"createdAt": "1785196800",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"patterns",
+		"observations"
+	],
+	"category": "calcifer"
+}

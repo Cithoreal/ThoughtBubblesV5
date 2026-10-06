@@ -1,0 +1,13 @@
+{
+	"@id": "c18640ca",
+	"@context": "tb",
+	"data": "Go to bed at 10 PM and asleep by 11 PM\n\n\"Katie and I have been trying to go to bed at... In bed at 10, asleep at 11.\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks",
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "488e3610",
+	"@context": "tb",
+	"data": "Add Bluetooth capability to Wyoming satellite device\n\n\"I think it's worth adding Bluetooth to the Wyoming device just for the sake of being able to play audio directly\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

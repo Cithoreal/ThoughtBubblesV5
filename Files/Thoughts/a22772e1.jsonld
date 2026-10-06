@@ -1,0 +1,12 @@
+{
+	"@id": "a22772e1",
+	"@context": "tb",
+	"data": "Record journal updates every so often\n\n\"I'll record some of these every so often.\"\n\nSource Journals\n[[New Recording.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

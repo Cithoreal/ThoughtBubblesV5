@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-saving-thoughts",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Run a local Neo4j database', 'type': 'explicit', 'status': 'new', 'raw_quote': 'first i want to run a local database with neo4j', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Saving Thoughts.md', 'extracted_at': '2026-05-18T18:27:10.919940', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Delete existing data in Neo4j', 'type': 'explicit', 'status': 'new', 'raw_quote': \"i'll…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "2026-09-29-openxr-spatial-entities-and-agentic-ai",
+	"@context": "tb",
+	"data": "OpenXR Spatial Entity Framework + Agentic AI: The Industry Infrastructure for ThoughtBubbles\n\nResearch date: September 29, 2026\nSources: Khronos Group SIGGRAPH 2026 slides, VR.org, Godot docs, OpenXR spec releases, arXiv\n\nThe Finding\n\nThe industry just built the infrastructure layer that ThoughtBubbles needs, and almost nobody outside XR development circles noticed. Two things landed in 2026 that together change the calculus for Chris's spatial knowledge graph vision:\nOpenXR Spatial Entity…",
+	"lastUpdated": "1790640000",
+	"createdAt": "1790640000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"openxr",
+		"spatial-computing",
+		"thoughtbubbles",
+		"ai-agents",
+		"mcp"
+	],
+	"category": "research"
+}

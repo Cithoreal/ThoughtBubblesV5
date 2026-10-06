@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-morning-automation",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Set up music playing on Wyoming satellite', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I managed to get the first one set up, which was playing music on the satellite', 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Morning Automation.md', 'extracted_at': '2026-05-18T17:45:56.795662', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Switched Hyperion to Pi 4', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

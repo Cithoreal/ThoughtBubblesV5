@@ -1,0 +1,12 @@
+{
+	"@id": "deebd895",
+	"@context": "tb",
+	"data": "Reset Shelly Duo and smart plug\n\n\"I reset my Shelly Duo and my smart plug\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

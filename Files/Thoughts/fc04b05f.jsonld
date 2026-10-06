@@ -1,0 +1,12 @@
+{
+	"@id": "fc04b05f",
+	"@context": "tb",
+	"data": "Start Root Year next Saturday\n\n\"that all starts next Saturday\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

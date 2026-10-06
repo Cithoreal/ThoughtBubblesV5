@@ -1,0 +1,19 @@
+{
+	"@id": "rest-of-break-responsibilities",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Rest of Break Responsibilities.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Rest of Break Responsibilities\nTranscribed: 2026-03-30 12:54  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 2.01 p.m. March 12th, 2026.\n[00:00:10 → 00:00:13]  \nJust in my home with my kitties.\n[00:00:16 → 00:00:19]  \nOne more episode of the One Piece live action to…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"tech/audio-pipeline",
+		"tech/web-dev"
+	],
+	"category": "journals"
+}

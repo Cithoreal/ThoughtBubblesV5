@@ -1,0 +1,12 @@
+{
+	"@id": "5c73f260",
+	"@context": "tb",
+	"data": "Create flowchart for audio to documents pipeline\n\n\"what I want to do is use this diagram program to create a flow chart for my audio to documents pipeline\"\n\nSource Journals\n[[AI Week_ Wav Conversion.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"AI-Week_-Wav-Conversion.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

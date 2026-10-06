@@ -1,0 +1,16 @@
+{
+	"@id": "Audio-Journal-Processing-Pipe",
+	"@context": "tb",
+	"data": "Audio Journal Processing Pipe",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"the-grand-system-onenote",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

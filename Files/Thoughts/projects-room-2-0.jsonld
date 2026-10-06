@@ -1,0 +1,36 @@
+{
+	"@id": "projects-room-2-0",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 79d — review -->\n\nRoom 2.0 — AR Contextual Interfaces\n\n\"Forget any amount of mixed reality. Go just full and hard on pure augmented reality.\" — cithoreal, May 2026\n\nVision\n\nPure AR system using Quest 3 to create contextual interfaces anchored to physical devices and locations in your home. Walk up to a Raspberry Pi, see its context menu. Pull up a terminal. Check network stats on Star. The room becomes an interface — not a place you happen…",
+	"lastUpdated": "1779840000",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"thoughtbubbles-godot-migration",
+		"room-2-0",
+		"ar-xr-development",
+		"cybernautics-vision",
+		"skill-trees",
+		"thought-bubbles",
+		"poimandres-ecosystem",
+		"room-2-0-learning-resources",
+		"ecs-linked-data-architecture",
+		"room-2-0-vocab",
+		"xr-web-integration",
+		"room-2-0-scaffold-reactxr",
+		"2026-05-18-151711",
+		"2026-05-18-141102",
+		"production-plan",
+		"module-1-player-controller",
+		"phase-0-technical-review",
+		"room2.0-reactxr-prototype"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"active",
+		"augmented-reality",
+		"spatial-computing",
+		"xr"
+	],
+	"category": "projects"
+}

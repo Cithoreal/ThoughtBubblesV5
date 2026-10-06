@@ -1,0 +1,28 @@
+{
+	"@id": "xenolith-graph",
+	"@context": "tb",
+	"data": "Xenolith Graph\n\nAI-native embeddable node-graph editor for the web. Blueprint-style with typed pins.\nRepo: <https://github.com/XenolithEngine/xenolith-graph>\nLicense: MIT\nStars: 3, 69 commits\nStatus: v0.7 BETA, active development\n\nWhat It Provides\nBlueprint-style node editor with typed pins (exec vs data)\nLive templates, macros, in-node widgets (sliders, combos, toggles)\nVisual stepping debugger\nReact/Vue adapters for embedding\nBuilt-in MCP server — Claude Desktop / Cursor can build graphs…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-typed-links",
+		"goal-spatial-authoring",
+		"goal-vault-bridge",
+		"protongraph",
+		"orchestrator"
+	],
+	"LinkFrom": [
+		"goal-typed-links",
+		"goal-vault-bridge",
+		"orchestrator",
+		"protongraph",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"web",
+		"node-graph",
+		"visual-programming"
+	],
+	"category": "projects"
+}

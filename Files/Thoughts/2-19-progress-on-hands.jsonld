@@ -1,0 +1,28 @@
+{
+	"@id": "2-19-progress-on-hands",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-19 Progress on Hands.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-19 Progress on Hands\nTranscribed: 2026-03-30 05:19  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:11]  \nHello, February 19th, 2020, 5.13pm.\n[00:00:14 → 00:00:17]  \nWorked on the air hockey hands a bit today.\n[00:00:17 → 00:00:22]  \nGot the basics.\n[00:00:22 → 00:00:27]  \nI got it so…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr",
+		"ar-xr-development",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

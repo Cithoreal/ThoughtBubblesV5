@@ -1,0 +1,12 @@
+{
+	"@id": "c4bf1a23",
+	"@context": "tb",
+	"data": "Get present for Mom (exercise/yoga related)\n\n\"And what could I get mom? Something exercise related? Something for yoga?\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

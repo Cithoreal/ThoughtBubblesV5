@@ -1,0 +1,26 @@
+{
+	"@id": "calcifer-voice-mode",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 115d — review -->\n\nProject: Calcifer Voice Mode (DIY Stack)\n\nVision\nFull local-first voice interaction with Calcifer — no cloud dependency for STT or TTS. Phone calls from the car, room presence in the house, same Calcifer behind both. We own the entire pipeline.\n\nCurrent State\nClawdTalk free tier — connected and working as a quick proof-of-concept\nOpenClaw voice-call plugin — not yet installed (DIY path)\nNo DIY voice stack running…",
+	"lastUpdated": "1776729600",
+	"createdAt": "1776729600",
+	"LinkTo": [
+		"calcifer-voice-presence",
+		"room-2-0",
+		"hearth-family-home-ai",
+		"audio-journal-pipeline",
+		"local-ai-infrastructure"
+	],
+	"LinkFrom": [
+		"projects",
+		"calcifer-voice"
+	],
+	"tags": [
+		"project",
+		"active",
+		"voice",
+		"diy",
+		"local-first"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,19 @@
+{
+	"@id": "gargoyle-sensor-research",
+	"@context": "tb",
+	"data": "Gargoyle Sensor Research — Atmospheric EM & Full-Spectrum RF\n\nCreated: 2025-08-25\nPurpose: Hardware survey for a wearable gargoyle-style computing module that can SEE and VISUALIZE both atmospheric electromagnetic phenomena and the full RF signal spectrum.\n\nDOMAIN 1: Atmospheric Electromagnetic Sensors\n\nVLF/ELF Reception (3 Hz – 30 kHz)\n\nWhat lives in this band:\nSchumann resonances — fundamental at 7.83 Hz, harmonics at 14.07, 20.25, 26.41, 32.45 Hz. The Earth-ionosphere cavity resonates like a…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"gargoyle-spectrum-narrative"
+	],
+	"tags": [
+		"project",
+		"gargoyle",
+		"sensor",
+		"research"
+	],
+	"category": "projects"
+}

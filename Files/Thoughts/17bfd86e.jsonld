@@ -1,0 +1,12 @@
+{
+	"@id": "17bfd86e",
+	"@context": "tb",
+	"data": "Create consistent schedule to drink water every hour\n\n\"just have a consistent schedule to just make sure I drink something. Be like every hour or something\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "7cdcc556",
+	"@context": "tb",
+	"data": "Order correct 32GB RAM for Dell Optiplex\n\n\"I ordered it\"\n\nSource Journals\n[[Planning for the weekend.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-for-the-weekend.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

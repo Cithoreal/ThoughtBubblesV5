@@ -1,0 +1,14 @@
+{
+	"@id": "6320252c",
+	"@context": "tb",
+	"data": "Create migration instructions for Pi5 to Optiplex switch\n\n\"ask Calcifer to create a sort of migration instructions\"\n\nSource Journals\n[[2026-04-13 11-52-28.tasks]]\n[[2026-04-14 19-16-00.tasks]]\n[[2026-04-15 18-51-31.tasks]]\n\nAll Quotes\n\"ask Calcifer to create a sort of migration instructions\"\n\"migrating the PI4 services over as well\"\n\"the migration is pretty much finished between Pi-5 and the Optiplex\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-13-11-52-28.tasks",
+		"2026-04-14-19-16-00.tasks",
+		"2026-04-15-18-51-31.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

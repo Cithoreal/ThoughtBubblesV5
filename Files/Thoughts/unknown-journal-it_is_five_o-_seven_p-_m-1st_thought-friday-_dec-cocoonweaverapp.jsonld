@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-it_is_five_o-_seven_p-_m-1st_thought-friday-_dec-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': \"3D print and paint Matt's Christmas present\", 'type': 'explicit', 'status': 'new', 'raw_quote': \"I still need to 3D print and paint Matt's, which the painting part is going to be the rough part of it all. So I'm going to need to get on that this weekend.\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Journal-It_is_five_o,_seven_p,_m.-1st_thought-Friday,_Dec-CocoonWeaverApp.md', 'extracted_at':…",
+	"lastUpdated": "1789430400",
+	"createdAt": "1789430400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

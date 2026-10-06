@@ -1,0 +1,16 @@
+{
+	"@id": "convo",
+	"@context": "tb",
+	"data": "Convo\nBackend Development Needs More Emphasis\nPlease add suggestions on how to get the most value out of each point in how I’m selling myself.\nAdd that I am very comfortable working with and developing APIs, including at Infosys and in my Senior Capstone CS project.\nFor real-time data, I have experience as a VR developer tracking controllers and peripherals and using that data as inputs in my apps. I have a hobby using Brain Computer Interfaces such as with OpenBCI. I have experience in Arduino…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume",
+		"project"
+	],
+	"category": "projects"
+}

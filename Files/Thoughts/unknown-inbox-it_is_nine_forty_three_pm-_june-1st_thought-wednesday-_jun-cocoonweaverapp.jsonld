@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_nine_forty_three_pm-_june-1st_thought-wednesday-_jun-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': \"Read through Apple's Vision OS article\", 'type': 'explicit', 'status': 'new', 'raw_quote': \"Yeah, so I'm going to read through it.\", 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Inbox-It_is_nine_forty_three_pm,_june,-1st_thought-Wednesday,_Jun-CocoonWeaverApp.md', 'extracted_at': '2026-05-03T18:45:07.672567', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Go through VisionOS…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

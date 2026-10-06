@@ -1,0 +1,12 @@
+{
+	"@id": "73a5f108",
+	"@context": "tb",
+	"data": "Rename 'Created' column to 'create time' or 'create date'\n\n\"Created, it should be either create time, create date. Created at is not a term we use.\"\n\nSource Journals\n[[WorkMeetings-Because_this,_and_we're_the-1st_thought-Friday,_Mar-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"WorkMeetings-Because_this-_and_we-re_the-1st_thought-Friday-_Mar-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,22 @@
+{
+	"@id": "2025-09-24-190751",
+	"@context": "tb",
+	"data": "Journal — 2025-09-24 19:07\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-09-24 19-07-51.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-09-24 19-07-51\nTranscribed: 2026-03-30 11:27  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:22]  \nit is seven oh seven p m september twenty fourth i believe so just got out of computer science club meeting and after the meeting itself i\n[00:00:33 → 00:00:45]  \nSo yeah, after…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev"
+	],
+	"category": "journals"
+}

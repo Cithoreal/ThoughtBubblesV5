@@ -1,0 +1,27 @@
+{
+	"@id": "9-hour-shift",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/9 hour shift.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 9 hour shift\nTranscribed: 2026-03-30 05:34  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:22]  \nso what are my top priorities right now um well i'm working on the game i got the action turn mostly done i have one thing that um\n[00:00:23 → 00:00:47]  \nI have more of like a band-aid than a fix but…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"health-and-sleep",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/identity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

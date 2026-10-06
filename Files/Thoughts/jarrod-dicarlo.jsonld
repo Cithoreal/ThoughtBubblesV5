@@ -1,0 +1,21 @@
+{
+	"@id": "jarrod-dicarlo",
+	"@context": "tb",
+	"data": "Jarrod DiCarlo\n\nRole\nContent Creator at Cybernautics (early founding team). Likely family (same last name as cithoreal).\n\nContext\nListed in [[OneNote/Cybernautics/Main Business/Members]] as a founding member of the Cybernautics team, with the role of Content Creator.\n\nConnections\n[[concepts/cybernautics-business-plan]]\n[[people/cithoreal]]",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"Members",
+		"cybernautics-business-plan",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"cybernautics-business-plan",
+		"people",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"person"
+	],
+	"category": "people"
+}

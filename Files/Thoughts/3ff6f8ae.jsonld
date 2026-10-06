@@ -1,0 +1,12 @@
+{
+	"@id": "3ff6f8ae",
+	"@context": "tb",
+	"data": "Organize useful data and ensure it can be recalled easily\n\n\"first of all, make sure that the useful data is organized well and is capable of being recalled easily\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,23 @@
+{
+	"@id": "cyberspace-spec",
+	"@context": "tb",
+	"data": "Cyberspace V1 — Multi-User Persistent Digital Home\n\nThe room is the computer. The space is the app. You are not alone in it.\n\nVision\n\nCyberspace is a persistent digital home — a place you visit, inhabit, and share with others. Not a launcher, not a menu, not a 2D dashboard with a 3D coat of paint. A space with walls and floors and objects that mean something. You walk in, you see who's there, you interact with things together. It feels like showing up at a friend's apartment.\n\nThe lineage is…",
+	"lastUpdated": "1790640000",
+	"createdAt": "1790553600",
+	"LinkTo": [
+		"nanolucent-matter-of-time",
+		"room-2-0",
+		"core-system",
+		"thought-bubbles",
+		"spatial-authoring-research"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"active",
+		"spatial-computing",
+		"multiplayer",
+		"godot"
+	],
+	"category": "projects"
+}

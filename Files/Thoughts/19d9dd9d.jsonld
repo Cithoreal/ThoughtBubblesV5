@@ -1,0 +1,12 @@
+{
+	"@id": "19d9dd9d",
+	"@context": "tb",
+	"data": "Ingest Obsidian data into ChromaDB and vectorize\n\n\"that's all being ingested into ChromaDB. Vectorized and all the good stuff\"\n\nSource Journals\n[[2026-04-08 11-50-11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-08-11-50-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

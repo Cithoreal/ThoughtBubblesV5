@@ -1,0 +1,17 @@
+{
+	"@id": "subagent-research-lessons",
+	"@context": "tb",
+	"data": "Subagent Research Lessons — Skill Trees Case Study\n\nLessons extracted from three attempts at deep-dive corpus research (April 8–10, 2026).\n\nThe Three Attempts\n\nAttempt 1 — Single Monolithic Agent (Apr 8)\nApproach: One subagent with a long list of search commands (vault_search, AnythingLLM RAG, grep), asked to explore broadly and produce a summary.\nResult: Partial. Agent found surface-level results but couldn't go deep enough into any single source. RAG queries returned fragments, not full…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"subagent-delegation-playbook"
+	],
+	"tags": [
+		"reference",
+		"lessons",
+		"subagents"
+	],
+	"category": "reference"
+}

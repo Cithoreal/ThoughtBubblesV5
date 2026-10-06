@@ -1,0 +1,12 @@
+{
+	"@id": "40e56876",
+	"@context": "tb",
+	"data": "Implement sunset/sunrise LED color automation\n\n\"sunset automation where it starts blue and then slowly goes down red, and then in the morning do the opposite\"\n\nSource Journals\n[[2026-04-16 13-10-07.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-16-13-10-07.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

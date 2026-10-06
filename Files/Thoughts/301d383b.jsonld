@@ -1,0 +1,12 @@
+{
+	"@id": "301d383b",
+	"@context": "tb",
+	"data": "Study for physics test\n\n\"I definitely need to study a decent amount of physics. I have our next test on Thursday.\"\n\nSource Journals\n[[Rest of Break Responsibilities 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Rest-of-Break-Responsibilities-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

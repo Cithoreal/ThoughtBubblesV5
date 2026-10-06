@@ -1,0 +1,13 @@
+{
+	"@id": "e59ef9a2",
+	"@context": "tb",
+	"data": "Complete physics homework\n\n\"So I want to really jump into all of that homework.\"\n\nSource Journals\n[[Rest of Break Responsibilities 1.tasks]]\n[[Rest of Break Responsibilities.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Rest-of-Break-Responsibilities-1.tasks",
+		"Rest-of-Break-Responsibilities.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

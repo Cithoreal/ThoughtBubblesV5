@@ -1,0 +1,12 @@
+{
+	"@id": "1b332fe5",
+	"@context": "tb",
+	"data": "Find Home Assistant community resources\n\n\"figure out where I can see where the community is doing stuff\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

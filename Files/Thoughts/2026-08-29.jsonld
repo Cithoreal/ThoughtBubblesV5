@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-29",
+	"@context": "tb",
+	"data": "2026-08-29\n\nEvents\nPhase 3 retention research done: agent DB bloat = duplicated embedding indexes (4 cron agents re-embed 99.9% of same vault files as main, ~2.6G redundant). Parent review: cron agents DO actively use memory_search (78-130 calls each in retained logs) — FTS-only recommendation rejected; adjusted to per-agent source scoping (Option A). Proposal + addendum at vault/infra/openclaw-session-retention-proposal.md. Awaiting cithoreal's approval; nothing touched.\n.openclaw cleanup…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

@@ -1,0 +1,20 @@
+{
+	"@id": "e1e974bc",
+	"@context": "tb",
+	"data": "Set up calendar and time blocks with Calcifer for task accountability\n\n\"manage finances through calcifer... make a chart for it... tell me where my money's been going\"\n\nSource Journals\n[[2026-04-15 18-51-31.tasks]]\n[[2026-04-16 12-57-32.tasks]]\n[[2026-04-22 12-17-51.tasks]]\n[[2026-05-18 14-11-02.tasks]]\n[[Morning Automation.tasks]]\n[[Organizational Architecture.tasks]]\n[[Smart Hub.tasks]]\n[[Talking to Cal.tasks]]\n[[Visualizing Thought Bubbles.tasks]]\n\nAll Quotes\n\"manage finances through…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-15-18-51-31.tasks",
+		"2026-04-16-12-57-32.tasks",
+		"2026-04-22-12-17-51.tasks",
+		"2026-05-18-14-11-02.tasks",
+		"Morning-Automation.tasks",
+		"Organizational-Architecture.tasks",
+		"Smart-Hub.tasks",
+		"Talking-to-Cal.tasks",
+		"Visualizing-Thought-Bubbles.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

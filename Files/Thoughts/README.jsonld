@@ -1,0 +1,22 @@
+{
+	"@id": "README",
+	"@context": "tb",
+	"data": "External Knowledge Base\n\nLiving documents tracking the state of technologies, ecosystems, and industries we care about. Updated by weekly news sweeps. Stale knowledge is archived, not deleted.\n\nHow This Works\nEach topic gets its own doc with a Current State section (what's true now) and Watch List (what's coming)\nNews sweeps update these docs each week — adding new info, updating statuses, archiving what's stale\nArchived knowledge lives in _archive/ with a date stamp so nothing is lost\nThe…",
+	"lastUpdated": "1784073600",
+	"createdAt": "1784073600",
+	"LinkTo": [
+		"ai-llm",
+		"xr-spatial"
+	],
+	"LinkFrom": [
+		"HOME",
+		"infra"
+	],
+	"tags": [
+		"index",
+		"external",
+		"reference",
+		"living"
+	],
+	"category": "external"
+}

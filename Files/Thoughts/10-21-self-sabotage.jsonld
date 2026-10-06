@@ -1,0 +1,29 @@
+{
+	"@id": "10-21-self-sabotage",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/10-21 Self Sabotage.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 10-21 Self Sabotage\nTranscribed: 2026-03-30 04:24  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:05]  \nSo, I have my video chat tomorrow.\n[00:00:06 → 00:00:13]  \nThe guy said he was going to add me to the calendar, but I replied with my email a little late.\n[00:00:13 → 00:00:18]  \nSo, I'm…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

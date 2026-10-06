@@ -1,0 +1,12 @@
+{
+	"@id": "inventory-app",
+	"@context": "tb",
+	"data": "Inventory — Shared Asset Catalog\n\nStatus: Specification  \nCreated: 2026-09-24  \nAuthor: Calcifer (from Chris's handwritten design doc)  \nHost: Optiplex (192.168.1.228 / 100.96.169.9)\nOverview\n\nInventory is a shared catalog database for all of Chris's physical and digital assets. It lives on Optiplex as a PostgreSQL database with a REST API, and any app can read from it. The core idea: one canonical list of things you own that multiple area-specific apps build on top of.\n\nA shirt in the closet,…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"spatial-inventory-system"
+	],
+	"category": "projects"
+}

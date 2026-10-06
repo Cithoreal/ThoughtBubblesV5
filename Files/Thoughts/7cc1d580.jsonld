@@ -1,0 +1,12 @@
+{
+	"@id": "7cc1d580",
+	"@context": "tb",
+	"data": "Collect links to video lectures\n\n\"get all the links because they're all just videos\"\n\nSource Journals\n[[Introspection 11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

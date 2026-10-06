@@ -1,0 +1,22 @@
+{
+	"@id": "vartiste",
+	"@context": "tb",
+	"data": "VARTISTE\n\nVR app for 2D drawing, image editing, and 3D model texturing. WebXR-based.\nURL: <https://vartiste.xyz/>\nLicense: Open (check site)\nStatus: Working, accessible at vartiste.xyz\n\nWhat It Provides\n2D drawing in VR\nImage editing\n3D model texturing\nWebXR-based, runs in browser\n\nRelevance\nDemonstrates creative tooling in VR via web. The 3D model texturing pattern — painting on a 3D object's surface — could inform how users customize the appearance of thought…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-node-visualization",
+		"goal-spatial-authoring"
+	],
+	"LinkFrom": [
+		"goal-node-visualization",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"webxr",
+		"reference",
+		"creative"
+	],
+	"category": "projects"
+}

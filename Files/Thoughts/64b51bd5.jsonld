@@ -1,0 +1,12 @@
+{
+	"@id": "64b51bd5",
+	"@context": "tb",
+	"data": "Drink water upon waking\n\n\"I want to wake up, drink some water, which I have been doing. I've been already on that.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

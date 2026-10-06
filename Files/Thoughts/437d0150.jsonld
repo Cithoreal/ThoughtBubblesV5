@@ -1,0 +1,12 @@
+{
+	"@id": "437d0150",
+	"@context": "tb",
+	"data": "Switch to the other lighter\n\n\"I'll probably switch to my other lighter too.\"\n\nSource Journals\n[[Introspection 5.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-5.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

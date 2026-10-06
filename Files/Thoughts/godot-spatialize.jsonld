@@ -1,0 +1,24 @@
+{
+	"@id": "godot-spatialize",
+	"@context": "tb",
+	"data": "Godot Spatialize\n\nAddon for \"spatializing\" flat apps into immersive or semi-immersive experiences.\nRepo: <https://github.com/GodotVR/spatialize>\nLicense: MIT\nGodot version: 4.x\nStatus: Official GodotVR org, experimental\n\nWhat It Provides\nTakes flat Godot UI and wraps it for XR spatial display\nSemi-immersive (floating panel) and immersive (wrapped around you) modes\nHandles the rendering pipeline transition from flat to spatial\n\nRelevance\nDirectly relevant to the goal of taking existing flat…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"godot-xr-tools"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"foundation"
+	],
+	"category": "projects"
+}

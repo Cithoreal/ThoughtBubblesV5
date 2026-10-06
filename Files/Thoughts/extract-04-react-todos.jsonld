@@ -1,0 +1,16 @@
+{
+	"@id": "extract-04-react-todos",
+	"@context": "tb",
+	"data": "Extract: react-todos.md\n\nSource: vault/journals/2025/react-todos.md\nJournal date: April 12, 2025\nExtracted: 2026-04-10\n\nRelevant Passages\n\nLearning progression as prerequisite chain\n\nI need to start testing or cementing my experience and knowledge with JavaScript and React though, because I went through all of JavaScript and React and didn't, I haven't built anything outside of Codecademy itself.\n\nRelevant: describes the felt gap between passive course completion and real skill — the exact…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

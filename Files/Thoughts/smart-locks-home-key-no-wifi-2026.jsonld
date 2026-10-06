@@ -1,0 +1,10 @@
+{
+	"@id": "smart-locks-home-key-no-wifi-2026",
+	"@context": "tb",
+	"data": "Smart Locks with Apple Home Key (No WiFi) — Research Note\n\nDate: 2026-08-22\nPurpose: Find smart locks that support tap-to-unlock via Apple Home Key / NFC, with mechanical key backup, no WiFi radio, long battery life, and Home Assistant integration.\n\nHow Apple Home Key Works\nApple Home Key stores a digital key in Apple Wallet on your iPhone or Apple Watch\nUnlock method: Tap your iPhone or Apple Watch to the lock's NFC reader — just like Apple Pay\nNo app required at the door — Express Mode lets…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

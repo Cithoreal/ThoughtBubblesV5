@@ -1,0 +1,47 @@
+{
+	"@id": "decentralized-local-first-stack",
+	"@context": "tb",
+	"data": "Decentralized Local-First Stack\n\nWhat It Is\nA recurring technology cluster that cithoreal has been assembling across 2025 as the foundation for ThoughtBubbles and personal data sovereignty more broadly. The convergence of GUN DB, CR-SQLite, and IPFS forms a unique architecture that nobody has fully implemented before.\n\nThe Triad\n\nGUN DB\nDecentralized, real-time P2P graph database\nOffline-first with mesh networking between peers\nBuilt-in user system (identity + encryption)\nBest for: live graph…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-02-02_thought-bubbles-v6-tech-stack",
+		"2025-03-03_gun-vs-orbitdb-comparison",
+		"2025-04-03_simple-cr-sqlite-app-ideas",
+		"2025-04-04_cr-sqlite-nodejs-todo-app",
+		"2025-04-17_integrating-cr-sqlite-in-react",
+		"2025-05-07_cr-sqlite-vs-gun-db",
+		"2025-05-03_react-app-with-cr-sqlite",
+		"2025-04-02_decentralized-database-options",
+		"2025-04-02_decentralized-sql-database-options",
+		"2025-04-02_hybrid-p2p-federated-systems",
+		"2025-05-07_sqlite-vs-cr-sqlite-for-mvp",
+		"thought-bubbles",
+		"thoughtbubbles-v6-stack",
+		"cybernautics-vision",
+		"semantic-web-and-linked-data",
+		"solid-pod-sovereignty",
+		"internet-scale-world",
+		"core-system"
+	],
+	"LinkFrom": [
+		"core-system-technical-outline",
+		"core-system",
+		"cybernautics-dao-governance",
+		"semantic-web-and-linked-data",
+		"solid-encryption-layer",
+		"solid-pod-sovereignty",
+		"thought-bubbles",
+		"thoughtbubbles-v6-stack",
+		"thoughtbubbles-vision-expansion",
+		"concepts",
+		"solid-pod"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"tech",
+		"thoughtbubbles"
+	],
+	"category": "concepts"
+}

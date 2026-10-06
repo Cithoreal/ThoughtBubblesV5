@@ -1,0 +1,29 @@
+{
+	"@id": "cybership-infrastructure",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Cybership Infrastructure.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# [[infra/cybership|Cybership]] Infrastructure\nTranscribed: 2026-03-30 11:58  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 1.30pm, May 12th, 2024.\n[00:00:06 → 00:00:19]  \nI've been talking with GPT all morning about really improving the infrastructure of my entire setup,…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybership",
+		"thought-bubbles",
+		"semantic-web-and-linked-data",
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/homelab",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

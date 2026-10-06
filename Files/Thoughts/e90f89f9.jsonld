@@ -1,0 +1,12 @@
+{
+	"@id": "e90f89f9",
+	"@context": "tb",
+	"data": "Reapply metadata to new FLAC files\n\n\"I'll reapply all of the metadata to the new FLAC file.\"\n\nSource Journals\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

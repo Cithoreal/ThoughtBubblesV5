@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-4-6-all-is-well",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Posted introduction video to Spirit Mysteries forum', 'type': 'progress', 'status': 'completed', 'raw_quote': 'Posted my introduction video to the Spirit Mysteries forum, which I had planned.', 'project': 'Social', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '4-6 All is Well.md', 'extracted_at': '2026-05-03T17:51:37.792007', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Work out flow chart and mind…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

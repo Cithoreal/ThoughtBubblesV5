@@ -1,0 +1,12 @@
+{
+	"@id": "7e17a828",
+	"@context": "tb",
+	"data": "Research Forgeo Git server actions/YAML support for CI/CD automation\n\n\"I wonder if Forge, Forgeo, Forgeo, the local Git server, supports some sort of like actions YAML like GitHub does... worth looking into\"\n\nSource Journals\n[[2026-04-01 11-47-54.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-01-11-47-54.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

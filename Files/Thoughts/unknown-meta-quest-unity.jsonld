@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-meta-quest-unity",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Investigate hand tracking support with Hurricane VR', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll give it a look see to see if I can get hand tracking supported with hurricane\", 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Meta Quest Unity.md', 'extracted_at': '2026-05-18T17:41:53.608529', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Enable tracked keyboards in the…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

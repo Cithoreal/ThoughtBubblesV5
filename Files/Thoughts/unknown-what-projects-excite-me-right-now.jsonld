@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-what-projects-excite-me-right-now",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Turn in speech', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I turned in my speech last night, last minute.', 'project': 'Career', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'What projects excite me right now?.md', 'extracted_at': '2026-05-18T19:26:04.433368', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Brush up on Blender skills for Tuesday teaching session', 'type': 'explicit',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

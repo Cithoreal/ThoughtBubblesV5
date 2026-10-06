@@ -1,0 +1,12 @@
+{
+	"@id": "0dd18c0d",
+	"@context": "tb",
+	"data": "Create view to see all milestones\n\n\"So I actually have a view of being able to see all my milestones\"\n\nSource Journals\n[[Saving Thoughts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thoughts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "292be467",
+	"@context": "tb",
+	"data": "3D scan Great Woods interior\n\n\"How about I 3D scan the entire Great Woods interior?\"\n\nSource Journals\n[[PDF Game Inatructions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"PDF-Game-Inatructions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

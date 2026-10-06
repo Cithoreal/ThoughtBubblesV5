@@ -1,0 +1,20 @@
+{
+	"@id": "custom-rag-module2-ingest",
+	"@context": "tb",
+	"data": "Module 2: Ingest Engine — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nThe ingest engine is the pipeline's intake manifold. It takes raw file paths from the watcher (M1) or initial scan, reads them, chunks them intelligently, extracts metadata, and deduplicates against what's already been processed. Output flows to M3 (embedding engine).\n\nSingle entry point: ingest_file(path, event_type) — everything else is internal…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"segments-0"
+	],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-2"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,21 @@
+{
+	"@id": "10-18-yuru-camp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/10-18 Yuru Camp.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 10-18 Yuru Camp\nTranscribed: 2026-03-30 04:22  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:03 → 00:00:07]  \nI don't really have much to say.\n[00:00:09 → 00:00:16]  \nI put up my tent in the backyard, so I'm currently there.\n[00:00:18 → 00:00:19]  \nI'm just lying here.\n[00:00:20 → 00:00:22]  \nI didn't set…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

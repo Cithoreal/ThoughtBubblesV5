@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-24",
+	"@context": "tb",
+	"data": "2026-09-24\n\nEvents\nCreated inventory-app.md spec doc from Chris's handwritten design\nChris shared handwritten Finances App design — bucket/liquid metaphor for budget visualization. React PWA, PostgreSQL on Optiplex, DB as source of truth. Starting multi-agent pipeline build.\nDaily Nextcloud digest ran 09:20 — no events next 3 days, no tasks due in 7 days; 4 tasks ~5wks overdue at 0% (2x Room 2.0 design, morning-creative trial, ECS chat w/ Calcium); backlog = ThoughtBubbles/Canopy doc sweep…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

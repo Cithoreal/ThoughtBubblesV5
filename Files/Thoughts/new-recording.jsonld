@@ -1,0 +1,19 @@
+{
+	"@id": "new-recording",
+	"@context": "tb",
+	"data": "See also: [[concepts/cithoreal-identity]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/New Recording.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# New Recording\nTranscribed: 2026-03-30 12:36  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:09]  \nIt is 1251 p.m., January 5th, 2024.\n[00:00:09 → 00:00:13]  \nThis is my first recording of the year.\n[00:00:13 → 00:00:18]  \nI'm using my new earbuds to…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

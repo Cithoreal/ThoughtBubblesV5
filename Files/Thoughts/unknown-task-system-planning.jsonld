@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-task-system-planning",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Submit meditations final', 'type': 'explicit', 'status': 'new', 'raw_quote': \"tomorrow I'm going to submit my meditations final\", 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Task System Planning.md', 'extracted_at': '2026-05-18T18:52:04.793202', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Finish linear algebra homework', 'type': 'explicit', 'status': 'new', 'raw_quote':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

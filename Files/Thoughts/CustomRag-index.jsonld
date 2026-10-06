@@ -1,0 +1,25 @@
+{
+	"@id": "CustomRag-index",
+	"@context": "tb",
+	"data": "CustomRAG Pipeline\n\nIndex for the CustomRAG pipeline modules.\n\nModules\n[[projects/CustomRag/custom-rag-pipeline|Pipeline Overview]]\n[[projects/CustomRag/custom-rag-module1-watcher|M1: Watcher]]\n[[projects/CustomRag/custom-rag-module2-ingest|M2: Ingest]]\n[[projects/CustomRag/custom-rag-module3-embedder|M3: Embedder]]\n[[projects/CustomRag/custom-rag-module4-store|M4: Store]]\n[[projects/CustomRag/custom-rag-module5-search|M5: Search]]\n[[projects/CustomRag/custom-rag-module6-api|M6:…",
+	"lastUpdated": "1785110400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"custom-rag-pipeline",
+		"custom-rag-module1-watcher",
+		"custom-rag-module2-ingest",
+		"custom-rag-module3-embedder",
+		"custom-rag-module4-store",
+		"custom-rag-module5-search",
+		"custom-rag-module6-api",
+		"custom-rag-module7-monitor",
+		"custom-rag-module8-maintain"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"custom-rag",
+		"index"
+	],
+	"category": "projects"
+}

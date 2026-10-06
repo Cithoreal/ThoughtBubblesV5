@@ -1,0 +1,12 @@
+{
+	"@id": "9240b3dc",
+	"@context": "tb",
+	"data": "Hook up Nextcloud to-do's to Neo4j\n\n\"i have next cloud to do's hooked up to neo4j\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

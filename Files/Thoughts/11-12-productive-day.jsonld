@@ -1,0 +1,28 @@
+{
+	"@id": "11-12-productive-day",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-12 Productive Day.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-12 Productive Day\nTranscribed: 2026-03-30 04:33  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:02]  \nIt was a pretty productive day.\n[00:00:02 → 00:00:05]  \nMost productive day I've had in a long while.\n[00:00:05 → 00:00:17]  \nGot a lot of the basics of what I needed to do for air…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

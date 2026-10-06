@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-it_is_three_oh_five_pm-1st_thought-wednesday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': \"Create and name node 'space' within thought bubbles scene\", 'type': 'progress', 'status': 'completed', 'raw_quote': \"So what I want to do is I've created the node within the thought bubbles scene. That is, I just named it space.\", 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Journal-It_is_three_oh_five_pm,-1st_thought-Wednesday,_Nov-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T17:25:55.727391',…",
+	"lastUpdated": "1789430400",
+	"createdAt": "1789430400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

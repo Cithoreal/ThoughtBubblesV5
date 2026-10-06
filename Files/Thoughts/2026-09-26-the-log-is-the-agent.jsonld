@@ -1,0 +1,18 @@
+{
+	"@id": "2026-09-26-the-log-is-the-agent",
+	"@context": "tb",
+	"data": "The Log is the Agent — Three Independent Arrivals at Event-Sourced Agent Identity\n\nCross-pollination between ActiveGraph (Yohei Nakajima, Aug 2026), MRMS (NxtLab, July 2026), and ThoughtBubbles' executable KG architecture. Three different starting points converging on the same answer: the graph isn't a tool the agent uses — the graph IS the agent.\n\nThe Three Threads\n\nThread A: ActiveGraph — \"The Log is the Agent\" (Aug 2026)\n\nYohei Nakajima (of BabyAGI fame) published ActiveGraph as both a paper…",
+	"lastUpdated": "1790380800",
+	"createdAt": "1790380800",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"cross-pollination",
+		"deep-heartbeat",
+		"executable-knowledge-graph",
+		"agent-architecture",
+		"memory"
+	],
+	"category": "calcifer"
+}

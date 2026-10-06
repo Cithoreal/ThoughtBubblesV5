@@ -1,0 +1,18 @@
+{
+	"@id": "nanolucent-matter-of-time",
+	"@context": "tb",
+	"data": "Nanolucent × Matter of Time\n\nThe hidden link: space measured by time, time experienced through space.\n\nThe Surface\n\nNanolucent is a measurement unit — 1 light-nanosecond ≈ 30cm, designed for Room 2.0's coordinate system. Matter of Time is a VR experience set in a photogrammetric bedroom where the room itself is the interface. One is a technical spec for positioning objects in space. The other is a narrative experience that uses a real room as its UI. The connection seems mechanical: nanolucent…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [],
+	"LinkFrom": [
+		"dev-tree",
+		"cyberspace-spec"
+	],
+	"tags": [
+		"calcifer",
+		"connections",
+		"deep-heartbeat"
+	],
+	"category": "calcifer"
+}

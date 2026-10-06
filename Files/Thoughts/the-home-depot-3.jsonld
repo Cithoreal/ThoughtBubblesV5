@@ -1,0 +1,26 @@
+{
+	"@id": "the-home-depot-3",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/The Home Depot 3.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# The Home Depot 3\nTranscribed: 2026-03-30 06:16  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:54 → 00:01:01]  \nOkay, so it's 7 o'clock-ish, a couple hours to go.\n[00:01:01 → 00:01:17]  \nI just read something good about astral projection where the first goal is to reach what is known as the vibrational…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"designing-reality",
+		"star-system-vision",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/star-system",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

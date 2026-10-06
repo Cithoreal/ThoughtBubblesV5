@@ -1,0 +1,26 @@
+{
+	"@id": "documents-to-nodes",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Documents to Nodes.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Documents to Nodes\nTranscribed: 2026-03-30 12:01  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 4.01 p.m., May 23rd, 2024.\n[00:00:08 → 00:00:09]  \nOut in the woods again.\n[00:00:09 → 00:00:12]  \nUh-huh.\n[00:00:14 → 00:00:15]  \nSo I...\n[00:00:16 → 00:00:18]  \nI have my daily…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"semantic-web-and-linked-data"
+	],
+	"LinkFrom": [
+		"semantic-web-and-linked-data",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/calcifer",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

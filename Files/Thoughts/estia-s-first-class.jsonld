@@ -1,0 +1,22 @@
+{
+	"@id": "estia-s-first-class",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Estia's first class.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# [[concepts/fiction-worldbuilding|Estia]]'s first class\nTranscribed: 2026-03-30 12:05  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 1159 a.m. March 3rd, 2024.\n[00:00:06 → 00:00:07]  \nUh-huh.\n[00:00:11 → 00:00:15]  \nI made a lot of progress on the story last night when I wasn't…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

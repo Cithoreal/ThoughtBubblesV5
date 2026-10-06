@@ -1,0 +1,13 @@
+{
+	"@id": "2026-10-03",
+	"@context": "tb",
+	"data": "2026-10-03\n\nEvents\nChris wants Frame + D435 depth occlusion as an early/primary devlog project. This fills the exact MR gap Road to VR flagged — Arcturus gives color passthrough but no depth/mesh, so virtual objects paint over reality. D435 on Star + depth sidecar + Godot = real occlusion. First devlog: before/after demo of objects disappearing behind real furniture. Flagship differentiator content.\nDaily infra health check 09:42: RAG healthy (5/5 ok, search latency 27s), Docker Optiplex 19/19…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

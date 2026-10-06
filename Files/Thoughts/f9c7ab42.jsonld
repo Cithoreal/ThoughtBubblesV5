@@ -1,0 +1,12 @@
+{
+	"@id": "f9c7ab42",
+	"@context": "tb",
+	"data": "Buff out scratches on car paint\n\n\"Buff out the scratches on the car paint... I'm gonna plan to do the scratches\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

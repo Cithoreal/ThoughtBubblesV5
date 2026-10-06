@@ -1,0 +1,12 @@
+{
+	"@id": "616b0d6c",
+	"@context": "tb",
+	"data": "Help finish cleaning Emily's apartment\n\n\"we're going to head over to Emily's apartment to help pretty much finish cleaning\"\n\nSource Journals\n[[2026-04-16 12-57-32.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-16-12-57-32.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

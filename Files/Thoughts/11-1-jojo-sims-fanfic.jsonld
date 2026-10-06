@@ -1,0 +1,31 @@
+{
+	"@id": "11-1-jojo-sims-fanfic",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-1 JoJo Sims Fanfic.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-1 JoJo Sims Fanfic\nTranscribed: 2026-03-30 04:28  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:17]  \nso i've been thinking about how i um well i was talking to mom how i have kind of been in a rut these last this last week pretty much and we talked about um well first of all i want to…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles",
+		"solid-pod-sovereignty"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

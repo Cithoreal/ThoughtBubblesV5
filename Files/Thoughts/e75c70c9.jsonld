@@ -1,0 +1,12 @@
+{
+	"@id": "e75c70c9",
+	"@context": "tb",
+	"data": "Connect OneDrive to Nextcloud\n\n\"And I can connect OneDrive as much as I currently connect to Nextcloud as well\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

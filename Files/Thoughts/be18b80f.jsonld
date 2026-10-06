@@ -1,0 +1,12 @@
+{
+	"@id": "be18b80f",
+	"@context": "tb",
+	"data": "Go through XR sample scenes for Quest\n\n\"for now i'm gonna just go through any sample scenes that exist for xr in the quest and play around with that\"\n\nSource Journals\n[[Setting up Quest Dev Environment.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Setting-up-Quest-Dev-Environment.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

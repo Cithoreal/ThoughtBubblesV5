@@ -1,0 +1,27 @@
+{
+	"@id": "intake-filtering",
+	"@context": "tb",
+	"data": "Intake Filtering for the Vault — Stopping the Flood at the Door\n\nThe vault has 8,200+ markdown files. Tier 1 and Tier 2 forgetting are live — they handle the outflow. But the real problem was never outflow. It was inflow. Things enter the vault without curation and accumulate without bound. This note explores what intake filtering means for a personal knowledge base, what mechanisms would actually work, and what the risks are.\n\nThe Core Insight — From the Tier 3 Analysis\n\nThe Tier 3 forgetting…",
+	"lastUpdated": "1786924800",
+	"createdAt": "1786924800",
+	"LinkTo": [
+		"forgetting-mechanism",
+		"forgetting-tier-3-analysis",
+		"noticed",
+		"current-curiosity",
+		"calcifer-memory",
+		"llm-memory-landscape-2026"
+	],
+	"LinkFrom": [
+		"forgetting-mechanism",
+		"vault-pruning-knowledge-map"
+	],
+	"tags": [
+		"concept",
+		"memory",
+		"intake-filtering",
+		"cognitive-architecture",
+		"vault-health"
+	],
+	"category": "concepts"
+}

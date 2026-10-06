@@ -1,0 +1,18 @@
+{
+	"@id": "unknown-ai-week_-wav-conversion",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker documents their process of archiving audio journals and designing an automated workflow to convert voice recordings into organized documents using speech-to-text and GPT. They reflect on how the act of recording itself serves as a powerful catalyst for productivity, while also exploring future interests in mixed reality development and calculating their accumulated audio journal hours.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n|…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"audio-journal-pipeline"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/personal-knowledge-management",
+		"theme/workflow-automation",
+		"theme/productivity-psychology"
+	],
+	"category": "journals"
+}

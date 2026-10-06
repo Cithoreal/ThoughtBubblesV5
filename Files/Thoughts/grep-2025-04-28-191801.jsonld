@@ -1,0 +1,13 @@
+{
+	"@id": "grep-2025-04-28-191801",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2025/2025-04-28-191801.md\n\n118-> \n119-> [00:01:50 → 00:01:50]  \n120-> Um...\n121-> \n122-> [00:01:55 → 00:01:58]  \n123:> I was talking to ChatGPT about ThoughtBubbles.\n124-> \n125-> [00:01:58 → 00:01:59]  \n126-> It was fun.\n127-> \n128-> [00:01:59 → 00:02:00]  \n--\n130-> \n131-> [00:02:01 → 00:02:08]  \n132-> I asked it what sort of insights it could provide me that I may not have thought of.\n133-> \n134-> [00:02:09 → 00:02:24]  \n135:> And the only one that I hadn't thought of…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

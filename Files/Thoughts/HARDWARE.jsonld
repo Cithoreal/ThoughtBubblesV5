@@ -1,0 +1,10 @@
+{
+	"@id": "HARDWARE",
+	"@context": "tb",
+	"data": "HARDWARE.md — Star Hardware Inventory\n\nChassis\nDell Optiplex-class tower (custom build on Optiplex lineage)\nMotherboard: with nct6793/nct6791 sensor chips (Super I/O)\n\nCPU\nModel: Intel Core i7-9700K @ 3.60GHz\nCores: 8 physical, 8 threads (no HT)\nMax turbo: 4.9 GHz\nCache: L2 2MiB (8 instances), L3 12MiB\nMicrocode: 0xf8\nVirtualization: VT-x supported\n\nMemory\nTotal: 32 GiB (31 Gi reported)\nUsed: 14 GiB\nAvailable: 16 GiB\nSwap: 15.6 GiB zram (5.4 GiB used)\n\nGPU\nGPU: NVIDIA GeForce RTX 3070 Ti…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

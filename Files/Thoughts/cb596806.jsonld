@@ -1,0 +1,12 @@
+{
+	"@id": "cb596806",
+	"@context": "tb",
+	"data": "Schedule sociology final for tomorrow\n\n\"I've scheduled for myself to do the sociology final tomorrow\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

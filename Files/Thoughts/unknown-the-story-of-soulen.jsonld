@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-the-story-of-soulen",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Study the Feywild for story research', 'type': 'explicit', 'status': 'new', 'raw_quote': 'So at some point I could do to sort of study the Feywild.', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'The Story of Soulen.md', 'extracted_at': '2026-05-18T19:05:20.337614', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Work on developing the Solon story/worldbuilding', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

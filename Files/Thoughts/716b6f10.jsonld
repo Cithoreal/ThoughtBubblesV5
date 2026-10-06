@@ -1,0 +1,12 @@
+{
+	"@id": "716b6f10",
+	"@context": "tb",
+	"data": "Decide whether to wear the sleep mask\n\n\"I'll decide whether or not I want to wear the sleep mask that I have\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

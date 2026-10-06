@@ -1,0 +1,27 @@
+{
+	"@id": "refocus",
+	"@context": "tb",
+	"data": "Concept: Refocus\n\nCaptured from audio journal 2026-04-08, elaborated by Calcifer\n\nThe Idea\n\nLinked data has n-dimensional scaling — as a knowledge graph grows, it becomes impossible to navigate in its entirety. Refocus is the ability to take a specific lens or dimension of that data and project it into a manageable 2D or 3D view for human navigation and ideation.\n\nIt's not just filtering. It's perspective-shifting on a graph.\n\nHow It Works (cithoreal's description)\nStart with a concept: \"I want…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"the-grand-system",
+		"thought-bubbles",
+		"semantic-web-and-linked-data",
+		"anythingllm"
+	],
+	"LinkFrom": [
+		"non-linear-editor",
+		"semantic-web-and-linked-data",
+		"concepts",
+		"all-my-challenges-for-this",
+		"the-story-of-soulen",
+		"working-on-persuasive-speech",
+		"2025-09-18-083636",
+		"2026-04-08-115011"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "concepts"
+}

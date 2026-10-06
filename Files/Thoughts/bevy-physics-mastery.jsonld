@@ -1,0 +1,28 @@
+{
+	"@id": "bevy-physics-mastery",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 88d — review -->\n\nBevy Physics Mastery\n\n\"For Bevy I want to make a physics sort of simulator. I'd like to just work on a physics system from scratch.\" — cithoreal, May 2026\n\nVision\n\nLearn physics deeply by building a physics simulator from scratch in Bevy (Rust game engine). Not using an existing physics crate — actually implementing the math. The goal is understanding, not just a product.\n\nThis is a learning project first, a game engine…",
+	"lastUpdated": "1779062400",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"health-strength",
+		"skill-trees",
+		"ar-xr-development",
+		"room-2-0",
+		"cybernautics-vision",
+		"2026-05-18-141102"
+	],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"health-strength"
+	],
+	"tags": [
+		"project",
+		"active",
+		"game-dev",
+		"physics",
+		"learning"
+	],
+	"category": "projects"
+}

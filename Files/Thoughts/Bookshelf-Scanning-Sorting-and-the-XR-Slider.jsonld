@@ -1,0 +1,18 @@
+{
+	"@id": "Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+	"@context": "tb",
+	"data": "Bookshelf — Scanning, Sorting, and the XR Slider\n\nType: Room 2.0 Sub-App\nStatus: Spec in progress (handwritten, 2026-09-04)\nSpec Location: Handwritten pages — Bookshelf narrative draft\n\nCore Idea\nThe user's physical bookshelf becomes an interactive spatial interface. Scan it to catalog every item with 3D models, names, and tags. Search by voice for any item — it highlights, and if out of view, a directional indicator guides you. Filter by category and non-matching items dim. Preview…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-XR-Slider-A-Volume-Knob-for-Reality",
+		"Globe-Real-Time-Earth-in-Your-Room",
+		"Mirrorworlds-Technological-Parallel-Realities"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Room-2.0-Architecture-Core-and-Sub-Apps",
+		"The-XR-Slider-A-Volume-Knob-for-Reality"
+	],
+	"category": "thought-spaces"
+}

@@ -1,0 +1,22 @@
+{
+	"@id": "inbox-it_is_7-31pm_september_18th-_2023-2nd_thought-monday-_sep-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker begins by brainstorming an educational productivity app that tracks learning progress, listing required documentation, tools, and procedures before attempting to initialize a Git repository and encountering command-line confusion. The recording then shifts to a conversation with Chris about extracurricular activities at Bridgewater State University, discussing disc golf clubs and inquiring about badminton while mentioning a related manga.\n\nMood &…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/app-development",
+		"theme/project-documentation",
+		"theme/technical-troubleshooting",
+		"theme/campus-life",
+		"theme/recreational-activities"
+	],
+	"category": "journals"
+}

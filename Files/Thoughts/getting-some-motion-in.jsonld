@@ -1,0 +1,22 @@
+{
+	"@id": "getting-some-motion-in",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Getting some motion in.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Getting some motion in\nTranscribed: 2026-03-30 12:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 4.57 p.m., March 26th, 2024.\n[00:00:06 → 00:00:14]  \nUm... Just started recording to pass the time.\n[00:00:14 → 00:00:24]  \nJust been, like, watching YouTube shorts and got…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"personal/finance",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

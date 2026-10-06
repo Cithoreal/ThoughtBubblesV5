@@ -1,0 +1,22 @@
+{
+	"@id": "2025-10-29-185620",
+	"@context": "tb",
+	"data": "Journal — 2025-10-29 18:56\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-10-29 18-56-20.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-10-29 18-56-20\nTranscribed: 2026-03-30 11:29  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 6.56 p.m., October 29th, 2025.\n[00:00:08 → 00:00:12]  \nJust leaving BSU now.\n[00:00:12 → 00:00:16]  \nI had Halloween night.\n[00:00:16 → 00:00:20]  \nI had a headache for most…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"air-hockey-mr",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/air-hockey",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

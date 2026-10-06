@@ -1,0 +1,28 @@
+{
+	"@id": "11-16-nothing-to-complain-about",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-16 Nothing to complain about.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-16 Nothing to complain about\nTranscribed: 2026-03-30 04:41  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:07]  \nWell, Steph came over and she wanted pizza, so I did have pizza for dinner.\n[00:00:07 → 00:00:08]  \nI think I had like five slices.\n[00:00:13 → 00:00:18]  \nSo I'm…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

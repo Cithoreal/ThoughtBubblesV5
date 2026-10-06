@@ -1,0 +1,15 @@
+{
+	"@id": "Software-and-Devices",
+	"@context": "tb",
+	"data": "Software and Devices",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"the-grand-system-onenote"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "2019-11-25-153720",
+	"@context": "tb",
+	"data": "Journal — 2019-11-25 15:37:20 (Video) — STUB\n\nSource\nVideo: /run/media/cithoreal/Elements/MemoryBase/VideoJournal/2019-11-25 15-37-20.mkv\nFile size: ~801 MB\nTranscription status: Failed — CUDA out of memory on RTX 3070 Ti\n\nNotes\nLarge file (~17 min). Transcription failed due to VRAM constraints. Needs retry with chunked processing or CPU fallback.\n\n[!warning] Needs Transcription\nRun transcribe.py with chunked/CPU mode or split the audio into smaller segments first.",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"video-journal",
+		"theme/2019",
+		"needs-transcription"
+	],
+	"category": "journals"
+}

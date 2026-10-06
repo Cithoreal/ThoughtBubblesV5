@@ -1,0 +1,12 @@
+{
+	"@id": "07c31523",
+	"@context": "tb",
+	"data": "Reinstall Nextcloud app to fix connection issues\n\n\"I had, just by reinstalling the app, it all got fixed.\"\n\nSource Journals\n[[Switching to Chat Completions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Switching-to-Chat-Completions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,16 @@
+{
+	"@id": "living-finances-spending-log",
+	"@context": "tb",
+	"data": "Spending Log\n\nTrack transactions here. I can log entries for you — just tell me what you spent and I'll categorize and append.\n\nHow to Log\n\nTell me anything like:\n\"Spent $12 on lunch\"\n\"Paid rent $1,200\"\n\"Amazon $45, household stuff\"\n\"Gas $35\"\n\nI'll categorize, date-stamp, and append. You can also ask me for summaries anytime: \"How much on food this month?\" or \"What's my discretionary at?\"\n\nSeptember 2026\n\n| Date | Amount | Category | Description |\n|------|--------|----------|-------------|\n|…",
+	"lastUpdated": "1787788800",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"living",
+		"finances",
+		"spending",
+		"log"
+	],
+	"category": "living"
+}

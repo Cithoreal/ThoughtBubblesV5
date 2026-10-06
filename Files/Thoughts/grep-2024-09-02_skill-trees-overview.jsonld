@@ -1,0 +1,13 @@
+{
+	"@id": "grep-2024-09-02_skill-trees-overview",
+	"@context": "tb",
+	"data": "Grep Extract: _archive/reference/chatgpt/2024/09/2024-09-02_skill-trees-overview.md\n\n1----\n2:title: Skill Trees Overview\n3-date: 2024-09-02\n4-source: chatgpt\n5----\n6-\n7:# Skill Trees Overview\n8-\n9-User:\n10-\n11:Can you describe my Skill Trees idea to me?\n12-\n13----\n14-\n15-Assistant:\n16-\n17:Your Skill Trees idea is a gamified approach to learning and skills development within your ThoughtBubbles system. Here’s how it works:\n18-\n19-### Concept Overview:\n20:The Skill Trees interface is designed to…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

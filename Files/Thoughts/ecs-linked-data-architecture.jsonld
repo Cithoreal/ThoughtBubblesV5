@@ -1,0 +1,35 @@
+{
+	"@id": "ecs-linked-data-architecture",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 78d — review -->\n\nConcept: ECS × Linked Data Architecture\n\nThe Key Insight\n\nECS and Linked Data are the same data model at different speeds.\nJSON-LD = serialized, queryable, shareable, persistent\nECS = in-memory, iterable, renderable, fast\n\nThe @context IS the component registry. One vocabulary, two access patterns. Swap runtime implementations freely — the predicates don't change, the store doesn't change, the API doesn't change.\n\nThe…",
+	"lastUpdated": "1779926400",
+	"createdAt": "1779926400",
+	"LinkTo": [
+		"room-2-0-vocab",
+		"room-2-0",
+		"semantic-web-and-linked-data",
+		"thought-bubbles",
+		"thoughtbubbles-godot-migration",
+		"thoughtbubbles-v6-stack"
+	],
+	"LinkFrom": [
+		"core-spatial-containers",
+		"core-system-technical-outline",
+		"play-bleed",
+		"xr-web-integration",
+		"room2.0-reactxr-prototype",
+		"module-0-guide",
+		"production-plan",
+		"projects-room-2-0",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"concept",
+		"architecture",
+		"ecs",
+		"linked-data",
+		"room-2-0",
+		"thought-bubbles"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "c1ef1393",
+	"@context": "tb",
+	"data": "Create and fully automate audio-to-text pipeline\n\n\"create the audio to text pipeline, audio to thoughts pipeline\"\n\nSource Journals\n[[Short Term Project Goals and Future culmination.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Short-Term-Project-Goals-and-Future-culmination.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

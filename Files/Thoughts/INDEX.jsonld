@@ -1,0 +1,10 @@
+{
+	"@id": "INDEX",
+	"@context": "tb",
+	"data": "INDEX.md — Star Persona File Index\n\nLast full audit: 2026-09-22 11:23 EDT\nAudited by: Calcifer subagent (fresh system audit)\n\nRead These Files on Startup\nSOUL.md — Persona definition: name, role, vibe, boundaries\nAGENTS.md — Workspace config: identity, scope, tools, behavior rules\nHARDWARE.md — Hardware inventory: CPU, RAM, GPU, drives, SMART, temperatures\nSTORAGE.md — Storage map: mounts, btrfs, NTFS, disk pressure, top dirs\nSOFTWARE.md — Software environment: OS, packages, services, ports,…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

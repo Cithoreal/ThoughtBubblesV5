@@ -1,0 +1,22 @@
+{
+	"@id": "cmu-mhci",
+	"@context": "tb",
+	"data": "Carnegie Mellon University — Master of Human-Computer Interaction (MHCI)\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nCarnegie Mellon's MHCI program is one of the oldest and most prestigious HCI professional master's programs in the world, housed in the Human-Computer Interaction Institute (HCII) within the School of Computer Science. It's an intensive 12-month program running Fall→Spring→Summer, designed for people who want to become UX researchers,…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

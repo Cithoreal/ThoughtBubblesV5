@@ -1,0 +1,12 @@
+{
+	"@id": "2aebe4f4",
+	"@context": "tb",
+	"data": "Create database on local computer\n\n\"create just a database on my computer\"\n\nSource Journals\n[[Saving Thoughts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thoughts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

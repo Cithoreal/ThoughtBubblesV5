@@ -1,0 +1,12 @@
+{
+	"@id": "fb6fbfe5",
+	"@context": "tb",
+	"data": "Implement local JSON cache for thought spaces\n\n\"Until I do implement that, I'll probably just have it query to the SQL database\"\n\nSource Journals\n[[Journal-It_is_one_fifty_one,_p._m,-1st_thought-Sunday,_Jan-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_one_fifty_one-_p._m-1st_thought-Sunday-_Jan-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

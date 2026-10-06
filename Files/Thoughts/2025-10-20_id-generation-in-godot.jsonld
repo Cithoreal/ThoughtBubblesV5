@@ -1,0 +1,16 @@
+{
+	"@id": "2025-10-20_id-generation-in-godot",
+	"@context": "tb",
+	"data": "2025 10 20_id generation in godot",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thought-bubbles",
+		"thoughtbubbles-godot-migration"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

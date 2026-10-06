@@ -1,0 +1,12 @@
+{
+	"@id": "ddabc14b",
+	"@context": "tb",
+	"data": "Go to bed\n\n\"So I'm just gonna go to bed.\"\n\nSource Journals\n[[Mostly Silence.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Mostly-Silence.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "39d3c389",
+	"@context": "tb",
+	"data": "Review physics\n\n\"Gotta do some review for physics.\"\n\nSource Journals\n[[2025-05-05 08-38-03.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-05-05-08-38-03.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

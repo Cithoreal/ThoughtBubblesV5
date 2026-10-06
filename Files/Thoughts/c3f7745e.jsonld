@@ -1,0 +1,12 @@
+{
+	"@id": "c3f7745e",
+	"@context": "tb",
+	"data": "Set up command line script to add bubbles to Godot project\n\n\"I got it so that I can, from a command line, just call a script and then it can add it to the Godot file.\"\n\nSource Journals\n[[Journal-It_is_twelve_twenty_four,_a_M._October-1st_thought-Saturday,_Oct-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_twelve_twenty_four-_a_M._October-1st_thought-Saturday-_Oct-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

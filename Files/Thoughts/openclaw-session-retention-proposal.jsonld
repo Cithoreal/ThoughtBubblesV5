@@ -1,0 +1,17 @@
+{
+	"@id": "openclaw-session-retention-proposal",
+	"@context": "tb",
+	"data": "OpenClaw Session & Agent DB Retention Proposal\n\nInvestigated: 2026-08-29 (read-only, no config or DB changes)\n\nThe Problem\n\n~3.6 GB of agent SQLite databases under ~/.openclaw/agents/, growing steadily:\nmain: 911 MB (924 MB with WAL)\njournal-analyst: 642 MB\nvault-steward: 654 MB\nthoughtbubbles-researcher: 653 MB\naccountant: 653 MB\nstar: ~12 MB (minimal)\n\nSession transcript dirs are small by comparison (main: 86 MB, cron agents: 11–14 MB each).\n\nKey Finding: The Bloat Is NOT Sessions\n\nThe SQLite…",
+	"lastUpdated": "1787961600",
+	"createdAt": "1787961600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"openclaw",
+		"disk-usage",
+		"sqlite",
+		"memory-index"
+	],
+	"category": "infra"
+}

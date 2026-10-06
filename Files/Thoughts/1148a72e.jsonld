@@ -1,0 +1,12 @@
+{
+	"@id": "1148a72e",
+	"@context": "tb",
+	"data": "Carry backup pair of socks in backpack\n\n\"I should carry a backup pair of socks in this backpack\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

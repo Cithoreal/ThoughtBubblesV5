@@ -1,0 +1,27 @@
+{
+	"@id": "projects-custom-rag-pipeline",
+	"@context": "tb",
+	"data": "Custom Calcifer RAG Pipeline\n\nCompleted and operational. Canonical reference is now [[infra/maps/custom-rag-pipeline]]. This project note retained for historical context.\n\nReplacing AnythingLLM's calcifer-vault workspace (and all other workspaces) with a fast, local, hybrid-search RAG pipeline. AnythingLLM fully decommissioned 2026-04-18.\n\nKey Decisions (locked in)\nEmbedding model: qwen3-embedding:4b (switched from mxbai-embed-large)\n+2.3 MTEB score, 8192-token context (vs 512),…",
+	"lastUpdated": "1777248000",
+	"createdAt": "1776124800",
+	"LinkTo": [
+		"custom-rag-pipeline",
+		"calcifer-memory",
+		"star",
+		"custom-rag-module1-watcher",
+		"custom-rag-module2-ingest",
+		"custom-rag-module3-embedder",
+		"custom-rag-module4-store",
+		"custom-rag-module5-search",
+		"custom-rag-module6-api",
+		"custom-rag-module7-monitor",
+		"custom-rag-module8-maintain"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"completed",
+		"rag"
+	],
+	"category": "projects"
+}

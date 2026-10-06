@@ -1,0 +1,20 @@
+{
+	"@id": "2025-10-21-182426",
+	"@context": "tb",
+	"data": "Journal — 2025-10-21 18:24\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-10-21 18-24-26.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-10-21 18-24-26\nTranscribed: 2026-03-30 11:28  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 6.24pm, October 21st, 2025.\n[00:00:06 → 00:00:11]  \nI'm driving home from BSU.\n[00:00:12 → 00:00:14]  \nMade some progress on [[concepts/thought-bubbles|Top Bubbles]]…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"semantic-web-and-linked-data"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web"
+	],
+	"category": "journals"
+}

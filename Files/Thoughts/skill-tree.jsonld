@@ -1,0 +1,10 @@
+{
+	"@id": "skill-tree",
+	"@context": "tb",
+	"data": "Star OS — Skill Tree\n\nStar OS is an XR-native operating system where the 3D spatial layer IS the desktop. Linux kernel handles hardware. A custom spatial compositor replaces the 2D desktop. Core manages spatial services via ECS. ThoughtBubbles is the filesystem. Godot renders directly to DRM/KMS. OpenXR handles input/display. Visual services replace terminal daemons.\n\nThis skill tree maps the path from zero to bootable Star OS across six domains, five levels, and 28 skill…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

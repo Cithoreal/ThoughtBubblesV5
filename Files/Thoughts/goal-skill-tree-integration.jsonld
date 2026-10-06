@@ -1,0 +1,31 @@
+{
+	"@id": "goal-skill-tree-integration",
+	"@context": "tb",
+	"data": "Goal: Skill Tree Integration\n\nRPG-style progression auto-generated from the thought graph. XP, levels, prerequisites, mastery.\n\nWhat This Is\nSkill trees as a special type of thought bubble with progression mechanics. Not a separate system — an overlay on the existing spatial graph. Skill nodes are bubbles with prerequisite/mastery relationships (typed links).\n\nSpecific Behaviors Needed\nSkill node type — a bubble variant with XP, level, prerequisite, and mastery fields\nPrerequisite links — typed…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-typed-links",
+		"goal-spatial-authoring",
+		"goal-card-system",
+		"goal-node-visualization",
+		"orchestrator",
+		"goal-vault-bridge",
+		"fiction-worldbuilding",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"goal-card-system",
+		"goal-spatial-authoring",
+		"goal-typed-links",
+		"orchestrator",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"skill-trees"
+	],
+	"category": "projects"
+}

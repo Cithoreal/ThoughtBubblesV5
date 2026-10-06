@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-14",
+	"@context": "tb",
+	"data": "2026-09-14\n\nEvents\nVault steward run 2026-09-14: Removed 18 duplicate journal notes from journals/unknown/ (copies of journals/2022/ entries — 2022 versions were richer with tags and related links). No broken wikilink fixes needed (10k+ broken links are almost entirely OneNote import paths, .tasks file refs, and template example text — not fixable). No missing tags auto-fixed (11k+ notes lack tags but most are task/journal/daily auto-generated files). All top-level projects are indexed. 16…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

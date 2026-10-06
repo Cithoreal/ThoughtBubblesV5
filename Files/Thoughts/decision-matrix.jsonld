@@ -1,0 +1,17 @@
+{
+	"@id": "decision-matrix",
+	"@context": "tb",
+	"data": "Grad School Decision Matrix\nSide-by-side comparison of all 17 university options.\nAt-a-Glance Comparison Table\n\n| University | Country | Program | Research Fit | Annual Cost (w/o funding) | Annual Cost (w/ funding) | Funding Available | Language Req | Location Appeal | Katie Fit | App Deadline | Competitiveness…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1784678400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"grad-school",
+		"decision",
+		"comparison",
+		"active"
+	],
+	"category": "projects"
+}

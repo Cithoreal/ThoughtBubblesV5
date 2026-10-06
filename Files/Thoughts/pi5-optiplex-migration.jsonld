@@ -1,0 +1,31 @@
+{
+	"@id": "pi5-optiplex-migration",
+	"@context": "tb",
+	"data": "Pi5 ↔ Optiplex Migration Runbook\n\n✅ COMPLETED — Pi5→Optiplex service migration finished 2026-04-15. Forgejo migrated from pi4→Optiplex on 2026-04-20. Pi5 is now HA-only hub. Optiplex is the primary services host.\n\nGoal: Swap roles — Optiplex becomes the always-on services host, pi5 becomes the Home Assistant hub.\n\n✅ COMPLETED — Pi5→Optiplex services migration finished 2026-04-15. Forgejo (pi4→Optiplex) migration finished 2026-04-20. Pi5 is now a dedicated Home Assistant hub. Optiplex is the…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776038400",
+	"LinkTo": [
+		"homeassistant",
+		"pi5",
+		"inventory",
+		"TOOLS.md",
+		"star",
+		"homelab-infrastructure",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"infrastructure-productivity-habits-plan",
+		"projects",
+		"alienware",
+		"nextcloud",
+		"pi5",
+		"finances-wishlist"
+	],
+	"tags": [
+		"project",
+		"runbook",
+		"migration",
+		"completed"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,15 @@
+{
+	"@id": "adjacency-list",
+	"@context": "tb",
+	"data": "Vault Concept Graph — Adjacency List\n\nGenerated from 75 concept notes, 460 structural links, 1 semantic links.\n\nCalcifer Character (calcifer-character)\n  → links to: calcifer-memory, calcifer-voice-presence, cithoreal-identity, core-system, thought-bubbles\n  ← linked from: core-system, project-calcifer-founding-vision\n\nCalcifer Memory (calcifer-memory)\n  → links to: core-system, project-calcifer-founding-vision\n  ← linked from: calcifer-character, core-system, llm-memory-landscape-2026,…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165365",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"rdf",
+		"graph"
+	],
+	"category": "calcifer"
+}

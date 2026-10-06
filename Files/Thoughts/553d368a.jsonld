@@ -1,0 +1,12 @@
+{
+	"@id": "553d368a",
+	"@context": "tb",
+	"data": "Determine topic for informative speech\n\n\"I need to figure out what my speech is going to be\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

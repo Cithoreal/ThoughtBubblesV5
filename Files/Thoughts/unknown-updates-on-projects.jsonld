@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-updates-on-projects",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Install Shelly dimmer 2 in light fixture above dinner table', 'type': 'progress', 'status': 'abandoned', 'raw_quote': 'I put some time into trying to get the Shelly dimmer 2 that I have into the light fixture above the dinner table.', 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Updates on Projects.md', 'extracted_at': '2026-05-18T19:14:53.742296', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

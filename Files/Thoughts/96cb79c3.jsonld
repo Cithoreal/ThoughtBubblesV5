@@ -1,0 +1,12 @@
+{
+	"@id": "96cb79c3",
+	"@context": "tb",
+	"data": "Uninstall older Unity versions (2021 and 2022.3.4)\n\n\"I'm gonna uninstall some of these older versions uninstall the 2021 and the 2022.3.4\"\n\nSource Journals\n[[Setting up Quest Dev Environment.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Setting-up-Quest-Dev-Environment.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

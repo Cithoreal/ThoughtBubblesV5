@@ -1,0 +1,32 @@
+{
+	"@id": "openclaw-calcifer",
+	"@context": "tb",
+	"data": "OpenClaw + Calcifer — Infra Reference\n\nAt-a-glance reference for everything OpenClaw we have running, configured, and not yet using. Update this when config changes.\n\n✅ What's Working\n\nGateway\nHost: star (Arch Linux, 192.168.1.10)\nVersion: 2026.4.25 (auto-updates via pnpm)\nPort: 18789 (loopback, Tailscale Serve at star.tail98d265.ts.net)\nAuth: Token-based\nService: systemd, enabled & running\nCanvas: Enabled (/~openclaw__/canvas/, live reload on)\n\nPrimary Model\nDefault: ollama/glm-5.1:cloud (via…",
+	"lastUpdated": "1777248000",
+	"createdAt": "1777248000",
+	"LinkTo": [
+		"star",
+		"homeassistant",
+		"calcifer-vault",
+		"calcifer-memory",
+		"custom-rag"
+	],
+	"LinkFrom": [
+		"calcifer-memory",
+		"HOME",
+		"infra",
+		"custom-rag-pipeline",
+		"openclaw-agents",
+		"openclaw-config",
+		"openclaw",
+		"calcifer-vault"
+	],
+	"tags": [
+		"infra",
+		"openclaw",
+		"calcifer",
+		"config",
+		"reference"
+	],
+	"category": "infra"
+}

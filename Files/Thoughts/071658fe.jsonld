@@ -1,0 +1,12 @@
+{
+	"@id": "071658fe",
+	"@context": "tb",
+	"data": "Prompt AI to utilize markdown formatting for output\n\n\"So prompt the AI to really utilize the .md formatting for sure\"\n\nSource Journals\n[[Journal Backlog.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-Backlog.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

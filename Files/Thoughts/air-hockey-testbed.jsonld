@@ -1,0 +1,21 @@
+{
+	"@id": "air-hockey-testbed",
+	"@context": "tb",
+	"data": "Air Hockey (Redirect)\n\nThis was an incorrect concept note. Air Hockey MR is a full standalone Meta Quest 3 game, not a ThoughtBubbles testbed.\n\nSee: [[projects/air-hockey-mr]]\n\nThe Oct–Nov 2025 ThoughtBubbles work used air hockey game state as test data for the saving/loading architecture — but the game is its own separate project with its own roadmap, GitHub tracking, and Meta Store ambitions.\n\nSession History\n2026-08-19: Discussed air hockey testbed",
+	"lastUpdated": "1775606400",
+	"createdAt": "1775606400",
+	"LinkTo": [
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"skill-trees",
+		"HOME",
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"redirect",
+		"project"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,30 @@
+{
+	"@id": "great-woods-walk",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Great Woods Walk.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Great Woods Walk\nTranscribed: 2026-03-30 12:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:10]  \nIt is 2.49 PM, April 30th, 2024.\n[00:00:12 → 00:00:18]  \nI wasn't going to record here, but you know, I feel like I might as well.\n[00:00:19 → 00:00:30]  \nI've been going on these walks a lot…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

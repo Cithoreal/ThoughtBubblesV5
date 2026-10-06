@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-new-recording-10-7",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Go to Cape Cod tomorrow', 'type': 'explicit', 'status': 'new', 'raw_quote': 'Going to Cape Cod tomorrow.', 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'New Recording 10 7.md', 'extracted_at': '2026-05-18T17:53:45.062554', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Keep Clementine here with me', 'type': 'explicit', 'status': 'new', 'raw_quote': 'Gotta keep Clementine here with…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

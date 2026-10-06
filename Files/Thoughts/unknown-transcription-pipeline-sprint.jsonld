@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-transcription-pipeline-sprint",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Get ready for bed', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm probably going to need to get ready for bed in a few minutes.\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Transcription pipeline sprint.md', 'extracted_at': '2026-05-18T19:13:30.198943', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Go to bed at 10 PM and asleep by 11 PM', 'type': 'explicit', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

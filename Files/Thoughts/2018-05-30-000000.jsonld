@@ -1,0 +1,19 @@
+{
+	"@id": "2018-05-30-000000",
+	"@context": "tb",
+	"data": "Journal — 2018-05-30 00:00\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Audio Journal Ten 5-30-18.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Audio Journal Ten 5-30-18\nTranscribed: 2026-03-30 05:38  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nGood morning, I'm Chris, and this is my daily audio journal.\n[00:00:10 → 00:00:15]  \nIt's Heart Day, which is always, I don't know, kind of always brings me the most…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

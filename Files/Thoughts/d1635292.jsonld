@@ -1,0 +1,14 @@
+{
+	"@id": "d1635292",
+	"@context": "tb",
+	"data": "Water Lucky\n\n\"I'd like to water Lucky.\"\n\nSource Journals\n[[Audio Journal Processing (Process me).tasks]]\n[[Maximize Sleep.tasks]]\n[[Planning AI Systems.tasks]]\n\nAll Quotes\n\"I'd like to water Lucky.\"\n\"water lucky\"\n\"water lucky have not done that\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Audio-Journal-Processing-Process-me-.tasks",
+		"Maximize-Sleep.tasks",
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

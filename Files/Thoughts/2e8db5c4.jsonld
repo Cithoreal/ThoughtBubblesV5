@@ -1,0 +1,12 @@
+{
+	"@id": "2e8db5c4",
+	"@context": "tb",
+	"data": "Edit journal recordings\n\n\"I haven't edited any of these yet, which I think it would be fun to go through and edit them.\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

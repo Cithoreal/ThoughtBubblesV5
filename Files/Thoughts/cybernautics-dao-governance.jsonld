@@ -1,0 +1,33 @@
+{
+	"@id": "cybernautics-dao-governance",
+	"@context": "tb",
+	"data": "Cybernautics DAO — Governance & Reputation Architecture\n\nWhat It Is\n\nThe governance layer for Cybernautics: how a community of contributors makes decisions, earns influence, and prevents the concentration of power that plagues existing DAOs and crypto networks.\n\nThis document addresses a specific design problem: how to build meritocratic governance without it becoming a social credit dystopia.\n\nCore Principles (Non-Negotiable)\nGovernance power derives from contribution and reputation, NOT from…",
+	"lastUpdated": "1783036800",
+	"createdAt": "1783036800",
+	"LinkTo": [
+		"solid-pod-sovereignty",
+		"cybernautics-vision",
+		"solid-encryption-layer",
+		"semantic-web-and-linked-data",
+		"decentralized-local-first-stack",
+		"cybernautics-business-model",
+		"core-system",
+		"thoughtbubbles",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"cybernautics-business-model",
+		"HOME"
+	],
+	"tags": [
+		"concept",
+		"cybernautics",
+		"dao",
+		"governance",
+		"reputation",
+		"identity",
+		"architecture",
+		"active"
+	],
+	"category": "concepts"
+}

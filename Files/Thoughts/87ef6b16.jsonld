@@ -1,0 +1,12 @@
+{
+	"@id": "87ef6b16",
+	"@context": "tb",
+	"data": "Add update and delete options to task system\n\n\"Still haven't added the update or delete options.\"\n\nSource Journals\n[[Updates on Projects.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Updates-on-Projects.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

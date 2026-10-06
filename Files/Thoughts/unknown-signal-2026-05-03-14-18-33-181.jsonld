@@ -1,0 +1,20 @@
+{
+	"@id": "unknown-signal-2026-05-03-14-18-33-181",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker is recording instructions while driving to define requirements for a personalized AI audio assistant. They outline a 'skill tree' interface that delivers brief daily summaries of physics, space news, and current events during their commute, with the ability to branch into deeper content on demand rather than consuming lengthy broadcasts.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion | animated | enthusiastic |\n| Valence | — |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/self-directed-learning",
+		"theme/information-architecture",
+		"theme/commute-productivity",
+		"theme/hierarchical-content-consumption",
+		"theme/multidisciplinary-education"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-walking-off-some-energy",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Break the habit of only playing Cyberpunk in VR', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I got to break the habit for now', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Walking off some energy.md', 'extracted_at': '2026-05-18T19:19:43.326936', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Play Cyberpunk regularly (non-VR) to experience the game', 'type': 'explicit',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

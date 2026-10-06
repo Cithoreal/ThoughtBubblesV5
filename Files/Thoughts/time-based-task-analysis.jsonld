@@ -1,0 +1,30 @@
+{
+	"@id": "time-based-task-analysis",
+	"@context": "tb",
+	"data": "Concept: Time-Based Task Analysis\n\nWhat It Is\nTrack how tasks evolve from first mention to completion across the entire audio journal history. Cross-reference tasks across years of journals — when was \"build a portfolio site\" first mentioned? How many times? Did it evolve? Did it die?\n\nWhy It Matters\nThe audio journal corpus is a longitudinal record of cithoreal's thinking spanning years. This analysis would reveal:\nRecurring ideas that never shipped (candidates for serious attention or…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1774828800",
+	"LinkTo": [
+		"audio-journal-pipeline",
+		"journal-pipeline-ui",
+		"skill-trees",
+		"weekly-retrospective",
+		"focus-system"
+	],
+	"LinkFrom": [
+		"focus-system",
+		"task-system-gamified",
+		"weekly-retrospective",
+		"HOME",
+		"concepts",
+		"2026-03-31-183935",
+		"projects-audio-journal-pipeline",
+		"journal-pipeline-ui"
+	],
+	"tags": [
+		"concept",
+		"tier-2",
+		"recurring"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,31 @@
+{
+	"@id": "what-projects-excite-me-right-now",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/What projects excite me right now?.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# What projects excite me right now?\nTranscribed: 2026-03-30 13:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 4.06 p.m. June 8th, 2024.\n[00:00:06 → 00:00:14]  \nOut on the, in Borderlands State Park on the trails.\n[00:00:17 → 00:00:18]  \nWanted a change of…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"topic/homelab",
+		"topic/star-system",
+		"personal/relationships",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

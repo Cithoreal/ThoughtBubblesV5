@@ -1,0 +1,12 @@
+{
+	"@id": "ff84ddde",
+	"@context": "tb",
+	"data": "Wait a while before messaging tomorrow\n\n\"I'll wait a while for this message tomorrow\"\n\nSource Journals\n[[More Spice.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"More-Spice.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

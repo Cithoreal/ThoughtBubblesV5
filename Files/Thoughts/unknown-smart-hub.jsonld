@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-smart-hub",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Set up smart home hub in living room', 'type': 'progress', 'status': 'completed', 'raw_quote': 'So I finally have debuted the, uh... Smart home hub in the living room.', 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Smart Hub.md', 'extracted_at': '2026-05-18T18:35:08.579268', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Set up weather forecasting on smart home hub', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

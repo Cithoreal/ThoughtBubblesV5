@@ -1,0 +1,21 @@
+{
+	"@id": "fitness-tracker",
+	"@context": "tb",
+	"data": "Fitness Tracker\n\nStub — referenced from [[projects/daily-schedule]].\n\nLikely related to [[projects/health-strength]]. Needs content or merge.",
+	"lastUpdated": "1785110400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"daily-schedule",
+		"health-strength"
+	],
+	"LinkFrom": [
+		"projects",
+		"daily-schedule"
+	],
+	"tags": [
+		"project",
+		"fitness",
+		"health"
+	],
+	"category": "projects"
+}

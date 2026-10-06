@@ -1,0 +1,12 @@
+{
+	"@id": "7795a8fe",
+	"@context": "tb",
+	"data": "Look into and try out smart home products like Philips bulbs and sensors\n\n\"I'd like to look into some smart home products as well. I could try out just like a few popular products. Like one bulb from Philips. One sensor from something else.\"\n\nSource Journals\n[[Web Search Function.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Web-Search-Function.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

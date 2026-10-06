@@ -1,0 +1,20 @@
+{
+	"@id": "grep-story-development",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2023/story-development.md\n\n67-> \n68-> [00:01:59 → 00:02:29]  \n69-> Well, if I were to use a text-generating AI, especially something that supports functions like OpenAI or Lama, I should be able to provide it with a sort of data structure that its job is to fill out, that it analyzes the current dungeon, analyzes the room that it's currently connected to, plans out some sort of\n70-> \n71-> [00:02:31 → 00:02:38]  \n72:> a set of rooms each time, and you'll need to collect…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

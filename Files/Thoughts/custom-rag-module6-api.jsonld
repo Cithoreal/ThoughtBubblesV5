@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module6-api",
+	"@context": "tb",
+	"data": "Module 6: API Layer — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nM6 is the interface layer — it makes M2-M5 accessible to humans and agents. Three surfaces:\nCLI (vault_rag.py) — direct command-line access for search, ingest, status\nOpenClaw Skill — so Calcifer (and subagents) can call the pipeline via natural language\nOpenClaw memory_search replacement — long-term goal: route OpenClaw's built-in memory search through…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-6"
+	],
+	"category": "projects"
+}

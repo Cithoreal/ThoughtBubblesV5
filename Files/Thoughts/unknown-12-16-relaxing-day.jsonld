@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-12-16-relaxing-day",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Drive Alex back tomorrow or Tuesday', 'type': 'explicit', 'status': 'new', 'raw_quote': \"So I'm probably going to drive Alex back tomorrow or Tuesday.\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '12-16 Relaxing Day.md', 'extracted_at': '2026-05-03T16:15:20.012555', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Work on air hockey', 'type': 'explicit', 'status': 'new',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

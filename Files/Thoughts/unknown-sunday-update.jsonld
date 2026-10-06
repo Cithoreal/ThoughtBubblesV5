@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-sunday-update",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Design top part of Raspberry Pi case to account for higher position and radiator', 'type': 'explicit', 'status': 'new', 'raw_quote': 'So all I really need to design now is the top part so that it accounts for the higher position of it and the radiator.', 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Sunday Update.md', 'extracted_at': '2026-05-18T18:47:28.127752', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

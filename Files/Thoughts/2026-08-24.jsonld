@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-24",
+	"@context": "tb",
+	"data": "2026-08-24\n\nEvents\nVault steward run 2026-08-24: Fixed 10 broken wikilinks in projects/adhd-personal-deep-dive.md (had .md extensions). Temporal scan: 4 CRITICAL financial figures (flagged for review), 67 WARNING stale status tags, 519 INFO. 2260 orphan task files are auto-generated journal artifacts (not actionable). 373 duplicate journal pairs in unknown/ vs dated/ dirs (needs cithoreal decision on cleanup). Prune report: 3385 issues total.\nWeekly temporal scan complete (Aug 24). 4 CRITICAL:…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

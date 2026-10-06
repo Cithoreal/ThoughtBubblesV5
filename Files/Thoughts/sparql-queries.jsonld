@@ -1,0 +1,15 @@
+{
+	"@id": "sparql-queries",
+	"@context": "tb",
+	"data": "ThoughtBubbles-as-RDF: Vault SPARQL Queries\n\nSample queries for the vault knowledge graph. These demonstrate what becomes possible when the vault's wikilink structure is treated as a typed knowledge graph.\n\nStructural Queries (wikilinks only)\n\nThese work with obsidian-sparql's auto-triplification — no semantic extraction needed.\nFind all concepts that link to ThoughtBubbles\n\nCurrent result: 50 concepts link to ThoughtBubbles — it's the #1 authority node in the graph.\nFind concepts with the most…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165365",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"rdf",
+		"sparql"
+	],
+	"category": "calcifer"
+}

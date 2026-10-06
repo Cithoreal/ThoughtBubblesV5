@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-car-ride-home-1",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'End current recording and start new one with different topic once off the ramp and onto the highway', 'type': 'explicit', 'status': 'new', 'raw_quote': \"Yeah, I'm just going to end this and try to move on to something a bit more interesting. Once I'm off this ramp and onto the highway.\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Car ride home 1.md', 'extracted_at': '2026-05-03T18:09:04.171935',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

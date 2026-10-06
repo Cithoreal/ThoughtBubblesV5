@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-it_is_one_fifty_one-_p-_m-1st_thought-sunday-_jan-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Turn off Secure Boot to boot into Manjaro', 'type': 'progress', 'status': 'completed', 'raw_quote': \"I eventually figured out that I needed to turn off Secure Boot in order to boot into Manjaro. So that's working now.\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Journal-It_is_one_fifty_one,_p._m,-1st_thought-Sunday,_Jan-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T17:24:40.714399',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

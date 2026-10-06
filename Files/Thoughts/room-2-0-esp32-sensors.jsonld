@@ -1,0 +1,26 @@
+{
+	"@id": "room-2-0-esp32-sensors",
+	"@context": "tb",
+	"data": "ESP32 Sensor Collection — Room 2.0 Hardware Plan\n\nBuilding a fleet of ESP32-based sensor nodes for environmental monitoring, presence detection, physical triggers, and Room 2.0 integration. All data flows through ESPHome → Home Assistant → Room 2.0 AR anchors.\n\nStarter Kit — First Purchase (~$60-80)\n\nThe goal: get one of each sensor type, build the first multi-sensor node, and validate the full pipeline (ESP32 → ESPHome → HA → Room 2.0).\n\nCore Boards\n\n| Item | Est. Cost | Source | Purpose |…",
+	"lastUpdated": "1782691200",
+	"createdAt": "1782691200",
+	"LinkTo": [
+		"finances-wishlist",
+		"room-2-0",
+		"production-plan",
+		"peripherals",
+		"Hearth"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"room-2-0",
+		"hardware",
+		"esp32",
+		"sensors",
+		"shopping-list"
+	],
+	"category": "projects"
+}

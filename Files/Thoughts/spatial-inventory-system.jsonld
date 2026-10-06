@@ -1,0 +1,23 @@
+{
+	"@id": "spatial-inventory-system",
+	"@context": "tb",
+	"data": "Spatial Inventory System\n\nHandwritten notes from Sept 26, 2026 brainstorming session. Transcribed from two notebook pages.\n\nPage 1 — Room Scanning & Zone Sectioning\n\n...summoned instantly in the case of, for example, placing an asset on a desk or a virtual image on the wall.\nWith both physical spaces and items cataloged, there can be a system of organization. By using a tool that runs from an XR headset to describe a space, we can learn much about what fills the space, things that are clear to…",
+	"lastUpdated": "1790380800",
+	"createdAt": "1790380800",
+	"LinkTo": [
+		"room-2-0",
+		"core-system",
+		"inventory-app",
+		"designing-reality"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"thought-space",
+		"xr",
+		"spatial-computing",
+		"room-2-0",
+		"inventory",
+		"organization"
+	],
+	"category": "thought-spaces"
+}

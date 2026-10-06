@@ -1,0 +1,12 @@
+{
+	"@id": "5d403dfe",
+	"@context": "tb",
+	"data": "Create personal knowledge base for AI context\n\n\"I'm trying to just create a knowledge base about myself that that AI can sort of refer to\"\n\nSource Journals\n[[Databases.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Databases.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

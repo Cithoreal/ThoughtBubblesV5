@@ -1,0 +1,12 @@
+{
+	"@id": "f78f55e5",
+	"@context": "tb",
+	"data": "Start new NextCloud Pi instance from scratch with auto-renewing SSL certificate and port forwarding\n\n\"I'll probably just start a new next cloud pi instance from scratch and try to do it better and make sure that the certificate auto renews and set it up to port forward\"\n\nSource Journals\n[[10-26-22-am-12-47.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-26-22-am-12-47.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

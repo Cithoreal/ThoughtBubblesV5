@@ -1,0 +1,15 @@
+{
+	"@id": "grep-2024-12-14_thoughtbubbles-overview",
+	"@context": "tb",
+	"data": "Grep Extract: _archive/reference/chatgpt/2024/12/2024-12-14_thoughtbubbles-overview.md\n\n1----\n2:title: ThoughtBubbles Overview\n3-date: 2024-12-14\n4-source: chatgpt\n5----\n6-\n7:# ThoughtBubbles Overview\n8-\n9-User:\n10-\n11:can you explain what ThoughtBubbles is for someone who doesn't know anything about it?\n12-\n13----\n14-\n15-Assistant:\n16-\n17:Certainly! ThoughtBubbles is a personal knowledge management and productivity system that combines futuristic technology with innovative design. Imagine a…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

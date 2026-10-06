@@ -1,0 +1,12 @@
+{
+	"@id": "d64f6e4c",
+	"@context": "tb",
+	"data": "Get ahead of the snowstorm\n\n\"A big snowstorm starting tomorrow, going through Sunday. Hopefully I can get ahead of it along the northeast.\"\n\nSource Journals\n[[New Recording.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

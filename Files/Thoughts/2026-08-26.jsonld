@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-26",
+	"@context": "tb",
+	"data": "2026-08-26\n\nEvents\nThoughtBubbles researcher: Aug 26 sweep complete. No Signal notification sent — no individual finding qualifies as a breakthrough. All findings logged to vault/reference/thoughtbubbles-research.md and queue updated. Committed and pushed.\nThoughtBubbles researcher: Aug 26 sweep — Godot 4.7.2 stable, LWS 1.0 WD updates (4 auth suites), Steam Frame imminent (89 certified titles), XREAL Aura 10K reservations, GenosDB v0.21 + Godot integration article, Neo4j HFQ GA, CBOR-LD CR…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

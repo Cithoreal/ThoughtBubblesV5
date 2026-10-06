@@ -1,0 +1,14 @@
+{
+	"@id": "9d829cdc",
+	"@context": "tb",
+	"data": "Work on custom RAG setup with Calcifer\n\n\"decided to create a custom RAG implementation\"\n\nSource Journals\n[[2026-04-14 19-16-00.tasks]]\n[[2026-04-15 11-54-29.tasks]]\n[[2026-04-15 18-51-31.tasks]]\n\nAll Quotes\n\"decided to create a custom RAG implementation\"\n\"I've been talking with Calcifer about the new custom RAG setup\"\n\"start working on the custom rag... I can work with Calcifer on that\"\n\"make it transparent to calcifer themselves so that they can see any obvious improvements\"\n\nProgress\n(empty,…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-14-19-16-00.tasks",
+		"2026-04-15-11-54-29.tasks",
+		"2026-04-15-18-51-31.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

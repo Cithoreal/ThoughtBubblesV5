@@ -1,0 +1,10 @@
+{
+	"@id": "voice-satellite-integration",
+	"@context": "tb",
+	"data": "Voice Satellite Integration — Research Note\n\nDate: 2026-08-27\nGoal: Research existing projects that integrate custom LLM agents (especially OpenClaw or similar) with Home Assistant's Satellite1 / Wyoming Protocol voice pipeline for voice-to-voice conversation. Identify the best path for wiring Calcifer (OpenClaw) into a Satellite1 via Wyoming Protocol.\nWyoming Protocol — The Foundation\n\nURL: <https://github.com/OHF-Voice/wyoming>\nDocs:…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

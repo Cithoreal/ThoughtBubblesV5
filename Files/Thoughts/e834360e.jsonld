@@ -1,0 +1,12 @@
+{
+	"@id": "e834360e",
+	"@context": "tb",
+	"data": "Save metadata as JSON into directory\n\n\"Just in JSON probably, and then just save it into the directory, into my knowledge base.\"\n\nSource Journals\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

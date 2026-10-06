@@ -1,0 +1,13 @@
+{
+	"@id": "7b21cded",
+	"@context": "tb",
+	"data": "Set up Grafana\n\n\"I think I definitely want to set up Grafana.\"\n\nSource Journals\n[[New Recording 10 7.tasks]]\n[[New Recording 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-10-7.tasks",
+		"New-Recording-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

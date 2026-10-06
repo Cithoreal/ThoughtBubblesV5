@@ -1,0 +1,24 @@
+{
+	"@id": "introspection-7",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection 7.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection 7\nTranscribed: 2026-03-30 05:53  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:05]  \num um\n[00:00:32 → 00:00:33]  \nIt's a pretty nice night.\n[00:00:35 → 00:00:37]  \nThe moon is behind the clouds.\n[00:01:11 → 00:01:13]  \nwalking by the Gwad right now.\n[00:01:13 → 00:01:16]  \nI…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"cithoreal-identity",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

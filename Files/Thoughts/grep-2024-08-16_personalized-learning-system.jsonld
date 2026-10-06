@@ -1,0 +1,13 @@
+{
+	"@id": "grep-2024-08-16_personalized-learning-system",
+	"@context": "tb",
+	"data": "Grep Extract: _archive/reference/chatgpt/2024/08/2024-08-16_personalized-learning-system.md\n\n6-\n7-# Personalized Learning System\n8-\n9-User:\n10-\n11:Architect and illustrate a system that makes use of existing tools and technologies and any additional new features to enhance and supplement the experience. This system should monitor and track an individual's educational and knowledge pathways, and it should develop new pathways based on the person's journey, preferences, interests, and unique…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

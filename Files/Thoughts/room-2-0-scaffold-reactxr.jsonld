@@ -1,0 +1,28 @@
+{
+	"@id": "room-2-0-scaffold-reactxr",
+	"@context": "tb",
+	"data": "Room 2.0 MVP — Scaffold: \"See My Stuff\"\n\nPlace visual anchors over physical systems so you can see them all highlighted in AR.\n\nThis scaffold gives you tasks (what to do) and hints (where to look) — not answers. Build it yourself, learn by doing.\n\nThe core build targets Quest 3 (primary), but the architecture is designed so the same ReactXR code can work on Android phones (Chrome WebXR) and, with some extra work, iPhones. Platform specifics are called out where they…",
+	"lastUpdated": "1779148800",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"room-2-0",
+		"-iOS-Considerations",
+		"-HTTPS-Setup",
+		"nanolucent",
+		"feedback-layer"
+	],
+	"LinkFrom": [
+		"poimandres-ecosystem",
+		"projects",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"scaffold",
+		"tutorial",
+		"ar",
+		"xr",
+		"react"
+	],
+	"category": "projects"
+}

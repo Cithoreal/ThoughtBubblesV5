@@ -1,0 +1,17 @@
+{
+	"@id": "2019-11-25-153657",
+	"@context": "tb",
+	"data": "Journal — 2019-11-25 15:36:57 (Video)\n\nSource\nVideo: /run/media/cithoreal/Elements/MemoryBase/VideoJournal/2019-11-25 15-36-57.mkv\nTranscribed by: WhisperX large-v3\n\nNotes\nShort test recording made to check audio quality.\n\n[!note]- Full Transcript\n[00:00:00 → 00:00:04]\nDo a quick test recording with this, see how it sounds and seems.\n[00:00:07 → 00:00:07]\nGood enough.",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"video-journal",
+		"theme/2019"
+	],
+	"category": "journals"
+}

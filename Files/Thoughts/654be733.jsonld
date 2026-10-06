@@ -1,0 +1,12 @@
+{
+	"@id": "654be733",
+	"@context": "tb",
+	"data": "Start investing in stock market\n\n\"I would love to get into investing, looking at the stock market\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

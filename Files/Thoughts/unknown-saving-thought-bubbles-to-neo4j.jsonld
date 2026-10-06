@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-saving-thought-bubbles-to-neo4j",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Set up WebSocket connection between Godot and Node-RED', 'type': 'progress', 'status': 'completed', 'raw_quote': 'It was a bit of a pain, but I got WebSockets working within Godot to connect to... Node-RED.', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Saving Thought Bubbles to Neo4j.md', 'extracted_at': '2026-05-18T18:25:14.511069', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

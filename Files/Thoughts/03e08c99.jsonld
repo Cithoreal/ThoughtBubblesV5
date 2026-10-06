@@ -1,0 +1,12 @@
+{
+	"@id": "03e08c99",
+	"@context": "tb",
+	"data": "Research small fast local LLMs\n\n\"I'd love to look into not these massive LLMs, but look into some really small and fast LLMs that I can run locally\"\n\nSource Journals\n[[Planning for the weekend.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-for-the-weekend.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

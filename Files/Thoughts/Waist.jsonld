@@ -1,0 +1,15 @@
+{
+	"@id": "Waist",
+	"@context": "tb",
+	"data": "Waist",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"onenote-work-projects"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

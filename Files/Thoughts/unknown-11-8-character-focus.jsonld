@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-11-8-character-focus",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Work on rescue story and developments', 'type': 'explicit', 'status': 'new', 'raw_quote': 'so i want to get um work on the rescue story a bit more work on some developments', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '11-8 Character Focus.md', 'extracted_at': '2026-05-03T16:11:17.669525', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Complete general world building for…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

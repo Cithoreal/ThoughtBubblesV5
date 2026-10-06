@@ -1,0 +1,10 @@
+{
+	"@id": "BACKUP",
+	"@context": "tb",
+	"data": "BACKUP.md — Star Backup Configuration\n\nRestic\nVersion: 0.19.1-1\nBackup script: /usr/local/sbin/restic-backup.sh (path inferred from systemd ExecStart — truncated in display)\nService: /etc/systemd/system/restic-backup.service (oneshot, Nice=19, IOSchedulingClass=idle)\nTimer: /etc/systemd/system/restic-backup.timer — daily at 03:00 with up to 30min random delay\nTimer status: active (waiting), next trigger Wed 2026-09-23 03:19 EDT\nTimeout: 4 hours\n\nRepositories\nTwo restic repositories, both on…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

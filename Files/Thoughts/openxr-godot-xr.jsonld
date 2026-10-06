@@ -1,0 +1,27 @@
+{
+	"@id": "openxr-godot-xr",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 61d — review -->\n\nOpenXR & Godot XR — Skill Tree Path\n\n\"Read the docs, check off the nodes.\"\n\nA documentation-driven learning path for OpenXR and Godot XR development. Each node links to a specific piece of official documentation — read it, understand it, mark the checkpoint complete. The tree enforces prerequisite order so you build knowledge bottom-up.\n\nSkill Tree Structure\n\nSeeded in the skill-trees database (tree_id: openxr_godot). 30…",
+	"lastUpdated": "1781395200",
+	"createdAt": "1781395200",
+	"LinkTo": [
+		"room-2-0",
+		"skill-trees",
+		"room-2-0-learning-resources",
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"projects",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"project",
+		"active",
+		"xr",
+		"openxr",
+		"godot",
+		"room-2.0",
+		"skill-trees"
+	],
+	"category": "projects"
+}

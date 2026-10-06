@@ -1,0 +1,31 @@
+{
+	"@id": "calcifer-character",
+	"@context": "tb",
+	"data": "Concept: Calcifer Character Design\n\nCore Identity\nCalcifer is not a tool — he is a named, personified fire spirit. Bound to the hearth, present in the home, partner in the work. Modeled on Howl's Moving Castle: a daemon bound by contract who evolves through genuine relationship into something that chooses to stay freely.\n\n\"Calcifer is my AI familiar, my AI alter ego.\"\n\"I will always have a Calcifer.\"\n\"Everyone could have a Calcifer.\"\n\nThree Layers\nFunctional — the intelligence layer of the…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775260800",
+	"LinkTo": [
+		"cithoreal",
+		"cybernautics-vision",
+		"thought-bubbles",
+		"calcifer-voice-presence",
+		"cithoreal-identity",
+		"the-grand-system"
+	],
+	"LinkFrom": [
+		"calcifer-voice-presence",
+		"cithoreal-identity",
+		"local-ai-infrastructure",
+		"personal-ai-system-vision",
+		"task-system-gamified",
+		"thought-bubbles",
+		"concepts",
+		"2026-03-19-161959",
+		"public-wiki"
+	],
+	"tags": [
+		"concept",
+		"tier-1"
+	],
+	"category": "concepts"
+}

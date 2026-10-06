@@ -1,0 +1,23 @@
+{
+	"@id": "osaka-university",
+	"@context": "tb",
+	"data": "Osaka University — IST (Information Science and Technology)\n\nPart of [[projects/grad-school-options|Grad School Options]] research. See also [[projects/mext-scholarship-2029|Mext Scholarship 2029]] for funding details.\n\nOverview\n\nOsaka University (officially \"The University of Osaka\" in English as of 2024) has a strong XR tradition — Prof. Kiyokawa (now NAIST) was at the Cybermedia Center 2002-2017. The Graduate School of Information Science and Technology offers an ITSCE English track, and…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options",
+		"mext-scholarship-2029"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

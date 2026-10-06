@@ -1,0 +1,12 @@
+{
+	"@id": "df9f388b",
+	"@context": "tb",
+	"data": "Walk her up for a little bit\n\n\"I can walk her up for a little bit.\"\n\nSource Journals\n[[Introspection 2.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-2.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

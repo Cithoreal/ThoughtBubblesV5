@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-stability-and-power-in-tools",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Transfer drives using copilot agent', 'type': 'progress', 'status': 'completed', 'raw_quote': \"I'm having... copilot agent transfer my drives for me... Everything's set up\", 'project': 'Home', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Stability and power in tools.md', 'extracted_at': '2026-05-18T18:39:13.795398', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Set up old drive as backup drive',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

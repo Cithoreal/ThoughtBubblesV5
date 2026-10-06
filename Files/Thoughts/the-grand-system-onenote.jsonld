@@ -1,0 +1,28 @@
+{
+	"@id": "the-grand-system-onenote",
+	"@context": "tb",
+	"data": "The Grand System (OneNote Archive)\n\nWhat It Is\nEarly design documents for cithoreal's personal AI/automation stack — now largely realized as the OpenClaw + vault system. These notes predate the current implementation.\n\nArchitecture (from OneNote)\nFrom [[OneNote/Work/The Grand System/Software and Devices]]:\nHome Assistant + Node Red — automation backbone\nNextcloud — file/data layer\nNeo4j — graph database for knowledge connections\nInfluxDB — time series data\nPinecone — vector embeddings\n\nFrom…",
+	"lastUpdated": "1781654400",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"Software-and-Devices",
+		"Memory-Systems",
+		"Calcifer-Bot",
+		"Audio-Journal-Processing-Pipe",
+		"personal-ai-system-vision",
+		"audio-journal-pipeline",
+		"thought-bubbles",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"projects",
+		"internship-budget-2026",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"project",
+		"ai",
+		"pipeline"
+	],
+	"category": "projects"
+}

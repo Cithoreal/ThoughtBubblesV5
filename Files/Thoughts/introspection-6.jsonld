@@ -1,0 +1,23 @@
+{
+	"@id": "introspection-6",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection 6.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection 6\nTranscribed: 2026-03-30 05:52  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:05]  \nAll right.\n[00:00:05 → 00:00:08]  \nSo I just had the idea to\n[00:00:11 → 00:00:39]  \ntry to play around with my [[concepts/health-and-sleep|sleep schedule]] and I want to try out the like having…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

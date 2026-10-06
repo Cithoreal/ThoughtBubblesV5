@@ -1,0 +1,23 @@
+{
+	"@id": "wind-down-routine",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Wind down routine.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Wind down routine\nTranscribed: 2026-03-30 13:15  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:12]  \nIt is 1125 p.m. December 14th, 2023.\n[00:00:18 → 00:00:26]  \nSo I just did my Duolingo and I wanna make it my policy to check my tasks whenever I do Duolingo.\n[00:00:27 → 00:00:28]  \nSo I'll…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"health-and-sleep",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"health-and-sleep",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/room-2-0",
+		"personal/health-sleep",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

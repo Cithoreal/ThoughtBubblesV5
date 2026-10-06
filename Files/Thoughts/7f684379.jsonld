@@ -1,0 +1,12 @@
+{
+	"@id": "7f684379",
+	"@context": "tb",
+	"data": "Check tasks whenever doing Duolingo\n\n\"I wanna make it my policy to check my tasks whenever I do Duolingo\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

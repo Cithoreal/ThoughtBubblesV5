@@ -1,0 +1,12 @@
+{
+	"@id": "a0afe60e",
+	"@context": "tb",
+	"data": "Set up spare Chromecast for TV if casting doesn't work\n\n\"if I am not able to, then I have a spare Chromecast that I could give it if that's what it takes\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

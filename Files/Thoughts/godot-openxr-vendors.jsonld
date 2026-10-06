@@ -1,0 +1,30 @@
+{
+	"@id": "godot-openxr-vendors",
+	"@context": "tb",
+	"data": "Godot OpenXR Vendors Plugin\n\nVendor plugin exposing Meta, Pico, and other headset-specific features.\nRepo: <https://github.com/GodotVR/godot_openxr_vendors>\nLicense: MIT\nGodot version: 4.x (v5.1 current)\nStatus: Actively maintained by Bastiaan Olij, funded by Khronos + Meta\n\nWhat It Provides\nMeta Scene Manager — scan environment, get wall/floor/ceiling meshes\nSpatial Anchors — persistent anchors that survive between sessions\nPassthrough control (color, opacity, blend modes)\nBody tracking (Meta…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-room-2-0-convergence",
+		"goal-spatial-navigation",
+		"goal-spatial-authoring",
+		"godot-46-xr-features",
+		"godot-quest-editor"
+	],
+	"LinkFrom": [
+		"goal-room-2-0-convergence",
+		"goal-spatial-interaction-primitives",
+		"godot-46-xr-features",
+		"godot-xr-auto-hand",
+		"godot-xr-reference",
+		"godot-xr-template",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"foundation"
+	],
+	"category": "projects"
+}

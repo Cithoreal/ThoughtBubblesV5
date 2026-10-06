@@ -1,0 +1,12 @@
+{
+	"@id": "05b2e467",
+	"@context": "tb",
+	"data": "Use immediate geometry to render links\n\n\"so i'll use the immediate geometry to render the links\"\n\nSource Journals\n[[Journal-It_is_twelve_twenty_four,_a_M._October-1st_thought-Saturday,_Oct-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_twelve_twenty_four-_a_M._October-1st_thought-Saturday-_Oct-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

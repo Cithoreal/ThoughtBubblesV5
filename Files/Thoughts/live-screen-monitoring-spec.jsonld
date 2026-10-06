@@ -1,0 +1,10 @@
+{
+	"@id": "live-screen-monitoring-spec",
+	"@context": "tb",
+	"data": "Live Screen Monitoring Specification\n\nStatus: Draft — Phase 1 outline. Sections marked [EXPAND] have source material but need further discussion before full specification.\nVision\n\nWhat is this? A real-time desktop monitoring system where Calcifer watches the user's screen, detects scene changes as they happen, analyzes snapshots on the fly, and provides feedback — through text, voice, or both — about what's on screen and what the user is doing. It extends the existing adaptive video analysis…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "specs"
+}

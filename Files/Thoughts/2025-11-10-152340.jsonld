@@ -1,0 +1,23 @@
+{
+	"@id": "2025-11-10-152340",
+	"@context": "tb",
+	"data": "Journal — 2025-11-10 15:23\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-10 15-23-40.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-10 15-23-40\nTranscribed: 2026-03-30 11:32  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 3.23pm, November 10th, 2025.\n[00:00:07 → 00:00:13]  \nLeaving BSU, it's raining, suddenly much more warm colours than when I was walking to the car.\n[00:00:13 → 00:00:31] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

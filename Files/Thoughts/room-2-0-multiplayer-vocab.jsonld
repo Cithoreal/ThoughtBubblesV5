@@ -1,0 +1,17 @@
+{
+	"@id": "room-2-0-multiplayer-vocab",
+	"@context": "tb",
+	"data": "Room 2.0 — Multiplayer Vocabulary Extensions & Command Bus\n\nAdditive extensions to the room2# vocabulary for multiplayer support. Nothing existing changes — all new classes, predicates, and enumerations layer on top.\n\nNew Classes\n\nroom2:Player (subclass of room2:SpatialEntity)\nroom2:hasSession → room2:Session\nroom2:playerRole → room2:PlayerRole (host, visitor, observer)\nroom2:clientMode → room2:ClientMode (AR, VR, Desktop)\nroom2:hasPermission → room2:Permission\nroom2:hasPresence →…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"room-2-0",
+		"vocabulary"
+	],
+	"category": "projects"
+}

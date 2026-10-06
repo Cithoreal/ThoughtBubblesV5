@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-introspection-1",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Take closer looks at reading pattern (eye darting issue)', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I should, I'll take closer looks at that.\", 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Introspection 1.md', 'extracted_at': '2026-05-18T16:56:32.131771', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Focus on creative writing class', 'type': 'explicit', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

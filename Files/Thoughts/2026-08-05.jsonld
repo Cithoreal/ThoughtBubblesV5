@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-05",
+	"@context": "tb",
+	"data": "2026-08-05\n\nEvents\nOptiplex networking incident resolved. Root cause: Tailscale on Star hijacking LAN subnet via table 52 (HA advertising 192.168.1.0/24, black-holed when HA offline). Fix: removed route, fixed SSH config, created persistence service. nft flush on Optiplex was unnecessary and broke Caddy port forwarding — full Docker restart repaired it. cithoreal requested deep homelab stability plan. Issues to address: Optiplex network instability, HA uptime, vision models broken, overall…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

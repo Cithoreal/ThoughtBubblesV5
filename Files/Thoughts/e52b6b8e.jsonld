@@ -1,0 +1,12 @@
+{
+	"@id": "e52b6b8e",
+	"@context": "tb",
+	"data": "Test all the properties saving and loading properly\n\n\"I still need to test all the properties saving and loading properly\"\n\nSource Journals\n[[2025-11-05 19-12-32.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-11-05-19-12-32.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

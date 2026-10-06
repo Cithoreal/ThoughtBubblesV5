@@ -1,0 +1,12 @@
+{
+	"@id": "85e9e975",
+	"@context": "tb",
+	"data": "Check Neurosity support for current device version\n\n\"See if there's any support for my... my version still\"\n\nSource Journals\n[[Year Reflections.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Year-Reflections.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

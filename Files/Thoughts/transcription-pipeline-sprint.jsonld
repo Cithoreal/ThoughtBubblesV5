@@ -1,0 +1,28 @@
+{
+	"@id": "transcription-pipeline-sprint",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Transcription pipeline sprint.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Transcription pipeline sprint\nTranscribed: 2026-03-30 13:10  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 9.50 p.m. July 16th, 2025.\n[00:00:07 → 00:00:11]  \nI'm probably going to need to get ready for bed in a few minutes.\n[00:00:13 → 00:00:15]  \nKatie and I have been…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"cybership"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/homelab",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"tech/python",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

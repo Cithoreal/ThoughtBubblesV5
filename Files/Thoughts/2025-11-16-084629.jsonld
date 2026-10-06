@@ -1,0 +1,26 @@
+{
+	"@id": "2025-11-16-084629",
+	"@context": "tb",
+	"data": "Journal — 2025-11-16 08:46\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-11-16 08-46-29.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-11-16 08-46-29\nTranscribed: 2026-03-30 11:34  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is November 16th, B46 AM, 2025.\n[00:00:08 → 00:00:13]  \nI stopped the ordering a little bit, but it's fine.\n[00:00:15 → 00:00:16]  \nDriving a BSU.\n[00:00:17 → 00:00:18] …",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybership",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-schedule-drawing-time",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Push up air hockey schedule to earlier date', 'type': 'explicit', 'status': 'new', 'raw_quote': \"so i'll push up my air hockey schedule\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Schedule Drawing Time.md', 'extracted_at': '2026-05-18T18:29:18.857363', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Put work hours on personal calendar', 'type': 'explicit', 'status': 'new',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

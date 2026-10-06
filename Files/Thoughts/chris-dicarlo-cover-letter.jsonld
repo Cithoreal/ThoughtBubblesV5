@@ -1,0 +1,15 @@
+{
+	"@id": "chris-dicarlo-cover-letter",
+	"@context": "tb",
+	"data": "chris_dicarlo_cover_letter\n\nMansfield, MA\n3/06/2026\n\nDear Hiring Manager,\nI am writing to express my interest in the Software Engineer – Backend Intern position at\nDelsys Inc. As a computer science student graduating in May 2026 with experience in\nbackend development, I am excited about the opportunity to contribute to your pioneering\nwork in wearable sensor technology and biosignal processing systems.\nMy professional experience at Infosys provided me with a solid foundation in…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "b0123c08",
+	"@context": "tb",
+	"data": "Set up multi-backup system\n\n\"I'd like to have multi-backups\"\n\nSource Journals\n[[2026-04-13 11-52-28.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-13-11-52-28.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

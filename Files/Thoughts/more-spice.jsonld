@@ -1,0 +1,24 @@
+{
+	"@id": "more-spice",
+	"@context": "tb",
+	"data": "See also: [[concepts/ar-xr-development]] · [[concepts/health-and-sleep]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/More Spice.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# More Spice\nTranscribed: 2026-03-30 12:30  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 12 11 AM, March 28th, 2024.\n[00:00:09 → 00:00:19]  \nWell, well, um, one more day of school this week, uh, doing a 3d print…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"ar-xr-development",
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

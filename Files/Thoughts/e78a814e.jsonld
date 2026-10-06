@@ -1,0 +1,12 @@
+{
+	"@id": "e78a814e",
+	"@context": "tb",
+	"data": "Get SATA cables to hook up hard drive\n\n\"get the SATA cables needed to hook the hard drive back up\"\n\nSource Journals\n[[2026-04-15 11-54-29.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-15-11-54-29.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

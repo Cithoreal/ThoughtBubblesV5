@@ -1,0 +1,12 @@
+{
+	"@id": "1e15b9b2",
+	"@context": "tb",
+	"data": "Watch G.I. Joe PSAs\n\n\"We gotta watch G.I. Joe PSAs.\"\n\nSource Journals\n[[New Recording 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

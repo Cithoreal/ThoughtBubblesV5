@@ -1,0 +1,31 @@
+{
+	"@id": "Schedule-Drawing-Time.tasks",
+	"@context": "tb",
+	"data": "Schedule Drawing Time.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"06ebb92e",
+		"18059650",
+		"3b60dd95",
+		"3c8e465c",
+		"4d30d97c",
+		"5da25605",
+		"635750bf",
+		"69a9e1ce",
+		"7fad2154",
+		"85e47260",
+		"964bb86f",
+		"aacdb14d",
+		"b2acdc15",
+		"b6775fa4",
+		"d759ab9b",
+		"de192df9",
+		"eadf6fbc"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

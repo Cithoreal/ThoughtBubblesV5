@@ -1,0 +1,12 @@
+{
+	"@id": "f737fbf8",
+	"@context": "tb",
+	"data": "Avoid phone use for 1-2 hours after getting out of bed\n\n\"I can't use my phone for like an hour or two after I get out of bed.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

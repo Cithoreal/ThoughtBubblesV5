@@ -1,0 +1,16 @@
+{
+	"@id": "extraction-analysis",
+	"@context": "tb",
+	"data": "RDF Triple Extraction Analysis\n\nDate: 2026-08-22\nSource: 75 markdown files in vault/concepts/\nOutput: triples-raw.tsv (subject → predicate → object → note_source)\n\nSummary\nTotal triples extracted: 1,823\nStructural triples (wikilinks + tags): 1,268\nreferences (wikilinks): 954\nhas-tag (frontmatter tags): 321\nProse triples (curated from reading all 75 notes): 555\nUnique predicates that emerged: 197\nNotes processed: 75/75 (100%)\n\nPredicate Frequency (Top 30, ranked)\n\n| Rank | Predicate | Count |…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"thoughtbubbles",
+		"rdf",
+		"analysis"
+	],
+	"category": "projects"
+}

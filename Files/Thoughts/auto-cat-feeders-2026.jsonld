@@ -1,0 +1,10 @@
+{
+	"@id": "auto-cat-feeders-2026",
+	"@context": "tb",
+	"data": "Automatic Cat Feeders with Cameras — Research Note (2026)\n\nDate: 2026-08-22\nPurpose: Research automatic cat feeders with built-in cameras for monitoring cats while away. Priority #1 is reliability — consistent food dispensing with no jams, no missed meals, no app crashes bricking the device.\n\nUniversal Caveats (Read First)\nCamera disables on battery backup: Across nearly every brand (Petlibro, PETKIT, WOPET, Faroro), the camera automatically turns off when the feeder switches to battery backup…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "eec579a0",
+	"@context": "tb",
+	"data": "Start Discord schedule bot\n\n\"Logged in. Schedule bot is up and running.\"\n\nSource Journals\n[[Task System.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

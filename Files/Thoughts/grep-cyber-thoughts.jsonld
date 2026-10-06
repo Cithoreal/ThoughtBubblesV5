@@ -1,0 +1,17 @@
+{
+	"@id": "grep-cyber-thoughts",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2024/cyber-thoughts.md\n\n49-> \n50-> [00:01:08 → 00:01:18]  \n51-> I have the short-term memory, this message system working just the way I want it, where you get the 10 previous messages just...\n52-> \n53-> [00:01:20 → 00:01:45]  \n54:> user assistant back and forth and then you get to the up-to-date stuff where the system starts providing here's some information here's the current time here's any tool requests so that's working really well I started to consult Calcifer on…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

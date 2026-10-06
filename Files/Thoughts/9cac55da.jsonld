@@ -1,0 +1,12 @@
+{
+	"@id": "9cac55da",
+	"@context": "tb",
+	"data": "Plan milestones better\n\n\"I definitely need to plan my milestones a bit better\"\n\nSource Journals\n[[Saving Thoughts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thoughts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

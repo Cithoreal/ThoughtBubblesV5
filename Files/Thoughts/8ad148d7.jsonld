@@ -1,0 +1,12 @@
+{
+	"@id": "8ad148d7",
+	"@context": "tb",
+	"data": "Create databases for personal and external data\n\n\"I'll start by creating one for myself and for external data\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

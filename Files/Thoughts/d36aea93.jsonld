@@ -1,0 +1,12 @@
+{
+	"@id": "d36aea93",
+	"@context": "tb",
+	"data": "Ensure daily journals get processed properly\n\n\"I just want to make sure... my daily journals get processed well\"\n\nSource Journals\n[[2026-04-02 11-44-37.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-11-44-37.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

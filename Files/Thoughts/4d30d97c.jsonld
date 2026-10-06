@@ -1,0 +1,12 @@
+{
+	"@id": "4d30d97c",
+	"@context": "tb",
+	"data": "Review current week school work\n\n\"so yeah i did a went through a lot of my current week for school\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

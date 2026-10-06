@@ -1,0 +1,12 @@
+{
+	"@id": "44aa3e4a",
+	"@context": "tb",
+	"data": "Continue game development\n\n\"I want to continue my game development\"\n\nSource Journals\n[[Introspection 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

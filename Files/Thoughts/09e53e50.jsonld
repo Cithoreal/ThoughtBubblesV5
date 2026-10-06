@@ -1,0 +1,12 @@
+{
+	"@id": "09e53e50",
+	"@context": "tb",
+	"data": "Stay after class tomorrow to work on homework at university\n\n\"I'm going to stay after class tomorrow and work on it at the university for sure\"\n\nSource Journals\n[[Planet Cithoreal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planet-Cithoreal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

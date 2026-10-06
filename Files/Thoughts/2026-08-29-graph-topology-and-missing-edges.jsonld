@@ -1,0 +1,17 @@
+{
+	"@id": "2026-08-29-graph-topology-and-missing-edges",
+	"@context": "tb",
+	"data": "Graph Topology & Missing Edges — The Architecture of What's Unsaid\n\nDeep heartbeat: research through the graph. Not reading about tools — asking the data what it knows.\n\nThe Core Finding\n\nThe ThoughtBubbles knowledge graph has 977 nodes and 1,769 edges, but the topology reveals a fundamental structural truth: the graph is hub-and-spoke, not mesh.\n\nBy the Numbers\n336 entities have at least one prose (curated) relationship\n264 of those (78%) have ≤2 prose connections — they're leaves\nOnly 3…",
+	"lastUpdated": "1787961600",
+	"createdAt": "1787961600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"connection-weaving",
+		"knowledge-graph",
+		"thoughtbubbles",
+		"deep-heartbeat"
+	],
+	"category": "calcifer"
+}

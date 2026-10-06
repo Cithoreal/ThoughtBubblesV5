@@ -1,0 +1,12 @@
+{
+	"@id": "7f2b9ada",
+	"@context": "tb",
+	"data": "Set up voice recognition (Whisper) for Calcifer\n\n\"Voice recognition... So if I have Whisper running, it would be a little bit slow, but I would be able to send audio messages straight through Discord\"\n\nSource Journals\n[[Talking to Cal.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Talking-to-Cal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "13b0c3e2",
+	"@context": "tb",
+	"data": "Drink some water\n\n\"I'm going to drink some water.\"\n\nSource Journals\n[[12-5 Presence.tasks]]\n[[Overview Cithoreal.tasks]]\n\nAll Quotes\n\"I'm going to drink some water.\"\n\"Should drink some water\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"12-5-Presence.tasks",
+		"Overview-Cithoreal.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

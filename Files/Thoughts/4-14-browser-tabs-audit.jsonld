@@ -1,0 +1,26 @@
+{
+	"@id": "4-14-browser-tabs-audit",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/4-14 Browser Tabs Audit.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 4-14 Browser Tabs Audit\nTranscribed: 2026-03-30 05:31  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 6.11 PM on April 14th, 2020.\n[00:00:09 → 00:00:24]  \nOnce again, I kind of just jumped into this and spur of the moment, just decided to either finish off or at least take a…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

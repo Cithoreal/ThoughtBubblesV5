@@ -1,0 +1,23 @@
+{
+	"@id": "hearth-weekend-sprint-2026-05",
+	"@context": "tb",
+	"data": "Hearth Weekend Sprint 2026-05\n\nStub — referenced from [[projects/hearth-system-graph]] and [[projects/hearth-remediation-plan]].\n\nNeeds content or merge into parent [[projects/Hearth]].",
+	"lastUpdated": "1785110400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"hearth-system-graph",
+		"hearth-remediation-plan",
+		"Hearth"
+	],
+	"LinkFrom": [
+		"projects",
+		"hearth-remediation-plan",
+		"hearth-system-graph"
+	],
+	"tags": [
+		"project",
+		"hearth",
+		"sprint"
+	],
+	"category": "projects"
+}

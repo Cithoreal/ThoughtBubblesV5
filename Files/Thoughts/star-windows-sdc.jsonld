@@ -1,0 +1,26 @@
+{
+	"@id": "star-windows-sdc",
+	"@context": "tb",
+	"data": "Drive: Windows System (sdc4, 952 GB NTFS)\n\nDevice: /dev/sdc4 → mounted at /mnt\nSize: 952.5 GB (sdc total: 953.9 GB)\nFilesystem: NTFS (internal drive — Windows OS drive)\nHost: star (dual-boot Windows installation, currently Linux-accessible)\nOther partitions: sdc1 (Recovery, 499MB), sdc2 (99MB, EFI?), sdc3 (16MB, MSR), sdc5 (787MB)\n\nThis is a full Windows 11 installation. The C:\\Users\\cdica\\ profile contains the bulk of personal data.\n\nKey User Profile: /mnt/Users/cdica/\n\nTop-Level…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star-elements",
+		"star-home",
+		"index"
+	],
+	"LinkFrom": [
+		"index",
+		"inventory",
+		"star-home"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"windows",
+		"sdc",
+		"project"
+	],
+	"category": "infra"
+}

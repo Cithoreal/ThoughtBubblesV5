@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_for_thirty_eight_pm-_april-1st_thought-monday-_apr-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Implement automatic port checking and incrementing system for spawning localized IPFS nodes', 'type': 'explicit', 'status': 'new', 'raw_quote': \"So what I'm gonna wanna do there is basically start with the default ports which is like, there's like a few different ports that it's actually using a few different addresses. but basically start with all of those and then sort of just do a check okay is this port in use if so auto increment one…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

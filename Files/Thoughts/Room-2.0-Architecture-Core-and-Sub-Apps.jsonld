@@ -1,0 +1,25 @@
+{
+	"@id": "Room-2.0-Architecture-Core-and-Sub-Apps",
+	"@context": "tb",
+	"data": "Room 2.0 Architecture — Core and Sub-Apps\n\nType: Architecture Concept\nStatus: Evolving — first specs being written now\nOrigin: MyRoom2.0 capstone (2022) → evolving into spec-driven architecture (2026)\n\nCore Idea\nRoom 2.0 is a spatial computing environment that digitizes your room experience as a complete alternative to using a PC with monitors. It has a core set of systems (XR Slider, room scanning, window/portal management, avatar system, multiplayer) and sub-apps that plug into the core…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-XR-Slider-A-Volume-Knob-for-Reality",
+		"Mirrorworlds-Technological-Parallel-Realities",
+		"Globe-Real-Time-Earth-in-Your-Room",
+		"Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+		"Spec-Writing-as-a-Skill",
+		"AR-Glasses-as-Dev-Workstation",
+		"Steam-Frame-Valve-s-Reputation-Moat"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Mirrorworlds-Technological-Parallel-Realities",
+		"Monado-and-the-Open-XR-Landscape",
+		"Spec-Writing-as-a-Skill",
+		"Steam-Frame-Valve-s-Reputation-Moat",
+		"The-XR-Slider-A-Volume-Knob-for-Reality"
+	],
+	"category": "thought-spaces"
+}

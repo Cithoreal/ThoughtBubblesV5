@@ -1,0 +1,34 @@
+{
+	"@id": "Starting-To-Automate.tasks",
+	"@context": "tb",
+	"data": "Starting To Automate.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"0cec8886",
+		"0ff41df4",
+		"1148a72e",
+		"1243261f",
+		"27953f49",
+		"32df456f",
+		"40e46416",
+		"453010bf",
+		"482dea29",
+		"621ebbf2",
+		"6b5a2430",
+		"77556ec7",
+		"9240b3dc",
+		"96782336",
+		"9cfb1235",
+		"a98212e9",
+		"ad0fc5fa",
+		"e280fd1a",
+		"e75c70c9",
+		"ee74a746"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

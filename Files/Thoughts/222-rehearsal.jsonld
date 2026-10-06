@@ -1,0 +1,42 @@
+{
+	"@id": "222-rehearsal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker is rehearsing what they plan to say to Eve tomorrow, explaining that they noticed her unique energy immediately on the first day of class and trusted their intuition to pursue a connection despite social anxiety. They navigate between excitement about shared interests like Star Trek and nervousness about revealing their hope for a romantic relationship, ultimately committing to vulnerable authenticity.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"signal-2026-05-03-14-18-33-181",
+		"journal-it_is_eleven-_thirteen-_p-_m-1st_thought-sunday-_dec-cocoonweaverapp",
+		"2026-08-14-083214",
+		"2026-05-18-141102",
+		"2026-04-21-222048",
+		"2026-04-15-115429",
+		"2026-04-14-091917",
+		"2026-04-13-115228",
+		"2026-04-08-115011",
+		"2026-04-03-001647",
+		"2026-04-06-160631",
+		"2026-04-01-191954",
+		"2022-10-26-000000",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/room-2-0",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project",
+		"theme/authentic-expression",
+		"theme/romantic-pursuit",
+		"theme/intuition-and-energy",
+		"theme/social-anxiety",
+		"theme/vulnerability"
+	],
+	"category": "journals"
+}

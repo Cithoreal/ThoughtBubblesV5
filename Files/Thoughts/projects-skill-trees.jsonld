@@ -1,0 +1,19 @@
+{
+	"@id": "projects-skill-trees",
+	"@context": "tb",
+	"data": "Skill Trees\n\nConsolidated into [[concepts/skill-trees]] — the concept note has the full 400+ mention history, vision, and research. The project prototype status is tracked there.\n\nThe SQLite prototype is committed and live at localhost:8770. See the concept note for details.\n\nLinks\n[[concepts/skill-trees]] · [[projects/room-2-0]]\n\nSession History\n2026-08-20: Discussed skill trees",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"skill-trees",
+		"room-2-0"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"thoughtbubbles",
+		"skill-trees",
+		"redirect"
+	],
+	"category": "projects"
+}

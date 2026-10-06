@@ -1,0 +1,10 @@
+{
+	"@id": "openxr-input",
+	"@context": "tb",
+	"data": "OpenXR & Input Abstraction — Research Resources\n\n6.1 OpenXR API Fundamentals — Architecture, Core Object Model, Spaces, Frame Loop\n\nCourses/Talks:\nKhronos OpenXR and Vulkan Spatial Computing Tutorial (frame loop, lifecycle, action spaces): https://docs.vulkan.org/tutorial/latest/OpenXR_Vulkan_Spatial_Computing/05_Predictive_Frame_Loop/02_xr_lifecycle.html\nKhronos OpenXR + Vulkan tutorial — Action Spaces and Input chapter:…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "7dd4035a",
+	"@context": "tb",
+	"data": "Create ThoughtBubbles anchor node in Godot\n\n\"I'll have a thought bubbles node\"\n\nSource Journals\n[[Saving Thoughts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thoughts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

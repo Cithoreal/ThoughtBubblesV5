@@ -1,0 +1,13 @@
+{
+	"@id": "2026-10-01",
+	"@context": "tb",
+	"data": "2026-10-01\n\nEvents\n08:02 monthly vault scan handled — the job went MONTHLY (expr 0 8   1 → 0 8 1  ; first monthly fire today, Sept 28 correctly never ran, next Nov 1; cadence arc complete: 3 weekly scans → 1 consolidated job → monthly). Report: 35 CRITICAL / 295 WARN / 965 INFO across 2815 notes. 84 figures annotated (commit 318c9312b — verified DIFFERENT files from Sept's 42-figure batch: personal-finances + spending-log vs grad-school notes → no idempotency bug, genuinely new figures).…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

@@ -1,0 +1,25 @@
+{
+	"@id": "peripherals",
+	"@context": "tb",
+	"data": "Peripheral Inventory — Star\n\nAll external devices and peripherals connected to or associated with star. Live USB scan + known hardware from vault references.\n\nDisplays\n\n| Device | Model | Connection | Resolution | Refresh | Role | Status |\n|---|---|---|---|---|---|---|\n| Primary monitor | Acer XF250Q | DP-1 | 1920×1080 | 240Hz | Main gaming/development display | 🟢 Connected |\n| Secondary monitor | Samsung S23C350 | DP-2 | 1920×1080 | 60Hz | Side display, chat/docs | 🟢 Connected |\n| TV | Sony…",
+	"lastUpdated": "1782691200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"bhaptics-linux",
+		"inventory",
+		"room-2-0",
+		"star",
+		"core-system"
+	],
+	"LinkFrom": [
+		"module-depth-sensor",
+		"room-2-0-esp32-sensors"
+	],
+	"tags": [
+		"infra",
+		"hardware",
+		"peripherals",
+		"star"
+	],
+	"category": "infra"
+}

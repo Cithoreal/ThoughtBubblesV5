@@ -1,0 +1,12 @@
+{
+	"@id": "8a5e9066",
+	"@context": "tb",
+	"data": "Execute server migration commands manually\n\n\"i want to do that i just run through all the commands myself\"\n\nSource Journals\n[[2026-04-13 11-52-28.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-13-11-52-28.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

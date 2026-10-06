@@ -1,0 +1,21 @@
+{
+	"@id": "buckets-app",
+	"@context": "tb",
+	"data": "Buckets Finance App\n\nConcept: React PWA that visualizes budget as liquid filling buckets from a faucet. PostgreSQL on Optiplex as source of truth. Calcifer parses card screenshots → inserts transactions → app visualizes.\n\nOrigin: Chris's handwritten design, Sept 24 2026. Money as flowing energy — faucet fills per-paycheck buckets (gas, food, subscriptions), wishlist buckets (devices, trips), and a deep savings pool (investments/retirement) with goal lines.\n\nSpec:…",
+	"lastUpdated": "1790208000",
+	"createdAt": "1790208000",
+	"LinkTo": [
+		"spec",
+		"finances-budget",
+		"personal-finances",
+		"budget-app"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"finance",
+		"app",
+		"vault"
+	],
+	"category": "projects"
+}

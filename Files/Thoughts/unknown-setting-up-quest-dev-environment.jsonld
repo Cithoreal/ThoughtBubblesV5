@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-setting-up-quest-dev-environment",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Plan activity-based date with Paige (hike)', 'type': 'explicit', 'status': 'new', 'raw_quote': \"So I'm going to make a point to do some activity based date next.\", 'project': 'Social', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Setting up Quest Dev Environment.md', 'extracted_at': '2026-05-18T18:31:39.760697', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Message Paige tomorrow morning', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

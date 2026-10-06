@@ -1,0 +1,12 @@
+{
+	"@id": "a0e050e3",
+	"@context": "tb",
+	"data": "Move raw audio files to external drive\n\n\"I'll try to move it to my external drive\"\n\nSource Journals\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

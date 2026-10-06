@@ -1,0 +1,21 @@
+{
+	"@id": "want-to-3d-model",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Want to 3D Model.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Want to 3D Model\nTranscribed: 2026-03-30 13:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:22]  \nit is 10 40 a.m december 8th 2025 uh so i'm in my room first time in a long time i've recorded one of these in my room but i'm just kind of sitting or standing here looking at my computer being…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"ar-xr-development"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

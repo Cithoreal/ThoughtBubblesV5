@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-4-4-old-wounds",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Record and post introduction to Spirit Mysteries forums', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I will make it my purpose tomorrow to put my introductions onto that forum and say hi to my spirit family', 'project': 'Social', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '4-4 Old Wounds.md', 'extracted_at': '2026-05-03T17:50:17.770600', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Create…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,15 @@
+{
+	"@id": "-Sources-References",
+	"@context": "tb",
+	"data": " Sources References",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"adhd-execution-design"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "e0263955",
+	"@context": "tb",
+	"data": "Write speech by tonight\n\n\"I'd like to have the speech written by tonight\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,36 @@
+{
+	"@id": "focus-system",
+	"@context": "tb",
+	"data": "Concept: Focus System\n\nThe Problem\ncithoreal tends to jump between projects when excited. New shiny things pull attention away from things already in flight. This is a known pattern, not a criticism — the system should actively counteract it.\n\nThe Rules\nAlways check PROJECTS.md (or vault/index/projects.md) before starting anything new in a session\nWhen a new project/idea comes up mid-session, capture it to backlog immediately — don't start it\nIncomplete high-priority items stay surfaced in…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cithoreal",
+		"weekly-retrospective",
+		"projects",
+		"task-system-gamified",
+		"time-based-task-analysis",
+		"year-reflections",
+		"calcifer-vault"
+	],
+	"LinkFrom": [
+		"adhd-execution-design",
+		"atomic-notes",
+		"health-and-sleep",
+		"infrastructure-productivity-habits-plan",
+		"task-system-gamified",
+		"time-based-task-analysis",
+		"weekly-retrospective",
+		"year-reflections",
+		"HOME",
+		"concepts",
+		"cithoreal",
+		"adhd-personal-deep-dive",
+		"calcifer-vault"
+	],
+	"tags": [
+		"concept",
+		"project"
+	],
+	"category": "concepts"
+}

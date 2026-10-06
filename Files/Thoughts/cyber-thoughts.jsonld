@@ -1,0 +1,25 @@
+{
+	"@id": "cyber-thoughts",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Cyber Thoughts.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Cyber Thoughts\nTranscribed: 2026-03-30 11:57  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:02]  \nIt is 4.35 p.m. July 2nd, 2024.\n[00:00:02 → 00:00:03]  \nJuly, huh?\n[00:00:03 → 00:00:05]  \nAlmost 26.\n[00:00:05 → 00:00:06]  \nIt's my season.\n[00:00:32 → 00:00:52]  \nit's really nice out oh man this…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

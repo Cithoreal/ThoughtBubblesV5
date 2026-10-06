@@ -1,0 +1,15 @@
+{
+	"@id": "experience-database",
+	"@context": "tb",
+	"data": "Experience & Skills Database\n\nPurpose: Comprehensive pool of all marketable experience, skills, projects, and achievements. Pick and choose the most relevant entries when tailoring a resume for a specific position. This is the source of truth — resumes are subsets of this document.\n\n🏢 Work Experience\n\nDelsys Inc. — Backend Software Developer\nLocation: Natick, MA | Dates: Jun 2025 – Present | Type: Full-time\n\nContext: Delsys is a worldwide leader in electromyography (EMG) technology — wearable…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"career",
+		"resume",
+		"active-reference"
+	],
+	"category": "projects"
+}

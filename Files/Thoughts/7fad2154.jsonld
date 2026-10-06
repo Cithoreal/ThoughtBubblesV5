@@ -1,0 +1,12 @@
+{
+	"@id": "7fad2154",
+	"@context": "tb",
+	"data": "Schedule daily drawing practice\n\n\"i want to just give myself a little bit of time each day to draw... So I want to schedule time for that\"\n\nSource Journals\n[[Schedule Drawing Time.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Schedule-Drawing-Time.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

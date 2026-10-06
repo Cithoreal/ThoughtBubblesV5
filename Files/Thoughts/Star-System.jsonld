@@ -1,0 +1,16 @@
+{
+	"@id": "Star-System",
+	"@context": "tb",
+	"data": "Star System",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"star-system-vision",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

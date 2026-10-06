@@ -1,0 +1,29 @@
+{
+	"@id": "fire-guy-origins",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Fire guy origins.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Fire guy origins\nTranscribed: 2026-03-30 12:08  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 10.57 p.m. February 29th, 2024.\n[00:00:06 → 00:00:14]  \nI still need to do my Duolingo for the day, so I'll cut this short at some point to do my Duolingo.\n[00:00:15 → 00:00:17]  \nMaybe…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"fiction-worldbuilding",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"cithoreal-identity",
+		"fiction-worldbuilding",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/estia",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

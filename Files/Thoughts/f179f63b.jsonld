@@ -1,0 +1,12 @@
+{
+	"@id": "f179f63b",
+	"@context": "tb",
+	"data": "Migrate Home Assistant from SD card to external SSD\n\n\"I wanna get it off of the SD card and onto the SSD just for longevity sake.\"\n\nSource Journals\n[[Updates on Projects.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Updates-on-Projects.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

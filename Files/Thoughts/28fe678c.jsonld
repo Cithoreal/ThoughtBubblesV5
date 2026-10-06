@@ -1,0 +1,12 @@
+{
+	"@id": "28fe678c",
+	"@context": "tb",
+	"data": "Connect smart home hub to Audible\n\n\"to Audible if I can\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

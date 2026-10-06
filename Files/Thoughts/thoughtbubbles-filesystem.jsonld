@@ -1,0 +1,10 @@
+{
+	"@id": "thoughtbubbles-filesystem",
+	"@context": "tb",
+	"data": "ThoughtBubbles as Spatial Filesystem — Research Resources\n\n4.1 FUSE (Filesystem in Userspace) Fundamentals\n\nFUSE architecture, kernel module ↔ userspace daemon communication, /dev/fuse interface, FUSE operations (lookup, getattr, readdir, open, read, write, create, unlink, mkdir, rename), fuse_lowlevel API vs high-level API, FUSE performance, mounting and permissions.\n\nCourses/Talks\nWriting a FUSE Filesystem: a Tutorial (NMSU CS) — https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/ — University…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

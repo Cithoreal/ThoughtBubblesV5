@@ -1,0 +1,16 @@
+{
+	"@id": "1243261f",
+	"@context": "tb",
+	"data": "Ensure tasks extracted from audio get added to Nextcloud properly\n\n\"I want to make sure that the tasks get added to Nextcloud properly\"\n\nSource Journals\n[[2026-03-31 18-39-35.tasks]]\n[[2026-04-15 18-51-31.tasks]]\n[[2026-04-22 12-17-51.tasks]]\n[[Starting To Automate.tasks]]\n[[ongoing efforts.tasks]]\n\nAll Quotes\n\"I want to make sure that the tasks get added to Nextcloud properly\"\n\"I want to, like, put everything in one place, so all of my audio journals... get them all onto Nextcloud\"\n\"tasks sort…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-03-31-18-39-35.tasks",
+		"2026-04-15-18-51-31.tasks",
+		"2026-04-22-12-17-51.tasks",
+		"Starting-To-Automate.tasks",
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

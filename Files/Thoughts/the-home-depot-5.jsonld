@@ -1,0 +1,26 @@
+{
+	"@id": "the-home-depot-5",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/The Home Depot 5.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# The Home Depot 5\nTranscribed: 2026-03-30 06:17  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:04 → 00:00:29]  \nbut yeah I don't know how much that recorded but so I'll just say it again I can probably say it a little bit better so Joe Rogan and Elon Musk were talking about it kind of inched forward into…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"designing-reality",
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"personal/identity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

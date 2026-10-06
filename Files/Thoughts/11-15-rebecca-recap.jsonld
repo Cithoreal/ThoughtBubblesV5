@@ -1,0 +1,27 @@
+{
+	"@id": "11-15-rebecca-recap",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-15 Rebecca Recap.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-15 Rebecca Recap\nTranscribed: 2026-03-30 04:39  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:22]  \nso first of all i smoked the rest i masturbated to konosuba so i lost that streak and now i am going to be going through my google photos from the beginning with the intention of reading…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "55d4a8c3",
+	"@context": "tb",
+	"data": "Walk to the lake and watch the sunrise\n\n\"I'm going to walk to the lake and watch the sunset.\"\n\nSource Journals\n[[Introspection 9.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-9.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

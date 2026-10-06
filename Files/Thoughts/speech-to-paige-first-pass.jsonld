@@ -1,0 +1,21 @@
+{
+	"@id": "speech-to-paige-first-pass",
+	"@context": "tb",
+	"data": "See also: [[concepts/health-and-sleep]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Speech to Paige first pass.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Speech to Paige first pass\nTranscribed: 2026-03-30 13:00  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:02]  \nIt is 4 48 PM, April 3rd, 2024.\n[00:00:08 → 00:00:14]  \nSo I just ended my last recording a few minutes ago, but I haven't had the…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

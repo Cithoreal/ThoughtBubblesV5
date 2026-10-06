@@ -1,0 +1,30 @@
+{
+	"@id": "11-9-vrchat-future",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-9 VRChat Future.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-9 VRChat Future\nTranscribed: 2026-03-30 05:03  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nSo I was up until about 4 a.m. on VRChat.\n[00:00:07 → 00:00:11]  \nIn fact, I think when I took off the headset, I looked and it was 3.58, so pretty...\n[00:00:14 → 00:00:40]  \nright up there…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"solid-pod-sovereignty",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

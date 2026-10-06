@@ -1,0 +1,26 @@
+{
+	"@id": "daily-schedule",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 69d — review -->\n\nDaily Schedule System\n\nBalance work, health, leisure, and growth — in a structure that's realistic, not aspirational fiction.\n\n🎯 Core Parameters\nWeekday wake: 7:00am | Weekend wake: 7:30am\nWeekday bed: 11:00pm | Weekend bed: 11:30pm\nSleep target: 8hrs (11pm→7am weekdays, 11:30pm→7:30am weekends)\nPower Hour: mornings — journaling, shower, getting ready, intention-setting\nMorning walk: weekends, after Power Hour\nEvening…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1776297600",
+	"LinkTo": [
+		"fitness-tracker",
+		"health-strength",
+		"health-and-sleep",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"fitness-tracker"
+	],
+	"tags": [
+		"project",
+		"stale",
+		"health",
+		"habits",
+		"schedule"
+	],
+	"category": "projects"
+}

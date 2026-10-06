@@ -1,0 +1,10 @@
+{
+	"@id": "godot-xr-arm64",
+	"@context": "tb",
+	"data": "Godot XR on ARM64 SteamOS — Research Resources\n\nResearch date: 2026-09-30\nDomain: Steam Frame skill tree\nResearcher: subagent (ollama/glm-5.2:cloud)\n\n3.1 Godot 4.x OpenXR on Linux ARM64 — OpenXR plugin, export templates, Vulkan on Adreno 750\n\nDocs:\nGodot (Steamworks Documentation) — Official Valve Steam Frame docs for Godot. Covers project setup, Android & Linux ARM64 export profiles, eye tracking, foveated rendering, GodotSteam integration, and deployment. States: \"The default engine with the…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

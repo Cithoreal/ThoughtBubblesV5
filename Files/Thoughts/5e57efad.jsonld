@@ -1,0 +1,12 @@
+{
+	"@id": "5e57efad",
+	"@context": "tb",
+	"data": "Look into recall from Neo4j first\n\n\"What I should maybe do is look into recall from Neo4j first, and then use the nodes from Neo4j first.\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

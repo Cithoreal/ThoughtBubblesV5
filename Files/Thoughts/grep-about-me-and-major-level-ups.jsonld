@@ -1,0 +1,15 @@
+{
+	"@id": "grep-about-me-and-major-level-ups",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2022/about-me-and-major-level-ups.md\n\n49-- VR gaming content portfolio\n50-- freelance XR development career\n51-\n52-## Tasks & Intentions (25)\n53-\n54:- ☑ [Creative] Work on About Me page on website explicit\n55:- ☑ [Creative] Read through existing About Me content explicit\n56:- ☑ [Creative] Generate additional content for About Me explicit\n57:- ☑ [Creative] Reformat About Me to include bullet points explicit\n58:- ☑ [Creative] List professional goals on About Me (asset store…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

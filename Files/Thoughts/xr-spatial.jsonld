@@ -1,0 +1,20 @@
+{
+	"@id": "xr-spatial",
+	"@context": "tb",
+	"data": "XR & Spatial Computing — Current State\n\nLiving document. Updated weekly by the Wednesday XR news sweep.\n\nOpenXR\n\nCurrent spec: OpenXR 1.1 (ratified). Registry at registry.khronos.org/OpenXR/specs/1.1/.\n\nSpatial Entities Extensions (June 2025)\nThe big one. Ratified after 2+ years of cross-vendor design. First open standard for portable spatial computing:\nPlane and marker detection/tracking\nPrecise spatial anchors\nCross-session persistence (content survives between XR sessions)\nRon Bessems (WG…",
+	"lastUpdated": "1790726400",
+	"createdAt": "1784073600",
+	"LinkTo": [],
+	"LinkFrom": [
+		"README",
+		"HOME"
+	],
+	"tags": [
+		"external",
+		"reference",
+		"xr",
+		"spatial",
+		"living"
+	],
+	"category": "external"
+}

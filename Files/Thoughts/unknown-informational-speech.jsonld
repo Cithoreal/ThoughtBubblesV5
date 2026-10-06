@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-informational-speech",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Fill out cat adoption application', 'type': 'explicit', 'status': 'new', 'raw_quote': 'i need to fill that out', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Informational Speech.md', 'extracted_at': '2026-05-18T16:52:34.446742', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Call Norton Animal Hospital about cat adoption', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

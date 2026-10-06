@@ -1,0 +1,12 @@
+{
+	"@id": "4a0abfbe",
+	"@context": "tb",
+	"data": "Clean up french fries\n\n\"There's french fries all over the ground. I should clean.\"\n\nSource Journals\n[[Introspection 4.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

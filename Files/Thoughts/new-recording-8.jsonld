@@ -1,0 +1,15 @@
+{
+	"@id": "new-recording-8",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/New Recording 8.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# New Recording 8\nTranscribed: 2026-03-30 12:36  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\nExtracted Tasks\n[ ] {'text': 'Try new speech-to-text app', 'type': 'explicit', 'status': 'new', 'raw_quote': 'So, I am going to try my new text, or speech-to-text app.', 'project': 'Personal', 'priority_inferred': 'low',…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

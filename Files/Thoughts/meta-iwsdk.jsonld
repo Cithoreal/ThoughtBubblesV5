@@ -1,0 +1,23 @@
+{
+	"@id": "meta-iwsdk",
+	"@context": "tb",
+	"data": "Meta Immersive Web SDK (IWSDK)\n\nMeta's official WebXR SDK with spatial UI system. HTML/CSS-like DSL for authoring spatial UI.\nRepo: <https://github.com/facebook/immersive-web-sdk>\nLicense: Open source (check repo)\nStatus: v0.4.2, NPM published, actively maintained by Meta\n\nWhat It Provides\nUIKit — native 3D UI runtime with MSDF text, batched panels, Yoga Flexbox layout\nUIKitML — HTML/CSS-like DSL for authoring spatial UI\nVite plugin for compilation\nDOM-like API (getElementById,…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-node-visualization",
+		"transfer-thought"
+	],
+	"LinkFrom": [
+		"spatial-authoring-research",
+		"transfer-thought"
+	],
+	"tags": [
+		"tool",
+		"webxr",
+		"reference",
+		"ui"
+	],
+	"category": "projects"
+}

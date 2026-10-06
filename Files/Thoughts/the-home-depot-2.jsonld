@@ -1,0 +1,28 @@
+{
+	"@id": "the-home-depot-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/The Home Depot 2.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# The Home Depot 2\nTranscribed: 2026-03-30 06:15  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:51 → 00:00:51]  \nAll ready.\n[00:00:53 → 00:00:55]  \nSo, we'll do this.\n[00:01:01 → 00:01:02]  \nThe lock is pretty fine.\n[00:01:02 → 00:01:08]  \nI'm going to have to do trash soon, but that should be pretty…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"project-calcifer-founding-vision",
+		"star-system-vision",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/star-system",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

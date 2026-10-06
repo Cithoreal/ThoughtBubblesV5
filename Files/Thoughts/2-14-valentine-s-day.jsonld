@@ -1,0 +1,23 @@
+{
+	"@id": "2-14-valentine-s-day",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-14 Valentine's Day.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-14 Valentine's Day\nTranscribed: 2026-03-30 05:17  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is Valentine's Day, January 14th, 2020, 4.09pm.\n[00:00:11 → 00:00:13]  \nSo far I've pretty much just played Overwatch today.\n[00:00:13 → 00:00:20]  \nI've been listening to some Lo-Fi…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"project-calcifer-founding-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/calcifer",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

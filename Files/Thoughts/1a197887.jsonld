@@ -1,0 +1,12 @@
+{
+	"@id": "1a197887",
+	"@context": "tb",
+	"data": "Reflect each day in journal\n\n\"I'll reflect each day\"\n\nSource Journals\n[[A February Low.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"A-February-Low.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

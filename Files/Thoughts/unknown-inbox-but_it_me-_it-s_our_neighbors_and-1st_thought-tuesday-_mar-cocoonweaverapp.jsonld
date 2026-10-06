@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-but_it_me-_it-s_our_neighbors_and-1st_thought-tuesday-_mar-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Send email with problem statement to the team', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll send out a mail. All right, I'll put the problem statement in the mail and then I'll send it out to all the team.\", 'project': 'Work', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': \"Inbox-But_it_me,_it's_our_neighbors_and-1st_thought-Tuesday,_Mar-CocoonWeaverApp.md\", 'extracted_at': '2026-05-03T18:36:43.192801',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

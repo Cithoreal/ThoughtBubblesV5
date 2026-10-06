@@ -1,0 +1,12 @@
+{
+	"@id": "c59af091",
+	"@context": "tb",
+	"data": "Study for quiz party\n\n\"study hard some of the problems... next Thursday... quiz party\"\n\nSource Journals\n[[2026-04-22 12-17-51.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-22-12-17-51.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

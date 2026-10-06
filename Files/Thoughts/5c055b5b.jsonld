@@ -1,0 +1,12 @@
+{
+	"@id": "5c055b5b",
+	"@context": "tb",
+	"data": "Set up morning text-to-speech announcements\n\n\"maybe I can have some text to speech, you know, talk to me in the morning\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

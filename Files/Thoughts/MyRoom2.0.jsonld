@@ -1,0 +1,15 @@
+{
+	"@id": "MyRoom2.0",
+	"@context": "tb",
+	"data": "MyRoom2.0",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"Mirrorworlds-Technological-Parallel-Realities"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

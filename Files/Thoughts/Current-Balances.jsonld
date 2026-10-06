@@ -1,0 +1,14 @@
+{
+	"@id": "Current-Balances",
+	"@context": "tb",
+	"data": "Accounts\n\nAs of Apr-27-2026 2:16 p.m. ET\n\nAll accounts\n\n,All accounts balance: $10,731.72\n\nBrokerage Account \n balance: $3,591.75\n gains/losses: -$2.26 (-0.06%)\n\nRetirement\n\n balance: $6,565.55\n\nRollover IRA 245852926\n balance: $6,565.55\ngains/losses: $0.00 (0.00%)\n\nSpend & Save\n\nCash Management Account X91430969\nbalance: $574.42\ngains/losses: $0.00 (0.00%)\nCredit cards\n\nVisa Signature Rewards 3274\nbalance: $732.21",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"finances"
+	],
+	"category": "projects"
+}

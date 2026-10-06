@@ -1,0 +1,34 @@
+{
+	"@id": "task-system-gamified",
+	"@context": "tb",
+	"data": "Task System & Gamified Productivity\n\nWhat It Is\nA recurring design thread: making task management feel like a game. Distinct from skill trees (which are about learning) — this is about the daily execution layer. Tasks from CalDAV/Nextcloud, broken down by AI, scheduled into time blocks, with streaks and points for completion.\n\nThe Dec 2023 Design Session\nA hand-drawn note photographed and fed to ChatGPT — the clearest early artifact:\n\nTask System components:\nPull existing tasks from…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2023-12-13_task-system",
+		"2024-04-30_nextcloud-task-management",
+		"2023-09-19_app-development-planning-tools",
+		"skill-trees",
+		"homelab-infrastructure",
+		"cybernautics-vision",
+		"focus-system",
+		"time-based-task-analysis",
+		"calcifer-character",
+		"the-grand-system",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"cycles-app",
+		"focus-system",
+		"skill-trees",
+		"concepts",
+		"adhd-personal-deep-dive"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"productivity",
+		"project"
+	],
+	"category": "concepts"
+}

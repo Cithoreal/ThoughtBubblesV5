@@ -1,0 +1,12 @@
+{
+	"@id": "a4719394",
+	"@context": "tb",
+	"data": "Set up IPFS/OrbitDB node communication and PubSub\n\n\"the next step is, of course, to spend a bit more time in IPFS OrbitDB and just set up the whole communication between nodes, subscription, PubSub stuff\"\n\nSource Journals\n[[Inbox-It_is_twelve_thirty_eight_am,_april-1st_thought-Thursday,_Apr-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inbox-It_is_twelve_thirty_eight_am-_april-1st_thought-Thursday-_Apr-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

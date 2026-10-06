@@ -1,0 +1,12 @@
+{
+	"@id": "9f0e8f71",
+	"@context": "tb",
+	"data": "Buy the display item (only one left)\n\n\"I want to buy this. There's only one left, and it's the one on display.\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

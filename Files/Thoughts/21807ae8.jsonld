@@ -1,0 +1,12 @@
+{
+	"@id": "21807ae8",
+	"@context": "tb",
+	"data": "Graduate from school\n\n\"I'm graduated. Assuming I passed all my classes... I'm all done\"\n\nSource Journals\n[[2026-05-18 14-11-02.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-05-18-14-11-02.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,18 @@
+{
+	"@id": "grep-planning-ai-systems",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2023/planning-ai-systems.md\n\n112-> \n113-> [00:02:38 → 00:02:51]  \n114-> Like what is my wall that's been there and just sitting with that and just noticing the past few days since then, noticing how the wall isn't there like it used to be.\n115-> \n116-> [00:02:52 → 00:02:55]  \n117:> Like I kind of expect it to be is maybe a better way to say it.\n118-> \n119-> [00:02:58 → 00:03:05]  \n120-> I feel so much more socially free now than I ever did before and just the way I can…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"skill-trees",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

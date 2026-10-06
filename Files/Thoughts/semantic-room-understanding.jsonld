@@ -1,0 +1,18 @@
+{
+	"@id": "semantic-room-understanding",
+	"@context": "tb",
+	"data": "Semantic Room Understanding — Research Landscape\n\nLast updated: 2026-07-03\nContext: Room 2.0 / ThoughtBubbles — spatial UI, XR, semantic understanding of physical spaces\n\nMeta Research (Open Source)\n\nSceneScript ⭐\nPaper: \"SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model\" (March 2024)\nCode + weights: <https://github.com/facebookresearch/scenescript>\nProject page: <https://www.projectaria.com/scenescript>\nDocs:…",
+	"lastUpdated": "1785715200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"multimodal-sensing"
+	],
+	"tags": [
+		"research",
+		"room-2-0",
+		"xr",
+		"semantic"
+	],
+	"category": "research"
+}

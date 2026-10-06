@@ -1,0 +1,16 @@
+{
+	"@id": "grep-2024-05-21_thoughtbubbles-vr-ar-ai",
+	"@context": "tb",
+	"data": "Grep Extract: _archive/reference/chatgpt/2024/05/2024-05-21_thoughtbubbles-vr-ar-ai.md\n\n1----\n2:title: ThoughtBubbles: VR, AR, AI.\n3-date: 2024-05-21\n4-source: chatgpt\n5----\n6-\n7:# ThoughtBubbles: VR, AR, AI.\n8-\n9-User:\n10-\n11:What can you tell me about my ThoughtBubbles project ideas?\n12-\n13----\n14-\n15-Assistant:\n16-\n17:Your ThoughtBubbles project is quite fascinating and ambitious. It's a comprehensive system designed to help you manage and visualize your thoughts, ideas, and learning paths.…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"-n5-",
+		"-n12-"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

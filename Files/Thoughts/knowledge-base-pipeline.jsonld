@@ -1,0 +1,23 @@
+{
+	"@id": "knowledge-base-pipeline",
+	"@context": "tb",
+	"data": "Knowledge Base Pipeline\n\nStub — referenced from [[projects/calcifer-vault]] and [[infra/anythingllm]].\n\nLikely related to [[projects/custom-rag-pipeline]]. Needs content or merge.",
+	"lastUpdated": "1785110400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"calcifer-vault",
+		"anythingllm",
+		"custom-rag-pipeline"
+	],
+	"LinkFrom": [
+		"projects",
+		"anythingllm",
+		"calcifer-vault"
+	],
+	"tags": [
+		"project",
+		"knowledge-base",
+		"pipeline"
+	],
+	"category": "projects"
+}

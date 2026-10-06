@@ -1,0 +1,25 @@
+{
+	"@id": "planning-for-the-weekend",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Planning for the weekend.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Planning for the weekend\nTranscribed: 2026-03-30 12:48  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 5.40pm, July 13th, 2024.\n[00:00:06 → 00:00:09]  \nOut on the trail.\n[00:00:10 → 00:00:12]  \nMy weekend is finally here.\n[00:00:13 → 00:00:18]  \nI had a really kind of rough…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/finance",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

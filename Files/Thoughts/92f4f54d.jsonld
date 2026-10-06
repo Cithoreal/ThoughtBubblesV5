@@ -1,0 +1,12 @@
+{
+	"@id": "92f4f54d",
+	"@context": "tb",
+	"data": "Test speech recognition runtimes\n\n\"This is a quick test recording to test speak recognition runtimes.\"\n\nSource Journals\n[[Test Recording.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Test-Recording.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

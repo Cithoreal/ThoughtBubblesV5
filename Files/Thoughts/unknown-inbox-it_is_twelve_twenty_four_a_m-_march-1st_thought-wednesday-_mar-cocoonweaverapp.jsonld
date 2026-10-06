@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_twelve_twenty_four_a_m-_march-1st_thought-wednesday-_mar-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Upgrade Thought Bubbles project to Godot 4', 'type': 'progress', 'status': 'in_progress', 'raw_quote': 'I spent some time on it today, just a little bit, upgrading the project to Godot 4', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Inbox-It_is_twelve_twenty_four_a_m._March,-1st_thought-Wednesday,_Mar-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T16:50:36.490074', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

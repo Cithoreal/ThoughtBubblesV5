@@ -1,0 +1,18 @@
+{
+	"@id": "extract-01-cithoreal-progression",
+	"@context": "tb",
+	"data": "Extract: cithoreal-progression.md\n\nSource: vault/journals/2024/cithoreal-progression.md\nRecorded: February 14, 2024 (~1:14 AM)\nExtracted for: Skill Trees / Quest System / Gamified Learning / ThoughtBubbles progression\n\nRelevant Passages\n\nSkill Trees as ThoughtBubbles UI for the Academy\n\nAnd the skill trees feature of thought bubbles will keep track of what you've learned and keep it organized for you and understand that this is your bag of tricks. The deeper you go into something and the more…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

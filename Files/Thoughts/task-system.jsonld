@@ -1,0 +1,25 @@
+{
+	"@id": "task-system",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Task System.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Task System\nTranscribed: 2026-03-30 13:07  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 1.39 p.m., December 3rd, 2023.\n[00:00:10 → 00:00:30]  \nThe past few days, I've been a little all over the place as far as my personal projects go, which I might want to start using different…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"project-calcifer-founding-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/anythingllm",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

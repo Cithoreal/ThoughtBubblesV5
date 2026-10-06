@@ -1,0 +1,36 @@
+{
+	"@id": "module-1-player-controller",
+	"@context": "tb",
+	"data": "Module 1 — AR Player/User Controller: Implementation Guide\n\nTarget: Godot 4.7 (stable) · GDScript · Quest 3 + Desktop\nGoal: A loadable Core module that provides XR player presence, controller input, hand tracking, and passthrough — writing all state to the shared substrate and exposing all input through CoreBus.\n\nThis guide is production code. Copy-paste everything. Run it. Ship it.\n\nTable of Contents\nArchitecture & Decisions\nmodule.json Manifest\nEntry Scene & Scene Tree\nPlayerController —…",
+	"lastUpdated": "1783728000",
+	"createdAt": "1782345600",
+	"LinkTo": [
+		"module-0-guide",
+		"production-plan",
+		"phase-0-technical-review",
+		"core-system",
+		"room-2-0",
+		"room-2-0-vocab"
+	],
+	"LinkFrom": [
+		"xr-web-integration",
+		"projects",
+		"module-0-guide",
+		"module-depth-sensor",
+		"phase-0-technical-review",
+		"production-plan",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"active",
+		"module",
+		"xr",
+		"openxr",
+		"godot",
+		"quest-3",
+		"implementation",
+		"guide"
+	],
+	"category": "projects"
+}

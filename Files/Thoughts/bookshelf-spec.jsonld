@@ -1,0 +1,10 @@
+{
+	"@id": "bookshelf-spec",
+	"@context": "tb",
+	"data": "Bookshelf — Room 2.0 Sub-App Specification\n\nStatus: Draft — in progress\nAuthor: Christopher DiCarlo\nCreated: 2026-09-07\nSource material: Handwritten spec draft (2026-09-04), Matter of Time design notes, Room 2.0 Thought Space\nVision\n\nWhat is this? Bookshelf is a Room 2.0 sub-app that turns the user's physical bookshelf into an interactive spatial interface. The user scans their shelf to catalog every item with 3D models, names, and tags. They can search by voice, filter by category, preview…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "specs"
+}

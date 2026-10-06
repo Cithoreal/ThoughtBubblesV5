@@ -1,0 +1,12 @@
+{
+	"@id": "fc8a752d",
+	"@context": "tb",
+	"data": "Record hiking route in AllTrails app\n\n\"It would probably be good to be recording this route in all trails. I guess I might as well. Because then I can at least use all trails in the future to make sure I'm following the right path. Navigate, start.\"\n\nSource Journals\n[[Instructing the Main Data Path.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Instructing-the-Main-Data-Path.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

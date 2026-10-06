@@ -1,0 +1,31 @@
+{
+	"@id": "star-elements",
+	"@context": "tb",
+	"data": "Drive: Elements (sdd1, 7.3 TB NTFS)\n\nDevice: /dev/sdd1 → /run/media/cithoreal/Elements\nSize: 7.3 TB total | 4.8 TB used | 2.6 TB free\nFilesystem: NTFS (external HDD)\nHost: star (USB-connected)\n\nThis is the primary long-term archive drive. It holds the full audio journal source audio, Unity project history, MemoryBase archives, and large video collections.\n\nTop-Level Structure\n\nElements/MemoryBase/ — Detailed (1.4 TB)\n\nThe original personal knowledge base system, predating the current vault.…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"elements-drive",
+		"star-home",
+		"index",
+		"star-storage",
+		"star-cybership"
+	],
+	"LinkFrom": [
+		"index",
+		"inventory",
+		"star-cybership",
+		"star-home",
+		"star-storage",
+		"star-windows-sdc",
+		"elements-drive"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"elements",
+		"project"
+	],
+	"category": "infra"
+}

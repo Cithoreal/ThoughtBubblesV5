@@ -1,0 +1,12 @@
+{
+	"@id": "940c4d9e",
+	"@context": "tb",
+	"data": "Instantiate the space\n\n\"I'll need to instantiate the space\"\n\nSource Journals\n[[Meta Quest Unity.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Meta-Quest-Unity.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

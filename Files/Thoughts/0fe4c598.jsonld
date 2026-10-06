@@ -1,0 +1,12 @@
+{
+	"@id": "0fe4c598",
+	"@context": "tb",
+	"data": "Create project template with GPT\n\n\"I do have this project template now that I made with GPT.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

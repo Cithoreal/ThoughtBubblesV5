@@ -1,0 +1,29 @@
+{
+	"@id": "room-2-0-vocab",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 78d — review -->\n\nRoom 2.0 — Linked Data Vocabulary (room2#)\n\nThe room2# namespace defines the RDF/JSON-LD vocabulary for Room 2.0's spatial knowledge graph. It extends the ThoughtBubbles tb# namespace — both share the same underlying architecture (ECS at runtime, JSON-LD at rest), but room2# adds spatial, device, and AR-specific predicates.\n\nNamespace\n\nReuses from tb#: @id, @type, LinkFrom, LinkTo, createdAt, lastUpdated, Thought,…",
+	"lastUpdated": "1779926400",
+	"createdAt": "1779926400",
+	"LinkTo": [
+		"room-2-0",
+		"semantic-web-and-linked-data",
+		"thought-bubbles",
+		"thoughtbubbles-godot-migration",
+		"thoughtbubbles-v6-stack"
+	],
+	"LinkFrom": [
+		"ecs-linked-data-architecture",
+		"vault-vocabulary",
+		"projects",
+		"room2.0-reactxr-prototype",
+		"module-1-player-controller",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"architecture",
+		"linked-data",
+		"room-2-0"
+	],
+	"category": "projects"
+}

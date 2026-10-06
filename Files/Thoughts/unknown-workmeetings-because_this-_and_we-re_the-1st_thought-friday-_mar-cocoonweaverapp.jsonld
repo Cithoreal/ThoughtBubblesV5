@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-workmeetings-because_this-_and_we-re_the-1st_thought-friday-_mar-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Post the mapping (question, complexity, score) on Teams', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"I think I have it, but I just haven't posted it yet on Teams.\", 'project': 'Work', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': \"WorkMeetings-Because_this,_and_we're_the-1st_thought-Friday,_Mar-CocoonWeaverApp.md\", 'extracted_at': '2026-05-18T19:29:30.806327', 'first_mentioned': '2026-05-18', 'mention_count':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

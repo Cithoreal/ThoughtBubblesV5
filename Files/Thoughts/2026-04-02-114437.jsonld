@@ -1,0 +1,43 @@
+{
+	"@id": "2026-04-02-114437",
+	"@context": "tb",
+	"data": "Journal — 2026-04-02 11:44\n\nSummary\n\nThe speaker records during their commute to a senior design job fair, reflecting on their OpenClaw journal UI project's technical struggles. They discuss debugging challenges with their AI assistant Calcifer, plans to implement automated testing and CI/CD deployment pipelines to a Raspberry Pi 5, and a strategic shift toward a more hands-on AI collaboration model where they write code incrementally with Calcifer's guidance rather than relying on full AI…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"cithoreal",
+		"air-hockey-mr",
+		"thought-bubbles",
+		"homeassistant",
+		"anythingllm"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"air-hockey-mr"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"topic/homelab",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project",
+		"theme/technical-debugging",
+		"theme/ai-assisted-development",
+		"theme/workflow-automation",
+		"theme/software-testing",
+		"theme/academic-career-preparation"
+	],
+	"category": "journals"
+}

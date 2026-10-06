@@ -1,0 +1,12 @@
+{
+	"@id": "75f99bba",
+	"@context": "tb",
+	"data": "Fix sleep schedule (go to sleep earlier, wake up earlier)\n\n\"I gotta get that fixed up. Go to sleep earlier, wake up earlier, have nicer skin as a result.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,17 @@
+{
+	"@id": "Steam-Frame-Valve-s-Reputation-Moat",
+	"@context": "tb",
+	"data": "Steam Frame + Valve's Reputation Moat\n\nType: Market Analysis\nStatus: Discussion + research\nDate: 2026-09-04\n\nCore Idea\nValve's Steam Frame (upcoming standalone VR headset) has a structural advantage beyond hardware specs: Valve's reputation for player-respecting, open hardware and software. There's a large audience of PC gamers who want VR but refuse to buy Meta on principle. The Steam Frame releases that pent-up demand.\n\nValve's Reputation Moat\nProton/Steam Deck: Invested years into making…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"AR-Glasses-as-Dev-Workstation",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"AR-Glasses-as-Dev-Workstation",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"category": "thought-spaces"
+}

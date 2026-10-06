@@ -1,0 +1,45 @@
+{
+	"@id": "2022-10-26-000000",
+	"@context": "tb",
+	"data": "Journal — 2022-10-26 00:00\n\nSummary\n\nThe speaker documents a study session on linked data principles from the Euclid Project, working through Tim Berners-Lee's semantic web architecture and the five-star dataset rating system. They express awe at realizing they entered the field 11 years after major growth, while connecting these technical concepts to their own \"Thought Bubbles\" project and considering how IPFS might integrate with URI identification standards.\n\nMood & Energy\n\n| Signal |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"star",
+		"semantic-web-and-linked-data",
+		"thought-bubbles",
+		"index",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journal",
+		"semantic-web-and-linked-data",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"tech/python",
+		"mood/inspired",
+		"mood/reflective",
+		"project",
+		"theme/linked-data",
+		"theme/semantic-web",
+		"theme/knowledge-organization",
+		"theme/open-data-standards",
+		"theme/digital-identity"
+	],
+	"category": "journals"
+}

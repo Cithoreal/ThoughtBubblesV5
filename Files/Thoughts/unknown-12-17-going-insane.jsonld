@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-12-17-going-insane",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Message Alex about anime/Shogugeki no Soma', 'type': 'explicit', 'status': 'abandoned', 'raw_quote': \"I was about to message Alex, but then I kind of got a feeling that I didn't really feel like it because I didn't feel like getting into the explanations.\", 'project': 'Social', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': '12-17 Going Insane.md', 'extracted_at': '2026-05-03T16:16:30.278044', 'first_mentioned': '2026-05-03',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

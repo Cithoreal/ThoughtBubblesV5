@@ -1,0 +1,12 @@
+{
+	"@id": "fdf2bf23",
+	"@context": "tb",
+	"data": "Complete ID Tech tasks\n\n\"I also have some stuff I need to get done with ID Tech. I'll do that today.\"\n\nSource Journals\n[[Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

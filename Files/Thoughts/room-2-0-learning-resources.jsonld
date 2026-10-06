@@ -1,0 +1,20 @@
+{
+	"@id": "room-2-0-learning-resources",
+	"@context": "tb",
+	"data": "Room 2.0 — Learning Resource Map\n\nCurated resources for every node in the Room 2.0 skill tree. Priorities: official docs first, then standout courses/books, then community gold standards. No SEO filler.\n\n🌿 TRUNK: Web Foundations\n\nT1. JavaScript & TypeScript\n| Resource | Type | Why |\n|---|---|---|\n| MDN JavaScript Guide | Doc | Canonical web JS reference. Always current, exhaustive. |\n| TypeScript Handbook | Doc | Official TS docs — generics, utility types, narrowing. The single best TS source.…",
+	"lastUpdated": "1779321600",
+	"createdAt": "1779321600",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"openxr-godot-xr",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"reference",
+		"learning",
+		"room-2-0"
+	],
+	"category": "projects"
+}

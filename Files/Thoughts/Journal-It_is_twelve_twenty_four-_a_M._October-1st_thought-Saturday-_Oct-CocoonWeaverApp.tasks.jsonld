@@ -1,0 +1,24 @@
+{
+	"@id": "Journal-It_is_twelve_twenty_four-_a_M._October-1st_thought-Saturday-_Oct-CocoonWeaverApp.tasks",
+	"@context": "tb",
+	"data": "Journal It_is_twelve_twenty_four _a_M._October 1st_thought Saturday _Oct CocoonWeaverApp.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"05b2e467",
+		"14d39fc6",
+		"3ac27647",
+		"6bfc3fc1",
+		"78050c8f",
+		"88a447a3",
+		"c3f7745e",
+		"cfa13785",
+		"e46379d0",
+		"ed35921a"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

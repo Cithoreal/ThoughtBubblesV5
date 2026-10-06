@@ -1,0 +1,12 @@
+{
+	"@id": "c01ab9fd",
+	"@context": "tb",
+	"data": "Use regular SQLite for current projects\n\n\"I'll just rely on regular SQLite\"\n\nSource Journals\n[[Short Term Project Goals and Future culmination.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Short-Term-Project-Goals-and-Future-culmination.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

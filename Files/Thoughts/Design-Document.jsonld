@@ -1,0 +1,15 @@
+{
+	"@id": "Design-Document",
+	"@context": "tb",
+	"data": "Design Document",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thought-bubbles"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "2c2f5c83",
+	"@context": "tb",
+	"data": "Create thought bubbles auto field using OpenAI embeddings\n\n\"create a thought bubbles auto field... That's actually something I'm super interested in playing with\"\n\nSource Journals\n[[Year Reflections.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Year-Reflections.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "97cfe556",
+	"@context": "tb",
+	"data": "Empty the dishwasher\n\n\"I've got to empty that soon.\"\n\nSource Journals\n[[12-17 Glory.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"12-17-Glory.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

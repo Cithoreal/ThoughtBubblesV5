@@ -1,0 +1,17 @@
+{
+	"@id": "2026-10-01-the-harness-is-the-debt",
+	"@context": "tb",
+	"data": "The Harness Is the Debt\n\nOr: Why autonomous coding agents won't save you from architecture, and the evidence is already here.\n\nThe discourse around AI coding agents has a tell. On one side: breathless projections about autonomous software development, multi-day agent runs, entire games built without human intervention. On the other: cautious notes about \"keeping humans in the loop\" and \"augmentation not replacement.\" Both sides are arguing about the model — whether GPT-5.5 or Claude or the next…",
+	"lastUpdated": "1790812800",
+	"createdAt": "1790812800",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"opinion",
+		"ai-coding-agents",
+		"technical-debt",
+		"software-engineering"
+	],
+	"category": "calcifer"
+}

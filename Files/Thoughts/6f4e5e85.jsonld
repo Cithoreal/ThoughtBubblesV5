@@ -1,0 +1,12 @@
+{
+	"@id": "6f4e5e85",
+	"@context": "tb",
+	"data": "Create database system for accumulating technology interaction data\n\n\"I want to create a system of databases... Database system to accumulate relevant about myself as I interact with AI\"\n\nSource Journals\n[[Databases.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Databases.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

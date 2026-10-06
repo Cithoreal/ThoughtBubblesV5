@@ -1,0 +1,12 @@
+{
+	"@id": "ddb90c11",
+	"@context": "tb",
+	"data": "Do 20 push-ups and 20-second plank\n\n\"20 push-ups followed by a 20 second plank\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

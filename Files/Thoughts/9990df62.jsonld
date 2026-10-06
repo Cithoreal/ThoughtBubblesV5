@@ -1,0 +1,12 @@
+{
+	"@id": "9990df62",
+	"@context": "tb",
+	"data": "Set up time tracker app in Nextcloud\n\n\"I would like a app in Nextcloud.\"\n\nSource Journals\n[[Starting Air Hockey.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-Air-Hockey.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

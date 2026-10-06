@@ -1,0 +1,16 @@
+{
+	"@id": "extract-07-inspiration-newrec4",
+	"@context": "tb",
+	"data": "Extract: inspiration-stream.md + new-recording-4.md\n\nFrom: inspiration-stream.md\n\nSkill Trees Interface Mention\n\"I have a lot of ideas about the education system and education AIs. Having like a skill trees interface and all of that. So that's not something I really need to go into.\"\n\nWhy relevant: Direct, explicit mention of a \"skill trees interface\" as part of a broader education AI vision.\n\nResearch AI → Skill Tree Pathways\n\"We'll just basically seek the internet, seek all the current…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

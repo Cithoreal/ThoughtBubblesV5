@@ -1,0 +1,17 @@
+{
+	"@id": "time-awareness",
+	"@context": "tb",
+	"data": "Time & Context Awareness Skill\n\nKnow where cithoreal is. Know what's next. Reach out at the right moment with the right energy.\n\nSchedule Baseline (weekday)\n07:00 — Wake\n08:00 — Leave home\n08:00–09:00 — Commute to Delsys\n09:00–17:00 — Work at Delsys\n17:00–18:00 — Commute home\n18:00–19:00 — Dinner, cats, unwind\n19:00–21:30 — ACTION WINDOW — tasks, projects, focused work\n21:30–22:00 — Wind down\n22:00 — Shower\n22:30 — Bed\n23:00 — Phone down, sleep\n\nSchedule Variations\nWednesday: Go to Katie's…",
+	"lastUpdated": "1786924800",
+	"createdAt": "1786924800",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"skill",
+		"time-awareness",
+		"schedule",
+		"accountability"
+	],
+	"category": "calcifer"
+}

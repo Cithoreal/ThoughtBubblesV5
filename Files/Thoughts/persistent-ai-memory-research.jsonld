@@ -1,0 +1,19 @@
+{
+	"@id": "persistent-ai-memory-research",
+	"@context": "tb",
+	"data": "Research: Persistent AI Memory Systems\n\nResearch collected 2026-04-07 — what others are building in the personal AI memory / agent persistence space, and what we can learn from it.\n\nWhat Others Are Building\n\nThe Obsidian + Claude Code Pattern (artoflean.com, 2026)\nClosest analogue to our setup. Key quote:\n\"Obsidian is my second brain. Claude Code reads my vault. When I start a session, it picks up where we left off because everything important is in the vault.\"\n\nSetup: Obsidian (plain markdown)…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"ollama-models",
+		"calcifer-vault"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"memory",
+		"agents"
+	],
+	"category": "reference"
+}

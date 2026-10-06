@@ -1,0 +1,10 @@
+{
+	"@id": "file-cabinet-ar-plan",
+	"@context": "tb",
+	"data": "File Cabinet AR — Phase 1 Goal-Backward Plan\n\nMethod: Dave Framework / TMOG approach. Define what must be TRUE when done, work backwards to tasks. Each task specifies files, action, tests, and verification. Tasks are grouped into waves — independent tasks within a wave can run as parallel subagents.\n\nWhat Must Be TRUE When Phase 1 Is Done\nA Godot 4.7.2 Mono project exists at ~/godot-projects/file-cabinet-ar/ with:\nproject.godot configured for OpenXR, passthrough, hand tracking, compatibility…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "specs"
+}

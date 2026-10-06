@@ -1,0 +1,30 @@
+{
+	"@id": "godot-xr-auto-hand",
+	"@context": "tb",
+	"data": "Godot XR Auto Hand (Godot-XR-AH)\n\nHand tracking that's automatically compatible with XRControllers. Turns hand gestures into button events.\nRepo: <https://github.com/Godot-Dojo/Godot-XR-AH>\nLicense: MIT\nStars: 28, 82 commits\nGodot version: 4.2+ (uses OpenXR hand tracking API)\nStatus: Active, tested on Quest 2 and Pico 4\n\nWhat It Provides\nAutomatic hand tracking compatible with XRControllers\nGesture → button mapping:\nPinch (index + thumb) = trigger button\nFist (middle + ring + little) = grip…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-interaction-primitives",
+		"goal-spatial-authoring",
+		"goal-card-system",
+		"godot-xr-tools",
+		"godot-openxr-vendors",
+		"godot-xr-handtracking-toolkit"
+	],
+	"LinkFrom": [
+		"goal-card-system",
+		"goal-spatial-authoring",
+		"goal-spatial-interaction-primitives",
+		"godot-xr-handtracking-toolkit",
+		"godot-xr-tools",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"hand-tracking"
+	],
+	"category": "projects"
+}

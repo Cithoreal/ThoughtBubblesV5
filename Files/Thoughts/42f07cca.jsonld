@@ -1,0 +1,12 @@
+{
+	"@id": "42f07cca",
+	"@context": "tb",
+	"data": "Verify speaker differentiation in transcriptions\n\n\"I should check to make sure that the... Transcriptions do have the ability to differentiate speakers\"\n\nSource Journals\n[[2026-04-15 18-51-31.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-15-18-51-31.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

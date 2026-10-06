@@ -1,0 +1,24 @@
+{
+	"@id": "to-do-blog-post",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/To Do + blog post.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# To Do + blog post\nTranscribed: 2026-03-30 06:18  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:01]  \nto-do list.\n[00:00:03 → 00:00:18]  \nI have to, well, I've got to work on the game, finish refactoring the code, get the action turned to work.\n[00:00:19 → 00:00:20]  \nAfter that, I want…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/identity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

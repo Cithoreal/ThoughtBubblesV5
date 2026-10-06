@@ -1,0 +1,32 @@
+{
+	"@id": "2025-09-18-083636",
+	"@context": "tb",
+	"data": "Journal — 2025-09-18 08:36\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-09-18 08-36-36.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-09-18 08-36-36\nTranscribed: 2026-03-30 11:27  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 836 p.m. a.m.\n[00:00:10 → 00:00:15]  \nIt is 836 a.m. September 18th, 2025.\n[00:00:18 → 00:00:24]  \nAnd on my way to school, I wanted to talk a bit, some thoughts…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"refocus",
+		"health-and-sleep",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"health-and-sleep",
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/room-2-0",
+		"topic/homelab",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

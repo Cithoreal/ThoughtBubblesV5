@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-30",
+	"@context": "tb",
+	"data": "2026-08-30\n\nEvents\nConsolidated all vault pruning knowledge into concepts/vault-pruning-knowledge-map.md. Key finding: vault_strength.py has existed and run weekly since Aug 17 — the Aug 29 'build the memify script' recommendation was redundant. Real gap is intake filtering (Tier 0): 162,641 file_hashes entries, ~98% ghost; no quality gate; no auto-expire. Corrected forgetting-mechanism.md Tier 3 status (was stale: said NOT BUILT).\nCompanionship check: sent cithoreal a message about catching…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

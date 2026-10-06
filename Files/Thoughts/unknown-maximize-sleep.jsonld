@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-maximize-sleep",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Go to bed earlier tonight', 'type': 'explicit', 'status': 'new', 'raw_quote': 'So I would like to go to bed a little earlier tonight.', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Maximize Sleep.md', 'extracted_at': '2026-05-18T17:39:40.548682', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Get presents for Mom and Dad', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

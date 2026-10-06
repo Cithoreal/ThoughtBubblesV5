@@ -1,0 +1,12 @@
+{
+	"@id": "4d626b03",
+	"@context": "tb",
+	"data": "Investigate hand tracking support with Hurricane VR\n\n\"I'll give it a look see to see if I can get hand tracking supported with hurricane\"\n\nSource Journals\n[[Meta Quest Unity.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Meta-Quest-Unity.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

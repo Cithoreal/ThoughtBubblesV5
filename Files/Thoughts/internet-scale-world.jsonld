@@ -1,0 +1,28 @@
+{
+	"@id": "internet-scale-world",
+	"@context": "tb",
+	"data": "Concept: Internet-Scale Gamified World\n\nWhat It Is\nThe ultimate long-term vision: a decentralized, internet-scale game/world where assets are scattered across servers and users' systems — too large to download, streamed on demand. Users own subsets of the world. The \"culmination\" that all smaller projects feed into.\n\nKey Features\nAssets distributed across the decentralized web — no single server\nUsers host portions of the world (their Solid Pod contributes)\nStreamed, not downloaded — only what…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1774828800",
+	"LinkTo": [
+		"star-system-vision",
+		"solid-pod-sovereignty",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"ar-xr-development",
+		"community-first-adoption-strategy",
+		"decentralized-local-first-stack",
+		"semantic-web-and-linked-data",
+		"solid-pod-sovereignty",
+		"star-system-vision",
+		"thoughtbubbles-v6-stack",
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"tier-1",
+		"project"
+	],
+	"category": "concepts"
+}

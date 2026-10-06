@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-07",
+	"@context": "tb",
+	"data": "2026-08-07\n\nEvents\nCreated 'one-thing-morning' cron job (id: bc4fa9f9-75ee-4a93-8967-da4716600674) — runs daily 9am ET, picks ONE highest-impact action from vault tasks and sends brief Signal message to cithoreal. Uses glm-5.2:cloud, isolated session, light context.\nCreated body-double-mode cron job (disabled by default, every 15m, isolated session, glm-5.2:cloud, delivers to Signal). Created vault/living/body-double-log.md. cithoreal can enable it by saying 'body double' or 'work…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

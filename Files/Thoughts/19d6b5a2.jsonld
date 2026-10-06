@@ -1,0 +1,12 @@
+{
+	"@id": "19d6b5a2",
+	"@context": "tb",
+	"data": "Exercise more\n\n\"I want to exercise more.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

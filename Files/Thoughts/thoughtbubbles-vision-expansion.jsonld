@@ -1,0 +1,35 @@
+{
+	"@id": "thoughtbubbles-vision-expansion",
+	"@context": "tb",
+	"data": "ThoughtBubbles Vision Expansion (2025)\n\nWhat It Is\nA collection of advanced conceptual directions for ThoughtBubbles that emerged from deep ChatGPT exploration sessions in March–April 2025. These go beyond the v6 MVP into longer-horizon vision territory.\n\nCore Expanded Concepts\n\nDreamspace Interface (Mar 2025)\nTB reframed as a \"dreamspace\" — a personalized evolving layer of consciousness:\nLucid Mode: TB freely self-organizes, generates unexpected connections, AI-driven \"dream…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-03-24_thoughtbubbles-dreamspace-interface",
+		"2025-04-28_thought-bubbles-insights",
+		"thought-bubbles",
+		"thoughtbubbles-v6-stack",
+		"skill-trees",
+		"decentralized-local-first-stack",
+		"semantic-web-and-linked-data",
+		"neurosity-bci",
+		"core-system",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"cycles-app",
+		"neurosity-bci",
+		"thought-bubbles",
+		"thoughtbubbles-core-cross-pollination",
+		"2026-08-04-journal",
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"thoughtbubbles",
+		"vision",
+		"project"
+	],
+	"category": "concepts"
+}

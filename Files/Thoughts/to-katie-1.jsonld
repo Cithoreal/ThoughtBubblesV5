@@ -1,0 +1,22 @@
+{
+	"@id": "to-katie-1",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/To Katie 1.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# To Katie 1\nTranscribed: 2026-03-30 13:10  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 9.23 p.m. April 23rd, 2025.\n[00:00:08 → 00:00:11]  \nThat's how I start all my audio journals, just so you know.\n[00:00:11 → 00:00:16]  \nThis is the first time I'm recording these, one of these, for…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low"
+	],
+	"category": "journals"
+}

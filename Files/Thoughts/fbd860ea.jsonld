@@ -1,0 +1,12 @@
+{
+	"@id": "fbd860ea",
+	"@context": "tb",
+	"data": "Create prompts for entity and keyword spotting\n\n\"So I should create some prompt\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

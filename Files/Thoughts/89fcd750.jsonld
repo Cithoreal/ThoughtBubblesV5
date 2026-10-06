@@ -1,0 +1,12 @@
+{
+	"@id": "89fcd750",
+	"@context": "tb",
+	"data": "Update portfolio\n\n\"update my portfolio\"\n\nSource Journals\n[[2025-12-03 18-51-12.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-12-03-18-51-12.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

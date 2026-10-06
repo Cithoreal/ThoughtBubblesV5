@@ -1,0 +1,13 @@
+{
+	"@id": "af8271b7",
+	"@context": "tb",
+	"data": "Turn on light\n\n\"So what I'm going to do is turn my light on\"\n\nSource Journals\n[[Stability and power in tools 1.tasks]]\n[[Stability and power in tools.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Stability-and-power-in-tools-1.tasks",
+		"Stability-and-power-in-tools.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

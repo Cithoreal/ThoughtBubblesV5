@@ -1,0 +1,28 @@
+{
+	"@id": "hearth-family-home-ai",
+	"@context": "tb",
+	"data": "Hearth — Family Home AI\n\nVoice and hardware integration for Hermes/Satellite1 — bringing Hearth into shared family spaces.\n\nRelated\n[[projects/Hearth]] — main Hearth project (Phase 1 complete)\n[[infra/hermes-gateway]] — Hermes gateway on pi4\n[[infra/hearth-wake-word]] — wake word detection\n[[projects/csm-voice-clone]] — Sesame CSM-1B voice clone pipeline",
+	"lastUpdated": "1783900800",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"Hearth",
+		"hermes-gateway",
+		"hearth-wake-word",
+		"csm-voice-clone"
+	],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"pi4",
+		"calcifer-voice-mode",
+		"hearth-system-graph",
+		"public-wiki"
+	],
+	"tags": [
+		"project",
+		"hearth",
+		"voice",
+		"hardware"
+	],
+	"category": "projects"
+}

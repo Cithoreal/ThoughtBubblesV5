@@ -1,0 +1,18 @@
+{
+	"@id": "switching-to-chat-completions",
+	"@context": "tb",
+	"data": "See also: [[concepts/project-calcifer-founding-vision]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Switching to Chat Completions.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Switching to Chat Completions\nTranscribed: 2026-03-30 13:05  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 1229 AM, November 28th, 2023.\n[00:00:09 → 00:00:10]  \nAlrighty.\n[00:00:11 → 00:00:19]  \nWell, I am…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"project-calcifer-founding-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"tech/llm"
+	],
+	"category": "journals"
+}

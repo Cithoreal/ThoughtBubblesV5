@@ -1,0 +1,12 @@
+{
+	"@id": "659fb187",
+	"@context": "tb",
+	"data": "Ensure ability to power Pi and LEDs for Project Hyperion\n\n\"make sure that I have the ability to power the Pi and the LEDs\"\n\nSource Journals\n[[One Exam Left.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"One-Exam-Left.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

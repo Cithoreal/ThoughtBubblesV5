@@ -1,0 +1,12 @@
+{
+	"@id": "2c81477f",
+	"@context": "tb",
+	"data": "Get Meta Quest Link\n\n\"Let's get the meta quest link.\"\n\nSource Journals\n[[Starting Air Hockey.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-Air-Hockey.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

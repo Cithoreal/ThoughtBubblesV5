@@ -1,0 +1,15 @@
+{
+	"@id": "Topic",
+	"@context": "tb",
+	"data": "Topic",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"current-curiosity"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

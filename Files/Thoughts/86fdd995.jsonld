@@ -1,0 +1,12 @@
+{
+	"@id": "86fdd995",
+	"@context": "tb",
+	"data": "Look at API reference for chat completions\n\n\"I also do want to look quickly at the actual API reference for this.\"\n\nSource Journals\n[[Switching to Chat Completions.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Switching-to-Chat-Completions.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

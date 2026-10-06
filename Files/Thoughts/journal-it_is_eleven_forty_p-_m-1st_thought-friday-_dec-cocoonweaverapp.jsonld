@@ -1,0 +1,22 @@
+{
+	"@id": "journal-it_is_eleven_forty_p-_m-1st_thought-friday-_dec-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker is working through late-night thoughts on developing a node-based note-taking application called 'Thought Bubbles.' They're specifically grappling with how to implement a 'focus' feature that allows users to zoom into specific nodes and view their children from that perspective, while handling the technical challenge of displaying thoughts that belong to multiple categories without duplicating the underlying data. They also briefly express frustration…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/software-design",
+		"theme/information-architecture",
+		"theme/node-based-visualization",
+		"theme/ui/ux-problem-solving",
+		"theme/data-hierarchy"
+	],
+	"category": "journals"
+}

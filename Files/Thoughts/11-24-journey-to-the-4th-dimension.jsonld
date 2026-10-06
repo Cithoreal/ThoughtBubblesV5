@@ -1,0 +1,25 @@
+{
+	"@id": "11-24-journey-to-the-4th-dimension",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-24 Journey to the 4th Dimension.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-24 Journey to the 4th Dimension\nTranscribed: 2026-03-30 04:53  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:21]  \nI think a good way to look at my goals with AI and VR and everything, just to kind of tie everything together in the context of the way that I think and the…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

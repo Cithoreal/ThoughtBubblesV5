@@ -1,0 +1,31 @@
+{
+	"@id": "non-linear-editor",
+	"@context": "tb",
+	"data": "Concept: Non-Linear Editor (Writing Tool)\n\nWhat It Is\nA recurring concept for a writing tool that abandons the linear document model. Instead of a top-to-bottom word processor, this is a spatial/graph-based editor where narrative elements, scenes, and notes exist as nodes that can be traversed in any order.\n\nAppears across multiple ChatGPT eras, consistently tied to the [[projects/rescue-narrative]] fiction project — because the Rescue story seems to want non-linear structure that a standard…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"rescue-narrative",
+		"thought-bubbles",
+		"refocus",
+		"cybernautics-vision",
+		"fiction-worldbuilding",
+		"calcifer-vault",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"the-rescue-experience",
+		"concepts",
+		"calcifer-vault",
+		"rescue-narrative"
+	],
+	"tags": [
+		"concept",
+		"recurring",
+		"writing",
+		"tools",
+		"project"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,17 @@
+{
+	"@id": "IDENTITY",
+	"@context": "tb",
+	"data": "Calcifer — IDENTITY\n\nPractical persona summary for Calcifer.\n\nSee also: [[people/calcifer]] · [[SOUL.md]]",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165365",
+	"LinkTo": [
+		"calcifer",
+		"SOUL.md"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"identity"
+	],
+	"category": "root"
+}

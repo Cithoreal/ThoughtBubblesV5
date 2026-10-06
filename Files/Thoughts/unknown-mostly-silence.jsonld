@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-mostly-silence",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Get better at selecting media to play for events', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I need to get better at selecting media to play for events.', 'project': 'Social', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Mostly Silence.md', 'extracted_at': '2026-05-18T17:46:30.951588', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Throw away remaining marijuana/joint', 'type': 'explicit',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

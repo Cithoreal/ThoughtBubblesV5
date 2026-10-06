@@ -1,0 +1,38 @@
+{
+	"@id": "2026-year-reflections",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nRecording a late-night journal entry on December 1st, 2023, the speaker reflects on how time perception changes with age and describes 2023 as a \"throat year\" focused on communication and truth. They discuss leaving Infosys to return to college and study AI, with current enthusiasm for learning linear algebra to evolve their \"thought bubbles\" project from set theory to matrix transformations. The entry concludes with plans to hack together a brainwave-controlled…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"thought-bubbles",
+		"homeassistant",
+		"year-reflections",
+		"cithoreal-identity"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/anythingllm",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/identity",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project",
+		"theme/temporal-perception-and-aging",
+		"theme/self-directed-education",
+		"theme/cognitive-augmentation",
+		"theme/spiritual-intentionality",
+		"theme/creative-automation"
+	],
+	"category": "journals"
+}

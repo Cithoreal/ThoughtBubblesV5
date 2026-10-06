@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-22",
+	"@context": "tb",
+	"data": "2026-09-22\n\nEvents\nLong session with Chris on backup strategy and storage reorganization. Created B2 account, updated restic backup script, planned nvme reformat to btrfs, built Star persona files, corrected stale Pi5/Nextcloud info. AGENT_HANDOFF.md written with full context for next session.\nCreated Star persona context files with fresh system audit at vault/infra/star-persona/\n\nDecisions\n\nNotes touched",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

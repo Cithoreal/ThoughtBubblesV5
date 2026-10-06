@@ -1,0 +1,22 @@
+{
+	"@id": "u-michigan",
+	"@context": "tb",
+	"data": "University of Michigan — Computer Science & Engineering (XR Research)\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nThe University of Michigan's College of Engineering houses one of the largest and most well-resourced CS programs in the country, and its XR/spatial computing research ecosystem is both deep and expanding. The centerpiece is M.I.D.E.N. (Michigan Immersive Digital Experience Nexus) — a state-of-the-art XR facility that underwent a major upgrade…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

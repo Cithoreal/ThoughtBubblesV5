@@ -1,0 +1,12 @@
+{
+	"@id": "c1a6f9a4",
+	"@context": "tb",
+	"data": "Look into basic speech recognition\n\n\"I'll look into just the basic speech.\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,16 @@
+{
+	"@id": "Outline",
+	"@context": "tb",
+	"data": "Outline",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

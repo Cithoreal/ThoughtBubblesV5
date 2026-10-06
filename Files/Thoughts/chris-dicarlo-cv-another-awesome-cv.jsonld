@@ -1,0 +1,16 @@
+{
+	"@id": "chris-dicarlo-cv-another-awesome-cv",
+	"@context": "tb",
+	"data": "chris_dicarlo_cv\n\nChristopher DICARLO\n\nComputer Science Student | VR/AR Developer | Software Engineer\n� linkedin.com/in/chrisdicarlovr � github.com/chrisdicarlo\n� +1 508 562 2736 � cdicarlo28@gmail.com\n� Bridgewater, MA\n� Computer Science Major at Bridgewater State University\n\nAbout Me\nComputer Science student at Bridgewater State University with a strong background in VR/AR development and game programming. Experienced in full-stack development with Java, Spring Tools, and React. Published VR…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume",
+		"project"
+	],
+	"category": "projects"
+}

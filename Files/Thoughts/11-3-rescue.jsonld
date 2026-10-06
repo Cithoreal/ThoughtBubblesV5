@@ -1,0 +1,25 @@
+{
+	"@id": "11-3-rescue",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-3 Rescue.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-3 Rescue\nTranscribed: 2026-03-30 04:54  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:11]  \nAlright, well, in the recording test, it seems like my footsteps are very much loud, but my voice comes through fine.\n[00:00:13 → 00:00:16]  \nI am currently on the Great Woods Trail.\n[00:00:17 → 00:00:34]…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"the-rescue-experience",
+		"ar-xr-development",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

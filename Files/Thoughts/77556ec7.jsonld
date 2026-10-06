@@ -1,0 +1,12 @@
+{
+	"@id": "77556ec7",
+	"@context": "tb",
+	"data": "Redo task system relationships to use subtasks instead of relates-to\n\n\"my next steps with my task system is to redo the relationships so that they're all subtasked to rather than related to\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

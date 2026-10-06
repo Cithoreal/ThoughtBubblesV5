@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-story-development",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Look up Deep Space Nine gifts for parents (or individual presents)', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I think at this point, I'd like to look up... either something Deep Space Nine to get Mom and Dad, or just individual presents.\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Story Development.md', 'extracted_at': '2026-05-18T18:45:35.334404', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

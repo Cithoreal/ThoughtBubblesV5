@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-wind-down-routine",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Check tasks whenever doing Duolingo', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I wanna make it my policy to check my tasks whenever I do Duolingo', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': True, 'source_file': 'Wind down routine.md', 'extracted_at': '2026-05-18T19:27:41.778839', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Water Lucky (due the 15th)', 'type': 'explicit', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

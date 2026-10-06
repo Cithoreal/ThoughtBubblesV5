@@ -1,0 +1,25 @@
+{
+	"@id": "confidence",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Confidence.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Confidence\nTranscribed: 2026-03-30 11:57  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nI'll try to just record one more of these so I'm not fully spamming you, so you're not just listening to these.\n[00:00:07 → 00:00:26]  \nBut, yeah, I mean, just through a lot of that, from Shannon to…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cithoreal-identity",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"cithoreal-identity",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"personal/health-sleep",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/web-dev"
+	],
+	"category": "journals"
+}

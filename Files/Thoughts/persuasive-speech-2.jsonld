@@ -1,0 +1,28 @@
+{
+	"@id": "persuasive-speech-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Persuasive Speech 2.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Persuasive Speech 2\nTranscribed: 2026-03-30 12:46  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 5.05 p.m. June 20th, 2024.\n[00:00:08 → 00:00:12]  \nI've had two ID Tech lessons scheduled today.\n[00:00:12 → 00:00:14]  \nOnly one of them showed up, and it was Blender.\n[00:00:15 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/python",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

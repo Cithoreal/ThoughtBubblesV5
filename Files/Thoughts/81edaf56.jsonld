@@ -1,0 +1,12 @@
+{
+	"@id": "81edaf56",
+	"@context": "tb",
+	"data": "Take final exam\n\n\"final exam\"\n\nSource Journals\n[[2025-04-26 18-29-50.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-04-26-18-29-50.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

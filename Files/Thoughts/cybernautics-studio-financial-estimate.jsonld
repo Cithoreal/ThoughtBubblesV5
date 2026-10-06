@@ -1,0 +1,15 @@
+{
+	"@id": "cybernautics-studio-financial-estimate",
+	"@context": "tb",
+	"data": "Cybernautics Studio — Financial Estimation Sheet\n\n⚠️ NOT TAX ADVICE. This is a planning framework. Consult a CPA before filing.\nAssumptions: 2 owners, $120K net profit/year, Mansfield MA, 2026 tax year, both single filers, 50/50 split\n\nBusiness Structure Decision: LLC Taxed as S-Corp\n\nWhy S-Corp election matters at $120K:\n\n| Structure | Self-Employment Tax | Why |\n|-----------|-------------------|-----|\n<!-- as of 2026-07-06 — verify -->\n| LLC (default partnership) | 15.3% on ALL net income…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

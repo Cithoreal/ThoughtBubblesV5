@@ -1,0 +1,12 @@
+{
+	"@id": "56dc206f",
+	"@context": "tb",
+	"data": "Set up development environment with Unity and Oculus\n\n\"right now, I'm setting up my development environment with Unity and Oculus.\"\n\nSource Journals\n[[Setting up Quest Dev Environment.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Setting-up-Quest-Dev-Environment.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

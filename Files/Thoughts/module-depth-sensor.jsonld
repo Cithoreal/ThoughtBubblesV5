@@ -1,0 +1,30 @@
+{
+	"@id": "module-depth-sensor",
+	"@context": "tb",
+	"data": "Module: DepthSensor (RealSense D435)\n\nTarget: Godot 4.7 (stable) · GDScript + Python sidecar · Valve Index (desktop VR)\nGoal: A loadable Core module that streams depth data from the Intel RealSense D435, renders point clouds in-engine, and writes spatial data to the shared substrate for other modules to consume.\n\nTable of Contents\nHardware & Context\nArchitecture Decision — Phased Approach\nmodule.json Manifest\nEntry Scene & Scene Tree\nPython Sidecar — Depth Stream Server\nGDScript Client —…",
+	"lastUpdated": "1782691200",
+	"createdAt": "1782691200",
+	"LinkTo": [
+		"production-plan",
+		"module-1-player-controller",
+		"module-0-guide",
+		"room-2-0",
+		"peripherals",
+		"xr-web-integration"
+	],
+	"LinkFrom": [
+		"core-spatial-containers"
+	],
+	"tags": [
+		"project",
+		"active",
+		"module",
+		"realsense",
+		"depth",
+		"hardware",
+		"godot",
+		"index",
+		"room-2-0"
+	],
+	"category": "projects"
+}

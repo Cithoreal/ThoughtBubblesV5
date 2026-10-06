@@ -1,0 +1,12 @@
+{
+	"@id": "924cdd4b",
+	"@context": "tb",
+	"data": "Create regression tests for chunking with sample documents\n\n\"turn that into a test where we have the sample documents and the expected outputs... expect that the chunking itself doesn't break\"\n\nSource Journals\n[[2026-04-16 09-21-12.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-16-09-21-12.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

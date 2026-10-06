@@ -1,0 +1,12 @@
+{
+	"@id": "d4cc395e",
+	"@context": "tb",
+	"data": "Configure settings to select search engine and AI model\n\n\"and figure out how to sort of set settings so that you can select the search engine you want to use, the AI model you want to use.\"\n\nSource Journals\n[[Sunday Update.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Sunday-Update.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

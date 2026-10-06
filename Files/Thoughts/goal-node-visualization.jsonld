@@ -1,0 +1,38 @@
+{
+	"@id": "goal-node-visualization",
+	"@context": "tb",
+	"data": "Goal: Node Visualization\n\nRender thought bubbles as 3D objects with type-based appearance, size, color, and behavior.\n\nWhat This Is\nThe visual language of the spatial thought graph. Bubbles aren't uniform — their appearance encodes their type, state, and relationships.\n\nVisual Properties Needed\nShape — sphere (default thought), card (skill node), panel (document), crystal (reference)\nColor — by category (concept=blue, project=green, person=orange, journal=purple, infra=gray)\nSize — by…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-xr-tools",
+		"vpainter",
+		"vartiste",
+		"godot-46-xr-features",
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"goal-room-2-0-convergence",
+		"goal-skill-tree-integration",
+		"goal-spatial-authoring",
+		"goal-spatial-interaction-primitives",
+		"goal-spatial-navigation",
+		"godot-46-xr-features",
+		"godotsvg",
+		"lorien",
+		"meta-iwsdk",
+		"spatial-authoring-research",
+		"transfer-thought",
+		"vartiste",
+		"vpainter"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"visualization"
+	],
+	"category": "projects"
+}

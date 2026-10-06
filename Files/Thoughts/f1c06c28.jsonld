@@ -1,0 +1,12 @@
+{
+	"@id": "f1c06c28",
+	"@context": "tb",
+	"data": "Add everything to the to-do app\n\n\"Just add everything to the to-do app.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

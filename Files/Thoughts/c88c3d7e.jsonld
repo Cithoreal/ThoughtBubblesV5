@@ -1,0 +1,12 @@
+{
+	"@id": "c88c3d7e",
+	"@context": "tb",
+	"data": "Fix car paint scratches\n\n\"scratches on car paint we have the thing for that\"\n\nSource Journals\n[[Planning AI Systems.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

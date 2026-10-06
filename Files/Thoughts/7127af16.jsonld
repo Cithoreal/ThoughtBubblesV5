@@ -1,0 +1,12 @@
+{
+	"@id": "7127af16",
+	"@context": "tb",
+	"data": "Find outdoor hobbies\n\n\"finding hobbies that take me outside more\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

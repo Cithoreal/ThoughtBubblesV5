@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-new-recording-10-6",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'do a decent amount of school', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I got to do a decent amount of school', 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'New Recording 10 6.md', 'extracted_at': '2026-05-18T17:52:09.643205', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'get Arch installed on my G drive', 'type': 'explicit', 'status': 'new', 'raw_quote': 'is to get it…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

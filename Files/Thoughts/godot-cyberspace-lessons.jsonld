@@ -1,0 +1,20 @@
+{
+	"@id": "godot-cyberspace-lessons",
+	"@context": "tb",
+	"data": "Godot Cyberspace Ecosystem — Lessons & Overlooked Ideas\n\nA deep retrospective on cithoreal's Godot development history, the Core System architecture, and the cyberspace ecosystem. Focus: specific technical lessons, abandoned decisions, and buried ideas that should inform current development.\nThe Stack Journey: How We Got Here\n\n1.1 Phase 1 — Unity Monolith (2019–2022)\n\nCybernautics Studio was the original. Everything in one Unity project. Git branches as module hierarchy. Unity Addressables for…",
+	"lastUpdated": "1782000000",
+	"createdAt": "1782000000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"retrospective",
+		"godot",
+		"core-system",
+		"room-2-0",
+		"thoughtbubbles",
+		"cyberspace",
+		"architecture"
+	],
+	"category": "research"
+}

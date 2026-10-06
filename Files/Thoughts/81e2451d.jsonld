@@ -1,0 +1,12 @@
+{
+	"@id": "81e2451d",
+	"@context": "tb",
+	"data": "Cut the thing that was attaching it\n\n\"I cut the thing that was attaching it\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

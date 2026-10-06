@@ -1,0 +1,28 @@
+{
+	"@id": "onedrive-projects-and-design",
+	"@context": "tb",
+	"data": "OneDrive Projects & Design Archive\n\nIngested 2026-04-12 from OneDrive local backup on Elements drive.\nCovers: Thought Bubbles V6 tech stack, Cybernautics podcast, Star System, CyberShip, DesigningReality audio journal documents.\n\nThought Bubbles V6 — Final Tech Stack (DesigningReality/Thought Bubbles V6/)\n\nDate: Recent (likely 2024-2025 era given GPT-assisted doc)\n\nFrontend\nFramework: React + TypeScript\nState: Redux Toolkit\nStyling: Tailwind CSS\n3D/XR: React Three Fiber + React-XR\nBuild:…",
+	"lastUpdated": "1775952000",
+	"createdAt": "1791165365",
+	"LinkTo": [
+		"thought-bubbles",
+		"star",
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"project-calcifer-founding-vision",
+		"thought-bubbles",
+		"cithoreal"
+	],
+	"tags": [
+		"archive",
+		"onedrive",
+		"projects",
+		"design",
+		"thoughtbubbles",
+		"cybernautics",
+		"xr",
+		"vr"
+	],
+	"category": "archive"
+}

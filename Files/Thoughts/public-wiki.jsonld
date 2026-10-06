@@ -1,0 +1,22 @@
+{
+	"@id": "public-wiki",
+	"@context": "tb",
+	"data": "Project: Public Knowledge Wiki\n\nVision\nA public (or semi-public) knowledge base that takes the best content from the Obsidian vault — ideas, systems, concepts, technical knowledge — and publishes it in a polished, shareable format. A window into cithoreal's thinking that friends, collaborators, and curious people can browse.\n\nNot everything goes public. The vault has private journals, personal reflections, and infrastructure details. This is about curating and polishing what's worth…",
+	"lastUpdated": "1776556800",
+	"createdAt": "1776556800",
+	"LinkTo": [
+		"hearth-family-home-ai",
+		"calcifer-character",
+		"HOME"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"idea",
+		"wiki",
+		"knowledge-sharing"
+	],
+	"category": "projects"
+}

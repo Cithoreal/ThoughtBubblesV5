@@ -1,0 +1,12 @@
+{
+	"@id": "9a008ade",
+	"@context": "tb",
+	"data": "Look into PicoVoice\n\n\"I started looking into, I think it was called, maybe, it was PicoVoice\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

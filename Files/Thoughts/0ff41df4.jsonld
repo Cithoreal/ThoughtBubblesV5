@@ -1,0 +1,12 @@
+{
+	"@id": "0ff41df4",
+	"@context": "tb",
+	"data": "Scan for new audio files each night\n\n\"Maybe each night, scan, see if there's any new files\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

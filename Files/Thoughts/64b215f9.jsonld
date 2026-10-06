@@ -1,0 +1,12 @@
+{
+	"@id": "64b215f9",
+	"@context": "tb",
+	"data": "Implement Brave search in Node-RED for now\n\n\"For now, I'll just do it in Node-RED\"\n\nSource Journals\n[[Web Search Function.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Web-Search-Function.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

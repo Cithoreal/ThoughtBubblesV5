@@ -1,0 +1,12 @@
+{
+	"@id": "845b6af3",
+	"@context": "tb",
+	"data": "Switch from JSON to SQL database\n\n\"probably gonna switch over to a SQL database\"\n\nSource Journals\n[[2025-11-21 15-08-55.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-11-21-15-08-55.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

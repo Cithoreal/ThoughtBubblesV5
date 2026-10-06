@@ -1,0 +1,44 @@
+{
+	"@id": "cybership",
+	"@context": "tb",
+	"data": "Cybership\n\nCybership is cithoreal's primary gaming/personal drive on the Star system — a 1.8 TB NVMe partition (/dev/nvme0n1p2) mounted at /run/media/cithoreal/Cybership. It hosts the Steam library, personal projects, and archived data.\n\nSee also: [[infra/drives/star-cybership|Drive: Cybership]] · [[infra/star|Star]]",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star-cybership",
+		"star"
+	],
+	"LinkFrom": [
+		"organize-priority",
+		"cithoreal-progression",
+		"cybership-infrastructure",
+		"emotions-and-return-to-unity",
+		"gpt-4-file-searching",
+		"hass-open-ai",
+		"instructing-the-main-data-path",
+		"my-politics",
+		"2025-09-04-155127",
+		"2025-11-13-192926",
+		"2025-11-16-084629",
+		"2025-11-17-152231",
+		"2025-11-19-132312",
+		"2025-11-25-181316",
+		"2025-12-03-164110",
+		"transcription-pipeline-sprint-1",
+		"transcription-pipeline-sprint",
+		"2026-03-17-181010",
+		"2026-03-30-114045",
+		"2026-03-31-183935",
+		"2026-04-01-114754",
+		"2026-04-02-235209",
+		"untitled",
+		"grep-2026-03-31-183935",
+		"grep-2026-04-01-114754",
+		"vault-temporal-scanner-rewrite"
+	],
+	"tags": [
+		"infra",
+		"cybership"
+	],
+	"category": "infra"
+}

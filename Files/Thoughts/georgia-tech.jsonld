@@ -1,0 +1,22 @@
+{
+	"@id": "georgia-tech",
+	"@context": "tb",
+	"data": "Georgia Tech — MS-HCI & GVU Center\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nGeorgia Tech's Master of Science in Human-Computer Interaction (MS-HCI) is one of the oldest and most established interdisciplinary HCI programs in the United States. Created in 1998, it spans four schools — Interactive Computing, Literature, Media & Communication (LMC), Industrial Design, and Psychology — offering students a uniquely broad perspective on human-computer…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

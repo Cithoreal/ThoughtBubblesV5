@@ -1,0 +1,12 @@
+{
+	"@id": "8c928348",
+	"@context": "tb",
+	"data": "Find an ice cream place to try\n\n\"let's find a place\"\n\nSource Journals\n[[2025-06-10 13-51-20.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-06-10-13-51-20.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

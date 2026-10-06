@@ -1,0 +1,22 @@
+{
+	"@id": "unc-chapel-hill",
+	"@context": "tb",
+	"data": "University of North Carolina at Chapel Hill — Computer Science (XR/VR Research)\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nUNC Chapel Hill's Department of Computer Science is one of the oldest and most respected CS departments in the US, and it holds a legendary position in VR/XR research. The VR Lab, founded by Henry Fuchs and Frederick Brooks (Turing Award winner), has been continuously operating since the 1960s — making it arguably the longest-running…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

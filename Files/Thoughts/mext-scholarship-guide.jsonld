@@ -1,0 +1,24 @@
+{
+	"@id": "mext-scholarship-guide",
+	"@context": "tb",
+	"data": "MEXT Scholarship — Comprehensive Guide\n\nEverything about the MEXT (Monbukagakusho) Scholarship in one place:\neligibility, routes, timeline, dual-MEXT specifics, visa details,\nfinancial planning, and strategic decisions.\nWhat MEXT Covers\n\n| Benefit | Details |\n|---------|---------|\n| Full tuition | Entrance exam, matriculation, and tuition fees all waived |\n| Monthly stipend | ¥144,000/mo (Master's) / ¥145,000/mo (Doctoral) as of 2026; ¥2,000–¥3,000 regional supplement for designated areas |\n|…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"mext-housing-inquiry-emails",
+		"application-timeline"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"japan",
+		"mext",
+		"scholarship",
+		"reference",
+		"active"
+	],
+	"category": "projects"
+}

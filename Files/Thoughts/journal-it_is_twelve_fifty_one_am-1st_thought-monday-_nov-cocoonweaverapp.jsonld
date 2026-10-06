@@ -1,0 +1,20 @@
+{
+	"@id": "journal-it_is_twelve_fifty_one_am-1st_thought-monday-_nov-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nLate-night audio journal documenting progress on the 'Thought Bubbles' software project, where the speaker details solving complex multi-generational node linking issues in Godot and plans upcoming features like shape customization and timestamp scrolling. The entry captures methodical debugging alongside comparative analysis between current V5 progress and previous V3 goals, reflecting the speaker's attempt to use their own application for self-directed project…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/software-development",
+		"theme/technical-problem-solving",
+		"theme/self-referential-design"
+	],
+	"category": "journals"
+}

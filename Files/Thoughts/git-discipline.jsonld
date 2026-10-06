@@ -1,0 +1,27 @@
+{
+	"@id": "git-discipline",
+	"@context": "tb",
+	"data": "Concept: Git Discipline\n\nThe Rule\nCommit and push to Forgejo after any file change in the workspace or projects. No exceptions.\n\nWhy\nFiles are memory. An uncommitted change is a mental note — it doesn't survive restarts, crashes, or context loss. The push is the write.\n\nHow\nUse conventional commits: feat:, fix:, docs:, refactor:, chore:\nEvery project in ~/projects/ gets a Forgejo repo from the start\nCreate the repo on Forgejo first, then push — no orphaned local repos\nNever commit: .venv/,…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"forgejo",
+		"star",
+		"cithoreal",
+		"cybernautics-vision",
+		"calcifer-vault"
+	],
+	"LinkFrom": [
+		"atomic-notes",
+		"calcifer-memory",
+		"concepts",
+		"forgejo",
+		"calcifer-vault",
+		"lessons"
+	],
+	"tags": [
+		"concept",
+		"project"
+	],
+	"category": "concepts"
+}

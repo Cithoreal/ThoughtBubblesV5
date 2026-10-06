@@ -1,0 +1,10 @@
+{
+	"@id": "openxr-steam-frame",
+	"@context": "tb",
+	"data": "OpenXR Development for Steam Frame — Research Resources\n\nResearched 2026-09-30. Covers OpenXR runtime, controller interaction, eye tracking/foveated rendering, spatial entities/passthrough, and API layer development for Valve's Steam Frame headset.\n\n2.1 SteamVR OpenXR Runtime on Frame\n\nSteam Frame runs SteamOS on a Snapdragon 8 Gen 3 (ARM64) SoC and ships with SteamVR as its on-device OpenXR runtime. SteamVR 2.17+ is the key version, adding 32-bit OpenXR runtime registration alongside 64-bit.…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,31 @@
+{
+	"@id": "in-the-mud",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/In the mud.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# In the mud\nTranscribed: 2026-03-30 12:20  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:27]  \nit is 4 46 p.m july 1st 2024 out on the great woods trail once again so just want to talk about different stuffs uh one thing i want to mention is that i've just i've been finding myself i wouldn't call it…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/finance",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

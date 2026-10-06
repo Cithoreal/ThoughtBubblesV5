@@ -1,0 +1,27 @@
+{
+	"@id": "core-spatial-containers",
+	"@context": "tb",
+	"data": "Core Spatial Containers\n\nMaps the Core System's substrate architecture onto the OpenXR XR_EXT_spatial_container spec.\nRelated: [[concepts/core-system]] · [[concepts/room-2-0]] · [[concepts/ecs-linked-data-architecture]] · [[concepts/thought-bubbles]]\n\nThe Spec\n\nOpenXR 1.1.63 (ratified September 1, 2026) introduced three extensions that redefine how XR apps coexist:\nXR_EXT_spatial_container — multiple OpenXR applications from different engines coexist in shared physical space. The compositor…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"core-system",
+		"room-2-0",
+		"ecs-linked-data-architecture",
+		"thought-bubbles",
+		"thoughtbubbles-core-cross-pollination",
+		"module-depth-sensor",
+		"steam-frame-study"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"concept",
+		"architecture",
+		"spatial-containers",
+		"openxr",
+		"core-system",
+		"room-2-0",
+		"thought-bubbles"
+	],
+	"category": "concepts"
+}

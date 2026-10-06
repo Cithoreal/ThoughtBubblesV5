@@ -1,0 +1,12 @@
+{
+	"@id": "4460271c",
+	"@context": "tb",
+	"data": "Design top part of Raspberry Pi case to account for higher position and radiator\n\n\"So all I really need to design now is the top part so that it accounts for the higher position of it and the radiator.\"\n\nSource Journals\n[[Sunday Update.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Sunday-Update.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

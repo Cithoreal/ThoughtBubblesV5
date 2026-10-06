@@ -1,0 +1,12 @@
+{
+	"@id": "1dfa4a2f",
+	"@context": "tb",
+	"data": "Start small with Neo4j memory implementation\n\n\"maybe I can just start small with the Neo4j idea of memory\"\n\nSource Journals\n[[Web Search Function.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Web-Search-Function.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

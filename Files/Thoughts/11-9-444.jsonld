@@ -1,0 +1,30 @@
+{
+	"@id": "11-9-444",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-9 444.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-9 444\nTranscribed: 2026-03-30 05:02  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:24]  \nso mom and dad went on a walk so i'm home alone for now which just means that i'm gonna feel more open to talk about whatever day nine of no no november um honestly today uh has been the easiest i just haven't…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"room-2-0",
+		"project-calcifer-founding-vision",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"personal/health-sleep",
+		"personal/identity",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

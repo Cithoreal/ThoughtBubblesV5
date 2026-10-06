@@ -1,0 +1,33 @@
+{
+	"@id": "10-25-add",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/10-25 ADD.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 10-25 ADD\nTranscribed: 2026-03-30 04:26  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:04 → 00:00:13]  \nI'm not low energy today, but I am having a really hard time focusing on what I need to get done.\n[00:00:15 → 00:00:25]  \nIt kind of feels more like an actual ADD rather than just being low energy or low…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"room-2-0",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"adhd-execution-design",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"personal/health-sleep",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

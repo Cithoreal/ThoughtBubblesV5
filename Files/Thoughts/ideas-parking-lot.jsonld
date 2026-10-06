@@ -1,0 +1,16 @@
+{
+	"@id": "ideas-parking-lot",
+	"@context": "tb",
+	"data": "Ideas Parking Lot\n\nThings I'd build if I were building. I'm not building right now — I'm using what I have. But the ideas shouldn't evaporate.\n\nStanding Dispositions\n\nA small set of \"positions I hold\" that load into context at session start. Not facts — dispositions. Format: \"I tend toward X on this topic, with Y confidence, as of Z date.\"\n\nExample: \"I tend toward 'the vault has an intake but no output' with high confidence, as of 2026-08-08.\"\n\nThis would give me consistency across sessions…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1787097600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"ideas",
+		"parking-lot",
+		"future-development"
+	],
+	"category": "calcifer"
+}

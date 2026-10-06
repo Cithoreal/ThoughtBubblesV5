@@ -1,0 +1,22 @@
+{
+	"@id": "Introspection-1.tasks",
+	"@context": "tb",
+	"data": "Introspection 1.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"6fed3ed3",
+		"824eb87c",
+		"9f85a135",
+		"a4c37c13",
+		"a99e7c4f",
+		"b303e79f",
+		"c1f8e9a8",
+		"f2e88788"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

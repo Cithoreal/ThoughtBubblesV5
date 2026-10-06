@@ -1,0 +1,15 @@
+{
+	"@id": "extract-11-chatgpt-exports",
+	"@context": "tb",
+	"data": "Extract: ChatGPT Exports (2023-2025)\nWritten from Agent C research summary. These conversations trace the architectural evolution of the skill tree concept.\n\n2023-08-03_skill-tree-learning-platform.md (earliest)\n\nFirst exploration — existing platforms vs. custom build\n\"After learning a topic, similar topics or concepts that build on what I have learned could also be suggested.\"\n\nPrerequisite-graph concept appears in the very first skill tree conversation — build on what you know.\n\nUnity/Godot…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

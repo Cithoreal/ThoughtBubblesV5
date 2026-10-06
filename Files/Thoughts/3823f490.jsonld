@@ -1,0 +1,12 @@
+{
+	"@id": "3823f490",
+	"@context": "tb",
+	"data": "Clear items back up to the table\n\n\"Okay, we need to clear this back up to the table so we can sit in our chair.\"\n\nSource Journals\n[[New Recording 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

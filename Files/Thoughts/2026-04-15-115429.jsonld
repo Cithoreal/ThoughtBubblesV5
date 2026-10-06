@@ -1,0 +1,29 @@
+{
+	"@id": "2026-04-15-115429",
+	"@context": "tb",
+	"data": "Journal — 2026-04-15 11:54\n\nSummary\n\nThe speaker records from their car while commuting to school, balancing excitement about technical projects with the discipline to prioritize homework. They discuss enhancing collaboration with 'Calcifer' (their AI assistant) through voice calls and video sharing, plans for automated system monitoring, and progress setting up Linux servers and Home Assistant, while acknowledging security concerns about their always-on desktop.\n\nMood & Energy\n\n| Signal |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"optiplex",
+		"audio-journal-pipeline",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/human-ai-collaboration",
+		"theme/infrastructure-automation",
+		"theme/development-workflow",
+		"theme/system-administration"
+	],
+	"category": "journals"
+}

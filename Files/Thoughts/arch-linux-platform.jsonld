@@ -1,0 +1,45 @@
+{
+	"@id": "arch-linux-platform",
+	"@context": "tb",
+	"data": "Arch Linux as Development Platform\n\nWhat It Is\ncithoreal's primary OS across 2023–2025 and beyond. Not just a distro preference — Arch represents his values: full control, no hidden processes, build it yourself, understand what you're running.\n\nEvidence in ChatGPT 2023\nAn unusually large cluster of Arch-related conversations indicates 2023 was a year of serious OS-level configuration work:\nMultiple Arch installation sessions (USB, full disk, BTRFS)\nTimeshift snapshot / BTRFS recovery\nBoot…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-04-07_yay-vs-paru-comparison",
+		"2025-03-13_arch-linux-setup-guide",
+		"2025-03-14_arch-terminal-options",
+		"2025-03-24_ai-enhanced-terminals-arch",
+		"2025-03-14_fun-programs-for-arch",
+		"2025-03-16_innovative-arch-linux-setup",
+		"2025-04-19_lesser-known-arch-productivity-tools",
+		"2025-03-25_ram-management-on-arch",
+		"2025-03-21_low-power-arch-tools",
+		"2025-05-17_multiple-bluetooth-earbuds-arch-linux",
+		"2025-05-17_chromebook-velvet-os-install",
+		"2025-02-06_arch-linux-arm-installation",
+		"2023-07-18_prepare-for-arch-installation",
+		"2023-11-02_install-arch-linux-guide",
+		"2023-12-10_fixing-btrfs-snapshot-boot",
+		"2023-12-10_restore-timeshift-snapshot-on-btrfs",
+		"2023-12-01_set-up-cronjobs-in-arch",
+		"2023-11-04_speed-up-arch-boot",
+		"2023-11-11_boot-into-windows-from-arch",
+		"2023-12-07_arch-linux-file-structure",
+		"2023-11-03_ai-development-on-arch-linux",
+		"cybernautics-vision",
+		"homelab-infrastructure",
+		"homelab-2025-buildout",
+		"star",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"arc-linux",
+		"infra"
+	],
+	"category": "concepts"
+}

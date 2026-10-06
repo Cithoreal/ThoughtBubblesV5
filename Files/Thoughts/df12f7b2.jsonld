@@ -1,0 +1,12 @@
+{
+	"@id": "df12f7b2",
+	"@context": "tb",
+	"data": "Configure Calcifer to send nightly Nextcloud task links\n\n\"have Calcifer send me the link to Nextcloud through the tasks and basically say, um, okay, just spend a few minutes adding some tasks... Maybe sometime at night\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

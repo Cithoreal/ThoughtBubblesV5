@@ -1,0 +1,12 @@
+{
+	"@id": "0ff4ef8c",
+	"@context": "tb",
+	"data": "Go to sleep no later than 1:30 tonight\n\n\"Tonight I'd like to go to sleep no later than 1.30 would be great\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

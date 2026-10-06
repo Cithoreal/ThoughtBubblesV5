@@ -1,0 +1,12 @@
+{
+	"@id": "c0f2b436",
+	"@context": "tb",
+	"data": "Include personal goals and call to arms in blog post\n\n\"I want to include that\"\n\nSource Journals\n[[To Do + blog post.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"To-Do-blog-post.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

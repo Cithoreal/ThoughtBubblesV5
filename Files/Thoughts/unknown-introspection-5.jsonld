@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-introspection-5",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Head over to the other streets', 'type': 'explicit', 'status': 'new', 'raw_quote': \"We're gonna head over to the other streets.\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Introspection 5.md', 'extracted_at': '2026-05-18T17:06:58.075805', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Switch to the other lighter', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll probably…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

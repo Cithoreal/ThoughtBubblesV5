@@ -1,0 +1,25 @@
+{
+	"@id": "schedule-drawing-time",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Schedule Drawing Time.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Schedule Drawing Time\nTranscribed: 2026-03-30 12:57  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:09]  \nIt is 4.26 PM, July 31st, 2024.\n[00:00:11 → 00:00:13]  \nSo my client, my client, my student today was a no-show.\n[00:00:19 → 00:00:21]  \nSo I did not have to work today.\n[00:00:21 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/estia",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"project"
+	],
+	"category": "journals"
+}

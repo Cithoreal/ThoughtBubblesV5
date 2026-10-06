@@ -1,0 +1,20 @@
+{
+	"@id": "mostly-silence-working-on-cal-memory",
+	"@context": "tb",
+	"data": "See also: [[concepts/project-calcifer-founding-vision]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/(Mostly Silence) Working on Cal Memory.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# (Mostly Silence) Working on Cal Memory\nTranscribed: 2026-03-30 11:20  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 11 0 8 PM, June 30th, 2024.\n[00:00:06 → 00:00:13]  \nMade some good progress today on my…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"project-calcifer-founding-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"tech/ai-memory"
+	],
+	"category": "journals"
+}

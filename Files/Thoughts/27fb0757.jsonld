@@ -1,0 +1,12 @@
+{
+	"@id": "27fb0757",
+	"@context": "tb",
+	"data": "Get a haircut\n\n\"I would like to get a haircut... My pinky finger is getting a haircut... go to a barber get a nice nice haircut done\"\n\nSource Journals\n[[Visualizing Thought Bubbles.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Visualizing-Thought-Bubbles.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

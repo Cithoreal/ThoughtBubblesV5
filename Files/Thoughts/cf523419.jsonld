@@ -1,0 +1,12 @@
+{
+	"@id": "cf523419",
+	"@context": "tb",
+	"data": "Think of a gift for Mom\n\n\"I'll have to think of something for Mom.\"\n\nSource Journals\n[[Story Development.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Story-Development.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

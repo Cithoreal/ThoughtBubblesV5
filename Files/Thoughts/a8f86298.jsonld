@@ -1,0 +1,12 @@
+{
+	"@id": "a8f86298",
+	"@context": "tb",
+	"data": "Ensure new thoughts display links correctly\n\n\"make sure that that's all working correctly, that when I create a new thought, it displays a new link correctly\"\n\nSource Journals\n[[Journal-It_is_one,_twenty_eight,_a_m.-1st_thought-Friday,_Dec-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_one-_twenty_eight-_a_m.-1st_thought-Friday-_Dec-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

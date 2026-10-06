@@ -1,0 +1,12 @@
+{
+	"@id": "b6dc4d3d",
+	"@context": "tb",
+	"data": "Set up self-hosted wiki for documentation\n\n\"And I also want to set up a self-hosted wiki for documentation\"\n\nSource Journals\n[[New Recording 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

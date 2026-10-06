@@ -1,0 +1,16 @@
+{
+	"@id": "prune-list-2026-08-18",
+	"@context": "tb",
+	"data": "Prune List — 2026-08-18\n\nActionable cleanup for deprecated, rotting, and stale systems. Each item has evidence, a specific command, and a risk rating. Items marked NEEDS APPROVAL should not be executed without cithoreal's explicit OK.\nKILL — Dead Services to Shut Down and Remove\n\n1.1 AnythingLLM (Optiplex)\n\nWhat: AnythingLLM Docker container + ChromaDB container on Optiplex. Replaced by custom RAG pipeline on Star (Qdrant + BM25) in April 2026.\n\nEvidence:\nvault/infra/anythingllm.md explicitly…",
+	"lastUpdated": "1787011200",
+	"createdAt": "1787011200",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"cleanup",
+		"prune",
+		"infrastructure"
+	],
+	"category": "calcifer"
+}

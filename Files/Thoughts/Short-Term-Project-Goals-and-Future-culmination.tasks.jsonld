@@ -1,0 +1,39 @@
+{
+	"@id": "Short-Term-Project-Goals-and-Future-culmination.tasks",
+	"@context": "tb",
+	"data": "Short Term Project Goals and Future culmination.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"028e8abe",
+		"0d3fbb51",
+		"11e370ab",
+		"2f76680f",
+		"37387408",
+		"404dd2fc",
+		"5258fb75",
+		"7330c3ba",
+		"735eeaa2",
+		"73d7e1a6",
+		"78e4d2e3",
+		"890e6496",
+		"8f5876f4",
+		"a86eb2b4",
+		"a9b67d7c",
+		"ba65ae8a",
+		"c01ab9fd",
+		"c1ef1393",
+		"cb7ba773",
+		"ccb29483",
+		"d4a86b2d",
+		"d92aea3c",
+		"dfdebcdd",
+		"e83cc107",
+		"f267bb72"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,19 @@
+{
+	"@id": "hearth-w6-speaker-recognition",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 104d — review -->\n\nW6: Speaker Recognition for Hearth\n\nGoal\nIdentify who is speaking to Hearth and route responses differently based on speaker identity. Primary use case: wake-word speaker priority — if cithoreal speaks, Hearth responds; if a guest speaks, Hearth still responds but differently.\n\ncithoreal's Vision (from audio journals)\n\"The big really really cool useful thing\"\nNuanced: not just identification, but priority and…",
+	"lastUpdated": "1777680000",
+	"createdAt": "1777680000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"hearth",
+		"research",
+		"ml",
+		"active"
+	],
+	"category": "projects"
+}

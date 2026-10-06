@@ -1,0 +1,32 @@
+{
+	"@id": "11-1-overwatch-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-1 Overwatch 2.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-1 Overwatch 2\nTranscribed: 2026-03-30 04:29  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:22]  \nSo, I've been, well, I missed Casper a little bit today, just over her, over on an Instagram post, is what I'm trying to say.\n[00:00:22 → 00:00:24]  \nIt's November 1st.\n[00:00:24 → 00:00:27] …",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"core-system",
+		"solid-pod-sovereignty",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/skill-trees",
+		"topic/estia",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/homelab",
+		"topic/core-system",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

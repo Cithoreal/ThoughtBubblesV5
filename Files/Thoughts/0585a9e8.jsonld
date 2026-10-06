@@ -1,0 +1,12 @@
+{
+	"@id": "0585a9e8",
+	"@context": "tb",
+	"data": "Using IPFS and static URL links for identifying things\n\n\"My most recent thing is to use IPFS and IPFS sort of static URL links\"\n\nSource Journals\n[[10-26-22.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-26-22.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

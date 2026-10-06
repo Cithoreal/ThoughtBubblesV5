@@ -1,0 +1,12 @@
+{
+	"@id": "df2a63dc",
+	"@context": "tb",
+	"data": "Find an apartment\n\n\"I'm trying to find an apartment\"\n\nSource Journals\n[[New Recording 4.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

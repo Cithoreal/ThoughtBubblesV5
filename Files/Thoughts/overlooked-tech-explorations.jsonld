@@ -1,0 +1,17 @@
+{
+	"@id": "overlooked-tech-explorations",
+	"@context": "tb",
+	"data": "Overlooked Tech Explorations & Abandoned Prototypes\n\nA retrospective inventory of cithoreal's past technological explorations, prototypes, and experiments — with particular attention to abandoned or stalled projects that may still hold value for the current \"core system\" and \"Room 2.0\" vision.\n\nExecutive Summary\n\nAcross 8+ years of audio journals (500+ recordings, spanning 2018–2026), 265 OneNote legacy notes (229MB), 503 raw document imports, and 2.5 years of ChatGPT reference exports…",
+	"lastUpdated": "1782000000",
+	"createdAt": "1782000000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"retrospective",
+		"core-system",
+		"room-2-0",
+		"tech-exploration"
+	],
+	"category": "research"
+}

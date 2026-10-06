@@ -1,0 +1,12 @@
+{
+	"@id": "a03642f5",
+	"@context": "tb",
+	"data": "Make a flowchart for the task system\n\n\"Make a flowchart, for sure.\"\n\nSource Journals\n[[Task System Planning.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System-Planning.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

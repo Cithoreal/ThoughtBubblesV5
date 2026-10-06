@@ -1,0 +1,20 @@
+{
+	"@id": "multimodal-sensing",
+	"@context": "tb",
+	"data": "Multimodal Environmental Sensing — Research & Architecture\n\nCreated: 2026-07-03\nContext: Room 2.0 / ThoughtBubbles — spatial UI using depth, acoustic, and RF sensing\nRelated: [[research/semantic-room-understanding]] · [[projects/room-2-0]] · [[concepts/thought-bubbles]]\n\nThe Core Insight\n\nNo single sensing modality sees the whole room. Depth cameras miss glass and mirrors. Acoustic sensing can't produce dense geometry. Wi-Fi CSI can't resolve fine detail. But together, they cover each other's…",
+	"lastUpdated": "1785715200",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"semantic-room-understanding",
+		"room-2-0",
+		"thought-bubbles"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"room-2-0",
+		"sensing",
+		"xr"
+	],
+	"category": "research"
+}

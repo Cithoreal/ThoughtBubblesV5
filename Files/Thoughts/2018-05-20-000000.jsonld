@@ -1,0 +1,21 @@
+{
+	"@id": "2018-05-20-000000",
+	"@context": "tb",
+	"data": "Journal — 2018-05-20 00:00\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Audio Journal Three 5-20-18.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Audio Journal Three 5-20-18\nTranscribed: 2026-03-30 05:39  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:08]  \nHello, I am [[people/cithoreal|Chris DiCarlo]], and this is my daily audio journal.\n[00:00:11 → 00:00:16]  \nSo, yeah, day three of my jogging audio…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

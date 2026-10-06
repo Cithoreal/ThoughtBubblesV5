@@ -1,0 +1,17 @@
+{
+	"@id": "sesame-csm-voice-clone",
+	"@context": "tb",
+	"data": "Sesame Csm Voice Clone\n\nSesame CSM Voice Clone\n\nPersonal voice cloning setup using Sesame's CSM-1B model.\n\nSetup\nLocation: ~/Projects/csm\nEnvironment: Python venv with CSM dependencies\nModel: CSM-1B (~3.6GB VRAM load, requires ~5.7GB total free)\nPrompt audio: 10s extracted from Audacity project (411MB, ~40min total recording)\nTranscription: Whisper\n\nUsage\nRequired environment variable: NO_TORCH_COMPILE=1 (prevents Triton kernel compilation crash)\n\nBasic command:\n\nDefaults configured:\n--prompt…",
+	"lastUpdated": "1777852800",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"voice-clone",
+		"sesame"
+	],
+	"category": "projects"
+}

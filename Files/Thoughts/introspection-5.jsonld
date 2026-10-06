@@ -1,0 +1,23 @@
+{
+	"@id": "introspection-5",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection 5.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection 5\nTranscribed: 2026-03-30 05:51  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:03]  \nHello.\n[00:00:03 → 00:00:04]  \nAlrighty.\n[00:01:06 → 00:01:08]  \nOh boy.\n[00:01:08 → 00:01:11]  \nMy hands are cold.\n[00:01:12 → 00:01:19]  \nI love her.\n[00:02:49 → 00:02:49]  \nOkay.\n[00:04:21 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

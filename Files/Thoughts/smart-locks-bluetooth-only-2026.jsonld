@@ -1,0 +1,10 @@
+{
+	"@id": "smart-locks-bluetooth-only-2026",
+	"@context": "tb",
+	"data": "Smart Locks: Bluetooth-Only, No WiFi, Mechanical Key Backup\n\nResearch date: 2026-08-22\nCriteria priority: Mechanical key → No WiFi → Bluetooth phone unlock → Long battery life → HA compatible\n\nExecutive Summary\n\nThe \"Bluetooth-only, no WiFi, mechanical key backup\" profile is a narrow niche. Most smart lock makers have moved toward WiFi-included or Matter-over-Thread models. However, several viable options remain — the strongest being Yale Assure Lock 2 Bluetooth (with optional Z-Wave module for…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

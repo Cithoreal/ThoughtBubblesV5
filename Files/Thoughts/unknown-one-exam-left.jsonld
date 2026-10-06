@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-one-exam-left",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Complete sociology final', 'type': 'progress', 'status': 'completed', 'raw_quote': 'So I got my sociology final done today.', 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'One Exam Left.md', 'extracted_at': '2026-05-18T18:08:39.154149', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Take linear algebra final', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I just have linear…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

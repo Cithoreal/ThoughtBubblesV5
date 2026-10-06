@@ -1,0 +1,12 @@
+{
+	"@id": "ee74a746",
+	"@context": "tb",
+	"data": "Set up AI reporting system with Discord notifications\n\n\"I still need to set up AI reporting or reminders\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

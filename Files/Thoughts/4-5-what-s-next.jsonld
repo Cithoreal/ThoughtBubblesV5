@@ -1,0 +1,25 @@
+{
+	"@id": "4-5-what-s-next",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/4-5 What's Next.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 4-5 What's Next\nTranscribed: 2026-03-30 05:33  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nGot a few things on my mind.\n[00:00:02 → 00:00:10]  \nApparently a quick habit of starting my recordings a bit after 12.\n[00:00:10 → 00:00:18]  \nSo it's 12.08 a.m. April 5th, 2020.\n[00:00:20 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/calcifer",
+		"personal/identity",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

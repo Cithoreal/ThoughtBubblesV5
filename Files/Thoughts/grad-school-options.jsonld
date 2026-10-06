@@ -1,0 +1,43 @@
+{
+	"@id": "grad-school-options",
+	"@context": "tb",
+	"data": "Deep dive research (2026-07-21): See [[projects/japan-grad-schools-deepdive|Japan Grad Schools Deepdive]] for comprehensive per-university investigation with current admissions info, lab research updates, and all key links.\n\nGraduate School Options — XR & Spatial Computing\n\nResearching graduate programs in XR, spatial computing, HCI, and mixed reality. Tracking US and Japan options, funding, deadlines, and fit with ThoughtBubbles / Cybernautics interests.\n\n🎯 My Profile & Interests\nDegree:…",
+	"lastUpdated": "1784160000",
+	"createdAt": "1784160000",
+	"LinkTo": [
+		"japan-grad-schools-deepdive"
+	],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"cyberdeck-gargoyle-research",
+		"cmu-mhci",
+		"georgia-tech",
+		"keio-university",
+		"kyoto-university",
+		"mit",
+		"naist-care-lab",
+		"northeastern-ms-xr",
+		"nyu",
+		"osaka-university",
+		"purdue",
+		"science-tokyo",
+		"stanford",
+		"u-michigan",
+		"uiuc",
+		"unc-chapel-hill",
+		"usc",
+		"utokyo",
+		"vault-temporal-scanner-rewrite"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"xr",
+		"spatial-computing",
+		"japan",
+		"mext",
+		"active"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "e58ab976",
+	"@context": "tb",
+	"data": "Brainstorm blog post content\n\n\"brainstorm after this to-do list, the blog post itself\"\n\nSource Journals\n[[To Do + blog post.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"To-Do-blog-post.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

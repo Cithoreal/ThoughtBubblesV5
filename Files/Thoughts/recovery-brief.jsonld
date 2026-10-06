@@ -1,0 +1,10 @@
+{
+	"@id": "recovery-brief",
+	"@context": "tb",
+	"data": "Strategy Game — Project Recovery Brief\n\nOriginal location: /mnt/elements/Unity Projects/Strategy-Game/\nEngine: Unity 2019.4.20f1\nLast modified: Jul 28, 2022\nLanguage: C#\nGit: No commits (no git history)\n\nWhat the Game Is\n\nA turn-based hex-grid strategy game for 2 players. Players select colors, place troops on a hex map, and take turns issuing movement orders. Every 4 turns = 1 season. At season change, all planned movements resolve simultaneously with conflict resolution. Territory control…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "projects"
+}

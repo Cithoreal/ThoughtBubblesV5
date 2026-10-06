@@ -1,0 +1,12 @@
+{
+	"@id": "cfaa9b2a",
+	"@context": "tb",
+	"data": "Check legs for ticks\n\n\"I'll just have to check my legs, make sure no ticks because I'm wearing shorts today.\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

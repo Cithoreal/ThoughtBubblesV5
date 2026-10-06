@@ -1,0 +1,18 @@
+{
+	"@id": "extract-03-planning-ai-systems",
+	"@context": "tb",
+	"data": "Extract: planning-ai-systems.md\n\nSource file: vault/journals/2023/planning-ai-systems.md\nJournal date: December 10, 2023 (~2:48–3:41 AM)\n\nRelevant Passages\n\nTask System as Prerequisite to Habits — and AI Progression Pipeline\n\nI think the task system is an important prerequisite to the habits system because the habits system I think implies I'm already sort of naturally processing and handing out tasks. And then the habits system sort of automates tasks for certain intentions. which is basically…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

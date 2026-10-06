@@ -1,0 +1,43 @@
+{
+	"@id": "Node-Red-Focus.tasks",
+	"@context": "tb",
+	"data": "Node Red Focus.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"12d6a2be",
+		"1f5b949e",
+		"29d9add3",
+		"2cae65eb",
+		"3e2b2ec1",
+		"4868cefc",
+		"59a948c4",
+		"59ad0f9c",
+		"654be733",
+		"6b4510e9",
+		"7127af16",
+		"71a199a3",
+		"81eb22ac",
+		"8852a668",
+		"88601487",
+		"89821f3a",
+		"8ad148d7",
+		"96e21701",
+		"98f1a3aa",
+		"a4b47d46",
+		"a61f96e6",
+		"b4b466b9",
+		"c2acbc08",
+		"d21bff50",
+		"de824baa",
+		"f30a3b07",
+		"f5176666",
+		"f88bd60a",
+		"fcfa28fc"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

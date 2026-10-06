@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-to-do-blog-post",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Finish refactoring the game code', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"I've got to work on the game, finish refactoring the code, get the action turned to work\", 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'To Do + blog post.md', 'extracted_at': '2026-05-18T19:08:49.576512', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Get the action turn mechanic to work',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

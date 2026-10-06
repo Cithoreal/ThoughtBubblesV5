@@ -1,0 +1,18 @@
+{
+	"@id": "mac-mini",
+	"@context": "tb",
+	"data": "Mac Mini (stub — superseded)\n\nDuplicate stub — full details live in [[infra/macmini]]. This note was created as a quick Hearth services log and has been absorbed there.\n\nSee [[infra/macmini]] for all Mac Mini details including Hearth services, specs, LaunchAgent config, and performance benchmarks.",
+	"lastUpdated": "1780876800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"macmini"
+	],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"duplicate"
+	],
+	"category": "infra"
+}

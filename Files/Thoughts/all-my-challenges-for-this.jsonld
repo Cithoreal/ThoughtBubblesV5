@@ -1,0 +1,46 @@
+{
+	"@id": "all-my-challenges-for-this",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker recounts messaging Eve after tarot guidance and receiving a response about her family difficulties and need for space. They reflect on feeling unexpectedly patient and devoted, experiencing physical sensations they interpret as psychic connections, while contemplating tarot predictions about their asynchronous life cycles and a potential future hurt followed by reconciliation.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion |…",
+	"lastUpdated": "1783382400",
+	"createdAt": "1783382400",
+	"LinkTo": [
+		"signal-2026-05-03-14-18-33-181",
+		"journal-it_is_eleven-_thirteen-_p-_m-1st_thought-sunday-_dec-cocoonweaverapp",
+		"2026-08-14-083214",
+		"2026-05-18-141102",
+		"2026-04-21-222048",
+		"2026-04-15-115429",
+		"2026-04-14-091917",
+		"2026-04-13-115228",
+		"2026-04-08-115011",
+		"2026-04-03-001647",
+		"2026-04-06-160631",
+		"2026-04-01-191954",
+		"2022-10-26-000000",
+		"refocus",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low",
+		"mood/inspired",
+		"mood/reflective",
+		"project",
+		"theme/spiritual-connection",
+		"theme/tarot-divination",
+		"theme/romantic-patience",
+		"theme/energetic-empathy",
+		"theme/cycles-of-life"
+	],
+	"category": "journals"
+}

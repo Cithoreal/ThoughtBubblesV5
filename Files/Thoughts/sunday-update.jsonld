@@ -1,0 +1,21 @@
+{
+	"@id": "sunday-update",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Sunday Update.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Sunday Update\nTranscribed: 2026-03-30 13:04  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:09]  \nIt is 3.20pm, July 14th, 2024.\n[00:00:09 → 00:00:14]  \nOut on the trail, hot day but not so humid as it's been.\n[00:00:17 → 00:00:23]  \nSo I ended up modifying the Raspberry Pi case last night just by…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

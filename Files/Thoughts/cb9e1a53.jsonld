@@ -1,0 +1,12 @@
+{
+	"@id": "cb9e1a53",
+	"@context": "tb",
+	"data": "Talk to ChatGPT about OrbitDB and database implementation\n\n\"I'd like to talk to ChatGPT about it\"\n\nSource Journals\n[[Databases.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Databases.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

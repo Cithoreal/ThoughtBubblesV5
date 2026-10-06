@@ -1,0 +1,12 @@
+{
+	"@id": "e6b922c8",
+	"@context": "tb",
+	"data": "Ask smart home hub about specifying time range for hourly forecast\n\n\"I'll have to ask it.\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

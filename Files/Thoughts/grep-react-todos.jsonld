@@ -1,0 +1,15 @@
+{
+	"@id": "grep-react-todos",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2025/react-todos.md\n\n70-> \n71-> [00:01:00 → 00:01:03]  \n72-> So we'll see how I get throughout the state of this recording.\n73-> \n74-> [00:01:08 → 00:01:14]  \n75:> What I want to talk about is thought bubbles-ish.\n76-> \n77-> [00:01:14 → 00:01:26]  \n78:> Not so much thought bubbles itself as I've been learning on Codecademy, on JavaScript, TypeScript, a lot of JavaScript.\n79-> \n80-> [00:01:27 → 00:01:28]  \n81-> That was the big thing, yeah.\n82-> \n83-> [00:01:28 → 00:01:31]…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

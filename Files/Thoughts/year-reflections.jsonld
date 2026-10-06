@@ -1,0 +1,44 @@
+{
+	"@id": "year-reflections",
+	"@context": "tb",
+	"data": "Concept: Year Reflections & Longitudinal Self-Portrait\n\nWhat It Is\ncithoreal periodically records extended \"year in review\" sessions — longitudinal self-portraits that surface patterns invisible in day-to-day journals. The Dec 2023 recording is a particularly rich example.\n\nDec 2023: The Throat Year\n\"This was a throat year. I intended to focus on my throat chakra — gain deeper understandings.\"\n\nKey arc of 2023:\nLeft Infosys (~1.5 years in), returned to college before losing the job\nSignificant…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775606400",
+	"LinkTo": [
+		"year-reflections",
+		"big-moments",
+		"visualize-the-future",
+		"overview-cithoreal",
+		"overview-cithoreal-continued",
+		"cithoreal-progression",
+		"cithoreal-identity",
+		"thought-bubbles",
+		"fiction-worldbuilding",
+		"health-and-sleep",
+		"cithoreal",
+		"skill-trees",
+		"focus-system"
+	],
+	"LinkFrom": [
+		"cithoreal-identity",
+		"focus-system",
+		"health-and-sleep",
+		"weekly-retrospective",
+		"year-reflections",
+		"HOME",
+		"concepts",
+		"cithoreal-progression",
+		"visualize-the-future",
+		"2026-year-reflections",
+		"journals-index",
+		"cithoreal",
+		"grep-cithoreal-progression"
+	],
+	"tags": [
+		"concept",
+		"identity",
+		"deep",
+		"project"
+	],
+	"category": "concepts"
+}

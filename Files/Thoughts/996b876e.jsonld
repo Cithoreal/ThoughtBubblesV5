@@ -1,0 +1,12 @@
+{
+	"@id": "996b876e",
+	"@context": "tb",
+	"data": "Look into training own Llama systems on personal data\n\n\"I would also love to eventually look into training my own llama systems uh on top of my data\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

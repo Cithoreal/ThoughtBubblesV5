@@ -1,0 +1,12 @@
+{
+	"@id": "1f04db8c",
+	"@context": "tb",
+	"data": "Work on chat application\n\n\"I do want to work on my chat application eventually.\"\n\nSource Journals\n[[ongoing efforts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"ongoing-efforts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

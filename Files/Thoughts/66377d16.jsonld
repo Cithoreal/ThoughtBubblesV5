@@ -1,0 +1,12 @@
+{
+	"@id": "66377d16",
+	"@context": "tb",
+	"data": "Migrate Home Assistant to Dell Optiplex and re-enable integrations\n\n\"I could just switch over and disable things without removing anything so that when I have the RAM I can just re-enable them\"\n\nSource Journals\n[[Planning for the weekend.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-for-the-weekend.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,24 @@
+{
+	"@id": "fourth",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Fourth.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Fourth\nTranscribed: 2026-03-30 12:10  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 11.36 p.m., February 29th, 2024.\n[00:00:06 → 00:00:09]  \nMy fourth time starting a voice recording today.\n[00:00:09 → 00:00:16]  \nI just finished my Duolingo, had a lot more fun than usual.\n[00:00:17 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"personal/identity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm"
+	],
+	"category": "journals"
+}

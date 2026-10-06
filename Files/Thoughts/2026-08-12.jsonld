@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-12",
+	"@context": "tb",
+	"data": "2026-08-12\n\nEvents\nThoughtBubbles researcher: Monthly landscape sweep (Aug 12). GenosDB now at v0.12.10 with daily commits — primary GUN successor candidate with RBAC + OPFS + WebRTC. Godot OpenXR Vendors v5.1 confirmed shipped — Android XR Trackables, Dynamic Resolution, Unbounded Reference Space all production-ready. OrbitDB downgraded (last commit May 14). Unity 6.3 Room Mesh as reference. Solid Protocol SoSy 2026 adoption workshop. JSON-LD WG: CBOR-LD codecs advancing, YAML-LD nearing ship.…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

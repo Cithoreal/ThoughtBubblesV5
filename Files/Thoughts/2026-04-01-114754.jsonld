@@ -1,0 +1,37 @@
+{
+	"@id": "2026-04-01-114754",
+	"@context": "tb",
+	"data": "Journal — 2026-04-01 11:47\n\nSummary\n\nRecorded during their final month of college, the speaker celebrates technical progress with their AI collaborator Calcifer on an audio dashboard project while expressing concern about maintaining their own coding skills. They brainstorm a gamified learning system—involving simulated bugs, system failures, and reconstruction challenges—to ensure hands-on expertise, drawing inspiration from games like Hacknet and Minecraft mods, and outline aspirations to…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"thought-bubbles",
+		"cybernautics-vision",
+		"skill-trees",
+		"cybership",
+		"audio-journal-pipeline",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project",
+		"theme/ai-collaboration",
+		"theme/skill-maintenance",
+		"theme/gamification",
+		"theme/educational-technology",
+		"theme/progression-fantasy"
+	],
+	"category": "journals"
+}

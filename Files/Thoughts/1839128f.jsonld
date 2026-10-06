@@ -1,0 +1,12 @@
+{
+	"@id": "1839128f",
+	"@context": "tb",
+	"data": "Investigate inefficient saving (check for duplicate saves)\n\n\"I'll look into investigating that and to just seeing... if i can just do an actual counter of... the different actual individual save requests\"\n\nSource Journals\n[[Inbox-It_is_twelve_thirty_eight_am,_april-1st_thought-Thursday,_Apr-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inbox-It_is_twelve_thirty_eight_am-_april-1st_thought-Thursday-_Apr-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

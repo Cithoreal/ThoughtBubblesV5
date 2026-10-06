@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inspiration-stream",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Create message cache for CalDAV events and tasks', 'type': 'explicit', 'status': 'completed', 'raw_quote': \"I'm going to actually create that right now. Okay, I wrote down, as CalDive events and tasks get processed, add to the message cache with results that can be sent to the AI once the current run is completed\", 'project': 'Work', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Inspiration Stream.md', 'extracted_at':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

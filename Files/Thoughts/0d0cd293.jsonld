@@ -1,0 +1,12 @@
+{
+	"@id": "0d0cd293",
+	"@context": "tb",
+	"data": "Attend last linear algebra class\n\n\"had my last linear algebra class today\"\n\nSource Journals\n[[Task System Planning.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System-Planning.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

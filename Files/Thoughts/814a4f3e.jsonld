@@ -1,0 +1,12 @@
+{
+	"@id": "814a4f3e",
+	"@context": "tb",
+	"data": "3D print lithopane model\n\n\"doing a 3d print right now\"\n\nSource Journals\n[[More Spice.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"More-Spice.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

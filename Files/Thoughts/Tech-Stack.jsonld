@@ -1,0 +1,15 @@
+{
+	"@id": "Tech-Stack",
+	"@context": "tb",
+	"data": "Tech Stack",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thought-bubbles"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "review",
+	"@context": "tb",
+	"data": "Star OS Skill Tree — Review\n\nVERDICT: ACCEPT\n\nIssues Found\nMissing prerequisite: C/C++ proficiency [severity: critical]\n   Multiple Level 1 milestones require writing C programs (libdrm client, Wayland client, OpenXR program in C). The tree assumes \"strong Linux knowledge (daily Arch driver)\" as the only prerequisite for 1.1, but Arch daily driving ≠ C systems programming. There is no node for learning C or C++ systems programming anywhere in the tree. Node 5.3 requires a C++ GDExtension…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "3d58eee9",
+	"@context": "tb",
+	"data": "Clean 3D print bed\n\n\"Clean 3D print bed\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n[[Planning AI Systems.tasks]]\n\nAll Quotes\n\"Clean 3D print bed\"\n\"so clean 3d print bed i did that test print have not done that\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks",
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

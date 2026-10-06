@@ -1,0 +1,28 @@
+{
+	"@id": "journal-pipeline-ui",
+	"@context": "tb",
+	"data": "Project: Journal Pipeline UI\n\nVision\nA web UI for the audio journal pipeline — real-time transcription progress, mood/energy dashboards, task extraction review, journal browsing with search. Makes the pipeline's output legible and interactive.\n\nStatus\nPhases A–G complete. Live in production at https://journal.cybernautics.net\nLast commit: 2026-04-03 (no commits since — project dormant ~18 days)\n\nLive State (checked 2026-04-21)\nFrontend serving correctly\n46 files loaded (up from 10 at…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1774915200",
+	"LinkTo": [
+		"optiplex",
+		"forgejo",
+		"audio-journal-pipeline",
+		"time-based-task-analysis",
+		"elements-drive-reorg"
+	],
+	"LinkFrom": [
+		"time-based-task-analysis",
+		"HOME",
+		"projects",
+		"projects-audio-journal-pipeline",
+		"calcifer-vault",
+		"elements-drive-reorg",
+		"personal-finances"
+	],
+	"tags": [
+		"project",
+		"parked"
+	],
+	"category": "projects"
+}

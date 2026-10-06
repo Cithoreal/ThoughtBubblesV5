@@ -1,0 +1,12 @@
+{
+	"@id": "d2242beb",
+	"@context": "tb",
+	"data": "Set up Raspberry Pi 5 as general web server\n\n\"I think it would be best as just like a general web server where I can just host some web files\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

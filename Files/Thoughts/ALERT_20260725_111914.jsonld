@@ -1,0 +1,15 @@
+{
+	"@id": "ALERT_20260725_111914",
+	"@context": "tb",
+	"data": "🚨 Alert Monitor Check — FAILED\n\nTime: 2026-07-25 11:03 AM EDT  \nSeverity: High\n\nIssue\n\nThe alert check script (check_alerts.py) could not reach Alertmanager at http://100.96.169.9:9093/api/v2/alerts — the connection timed out after 10 seconds.\n\nNetwork Diagnostic\n✅ Internet connectivity: OK (Google reachable)\n✅ Signal servers: Reachable (chat.signal.org responds)\n❌ Alertmanager host (optiplex / 100.96.169.9): UNREACHABLE — 100% packet loss on ping, despite Tailscale showing it as \"active;…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"alert",
+		"alertmanager"
+	],
+	"category": "infra"
+}

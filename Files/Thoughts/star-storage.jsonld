@@ -1,0 +1,26 @@
+{
+	"@id": "star-storage",
+	"@context": "tb",
+	"data": "Drive: Storage (sdb2, 698 GB NTFS)\n\nDevice: /dev/sdb2 → /run/media/cithoreal/Storage\nSize: 698 GB total | 567 GB used | 133 GB free\nFilesystem: NTFS (external HDD)\nHost: star (USB-connected)\nNote: Small FAT32 partition (sdb1, 40MB) also on this drive at /run/media/cithoreal/5450-4444 — appears to be a recovery/boot partition.\n\nTop-Level Structure\n\nStorage/Videos/ (109 GB)\n\nScreen recordings and gameplay captures from 2021 onward (.mp4 format). Dates run from 2021-04-18 through at least…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star-home",
+		"star-elements",
+		"star-cybership"
+	],
+	"LinkFrom": [
+		"index",
+		"star-cybership",
+		"star-elements",
+		"star-home"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"storage",
+		"project"
+	],
+	"category": "infra"
+}

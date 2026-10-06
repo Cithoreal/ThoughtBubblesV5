@@ -1,0 +1,12 @@
+{
+	"@id": "90931d7a",
+	"@context": "tb",
+	"data": "Implement automatic port checking and incrementing system for spawning localized IPFS nodes\n\n\"So what I'm gonna wanna do there is basically start with the default ports which is like, there's like a few different ports that it's actually using a few different addresses. but basically start with all of those and then sort of just do a check okay is this port in use if so auto increment one basically is this port in use if so auto increment one del finds one that's not in use spawn a node…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inbox-It_is_for_thirty_eight_pm._April-1st_thought-Monday-_Apr-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

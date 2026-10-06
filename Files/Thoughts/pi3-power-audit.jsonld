@@ -1,0 +1,17 @@
+{
+	"@id": "pi3-power-audit",
+	"@context": "tb",
+	"data": "Pi3 Power Audit — 2026-06-06\n\nHardware\nModel: Raspberry Pi 3 Model B Rev 1.2\nOS: Debian bookworm (6.12.47+rpt-rpi kernel), 64-bit\nUptime: 42 days (since April 23 reboot)\nStorage: 7GB microSD (74% full)\nNetwork: WiFi only (eth0 shows NO CARRIER)\n\nServices Running\nPi-hole — DNS ad blocking (port 53)\nHyperion — Ambient LED controller (SK9822, 97 LEDs via SPI)\nTailscale — Remote access\nUSB Video Capture — Macrosilicon USB3.0 capture card (Hyperion V4L source)\n\nPower Consumption Breakdown\n\n|…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"pi3",
+		"power"
+	],
+	"category": "infra"
+}

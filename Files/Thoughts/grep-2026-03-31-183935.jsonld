@@ -1,0 +1,20 @@
+{
+	"@id": "grep-2026-03-31-183935",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2026/2026-03-31-183935.md\n\n49-- Nextcloud integration and data migration\n50-- task extraction and time-based analysis\n51-\n52-## Tasks & Intentions (18)\n53-\n54:- ☑ [Work] Ensure tasks extracted from audio get added to Nextcloud properly explicit\n55:- ☑ [Work] Process backlog of old tasks from audio history explicit\n56:- ☑ [Work] Implement time analysis element for tracking task evolution across audio timeline explicit\n57-- 💭 [Creative] Take another crack at air hockey…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"cybernautics-vision",
+		"cybership",
+		"pi4",
+		"audio-journal-pipeline",
+		"skill-trees",
+		"cithoreal"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

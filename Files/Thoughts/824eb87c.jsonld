@@ -1,0 +1,12 @@
+{
+	"@id": "824eb87c",
+	"@context": "tb",
+	"data": "Take closer looks at reading pattern (eye darting issue)\n\n\"I should, I'll take closer looks at that.\"\n\nSource Journals\n[[Introspection 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

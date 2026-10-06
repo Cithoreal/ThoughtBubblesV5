@@ -1,0 +1,29 @@
+{
+	"@id": "2026-04-02-235209",
+	"@context": "tb",
+	"data": "Journal — 2026-04-02 23:52\n\nSummary\n\nThe speaker tests a new automated audio processing system while updating on upcoming academic deadlines, a mock interview, and plans to shop with Katie at Hot Topic. They detail frustrating Linux compatibility issues with Lethal Company that forced switching to Windows, and consider using a virtual machine as a workaround to keep systems online.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic |\n|---|---|---|\n| Emotion | engaged | pragmatic |\n| Valence | — |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybership",
+		"audio-journal-pipeline",
+		"nextcloud"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project",
+		"theme/technical-troubleshooting",
+		"theme/academic-deadlines",
+		"theme/gaming-compatibility",
+		"theme/personal-automation",
+		"theme/relationships"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,22 @@
+{
+	"@id": "2026-03-17-181010",
+	"@context": "tb",
+	"data": "Journal — 2026-03-17 18:10\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2026-03-17 18-10-10.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2026-03-17 18-10-10\nTranscribed: 2026-03-30 11:41  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:10]  \nIt is 6.10 p.m. March 17th, 2026.\n[00:00:10 → 00:00:20]  \nI just downloaded and set up OpenClaw for the first time on my laptop.\n[00:00:21 → 00:00:24]  \nI think I also, no, Katie…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"cybership"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"topic/homelab",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/low"
+	],
+	"category": "journals"
+}

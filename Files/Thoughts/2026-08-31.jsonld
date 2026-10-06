@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-31",
+	"@context": "tb",
+	"data": "2026-08-31\n\nEvents\n12:30 deep heartbeat (build mode): Fifth-star build landed and verified. external_authority.py — linker wired into kg_builder (owl:sameAs in @context, apply + verify in build path). 5 verified sameAs edges: semantic-web Q54837, json-ld Q6108942 (linked existing), godot Q16972633, howls-moving-castle Q29011 (film), tim-berners-lee Q80 (minted tb:ExternalAuthority, dangling refs healed). Godot-migration duplicate fixed at root cause (entity_to_id strips colons/apostrophes →…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

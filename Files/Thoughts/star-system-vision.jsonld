@@ -1,0 +1,45 @@
+{
+	"@id": "star-system-vision",
+	"@context": "tb",
+	"data": "Concept: Star System — XR Operating System\n\nWhat It Is\nA web-based XR operating system that treats reality as the interface. One central powerhouse computer handles all GPU/CPU; devices (phones, VR, AR glasses) are thin clients streaming view and input. Built on decentralized Web 3.0 / Solid Pod architecture.\n\nThe macro vision that everything else plugs into.\n\nKey Components\nScenes — surrounding environments (Unity worlds, digital twins, God Mode)\nThemes / Mirror Worlds — aesthetic filters over…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1774828800",
+	"LinkTo": [
+		"cybernautics-vision",
+		"thought-bubbles",
+		"designing-reality",
+		"internet-scale-world",
+		"room-2-0",
+		"Star-System",
+		"My-Home",
+		"Iron-Man",
+		"Untitled-20260408104535"
+	],
+	"LinkFrom": [
+		"ar-xr-development",
+		"designing-reality",
+		"internet-scale-world",
+		"matter-of-time",
+		"mirrorworlds-themes",
+		"project-mirror",
+		"research-threads",
+		"solid-pod-sovereignty",
+		"thought-bubbles",
+		"xr-development-arc",
+		"concepts",
+		"the-home-depot",
+		"the-home-depot-3",
+		"the-home-depot-2",
+		"cyberdeck-gargoyle-research",
+		"gargoyle-spectrum-narrative",
+		"onenote-work-projects",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"concept",
+		"tier-1",
+		"recurring",
+		"project"
+	],
+	"category": "concepts"
+}

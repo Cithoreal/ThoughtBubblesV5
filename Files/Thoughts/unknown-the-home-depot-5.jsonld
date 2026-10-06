@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-the-home-depot-5",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Take lunch after doing trash', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll take my lunch after I do the trash, I guess.\", 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'The Home Depot 5.md', 'extracted_at': '2026-05-18T19:02:39.401496', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Adapt to AI and technology changes as fast as possible', 'type': 'explicit', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

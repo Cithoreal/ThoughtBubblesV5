@@ -1,0 +1,24 @@
+{
+	"@id": "dev-tree",
+	"@context": "tb",
+	"data": "Cyberspace V1 — Development Tree\n\nA quest log for building a persistent digital home. Four tracks, parallel paths, clear deliverables. Pick a track, start a phase, ship something.\n\nHow to Read This Document\n\nThis is a development pathway, not a task list. The work is organized into four parallel tracks — independent paths that can be worked on simultaneously. Each track has phases that build on each other sequentially, but the tracks themselves are mostly independent.\n\nDependencies between…",
+	"lastUpdated": "1790640000",
+	"createdAt": "1790553600",
+	"LinkTo": [
+		"spec",
+		"core-system",
+		"room-2-0",
+		"nanolucent-matter-of-time",
+		"spatial-authoring-research"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"active",
+		"spatial-computing",
+		"multiplayer",
+		"godot",
+		"development"
+	],
+	"category": "projects"
+}

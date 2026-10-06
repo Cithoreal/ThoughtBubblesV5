@@ -1,0 +1,18 @@
+{
+	"@id": "cloud-backup-research",
+	"@context": "tb",
+	"data": "Cloud Backup Options for Nextcloud (Optiplex)\n\nResearch into cloud backup targets for the self-hosted Nextcloud instance on Optiplex. Covers object storage services, VPS-as-secondary-node approaches, and Nextcloud-specific backup considerations.\n\nCurrent Setup Context\nNextcloud on Optiplex (home network, Tailscale-connected at 100.96.169.9)\nRestic already in use for local backups (cybership target works; elements had NTFS issues)\nOptiplex runs Immich, Forgejo, Caddy, etc.\nStar — main dev…",
+	"lastUpdated": "1789948800",
+	"createdAt": "1789948800",
+	"LinkTo": [],
+	"LinkFrom": [
+		"nextcloud"
+	],
+	"tags": [
+		"infra",
+		"backup",
+		"cloud",
+		"research"
+	],
+	"category": "infra"
+}

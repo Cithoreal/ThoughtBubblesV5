@@ -1,0 +1,10 @@
+{
+	"@id": "pc-vr-streaming",
+	"@context": "tb",
+	"data": "PC VR Streaming & Connectivity — Research Resources\n\n5.1 Wireless Streaming Pipeline\n\nSub-skill: Wireless Streaming Pipeline\nDocs:\nSetting up your Steam Frame for development (Steamworks) — Official Steam Frame setup guide: wireless adapter pairing, streaming configuration, direct mode vs Wi-Fi streaming\nSteam Frame — Valve Developer Community — Valve wiki page with full hardware specs including Wi-Fi 7 2x2, dual 5GHz/6GHz radios, wireless adapter details\nSteam Frame Preview – Hands-On (IGN) —…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

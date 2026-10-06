@@ -1,0 +1,12 @@
+{
+	"@id": "b297c2db",
+	"@context": "tb",
+	"data": "Work on speech\n\n\"So I'm going to be working on my speech.\"\n\nSource Journals\n[[Practicing Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Practicing-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

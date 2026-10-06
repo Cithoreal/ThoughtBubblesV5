@@ -1,0 +1,35 @@
+{
+	"@id": "adhd-execution-design",
+	"@context": "tb",
+	"data": "ADHD Execution Dysfunction & Systems Design\n\n\"I'm not low energy today, but I am having a really hard time focusing on what I need to get done. It kind of feels more like an actual ADD rather than just being low energy or low motivation. I have motivation and energy. I just...\"\n— cithoreal, Oct 25 journal (vault/journals/2025/10-25-add.md)\n\nContents\n[[#The Invisible Wall: Neuroscience of Task Initiation Paralysis]]\n[[#What Actually Works: Evidence-Based Interventions]]\n[[#The App Landscape:…",
+	"lastUpdated": "1786060800",
+	"createdAt": "1786060800",
+	"LinkTo": [
+		"-The-Invisible-Wall-Neuroscience-of-Task-Initiation-Paralysis",
+		"-What-Actually-Works-Evidence-Based-Interventions",
+		"-The-App-Landscape-What-Exists-What-s-Missing",
+		"-Design-Principles-for-ADHD-Friendly-Systems",
+		"-Connections-to-Cithoreal-s-Projects",
+		"-Sources-References",
+		"skill-trees",
+		"thought-bubbles",
+		"focus-system",
+		"2026-08-04-the-specs-are-the-procrastination",
+		"10-25-add"
+	],
+	"LinkFrom": [
+		"adhd-personal-deep-dive",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"concept",
+		"research",
+		"adhd",
+		"design",
+		"executive-function",
+		"skill-trees",
+		"thoughtbubbles",
+		"estia"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-practicing-speech",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Work on speech', 'type': 'explicit', 'status': 'new', 'raw_quote': \"So I'm going to be working on my speech.\", 'project': 'Work', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Practicing Speech.md', 'extracted_at': '2026-05-18T18:19:23.231394', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Submit application for Fancy and Freya (cats)', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I put in…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

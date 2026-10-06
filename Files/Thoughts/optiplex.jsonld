@@ -1,0 +1,29 @@
+{
+	"@id": "optiplex",
+	"@context": "tb",
+	"data": "Optiplex Node\n\nHardware\nCPU: Intel Core i5-6500 (4 cores, no HT) @ 3.20GHz\nRAM: 32GB DDR4\nStorage: 848GB SSD (/dev/sda1) + 3.6TB HDD (/dev/sdb2 at /mnt/storage)\nOS: Debian 13 (trixie)\n\nNetwork\nTailscale IP: 100.96.169.9\nLAN IP: 192.168.1.228 (DHCP, via TP-Link gigabit switch)\nEthernet Interface: enp0s31f6\nNetwork Profile: Wired DHCP (renamed from direct-star on 2026-08-01)\nPrevious Config: Was static 10.0.0.2/30 point-to-point with Star — switched to DHCP for switch topology\nCloudflare Tunnel:…",
+	"lastUpdated": "1785542400",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"infra",
+		"anythingllm",
+		"forgejo",
+		"pi5",
+		"2026-04-13-115228",
+		"2026-04-14-091917",
+		"2026-04-14-191600",
+		"2026-04-15-115429",
+		"projects-audio-journal-pipeline",
+		"elements-drive-reorg",
+		"journal-pipeline-ui",
+		"nextcloud-calendar-app",
+		"nextcloud-research"
+	],
+	"tags": [
+		"infra",
+		"optiplex"
+	],
+	"category": "infra"
+}

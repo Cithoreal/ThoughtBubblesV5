@@ -1,0 +1,12 @@
+{
+	"@id": "9c438403",
+	"@context": "tb",
+	"data": "Copy original file with metadata to external drive (11TB)\n\n\"I'll copy the original file metadata and all to my external drive, my 11 terabyte drive\"\n\nSource Journals\n[[Transcription pipeline sprint 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

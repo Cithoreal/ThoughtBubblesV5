@@ -1,0 +1,12 @@
+{
+	"@id": "6b06fcff",
+	"@context": "tb",
+	"data": "Move table in space\n\n\"So move table in space, which I'm doing.\"\n\nSource Journals\n[[Starting Air Hockey.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-Air-Hockey.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "12186849",
+	"@context": "tb",
+	"data": "Keep Clementine here with me\n\n\"Gotta keep Clementine here with me.\"\n\nSource Journals\n[[New Recording 10 7.tasks]]\n[[New Recording 7.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-10-7.tasks",
+		"New-Recording-7.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

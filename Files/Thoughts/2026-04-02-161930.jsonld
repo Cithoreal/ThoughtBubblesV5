@@ -1,0 +1,36 @@
+{
+	"@id": "2026-04-02-161930",
+	"@context": "tb",
+	"data": "Journal — 2026-04-02 16:19\n\nSummary\n\nDriving home after classes, the speaker reflects on their tired but productive week while planning a busy weekend of studying for upcoming STEM exams and improving their personal AI assistant, Calcifer. They detail technical goals like restructuring the AI's memory system to be more concise and enabling autonomous research capabilities, balancing these ambitions with social plans to play Overwatch and Lethal Company with friends.\n\nMood & Energy\n\n| Signal |…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"calcifer-vault"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe",
+		"calcifer-vault"
+	],
+	"tags": [
+		"journal",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project",
+		"theme/ai-development",
+		"theme/academic-pressure",
+		"theme/memory-architecture",
+		"theme/weekend-productivity",
+		"theme/autonomous-systems"
+	],
+	"category": "journals"
+}

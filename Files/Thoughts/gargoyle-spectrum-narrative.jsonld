@@ -1,0 +1,25 @@
+{
+	"@id": "gargoyle-spectrum-narrative",
+	"@context": "tb",
+	"data": "The Spectrum Room — A Room 2.0 Narrative\n\nWhat it feels like to stand inside the electromagnetic landscape.\n\nThe Walk-In\n\nYou come downstairs in the morning. Coffee in hand. The Quest 3 is already on — you've been wearing it since you left the bedroom, the house gently annotated with its usual layer of context. The thermostat by the stairs shows 68°F. Star's chassis by the desk pulses a soft blue ring — idle, healthy, all systems nominal. The Pi on the shelf has a small floating tag:…",
+	"lastUpdated": "1787616000",
+	"createdAt": "1787616000",
+	"LinkTo": [
+		"gargoyle-sensor-research",
+		"cyberdeck-gargoyle-research",
+		"room-2-0",
+		"star-system-vision"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"creative",
+		"room-2-0",
+		"gargoyle",
+		"spectrum",
+		"narrative"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-car-ride-home-3",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'End this recording, start a new one, and try to do a different topic', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I will end this recording, start a new one, and try to do a different topic.', 'project': 'Personal', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': 'Car ride home 3.md', 'extracted_at': '2026-05-03T18:09:33.271659', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n\nSource\nTranscript:…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

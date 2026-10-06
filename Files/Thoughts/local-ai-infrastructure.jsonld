@@ -1,0 +1,40 @@
+{
+	"@id": "local-ai-infrastructure",
+	"@context": "tb",
+	"data": "Concept: Local AI Infrastructure\n\nWhat It Is\ncithoreal's vision for AI is self-hosted first, cloud as bridge. He has been designing and building toward a local conversational AI assistant — one with persistent memory, access to his personal data, and no dependency on external services — since at least mid-2024.\n\nThis is both a homelab project and a philosophical position: his data, his models, his compute.\n\nDesign Sessions (2024 H2)\n\nConversational AI Assistant Plan (Sep 2024)\nDetailed…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2024-09-18_conversational-ai-assistant-plan",
+		"2024-08-10_llm-api-framework-design",
+		"2024-08-26_autogpt-alternatives-overview",
+		"2024-09-18_nextcloud-audio-transcription-system",
+		"2024-08-24_local-ai-assistant-setup",
+		"cybernautics-vision",
+		"audio-journal-pipeline",
+		"thought-bubbles",
+		"calcifer-character",
+		"star",
+		"anythingllm",
+		"pi5",
+		"cithoreal",
+		"the-grand-system"
+	],
+	"LinkFrom": [
+		"cybernautics-vision",
+		"personal-ai-system-vision",
+		"thought-bubbles",
+		"concepts",
+		"anythingllm",
+		"calcifer-voice-mode",
+		"homelab-ha-voice-2024"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"homelab",
+		"ai",
+		"project"
+	],
+	"category": "concepts"
+}

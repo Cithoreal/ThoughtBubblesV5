@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-journal-backlog",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Splice audio journals into chunks for pre-processing', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I needed to do a bit more pre-processing to like splice up audio journals into different chunks and then process it in lesser quantities', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Journal Backlog.md', 'extracted_at': '2026-05-18T17:13:24.548101', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

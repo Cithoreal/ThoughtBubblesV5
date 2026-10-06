@@ -1,0 +1,13 @@
+{
+	"@id": "grep-2026-04-01-191954",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2026/2026-04-01-191954.md\n\n11-people: [Katie, Calcifer]\n12-tags:\n13-  - journal\n14-  - theme/academic-pressure\n15-  - theme/ai-system-optimization\n16:  - theme/space-exploration\n17-  - theme/technological-transparency\n18-  - energy/medium\n19----\n20-\n21-# Journal — 2026-04-01 19:19\n22-\n23----\n24-\n25-## Summary\n26-\n27:The speaker records while driving to Katie's house, expressing stress about underperforming in school while troubleshooting technical degradation in their AI…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

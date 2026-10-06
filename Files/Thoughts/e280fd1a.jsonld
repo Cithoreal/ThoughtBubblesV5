@@ -1,0 +1,12 @@
+{
+	"@id": "e280fd1a",
+	"@context": "tb",
+	"data": "Set up Whisper Docker container automation for transcription\n\n\"Maybe that involves launching a Docker container, running Whisper to transcribe everything, and then shutting the Docker container down again\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

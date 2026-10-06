@@ -1,0 +1,12 @@
+{
+	"@id": "ed193f11",
+	"@context": "tb",
+	"data": "Get or set up the Christmas tree\n\n\"Caught the Christmas tree today.\"\n\nSource Journals\n[[12-5 Presence.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"12-5-Presence.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "steam-frame-plan",
+	"@context": "tb",
+	"data": "Steam Frame — Skill Tree Plan\n\nVision\n\nBecome an expert developer and tinkerer for the Steam Frame — Valve's standalone VR headset running SteamOS on ARM64. This means building standalone VR apps, understanding SteamOS/Holo Core internals, mastering the compatibility stack (Proton/FEX/Lepton), developing for OpenXR on the Frame, streaming PC VR, building accessories/modules, and modifying/extending the OS itself.\n\nChris is not starting from zero. He has a detailed study doc…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

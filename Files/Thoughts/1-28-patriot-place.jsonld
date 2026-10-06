@@ -1,0 +1,23 @@
+{
+	"@id": "1-28-patriot-place",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/1-28 Patriot Place.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 1-28 Patriot Place\nTranscribed: 2026-03-30 04:13  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:01]  \nOkay, okay.\n[00:00:02 → 00:00:07]  \nSticking my watch on since I don't have it on so that I can walk around.\n[00:00:07 → 00:00:10]  \nBeen watching some ReZero on episode 8.\n[00:00:10 →…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"mirrorworlds-themes"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

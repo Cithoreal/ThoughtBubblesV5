@@ -1,0 +1,20 @@
+{
+	"@id": "unknown-anatomy-z",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSummary\n\nThe speaker excitedly explores applications of a newly discovered open-source 3D anatomy tool for their 'Project Mirror' concept, envisioning a VR interface that displays personal health data layered onto anatomical models with real-time sensor integration. They outline technical implementation strategies and learning pathway ideas before shifting to practical notes about their coding bootcamp coursework and interview preparation.\n\nMood & Energy\n\n| Signal | Acoustic…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"skill-trees"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"journal",
+		"theme/project-mirror",
+		"theme/open-source-anatomy",
+		"theme/health-data-visualization",
+		"theme/technical-learning",
+		"theme/sensor-integration"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,44 @@
+{
+	"@id": "thoughtbubbles-godot-migration",
+	"@context": "tb",
+	"data": "ThoughtBubbles: Godot Migration\n\nWhat It Is\nThe migration of ThoughtBubbles from Unity to Godot Engine, which occurred during Oct–Nov 2025. This is a major architectural decision that shapes all future TB development.\n\nWhy Godot Won (Oct 2025 Analysis)\n\n| Factor | Verdict |\n|--------|---------|\n| XR/Quest support | Godot has strong OpenXR + Quest community plugins |\n| Editor tooling | Godot has mature visual editor; Bevy does not |\n| Language mix | Godot allows GDScript + Rust (GDExtension) for…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-10-02_vscode-unity-setup",
+		"2025-10-16_godot-vs-bevy-comparison",
+		"2025-10-20_id-generation-in-godot",
+		"2025-10-21_json-storage-issue-debugging",
+		"2025-10-21_philosophy-for-id-setting",
+		"2025-11-07_gdscript-vs-python",
+		"2025-11-08_saving-loading-philosophy",
+		"2025-11-08_image-loading-in-godot",
+		"2025-11-08_embedding-os-windows-in-godot",
+		"2025-11-08_linux-wayland-transparency-godot-45",
+		"2025-11-09_best-ide-for-godot",
+		"2025-11-11_godot-cpp-version-compatibility",
+		"2025-11-11_working-with-godot-cpp",
+		"thought-bubbles",
+		"semantic-web-and-linked-data",
+		"room-2-0",
+		"air-hockey-mr",
+		"systems-programming-2025",
+		"core-system"
+	],
+	"LinkFrom": [
+		"ecs-linked-data-architecture",
+		"semantic-web-and-linked-data",
+		"systems-programming-2025",
+		"thought-bubbles",
+		"concepts",
+		"room-2-0-vocab",
+		"projects-room-2-0",
+		"spatial-authoring-environment"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"active"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,26 @@
+{
+	"@id": "vault-temporal-scanner-rewrite",
+	"@context": "tb",
+	"data": "Vault Temporal Scanner Rewrite — Plan\n\nRewrite scripts/vault_temporal.py to detect time-sensitive facts in vault-style notes (frontmatter, bullet points, headers, tables) instead of first-person journal prose.\nProblem Analysis\n\nWhat's Wrong With the Current Scanner\n\nThe existing scanner (scripts/vault_temporal.py) uses regex patterns designed for first-person journal entries:\n\nThese patterns require phrases like \"I'm living in...\" or \"My salary is...\" — language that appears in audio journal…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"personal-finances",
+		"grad-school-options",
+		"health-strength",
+		"cybership",
+		"health-and-sleep",
+		"note-name"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"vault",
+		"temporal",
+		"scanner",
+		"planning"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-12-17-glory",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Empty the dishwasher', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I've got to empty that soon.\", 'project': 'Home', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '12-17 Glory.md', 'extracted_at': '2026-05-03T16:15:59.798448', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Clean the house', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I've got to clean the house a little bit\", 'project':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "fec5b28d",
+	"@context": "tb",
+	"data": "Start developing for Quest 3\n\n\"finally, I'm going to start developing for the Quest 3.\"\n\nSource Journals\n[[Setting up Quest Dev Environment.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Setting-up-Quest-Dev-Environment.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

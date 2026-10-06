@@ -1,0 +1,12 @@
+{
+	"@id": "41db7f38",
+	"@context": "tb",
+	"data": "Work on the chunker for LLM processing system\n\n\"I think the primary thing I need to work on for my whole LLM processing system is the chunker\"\n\nSource Journals\n[[2025-09-08 15-53-34.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-09-08-15-53-34.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

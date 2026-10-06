@@ -1,0 +1,20 @@
+{
+	"@id": "godot-xr-reference",
+	"@context": "tb",
+	"data": "Godot XR Reference\n\nReference implementation for Godot 4 XR plugins.\nRepo: <https://github.com/GodotVR/godot_xr_reference>\nLicense: MIT\nGodot version: 4.x\nStatus: Reference/example\n\nWhat It Provides\nShows how to build XR plugins for Godot 4\nDocuments the plugin API surface\nExample code for OpenXR extension integration\n\nRelevance\nIf the spatial authoring environment needs custom OpenXR extensions (e.g., for hand tracking features not covered by existing plugins), this is the template for…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-openxr-vendors"
+	],
+	"LinkFrom": [
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"foundation"
+	],
+	"category": "projects"
+}

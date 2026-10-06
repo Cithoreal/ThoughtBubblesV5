@@ -1,0 +1,12 @@
+{
+	"@id": "b5e0d868",
+	"@context": "tb",
+	"data": "Print second 3D model overnight\n\n\"I can just print it overnight\"\n\nSource Journals\n[[More Spice.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"More-Spice.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

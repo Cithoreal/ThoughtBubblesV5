@@ -1,0 +1,12 @@
+{
+	"@id": "269e351b",
+	"@context": "tb",
+	"data": "Implement Git into Node-RED for snapshots\n\n\"I implemented Git into Node-RED so that I can make snapshots as I go as I change things.\"\n\nSource Journals\n[[Updates on Projects.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Updates-on-Projects.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

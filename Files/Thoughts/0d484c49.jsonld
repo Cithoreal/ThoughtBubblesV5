@@ -1,0 +1,12 @@
+{
+	"@id": "0d484c49",
+	"@context": "tb",
+	"data": "Test recording with app at the same time\n\n\"And I'm gonna see if I can record with this at the same time.\"\n\nSource Journals\n[[New Recording 8.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-8.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,14 @@
+{
+	"@id": "maps-README",
+	"@context": "tb",
+	"data": "System Maps — Infrastructure Visualization\n\nCurrent State: Post-Migration ✅\n\nThe homelab has been consolidated. Pi5 services migrated to Optiplex (2026-04-15), Forgejo migrated from Pi4 to Optiplex (2026-04-20). Custom RAG pipeline (Qdrant + Ollama) is live on star.\n\nDevice Summary\n\n| Device | Role | IP | Key Services |\n|---|---|---|---|\n| star | Compute & AI workstation | 100.68.206.101 | Ollama, OpenClaw, Qdrant, Obsidian, Syncthing |\n| optiplex | Services host | 100.96.169.9 | Nextcloud,…",
+	"lastUpdated": "1776729600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"project"
+	],
+	"category": "infra"
+}

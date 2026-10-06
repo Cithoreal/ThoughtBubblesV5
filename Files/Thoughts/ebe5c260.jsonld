@@ -1,0 +1,12 @@
+{
+	"@id": "ebe5c260",
+	"@context": "tb",
+	"data": "Start cooking own breakfast\n\n\"I'll definitely start cooking my own breakfast I'll start with breakfast\"\n\nSource Journals\n[[One Exam Left.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"One-Exam-Left.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

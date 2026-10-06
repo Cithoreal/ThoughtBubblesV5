@@ -1,0 +1,12 @@
+{
+	"@id": "85c424d9",
+	"@context": "tb",
+	"data": "Set up conversation between chat completions API and event/task processors\n\n\"The main next thing I need to do is just set up the conversation between the chat completions API and this event processor and task processor\"\n\nSource Journals\n[[Inspiration Stream.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inspiration-Stream.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

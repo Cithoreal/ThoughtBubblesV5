@@ -1,0 +1,10 @@
+{
+	"@id": "spec-template",
+	"@context": "tb",
+	"data": "Specification Template for AI-Implemented Software\n\nHow to use this template: Replace all [bracketed] sections with your content. Delete sections that don't apply. Add sections if your project needs them. The goal is clarity and completeness — every sentence should change the implementer's behavior. If a sentence doesn't change what gets built or how it behaves, cut it.\nVision\n\nWhat is this? A one-paragraph description of the product. What does it do? What problem does it solve?\n\nWho is it for?…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

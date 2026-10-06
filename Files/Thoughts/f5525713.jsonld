@@ -1,0 +1,12 @@
+{
+	"@id": "f5525713",
+	"@context": "tb",
+	"data": "End current recording and start new one with different topic once off the ramp and onto the highway\n\n\"Yeah, I'm just going to end this and try to move on to something a bit more interesting. Once I'm off this ramp and onto the highway.\"\n\nSource Journals\n[[Car ride home 1.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Car-ride-home-1.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

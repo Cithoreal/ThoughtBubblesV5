@@ -1,0 +1,15 @@
+{
+	"@id": "skill-trees-index",
+	"@context": "tb",
+	"data": "Skill Trees Index\n\nActive learning tracks for cithoreal. Each tree maps existing knowledge (anchors) to gaps and grows organically as learning progresses.\n\nHow It Works\n\"Teach me about X\" → I search the vault for what you already know about X\nAnchor mapping → Existing knowledge becomes anchor points on the tree\nGap analysis → I identify what's missing around those anchors\nTeach → Start from the nearest gap, work outward\nLog progress → Every session logs what was covered, understanding level,…",
+	"lastUpdated": "1785715200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"index",
+		"skill-trees",
+		"learning"
+	],
+	"category": "learning"
+}

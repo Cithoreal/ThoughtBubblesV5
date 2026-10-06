@@ -1,0 +1,18 @@
+{
+	"@id": "alertmanager",
+	"@context": "tb",
+	"data": "Alertmanager\n\nConnection timeout to Alertmanager at 100.96.169.9:9093 detected during automated cron check. Monitoring pipeline blind - cannot confirm alert status. Investigation needed: verify optiplex host reachability, alertmanager service status, and Tailscale/firewall rules for port 9093.",
+	"lastUpdated": "1778976000",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"HOME",
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"alertmanager",
+		"monitoring"
+	],
+	"category": "infra"
+}

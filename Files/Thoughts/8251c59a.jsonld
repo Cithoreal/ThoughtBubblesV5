@@ -1,0 +1,12 @@
+{
+	"@id": "8251c59a",
+	"@context": "tb",
+	"data": "Create classroom setting for story\n\n\"I want to create a whole classroom\"\n\nSource Journals\n[[Fourth.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Fourth.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

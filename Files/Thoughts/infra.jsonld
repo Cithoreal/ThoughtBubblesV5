@@ -1,0 +1,50 @@
+{
+	"@id": "infra",
+	"@context": "tb",
+	"data": "Infra Index\n\n<!-- Auto view — Dataview renders this table from note frontmatter. -->\n\nCurated Index (manually maintained)\n\nNodes\n[[infra/star]] — Brain / GPU / OpenClaw host (100.68.206.101)\n[[infra/optiplex]] — Harbor / services host (100.96.169.9) — Nextcloud, Custom RAG (Qdrant), monitoring, Journal Pipeline\n[[infra/pi5]] — Home Assistant hub (100.89.195.87)\n[[infra/pi4]] — Library / Forgejo / Wiki.js (100.72.248.59)\n[[infra/crowls]] — Scout / mobile laptop…",
+	"lastUpdated": "1788134400",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star",
+		"optiplex",
+		"pi5",
+		"pi4",
+		"crowls",
+		"custom-rag-pipeline",
+		"openclaw-calcifer",
+		"openclaw",
+		"openclaw-config",
+		"openclaw-gateway",
+		"forgejo",
+		"rag-platform-comparison",
+		"hermes-gateway",
+		"gmail-auth",
+		"gmail-service",
+		"gmail-integration",
+		"gmail-oauth",
+		"alertmanager",
+		"monitoring-alertmanager",
+		"empty-messages-bug",
+		"immich",
+		"openclaw-agents",
+		"optiplex-backup-audit",
+		"pi3-power-audit",
+		"runbooks",
+		"mac-mini",
+		"macmini",
+		"README",
+		"network-topology",
+		"service-map",
+		"data-flow",
+		"dependency-map",
+		"optiplex-networking-incident-2026-08-05",
+		"homelab-stability-plan-2026-08-05"
+	],
+	"LinkFrom": [
+		"HOME"
+	],
+	"tags": [
+		"index"
+	],
+	"category": "index"
+}

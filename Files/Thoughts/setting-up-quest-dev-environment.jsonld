@@ -1,0 +1,26 @@
+{
+	"@id": "setting-up-quest-dev-environment",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Setting up Quest Dev Environment.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Setting up Quest Dev Environment\nTranscribed: 2026-03-30 12:57  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:08]  \nIt is 2.43pm, April 7th, 2024.\n[00:00:08 → 00:00:15]  \nI definitely have some stuff to say about Paige.\n[00:00:16 → 00:00:19]  \nMaybe I'll just get out some of…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"air-hockey-mr",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"air-hockey-mr"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

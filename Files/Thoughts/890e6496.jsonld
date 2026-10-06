@@ -1,0 +1,12 @@
+{
+	"@id": "890e6496",
+	"@context": "tb",
+	"data": "Send recording to Katie\n\n\"I'm going to send this to Katie\"\n\nSource Journals\n[[Short Term Project Goals and Future culmination.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Short-Term-Project-Goals-and-Future-culmination.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

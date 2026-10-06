@@ -1,0 +1,12 @@
+{
+	"@id": "a86eb2b4",
+	"@context": "tb",
+	"data": "Create templates for different views\n\n\"create templates as far as what the different views I'll want to load are\"\n\nSource Journals\n[[Short Term Project Goals and Future culmination.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Short-Term-Project-Goals-and-Future-culmination.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

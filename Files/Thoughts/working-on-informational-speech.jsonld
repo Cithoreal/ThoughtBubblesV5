@@ -1,0 +1,24 @@
+{
+	"@id": "working-on-informational-speech",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Working on Informational Speech.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Working on Informational Speech\nTranscribed: 2026-03-30 13:16  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 3.24pm, June 7th, 2024.\n[00:00:05 → 00:00:11]  \nAlright, I gotta get working on this speech due tonight, so...\n[00:00:13 → 00:00:18]  \nI have had Calcifer…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"ar-xr-development",
+		"room-2-0",
+		"project-calcifer-founding-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "3a91aa3d",
+	"@context": "tb",
+	"data": "Focus on links structure for ThoughtBubbles\n\n\"my next steps... is to focus on the links structure\"\n\nSource Journals\n[[Journal-It_is_one,_twenty_eight,_a_m.-1st_thought-Friday,_Dec-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_one-_twenty_eight-_a_m.-1st_thought-Friday-_Dec-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

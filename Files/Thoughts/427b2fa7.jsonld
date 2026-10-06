@@ -1,0 +1,12 @@
+{
+	"@id": "427b2fa7",
+	"@context": "tb",
+	"data": "Travel home in a couple days\n\n\"Going home in a couple days.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

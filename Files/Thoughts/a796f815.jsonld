@@ -1,0 +1,13 @@
+{
+	"@id": "a796f815",
+	"@context": "tb",
+	"data": "Brush teeth\n\n\"Just brushed my teeth, washed my face.\"\n\nSource Journals\n[[Mostly Silence.tasks]]\n[[Task System.tasks]]\n\nAll Quotes\n\"Just brushed my teeth, washed my face.\"\n\"I'm gonna brush my teeth.\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Mostly-Silence.tasks",
+		"Task-System.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

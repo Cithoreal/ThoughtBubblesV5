@@ -1,0 +1,26 @@
+{
+	"@id": "alienware",
+	"@context": "tb",
+	"data": "Node: alienware (Dell Alienware M17) — DECOMMISSIONED\n\nStatus\nDecommissioned 2026-04-13. 14-year-old laptop, not viable for any homelab role. Parts harvested for Optiplex migration.\n\nWhy Decommissioned\ni7-3740QM (Ivy Bridge, 2012) — outperformed by Optiplex's i5-6500 at half the power draw\nGTX 680M (Kepler) — no NVENC support for modern Plex, can't run current CUDA workloads\n16 GB DDR3 — limits container density; Optiplex has 32 GB DDR4\nLaptop form factor — not designed for 24/7 operation…",
+	"lastUpdated": "1776038400",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"homeassistant",
+		"pi5",
+		"pi4",
+		"star",
+		"pi5-optiplex-migration",
+		"homelab-infrastructure",
+		"finances-wishlist"
+	],
+	"LinkFrom": [
+		"infrastructure-productivity-habits-plan",
+		"infrastructure-visualization",
+		"inventory"
+	],
+	"tags": [
+		"infra",
+		"decommissioned"
+	],
+	"category": "infra"
+}

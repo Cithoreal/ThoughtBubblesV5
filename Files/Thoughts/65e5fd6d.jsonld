@@ -1,0 +1,12 @@
+{
+	"@id": "65e5fd6d",
+	"@context": "tb",
+	"data": "Migrate ThoughtBubbles from Godot 3.5 to Godot 4\n\n\"One thing I still really want to do is migrate from Godot 3.5 to Godot 4 with ThoughtBubbles.\"\n\nSource Journals\n[[Inbox-It_is_twelve_forty_three_a_m,_which-1st_thought-Sunday,_Mar-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inbox-It_is_twelve_forty_three_a_m-_which-1st_thought-Sunday-_Mar-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

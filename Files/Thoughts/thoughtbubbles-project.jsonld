@@ -1,0 +1,15 @@
+{
+	"@id": "thoughtbubbles-project",
+	"@context": "tb",
+	"data": "ThoughtBubbles — A Spatial Knowledge Environment\n\nThe definitive guide to the concept, its history, architecture, and future. Written for anyone encountering ThoughtBubbles for the first time — collaborators, professors, partners, and the curious.\n\nWhat Is ThoughtBubbles?\n\nThoughtBubbles is a concept for spatial knowledge organization — a system that renders your thoughts, memories, ideas, and goals as navigable 3D structures in extended reality (XR).\n\nImagine stepping inside your own mind.…",
+	"lastUpdated": "1785715200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"grad-school",
+		"thoughtbubbles"
+	],
+	"category": "projects"
+}

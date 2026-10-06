@@ -1,0 +1,12 @@
+{
+	"@id": "1f426b5f",
+	"@context": "tb",
+	"data": "Get filament splicing modules for 3D printer\n\n\"I'll in my own time get the um modules for splicing filament\"\n\nSource Journals\n[[Journal Backlog.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-Backlog.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

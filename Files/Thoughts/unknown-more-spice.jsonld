@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-more-spice",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': '3D print lithopane model', 'type': 'progress', 'status': 'in_progress', 'raw_quote': 'doing a 3d print right now', 'project': 'Creative', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'More Spice.md', 'extracted_at': '2026-05-18T17:44:06.024202', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Gift lithopane to Paige during date Friday night', 'type': 'explicit', 'status': 'new', 'raw_quote': 'i am going to…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

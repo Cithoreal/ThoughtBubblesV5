@@ -1,0 +1,12 @@
+{
+	"@id": "106bd7be",
+	"@context": "tb",
+	"data": "Play around with data stores and to-do lists in Home Assistant\n\n\"I'd like to play around more with data stores in Home Assistant and the to-do lists within Home Assistant.\"\n\nSource Journals\n[[Updates on Projects.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Updates-on-Projects.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

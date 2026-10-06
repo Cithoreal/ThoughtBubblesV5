@@ -1,0 +1,12 @@
+{
+	"@id": "2f7614c0",
+	"@context": "tb",
+	"data": "Plot remaining schoolwork as tasks in Nextcloud\n\n\"I plotted all of my remaining work as tasks in the next cloud interface, which also updates the reminders on my phone.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

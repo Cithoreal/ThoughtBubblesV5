@@ -1,0 +1,24 @@
+{
+	"@id": "introspection-11",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection 11.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection 11\nTranscribed: 2026-03-30 05:46  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nIt is a super nice day out.\n[00:00:03 → 00:00:06]  \nI'm going to go back to the lake.\n[00:00:06 → 00:00:10]  \nI did not get any sleep last night, which is fine.\n[00:00:13 → 00:00:16]  \nI'll…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/low"
+	],
+	"category": "journals"
+}

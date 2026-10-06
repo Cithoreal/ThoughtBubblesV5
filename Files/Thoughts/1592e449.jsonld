@@ -1,0 +1,12 @@
+{
+	"@id": "1592e449",
+	"@context": "tb",
+	"data": "Plan road trip\n\n\"I suppose I should put that on my to-do list, huh? planning out this road trip.\"\n\nSource Journals\n[[Task System Planning.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System-Planning.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

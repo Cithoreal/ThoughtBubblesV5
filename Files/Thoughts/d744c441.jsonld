@@ -1,0 +1,13 @@
+{
+	"@id": "d744c441",
+	"@context": "tb",
+	"data": "Drink water\n\n\"Drink some water.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n[[Meta Quest Unity.tasks]]\n\nAll Quotes\n\"Drink some water.\"\n\"I'll drink some water\"\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks",
+		"Meta-Quest-Unity.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

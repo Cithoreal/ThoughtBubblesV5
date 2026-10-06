@@ -1,0 +1,12 @@
+{
+	"@id": "6a01106a",
+	"@context": "tb",
+	"data": "See a movie tonight\n\n\"Going to see a movie tonight.\"\n\nSource Journals\n[[2025-04-25 16-21-55.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-04-25-16-21-55.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

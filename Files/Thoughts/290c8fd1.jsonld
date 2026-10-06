@@ -1,0 +1,12 @@
+{
+	"@id": "290c8fd1",
+	"@context": "tb",
+	"data": "Configure Kokoro TTS for Project Hearth satellite\n\n\"I just want to make sure Kokoro is set up correctly for Hearth, for the satellite\"\n\nSource Journals\n[[2026-04-30 16-56-58.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-30-16-56-58.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

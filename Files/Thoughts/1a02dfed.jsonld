@@ -1,0 +1,12 @@
+{
+	"@id": "1a02dfed",
+	"@context": "tb",
+	"data": "Process this journal to organize tasks\n\n\"I'll of course be processing this journal itself to help me organize my tasks and my thoughts for the last little bit.\"\n\nSource Journals\n[[Transcription pipeline sprint.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Transcription-pipeline-sprint.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,13 @@
+{
+	"@id": "2026-07-20",
+	"@context": "tb",
+	"data": "2026-07-20\n\nEvents\nCreated MEXT Scholarship 2028 research document at vault/projects/mext-scholarship-2028.md — covers both Embassy and University recommendation routes, full timelines, eligibility, documents, strategic considerations, and Boston Consulate details\nVault steward run 2026-07-20: Created stubs for infra/cybership (27 broken links), infra/nextcloud (5 broken links), infra/drives/star-pi5 (3 broken links). Merged extracted tasks from 128 journals/unknown files into year-folder…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

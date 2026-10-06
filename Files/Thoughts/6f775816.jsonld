@@ -1,0 +1,12 @@
+{
+	"@id": "6f775816",
+	"@context": "tb",
+	"data": "Add empty string validation for recall thought\n\n\"And also just give it a if recall thought does not equal empty string\"\n\nSource Journals\n[[Journal-Exactly_just_had_to_stop_recording._But-1st_thought-Wednesday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-Exactly_just_had_to_stop_recording._But-1st_thought-Wednesday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

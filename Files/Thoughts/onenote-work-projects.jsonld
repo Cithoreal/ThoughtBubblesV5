@@ -1,0 +1,42 @@
+{
+	"@id": "onenote-work-projects",
+	"@context": "tb",
+	"data": "Work Projects (OneNote Archive)\n\nWhat It Is\ncithoreal's professional/school XR development projects, documented in OneNote. Mostly Unity-era projects circa 2021–2022. These are portfolio artifacts and design artifacts.\n\nAI Assistant / Project Copilot\nFrom [[OneNote/Work/AI Assistant/Project Copilot]]:\nAI personality utilities for projects:\nDocumentation personality\nAGILE flow personality\nMarketability/profitability analysis\nCreativity/self-expression enhancement\nScope expansion vs. condensation…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"Project-Copilot",
+		"Azure-API-List",
+		"Brainstorm",
+		"Arms",
+		"Head",
+		"Torso",
+		"Legs",
+		"Feet",
+		"Waist",
+		"Fashion",
+		"star-system-vision",
+		"room-2-0",
+		"About-Me",
+		"Portfolio",
+		"Articles-and-Ideas",
+		"Progression-Tree",
+		"Structure",
+		"Tasks",
+		"xr-development-arc",
+		"thought-bubbles",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"projects",
+		"cyberdeck-gargoyle-research",
+		"onenote-synthesis"
+	],
+	"tags": [
+		"project",
+		"xr",
+		"work",
+		"archive"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,36 @@
+{
+	"@id": "2026-04-01-191954",
+	"@context": "tb",
+	"data": "Journal — 2026-04-01 19:19\n\nSummary\n\nThe speaker records while driving to Katie's house, expressing stress about underperforming in school while troubleshooting technical degradation in their AI assistant Calcifer caused by context window limitations. They share excitement about the Artemis II launch, discuss lunar mission plans, and brainstorm solutions for better AI memory management before signing off to enjoy music during the rainy drive.\n\nMood & Energy\n\n| Signal | Acoustic | Semantic…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision",
+		"audio-journal-pipeline",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/cybernautics",
+		"topic/calcifer",
+		"personal/relationships",
+		"tech/ai-memory",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"project",
+		"theme/academic-pressure",
+		"theme/ai-system-optimization",
+		"theme/space-exploration",
+		"theme/technological-transparency"
+	],
+	"category": "journals"
+}

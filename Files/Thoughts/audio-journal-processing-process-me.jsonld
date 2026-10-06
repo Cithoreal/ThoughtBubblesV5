@@ -1,0 +1,29 @@
+{
+	"@id": "audio-journal-processing-process-me",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Audio Journal Processing (Process me).md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Audio Journal Processing (Process me)\nTranscribed: 2026-03-30 11:48  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:19]  \nit is 1 45 a.m february 2nd 2024 indeed indeed i just want to record a bit of an update um it's been a while um you know\n[00:00:20 → 00:00:21]  \nIt's…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

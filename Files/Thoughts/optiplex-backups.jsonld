@@ -1,0 +1,15 @@
+{
+	"@id": "optiplex-backups",
+	"@context": "tb",
+	"data": "Optiplex Backup Strategy\n\nStatus: ✅ OPERATIONAL (2026-04-19)\n\nRestic Repos\n| Repo | Location | Disk | Purpose |\n|------|----------|------|---------|\n| restic-nextcloud | /mnt/storage/backups/restic-nextcloud | Samsung T7 (3.6TB external SSD) | Versioned Nextcloud snapshots |\n| restic-internal | /mnt/storage/backups/restic-internal | SanDisk (894GB internal) | Off-device redundancy |\nPasswords: /root/.config/restic/password-nextcloud and password-internal\nRetention T7: 7 daily, 4 weekly, 3…",
+	"lastUpdated": "1781654400",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

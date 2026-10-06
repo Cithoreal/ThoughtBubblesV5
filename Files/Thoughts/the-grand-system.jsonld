@@ -1,0 +1,31 @@
+{
+	"@id": "the-grand-system",
+	"@context": "tb",
+	"data": "The Grand System\n\nA living document tracking the original vision and current build status.\nLast updated: 2026-04-08 by Calcifer\n\nWhat It Is\n\nThe Grand System is cithoreal's personal intelligence stack — an interconnected architecture where thoughts don't get lost. It is not a single app or project. It is the operating system that everything else runs on.\n\nAt its core: capture everything → process it into structured knowledge → give it agency to surface what matters → build interfaces to…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"calcifer-character",
+		"community-first-adoption-strategy",
+		"core-system",
+		"cybernautics-vision",
+		"local-ai-infrastructure",
+		"personal-ai-system-vision",
+		"refocus",
+		"skill-trees",
+		"solid-pod-sovereignty",
+		"task-system-gamified",
+		"thought-bubbles",
+		"projects",
+		"vr-media-viewer",
+		"2026-04-08-115011",
+		"adhd-personal-deep-dive",
+		"calcifer-vault",
+		"internship-budget-2026"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

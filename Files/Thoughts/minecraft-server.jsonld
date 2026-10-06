@@ -1,0 +1,33 @@
+{
+	"@id": "minecraft-server",
+	"@context": "tb",
+	"data": "Minecraft Server (Personal)\n\nWhat It Is\ncithoreal runs a private Minecraft server for personal use, with ongoing configuration, modding, and datapack work throughout 2025. A recurring practical project alongside the larger systems work.\n\nTechnical Stack\nFabric mods (server-side)\nDynmap for web-based map viewing\nCustom datapacks (stackable potions, etc.)\nSnapshot pruning/world management\n\nEvidence from ChatGPT\n[[_archive/reference/chatgpt/2025/07/2025-07-27_naming-tools-in-minecraft]] — naming…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-07-27_naming-tools-in-minecraft",
+		"2025-07-27_spawner-farm-distance",
+		"2025-07-31_download-minecraft-world-files",
+		"2025-07-31_dynmap-authentication-setup",
+		"2025-07-31_minecraft-disconnect-packet-error",
+		"2025-08-18_add-rabbit-stew-stack",
+		"2025-08-19_mod-compatibility-query",
+		"2025-08-20_server-side-fabric-mods",
+		"2025-08-21_minecraft-snapshot-pruning",
+		"2025-08-23_ticking-block-entity-crash",
+		"cybernautics-vision",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"thought-bubbles",
+		"projects",
+		"calcifer-vault",
+		"personal-finances"
+	],
+	"tags": [
+		"project",
+		"parked",
+		"chatgpt-sourced"
+	],
+	"category": "projects"
+}

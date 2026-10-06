@@ -1,0 +1,12 @@
+{
+	"@id": "0ce5d928",
+	"@context": "tb",
+	"data": "Implement the updated art from Dad\n\n\"implement that\"\n\nSource Journals\n[[To Do + blog post.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"To-Do-blog-post.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

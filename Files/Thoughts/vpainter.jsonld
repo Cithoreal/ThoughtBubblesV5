@@ -1,0 +1,21 @@
+{
+	"@id": "vpainter",
+	"@context": "tb",
+	"data": "VPainter\n\n3D vertex painting plugin for Godot.\nRepo: <https://github.com/tomankirilov/VPainter>\nLicense: Check repo\nGodot version: 4.x\nStatus: Listed in awesome-godot\n\nWhat It Provides\nPaint directly on 3D mesh vertices in the Godot editor\nColor/property painting on surfaces\n\nRelevance\nDemonstrates direct 3D manipulation in Godot. The painting-on-surfaces pattern could inform how users annotate or color-code thought bubbles in 3D space.\n\nInforms\n[[goal-node-visualization]] — visual…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-node-visualization",
+		"goal-spatial-authoring"
+	],
+	"LinkFrom": [
+		"goal-node-visualization",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"creative"
+	],
+	"category": "projects"
+}

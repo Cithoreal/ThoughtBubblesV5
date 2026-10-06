@@ -1,0 +1,27 @@
+{
+	"@id": "vault-pruning-knowledge-map",
+	"@context": "tb",
+	"data": "Vault Pruning — Knowledge Map\n\nConsolidated index of everything we know about vault pruning and forgetting. Written 2026-08-30 after discovering that the knowledge itself was so scattered that even I — who built it — forgot half of it existed. This note is the map; the linked notes are the territory.\n\nThe one-paragraph summary: The vault's forgetting system has two live tiers (stale-note flagging, superseding), one partially-built tier (strength decay — running weekly since Aug 17, deliberately…",
+	"lastUpdated": "1788048000",
+	"createdAt": "1788048000",
+	"LinkTo": [
+		"intake-filtering",
+		"forgetting-mechanism",
+		"forgetting-tier-3-analysis",
+		"llm-memory-landscape-2026",
+		"memory-system-improvements",
+		"current-curiosity"
+	],
+	"LinkFrom": [
+		"forgetting-mechanism"
+	],
+	"tags": [
+		"concept",
+		"memory",
+		"forgetting",
+		"pruning",
+		"knowledge-map",
+		"index"
+	],
+	"category": "concepts"
+}

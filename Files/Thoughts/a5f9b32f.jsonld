@@ -1,0 +1,12 @@
+{
+	"@id": "a5f9b32f",
+	"@context": "tb",
+	"data": "Set up bedtime automation to turn off computer at 1:30\n\n\"set up some automations for going to sleep... set it so that my computer just turns off again like i used to do\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

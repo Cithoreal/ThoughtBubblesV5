@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-11-16-nothing-to-complain-about",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Take Adderall tomorrow to fight fatigue from eating pizza', 'type': 'explicit', 'status': 'new', 'raw_quote': \"i'm definitely gonna want to take an adderall tomorrow and really try to fight through any um fatigue i feel from from eating from eating that\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': '11-16 Nothing to complain about.md', 'extracted_at': '2026-05-03T15:59:28.005913', 'first_mentioned':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

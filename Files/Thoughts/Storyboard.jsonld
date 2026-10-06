@@ -1,0 +1,15 @@
+{
+	"@id": "Storyboard",
+	"@context": "tb",
+	"data": "Storyboard",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"fiction-worldbuilding"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "fe0a3389",
+	"@context": "tb",
+	"data": "Throw out old medicine bottles\n\n\"I'll throw out the old medicine bottles too.\"\n\nSource Journals\n[[Introspection 11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

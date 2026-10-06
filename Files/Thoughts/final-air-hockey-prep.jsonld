@@ -1,0 +1,26 @@
+{
+	"@id": "final-air-hockey-prep",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Final Air Hockey Prep.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Final Air Hockey Prep\nTranscribed: 2026-03-30 12:06  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 11.15pm, August 4th, 2024.\n[00:00:09 → 00:00:09]  \nIn my room.\n[00:00:09 → 00:00:15]  \nIt's kind of funny, I haven't recorded in my room much at all recently.\n[00:00:16 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"air-hockey-mr",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"air-hockey-mr"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"topic/air-hockey",
+		"personal/health-sleep",
+		"tech/audio-pipeline",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,30 @@
+{
+	"@id": "11-8-Character-Focus.tasks",
+	"@context": "tb",
+	"data": "11 8 Character Focus.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"089caaa6",
+		"18dbec02",
+		"447361cc",
+		"7b02b8cc",
+		"831ba203",
+		"8c101ab9",
+		"aa278e21",
+		"b10dba4b",
+		"bf435b93",
+		"c0301de5",
+		"d30d7375",
+		"e563734e",
+		"ecf2cb43",
+		"ed8b45c2",
+		"f031d801",
+		"f8e78d25"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

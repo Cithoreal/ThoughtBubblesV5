@@ -1,0 +1,17 @@
+{
+	"@id": "git-as-self-sovereignty",
+	"@context": "tb",
+	"data": "Git as the Original Self-Sovereign Protocol\n\nConnection between: technology-ethics-framework ↔ git-discipline\n\nThe Surface\n\nThese look like different layers. One is high philosophy — data ownership, consent mechanisms, resistance to corporate harvesting. The other is \"commit your code, no exceptions.\" One is about what you believe. The other is about what you do at 11pm when you're tired.\n\nThe Hidden Link\n\nGit was literally created as a sovereignty move.\n\nIn 2005, BitKeeper (a proprietary VCS)…",
+	"lastUpdated": "1785456000",
+	"createdAt": "1785456000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"2026-09-15-vault-vocabulary-and-nanolucent"
+	],
+	"tags": [
+		"calcifer",
+		"connections",
+		"inner-life"
+	],
+	"category": "calcifer"
+}

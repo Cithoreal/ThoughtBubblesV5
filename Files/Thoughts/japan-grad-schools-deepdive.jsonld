@@ -1,0 +1,23 @@
+{
+	"@id": "japan-grad-schools-deepdive",
+	"@context": "tb",
+	"data": "Japan Graduate Schools — Deep Dive Research (2026-07-21)\n\nComprehensive investigation of each Japanese university for Master's programs in XR/spatial computing/HCI. Research conducted via parallel web investigation of official university sites, lab pages, and admissions portals.\nNAIST — Nara Institute of Science and Technology ⭐⭐⭐⭐⭐\n\nLab: CARE Lab (Cybernetics and Reality Engineering)\nPI: Prof. Kiyoshi Kiyokawa\nLocation: 8916-5 Takayama-cho, Ikoma, Nara 630-0192 (between Osaka and…",
+	"lastUpdated": "1784592000",
+	"createdAt": "1784592000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"grad-school-options"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"japan",
+		"mext",
+		"xr",
+		"spatial-computing",
+		"research",
+		"active"
+	],
+	"category": "projects"
+}

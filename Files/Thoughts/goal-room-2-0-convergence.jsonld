@@ -1,0 +1,29 @@
+{
+	"@id": "goal-room-2-0-convergence",
+	"@context": "tb",
+	"data": "Goal: Room 2.0 Convergence\n\nSpatial anchors mapping thought bubbles to physical locations. Walk up to a device, see its context.\n\nWhat This Is\nThe bridge between digital thought space and physical space. Thought bubbles anchored to real-world objects and locations — the Room 2.0 vision meeting ThoughtBubbles.\n\nSpecific Behaviors Needed\nPhysical anchoring — pin a thought bubble to a real-world position (e.g., above Star's monitor)\nPersistence — anchored bubbles survive between sessions (spatial…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-openxr-vendors",
+		"godot-46-xr-features",
+		"goal-spatial-authoring",
+		"goal-node-visualization",
+		"room-2-0",
+		"infrastructure-visualization",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"godot-46-xr-features",
+		"godot-openxr-vendors",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"goal",
+		"spatial-authoring",
+		"feature",
+		"room-2-0"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,27 @@
+{
+	"@id": "lorien",
+	"@context": "tb",
+	"data": "Lorien\n\nInfinite-canvas drawing/whiteboarding app built in Godot. Supports drawing tablets and pressure sensitivity.\nRepo: <https://github.com/mbrlabs/Lorien>\nLicense: MIT\nGodot version: 4.x\nStatus: Active, listed in awesome-godot\n\nWhat It Provides\nInfinite zoomable canvas\nFreehand drawing with pressure sensitivity\nPan, zoom, navigate smoothly across infinite space\nBuilt entirely in Godot using Control nodes and custom drawing\n\nRelevance to Spatial Authoring\nThe infinite canvas interaction is…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-navigation",
+		"goal-spatial-authoring",
+		"goal-node-visualization",
+		"godotsvg",
+		"pixelorama"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"pixelorama",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"creative",
+		"reference"
+	],
+	"category": "projects"
+}

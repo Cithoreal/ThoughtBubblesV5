@@ -1,0 +1,12 @@
+{
+	"@id": "1ff9f48c",
+	"@context": "tb",
+	"data": "Backend has data and frontend displays mock data\n\n\"The backend has the data. The frontend displays the mock data\"\n\nSource Journals\n[[2026-04-02 11-44-37.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-11-44-37.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "9b9ba074",
+	"@context": "tb",
+	"data": "Work on Udacity course project\n\n\"Like this morning I started working on my project for the Udacity course.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

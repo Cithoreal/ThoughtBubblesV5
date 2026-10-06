@@ -1,0 +1,15 @@
+{
+	"@id": "Iron-Man",
+	"@context": "tb",
+	"data": "Iron Man",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"star-system-vision"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

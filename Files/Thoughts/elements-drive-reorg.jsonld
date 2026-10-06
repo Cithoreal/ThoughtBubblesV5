@@ -1,0 +1,26 @@
+{
+	"@id": "elements-drive-reorg",
+	"@context": "tb",
+	"data": "Project: Elements Drive Reorganization\n\nVision\nDeprecate Elements drive as primary working storage. Refresh as cold archive. Physically move to pi5. Prune, reorganize, rsync critical data to optiplex SSD.\n\nStatus\nPlan defined. Audit session needed.\n\nNext action:\n[ ] Dedicated session — prune, reorganize, rsync critical data to optiplex SSD\n\n_2026-06-08:_ Backlogged: Transfer audio files from Elements to Optipix pending execution.\nContext\nElements drive holds years of audio journals and other…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1774915200",
+	"LinkTo": [
+		"audio-journal-pipeline",
+		"optiplex",
+		"elements-drive",
+		"journal-pipeline-ui"
+	],
+	"LinkFrom": [
+		"HOME",
+		"projects",
+		"elements-drive",
+		"projects-audio-journal-pipeline",
+		"calcifer-vault",
+		"journal-pipeline-ui"
+	],
+	"tags": [
+		"project",
+		"in-progress"
+	],
+	"category": "projects"
+}

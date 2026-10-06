@@ -1,0 +1,12 @@
+{
+	"@id": "d08d8f98",
+	"@context": "tb",
+	"data": "Set up WebSocket connection between Godot and Node-RED\n\n\"It was a bit of a pain, but I got WebSockets working within Godot to connect to... Node-RED.\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

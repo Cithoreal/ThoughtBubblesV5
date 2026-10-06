@@ -1,0 +1,12 @@
+{
+	"@id": "c4b60435",
+	"@context": "tb",
+	"data": "Work on V5 project in Godot (implementing JSON data saving)\n\n\"I've been working on V5 again. I've been working on the Godot version. Uh, and just working on saving to, uh, JSON, like, data to start with.\"\n\nSource Journals\n[[2025-10-21 08-49-35.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-10-21-08-49-35.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

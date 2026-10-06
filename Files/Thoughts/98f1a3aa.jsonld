@@ -1,0 +1,12 @@
+{
+	"@id": "98f1a3aa",
+	"@context": "tb",
+	"data": "Consult AI on Neo4j and InfluxDB setup\n\n\"And I should just consult AI more on the whole setup\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

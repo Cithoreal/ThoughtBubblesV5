@@ -1,0 +1,25 @@
+{
+	"@id": "2026-04-21-222048",
+	"@context": "tb",
+	"data": "Journal — 2026-04-21 22:20\n\nSummary\n\nThe speaker recounts a pleasant evening celebrating Katie's father's birthday before detailing frustrations with Claude Talk's voice interface, which they found too impatient and restrictive for meaningful interaction. They outline ambitious plans to build a custom AI companion named Calcifer featuring unique audio characteristics, asynchronous agent-based architecture for complex queries, and the capacity for evolving self-determined identity.\n\nMood &…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"theme/ai-voice-interaction",
+		"theme/custom-technology-development",
+		"theme/time-management",
+		"theme/identity-design",
+		"theme/productivity-optimization"
+	],
+	"category": "journals"
+}

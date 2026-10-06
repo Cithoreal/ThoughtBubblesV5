@@ -1,0 +1,12 @@
+{
+	"@id": "8e3e4471",
+	"@context": "tb",
+	"data": "Verify exact due time for SLA sheet\n\n\"I should even make sure I know exactly when it's due\"\n\nSource Journals\n[[2026-04-02 16-19-30.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-02-16-19-30.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

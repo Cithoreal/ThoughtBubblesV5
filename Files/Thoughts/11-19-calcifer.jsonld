@@ -1,0 +1,31 @@
+{
+	"@id": "11-19-calcifer",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-19 Calcifer.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-19 Calcifer\nTranscribed: 2026-03-30 04:47  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nWell, it's the 19th now.\n[00:00:02 → 00:00:20]  \nI'm not going to quite say tomorrow I start the AI class because it's one hour into the 19th and I still have to sleep and experience the 19th,…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"index"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/python",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

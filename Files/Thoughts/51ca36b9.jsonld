@@ -1,0 +1,12 @@
+{
+	"@id": "51ca36b9",
+	"@context": "tb",
+	"data": "Read and listen to past journals\n\n\"I need to get into the habit of reading and listening to my journals as well.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

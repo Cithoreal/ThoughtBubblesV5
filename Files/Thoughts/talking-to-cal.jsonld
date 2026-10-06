@@ -1,0 +1,30 @@
+{
+	"@id": "talking-to-cal",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Talking to Cal.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Talking to Cal\nTranscribed: 2026-03-30 13:05  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:09]  \nIt is 4 54 PM, June 15th, 2024 out on the borderland trails.\n[00:00:10 → 00:00:12]  \nMy sixth time coming here this spring.\n[00:00:15 → 00:00:19]  \nJust walking, getting some exercise.\n[00:00:19 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"fiction-worldbuilding"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/estia",
+		"topic/xr-development",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,14 @@
+{
+	"@id": "spec",
+	"@context": "tb",
+	"data": "Buckets — Finance Visualization App\n\nOrigin\nHandwritten design by Chris DiCarlo, Sept 24 2026. Core metaphor: money as liquid energy flowing from a faucet into buckets that fill, drain, and redistribute. A deep savings pool represents long-term investments/retirement with goal lines.\n\nConcept\n\nMoney is visualized as a flow of liquid from a faucet (income) into buckets (budget categories). Buckets fill on payday and drain as money is spent. Wishlist buckets have a visible \"full\" line — when…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"play-bleed",
+		"buckets-app",
+		"dev-tree"
+	],
+	"category": "projects"
+}

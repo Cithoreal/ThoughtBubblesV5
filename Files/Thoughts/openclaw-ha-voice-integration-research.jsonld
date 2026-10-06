@@ -1,0 +1,16 @@
+{
+	"@id": "openclaw-ha-voice-integration-research",
+	"@context": "tb",
+	"data": "OpenClaw ↔ Home Assistant Voice Integration Research\n\nDate: 2026-08-30\nGoal: Wire OpenClaw (Calcifer agent on Star) as the conversation/voice brain for HA voice satellite (Satellite1, ESPHome + Wyoming)\nOpenClaw Side — What's Available\n\n1A. OpenAI-Compatible Chat Completions Endpoint (BUILT-IN)\n\nSource: /home/cithoreal/.nvm/versions/node/v24.16.0/lib/node_modules/openclaw/docs/gateway/openai-http-api.md\n\nOpenClaw Gateway has a built-in OpenAI-compatible HTTP API. It is disabled by…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"openclaw",
+		"homeassistant",
+		"voice"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,31 @@
+{
+	"@id": "adhd-personal-deep-dive",
+	"@context": "tb",
+	"data": "ADHD & Cithoreal: A Personal Deep Dive\n\n\"I'm not low energy today, but I am having a really hard time focusing on what I need to get done. It kind of feels more like an actual ADD rather than just being low energy or low motivation. I have motivation and energy. I just...\"\n— cithoreal, Oct 25, 2025 (vault/journals/2025/10-25-add.md)\n\n\"I've been finding myself... I wouldn't call it procrastinating but it's definitely like an ADD brain type... okay I want to do this thing and then I sit there…",
+	"lastUpdated": "1787529600",
+	"createdAt": "1786060800",
+	"LinkTo": [
+		"adhd-execution-design",
+		"focus-system",
+		"infrastructure-productivity-habits-plan",
+		"task-system-gamified",
+		"cycles-app",
+		"cithoreal-identity",
+		"the-grand-system",
+		"noticed",
+		"current-curiosity",
+		"2026-07-30-infrastructure-as-avoidance"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"research",
+		"adhd",
+		"personal",
+		"synthesis",
+		"deep-dive"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,31 @@
+{
+	"@id": "2026-05-18-141102",
+	"@context": "tb",
+	"data": "Journal — 2026-05-18 14:11\n\nSummary\n\nA recent graduate records an audio journal while hiking on a trail after visiting a dispensary, reflecting on their burnout and need for rest despite graduating successfully. They outline ambitious future plans involving learning the Bevy game engine and building physical strength, while acknowledging they are currently too exhausted to force productivity. The entry concludes with them checking and confirming their final grades, receiving an unexpected A in…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"cybernautics-vision"
+	],
+	"LinkFrom": [
+		"journal",
+		"feedback-layer",
+		"2026-08-04-journal",
+		"222-rehearsal",
+		"all-my-challenges-for-this",
+		"anatomy-z",
+		"journals-index",
+		"bevy-physics-mastery",
+		"health-strength",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"journal",
+		"theme/post-graduation-transition",
+		"theme/burnout-and-recovery",
+		"theme/game-development",
+		"theme/physical-fitness",
+		"theme/ai-assistant-development"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "f6e5b4ad",
+	"@context": "tb",
+	"data": "Create sheet to keep track of stuff\n\n\"maybe I'll just have a sheet where I just keep track of stuff.\"\n\nSource Journals\n[[Starting Air Hockey.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-Air-Hockey.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

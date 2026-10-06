@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-visualizing-thought-bubbles",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Do calculus homework tonight', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I got, well, some homework to do tonight... My thumb represents the calculus homework', 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Visualizing Thought Bubbles.md', 'extracted_at': '2026-05-18T19:17:34.425630', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Do critical thinking homework (read…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

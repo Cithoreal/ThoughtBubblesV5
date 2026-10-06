@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-11-23-me-time",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Buy airplane tickets', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I should buy it soon.', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '11-23 Me time.md', 'extracted_at': '2026-05-03T16:05:54.483646', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n\nSource\nTranscript: /home/cithoreal/AudioJournals/raw_transcripts/11-23 Me time.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-23…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

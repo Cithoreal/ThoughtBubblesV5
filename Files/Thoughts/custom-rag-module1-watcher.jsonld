@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module1-watcher",
+	"@context": "tb",
+	"data": "Module 1: Document Source — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nThe document source module watches the vault filesystem for changes and pushes them to the ingest queue. It's the pipeline's eyes — the simplest module by design, with a single responsibility: detect changes and emit events.\n\nTwo modes of operation:\nStartup scan — walks the vault on boot, compares against SQLite, pushes new/changed files\nLive watcher…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-1"
+	],
+	"category": "projects"
+}

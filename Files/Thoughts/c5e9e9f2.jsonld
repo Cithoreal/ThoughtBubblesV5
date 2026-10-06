@@ -1,0 +1,12 @@
+{
+	"@id": "c5e9e9f2",
+	"@context": "tb",
+	"data": "Research text-to-speech generation for Calcifer voice messages\n\n\"So I'll look into that.\"\n\nSource Journals\n[[Sunday Update.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Sunday-Update.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

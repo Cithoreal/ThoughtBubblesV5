@@ -1,0 +1,12 @@
+{
+	"@id": "7a41b88b",
+	"@context": "tb",
+	"data": "Complete swimming session\n\n\"I got my swim time in\"\n\nSource Journals\n[[New Recording 5.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"New-Recording-5.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

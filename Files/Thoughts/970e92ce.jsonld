@@ -1,0 +1,12 @@
+{
+	"@id": "970e92ce",
+	"@context": "tb",
+	"data": "Watch 3Blue1Brown videos\n\n\"Watch more... What is it? Three brown, one blue?\"\n\nSource Journals\n[[Planning AI Systems.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

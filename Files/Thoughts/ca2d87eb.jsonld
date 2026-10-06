@@ -1,0 +1,12 @@
+{
+	"@id": "ca2d87eb",
+	"@context": "tb",
+	"data": "Prepare and run Star Trek Adventures session\n\n\"I want to do a session of Star Trek Adventures... I'd love to just be in the thick of it by then\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,17 @@
+{
+	"@id": "dependency-map",
+	"@context": "tb",
+	"data": "Dependency Map — Post-Migration\n\nLegend: 🔴 Critical · 🟡 RAG · 🟢 Productivity · 🔵 Monitoring · 💾 Storage · 🌐 Network\n\nFailure Scenarios\n\n🔴 If star goes down\n| Impact | Severity |\n|---|---|\n| OpenClaw offline — no Calcifer | CRITICAL |\n| Ollama offline — no embeddings, no LLM | CRITICAL |\n| Qdrant offline — no semantic search | CRITICAL |\n| Vault inaccessible | CATASTROPHIC |\n| Elements drive disconnected | CATASTROPHIC |\n| Obsidian offline | HIGH |\n| Syncthing source offline | MEDIUM |\n\n🔴 If…",
+	"lastUpdated": "1776729600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra",
+		"nextcloud"
+	],
+	"tags": [
+		"infra",
+		"map"
+	],
+	"category": "infra"
+}

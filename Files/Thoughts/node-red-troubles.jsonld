@@ -1,0 +1,25 @@
+{
+	"@id": "node-red-troubles",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Node Red Troubles.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Node Red Troubles\nTranscribed: 2026-03-30 12:36  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:04]  \nIt is 1.04 AM, June 30th, 2024.\n[00:00:10 → 00:00:32]  \njust watched a couple of reaction youtubers that i really like um halo and kiss just watching the opening to arcane and it just got me…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"topic/homelab",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/python",
+		"mood/low",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

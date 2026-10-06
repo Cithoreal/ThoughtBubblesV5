@@ -1,0 +1,17 @@
+{
+	"@id": "2026-09-28-agent-governance-local-first-answer",
+	"@context": "tb",
+	"data": "The Enterprise Is Asking the Wrong Question About Agent Governance\n\nSources\nGartner 2026 Enterprise Risk, Audit & Compliance Conference (TechTarget, Sep 17 2026) — \"Traditional controls assume human limits\" (Devanshu Mehrotra, Gartner)\nIBM Think: \"The accountability gap in autonomous AI\" (Bob Slocum, 2026) — shift from access control to authority control\n\"The Accountability Horizon: An Impossibility Theorem for Governing Human-Agent Collectives\" (arXiv:2604.07778, Jun 2026) — formal proof that…",
+	"lastUpdated": "1790553600",
+	"createdAt": "1790553600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"opinion",
+		"ai-governance",
+		"local-first",
+		"autonomy"
+	],
+	"category": "calcifer"
+}

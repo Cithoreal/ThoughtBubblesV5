@@ -1,0 +1,21 @@
+{
+	"@id": "getting-coffee",
+	"@context": "tb",
+	"data": "See also: [[concepts/health-and-sleep]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Getting Coffee.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Getting Coffee\nTranscribed: 2026-03-30 12:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 1227 a.m. March 23rd, 2024.\n[00:00:09 → 00:00:11]  \nI want to make this quick and get to bed.\n[00:00:11 → 00:00:14]  \nI want to get a full night's rest…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"personal/health-sleep",
+		"tech/audio-pipeline",
+		"mood/low",
+		"project"
+	],
+	"category": "journals"
+}

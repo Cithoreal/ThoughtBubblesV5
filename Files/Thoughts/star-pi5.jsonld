@@ -1,0 +1,22 @@
+{
+	"@id": "star-pi5",
+	"@context": "tb",
+	"data": "Drive: Pi5 (nvme0n1p2)\n\nHost: star\nDevice: /dev/nvme0n1p2\nContents: Steam library, dev projects, ThoughtBubbles data\n\nSee also: [[infra/star|Star]] · [[infra/drives/index|Drive Index]]",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star",
+		"index"
+	],
+	"LinkFrom": [
+		"index",
+		"inventory"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"pi5"
+	],
+	"category": "infra"
+}

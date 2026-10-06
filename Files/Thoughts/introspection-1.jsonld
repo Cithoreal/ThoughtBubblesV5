@@ -1,0 +1,24 @@
+{
+	"@id": "introspection-1",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection 1.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection 1\nTranscribed: 2026-03-30 05:44  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:03]  \nAll right.\n[00:00:04 → 00:00:06]  \nOkay, that's enough.\n[00:00:08 → 00:00:09]  \nAll right.\n[00:00:09 → 00:00:10]  \nSo...\n[00:00:26 → 00:00:35]  \nI just did a heart chakra guided meditation from my…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"designing-reality",
+		"health-and-sleep"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,26 @@
+{
+	"@id": "feedback-layer",
+	"@context": "tb",
+	"data": "Concept: Feedback Layer\n\n\"Take note of this, Calcifer. I would like this. Whatever view I'm on, on desktop, on phone, just keep note of the context, the device. Leave feedback and it could just be general, or click on a specific element.\" — cithoreal, May 2026\n\nWhat It Is\n\nA modular, portable feedback system that can be dropped into any project. Not deeply integrated — its own React module. Any interface, any device, any context → instant feedback capture with full context.\n\nDesign…",
+	"lastUpdated": "1779062400",
+	"createdAt": "1779062400",
+	"LinkTo": [
+		"room-2-0",
+		"skill-trees",
+		"atomic-notes",
+		"cithoreal-identity",
+		"2026-05-18-141102"
+	],
+	"LinkFrom": [
+		"HOME",
+		"room-2-0-scaffold-reactxr"
+	],
+	"tags": [
+		"concept",
+		"module",
+		"feedback",
+		"ux",
+		"cross-project"
+	],
+	"category": "concepts"
+}

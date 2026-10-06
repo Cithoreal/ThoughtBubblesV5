@@ -1,0 +1,12 @@
+{
+	"@id": "c37cc6e0",
+	"@context": "tb",
+	"data": "Create obvious task display in room\n\n\"I need some sort of really obvious display about my current tasks in my room.\"\n\nSource Journals\n[[Maximize Sleep.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Maximize-Sleep.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

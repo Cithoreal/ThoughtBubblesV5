@@ -1,0 +1,31 @@
+{
+	"@id": "Visualizing-Thought-Bubbles.tasks",
+	"@context": "tb",
+	"data": "Visualizing Thought Bubbles.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"16c4b43c",
+		"1afa8259",
+		"27fb0757",
+		"2d2df66c",
+		"3557fe0d",
+		"4fa711be",
+		"506eb0c3",
+		"522c10ee",
+		"6ac31248",
+		"6b2f0c27",
+		"9332b3cf",
+		"9f5a5e04",
+		"d669f442",
+		"dbb13150",
+		"e1e974bc",
+		"e629b241",
+		"eab9e9c4"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

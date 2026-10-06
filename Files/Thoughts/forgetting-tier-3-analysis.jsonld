@@ -1,0 +1,25 @@
+{
+	"@id": "forgetting-tier-3-analysis",
+	"@context": "tb",
+	"data": "Tier 3 Forgetting Analysis — The Honest Assessment\n\nTier 1 and Tier 2 are live. Tier 3 is the ambitious version — strength scores, decay-by-default, consolidation during dreaming, RAG ranking by strength. This note evaluates Tier 3 against the reality of what's been built and what the vault actually needs. Written as a pushback on the original design doc's ideal vision.\n\nWhat Tier 3 Actually Entails — Component by Component\nHippo-style decay-by-default: the strength score\n\nThe design doc says…",
+	"lastUpdated": "1786924800",
+	"createdAt": "1786924800",
+	"LinkTo": [
+		"forgetting-mechanism",
+		"current-curiosity",
+		"llm-memory-landscape-2026",
+		"calcifer-memory"
+	],
+	"LinkFrom": [
+		"intake-filtering",
+		"vault-pruning-knowledge-map"
+	],
+	"tags": [
+		"concept",
+		"memory",
+		"forgetting",
+		"cognitive-architecture",
+		"analysis"
+	],
+	"category": "concepts"
+}

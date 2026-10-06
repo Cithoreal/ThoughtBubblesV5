@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-what-is-conciousness",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Do the trash (closing duty)', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm gonna have to close too, so I'll have to do the trash.\", 'project': 'Work', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'What is Conciousness.md', 'extracted_at': '2026-05-18T19:24:28.097194', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Get the review system all working for Desgate game', 'type': 'explicit',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

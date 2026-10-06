@@ -1,0 +1,19 @@
+{
+	"@id": "Mirrorworlds-Technological-Parallel-Realities",
+	"@context": "tb",
+	"data": "Mirrorworlds — Technological Parallel Realities\n\nType: Foundational Concept\nStatus: Original capstone work (2022), still the philosophical foundation for Room 2.0\nOrigin: Designing Reality capstone project\n\nCore Idea\nThe world is becoming digitized. Mirrorworlds are digital layers on top of base reality — themes, effects, virtual objects, and simulations that blend seamlessly with the physical world. The key metaphor: it's like a volume knob. All the way down is base reality, all the way up is…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-XR-Slider-A-Volume-Knob-for-Reality",
+		"Room-2.0-Architecture-Core-and-Sub-Apps",
+		"MyRoom2.0"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Bookshelf-Scanning-Sorting-and-the-XR-Slider",
+		"Room-2.0-Architecture-Core-and-Sub-Apps",
+		"The-XR-Slider-A-Volume-Knob-for-Reality"
+	],
+	"category": "thought-spaces"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "ce719e95",
+	"@context": "tb",
+	"data": "Add visual filter to show sub bubbles within ThoughtBubbles interface\n\n\"I suppose another thing to do with the interface would be to visually represent or at least have the option to turn on a filter that shows all of like the sub bubbles within the space\"\n\nSource Journals\n[[Thought Bubbles Interface.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Thought-Bubbles-Interface.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

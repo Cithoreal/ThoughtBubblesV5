@@ -1,0 +1,23 @@
+{
+	"@id": "utokyo",
+	"@context": "tb",
+	"data": "University of Tokyo — IST (Information Science and Technology)\n\nPart of [[projects/grad-school-options|Grad School Options]] research. See also [[projects/mext-scholarship-2029|Mext Scholarship 2029]] for funding details.\n\nOverview\n\nThe University of Tokyo (UTokyo) is Japan's #1 university with the broadest range of CS research. The Graduate School of Information Science and Technology (IST) offers multiple departments relevant to XR/spatial computing, with the Naemura Lab (ICE) being the top…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options",
+		"mext-scholarship-2029"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

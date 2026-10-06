@@ -1,0 +1,12 @@
+{
+	"@id": "f9cdd566",
+	"@context": "tb",
+	"data": "Hang out with Alex and Mike\n\n\"I'll hang out with Alex and Mike sometime in a couple weeks.\"\n\nSource Journals\n[[12-5 Presence.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"12-5-Presence.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

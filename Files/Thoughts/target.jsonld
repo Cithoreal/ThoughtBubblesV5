@@ -1,0 +1,17 @@
+{
+	"@id": "target",
+	"@context": "tb",
+	"data": "target",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"current-curiosity",
+		"thoughtbubbles-source-dump",
+		"thoughtbubbles-spec"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

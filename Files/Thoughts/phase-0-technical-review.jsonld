@@ -1,0 +1,33 @@
+{
+	"@id": "phase-0-technical-review",
+	"@context": "tb",
+	"data": "Phase 0 Technical Review\n\n[!completed] Phase 0 is COMPLETE — this review is historical.\nAll bugs below were fixed: CoreBus signal fix merged Jun 28 (PR #35); remaining fixes landed Aug 16 on calcifer/core-fixes, merged to main as PR #63 (2026-08-29). Note: this doc's codebase path (/home/cithoreal/projects/core/) is stale — the repo lives at /home/calcifer/dev/core. Current state: [[projects/core-system/production-plan]] · [[projects/core-system/module-1-player-controller]]\n\nDate:…",
+	"lastUpdated": "1782345600",
+	"createdAt": "1782345600",
+	"LinkTo": [
+		"production-plan",
+		"module-1-player-controller",
+		"solid-pod-sovereignty",
+		"cybernautics-business-model",
+		"sparql",
+		"module-0-guide",
+		"core-system",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"projects",
+		"module-0-guide",
+		"module-1-player-controller",
+		"production-plan",
+		"projects-room-2-0"
+	],
+	"tags": [
+		"project",
+		"review",
+		"code-review",
+		"architecture",
+		"core",
+		"phase-0"
+	],
+	"category": "projects"
+}

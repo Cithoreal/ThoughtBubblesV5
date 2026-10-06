@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-thought-bubbles-interface",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Flesh out each version of ThoughtBubbles and get documentation going', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I want to flesh out each version, get some documentation going', 'project': 'Creative', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Thought Bubbles Interface.md', 'extracted_at': '2026-05-18T19:07:10.659268', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Work on ThoughtBubbles…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

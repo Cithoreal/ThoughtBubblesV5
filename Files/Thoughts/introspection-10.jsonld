@@ -1,0 +1,25 @@
+{
+	"@id": "introspection-10",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Introspection  10.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Introspection  10\nTranscribed: 2026-03-30 05:43  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:04]  \nI have been here for about 20 something minutes.\n[00:00:06 → 00:00:14]  \nIt's cloudy, which I expected, so the sun isn't too visible, but it was fun to watch the water and watch it get…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"health-and-sleep",
+		"designing-reality"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

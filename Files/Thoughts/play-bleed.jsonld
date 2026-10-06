@@ -1,0 +1,23 @@
+{
+	"@id": "play-bleed",
+	"@context": "tb",
+	"data": "Play-Bleed\n\nThe path you take to a node is important context for the node itself.\n\nDefinition\n\nPlay-bleed is the property by which traversal history becomes a persistent characteristic of a node in a spatial knowledge graph. When you navigate to a node through a specific path, the experience of that traversal — how long you lingered, what you did there, where you came from — becomes part of the node's identity. The node is not objective. It is colored by the journey.\n\nThis is the fourth axis of…",
+	"lastUpdated": "1790726400",
+	"createdAt": "1790726400",
+	"LinkTo": [
+		"thought-bubbles",
+		"core-system",
+		"room-2-0",
+		"ecs-linked-data-architecture",
+		"spec"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"concept",
+		"thought-bubbles",
+		"spatial-computing",
+		"star-os",
+		"knowledge-graph"
+	],
+	"category": "concepts"
+}

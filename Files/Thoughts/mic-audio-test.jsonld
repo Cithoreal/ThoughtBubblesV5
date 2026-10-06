@@ -1,0 +1,15 @@
+{
+	"@id": "mic-audio-test",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/mic audio test.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# mic audio test\nTranscribed: 2026-03-30 06:21  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:01]  \nMake test.\n[00:00:02 → 00:00:04]  \nThis is a make test.\n[00:00:08 → 00:00:08]  \nYeah.\n[00:00:09 → 00:00:11]  \nSee what kind of quality this thing gives me.\nExtracted Tasks\n[ ] {'text': 'Make a test…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,16 @@
+{
+	"@id": "notifications",
+	"@context": "tb",
+	"data": "🔔 Notifications\n\nAutomated alerts appended by scheduled scripts. Check this doc when you want to see what's changed. Items are prepended (newest first). Clear entries once acted upon.\n\nHow It Works\nScheduled automations append entries to this file\nEach entry has: timestamp, source script, alert type, details\nNewest entries at the top of the relevant section\nWhen you've acted on an alert, delete the entry or mark it ✅ DONE\n\nFormat\n\nPrice & Stock Alerts\n\n<!-- New price/stock alerts go here…",
+	"lastUpdated": "1790208000",
+	"createdAt": "1790208000",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"notifications",
+		"automation",
+		"monitoring"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,21 @@
+{
+	"@id": "2025-07-14-085535",
+	"@context": "tb",
+	"data": "Journal — 2025-07-14 08:55\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-07-14 08-55-35.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-07-14 08-55-35\nTranscribed: 2026-03-30 11:24  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:02]  \nHi, Goody.\n[00:00:03 → 00:00:05]  \nOn my way to class.\n[00:00:06 → 00:00:08]  \nAnd, uh, just wanted to talk a bit.\n[00:00:08 → 00:00:09]  \nWanted to talk to you.\n[00:00:10 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"project"
+	],
+	"category": "journals"
+}

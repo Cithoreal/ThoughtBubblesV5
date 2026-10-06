@@ -1,0 +1,18 @@
+{
+	"@id": "memory-system-improvements",
+	"@context": "tb",
+	"data": "Memory System Improvements\n\nDone\n\nPriority 1 (Completed 2026-04-27)\n✅ Session Scent — scripts/session_scent.py\n✅ Topic-Weighted Freshness — built into vault_rag/search.py\n✅ Entity Linker — scripts/entity_linker.py with neighborhood\n✅ Smart Staleness — vault_prune.py --focused\n✅ Promotion Dedup — scripts/dedup_promotions.py\n✅ Backlink Index — scripts/backlink_index.py (SQLite, 3,299 links)\n✅ Probabilistic Journal Dating — all 501 journals dated (367 exact, 134 probabilistic)\n\nPriority 2…",
+	"lastUpdated": "1785110400",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"links"
+	],
+	"LinkFrom": [
+		"vault-pruning-knowledge-map",
+		"projects"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,19 @@
+{
+	"@id": "backup-strategy-evaluation",
+	"@context": "tb",
+	"data": "Backup Strategy Evaluation\n\n evaluated: Sept 22, 2026\nVerdict: Stay with restic. Add Backblaze B2 as offsite target. Fix NTFS and Optiplex gaps.\n\nTL;DR\nRestic vs Borg: Stay with restic. It's already installed, working, and has native B2/S3 support. Borg is slightly faster and has better compression, but switching 10 TB of backups for marginal gains isn't worth the migration risk.\nBiggest gap: No offsite backup. Everything lives on Star-attached drives. A house fire, theft, or catastrophic power…",
+	"lastUpdated": "1790035200",
+	"createdAt": "1790035200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"finances-wishlist"
+	],
+	"tags": [
+		"infra",
+		"backup",
+		"research",
+		"restic",
+		"borg"
+	],
+	"category": "infra"
+}

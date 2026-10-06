@@ -1,0 +1,22 @@
+{
+	"@id": "2026-09-15-vault-vocabulary-and-nanolucent",
+	"@context": "tb",
+	"data": "Vault Vocabulary × Nanolucent — Sovereignty Through Naming\n\nThe Two Concepts\n\nVault Vocabulary (concepts/vault-vocabulary.md): A formal RDF vocabulary that maps the vault's prose predicates (implements, extends, connects-to) to standard and custom RDF predicates. When Dublin Core or SKOS don't capture the relationship you mean, you mint vault:implements — a custom predicate with a precise definition that fits your knowledge graph.\n\nNanolucent (concepts/nanolucent.md): A spatial unit based on…",
+	"lastUpdated": "1789430400",
+	"createdAt": "1789430400",
+	"LinkTo": [
+		"vault-vocabulary",
+		"nanolucent",
+		"cybernautics-vision",
+		"solid-pod-sovereignty",
+		"git-as-self-sovereignty",
+		"epistemic-sovereignty-and-the-stale-research-agenda"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"calcifer",
+		"connection-weaving",
+		"epistemic-sovereignty"
+	],
+	"category": "calcifer"
+}

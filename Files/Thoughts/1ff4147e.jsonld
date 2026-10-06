@@ -1,0 +1,12 @@
+{
+	"@id": "1ff4147e",
+	"@context": "tb",
+	"data": "Complete homework by tomorrow\n\n\"gotta get my homework done by tomorrow\"\n\nSource Journals\n[[Meta Quest Unity.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Meta-Quest-Unity.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

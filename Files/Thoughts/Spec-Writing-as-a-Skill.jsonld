@@ -1,0 +1,15 @@
+{
+	"@id": "Spec-Writing-as-a-Skill",
+	"@context": "tb",
+	"data": "Spec Writing as a Skill\n\nType: Skill Development\nStatus: Active — first specs in progress\nStarted: 2026-09-04\n\nCore Idea\nLearning to write detailed technical specifications for AI-assisted implementation. Inspired by Dave Plummer (original Windows Task Manager developer) who wrote a 107-page specification for TMOG (Task Manager OG), a cross-platform rewrite implemented by Claude Code in 3.5 hours.\n\nThe Inspiration\nDave Plummer wrote Task Manager in 1994 at home. In 2026, he rewrote it as TMOG —…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"LinkFrom": [
+		"2026-09-05-room-2-0-foundations",
+		"Room-2.0-Architecture-Core-and-Sub-Apps"
+	],
+	"category": "thought-spaces"
+}

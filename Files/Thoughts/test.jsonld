@@ -1,0 +1,15 @@
+{
+	"@id": "test",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Test.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Test\nTranscribed: 2026-03-30 06:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:02]  \nThis is a test.\n[00:00:02 → 00:00:03]  \nAm I speaking into this?\n[00:00:03 → 00:00:03]  \nI am.",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

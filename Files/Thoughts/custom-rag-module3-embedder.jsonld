@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module3-embedder",
+	"@context": "tb",
+	"data": "Module 3: Embedding Engine — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nThe embedding engine turns M2's chunked documents into vectors. It's the pipeline's brain — the only module that talks to the GPU. It takes Chunk objects from the ingest engine, embeds them via Ollama's qwen3-embedding:4b model, caches vectors in SQLite to avoid redundant work, and passes (vector, chunk, metadata) tuples downstream to M4 (Qdrant…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-3"
+	],
+	"category": "projects"
+}

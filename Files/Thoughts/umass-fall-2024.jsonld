@@ -1,0 +1,37 @@
+{
+	"@id": "umass-fall-2024",
+	"@context": "tb",
+	"data": "Project: UMass Fall 2024\n\nWhat It Is\nEvidence from ChatGPT conversations suggests cithoreal was enrolled at UMass (Amherst) in Fall 2024, taking calculus and participating in a hackathon.\n\nCalculus Coursework\nA significant portion of Sept–Dec 2024 ChatGPT conversations are calculus problem-solving sessions — derivatives, limits, trigonometric functions, optimization problems, integrals. This is consistent with a first or second-semester calculus course.\n\nTimeline:\nSep 2024: Limits, derivatives,…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2024-09-10_simplifying-algebraic-expressions",
+		"2024-09-10_solving-inequality-step-by-step",
+		"2024-09-13_solving-trigonometric-equation",
+		"2024-09-27_calculus-derivative-problem-solving",
+		"2024-10-11_derivative-calculation-steps",
+		"2024-10-11_understanding-limits-in-calculus",
+		"2024-11-13_critical-values-calculation",
+		"2024-11-20_concavity-and-inflection-points",
+		"2024-11-22_minimizing-fence-construction-cost",
+		"2024-11-27_pipeline-cost-optimization",
+		"2024-12-06_antiderivative-calculation",
+		"2024-12-09_definite-integral-calculation",
+		"2024-12-10_riemann-sum-integral",
+		"2024-11-09_hackathon-idea-brainstorming",
+		"2024-11-09_hackathon-idea-suggestions",
+		"skill-trees",
+		"ar-xr-development",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"projects",
+		"internship-budget-2026"
+	],
+	"tags": [
+		"project",
+		"chatgpt-sourced",
+		"education"
+	],
+	"category": "projects"
+}

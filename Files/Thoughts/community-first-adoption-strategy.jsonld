@@ -1,0 +1,30 @@
+{
+	"@id": "community-first-adoption-strategy",
+	"@context": "tb",
+	"data": "Concept: Community-First Adoption Strategy\n\nWhat It Is\n\nThe thesis: the success of Cyberspace/ThoughtBubbles depends less on ideas or individual implementation skill, and more on attracting and fostering a community of experts, developers, and users. The system needs to reach a demonstration point where the experience speaks for itself, and the architecture serves as the hook for technical contributors.\n\nCore Strategy\n\nThree-Layer Funnel\n\nLayer 1 — The Experience (end users)\nMultiple small,…",
+	"lastUpdated": "1782518400",
+	"createdAt": "1782518400",
+	"LinkTo": [
+		"solid-pod-sovereignty",
+		"solid-encryption-layer",
+		"cybernautics-vision",
+		"cybernautics-business-model",
+		"core-system",
+		"internet-scale-world",
+		"the-grand-system"
+	],
+	"LinkFrom": [
+		"HOME",
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"tier-1",
+		"project",
+		"active",
+		"strategy",
+		"community",
+		"marketing"
+	],
+	"category": "concepts"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-introspection-9",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Walk to the lake and watch the sunrise', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"I'm going to walk to the lake and watch the sunset.\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Introspection 9.md', 'extracted_at': '2026-05-18T17:11:34.045644', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Build up confidence to attend classes today', 'type': 'explicit',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

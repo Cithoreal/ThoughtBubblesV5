@@ -1,0 +1,12 @@
+{
+	"@id": "784696b5",
+	"@context": "tb",
+	"data": "Turn in speech\n\n\"I turned in my speech last night, last minute.\"\n\nSource Journals\n[[What projects excite me right now?.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"What-projects-excite-me-right-now-.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

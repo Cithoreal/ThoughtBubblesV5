@@ -1,0 +1,20 @@
+{
+	"@id": "room-2-0-multiplayer-research",
+	"@context": "tb",
+	"data": "Room 2.0 — Multiplayer Networking Research\n\nResearch into two multiplayer modes for Room 2.0: co-located shared AR and remote networked visitors. Includes findings on OpenXR spatial entity sharing, Godot networking options, backend architecture changes, and vocabulary extension analysis.\n\nTable of Contents\nMode 1: Shared AR Space (Co-located Quest-to-Quest)\nMode 2: Networked Visitors (Remote VR/Desktop → Host AR)\nJSON-LD Vocabulary Extension Analysis\nBackend Architecture Changes\nWebRTC vs…",
+	"lastUpdated": "1782777600",
+	"createdAt": "1782777600",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"research",
+		"multiplayer",
+		"networking",
+		"XR",
+		"room-2-0"
+	],
+	"category": "projects"
+}

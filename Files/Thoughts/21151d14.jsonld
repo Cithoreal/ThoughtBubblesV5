@@ -1,0 +1,12 @@
+{
+	"@id": "21151d14",
+	"@context": "tb",
+	"data": "Test TV casting capability as media player\n\n\"I might be able to just cast to the TV, use the TV as a media player. I'll have to see\"\n\nSource Journals\n[[Morning Automation.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Morning-Automation.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

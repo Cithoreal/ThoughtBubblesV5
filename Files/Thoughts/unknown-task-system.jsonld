@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-task-system",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Look for beginner yoga instructor', 'type': 'explicit', 'status': 'new', 'raw_quote': \"Yeah, sure. I'll look for that.\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Task System.md', 'extracted_at': '2026-05-18T18:53:51.519340', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Write down yoga routine', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'll write down our whole…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

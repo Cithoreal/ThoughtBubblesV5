@@ -1,0 +1,12 @@
+{
+	"@id": "36cfd99e",
+	"@context": "tb",
+	"data": "Monitor for key points and save them into Neo4j\n\n\"I'll have it monitor for key points, key things to remember, and then just save it into Neo4j\"\n\nSource Journals\n[[Web Search Function.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Web-Search-Function.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

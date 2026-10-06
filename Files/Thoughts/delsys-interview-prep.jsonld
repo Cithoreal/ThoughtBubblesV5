@@ -1,0 +1,18 @@
+{
+	"@id": "delsys-interview-prep",
+	"@context": "tb",
+	"data": "Delsys Interview Prep\nMeeting with Gianluca de Luca, President — Fri Apr 17, 12:00pm (45min)\n\n🎓 Senior Design Project — Voice Scheduler\n\nVoice Scheduler — a voice-first meeting room booking system\nSpeech transcription → LLM-assisted natural language request handling → Django REST backend\nUsers speak naturally: \"Book room 3 from 2–3pm\" → parsed, validated, booked\nFull stack: microphone client, Django REST API, SQLite DB, Textual TUI for management, CLI tools\nDeployed server, real booking system,…",
+	"lastUpdated": "1776297600",
+	"createdAt": "1776297600",
+	"LinkTo": [
+		"cithoreal",
+		"cybernautics-portfolio"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"interview",
+		"delsys",
+		"career"
+	],
+	"category": "reference"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "2026-09-03-handwriting-test-consensus",
+	"@context": "tb",
+	"data": "Consensus Transcription\n\nTranscribed using 3 models: kimi-k3:cloud, glm-5.3-flash:cloud, qwen3.5:cloud\n\nModel Timings\n\n| Model | Time | Status |\n|---|---|---|\n| kimi-k3:cloud | 49.9s | ✓ |\n| glm-5.3-flash:cloud | 21.0s | ✓ |\n| qwen3.5:cloud | 137.2s | ✓ |\n\nConsensus Transcription\n\n9/3\nI haven't been very inspired lately to write or draw\nor fantasize. I think this comes down to a few things.\nFirst, whenever I am still I tend to go to my phone. I watch\nreels or talk to calculator or katie and do…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "daily"
+}

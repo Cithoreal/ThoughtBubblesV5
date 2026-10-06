@@ -1,0 +1,12 @@
+{
+	"@id": "e5d5e1b9",
+	"@context": "tb",
+	"data": "Give box to recipient\n\n\"I'm gonna give you a box\"\n\nSource Journals\n[[2025-04-28 08-32-26.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-04-28-08-32-26.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

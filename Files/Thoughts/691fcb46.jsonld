@@ -1,0 +1,12 @@
+{
+	"@id": "691fcb46",
+	"@context": "tb",
+	"data": "Complete school homework\n\n\"get all of my other homework done\"\n\nSource Journals\n[[2025-09-08 15-53-34.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-09-08-15-53-34.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

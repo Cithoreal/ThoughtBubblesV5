@@ -1,0 +1,10 @@
+{
+	"@id": "steam-frame-review",
+	"@context": "tb",
+	"data": "Steam Frame Skill Tree — Review\n\nVERDICT: ACCEPT\n\nIssues Found\nMissing prerequisite [severity: minor] — Node 3.4 (OpenXR API Layer Development) lists \"some C/C++ learning\" as a prerequisite, but there is no dedicated node or sub-skill anywhere in the tree for learning C/C++. The prerequisites section acknowledges Chris has \"no C/C++ systems experience\" and says \"learn on-demand for specific nodes,\" but the tree never structures that learning. Nodes 3.6 (Proton+FEX Deep Debugging), 3.7 (FEX…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "research"
+}

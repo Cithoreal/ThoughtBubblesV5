@@ -1,0 +1,17 @@
+{
+	"@id": "skill-trees-physics-dependencies",
+	"@context": "tb",
+	"data": "Skill Trees Physics Dependencies\n\nFull dependency graph completed for OpenStax College Physics (31 chapters). Six parallel tracks identified: Mechanics (Ch2-12), Thermodynamics (Ch13-15), Waves/Acoustics (Ch16-17), E&M (Ch18-23), Optics (Ch24-25), Modern Physics (Ch26-31). Key structural insights: Ch2 (Kinematics) is sole hard prerequisite; Ch4 (Newton's Laws) unlocks branching; Thermodynamics (Ch13) and Special Relativity (Ch26) accessible with only Ch2 prerequisite. Includes…",
+	"lastUpdated": "1777852800",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"physics"
+	],
+	"category": "projects"
+}

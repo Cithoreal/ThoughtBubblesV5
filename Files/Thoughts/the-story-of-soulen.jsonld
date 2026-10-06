@@ -1,0 +1,28 @@
+{
+	"@id": "the-story-of-soulen",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/The Story of Soulen.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# The Story of Soulen\nTranscribed: 2026-03-30 13:09  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:09]  \nIt is 1.26 a.m. February 7th, 2024.\n[00:00:11 → 00:00:14]  \nSo I'd like to just record a bit and then go to bed.\n[00:00:14 → 00:00:23]  \nI'm very excited about what I'm learning in…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"refocus",
+		"thought-bubbles",
+		"fiction-worldbuilding",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"fiction-worldbuilding",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/estia",
+		"topic/room-2-0",
+		"personal/identity",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

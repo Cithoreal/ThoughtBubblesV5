@@ -1,0 +1,15 @@
+{
+	"@id": "song-clip-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Song Clip 2.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Song Clip 2\nTranscribed: 2026-03-30 06:14  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:00 → 00:00:11]  \ndo do do do do do do do do do do do do do do do do do do do do do do do do do do",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal"
+	],
+	"category": "journals"
+}

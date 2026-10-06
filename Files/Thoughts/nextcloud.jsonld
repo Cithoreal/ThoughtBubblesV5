@@ -1,0 +1,27 @@
+{
+	"@id": "nextcloud",
+	"@context": "tb",
+	"data": "Nextcloud\n\nSelf-hosted cloud platform running in production on Optiplex (Docker container, behind Caddy reverse proxy at cloud.cybernautics.net). Migrated from Pi5 to Optiplex on 2026-04-15 alongside Caddy, Grafana, Prometheus, and other web services.\n\nHost: Optiplex (100.96.169.9 Tailscale, 192.168.1.228 LAN)\nURL: cloud.cybernautics.net (Cloudflare proxy → Caddy → Nextcloud)\nStorage: /mnt/storage/ on Optiplex\nDatabase: MariaDB (per service-map)\nBackup: Restic daily 2am — script + DB dump, 7…",
+	"lastUpdated": "1789948800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"service-map",
+		"dependency-map",
+		"cloud-backup-research",
+		"pi5-optiplex-migration",
+		"nextcloud-research"
+	],
+	"LinkFrom": [
+		"2026-03-31-183935",
+		"2026-04-02-235209",
+		"2026-04-15-185131",
+		"untitled",
+		"unknown-untitled"
+	],
+	"tags": [
+		"infra",
+		"nextcloud",
+		"self-hosted"
+	],
+	"category": "infra"
+}

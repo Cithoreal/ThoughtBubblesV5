@@ -1,0 +1,21 @@
+{
+	"@id": "custom-rag",
+	"@context": "tb",
+	"data": "Custom RAG (stub — see project)\n\nRedirect — the Custom RAG pipeline has been completed and its documentation lives in [[projects/custom-rag-pipeline]] and [[infra/maps/custom-rag-pipeline]].\n\nSee [[projects/custom-rag-pipeline]] for full details.",
+	"lastUpdated": "1783900800",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"custom-rag-pipeline"
+	],
+	"LinkFrom": [
+		"HOME",
+		"openclaw-calcifer",
+		"cithoreal"
+	],
+	"tags": [
+		"infra",
+		"rag",
+		"duplicate"
+	],
+	"category": "infra"
+}

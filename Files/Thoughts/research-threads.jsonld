@@ -1,0 +1,29 @@
+{
+	"@id": "research-threads",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 122d — review -->\n\nResearch Threads\n\nActive investigation threads — ideas I'm tracking across the vault, journals, and archives. Each thread leads to a deep-dive article. Priority-ordered.\n\nActive Threads\nThe Rescue — ✅ Complete\nStatus: Article written\nPriority: High — the most ambitious and most personal project\nArticle: [[concepts/the-rescue-experience]]\nSummary: Two forms of the same vision — fiction (Fog Story) and VR experience.…",
+	"lastUpdated": "1776124800",
+	"createdAt": "1776038400",
+	"LinkTo": [
+		"the-rescue-experience",
+		"project-mirror",
+		"project-calcifer-founding-vision",
+		"star-system-vision",
+		"infrastructure-visualization",
+		"thought-bubbles",
+		"solarpunk-framework",
+		"cybernautics-vision",
+		"onedrive-personal-writings",
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"HOME",
+		"concepts"
+	],
+	"tags": [
+		"index",
+		"research-threads",
+		"active"
+	],
+	"category": "concepts"
+}

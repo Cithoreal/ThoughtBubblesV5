@@ -1,0 +1,39 @@
+{
+	"@id": "homelab-ha-voice-2024",
+	"@context": "tb",
+	"data": "Project: Homelab — Home Assistant & Voice Stack (2024)\n\nWhat It Is\nIn Summer 2024, cithoreal was actively building out a Home Assistant-based smart home and voice assistant infrastructure. This was the most active homelab development period visible in the 2024 H2 ChatGPT archive — concentrated in July 2024 with 15+ dedicated conversations.\n\nWhat Was Being Built (July 2024)\n\nVoice Assistant System\nWyoming Satellite setup — wake word detection on satellite devices (Raspberry Pi /…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2024-07-07_advanced-home-assistant-voice-interaction",
+		"2024-07-05_wyoming-satellite-wake-methods",
+		"2024-07-10_set-up-android-wake-word",
+		"2024-07-14_set-up-wyoming-satellite",
+		"2024-07-14_node-red-flow-setup",
+		"2024-07-16_integrate-home-assistant-with-node-red",
+		"2024-07-16_local-home-assistant-devices",
+		"2024-07-16_store-string-in-neo4j",
+		"2024-07-16_dynamic-brave-api-setup",
+		"2024-07-17_set-up-home-assistant-script",
+		"2024-07-18_web-search-assistant",
+		"2024-07-23_nextcloud-node-red-integration",
+		"2024-07-01_integrating-caldav-functionality",
+		"2024-10-28_raspberry-pi-webcam-streaming",
+		"cybernautics-vision",
+		"local-ai-infrastructure",
+		"thought-bubbles",
+		"room-2-0",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"completed",
+		"chatgpt-sourced",
+		"homelab",
+		"home-assistant"
+	],
+	"category": "projects"
+}

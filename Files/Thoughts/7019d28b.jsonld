@@ -1,0 +1,12 @@
+{
+	"@id": "7019d28b",
+	"@context": "tb",
+	"data": "Turn off Secure Boot to boot into Manjaro\n\n\"I eventually figured out that I needed to turn off Secure Boot in order to boot into Manjaro. So that's working now.\"\n\nSource Journals\n[[Journal-It_is_one_fifty_one,_p._m,-1st_thought-Sunday,_Jan-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_one_fifty_one-_p._m-1st_thought-Sunday-_Jan-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

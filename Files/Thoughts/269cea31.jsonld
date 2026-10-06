@@ -1,0 +1,12 @@
+{
+	"@id": "269cea31",
+	"@context": "tb",
+	"data": "Study math concepts\n\n\"And then the whole rest of the week is just going to be studying math. Which, honestly, I'm pretty excited about. I'm going to go through all the concepts.\"\n\nSource Journals\n[[Planning AI Systems.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

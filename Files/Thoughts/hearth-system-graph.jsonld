@@ -1,0 +1,26 @@
+{
+	"@id": "hearth-system-graph",
+	"@context": "tb",
+	"data": "Hearth System Graph — Current Architecture\n\nData Flow Diagram\n\nComponent Status Matrix\n\n| Component | Node | Port | Status | Version |\n|-----------|------|------|--------|---------|\n| Satellite1 | Living Room | — | ✅ Active | ESPHome v0.1.4+ld2450 |\n| hearth-bridge | Pi 4 | 10201 | ✅ Active | v0.5 (multi-voice Kokoro) |\n| Voice Control API | Pi 4 | 10202 | ✅ Active | GET/POST /voice |\n| Hermes Agent | Pi 4 | 8642 | ✅ Active | glm-5.1 via ollama-cloud |\n| hermes-proxy | Pi 4 | 8643 | ✅ Active |…",
+	"lastUpdated": "1777680000",
+	"createdAt": "1777680000",
+	"LinkTo": [
+		"Hearth",
+		"hearth-family-home-ai",
+		"hearth-soul-draft",
+		"hearth-weekend-sprint-2026-05"
+	],
+	"LinkFrom": [
+		"projects",
+		"hearth-remediation-plan",
+		"hearth-weekend-sprint-2026-05"
+	],
+	"tags": [
+		"project",
+		"hearth",
+		"architecture",
+		"graph",
+		"diagram"
+	],
+	"category": "projects"
+}

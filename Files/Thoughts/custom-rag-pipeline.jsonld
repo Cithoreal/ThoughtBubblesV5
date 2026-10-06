@@ -1,0 +1,30 @@
+{
+	"@id": "custom-rag-pipeline",
+	"@context": "tb",
+	"data": "Custom RAG Pipeline — Architecture Map\n\nMerged from projects/ and CustomRag/ notes. The pipeline is complete and operational.\n\nKey facts:\nVector DB: Qdrant on star:6333 (systemd)\nCollection: calcifer-vault — dense (qwen3-embedding:4b, 2560-dim) + native BM25 sparse\nFusion: Server-side RRF via Qdrant Query API\nStatus: ✅ M1-M8 complete. Pipeline operational, AnythingLLM decommissioned 2026-04-18.\n\nQuick Reference\nCLI: PYTHONPATH=scripts python -m vault_rag search \"query\" --top 5\nFallback:…",
+	"lastUpdated": "1777248000",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"custom-rag-pipeline",
+		"star",
+		"openclaw-calcifer"
+	],
+	"LinkFrom": [
+		"calcifer-memory",
+		"infra",
+		"projects",
+		"custom-rag",
+		"custom-rag-pipeline",
+		"rag-platform-comparison",
+		"CustomRag-index",
+		"projects-custom-rag-pipeline",
+		"knowledge-base-pipeline"
+	],
+	"tags": [
+		"infra",
+		"map",
+		"rag",
+		"completed"
+	],
+	"category": "infra"
+}

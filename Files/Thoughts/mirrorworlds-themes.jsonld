@@ -1,0 +1,39 @@
+{
+	"@id": "mirrorworlds-themes",
+	"@context": "tb",
+	"data": "Mirrorworlds & Themes\n\nTechnological parallel realities. The world as we know it is becoming digitized. Mirrorworlds are created when we take this base state of recorded data and extend upon it.\n\n— From cithoreal's 2020 capstone project script\n\nWhat It Is\n\nMirrorworlds are theme layers applied over reality — not just AR filters, but persistent, personalized, shareable simulations that run on top of the digitized world. They range from subtle (changing the weather in your room) to total (living…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776729600",
+	"LinkTo": [
+		"project-mirror",
+		"designing-reality",
+		"thought-bubbles",
+		"star-system-vision",
+		"ar-xr-development",
+		"cybernautics-vision",
+		"skill-trees",
+		"room-2-0",
+		"matter-of-time",
+		"air-hockey-mr",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"matter-of-time",
+		"thought-bubbles",
+		"HOME",
+		"concepts",
+		"1-28-patriot-place",
+		"unknown",
+		"story-system"
+	],
+	"tags": [
+		"concept",
+		"tier-1",
+		"xr",
+		"mirrorworlds",
+		"spatial-computing",
+		"designing-reality",
+		"active"
+	],
+	"category": "concepts"
+}

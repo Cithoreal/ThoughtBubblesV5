@@ -1,0 +1,12 @@
+{
+	"@id": "ab62e9d5",
+	"@context": "tb",
+	"data": "Implement unit conversion between imperial, metric, and light-based measurements\n\n\"I'll have it convert between inches through imperial metric and light\"\n\nSource Journals\n[[2026-05-18 15-17-11.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-05-18-15-17-11.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

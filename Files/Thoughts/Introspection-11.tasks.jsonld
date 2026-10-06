@@ -1,0 +1,41 @@
+{
+	"@id": "Introspection-11.tasks",
+	"@context": "tb",
+	"data": "Introspection 11.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"03015f49",
+		"042a4edb",
+		"155b4c9d",
+		"179eb78a",
+		"2a4e601f",
+		"33459f03",
+		"363504cf",
+		"427b2fa7",
+		"4509d336",
+		"4cbcbf0f",
+		"4d49820d",
+		"63f74ac4",
+		"7384797b",
+		"74044d07",
+		"79fbfcc6",
+		"7cc1d580",
+		"82127bdc",
+		"824d2b63",
+		"865a474a",
+		"acf5b1b4",
+		"b3a27e2d",
+		"c3e0cf37",
+		"d5441138",
+		"d744c441",
+		"f1c482a6",
+		"f6fef23c",
+		"fe0a3389"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

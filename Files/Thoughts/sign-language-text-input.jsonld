@@ -1,0 +1,21 @@
+{
+	"@id": "sign-language-text-input",
+	"@context": "tb",
+	"data": "Sign Language to Text Input\n\nStatus: Parked — Research Phase\n\nGoal: Implement sign language (ASL) → text as an input method, eventually as a module within the larger XR/gesture ecosystem.\n\nDecision (2026-06-23): Park this until the broader system is more mature. Eventually consult with experts and potentially bring on collaborators to develop the module after the project has gained reputation. For now, focusing research on the existing gesture control and magic system work from Designing…",
+	"lastUpdated": "1782172800",
+	"createdAt": "1782172800",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"story-system"
+	],
+	"tags": [
+		"project",
+		"accessibility",
+		"gesture-control",
+		"sign-language",
+		"xr",
+		"future"
+	],
+	"category": "projects"
+}

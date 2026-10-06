@@ -1,0 +1,13 @@
+{
+	"@id": "2026-08-03",
+	"@context": "tb",
+	"data": "2026-08-03\n\nEvents\nSquarespace cancellation Aug 20 — mirrored cybernautics.net (464 files, 107MB) to projects/cybernautics-archive. Forgejo push pending: Optiplex unreachable again.\nOptiplex network overhaul: Diagnosed broken Docker outbound NAT (missing MASQUERADE rules after reboot). All containers had no internet access — caused false alertmanager alerts for Forgejo/Nextcloud/HostDown. Fixed by: (1) restarting Docker to regenerate iptables NAT, (2) creating /etc/docker/daemon.json with IPv6…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

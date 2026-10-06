@@ -1,0 +1,12 @@
+{
+	"@id": "905d7c93",
+	"@context": "tb",
+	"data": "Create life template (person template)\n\n\"I could work on a project template. I think what I should be working on first though is a life template perhaps.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

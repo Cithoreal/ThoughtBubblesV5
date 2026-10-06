@@ -1,0 +1,24 @@
+{
+	"@id": "2025-09-08-155334",
+	"@context": "tb",
+	"data": "Journal — 2025-09-08 15:53\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2025-09-08 15-53-34.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2025-09-08 15-53-34\nTranscribed: 2026-03-30 11:26  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:10]  \nIt is 3.53 p.m. September 8th, 2025.\n[00:00:14 → 00:00:23]  \nSo not super sure what I'm going to talk about, but I'd like to think of some next steps for my systems.\n[00:00:24 →…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"semantic-web-and-linked-data",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/semantic-web",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev"
+	],
+	"category": "journals"
+}

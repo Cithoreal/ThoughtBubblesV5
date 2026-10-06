@@ -1,0 +1,49 @@
+{
+	"@id": "2026-03-31-183935",
+	"@context": "tb",
+	"data": "Journal — 2026-03-31 18:39\n\nSummary\n\nWhile driving home, the speaker records an excited update about collaborating with Calcifer on an advanced audio processing system capable of task extraction and emotion analysis. They outline their vision for the 'Cybership'—a unified personal data ecosystem spanning local hardware and cloud services—while balancing enthusiasm for new features against the discipline needed to complete current integrations and consolidate scattered data from an old 'Elements…",
+	"lastUpdated": "1791072000",
+	"createdAt": "1791072000",
+	"LinkTo": [
+		"elements-drive",
+		"real-world-inventory",
+		"time-based-task-analysis",
+		"cybernautics-vision",
+		"cybership",
+		"pi4",
+		"audio-journal-pipeline",
+		"skill-trees",
+		"cithoreal",
+		"thought-bubbles",
+		"solid-pod-sovereignty",
+		"homeassistant",
+		"pi5",
+		"nextcloud"
+	],
+	"LinkFrom": [
+		"journal",
+		"2026-08-04-journal",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/semantic-web",
+		"topic/cybernautics",
+		"topic/air-hockey",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project",
+		"theme/ai-transparency",
+		"theme/personal-knowledge-management",
+		"theme/digital-infrastructure-consolidation",
+		"theme/self-directed-learning-systems",
+		"theme/human-ai-collaboration"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,24 @@
+{
+	"@id": "11-16-monotone",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/11-16 Monotone.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 11-16 Monotone\nTranscribed: 2026-03-30 04:41  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:06]  \nWell, I didn't end up getting any work done today, unfortunately.\n[00:00:09 → 00:00:11]  \nI was just near the end of the day.\n[00:00:11 → 00:00:23]  \nI had a period where I really felt how I used to…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"ar-xr-development",
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/health-sleep",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired"
+	],
+	"category": "journals"
+}

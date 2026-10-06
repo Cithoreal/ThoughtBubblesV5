@@ -1,0 +1,37 @@
+{
+	"@id": "internship-budget-2026",
+	"@context": "tb",
+	"data": "Internship Budget Plan — Summer 2026\n\nIncome\nRate: $30/hr × 40 hrs/week = $2,400 gross bi-weekly _(as of 2026-06-17)_\nEstimated taxes (MA, single): ~21.5% effective\nFederal income tax: ~8.8% ($211)\nFICA: 7.65% ($184)\nMA state: 5.0% ($120)\nTake-home: ~$1,885/paycheck (~$3,770/month) _(as of 2026-06-17)_\n\nDebt Overview\n| Debt | Balance | Interest (est.) |\n|---|---|---|\n| Car loan | $5,300 | 4.9% |\n| Student loans | $11,000 | ~4-5% (subsidized, 6-mo grace) |\n| Total | $16,300 | |\n\nBudget Per…",
+	"lastUpdated": "1781654400",
+	"createdAt": "1776816000",
+	"LinkTo": [
+		"umass-fall-2024",
+		"personal-finances",
+		"2025-02-20_apartment-and-car-budgeting",
+		"HOME",
+		"the-grand-system-onenote",
+		"projects",
+		"2025-02-20_apartment-move-budgeting",
+		"budget-app",
+		"the-grand-system",
+		"katie-collab",
+		"2026-04-22",
+		"finances-wishlist",
+		"calcifer-vault",
+		"star-system-docs",
+		"real-world-inventory"
+	],
+	"LinkFrom": [
+		"2026-04-22",
+		"finances-budget",
+		"projects",
+		"budget-app",
+		"personal-finances"
+	],
+	"tags": [
+		"project",
+		"finance",
+		"budget"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-inbox-it_is_twelve_or_nine_a_m-_june_third-1st_thought-saturday-_jun-cocoonweaverapp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Increase Node.js max old space size to 6GB', 'type': 'explicit', 'status': 'in_progress', 'raw_quote': \"I'm going to set it to 6 gigabytes\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Inbox-It_is_twelve_or_nine_a_m._June_third,-1st_thought-Saturday,_Jun-CocoonWeaverApp.md', 'extracted_at': '2026-05-18T16:46:26.416560', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Rewrite IPFS…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

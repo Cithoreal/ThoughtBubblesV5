@@ -1,0 +1,12 @@
+{
+	"@id": "9ca601b7",
+	"@context": "tb",
+	"data": "Go for a walk\n\n\"I'm going to go for a walk.\"\n\nSource Journals\n[[Working on Informational Speech.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Working-on-Informational-Speech.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

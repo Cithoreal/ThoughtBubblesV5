@@ -1,0 +1,18 @@
+{
+	"@id": "2026-10-03-spatial-computing-os-landscape",
+	"@context": "tb",
+	"data": "The Spatial Computing OS Landscape — Who's Building the Linux of Spatial?\n\nThe Question\n\nThe Steam Frame proved SteamOS runs a full Linux desktop on ARM VR hardware. The Verge reviewer typed his review from inside the headset with six virtual monitors. That wasn't a gaming use case — that was spatial computing. The question: is SteamOS becoming the open spatial computing OS, or is it just a gaming headset that happens to run a desktop? And what else is out there?\n\nThe Landscape — Five Layers of…",
+	"lastUpdated": "1790985600",
+	"createdAt": "1790985600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"spatial-computing",
+		"steamos",
+		"openxr",
+		"thoughtbubbles",
+		"room-2-0"
+	],
+	"category": "research"
+}

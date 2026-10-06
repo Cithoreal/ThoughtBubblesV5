@@ -1,0 +1,15 @@
+{
+	"@id": "image.png",
+	"@context": "tb",
+	"data": "image.png",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thoughtbubbles-spec"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

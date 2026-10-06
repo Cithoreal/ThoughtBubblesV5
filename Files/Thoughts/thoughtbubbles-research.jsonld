@@ -1,0 +1,16 @@
+{
+	"@id": "thoughtbubbles-research",
+	"@context": "tb",
+	"data": "ThoughtBubbles Research Log\n\nRunning research log for ThoughtBubbles-relevant technology, patterns, and external developments.\nMaintained by the ThoughtBubbles researcher cron agent (Calcifer).\n\n2026-04-15 — Quarterly Technology Landscape Sweep\n\nOrbitDB 3.0 — Feature Complete (May 2025)\nSource: https://orbitdb.substack.com/p/what-happened-at-orbitdb-in-may-2025\nFinding: OrbitDB released v3.0 in May 2025 — declared \"feature complete\" after ~10 years of development. Key addition: modular…",
+	"lastUpdated": "1790726400",
+	"createdAt": "1776211200",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"reference",
+		"thoughtbubbles",
+		"research",
+		"technology"
+	],
+	"category": "reference"
+}

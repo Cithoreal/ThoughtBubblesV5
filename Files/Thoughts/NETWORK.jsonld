@@ -1,0 +1,10 @@
+{
+	"@id": "NETWORK",
+	"@context": "tb",
+	"data": "NETWORK.md — Star Network Position\n\nNetwork Interfaces\n\n| Interface | State | IP | Notes |\n|-----------|-------|-----|-------|\n| lo | UP | 127.0.0.1/8 | Loopback |\n| eno1 | UP | 192.168.1.10/24 | Primary ethernet (DHCP) |\n| tailscale0 | UP | (via Tailscale) | Tailscale mesh |\n| docker0 | UP | 172.17.0.1/16 | Docker bridge |\n| enp5s0 | DOWN | — | Secondary ethernet (no carrier) |\n| wlp4s0 | DOWN | — | WiFi (disabled) |\n\nTailscale\nStatus: Active (verified Sept 25, 2026)\nTailscale IP:…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

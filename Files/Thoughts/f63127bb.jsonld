@@ -1,0 +1,12 @@
+{
+	"@id": "f63127bb",
+	"@context": "tb",
+	"data": "Add present subtask to task system\n\n\"I'm going to add add subtask and I'm going to say add present\"\n\nSource Journals\n[[Planning AI Systems.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Planning-AI-Systems.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

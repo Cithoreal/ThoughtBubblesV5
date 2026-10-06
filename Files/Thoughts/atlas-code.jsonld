@@ -1,0 +1,27 @@
+{
+	"@id": "atlas-code",
+	"@context": "tb",
+	"data": "Atlas Code\n\nVR code editor for Meta Quest. Vim-style modal editing in spatial panels.\nRepo: <https://github.com/gearscrafter/atlas_code>\nLicense: Apache-2.0\nStars: New (March 2026)\nStatus: ~85% complete, tested on Quest Pro and Quest 3\n\nWhat It Provides\nVim-style modal editing (NORMAL/INSERT/VISUAL) in VR\nMulti-language syntax highlighting (C++, Java, Python, Dart)\nMulti-panel spatial architecture\nIntegrated terminal with command execution\nFile operations\nOpenXR integration\nWorld-locked and…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"vride",
+		"godot-quest-editor"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"godot-vr-editor-proposal",
+		"spatial-authoring-research",
+		"vride",
+		"xrsh"
+	],
+	"tags": [
+		"tool",
+		"openxr",
+		"reference",
+		"code-editor"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "cad45ebd",
+	"@context": "tb",
+	"data": "Got colors working for review system\n\n\"I got the colors, the color thing working.\"\n\nSource Journals\n[[What is Conciousness.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"What-is-Conciousness.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

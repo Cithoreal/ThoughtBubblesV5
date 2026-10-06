@@ -1,0 +1,28 @@
+{
+	"@id": "godot-vr-editor-proposal",
+	"@context": "tb",
+	"data": "Godot VR Editor Proposal (#12086)\n\nOpen proposal to rework the Godot VR editor with floating windows in 3D space. The gap we're filling.\nURL: <https://github.com/godotengine/godot-proposals/issues/12086>\nState: Open\nAuthor: astearon (March 2025)\nLabels: topic:editor, topic:xr\n\nWhat It Proposes\nEditor panels as floating windows in 3D space (like Unreal's VR editor mode)\nWindows can be world-locked or follow the user\nJoystick navigation, grip-to-zoom (Tilt Brush style)\nTriggers as mouse buttons,…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-spatial-interaction-primitives",
+		"godot-quest-editor",
+		"vride",
+		"atlas-code"
+	],
+	"LinkFrom": [
+		"goal-spatial-authoring",
+		"goal-typed-links",
+		"godot-quest-editor",
+		"spatial-authoring-research",
+		"vride"
+	],
+	"tags": [
+		"reference",
+		"godot",
+		"proposal",
+		"gap"
+	],
+	"category": "projects"
+}

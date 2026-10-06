@@ -1,0 +1,12 @@
+{
+	"@id": "81f6d1b9",
+	"@context": "tb",
+	"data": "Leave at 6 for date\n\n\"So leave at like six here\"\n\nSource Journals\n[[More Spice.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"More-Spice.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

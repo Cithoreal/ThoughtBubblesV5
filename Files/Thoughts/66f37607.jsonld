@@ -1,0 +1,12 @@
+{
+	"@id": "66f37607",
+	"@context": "tb",
+	"data": "Implement breadcrumb trail navigation\n\n\"breadcrumb, trail, back and forth\"\n\nSource Journals\n[[Journal-It_is_twelve_fifty_one_am,-1st_thought-Monday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_twelve_fifty_one_am-1st_thought-Monday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

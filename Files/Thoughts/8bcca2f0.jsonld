@@ -1,0 +1,12 @@
+{
+	"@id": "8bcca2f0",
+	"@context": "tb",
+	"data": "Fix or investigate broken passenger side door handle on car\n\n\"my passenger side door on my car, I mean, it's broken. The door handle on the inside doesn't catch the door opening mechanism or something. I need to tell that together. We can probably figure out how to open up the door and see what's going on in there.\"\n\nSource Journals\n[[2025-10-21 08-49-35.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2025-10-21-08-49-35.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "b3bc6c86",
+	"@context": "tb",
+	"data": "Take linear algebra test (Wednesday)\n\n\"And maybe Wednesday I'll take the test\"\n\nSource Journals\n[[Journal Backlog.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-Backlog.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

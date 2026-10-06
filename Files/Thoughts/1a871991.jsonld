@@ -1,0 +1,12 @@
+{
+	"@id": "1a871991",
+	"@context": "tb",
+	"data": "Implement automatic continued conversation feature\n\n\"So one thing I could look into sooner is having the automatic continued conversation where I basically can just make it a tool run and have the AI decide whether to listen or not\"\n\nSource Journals\n[[Updates on Projects.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Updates-on-Projects.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

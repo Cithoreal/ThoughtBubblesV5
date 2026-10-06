@@ -1,0 +1,31 @@
+{
+	"@id": "Organizational-Architecture.tasks",
+	"@context": "tb",
+	"data": "Organizational Architecture.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"079875b5",
+		"0fe4c598",
+		"1c46b725",
+		"3ff6f8ae",
+		"6eff7c8f",
+		"75f99bba",
+		"7601861c",
+		"7f86bb28",
+		"81908aaa",
+		"869da8fa",
+		"8f02bb8b",
+		"905d7c93",
+		"918e6d05",
+		"a2bccd23",
+		"d0b30051",
+		"e1e974bc",
+		"f1c06c28"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

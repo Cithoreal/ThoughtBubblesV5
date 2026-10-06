@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-introspection-2",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Go back through this recording later to review and learn from it', 'type': 'explicit', 'status': 'new', 'raw_quote': 'Yeah, I think I should go back through this later, me, who is listening to this.', 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'Introspection 2.md', 'extracted_at': '2026-05-18T16:59:57.449734', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Throw away the item in…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

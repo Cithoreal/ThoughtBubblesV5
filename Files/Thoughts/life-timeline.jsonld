@@ -1,0 +1,19 @@
+{
+	"@id": "life-timeline",
+	"@context": "tb",
+	"data": "Life Timeline\n\nA longitudinal timeline of cithoreal's life, ideas, projects, and evolution. Every entry is tagged for filtering.\n\nTag legend:\n#room2 — Room 2.0 / MyRoom 2.0 mentions\n#thoughtbubbles — ThoughtBubbles / DotBubbles / TopBubbles\n#cybernautics — Cybernautics company/vision\n#xr — XR/VR/AR development\n#skilltrees — Skill Trees / Quest System\n#homelab — Infrastructure, self-hosting, hardware\n#calcifer — Calcifer / AI assistant\n#identity — Self-concept, philosophy, personal…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1781654400",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"production-plan"
+	],
+	"tags": [
+		"project",
+		"active",
+		"timeline",
+		"meta"
+	],
+	"category": "projects"
+}

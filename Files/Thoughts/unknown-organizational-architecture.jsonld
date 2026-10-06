@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-organizational-architecture",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Define base architecture of information for merging new data', 'type': 'explicit', 'status': 'new', 'raw_quote': \"What I need to start doing is defining the base architecture of information that I'm going to be merging new data into.\", 'project': 'Personal', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Organizational Architecture.md', 'extracted_at': '2026-05-18T18:10:55.283189', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

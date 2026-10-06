@@ -1,0 +1,12 @@
+{
+	"@id": "d5a93bcf",
+	"@context": "tb",
+	"data": "Delete existing data in Neo4j\n\n\"i'll probably look into deleting everything that i have so far\"\n\nSource Journals\n[[Saving Thoughts.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thoughts.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

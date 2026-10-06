@@ -1,0 +1,12 @@
+{
+	"@id": "e3bd9417",
+	"@context": "tb",
+	"data": "Try out node property externalization approach (creating copies when values change vs. using relationships)\n\n\"I'll try that out.\"\n\nSource Journals\n[[Saving Thought Bubbles to Neo4j.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Saving-Thought-Bubbles-to-Neo4j.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

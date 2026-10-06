@@ -1,0 +1,13 @@
+{
+	"@id": "2026-09-07",
+	"@context": "tb",
+	"data": "2026-09-07\n\nEvents\nVault steward run 2026-09-07: 21 notes tagged, 1 dead link removed (daily/2026-04-07 in calcifer-vault), 1 wikilink fixed (skill-trees-research in project-mirror), 2 stubs created (SOUL.md, IDENTITY.md for people/calcifer). Prune report: 3781 issues (907 stale-urgent, 121 stale, 2380 orphaned, 373 duplicates). Temporal scan: 15 CRITICAL, 113 WARNING, 483 INFO. Most orphans are tasks/ auto-generated notes. Duplicate candidates need cithoreal's judgment (journal 2022/unknown…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"daily"
+	],
+	"category": "daily"
+}

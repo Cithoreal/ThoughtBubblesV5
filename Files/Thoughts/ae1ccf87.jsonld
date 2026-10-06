@@ -1,0 +1,12 @@
+{
+	"@id": "ae1ccf87",
+	"@context": "tb",
+	"data": "Save remaining alcohol for special occasion\n\n\"I'm gonna save it for a special occasion.\"\n\nSource Journals\n[[2-16 Drunk.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2-16-Drunk.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,29 @@
+{
+	"@id": "star-cybership",
+	"@context": "tb",
+	"data": "e\nDrive: Cybership (nvme0n1p2, 1.8 TB NTFS)\n\nDevice: /dev/nvme0n1p2 → /run/media/cithoreal/Cybership\nSize: 1.9 TB total | 1.4 TB used | 430 GB free\nFilesystem: NTFS (NVMe — fast storage)\nHost: star (internal NVMe, likely secondary drive)\n\nTop-Level Structure\n\nCybership/Projects/ (341 GB)\n\nLarge and rich. Mix of school projects, personal dev work, and archived experiments.\n\nCybership/Videos/ (1.4 GB)\n\nCybership/3D models/ (2.2 GB)\n\nPersonal 3D printable models:\nHex Bracers — wearable accessory…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"star-storage",
+		"star-elements",
+		"star-home",
+		"elements-drive",
+		"index"
+	],
+	"LinkFrom": [
+		"cybership",
+		"star-elements",
+		"star-home",
+		"star-storage",
+		"elements-drive"
+	],
+	"tags": [
+		"infra",
+		"drives",
+		"star",
+		"pi5",
+		"project"
+	],
+	"category": "infra"
+}

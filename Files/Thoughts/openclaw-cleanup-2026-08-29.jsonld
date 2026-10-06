@@ -1,0 +1,19 @@
+{
+	"@id": "openclaw-cleanup-2026-08-29",
+	"@context": "tb",
+	"data": ".openclaw Directory Cleanup — 2026-08-29\n\nFull review delivered 3 AM Aug 29 (Signal). Phase 1 executed ~9 AM with cithoreal's go-ahead. Everything trashed via gio trash (recoverable from ~/.local/share/Trash), nothing rm'd.\n\nReview findings (3 AM)\nTotal: 14GB, about a third reclaimable\nBig fish (3.4G) — agent databases: main 902M, four cron agents ~650M each (journal-analyst, vault-steward, thoughtbubbles-researcher, accountant). Live DBs — retention investigation needed, not hand-hacking. →…",
+	"lastUpdated": "1787961600",
+	"createdAt": "1787961600",
+	"LinkTo": [
+		"bhaptics-linux",
+		"openclaw"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"openclaw",
+		"cleanup",
+		"maintenance"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,19 @@
+{
+	"@id": "voxel-core",
+	"@context": "tb",
+	"data": "Voxel-Core\n\nGDScript voxel plugin for creating, importing, and editing voxel content in-engine and in-game.\nRepo: <https://github.com/ClarkThyLord/Voxel-Core>\nLicense: Check repo\nGodot version: 4.x\nStatus: Listed in awesome-godot\n\nWhat It Provides\nIn-editor and in-game voxel editing\nCreate, import, modify voxel models\nGDScript-based, no engine modifications needed\n\nRelevance\nLess directly relevant to thought bubbles, but demonstrates the \"edit content in-game\" pattern — building tools that work…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring"
+	],
+	"LinkFrom": [
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"creative"
+	],
+	"category": "projects"
+}

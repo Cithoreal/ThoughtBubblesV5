@@ -1,0 +1,25 @@
+{
+	"@id": "solarpunk-framework",
+	"@context": "tb",
+	"data": "Solarpunk Framework\n\n\"I want to work on things in a way that are aligned with a solarpunk future. Be able to recommend companies and services that are most closely aligned with the solarpunk future — so that we can vote with our money.\"\n— cithoreal, 2026-04-14\n\nWhat Solarpunk Means Here\n\nNot just aesthetic. A vendor and project selection filter:\nPrefer companies that do right by people, planet, and future generations\nAvoid companies with extractive, opaque, or environmentally harmful…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776124800",
+	"LinkTo": [
+		"infrastructure-visualization",
+		"skill-trees",
+		"thought-bubbles"
+	],
+	"LinkFrom": [
+		"infrastructure-visualization",
+		"research-threads",
+		"HOME",
+		"concepts"
+	],
+	"tags": [
+		"concept",
+		"active",
+		"values",
+		"solarpunk"
+	],
+	"category": "concepts"
+}

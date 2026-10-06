@@ -1,0 +1,50 @@
+{
+	"@id": "systems-programming-2025",
+	"@context": "tb",
+	"data": "Systems Programming & Low-Level Learning (2025)\n\nWhat It Is\nA sustained period of low-level systems programming study in cithoreal's CS coursework and self-directed learning during Fall 2025. C, C++, assembly, Rust, and OS concepts. This feeds directly into TB's Godot/GDExtension work and future ECS backends.\n\nTimeline of Learning\n\n| Period | Focus |\n|--------|-------|\n| Sep 2025 | Rust fundamentals (introduction, CLI concepts) |\n| Sep–Oct 2025 | C programming (pipes, forks, threads, pthreads)…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"2025-09-25_rust-programming-introduction",
+		"2025-09-25_c-vs-rust-differences",
+		"2025-09-17_c-project-idea",
+		"2025-09-28_explain-pipe-in-c",
+		"2025-09-29_fork-vs-threads-in-c",
+		"2025-10-08_beginner-rust-project-ideas",
+		"2025-10-15_3d-physics-engines-in-rust",
+		"2025-10-16_rust-physics-engine-swap",
+		"2025-10-15_simple-game-with-pthreads",
+		"2025-10-19_c-vs-c-comparison",
+		"2025-10-19_learning-c-on-raspberry-pi",
+		"2025-10-23_assembly-use-cases",
+		"2025-10-23_pointers-vs-variables-in-c",
+		"2025-10-23_x86-64-code-analysis",
+		"2025-10-27_branch-x86-64-code-analysis",
+		"2025-10-30_inline-assembly-in-c",
+		"2025-10-30_master-method-recurrence",
+		"2025-10-06_process-synchronization-concepts",
+		"2025-11-22_bankers-algorithm-overview",
+		"2025-10-09_moon-orbit-code-issue",
+		"2025-11-07_c-derived-from-c-c",
+		"2025-11-11_working-with-godot-cpp",
+		"thoughtbubbles-godot-migration",
+		"skill-trees",
+		"core-system",
+		"bsu-academic-context",
+		"cithoreal"
+	],
+	"LinkFrom": [
+		"bsu-academic-context",
+		"thought-bubbles",
+		"thoughtbubbles-godot-migration",
+		"concepts",
+		"personal-finances"
+	],
+	"tags": [
+		"concept",
+		"chatgpt-sourced",
+		"active",
+		"project"
+	],
+	"category": "concepts"
+}

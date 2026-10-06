@@ -1,0 +1,22 @@
+{
+	"@id": "uiuc",
+	"@context": "tb",
+	"data": "UIUC — VR@Illinois, NCSA & CS\n\nPart of [[projects/grad-school-options|Grad School Options]] research.\n\nOverview\n\nThe University of Illinois Urbana-Champaign combines a world-class CS program — consistently ranked in the top 5 nationally — with unique resources in NCSA (National Center for Supercomputing Applications) and the VR@Illinois cross-campus initiative. NCSA operates CAVE2 and advanced visualization facilities that few universities can match. The MS thesis track is often funded, making…",
+	"lastUpdated": "1784678400",
+	"createdAt": "1784678400",
+	"LinkTo": [
+		"grad-school-options"
+	],
+	"LinkFrom": [
+		"application-timeline"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"university",
+		"xr",
+		"spatial-computing",
+		"active"
+	],
+	"category": "projects"
+}

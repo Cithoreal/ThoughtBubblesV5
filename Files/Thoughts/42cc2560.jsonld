@@ -1,0 +1,12 @@
+{
+	"@id": "42cc2560",
+	"@context": "tb",
+	"data": "Focus on homework\n\n\"I just got some little bit of homework to really focus on later\"\n\nSource Journals\n[[2026-04-15 11-54-29.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-04-15-11-54-29.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

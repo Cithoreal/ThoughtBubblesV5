@@ -1,0 +1,17 @@
+{
+	"@id": "immich",
+	"@context": "tb",
+	"data": "Immich\n\nSelf-hosted photo/video management at photos.cybernautics.net\n\nAccess\nURL: https://photos.cybernautics.net\nAdmin: cithoreal@gmail.com (Christopher DiCarlo)\nAdmin User ID: 16af5dd0-29b7-43ce-bada-5488791719f8\nAPI Key: 5FxvBQHtDqWD9JoXhB9w7xhqDKtbRySGIgfAYHoc\n\nDeployment\nHost: Optiplex (10.0.0.2)\nCompose: /home/cithoreal/services/immich/docker-compose.yml\nEnv: /home/cithoreal/services/immich/.env\nStorage: /mnt/storage/immich/ (uploads, DB, Redis)\nContainers: immich_server,…",
+	"lastUpdated": "1781568000",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"immich",
+		"photos"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "c7b134de",
+	"@context": "tb",
+	"data": "Maintain sleep schedule going to bed around 12\n\n\"Go to sleep around 12. Which I have been doing.\"\n\nSource Journals\n[[The Home Depot.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

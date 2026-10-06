@@ -1,0 +1,24 @@
+{
+	"@id": "task-system-planning",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Task System Planning.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Task System Planning\nTranscribed: 2026-03-30 13:06  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:10]  \nIt is 12.15 a.m. December 14th, 2023.\n[00:00:14 → 00:00:16]  \nDecember 14th, huh?\n[00:00:17 → 00:00:19]  \nFinal couple weeks of the year.\n[00:00:22 → 00:00:23]  \nPretty good year…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"index"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"topic/room-2-0",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,30 @@
+{
+	"@id": "infrastructure-visualization",
+	"@context": "tb",
+	"data": "<!-- scanner: tagged active/ongoing but not updated in 122d — review -->\n\nInfrastructure Visualization\n\n\"Be able to see the wires and the walls — with augmented reality. The wires and the pipes and just all the foundational infrastructure of the house. Then expand that outwards to be the town, the city.\"\n— cithoreal, 2026-04-14\n\nCore Concept\n\nA layered, spatial visualization system that makes invisible infrastructure visible — at every scale from household to global. The same design philosophy…",
+	"lastUpdated": "1776124800",
+	"createdAt": "1776124800",
+	"LinkTo": [
+		"thought-bubbles",
+		"solarpunk-framework",
+		"skill-trees",
+		"alienware"
+	],
+	"LinkFrom": [
+		"project-mirror",
+		"research-threads",
+		"solarpunk-framework",
+		"thought-bubbles",
+		"concepts",
+		"goal-room-2-0-convergence"
+	],
+	"tags": [
+		"concept",
+		"active",
+		"vision",
+		"thoughtbubbles",
+		"xr",
+		"solarpunk"
+	],
+	"category": "concepts"
+}

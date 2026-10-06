@@ -1,0 +1,10 @@
+{
+	"@id": "STORAGE",
+	"@context": "tb",
+	"data": "STORAGE.md — Star Storage Map\n\nMount Overview\n\n| Mount | Device | FS | Size | Used | Avail | Use% | Status |\n|-------|--------|----|------|------|-------|------|--------|\n| / (root) | /dev/sda2 | btrfs | 932G | 827G | 100G | 90% | ⚠️ PRESSURE |\n| /home | /dev/sda2 | btrfs | 932G | 827G | 100G | 90% | ⚠️ PRESSURE (same fs) |\n| /.snapshots | /dev/sda2 | btrfs | 932G | 827G | 100G | 90% | ⚠️ PRESSURE (same fs) |\n| /boot/efi | /dev/sda1 | vfat | 488M | 668K | 487M | 1% | OK |\n| /mnt/cybership |…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

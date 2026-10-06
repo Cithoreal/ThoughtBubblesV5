@@ -1,0 +1,12 @@
+{
+	"@id": "76471fcf",
+	"@context": "tb",
+	"data": "Take a break after an hour and a half of recording\n\n\"After an hour and a half of this recording I'll take a break\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

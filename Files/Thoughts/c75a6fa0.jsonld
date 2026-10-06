@@ -1,0 +1,12 @@
+{
+	"@id": "c75a6fa0",
+	"@context": "tb",
+	"data": "Create thought node that handles data (separate from thought text)\n\n\"I'm going to want to make just a thought node which handles data, basically\"\n\nSource Journals\n[[Journal-It_is_three_oh_five_pm,-1st_thought-Wednesday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_three_oh_five_pm-1st_thought-Wednesday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

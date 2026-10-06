@@ -1,0 +1,26 @@
+{
+	"@id": "mext-scholarship-2029",
+	"@context": "tb",
+	"data": "MEXT Scholarship 2029 — Graduate School Guide\n\nCreated: 2026-07-20  \nTarget departure: April 2029 or September/October 2029  \nApplicant jurisdiction: Consulate-General of Japan in Boston (CT, MA, ME, NH, RI, VT)  \nApplying as: Research Student (graduate-level — Master's or PhD)\n\nOverview\n\nThe MEXT (Monbukagakusho) Scholarship is Japan's flagship government scholarship for international students. It covers:\nFull tuition — entrance exam, matriculation, and tuition fees waived\nMonthly stipend —…",
+	"lastUpdated": "1787097600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"application-timeline",
+		"keio-university",
+		"kyoto-university",
+		"naist-care-lab",
+		"osaka-university",
+		"science-tokyo",
+		"utokyo"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"mext",
+		"scholarship",
+		"2029"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,28 @@
+{
+	"@id": "vride",
+	"@context": "tb",
+	"data": "VRIDE\n\nVR Interactive Development Environment in Unity. Most complete in-VR code environment found.\nRepo: <https://github.com/Vito217/VRIDE>\nLicense: MIT\nStars: 55, 450 commits\nStatus: Downloadable releases (v0.32.3), early WIP but functional\n\nWhat It Provides\nInteractable widgets: text editor, system browser, inspector, debugger\n3D visualization of code objects\nSave/resume environment state\nCollaborative programming (multi-user)\nPharo and Python support\nConnects to desktop streamer app\nBuilt…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"atlas-code",
+		"xrsh",
+		"godot-vr-editor-proposal"
+	],
+	"LinkFrom": [
+		"atlas-code",
+		"goal-spatial-authoring",
+		"godot-vr-editor-proposal",
+		"spatial-authoring-research",
+		"xrsh"
+	],
+	"tags": [
+		"tool",
+		"unity",
+		"reference",
+		"ide"
+	],
+	"category": "projects"
+}

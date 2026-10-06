@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-11-8-ai-and-release",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': \"Learn Unity's AI tools by January\", 'type': 'explicit', 'status': 'new', 'raw_quote': \"by January, I want to have a working understanding of Unity's AI tools\", 'project': 'Learning', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': '11-8 AI and Release.md', 'extracted_at': '2026-05-03T16:10:37.275931', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Set up Unity work environment on computer', 'type':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

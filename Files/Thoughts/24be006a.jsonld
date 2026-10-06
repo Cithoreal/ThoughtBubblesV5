@@ -1,0 +1,12 @@
+{
+	"@id": "24be006a",
+	"@context": "tb",
+	"data": "End this recording, start a new one, and try to do a different topic\n\n\"I will end this recording, start a new one, and try to do a different topic.\"\n\nSource Journals\n[[Car ride home 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Car-ride-home-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

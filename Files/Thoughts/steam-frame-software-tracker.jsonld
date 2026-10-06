@@ -1,0 +1,22 @@
+{
+	"@id": "steam-frame-software-tracker",
+	"@context": "tb",
+	"data": "Steam Frame Software Tracker\n\nTracking updates to SteamVR, SteamOS/Holo Core, Lepton/FEX, and the broader Steam Frame software stack.\nCalcifer checks for updates during heartbeat sweeps and logs them here.\nThree tracks watched together: SteamVR, SteamOS/Holo Core, Lepton/FEX.\n\nWhat These Are\n\nValve's three-layer compatibility stack for the Steam Frame (Snapdragon 8 Gen 3, 16GB LPDDR5X, Arch-based SteamOS):\nProton — Windows→Linux (Wine fork, shipped 2018, proven on Steam Deck)\nFEX —…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects",
+		"cyberdeck-gargoyle-research"
+	],
+	"tags": [
+		"steam-frame",
+		"steamvr",
+		"steamos",
+		"lepton",
+		"valve",
+		"xr",
+		"tracking"
+	],
+	"category": "projects"
+}

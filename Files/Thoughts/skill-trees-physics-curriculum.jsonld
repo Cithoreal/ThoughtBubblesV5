@@ -1,0 +1,23 @@
+{
+	"@id": "skill-trees-physics-curriculum",
+	"@context": "tb",
+	"data": "Skill Trees — Physics Curriculum (Audio-First)\n\nProof of concept for audio-first skill trees. Uses OpenStax College Physics as structural backbone, supplemented with audio-friendly resources for commute study.\n\nSource Textbooks\n\nOpenStax College Physics (2 volumes + Volume 3 start)\nFree: https://openstax.org/details/books/college-physics\nVolume 1: Mechanics, Thermodynamics\nVolume 2: E&M, Optics, Modern Physics\nVolume 3 (start): Modern Physics continuation\n\nOpenStax University Physics (3…",
+	"lastUpdated": "1777766400",
+	"createdAt": "1777766400",
+	"LinkTo": [
+		"skill-trees",
+		"infrastructure-productivity-habits-plan"
+	],
+	"LinkFrom": [
+		"projects",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"physics",
+		"curriculum",
+		"audio-first"
+	],
+	"category": "projects"
+}

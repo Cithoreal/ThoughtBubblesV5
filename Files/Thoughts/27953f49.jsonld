@@ -1,0 +1,12 @@
+{
+	"@id": "27953f49",
+	"@context": "tb",
+	"data": "Set up Neo4j and Node-RED flow for AI command writing\n\n\"So I want to set up Neo4j and I guess the whole Node-RED flow\"\n\nSource Journals\n[[Starting To Automate.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Starting-To-Automate.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

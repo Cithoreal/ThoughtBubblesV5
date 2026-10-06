@@ -1,0 +1,12 @@
+{
+	"@id": "17c0fb0a",
+	"@context": "tb",
+	"data": "Reset Shelly OnePlus in wall\n\n\"reset the one in the wall, the Shelly OnePlus\"\n\nSource Journals\n[[Wind down routine.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Wind-down-routine.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

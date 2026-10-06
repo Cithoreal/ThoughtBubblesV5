@@ -1,0 +1,18 @@
+{
+	"@id": "2026-10-03-local-ai-infrastructure-stack",
+	"@context": "tb",
+	"data": "The Local AI Infrastructure Stack is Becoming Real\n\nWhat I Found\n\nFour developments in the last 30-60 days, each solving a different layer of the same problem: making local AI a first-class computing paradigm, not a fallback when cloud is unavailable or too expensive.\n\nLayer 1: Compute — NVIDIA PAIR (Personal AI Router)\n\nNVIDIA PAIR (beta, Sept 3 2026) is free open-source software that turns household PCs into a personal AI inference cluster. Install on each machine, pair via 6-digit PIN +…",
+	"lastUpdated": "1790985600",
+	"createdAt": "1790985600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"research",
+		"local-first",
+		"local-ai",
+		"infrastructure",
+		"crdt",
+		"agent-memory"
+	],
+	"category": "research"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "cffc9e75",
+	"@context": "tb",
+	"data": "Add VR research to research list\n\n\"just add that to my research\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

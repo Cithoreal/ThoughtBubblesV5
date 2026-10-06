@@ -1,0 +1,30 @@
+{
+	"@id": "solid-encryption-layer",
+	"@context": "tb",
+	"data": "Concept: Solid Pod Encryption Layer\n\nWhat It Is\n\nA client-side encryption layer for Solid Pod data that supplements the protocol's built-in access control (WAC/ACP) with true data confidentiality. Solid's WAC controls who can reach a resource. This encryption layer controls what the data means even if someone gets it.\n\nDesign principle: Layer the defenses. Be honest about where the trust boundary sits. Give users maximum tools to protect their data. The rest is the user's responsibility for who…",
+	"lastUpdated": "1782518400",
+	"createdAt": "1782518400",
+	"LinkTo": [
+		"solid-pod-sovereignty",
+		"decentralized-local-first-stack",
+		"cybernautics-vision",
+		"semantic-web-and-linked-data",
+		"core-system"
+	],
+	"LinkFrom": [
+		"community-first-adoption-strategy",
+		"cybernautics-dao-governance",
+		"solid-pod-sovereignty",
+		"solid-pod"
+	],
+	"tags": [
+		"concept",
+		"tier-1",
+		"project",
+		"active",
+		"architecture",
+		"security",
+		"encryption"
+	],
+	"category": "concepts"
+}

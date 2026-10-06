@@ -1,0 +1,32 @@
+{
+	"@id": "cybernautics-business-model",
+	"@context": "tb",
+	"data": "Cybernautics Business Model — Open Source + Commercial\n\nCore principle: Open the platform, sell the experiences. Contribute to a decentralized ecosystem where anyone can build on your work, as long as they keep it open too.\n\nThe Vision (from journals and documents)\n\nThis model synthesizes every explicit statement cithoreal has made about monetization across journals, ChatGPT conversations, OneNote brainstorms, and vault concept notes from 2023 to 2026.\n\nKey journal quotes that define the…",
+	"lastUpdated": "1781827200",
+	"createdAt": "1781827200",
+	"LinkTo": [
+		"cybernautics-business-plan",
+		"cybernautics-vision",
+		"core-system",
+		"production-plan",
+		"cybernautics-dao-governance"
+	],
+	"LinkFrom": [
+		"community-first-adoption-strategy",
+		"core-system",
+		"cybernautics-business-plan",
+		"cybernautics-dao-governance",
+		"solid-pod-sovereignty",
+		"phase-0-technical-review",
+		"production-plan"
+	],
+	"tags": [
+		"concept",
+		"cybernautics",
+		"business",
+		"monetization",
+		"open-source",
+		"active"
+	],
+	"category": "concepts"
+}

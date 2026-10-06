@@ -1,0 +1,17 @@
+{
+	"@id": "empty-messages-bug",
+	"@context": "tb",
+	"data": "Empty Messages Bug — Investigation Report\n\nDate: 2026-05-03  \nStatus: Root cause identified (OpenClaw internal, not Signal)  \nSeverity: Low (cosmetic — triggers unnecessary NO_REPLY turns)\n\nSummary\n\nCalcifer receives empty user messages in Signal sessions. These appear as {\"type\":\"text\",\"text\":\"\"} with role: \"user\" in session transcripts, always followed by a NO_REPLY assistant response.\n\nFindings\nNot from Signal\n\nThe Signal adapter (monitor-B-Ob-8iL.js) has multiple filters that should prevent…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [
+		"infra"
+	],
+	"tags": [
+		"infra",
+		"bug",
+		"hearth"
+	],
+	"category": "infra"
+}

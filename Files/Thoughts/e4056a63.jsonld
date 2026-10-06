@@ -1,0 +1,12 @@
+{
+	"@id": "e4056a63",
+	"@context": "tb",
+	"data": "Get gaps\n\n\"I need to get gaps\"\n\nSource Journals\n[[2026-06-29 18-06-32.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"2026-06-29-18-06-32.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

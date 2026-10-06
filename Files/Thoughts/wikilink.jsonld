@@ -1,0 +1,15 @@
+{
+	"@id": "wikilink",
+	"@context": "tb",
+	"data": "wikilink",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"vault-vocabulary"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

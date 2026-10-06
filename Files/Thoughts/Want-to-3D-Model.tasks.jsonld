@@ -1,0 +1,24 @@
+{
+	"@id": "Want-to-3D-Model.tasks",
+	"@context": "tb",
+	"data": "Want to 3D Model.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"07f9c8a5",
+		"2131c101",
+		"28f19d89",
+		"2a0d69f0",
+		"744b9e0d",
+		"7eb630e1",
+		"81715c90",
+		"8409bfb9",
+		"ac9bbc30",
+		"ba3216ba"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

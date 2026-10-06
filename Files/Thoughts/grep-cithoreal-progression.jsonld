@@ -1,0 +1,20 @@
+{
+	"@id": "grep-cithoreal-progression",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2024/cithoreal-progression.md\n\n12-\n13-# Journal — unknown\n14-\n15-## Source\n16-\n17:- Transcript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Cithoreal Progression.md\n18-- Transcribed by: WhisperX\n19-\n20-> [!note]- Full Transcript\n21-> \n22:> # Cithoreal Progression\n23-> \n24-> Transcribed: 2026-03-30 11:54  \n25-> Model: WhisperX large-v3  \n26-> Language: English  \n27-> \n--\n166-> \n167-> [00:04:51 → 00:04:51]  \n168-> I don't have to...\n169-> \n170-> [00:04:56 →…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"skill-trees",
+		"thought-bubbles",
+		"year-reflections",
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "356d39e1",
+	"@context": "tb",
+	"data": "Create simple task tracking system\n\n\"For now, I should just create a very simple system that just works, um, just for keeping track of the things that I need to do.\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

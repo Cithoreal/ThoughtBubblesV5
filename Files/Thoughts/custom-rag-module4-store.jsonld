@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module4-store",
+	"@context": "tb",
+	"data": "Module 4: Qdrant Vector Store — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nThe vector store is the pipeline's long-term memory. It persists embedded chunks as searchable vectors with rich payloads, enabling both semantic similarity search and metadata-filtered retrieval. M4 receives EmbeddedChunk objects from M3 and upserts them into Qdrant, where they're queryable by M5 (Search Engine) and maintainable by M8…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-4"
+	],
+	"category": "projects"
+}

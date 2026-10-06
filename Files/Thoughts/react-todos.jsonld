@@ -1,0 +1,33 @@
+{
+	"@id": "react-todos",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/React todos.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# React todos\nTranscribed: 2026-03-30 12:52  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:07]  \nIt is 1.55 p.m. April 12th, 2025.\n[00:00:10 → 00:00:11]  \nLife's pretty good right now.\n[00:00:12 → 00:00:15]  \nStill worried about Katie and all her health stuff.\n[00:00:16 → 00:00:18]  \nBut doing the…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"topic/anythingllm",
+		"topic/homelab",
+		"personal/identity",
+		"personal/productivity",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "2bb55cab",
+	"@context": "tb",
+	"data": "Create lighting automation for brainstorming sessions\n\n\"i would like to create an automation... turn on both of my led strips\"\n\nSource Journals\n[[Year Reflections.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Year-Reflections.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

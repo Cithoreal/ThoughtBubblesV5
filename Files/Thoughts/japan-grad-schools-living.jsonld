@@ -1,0 +1,21 @@
+{
+	"@id": "japan-grad-schools-living",
+	"@context": "tb",
+	"data": "Japan Graduate Schools — Living & Housing Deep Dive (2026-07-21)\n\nComprehensive research on dorms, off-campus housing, cost of living, family options, and open questions for each university. Research conducted via web investigation of official university housing pages, JASSO, and cost-of-living databases.\nNAIST — Ikoma, Nara ⭐ Best Value + Family-Friendly\n\nOn-Campus Dormitories (Excellent)\n\n| Type | Rooms | Size | Monthly Rent + Fees | Notes…",
+	"lastUpdated": "1784592000",
+	"createdAt": "1784592000",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"grad-school",
+		"japan",
+		"housing",
+		"living",
+		"cost-of-living",
+		"active"
+	],
+	"category": "projects"
+}

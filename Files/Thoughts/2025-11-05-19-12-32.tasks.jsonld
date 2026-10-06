@@ -1,0 +1,23 @@
+{
+	"@id": "2025-11-05-19-12-32.tasks",
+	"@context": "tb",
+	"data": "2025 11 05 19 12 32.tasks",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"07009b06",
+		"1d9b765d",
+		"3132cb45",
+		"32702a5a",
+		"4c54e865",
+		"63c70b7a",
+		"8e96d44c",
+		"9f20378d",
+		"e52b6b8e"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

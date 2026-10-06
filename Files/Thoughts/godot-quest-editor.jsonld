@@ -1,0 +1,28 @@
+{
+	"@id": "godot-quest-editor",
+	"@context": "tb",
+	"data": "Godot Editor on Quest 3\n\nThe Godot editor runs natively on Quest 3 and Quest Pro via the Meta Horizon Store.\nStore: <https://www.meta.com/experiences/godot-game-engine/7713660705416473/>\nLicense: MIT (Godot engine)\nStatus: Live, early access\nBuilt by: Fredia Huya-Kouadio (Meta), W4 Games, Bastiaan Olij\n\nWhat It Provides\nFull Godot editor on the headset — GDScript editing with code completion\nLive scene editing, live script reloading, live debugging, live profiling\nBluetooth keyboard + mouse…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-interaction-primitives",
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"godot-46-xr-features",
+		"godot-vr-editor-proposal"
+	],
+	"LinkFrom": [
+		"atlas-code",
+		"godot-47-xr-improvements",
+		"godot-openxr-vendors",
+		"godot-vr-editor-proposal",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"platform",
+		"godot",
+		"xr",
+		"quest"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,23 @@
+{
+	"@id": "thoughtbubbles-spec",
+	"@context": "tb",
+	"data": "ThoughtBubbles — Specification\n\nStatus: Draft — Phase 2 synthesis (complete pass; open questions marked)\nAuthor: Christopher DiCarlo (synthesized by Calcifer from Chris's corpus, 2016–2026)\nCreated: 2026-09-09\nSource material: specs/thoughtbubbles-source-dump.md (628 citations, ~190 sources: OneNote 2019–2025, ChatGPT sessions 2024–2025, audio journals 2021–2025, vault concepts, spatial-authoring research Aug 2026, Core System production plan Jun 2026, ThoughtBubblesV5 prototype code Oct 2025,…",
+	"lastUpdated": "1788912000",
+	"createdAt": "1788912000",
+	"LinkTo": [
+		"Some-Title",
+		"target",
+		"image.png",
+		"-",
+		"file"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"spec",
+		"thoughtbubbles",
+		"room-2-0",
+		"xr",
+		"knowledge-graph"
+	],
+	"category": "specs"
+}

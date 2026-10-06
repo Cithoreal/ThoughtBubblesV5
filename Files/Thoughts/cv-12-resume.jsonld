@@ -1,0 +1,15 @@
+{
+	"@id": "cv-12-resume",
+	"@context": "tb",
+	"data": "cv_12\n\nLast Updated on 21st December 2025\n\nChristopher DiCarlo\nchrisliow@gmail.com | 215.375.4852\n\nEDUCATION\n\nEXPERIENCE\n\nPURDUE UNIVERSITY\n\nCLARITY PARTNERS LLC. | Associate Software Engineer\n\nComputer Engineering\n\nMay. 2015 – present | Chicago, IL\n• Design and develop at all layers (front-end + back-end) public-facing\napplications for civilians to access and utilize police resources.\n• Co-authored Visual Studio library containing custom Bootstrap, WebGrid, and\nForm Validation extension…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"raw-doc",
+		"career",
+		"resume"
+	],
+	"category": "projects"
+}

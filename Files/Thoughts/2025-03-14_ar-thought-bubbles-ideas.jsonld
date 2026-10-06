@@ -1,0 +1,15 @@
+{
+	"@id": "2025-03-14_ar-thought-bubbles-ideas",
+	"@context": "tb",
+	"data": "2025 03 14_ar thought bubbles ideas",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [
+		"thought-bubbles"
+	],
+	"tags": [
+		"stub"
+	],
+	"category": "stub"
+}

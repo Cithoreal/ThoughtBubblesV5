@@ -1,0 +1,10 @@
+{
+	"@id": "SOFTWARE",
+	"@context": "tb",
+	"data": "SOFTWARE.md — Star Software Environment\n\nOperating System\nOS: Arch Linux\nKernel: 7.2.6-arch2-1 (PREEMPT_DYNAMIC, compiled Mon Sep 14 2026)\nHostname: star\nArchitecture: x86_64\n\nPackage Count\nTotal installed packages: 2,078\n\nKey Installed Packages\nrestic: 0.19.1-1\ndocker: 1:29.8.0-1\ntailscale: 1.102.4-1\nopenclaw: 2026.9.5 (ec9c1a1)\nborgbackup/borg: not installed\n\nRunning System Services\n\n| Service | Description |\n|---------|-------------|\n| bluetooth | Bluetooth service |\n| containerd | Container…",
+	"lastUpdated": "1791165366",
+	"createdAt": "1791165366",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "infra"
+}

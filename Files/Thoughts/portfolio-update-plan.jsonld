@@ -1,0 +1,16 @@
+{
+	"@id": "portfolio-update-plan",
+	"@context": "tb",
+	"data": "Portfolio Website Update Plan — July 28, 2026\n\nComprehensive guide for updating the Next.js portfolio rebuild with real content.\nThe rebuild is at Stage 7 of 11. The old Squarespace site (cybernautics.net) is still live.\nRepo: Cithoreal/portfolio-website-guide (private) | Docs: Cithoreal/portfolio-website-docs\n\nCurrent State\nLive site: cybernautics.net (old Squarespace, last updated ~2022)\nRebuild: Next.js + React Three Fiber, TypeScript, Tailwind, Zustand\nRebuild progress: Stages 1-6 complete,…",
+	"lastUpdated": "1785196800",
+	"createdAt": "1785196800",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"portfolio",
+		"career",
+		"website",
+		"update-plan"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-to-katie-1",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Send this audio recording to Katie', 'type': 'explicit', 'status': 'new', 'raw_quote': \"I'm just going to record it for a couple minutes and then send it.\", 'project': 'Personal', 'priority_inferred': 'medium', 'is_recurring': False, 'source_file': 'To Katie 1.md', 'extracted_at': '2026-05-18T19:09:37.004968', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'End current recording and start another one', 'type': 'explicit',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,10 @@
+{
+	"@id": "file-cabinet-ar-spec",
+	"@context": "tb",
+	"data": "File Cabinet AR — Specification\n\nStatus: Phase 1 — Draft from audio journal brainstorm (Sep 12, 2026)\nSources: Audio journal \"File Cabinet AR\" (Sep 12, 2026 1:09 PM), audio journal \"Back at my desk\" (Sep 12, 2026 12:16 AM)\nAuthor: Calcifer (from Chris DiCarlo's brainstorm)\nTarget platform: Meta Quest 3 (standalone, passthrough AR)\nEngine: Godot 4.x (OpenXR)\n\n| # | Section | Question |\n|---|---|---|\n| 1 | §8 Integration | ✅ Resolved: SSH key stored in project ssh/ folder, bundled with project,…",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "specs"
+}

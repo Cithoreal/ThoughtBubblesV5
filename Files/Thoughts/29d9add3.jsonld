@@ -1,0 +1,12 @@
+{
+	"@id": "29d9add3",
+	"@context": "tb",
+	"data": "Analyze progress with AI and direct intentions\n\n\"I would like to retrospect or just analyze my progress with AI and my direct intentions\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

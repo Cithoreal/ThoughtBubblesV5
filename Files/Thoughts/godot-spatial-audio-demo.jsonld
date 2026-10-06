@@ -1,0 +1,20 @@
+{
+	"@id": "godot-spatial-audio-demo",
+	"@context": "tb",
+	"data": "Godot Spatial Audio Demo\n\nDemo project showcasing spatial audio in XR using Godot Steam Audio.\nRepo: <https://github.com/GodotVR/spatial-audio-demo>\nLicense: MIT\nGodot version: 4.x\nStatus: Demo/reference\n\nWhat It Provides\nSteam Audio integration for Godot XR\nSpatial sound positioning, reverb, occlusion\nReference for audio in immersive environments\n\nRelevance\nWhen thought bubbles have audio content (journal clips, voice notes), spatial audio places the sound at the bubble's location. Walk toward…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"godot-xr-tools"
+	],
+	"LinkFrom": [
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"tool",
+		"godot",
+		"xr",
+		"foundation"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,17 @@
+{
+	"@id": "online-shop-strategy",
+	"@context": "tb",
+	"data": "Cybernautics Online Shop Strategy\n\nCreated: 2025-08-25\nContext: Strategic guide for selling art prints, apps, 3D prints, stickers, and custom embedded devices under the cybernautics.net brand. Written for a technical maker with self-hosting capability, Forgejo, homelab infrastructure, and 3D printing ability.\n\nPlatform Options — Full Comparison\n\nShopify (The Default — But Not For You)\n\n2026 Pricing:\nStarter: $5/mo (social selling only, no full store)\nBasic: $39/mo monthly / $29/mo annual — full…",
+	"lastUpdated": "1788739200",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"cybernautics",
+		"business"
+	],
+	"category": "projects"
+}

@@ -1,0 +1,37 @@
+{
+	"@id": "spatial-authoring-environment",
+	"@context": "tb",
+	"data": "Spatial Authoring Environment\n\nBuild apps and experiences FROM WITHIN VR by grabbing nodes, connecting them in 3D space, and assembling logic spatially. The vault is the data model. The Quest 3 is the canvas. The fiction is the spec.\n\nVision\n\nA spatial authoring environment running on Quest 3 in Godot that unifies ThoughtBubbles, skill trees, and Room 2.0 into one tool you use from inside VR. You reach out, grab a thought bubble, place it in space, connect it to another with a gesture, and…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"fiction-to-spec-mapping",
+		"thoughtbubbles",
+		"room-2-0",
+		"skill-trees",
+		"thoughtbubbles-godot-migration",
+		"thoughtbubbles-v6-stack",
+		"openxr-godot-xr",
+		"ar-xr-development",
+		"semantic-web-and-linked-data",
+		"ecs-linked-data-architecture",
+		"cybernautics-vision",
+		"adhd-execution-design"
+	],
+	"LinkFrom": [
+		"projects"
+	],
+	"tags": [
+		"project",
+		"active",
+		"spatial-authoring",
+		"thoughtbubbles",
+		"skill-trees",
+		"room-2-0",
+		"godot",
+		"xr",
+		"quest-3",
+		"fiction-as-spec"
+	],
+	"category": "projects"
+}

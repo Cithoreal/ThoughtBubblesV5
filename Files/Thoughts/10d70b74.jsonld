@@ -1,0 +1,12 @@
+{
+	"@id": "10d70b74",
+	"@context": "tb",
+	"data": "Total up number of hours of audio saved\n\n\"Oh yeah, I want to total up the number of hours I have saved up\"\n\nSource Journals\n[[AI Week_ Wav Conversion.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"AI-Week_-Wav-Conversion.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

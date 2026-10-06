@@ -1,0 +1,36 @@
+{
+	"@id": "pi5",
+	"@context": "tb",
+	"data": "Node: pi5 (RPi 5) — Home Assistant Hub\n\nRole\nHome Assistant hub. Smart home, voice assistant, add-ons. Runs HAOS on the 256GB SSD.\n\nSpecs\nCPU: Cortex-A76, 4c @ 2.4 GHz\nRAM: 8 GB\nStorage: 256GB SSD (HAOS boot) — T7 3.6TB moved to Optiplex\nTailscale IP: 100.89.195.87 (offline 108+ days — may need re-auth)\nEthernet IP: 192.168.1.230 (end0, primary, metric 100)\nWiFi IP: 192.168.1.185 (wlan0, backup, metric 600)\nOS: Home Assistant OS (Alpine Linux)\nMAC (eth0/end0): d8:3a:dd:b2:78:de\nMAC (wlan0):…",
+	"lastUpdated": "1785542400",
+	"createdAt": "1791165366",
+	"LinkTo": [
+		"optiplex",
+		"star",
+		"homelab-infrastructure",
+		"pi5-optiplex-migration"
+	],
+	"LinkFrom": [
+		"homelab-2025-buildout",
+		"homelab-infrastructure",
+		"local-ai-infrastructure",
+		"networking-hardware-fundamentals",
+		"HOME",
+		"infra",
+		"alienware",
+		"anythingllm",
+		"inventory",
+		"elements-drive",
+		"homeassistant",
+		"pi3",
+		"pi4",
+		"2026-03-31-183935",
+		"nextcloud-calendar-app",
+		"pi5-optiplex-migration",
+		"homeassistant-research"
+	],
+	"tags": [
+		"infra"
+	],
+	"category": "infra"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "a61f96e6",
+	"@context": "tb",
+	"data": "Reach unit four by end of week\n\n\"If I can make it to unit four by the end of the week, that would be good\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

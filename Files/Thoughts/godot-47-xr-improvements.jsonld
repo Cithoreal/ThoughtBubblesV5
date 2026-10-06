@@ -1,0 +1,24 @@
+{
+	"@id": "godot-47-xr-improvements",
+	"@context": "tb",
+	"data": "Godot 4.7 XR Improvements\n\nGodot 4.7 (July 2026) added Steam Frame support, controller cleanup, and GABE.\nRelease notes: <https://godotengine.org/releases/4.7>\nXR analysis: <https://vr.org/articles/godot-4-7-xr-steam-frame-android-xr-open-source-2026>\nLicense: MIT\nStatus: Stable\n\nWhat Shipped\nSteam Frame (Valve's standalone SteamOS headset) day-one production-ready support\nAndroid XR (Samsung Galaxy XR) production-ready via same OpenXR pipeline\nController profile cleanup — sane defaults…",
+	"lastUpdated": "1786665600",
+	"createdAt": "1786665600",
+	"LinkTo": [
+		"goal-spatial-authoring",
+		"goal-spatial-navigation",
+		"godot-46-xr-features",
+		"godot-quest-editor"
+	],
+	"LinkFrom": [
+		"godot-46-xr-features",
+		"spatial-authoring-research"
+	],
+	"tags": [
+		"platform",
+		"godot",
+		"xr",
+		"openxr"
+	],
+	"category": "projects"
+}

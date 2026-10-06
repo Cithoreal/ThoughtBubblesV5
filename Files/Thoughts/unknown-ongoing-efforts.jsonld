@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-ongoing-efforts",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Upload passport pictures for ID tech camp job I-9 process', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I need to upload some pictures of my passport for the ID tech camp job, uh, to complete some I-9 process. So I gotta make sure to get that done.', 'project': 'Career', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'ongoing efforts.md', 'extracted_at': '2026-05-18T19:34:28.530524', 'first_mentioned': '2026-05-18',…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

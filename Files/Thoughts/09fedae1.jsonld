@@ -1,0 +1,12 @@
+{
+	"@id": "09fedae1",
+	"@context": "tb",
+	"data": "Figure out how to tie Duolingo time with task review\n\n\"I'll work on figuring that out.\"\n\nSource Journals\n[[Task System Planning.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System-Planning.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

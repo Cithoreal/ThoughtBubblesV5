@@ -1,0 +1,12 @@
+{
+	"@id": "8317de1e",
+	"@context": "tb",
+	"data": "Set up smart home hub in living room\n\n\"So I finally have debuted the, uh... Smart home hub in the living room.\"\n\nSource Journals\n[[Smart Hub.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Smart-Hub.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

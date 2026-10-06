@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-10-18-yuru-camp",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Put up tent in backyard', 'type': 'progress', 'status': 'completed', 'raw_quote': \"I put up my tent in the backyard, so I'm currently there.\", 'project': 'Home', 'priority_inferred': 'low', 'is_recurring': False, 'source_file': '10-18 Yuru Camp.md', 'extracted_at': '2026-05-03T15:42:31.701612', 'first_mentioned': '2026-05-03', 'mention_count': 1}\n[ ] {'text': 'Apply to LOB', 'type': 'progress', 'status': 'completed', 'raw_quote': 'I applied to…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "092f79b9",
+	"@context": "tb",
+	"data": "Convert existing documents to Markdown, manually edit, and automatically convert to nodes\n\n\"I'm going to take all of my existing documents, convert them to Markdown documents, go through, kind of edit them manually... and then automatically... convert the markdown documents into thoughts\"\n\nSource Journals\n[[10-26-22-am-12-47.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-26-22-am-12-47.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

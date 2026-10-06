@@ -1,0 +1,17 @@
+{
+	"@id": "strategy-game-spec",
+	"@context": "tb",
+	"data": "Strategy Game — Specification Sheet\nVision\n\nWhat is this? A turn-based hex-grid strategy game for 2 players. Players command colored armies on a hexagonal battlefield, issuing movement orders each turn. Every 4 turns, all planned moves resolve simultaneously — conflicts erupt, territory shifts, and the map redraws. A season-based progression system tracks the war over time, with a full replay system to review how battles unfolded.\n\nWho is it for? Two friends sitting at the same computer…",
+	"lastUpdated": "1789862400",
+	"createdAt": "1789689600",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"project",
+		"spec",
+		"strategy-game",
+		"godot",
+		"active"
+	],
+	"category": "projects"
+}

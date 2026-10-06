@@ -1,0 +1,12 @@
+{
+	"@id": "7c985b41",
+	"@context": "tb",
+	"data": "Continue doing pull-ups\n\n\"So I've been doing pull-ups.\"\n\nSource Journals\n[[Mostly Silence.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Mostly-Silence.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

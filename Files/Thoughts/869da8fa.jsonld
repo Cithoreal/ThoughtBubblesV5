@@ -1,0 +1,12 @@
+{
+	"@id": "869da8fa",
+	"@context": "tb",
+	"data": "Define base architecture of information for merging new data\n\n\"What I need to start doing is defining the base architecture of information that I'm going to be merging new data into.\"\n\nSource Journals\n[[Organizational Architecture.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Organizational-Architecture.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

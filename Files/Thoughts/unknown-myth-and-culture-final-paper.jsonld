@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-myth-and-culture-final-paper",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Complete five-page final essay', 'type': 'progress', 'status': 'in_progress', 'raw_quote': 'I am three pages into a five-page final essay', 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Myth and Culture Final Paper.md', 'extracted_at': '2026-05-18T17:47:37.065648', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Figure out thesis for final essay', 'type': 'explicit', 'status':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

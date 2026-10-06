@@ -1,0 +1,23 @@
+{
+	"@id": "new-recording-2",
+	"@context": "tb",
+	"data": "See also: [[concepts/project-calcifer-founding-vision]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/New Recording 2.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# New Recording 2\nTranscribed: 2026-03-30 12:34  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:06]  \nIt is 4.05 PM, June 24th, 2024.\n[00:00:06 → 00:00:13]  \nUh, so today's my last day of my public speaking class.\n[00:00:13 → 00:00:15]  \nI…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"project-calcifer-founding-vision"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/calcifer",
+		"topic/anythingllm",
+		"personal/relationships",
+		"tech/llm",
+		"tech/graph-db",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

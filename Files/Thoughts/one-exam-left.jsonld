@@ -1,0 +1,26 @@
+{
+	"@id": "one-exam-left",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/One Exam Left.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# One Exam Left\nTranscribed: 2026-03-30 12:39  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:02]  \nIt is 1 22 a.m. December 18th, 2023.\n[00:00:10 → 00:00:18]  \nI was debating doing this recording because it's late and I'm tired, but I also feel like speaking a bit.\n[00:00:19 → 00:00:22]  \nSo I got…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"thought-bubbles",
+		"homeassistant"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/xr-development",
+		"topic/homelab",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"tech/python",
+		"project"
+	],
+	"category": "journals"
+}

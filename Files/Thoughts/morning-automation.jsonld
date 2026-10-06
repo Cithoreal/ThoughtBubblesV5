@@ -1,0 +1,27 @@
+{
+	"@id": "morning-automation",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/Morning Automation.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# Morning Automation\nTranscribed: 2026-03-30 12:31  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:08]  \nIt is 4.18 p.m. July 21st, 2024.\n[00:00:08 → 00:00:25]  \nSo, I'm not really sure what I want to talk about, but I'm out on the Great Woods Trail and I decided I might as well just talk, give…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"homeassistant",
+		"health-and-sleep",
+		"room-2-0"
+	],
+	"LinkFrom": [
+		"health-and-sleep",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/room-2-0",
+		"topic/calcifer",
+		"topic/homelab",
+		"personal/health-sleep",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,17 @@
+{
+	"@id": "progress-tracker",
+	"@context": "tb",
+	"data": "Professional Profile Progress Tracker\n\nSmall incremental progress. One task at a time. Every nudge moves the needle.\nCalcifer will push these during off-work hours (evenings, weekends).\n\nCurrent State (Aug 11, 2026)\nPortfolio site (cybernautics.net): Old Squarespace site still live, stale since 2022\nNext.js rebuild: Stuck at Stage 7/11 (About page), all placeholder content\nResume: Experience database exists but no rendered current version\nLinkedIn: Likely stale — headline, About, Experience,…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"tags": [
+		"career",
+		"portfolio",
+		"resume",
+		"linkedin",
+		"progress"
+	],
+	"category": "projects"
+}

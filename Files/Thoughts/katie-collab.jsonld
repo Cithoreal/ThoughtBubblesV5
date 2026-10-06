@@ -1,0 +1,26 @@
+{
+	"@id": "katie-collab",
+	"@context": "tb",
+	"data": "Project: Katie Collab\n\nVision\nA joint project queue for cithoreal and Katie Boscombe — building things together starting with well-scoped apps and game-engine calibration micro-projects, working toward larger creative projects. The goal isn't just output — it's building a collaboration workflow that becomes natural.\n\nStatus\nActive — planning phase. No code written yet. Katie started her senior center job April 13. cithoreal is mapping out project order and collaboration dynamics.\n\nCollaboration…",
+	"lastUpdated": "1783296000",
+	"createdAt": "1776038400",
+	"LinkTo": [
+		"real-world-inventory",
+		"katie-boscombe",
+		"thought-bubbles",
+		"2026-04-13-115228",
+		"2026-04-08-115011"
+	],
+	"LinkFrom": [
+		"projects",
+		"katie-boscombe",
+		"calcifer-vault",
+		"internship-budget-2026",
+		"personal-finances"
+	],
+	"tags": [
+		"project",
+		"parked"
+	],
+	"category": "projects"
+}

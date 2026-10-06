@@ -1,0 +1,12 @@
+{
+	"@id": "1d9ee519",
+	"@context": "tb",
+	"data": "Select thought space node and set owner to scene root to make visible in hierarchy\n\n\"I imagine I just need to go in select the thought space and also set the owner to be the scene root and it will be visible within the scene hierarchy\"\n\nSource Journals\n[[Journal-It_is_three_oh_five_pm,-1st_thought-Wednesday,_Nov-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Journal-It_is_three_oh_five_pm-1st_thought-Wednesday-_Nov-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

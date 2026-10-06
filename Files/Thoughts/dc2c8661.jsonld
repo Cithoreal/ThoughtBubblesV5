@@ -1,0 +1,12 @@
+{
+	"@id": "dc2c8661",
+	"@context": "tb",
+	"data": "Practice meditating all day every day\n\n\"Practicing to meditate all day every day\"\n\nSource Journals\n[[The Home Depot 3.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"The-Home-Depot-3.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

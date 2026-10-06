@@ -1,0 +1,35 @@
+{
+	"@id": "onenote-synthesis",
+	"@context": "tb",
+	"data": "OneNote Synthesis — Cross-Linking Report\n\n265 OneNote notes imported from cithoreal's OneNote notebooks. This document summarizes what was found, wired in, and created.\n\nNotebook Contents\n\nCybernautics/\nThe business planning notebook. Predates the vault by several years.\nMain Business/Brainstorm — Original Cybernautics business model: 12+ revenue areas including Podcast, YouTube, Streaming, Blog, Apps, Spatial Internet/Metaverse, Open Source, Patronage, Teaching, Community, Stories, Asset…",
+	"lastUpdated": "1775865600",
+	"createdAt": "1775865600",
+	"LinkTo": [
+		"cybernautics-business-plan",
+		"alex-hardy",
+		"jarrod-dicarlo",
+		"the-grand-system-onenote",
+		"onenote-work-projects",
+		"cybernautics-vision",
+		"fiction-worldbuilding",
+		"thought-bubbles",
+		"star-system-vision",
+		"cithoreal",
+		"Members",
+		"Calcifer-Bot",
+		"Audio-Journal-Processing-Pipe",
+		"V1",
+		"Brainstorm",
+		"Outline",
+		"World-Building",
+		"Star-System"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"reference",
+		"onenote",
+		"synthesis",
+		"project"
+	],
+	"category": "reference"
+}

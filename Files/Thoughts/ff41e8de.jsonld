@@ -1,0 +1,12 @@
+{
+	"@id": "ff41e8de",
+	"@context": "tb",
+	"data": "Update calendar\n\n\"Gotta update my calendar. It was on the 24th.\"\n\nSource Journals\n[[Anatomy Z.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Anatomy-Z.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "f5176666",
+	"@context": "tb",
+	"data": "Get app to read textbook aloud while walking\n\n\"an option would be to get an app that can read the textbook to me while I walk doing this\"\n\nSource Journals\n[[Node-Red Focus.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Node-Red-Focus.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

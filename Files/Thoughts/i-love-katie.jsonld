@@ -1,0 +1,22 @@
+{
+	"@id": "i-love-katie",
+	"@context": "tb",
+	"data": "See also: [[concepts/ar-xr-development]] · [[concepts/cithoreal-identity]]\n\nJournal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/I love Katie.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# I love Katie\nTranscribed: 2026-03-30 12:18  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:03]  \nOkay, I decided to record one more.\n[00:00:04 → 00:00:06]  \nAnd it's about this latest girl.\n[00:00:07 → 00:00:11]  \nThis…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"ar-xr-development",
+		"cithoreal-identity"
+	],
+	"LinkFrom": [
+		"journals-index",
+		"katie-boscombe"
+	],
+	"tags": [
+		"journal",
+		"topic/xr-development",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

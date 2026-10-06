@@ -1,0 +1,20 @@
+{
+	"@id": "grep-fire-guy-origins",
+	"@context": "tb",
+	"data": "Grep Extract: journals/2024/fire-guy-origins.md\n\n31-> \n32-> [00:00:01 → 00:00:06]  \n33-> It is 10.57 p.m. February 29th, 2024.\n34-> \n35-> [00:00:06 → 00:00:14]  \n36:> I still need to do my Duolingo for the day, so I'll cut this short at some point to do my Duolingo.\n37-> \n38-> [00:00:15 → 00:00:17]  \n39-> Maybe I'll pick up the recording after, we'll see.\n40-> \n41-> [00:00:18 → 00:00:20]  \n--\n55-> \n56-> [00:01:39 → 00:01:46]  \n57-> But, you know, zones can overlap where you can kind of make sub…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [
+		"fiction-worldbuilding",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"skill-trees"
+	],
+	"tags": [
+		"project",
+		"skill-trees",
+		"research"
+	],
+	"category": "projects"
+}

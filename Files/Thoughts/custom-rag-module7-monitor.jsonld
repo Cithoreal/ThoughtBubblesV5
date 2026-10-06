@@ -1,0 +1,18 @@
+{
+	"@id": "custom-rag-module7-monitor",
+	"@context": "tb",
+	"data": "Module 7: Health & Monitoring — Implementation Detail\n\nPart of the Custom RAG Pipeline. See custom-rag-pipeline.md for the full system map.\n\nOverview\n\nM7 answers the question: \"Is the pipeline healthy, and is it working well?\" It provides:\nPipeline health checks — are Qdrant, Ollama, and SQLite alive and consistent?\nOperational metrics — how many points, how fast are searches, cache hit rates?\nAlerting — surface problems before they become failures (stale index, Qdrant down, embed cache…",
+	"lastUpdated": "1784505600",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"CustomRag-index",
+		"projects-custom-rag-pipeline"
+	],
+	"tags": [
+		"project",
+		"custom-rag",
+		"module-7"
+	],
+	"category": "projects"
+}

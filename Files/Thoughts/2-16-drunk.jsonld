@@ -1,0 +1,21 @@
+{
+	"@id": "2-16-drunk",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-16 Drunk.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-16 Drunk\nTranscribed: 2026-03-30 05:17  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:02 → 00:00:03]  \nHad some vodka today.\n[00:00:07 → 00:00:12]  \nFrom the moment I woke up, my head has been hurting me.\n[00:00:13 → 00:00:16]  \nSo I was hoping that the vodka would help.\n[00:00:18 → 00:00:19]  \nMaybe, maybe…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"air-hockey-mr"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/air-hockey",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline"
+	],
+	"category": "journals"
+}

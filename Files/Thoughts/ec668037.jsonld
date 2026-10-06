@@ -1,0 +1,12 @@
+{
+	"@id": "ec668037",
+	"@context": "tb",
+	"data": "Explore the Quest\n\n\"I explored the quest a lot, which was also on my to-do list.\"\n\nSource Journals\n[[10-18 Yuru Camp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"10-18-Yuru-Camp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

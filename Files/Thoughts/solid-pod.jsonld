@@ -1,0 +1,25 @@
+{
+	"@id": "solid-pod",
+	"@context": "tb",
+	"data": "Solid Pod — Community Solid Server on Star\n\nStatus: RUNNING ✅\nDate: 2026-08-08\n\nCommunity Solid Server v7.2.0 running in Docker on Star. Pod created, WebID assigned, first RDF triples written.\n\nConnection Details\nServer URL: http://localhost:3000\nDocker container: solid-server (auto-restart, persists to solid-data volume)\nPod URL: http://localhost:3000/cithoreal/\nWebID: http://localhost:3000/cithoreal/profile/card#me\nVault container: http://localhost:3000/cithoreal/vault/\nFirst RDF graph:…",
+	"lastUpdated": "1786147200",
+	"createdAt": "1786147200",
+	"LinkTo": [
+		"note",
+		"solid-pod-sovereignty",
+		"solid-encryption-layer",
+		"semantic-web-and-linked-data",
+		"thought-bubbles",
+		"decentralized-local-first-stack"
+	],
+	"LinkFrom": [],
+	"tags": [
+		"infra",
+		"active",
+		"solid",
+		"rdf",
+		"knowledge-graph",
+		"thoughtbubbles"
+	],
+	"category": "infra"
+}

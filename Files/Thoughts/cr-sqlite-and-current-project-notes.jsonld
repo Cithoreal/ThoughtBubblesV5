@@ -1,0 +1,35 @@
+{
+	"@id": "cr-sqlite-and-current-project-notes",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/CR-Sqlite and current project notes.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# CR-Sqlite and current project notes\nTranscribed: 2026-03-30 11:52  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:01 → 00:00:05]  \nIt is 6.07 PM, April 21st, 2025.\n[00:00:07 → 00:00:09]  \nOn the trail, Great Woods Trail.\n[00:00:11 → 00:00:14]  \nVoice feeling kind of clear, which is…",
+	"lastUpdated": "1775520000",
+	"createdAt": "1775520000",
+	"LinkTo": [
+		"index",
+		"skill-trees",
+		"thought-bubbles",
+		"semantic-web-and-linked-data"
+	],
+	"LinkFrom": [
+		"thought-bubbles",
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/semantic-web",
+		"topic/xr-development",
+		"topic/homelab",
+		"personal/identity",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/llm",
+		"tech/audio-pipeline",
+		"tech/web-dev",
+		"mood/low",
+		"project"
+	],
+	"category": "journals"
+}

@@ -1,0 +1,12 @@
+{
+	"@id": "d3e4a1b9",
+	"@context": "tb",
+	"data": "Make a game\n\n\"I want to make a game.\"\n\nSource Journals\n[[Introspection 4.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Introspection-4.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

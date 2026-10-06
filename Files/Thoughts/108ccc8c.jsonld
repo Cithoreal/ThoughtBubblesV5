@@ -1,0 +1,12 @@
+{
+	"@id": "108ccc8c",
+	"@context": "tb",
+	"data": "Look for beginner yoga instructor\n\n\"Yeah, sure. I'll look for that.\"\n\nSource Journals\n[[Task System.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Task-System.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

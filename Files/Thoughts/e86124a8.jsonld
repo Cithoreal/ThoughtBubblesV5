@@ -1,0 +1,12 @@
+{
+	"@id": "e86124a8",
+	"@context": "tb",
+	"data": "Fix loading and positioning data issues in ThoughtBubbles\n\n\"Loading isn't yet working... Things like positioning data is just not working yet. So I'll have to figure that out.\"\n\nSource Journals\n[[Inbox-It_is_twelve_forty_three_a_m,_which-1st_thought-Sunday,_Mar-CocoonWeaverApp.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Inbox-It_is_twelve_forty_three_a_m-_which-1st_thought-Sunday-_Mar-CocoonWeaverApp.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

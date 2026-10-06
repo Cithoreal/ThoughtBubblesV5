@@ -1,0 +1,12 @@
+{
+	"@id": "7eb630e1",
+	"@context": "tb",
+	"data": "Get latest version of Blender\n\n\"The first thing I want to do is get Blender. Get the latest version of Blender or whatever.\"\n\nSource Journals\n[[Want to 3D Model.tasks]]\n\nProgress\n(empty, to be filled as work happens)",
+	"lastUpdated": "1791165368",
+	"createdAt": "1791165368",
+	"LinkTo": [
+		"Want-to-3D-Model.tasks"
+	],
+	"LinkFrom": [],
+	"category": "tasks"
+}

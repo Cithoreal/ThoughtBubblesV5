@@ -1,0 +1,10 @@
+{
+	"@id": "unknown-node-red-focus",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nExtracted Tasks\n[ ] {'text': 'Get textbook for public speaking class', 'type': 'explicit', 'status': 'new', 'raw_quote': 'I still need to get the textbook', 'project': 'Learning', 'priority_inferred': 'high', 'is_recurring': False, 'source_file': 'Node-Red Focus.md', 'extracted_at': '2026-05-18T18:06:58.021285', 'first_mentioned': '2026-05-18', 'mention_count': 1}\n[ ] {'text': 'Branch out walking trails beyond current route', 'type': 'explicit', 'status': 'new', 'raw_quote':…",
+	"lastUpdated": "1786406400",
+	"createdAt": "1786406400",
+	"LinkTo": [],
+	"LinkFrom": [],
+	"category": "journals"
+}

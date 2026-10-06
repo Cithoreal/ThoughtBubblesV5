@@ -1,0 +1,29 @@
+{
+	"@id": "2-28-mindmapping",
+	"@context": "tb",
+	"data": "Journal — unknown\n\nSource\nTranscript: /home/cithoreal/Nextcloud/AudioJournals/raw_transcripts/2-28 MindMapping.md\nTranscribed by: WhisperX\n\n[!note]- Full Transcript\n# 2-28 MindMapping\nTranscribed: 2026-03-30 05:20  \nModel: WhisperX large-v3  \nLanguage: English  \n---\n## Transcript\n[00:00:03 → 00:00:11]  \nIt's February 28th, 2020, 4.37 p.m., eating some cashews, walking around.\n[00:00:13 → 00:00:18]  \nI've made a lot of progress setting up a\n[00:00:20 → 00:00:37]  \n3d mind map of air hockey with…",
+	"lastUpdated": "1775779200",
+	"createdAt": "1775779200",
+	"LinkTo": [
+		"thought-bubbles",
+		"skill-trees"
+	],
+	"LinkFrom": [
+		"journals-index"
+	],
+	"tags": [
+		"journal",
+		"topic/thought-bubbles",
+		"topic/skill-trees",
+		"topic/xr-development",
+		"topic/air-hockey",
+		"personal/productivity",
+		"personal/finance",
+		"personal/relationships",
+		"tech/audio-pipeline",
+		"mood/inspired",
+		"mood/reflective",
+		"project"
+	],
+	"category": "journals"
+}

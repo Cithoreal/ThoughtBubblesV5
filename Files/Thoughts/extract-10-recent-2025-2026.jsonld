@@ -1,0 +1,16 @@
+{
+	"@id": "extract-10-recent-2025-2026",
+	"@context": "tb",
+	"data": "Extract: 2025-2026 Journals (Most Recent Thinking)\nWritten from Agent D research + grep extracts. These are the most important entries for understanding current vision.\n\n2025-04-28-191801.md\n\nGamification of time and life\n\"Break down knowledge into primitive values — the most simplistic parts — then build up into complex compound ideas. Construct a personal 'thought web' of what you want to learn but haven't yet → build a learning path to get there. Time = 'upgrade tokens' earned by gaining…",
+	"lastUpdated": "1791165367",
+	"createdAt": "1791165367",
+	"LinkTo": [],
+	"LinkFrom": [
+		"skill-trees",
+		"skill-trees-research-index"
+	],
+	"tags": [
+		"project"
+	],
+	"category": "projects"
+}
