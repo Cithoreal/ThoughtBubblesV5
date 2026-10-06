@@ -16,7 +16,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 config/name="ThoughtBubblesV5"
 run/main_scene="res://Main.tscn"
-config/features=PackedStringArray("4.7")
+config/features=PackedStringArray("4.7", "C#")
 config/icon="res://icon.png"
 
 [debug]
@@ -32,10 +32,6 @@ project/assembly_name="ThoughtBubblesV5"
 
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
-
-[editor_plugins]
-
-enabled=PackedStringArray()
 
 [file_customization]
 
